@@ -1,0 +1,99 @@
+{
+  "topicName": "Binary Systems",
+  "instructions": "Type the answer without spaces. For denary to binary, use 5 bits where needed.",
+  "questions": [
+    {
+      "type": "denary-to-binary",
+      "prompt": "Convert 5 to binary",
+      "answer": "00101",
+      "accepted": [
+        "101",
+        "00101"
+      ],
+      "working": "5 = 4 + 1, so the bits for 4 and 1 are switched on."
+    },
+    {
+      "type": "denary-to-binary",
+      "prompt": "Convert 9 to binary",
+      "answer": "01001",
+      "accepted": [
+        "1001",
+        "01001"
+      ],
+      "working": "9 = 8 + 1, so only the 8 and 1 columns are 1."
+    },
+    {
+      "type": "denary-to-binary",
+      "prompt": "Convert 13 to binary",
+      "answer": "01101",
+      "accepted": [
+        "1101",
+        "01101"
+      ],
+      "working": "13 = 8 + 4 + 1, so the binary digits are 1 1 0 1."
+    },
+    {
+      "type": "denary-to-binary",
+      "prompt": "Convert 25 to binary",
+      "answer": "11001",
+      "accepted": [
+        "11001"
+      ],
+      "working": "25 = 16 + 8 + 1, so the 16, 8 and 1 columns are 1."
+    },
+    {
+      "type": "denary-to-binary",
+      "prompt": "Convert 31 to binary",
+      "answer": "11111",
+      "accepted": [
+        "11111"
+      ],
+      "working": "31 = 16 + 8 + 4 + 2 + 1, so every column is 1."
+    },
+    {
+      "type": "binary-to-denary",
+      "prompt": "Convert 00110 to denary",
+      "answer": "6",
+      "accepted": [
+        "6"
+      ],
+      "working": "00110 = 4 + 2 = 6."
+    },
+    {
+      "type": "binary-to-denary",
+      "prompt": "Convert 01001 to denary",
+      "answer": "9",
+      "accepted": [
+        "9"
+      ],
+      "working": "01001 = 8 + 1 = 9."
+    },
+    {
+      "type": "binary-to-denary",
+      "prompt": "Convert 01101 to denary",
+      "answer": "13",
+      "accepted": [
+        "13"
+      ],
+      "working": "01101 = 8 + 4 + 1 = 13."
+    },
+    {
+      "type": "binary-to-denary",
+      "prompt": "Convert 10010 to denary",
+      "answer": "18",
+      "accepted": [
+        "18"
+      ],
+      "working": "10010 = 16 + 2 = 18."
+    },
+    {
+      "type": "binary-to-denary",
+      "prompt": "Convert 11001 to denary",
+      "answer": "25",
+      "accepted": [
+        "25"
+      ],
+      "working": "11001 = 16 + 8 + 1 = 25."
+    }
+  ]
+}

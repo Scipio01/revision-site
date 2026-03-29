@@ -3,11 +3,14 @@ let current = 0;
 let score = 0;
 let answered = false;
 
-function shuffle(arr) {
-  return [...arr].sort(() => Math.random() - 0.5);
+function shuffle(array) {
+  return array.map(value => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value);
 }
 
 function updateStatus() {
+  document.getElementById('quizCounter').textContent = `Question ${current + 1} of ${questions.length}`;
   document.getElementById('scoreLive').textContent = score;
   document.getElementById('answeredLive').textContent = current;
   document.getElementById('totalLive').textContent = questions.length;
@@ -17,11 +20,9 @@ function updateStatus() {
 function renderQuestion() {
   const q = questions[current];
   document.getElementById('quizTitle').textContent = q.topicName;
-  document.getElementById('quizCounter').textContent = `Question ${current + 1} of ${questions.length}`;
   document.getElementById('questionText').textContent = q.mcq.question;
-  const feedback = document.getElementById('feedback');
-  feedback.textContent = 'Choose the best answer to unlock the next question.';
-  feedback.className = 'feedback-box muted';
+  document.getElementById('feedback').className = 'feedback-box muted';
+  document.getElementById('feedback').textContent = 'Choose the best answer to unlock the next question.';
   const optionsWrap = document.getElementById('options');
   optionsWrap.innerHTML = '';
   answered = false;
@@ -99,10 +100,20 @@ function nextQuestion() {
   }
 }
 
+async function showPracticeLinkIfAvailable(topic) {
+  const metaRes = await fetch('data/topics.json');
+  const topics = await metaRes.json();
+  const topicMeta = topics.find(item => item.id === topic);
+  if (topicMeta?.hasPractice) {
+    document.getElementById('practiceLink').style.display = 'inline-flex';
+  }
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
   const topic = getSelectedTopic();
   const res = await fetch(`data/${topic}.json`);
   questions = await res.json();
   renderQuestion();
+  await showPracticeLinkIfAvailable(topic);
   document.getElementById('nextQuestionBtn').addEventListener('click', nextQuestion);
 });

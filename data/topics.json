@@ -1,20 +1,30 @@
 [
   {
+    "id": "binary",
+    "name": "Binary Systems",
+    "level": "gcse",
+    "description": "Binary basics, place value and denary/binary conversion practice.",
+    "hasPractice": true
+  },
+  {
     "id": "networks",
     "name": "Networks",
     "level": "gcse",
-    "description": "Addresses, DNS, routers, protocols and packets."
+    "description": "Addresses, DNS, routers, protocols and packets.",
+    "hasPractice": false
   },
   {
     "id": "databases",
     "name": "Databases",
     "level": "gcse",
-    "description": "Tables, keys, normalisation and SQL basics."
+    "description": "Tables, keys, normalisation and SQL basics.",
+    "hasPractice": false
   },
   {
     "id": "oop",
     "name": "Object-Oriented Programming",
     "level": "alevel",
-    "description": "Classes, objects, encapsulation, inheritance and polymorphism."
+    "description": "Classes, objects, encapsulation, inheritance and polymorphism.",
+    "hasPractice": false
   }
 ]

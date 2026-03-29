@@ -16,12 +16,22 @@ function toggleFlip() { flipped = !flipped; renderCard(); }
 function nextCard() { index = (index + 1) % cards.length; flipped = false; renderCard(); }
 function prevCard() { index = (index - 1 + cards.length) % cards.length; flipped = false; renderCard(); }
 
+async function showPracticeLinkIfAvailable(topic) {
+  const metaRes = await fetch('data/topics.json');
+  const topics = await metaRes.json();
+  const topicMeta = topics.find(item => item.id === topic);
+  if (topicMeta?.hasPractice) {
+    document.getElementById('practiceLink').style.display = 'inline-flex';
+  }
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
   const topic = getSelectedTopic();
   const res = await fetch(`data/${topic}.json`);
   cards = await res.json();
   markTopicVisited(topic);
   renderCard();
+  await showPracticeLinkIfAvailable(topic);
   document.getElementById('flashcard').addEventListener('click', toggleFlip);
   document.getElementById('flipBtn').addEventListener('click', toggleFlip);
   document.getElementById('nextBtn').addEventListener('click', nextCard);

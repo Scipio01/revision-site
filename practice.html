@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practice</title>
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/common.js"></script>
+<script defer src="js/practice.js"></script>
+</head><body class="theme-ocean">
+<header><div class="container navbar">
+  <div class="brand"><a href="index.html">CS Revision</a></div>
+  <div class="nav-stack">
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="nav-link" data-nav href="index.html">Home</a>
+      <a class="nav-link" data-nav href="topics.html">Topics</a>
+      <a class="nav-link" data-nav href="progress.html">Progress</a>
+    </nav>
+    <div class="nav-tools">
+      <select id="themeSelect" aria-label="Colour theme"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
+      <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+    </div>
+  </div>
+</div></header>
+<main class="container practice-shell" id="practiceArea">
+  <section class="hero compact">
+    <div class="kicker">Typed practice</div>
+    <div class="page-head">
+      <div>
+        <h1 id="practiceTitle">Practice</h1>
+        <p id="practiceCounter" class="muted">Question 1 of 1</p>
+      </div>
+      <div class="actions">
+        <a class="btn-secondary button" href="topics.html">Back to topics</a>
+        <a class="btn-secondary button" href="flashcards.html">Back to flashcards</a>
+        <a class="btn-primary button" href="quiz.html">Go to quiz</a>
+      </div>
+    </div>
+    <div class="progress-bar" aria-hidden="true"><div id="practiceProgressFill" class="progress-bar-fill"></div></div>
+    <div class="practice-toolbar">
+      <div class="difficulty-wrap">
+        <label class="muted" for="difficultySelect">Difficulty</label>
+        <select id="difficultySelect" class="practice-select" aria-label="Practice difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+      <button id="newSetBtn" class="btn-secondary" type="button">New set</button>
+    </div>
+    <p id="practiceInstructions" class="muted">Type the answer and check it before moving on.</p>
+  </section>
+  <section class="panel practice-panel">
+    <div class="practice-meta">
+      <span id="practiceType" class="badge">Practice</span>
+      <span class="muted"><strong id="practiceScore">0</strong> correct so far</span>
+    </div>
+    <h2 id="practiceQuestion"></h2>
+    <label class="muted" for="practiceAnswer">Your answer</label>
+    <input id="practiceAnswer" class="practice-input" type="text" autocomplete="off" spellcheck="false" placeholder="Type your answer here">
+    <div id="practiceFeedback" class="feedback-box muted">Enter an answer, then click Check answer.</div>
+    <div class="actions">
+      <button id="checkAnswerBtn" class="btn-primary">Check answer</button>
+      <button id="nextPracticeBtn" class="btn-secondary" disabled>Next question</button>
+    </div>
+  </section>
+</main>
+<footer class="container small">Typed practice for conversions and calculations.</footer>
+</body></html>

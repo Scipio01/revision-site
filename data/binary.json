@@ -1,0 +1,128 @@
+[
+  {
+    "topicName": "Binary Systems",
+    "front": "What is binary?",
+    "back": "A number system that uses only two digits: 0 and 1.",
+    "mcq": {
+      "question": "What is binary?",
+      "correct": "A number system that uses only 0 and 1",
+      "wrong": [
+        "A number system that uses digits 0 to 9",
+        "A number system that uses 16 symbols",
+        "A method of storing only text files"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "What is a bit?",
+    "back": "A single binary digit (0 or 1).",
+    "mcq": {
+      "question": "What is a bit?",
+      "correct": "A single binary digit",
+      "wrong": [
+        "Eight binary digits",
+        "A denary digit",
+        "A group of bytes"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "What is a byte?",
+    "back": "8 bits grouped together.",
+    "mcq": {
+      "question": "What is a byte?",
+      "correct": "8 bits grouped together",
+      "wrong": [
+        "4 bits grouped together",
+        "16 bits grouped together",
+        "A single binary value"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "What is denary (base 10)?",
+    "back": "The number system humans normally use, with digits 0 to 9.",
+    "mcq": {
+      "question": "What is denary?",
+      "correct": "A base 10 number system using digits 0 to 9",
+      "wrong": [
+        "A base 2 number system",
+        "A base 16 number system",
+        "A number system that uses only 1 and 0"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "What is binary place value?",
+    "back": "Each binary position represents a power of 2, such as 1, 2, 4, 8 and 16.",
+    "mcq": {
+      "question": "What does each binary position represent?",
+      "correct": "A power of 2",
+      "wrong": [
+        "A power of 10",
+        "A letter of the alphabet",
+        "A decimal point"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "What is the Most Significant Bit (MSB)?",
+    "back": "The leftmost bit. It has the highest value.",
+    "mcq": {
+      "question": "What is the Most Significant Bit?",
+      "correct": "The leftmost bit with the highest value",
+      "wrong": [
+        "The rightmost bit with the lowest value",
+        "The first byte in memory",
+        "The bit that is always 1"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "What is the Least Significant Bit (LSB)?",
+    "back": "The rightmost bit. It has the lowest value.",
+    "mcq": {
+      "question": "What is the Least Significant Bit?",
+      "correct": "The rightmost bit with the lowest value",
+      "wrong": [
+        "The leftmost bit with the highest value",
+        "The final byte in memory",
+        "The bit that is always 0"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "Why do computers use binary?",
+    "back": "Electronic circuits can be clearly on (1) or off (0), so binary is easy to detect and less prone to errors.",
+    "mcq": {
+      "question": "Why do computers use binary?",
+      "correct": "Circuits can be on or off, matching 1 and 0",
+      "wrong": [
+        "Humans find binary easier to read",
+        "Binary uses more digits than denary",
+        "Binary removes the need for logic gates"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "Why does the CPU use binary?",
+    "back": "The CPU uses logic gates made from transistors that switch on (1) or off (0), matching binary values for accurate processing.",
+    "mcq": {
+      "question": "Why does the CPU use binary values?",
+      "correct": "Transistors switch on and off, matching binary values",
+      "wrong": [
+        "Binary is used only for images",
+        "The CPU cannot process denary answers",
+        "Binary stores more than one value in each bit"
+      ]
+    }
+  }
+]
