@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcards</title>
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/common.js"></script>
+<script defer src="js/flashcards.js"></script>
+</head><body class="theme-ocean">
+<header><div class="container navbar">
+  <div class="brand">Revision Site</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a><a href="topics.html">Topics</a><a href="progress.html">Progress</a>
+    <select id="themeSelect"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
+    <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+  </div>
+</div></header>
+<main class="container flashcard-wrap">
+  <section class="hero center">
+    <h1 id="topicTitle">Topic</h1>
+    <p id="cardCounter" class="muted">Card 1 of 1</p>
+  </section>
+  <div id="flashcard" class="flashcard" role="button" aria-label="Flip flashcard">
+    <div class="flashcard-inner">
+      <div class="flashcard-face flashcard-front" id="frontText"></div>
+      <div class="flashcard-face flashcard-back" id="backText"></div>
+    </div>
+  </div>
+  <div class="actions" style="justify-content:center;">
+    <button id="prevBtn">Previous</button>
+    <button id="flipBtn" class="btn-primary">Flip Card</button>
+    <button id="nextBtn">Next</button>
+  </div>
+</main>
+<footer class="container small center">Tap the card or use the button to flip it.</footer>
+</body></html>

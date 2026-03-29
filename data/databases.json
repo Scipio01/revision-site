@@ -1,0 +1,30 @@
+[
+  {
+    "topicName": "Databases",
+    "front": "What is a primary key?",
+    "back": "A primary key uniquely identifies each record in a table.",
+    "mcq": {
+      "question": "What is the purpose of a primary key?",
+      "correct": "To uniquely identify each record",
+      "wrong": [
+        "To duplicate records",
+        "To store images",
+        "To sort every field alphabetically"
+      ]
+    }
+  },
+  {
+    "topicName": "Databases",
+    "front": "What does atomic mean in 1NF?",
+    "back": "Each field should contain one item only and not multiple values.",
+    "mcq": {
+      "question": "In 1NF, atomic means a field should...",
+      "correct": "Contain one item only",
+      "wrong": [
+        "Contain only numbers",
+        "Always be a primary key",
+        "Be repeated in every row"
+      ]
+    }
+  }
+]

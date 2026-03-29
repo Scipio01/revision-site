@@ -1,0 +1,20 @@
+[
+  {
+    "id": "networks",
+    "name": "Networks",
+    "level": "gcse",
+    "description": "Addresses, DNS, routers, protocols and packets."
+  },
+  {
+    "id": "databases",
+    "name": "Databases",
+    "level": "gcse",
+    "description": "Tables, keys, normalisation and SQL basics."
+  },
+  {
+    "id": "oop",
+    "name": "Object-Oriented Programming",
+    "level": "alevel",
+    "description": "Classes, objects, encapsulation, inheritance and polymorphism."
+  }
+]

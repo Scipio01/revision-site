@@ -1,0 +1,30 @@
+[
+  {
+    "topicName": "Object-Oriented Programming",
+    "front": "What is encapsulation?",
+    "back": "Encapsulation keeps data and methods together inside an object and restricts direct access where needed.",
+    "mcq": {
+      "question": "What is encapsulation?",
+      "correct": "Keeping data and methods together and controlling access",
+      "wrong": [
+        "Allowing all data to be public",
+        "Making all classes inherit from each other",
+        "Turning methods into variables"
+      ]
+    }
+  },
+  {
+    "topicName": "Object-Oriented Programming",
+    "front": "What is inheritance?",
+    "back": "Inheritance lets a class reuse and extend the attributes and methods of another class.",
+    "mcq": {
+      "question": "What does inheritance allow?",
+      "correct": "A class to reuse and extend another class",
+      "wrong": [
+        "A variable to change data type",
+        "A function to call itself",
+        "An array to store objects alphabetically"
+      ]
+    }
+  }
+]

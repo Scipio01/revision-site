@@ -1,0 +1,187 @@
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --surface-2: #f3f6ff;
+  --text: #1f2937;
+  --muted: #667085;
+  --accent: #7c93ff;
+  --accent-2: #a8d8ea;
+  --card-front: #eaf4ff;
+  --card-back: #eefbf2;
+  --border-front: #b8d8ff;
+  --border-back: #bfe7c8;
+  --shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
+}
+
+body.dark {
+  --bg: #111827;
+  --surface: #1f2937;
+  --surface-2: #263245;
+  --text: #f3f4f6;
+  --muted: #c1c8d4;
+  --accent: #9db4ff;
+  --accent-2: #8fd3df;
+  --card-front: #2b4161;
+  --card-back: #24443a;
+  --border-front: #6f9fe6;
+  --border-back: #67be8b;
+  --shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+body.theme-lilac {
+  --accent: #b79ced;
+  --accent-2: #f7c8e0;
+  --card-front: #f4ebff;
+  --card-back: #fff0f6;
+  --border-front: #d2b8ff;
+  --border-back: #f1bdd7;
+}
+body.theme-warm {
+  --accent: #ffb870;
+  --accent-2: #ffd6a5;
+  --card-front: #fff7db;
+  --card-back: #ffeede;
+  --border-front: #ffd978;
+  --border-back: #ffc59f;
+}
+body.theme-ocean {
+  --accent: #79b8ff;
+  --accent-2: #8de0d2;
+  --card-front: #e8f4ff;
+  --card-back: #e8fff9;
+  --border-front: #b7d8ff;
+  --border-back: #a9ead6;
+}
+body.theme-forest {
+  --accent: #80cfa9;
+  --accent-2: #b4e2c1;
+  --card-front: #eef9f2;
+  --card-back: #f6fff0;
+  --border-front: #bfe4ce;
+  --border-back: #d7ecb4;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, var(--bg), var(--surface-2));
+  color: var(--text);
+  min-height: 100vh;
+}
+a { color: inherit; text-decoration: none; }
+.container {
+  width: min(1050px, calc(100% - 32px));
+  margin: 0 auto;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(12px);
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 18%, transparent);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+}
+.brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.nav-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.nav-links a, button, select {
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 14px;
+  padding: 10px 14px;
+  box-shadow: var(--shadow);
+}
+button { cursor: pointer; }
+.hero, .panel {
+  background: var(--surface);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  padding: 28px;
+  margin: 28px 0;
+}
+.hero h1 { margin-top: 0; font-size: 2rem; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+.card, .topic-card, .stat {
+  background: var(--surface);
+  border-radius: 22px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+.topic-card h3, .card h3 { margin-top: 0; }
+.badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 18%, white);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+.actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border: none;
+}
+.muted { color: var(--muted); }
+.flashcard-wrap { display: grid; gap: 18px; }
+.flashcard {
+  width: min(720px, 100%);
+  margin: 0 auto;
+  height: 340px;
+  perspective: 1200px;
+}
+.flashcard-inner {
+  width: 100%; height: 100%; position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.75s ease;
+}
+.flashcard.flip .flashcard-inner { transform: rotateY(180deg); }
+.flashcard-face {
+  position: absolute; inset: 0;
+  backface-visibility: hidden;
+  border-radius: 28px;
+  display: flex; align-items: center; justify-content: center;
+  padding: 26px; text-align: center;
+  box-shadow: var(--shadow);
+  font-size: 1.6rem; line-height: 1.4;
+}
+.flashcard-front {
+  background: var(--card-front);
+  border: 2px solid var(--border-front);
+}
+.flashcard-back {
+  background: var(--card-back);
+  border: 2px solid var(--border-back);
+  transform: rotateY(180deg);
+}
+.quiz-option {
+  width: 100%; text-align: left; margin: 8px 0; padding: 14px 16px;
+}
+.quiz-option.correct { outline: 2px solid #3cb371; }
+.quiz-option.incorrect { outline: 2px solid #d75a5a; }
+.center { text-align: center; }
+footer { padding: 22px 0 40px; color: var(--muted); }
+.small { font-size: 0.95rem; }
+@media (max-width: 700px) {
+  .navbar { align-items: flex-start; flex-direction: column; }
+  .flashcard { height: 300px; }
+  .flashcard-face { font-size: 1.3rem; }
+}

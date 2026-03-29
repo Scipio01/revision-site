@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Revision Site</title>
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/common.js"></script>
+</head><body class="theme-ocean">
+<header><div class="container navbar">
+  <div class="brand">Revision Site</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a><a href="topics.html">Topics</a><a href="progress.html">Progress</a>
+    <select id="themeSelect"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
+    <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+  </div>
+</div></header>
+<main class="container">
+  <section class="hero">
+    <h1>Build revision one topic at a time</h1>
+    <p class="muted">Flashcards, topic quizzes, saved local progress, pastel themes, and a structure ready to grow later.</p>
+    <div class="actions">
+      <a class="btn-primary" href="topics.html" onclick="setSelectedLevel('gcse')">GCSE Topics</a>
+      <a href="topics.html" onclick="setSelectedLevel('alevel')">A Level Topics</a>
+    </div>
+  </section>
+  <section class="grid">
+    <div class="card"><h3>Flashcards</h3><p>Flip cards with a proper 3D animation and work through one topic at a time.</p></div>
+    <div class="card"><h3>Quizzes</h3><p>Use the same content bank to generate quick multiple-choice checks.</p></div>
+    <div class="card"><h3>Progress</h3><p>Scores and visits are saved locally with no account needed.</p></div>
+  </section>
+</main>
+<footer class="container small">Prototype version for GitHub Pages hosting.</footer>
+</body></html>

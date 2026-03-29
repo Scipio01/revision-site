@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz</title>
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/common.js"></script>
+<script defer src="js/quiz.js"></script>
+</head><body class="theme-ocean">
+<header><div class="container navbar">
+  <div class="brand">Revision Site</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a><a href="topics.html">Topics</a><a href="progress.html">Progress</a>
+    <select id="themeSelect"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
+    <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+  </div>
+</div></header>
+<main class="container" id="quizArea">
+  <section class="hero center">
+    <h1 id="quizTitle">Quiz</h1>
+    <p id="quizCounter" class="muted">Question 1 of 1</p>
+  </section>
+  <section class="panel">
+    <h2 id="questionText"></h2>
+    <div id="options"></div>
+    <p id="feedback" class="muted"></p>
+    <div class="actions"><button id="nextQuestionBtn" class="btn-primary">Next Question</button></div>
+  </section>
+</main>
+<footer class="container small">Multiple-choice topic check.</footer>
+</body></html>
