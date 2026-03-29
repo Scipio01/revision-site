@@ -7,7 +7,7 @@
 <script defer src="js/progress.js"></script>
 </head><body class="theme-ocean">
 <header><div class="container navbar">
-  <div class="brand"><a href="index.html">Revision Site</a></div>
+  <div class="brand"><a href="index.html">CS Revision</a></div>
   <div class="nav-stack">
     <nav class="nav-links" aria-label="Main navigation">
       <a class="nav-link" data-nav href="index.html">Home</a>
@@ -21,11 +21,18 @@
   </div>
 </div></header>
 <main class="container">
-  <section class="hero">
+  <section class="hero compact">
     <div class="kicker">Your local progress</div>
-    <h1>Progress</h1>
-    <p>Last topic visited: <strong id="lastTopic">—</strong></p>
-    <div class="actions"><button id="clearProgressBtn" class="btn-secondary">Clear progress</button></div>
+    <div class="page-head">
+      <div>
+        <h1>Progress</h1>
+        <p>Last topic visited: <strong id="lastTopic">—</strong></p>
+      </div>
+      <div class="actions">
+        <a class="btn-secondary button" href="topics.html">Back to topics</a>
+        <button id="clearProgressBtn" class="btn-secondary">Clear progress</button>
+      </div>
+    </div>
   </section>
   <section id="progressGrid" class="grid"></section>
 </main>
