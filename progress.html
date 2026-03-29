@@ -7,18 +7,25 @@
 <script defer src="js/progress.js"></script>
 </head><body class="theme-ocean">
 <header><div class="container navbar">
-  <div class="brand">Revision Site</div>
-  <div class="nav-links">
-    <a href="index.html">Home</a><a href="topics.html">Topics</a><a href="progress.html">Progress</a>
-    <select id="themeSelect"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
-    <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+  <div class="brand"><a href="index.html">Revision Site</a></div>
+  <div class="nav-stack">
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="nav-link" data-nav href="index.html">Home</a>
+      <a class="nav-link" data-nav href="topics.html">Topics</a>
+      <a class="nav-link" data-nav href="progress.html">Progress</a>
+    </nav>
+    <div class="nav-tools">
+      <select id="themeSelect" aria-label="Colour theme"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
+      <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+    </div>
   </div>
 </div></header>
 <main class="container">
   <section class="hero">
+    <div class="kicker">Your local progress</div>
     <h1>Progress</h1>
     <p>Last topic visited: <strong id="lastTopic">—</strong></p>
-    <div class="actions"><button id="clearProgressBtn">Clear Progress</button></div>
+    <div class="actions"><button id="clearProgressBtn" class="btn-secondary">Clear progress</button></div>
   </section>
   <section id="progressGrid" class="grid"></section>
 </main>

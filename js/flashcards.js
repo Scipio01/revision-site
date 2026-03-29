@@ -3,6 +3,7 @@ let index = 0;
 let flipped = false;
 
 function renderCard() {
+  if (!cards.length) return;
   const card = cards[index];
   document.getElementById('topicTitle').textContent = card.topicName;
   document.getElementById('cardCounter').textContent = `Card ${index + 1} of ${cards.length}`;

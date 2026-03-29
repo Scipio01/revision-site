@@ -7,17 +7,28 @@
 <script defer src="js/topics.js"></script>
 </head><body class="theme-ocean">
 <header><div class="container navbar">
-  <div class="brand">Revision Site</div>
-  <div class="nav-links">
-    <a href="index.html">Home</a><a href="topics.html">Topics</a><a href="progress.html">Progress</a>
-    <select id="themeSelect"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
-    <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+  <div class="brand"><a href="index.html">Revision Site</a></div>
+  <div class="nav-stack">
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="nav-link" data-nav href="index.html">Home</a>
+      <a class="nav-link" data-nav href="topics.html">Topics</a>
+      <a class="nav-link" data-nav href="progress.html">Progress</a>
+    </nav>
+    <div class="nav-tools">
+      <select id="themeSelect" aria-label="Colour theme"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
+      <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+    </div>
   </div>
 </div></header>
 <main class="container">
   <section class="hero">
+    <div class="kicker">Choose a pathway</div>
     <h1><span id="levelLabel">GCSE</span> Topics</h1>
     <p class="muted">Choose a topic, then open flashcards or a quiz.</p>
+    <div class="level-switch" aria-label="Choose level">
+      <a href="topics.html" id="gcseSwitch">GCSE</a>
+      <a href="topics.html" id="alevelSwitch">A Level</a>
+    </div>
   </section>
   <section id="topicsList" class="grid"></section>
 </main>

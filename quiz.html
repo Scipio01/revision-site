@@ -7,23 +7,39 @@
 <script defer src="js/quiz.js"></script>
 </head><body class="theme-ocean">
 <header><div class="container navbar">
-  <div class="brand">Revision Site</div>
-  <div class="nav-links">
-    <a href="index.html">Home</a><a href="topics.html">Topics</a><a href="progress.html">Progress</a>
-    <select id="themeSelect"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
-    <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+  <div class="brand"><a href="index.html">Revision Site</a></div>
+  <div class="nav-stack">
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="nav-link" data-nav href="index.html">Home</a>
+      <a class="nav-link" data-nav href="topics.html">Topics</a>
+      <a class="nav-link" data-nav href="progress.html">Progress</a>
+    </nav>
+    <div class="nav-tools">
+      <select id="themeSelect" aria-label="Colour theme"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
+      <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+    </div>
   </div>
 </div></header>
-<main class="container" id="quizArea">
-  <section class="hero center">
+<main class="container quiz-shell" id="quizArea">
+  <section class="hero">
+    <div class="kicker">Multiple-choice quiz</div>
     <h1 id="quizTitle">Quiz</h1>
     <p id="quizCounter" class="muted">Question 1 of 1</p>
+    <div class="progress-bar" aria-hidden="true"><div id="progressFill" class="progress-bar-fill"></div></div>
+    <div class="quiz-status">
+      <div class="mini-card"><h3>Score</h3><p><strong id="scoreLive">0</strong> correct so far</p></div>
+      <div class="mini-card"><h3>Answered</h3><p><strong id="answeredLive">0</strong> of <span id="totalLive">0</span></p></div>
+      <div class="mini-card"><h3>Need to do next</h3><p id="nextHint">Choose an answer</p></div>
+    </div>
   </section>
   <section class="panel">
     <h2 id="questionText"></h2>
     <div id="options"></div>
-    <p id="feedback" class="muted"></p>
-    <div class="actions"><button id="nextQuestionBtn" class="btn-primary">Next Question</button></div>
+    <div id="feedback" class="feedback-box muted">Choose the best answer to unlock the next question.</div>
+    <div class="actions">
+      <button id="nextQuestionBtn" class="btn-primary" disabled>Next question</button>
+      <a class="button btn-secondary" href="flashcards.html">Back to flashcards</a>
+    </div>
   </section>
 </main>
 <footer class="container small">Multiple-choice topic check.</footer>
