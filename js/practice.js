@@ -11,6 +11,21 @@ const modeEl = document.getElementById("mode");
 const checkBtn = document.getElementById("checkBtn");
 const nextBtn = document.getElementById("nextBtn");
 const newSetBtn = document.getElementById("newSetBtn");
+const practiceTitleEl = document.getElementById("practiceTitle");
+const practiceIntroEl = document.getElementById("practiceIntro");
+
+function getTopicFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("topic") || "binary";
+}
+
+function setupTopicText() {
+  const topic = getTopicFromUrl();
+  if (topic === "binary") {
+    practiceTitleEl.textContent = "Binary Practice";
+    practiceIntroEl.textContent = "Practise converting between denary and binary with instant feedback and working.";
+  }
+}
 
 function getMaxValue(difficulty) {
   if (difficulty === "easy") return 15;
@@ -108,6 +123,7 @@ function generateQuestion() {
   }
 
   feedbackEl.textContent = "";
+  feedbackEl.classList.remove("correct", "incorrect");
   answerEl.value = "";
   answerEl.focus();
 
@@ -155,6 +171,9 @@ function checkAnswer() {
       "Working:\n" +
       binaryToDenaryWorking(binaryShown);
   }
+
+  feedbackEl.classList.toggle("correct", isCorrect);
+  feedbackEl.classList.toggle("incorrect", !isCorrect);
 }
 
 checkBtn.addEventListener("click", checkAnswer);
@@ -169,4 +188,5 @@ answerEl.addEventListener("keydown", function (event) {
   }
 });
 
+setupTopicText();
 generateQuestion();

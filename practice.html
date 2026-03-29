@@ -7,28 +7,41 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Practice</h1>
-      <nav class="top-nav">
-        <a href="index.html">Home</a>
-        <a href="topics.html">Topics</a>
-        <a href="flashcards.html">Flashcards</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="progress.html">Progress</a>
-      </nav>
+  <header>
+    <div class="container navbar">
+      <div class="brand"><a href="index.html">CS Revision</a></div>
+      <div class="nav-stack">
+        <nav class="nav-links">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="topics.html">Topics</a>
+          <a class="nav-link" href="flashcards.html">Flashcards</a>
+          <a class="nav-link" href="quiz.html">Quiz</a>
+          <a class="nav-link" href="progress.html">Progress</a>
+          <a class="nav-link active" href="practice.html">Practice</a>
+        </nav>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="panel">
-      <h2 id="practiceTitle">Binary Practice</h2>
-      <p id="practiceIntro">Practise converting between denary and binary.</p>
+  <main class="container practice-shell">
+    <section class="hero compact">
+      <div class="kicker">Skills Practice</div>
+      <div class="page-head">
+        <div>
+          <h1 id="practiceTitle">Binary Practice</h1>
+          <p id="practiceIntro" class="muted">Practise converting between denary and binary with instant feedback and working.</p>
+        </div>
+        <div class="actions">
+          <a class="button btn-secondary" href="topics.html">Back to topics</a>
+        </div>
+      </div>
+    </section>
 
+    <section class="panel practice-panel">
       <div class="controls-row">
         <div class="control-group">
           <label for="difficulty">Difficulty</label>
-          <select id="difficulty">
+          <select id="difficulty" class="practice-select">
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
             <option value="hard">Hard</option>
@@ -37,7 +50,7 @@
 
         <div class="control-group">
           <label for="mode">Mode</label>
-          <select id="mode">
+          <select id="mode" class="practice-select">
             <option value="mixed">Mixed</option>
             <option value="denToBin">Denary → Binary</option>
             <option value="binToDen">Binary → Denary</option>
@@ -46,24 +59,28 @@
       </div>
 
       <div class="question-card">
-        <h3 id="question">Loading question...</h3>
+        <div class="kicker">Question</div>
+        <h2 id="question">Loading question...</h2>
 
-        <input type="text" id="answer" placeholder="Type your answer here">
+        <label class="control-group top-gap" for="answer">
+          <span>Your answer</span>
+          <input type="text" id="answer" class="practice-input" placeholder="Type your answer here">
+        </label>
 
         <div class="button-row">
-          <button id="checkBtn" class="button">Check answer</button>
-          <button id="nextBtn" class="button secondary-button">Next question</button>
-          <button id="newSetBtn" class="button secondary-button">New set</button>
+          <button id="checkBtn" class="button btn-primary">Check answer</button>
+          <button id="nextBtn" class="button btn-secondary">Next question</button>
+          <button id="newSetBtn" class="button btn-secondary">New set</button>
         </div>
 
         <div id="feedback" class="feedback-box"></div>
       </div>
-
-      <div class="button-row top-gap">
-        <a class="button secondary-button" href="topics.html">Back to topics</a>
-      </div>
     </section>
   </main>
+
+  <footer>
+    <div class="container">Built for GCSE and A Level Computer Science revision.</div>
+  </footer>
 
   <script src="js/common.js"></script>
   <script src="js/practice.js"></script>
