@@ -357,6 +357,7 @@ updateScoreDisplay();
 
 checkBtn.addEventListener("click", checkAnswer);
 nextBtn.addEventListener("click", () => {
+  checkBtn.disabled = false;
   questionNumber++;
   updateScoreDisplay();
   generateQuestion();
