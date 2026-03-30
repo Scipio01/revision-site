@@ -113,32 +113,78 @@ function binaryToDenaryWorking(binary) {
 function generateQuestion() {
   const difficulty = difficultyEl.value;
   const mode = modeEl.value;
-  const max = getMaxValue(difficulty);
+  const topic = new URLSearchParams(window.location.search).get("topic");
 
-  const num = randomInt(max);
+  let max;
+  if (difficulty === "easy") max = 15;
+  else if (difficulty === "medium") max = 63;
+  else max = 255;
+
+  let num = Math.floor(Math.random() * (max + 1));
 
   let chosenMode = mode;
   if (mode === "mixed") {
-    chosenMode = Math.random() < 0.5 ? "denToBin" : "binToDen";
+    if (topic === "hex") {
+      const options = ["denToHex", "hexToDen", "binToHex", "hexToBin"];
+      chosenMode = options[Math.floor(Math.random() * options.length)];
+    } else {
+      chosenMode = Math.random() < 0.5 ? "denToBin" : "binToDen";
+    }
   }
 
   feedbackEl.textContent = "";
-  feedbackEl.classList.remove("correct", "incorrect");
   answerEl.value = "";
   answerEl.focus();
 
-  if (chosenMode === "denToBin") {
-    currentQuestionType = "denToBin";
-    currentSourceValue = num;
-    currentQuestion = `Convert ${num} to binary`;
-    currentAnswer = difficulty === "hard" ? padBinary(toBinary(num)) : toBinary(num);
-  } else {
-    currentQuestionType = "binToDen";
-    currentSourceValue = num;
+  // ===== HEX TOPIC =====
+  if (topic === "hex") {
 
-    const binaryValue = difficulty === "hard" ? padBinary(toBinary(num)) : toBinary(num);
-    currentQuestion = `Convert ${binaryValue} to denary`;
-    currentAnswer = String(num);
+    if (chosenMode === "denToHex") {
+      currentQuestionType = "denToHex";
+      currentSourceValue = num;
+      currentQuestion = `Convert ${num} to hexadecimal`;
+      currentAnswer = num.toString(16).toUpperCase();
+    }
+
+    else if (chosenMode === "hexToDen") {
+      currentQuestionType = "hexToDen";
+      currentSourceValue = num;
+      let hex = num.toString(16).toUpperCase();
+      currentQuestion = `Convert ${hex} to denary`;
+      currentAnswer = num.toString();
+    }
+
+    else if (chosenMode === "binToHex") {
+      currentQuestionType = "binToHex";
+      currentSourceValue = num;
+      let binary = num.toString(2).padStart(8, "0");
+      currentQuestion = `Convert ${binary} to hexadecimal`;
+      currentAnswer = num.toString(16).toUpperCase();
+    }
+
+    else if (chosenMode === "hexToBin") {
+      currentQuestionType = "hexToBin";
+      currentSourceValue = num;
+      let hex = num.toString(16).toUpperCase();
+      currentQuestion = `Convert ${hex} to binary`;
+      currentAnswer = num.toString(2).padStart(8, "0");
+    }
+  }
+
+  // ===== BINARY TOPIC =====
+  else {
+    if (chosenMode === "denToBin") {
+      currentQuestionType = "denToBin";
+      currentSourceValue = num;
+      currentQuestion = `Convert ${num} to binary`;
+      currentAnswer = num.toString(2);
+    } else {
+      currentQuestionType = "binToDen";
+      currentSourceValue = num;
+      let binary = num.toString(2);
+      currentQuestion = `Convert ${binary} to denary`;
+      currentAnswer = num.toString();
+    }
   }
 
   questionEl.textContent = currentQuestion;
