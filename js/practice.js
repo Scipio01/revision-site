@@ -149,6 +149,7 @@ function checkAnswer() {
   const difficulty = difficultyEl.value;
 
   let isCorrect = false;
+  let working = "";
 
   if (currentQuestionType === "denToBin") {
     const normalisedUser = userAnswer.replace(/\s+/g, "");
@@ -157,36 +158,22 @@ function checkAnswer() {
 
     isCorrect = normalisedUser === acceptedAnswer || normalisedUser === unpaddedAnswer;
 
-    feedbackEl.textContent =
-      (isCorrect ? "Correct!\n\n" : "Incorrect.\n\n") +
-      "Working:\n" +
-      denaryToBinaryWorking(currentSourceValue, difficulty);
+    working = denaryToBinaryWorking(currentSourceValue, difficulty);
   } else {
     isCorrect = userAnswer === currentAnswer;
 
     const binaryShown = currentQuestion.match(/[01]+/)[0];
-
-    feedbackEl.textContent =
-      (isCorrect ? "Correct!\n\n" : "Incorrect.\n\n") +
-      "Working:\n" +
-      binaryToDenaryWorking(binaryShown);
+    working = binaryToDenaryWorking(binaryShown);
   }
 
-  feedbackEl.classList.toggle("correct", isCorrect);
-  feedbackEl.classList.toggle("incorrect", !isCorrect);
+  feedbackEl.textContent =
+    (isCorrect ? "✔ Correct!\n\n" : "✖ Incorrect.\n\n") +
+    "Working:\n" +
+    working;
+
+  feedbackEl.classList.remove("correct", "incorrect");
+  feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
 }
-
-checkBtn.addEventListener("click", checkAnswer);
-nextBtn.addEventListener("click", generateQuestion);
-newSetBtn.addEventListener("click", generateQuestion);
-difficultyEl.addEventListener("change", generateQuestion);
-modeEl.addEventListener("change", generateQuestion);
-
-answerEl.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    checkAnswer();
-  }
-});
 
 setupTopicText();
 generateQuestion();
