@@ -388,7 +388,6 @@ answerEl.addEventListener("keydown", function (event) {
 });
 
 updateScoreDisplay();
-checkBtn.disabled = true;
 updatePracticeHeader();
 updateModeOptions();
 questionNumber = 1;
