@@ -1,1 +1,23 @@
 
+[
+  {
+    "type": "denToHex",
+    "question": "Convert 45 to hexadecimal",
+    "answer": "2D"
+  },
+  {
+    "type": "binToHex",
+    "question": "Convert 00101101 to hexadecimal",
+    "answer": "2D"
+  },
+  {
+    "type": "hexToBin",
+    "question": "Convert 2D to binary",
+    "answer": "00101101"
+  },
+  {
+    "type": "hexToDen",
+    "question": "Convert 2D to denary",
+    "answer": "45"
+  }
+]
