@@ -1,1 +1,39 @@
 
+[
+  {
+    "front": "What is hexadecimal?",
+    "back": "A base 16 number system using digits 0–9 and A–F."
+  },
+  {
+    "front": "What values do A–F represent in hexadecimal?",
+    "back": "A = 10, B = 11, C = 12, D = 13, E = 14, F = 15."
+  },
+  {
+    "front": "What is a nibble?",
+    "back": "4 bits. One hexadecimal digit represents one nibble."
+  },
+  {
+    "front": "Why is hexadecimal used?",
+    "back": "It is shorter and easier to read than long binary numbers."
+  },
+  {
+    "front": "What is hexadecimal used for?",
+    "back": "Colour codes (e.g. #FF0000), memory addresses, and machine code."
+  },
+  {
+    "front": "How do you convert denary to hexadecimal?",
+    "back": "Divide by 16 and convert remainders to hex digits."
+  },
+  {
+    "front": "How do you convert binary to hexadecimal?",
+    "back": "Split into groups of 4 bits (nibbles) and convert each group."
+  },
+  {
+    "front": "How do you convert hexadecimal to binary?",
+    "back": "Replace each hex digit with its 4-bit binary equivalent."
+  },
+  {
+    "front": "How do you convert hexadecimal to denary?",
+    "back": "Use place values (powers of 16) and add the results."
+  }
+]
