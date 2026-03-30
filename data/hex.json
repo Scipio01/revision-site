@@ -1,59 +1,198 @@
-
 [
   {
+    "topicName": "Hexadecimal",
     "front": "What is hexadecimal?",
-    "back": "A base 16 number system using digits 0–9 and A–F."
+    "back": "A base 16 number system using digits 0–9 and A–F.",
+    "mcq": {
+      "question": "What is hexadecimal?",
+      "correct": "A base 16 number system using digits 0–9 and A–F",
+      "wrong": [
+        "A base 10 number system using digits 0–9",
+        "A base 2 number system using 0 and 1",
+        "A system used only for colours"
+      ]
+    }
   },
   {
+    "topicName": "Hexadecimal",
     "front": "What values do A–F represent in hexadecimal?",
-    "back": "A = 10, B = 11, C = 12, D = 13, E = 14, F = 15."
+    "back": "A = 10, B = 11, C = 12, D = 13, E = 14, F = 15.",
+    "mcq": {
+      "question": "What does A represent in hexadecimal?",
+      "correct": "10",
+      "wrong": [
+        "11",
+        "12",
+        "15"
+      ]
+    }
   },
   {
+    "topicName": "Hexadecimal",
     "front": "What is a nibble?",
-    "back": "4 bits. One hexadecimal digit represents one nibble."
+    "back": "4 bits. One hexadecimal digit represents one nibble.",
+    "mcq": {
+      "question": "What is a nibble?",
+      "correct": "4 bits",
+      "wrong": [
+        "8 bits",
+        "2 bits",
+        "16 bits"
+      ]
+    }
   },
   {
+    "topicName": "Hexadecimal",
     "front": "Why is hexadecimal used?",
-    "back": "It is shorter and easier to read than long binary numbers."
+    "back": "It is shorter and easier to read than long binary numbers.",
+    "mcq": {
+      "question": "Why is hexadecimal used?",
+      "correct": "It is shorter and easier to read than binary",
+      "wrong": [
+        "It replaces binary completely",
+        "It uses fewer bits to store data",
+        "It is the only system computers understand"
+      ]
+    }
   },
   {
+    "topicName": "Hexadecimal",
     "front": "What is hexadecimal used for?",
-    "back": "Colour codes (e.g. #FF0000), memory addresses, and machine code."
+    "back": "Colour codes (e.g. #FF0000), memory addresses, and machine code.",
+    "mcq": {
+      "question": "What is hexadecimal used for?",
+      "correct": "Colour codes, memory addresses, and machine code",
+      "wrong": [
+        "Only text files",
+        "Only sound files",
+        "Only spreadsheets"
+      ]
+    }
   },
   {
+    "topicName": "Hexadecimal",
     "front": "How do you convert denary to hexadecimal?",
-    "back": "Divide by 16 and convert remainders to hex digits."
+    "back": "Divide by 16 and convert remainders to hex digits.",
+    "mcq": {
+      "question": "How do you convert denary to hexadecimal?",
+      "correct": "Divide by 16 and convert the remainders",
+      "wrong": [
+        "Multiply by 16",
+        "Split into groups of 4 bits",
+        "Add powers of 2"
+      ]
+    }
   },
   {
+    "topicName": "Hexadecimal",
     "front": "How do you convert binary to hexadecimal?",
-    "back": "Split into groups of 4 bits (nibbles) and convert each group."
+    "back": "Split into groups of 4 bits (nibbles) and convert each group.",
+    "mcq": {
+      "question": "How do you convert binary to hexadecimal?",
+      "correct": "Split into groups of 4 bits and convert each group",
+      "wrong": [
+        "Divide by 16",
+        "Add powers of 10",
+        "Replace each digit with 8 bits"
+      ]
+    }
   },
   {
+    "topicName": "Hexadecimal",
     "front": "How do you convert hexadecimal to binary?",
-    "back": "Replace each hex digit with its 4-bit binary equivalent."
+    "back": "Replace each hex digit with its 4-bit binary equivalent.",
+    "mcq": {
+      "question": "How do you convert hexadecimal to binary?",
+      "correct": "Replace each hex digit with a 4-bit binary value",
+      "wrong": [
+        "Divide by 2 repeatedly",
+        "Split into bytes",
+        "Multiply each digit by 16"
+      ]
+    }
   },
   {
+    "topicName": "Hexadecimal",
     "front": "How do you convert hexadecimal to denary?",
-    "back": "Use place values (powers of 16) and add the results."
+    "back": "Use place values (powers of 16) and add the results.",
+    "mcq": {
+      "question": "How do you convert hexadecimal to denary?",
+      "correct": "Use place values based on powers of 16",
+      "wrong": [
+        "Use place values based on powers of 2",
+        "Split into nibbles",
+        "Subtract 16 each time"
+      ]
+    }
   },
   {
-  "front": "What is a number base?",
-  "back": "The number of different digits a number system uses, including zero."
-},
-{
-  "front": "What base is binary?",
-  "back": "Base 2 (uses digits 0 and 1)."
-},
-{
-  "front": "What base is denary?",
-  "back": "Base 10 (uses digits 0 to 9)."
-},
-{
-  "front": "What base is hexadecimal?",
-  "back": "Base 16 (uses digits 0–9 and A–F)."
-},
-{
-  "front": "What does the base number tell us?",
-  "back": "How many digits are available and what place values to use."
-}
+    "topicName": "Hexadecimal",
+    "front": "What is a number base?",
+    "back": "The number of different digits a number system uses, including zero.",
+    "mcq": {
+      "question": "What is a number base?",
+      "correct": "The number of different digits a number system uses",
+      "wrong": [
+        "The largest number in the system",
+        "The number of bytes used",
+        "The number of place values shown"
+      ]
+    }
+  },
+  {
+    "topicName": "Hexadecimal",
+    "front": "What base is binary?",
+    "back": "Base 2 (uses digits 0 and 1).",
+    "mcq": {
+      "question": "What base is binary?",
+      "correct": "Base 2",
+      "wrong": [
+        "Base 10",
+        "Base 16",
+        "Base 8"
+      ]
+    }
+  },
+  {
+    "topicName": "Hexadecimal",
+    "front": "What base is denary?",
+    "back": "Base 10 (uses digits 0 to 9).",
+    "mcq": {
+      "question": "What base is denary?",
+      "correct": "Base 10",
+      "wrong": [
+        "Base 2",
+        "Base 8",
+        "Base 16"
+      ]
+    }
+  },
+  {
+    "topicName": "Hexadecimal",
+    "front": "What base is hexadecimal?",
+    "back": "Base 16 (uses digits 0–9 and A–F).",
+    "mcq": {
+      "question": "What base is hexadecimal?",
+      "correct": "Base 16",
+      "wrong": [
+        "Base 2",
+        "Base 10",
+        "Base 12"
+      ]
+    }
+  },
+  {
+    "topicName": "Hexadecimal",
+    "front": "What does the base number tell us?",
+    "back": "How many digits are available and what place values to use.",
+    "mcq": {
+      "question": "What does the base number tell us?",
+      "correct": "How many digits are available and what place values to use",
+      "wrong": [
+        "How many bytes are in the number",
+        "How many answers are possible",
+        "How many bits make a byte"
+      ]
+    }
+  }
 ]
