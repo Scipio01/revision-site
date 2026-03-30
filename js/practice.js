@@ -352,6 +352,7 @@ answerEl.addEventListener("keydown", function (event) {
   }
 });
 
+updateScoreDisplay();
 updatePracticeHeader();
 updateModeOptions();
 generateQuestion();
