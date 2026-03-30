@@ -356,6 +356,15 @@ updateScoreDisplay();
 }
 
 checkBtn.addEventListener("click", checkAnswer);
+nextBtn.addEventListener("click", () => {
+  checkBtn.disabled = false;
+  questionNumber++;
+  updateScoreDisplay();
+  generateQuestion();
+});
+
+
+
 newSetBtn.addEventListener("click", () => {
   checkBtn.disabled = false;
   questionNumber = 1;
@@ -367,16 +376,7 @@ newSetBtn.addEventListener("click", () => {
   updateScoreDisplay();
   generateQuestion();
 });
-newSetBtn.addEventListener("click", () => {
-  questionNumber = 1;
-  correctCount = 0;
-  incorrectCount = 0;
-  currentStreak = 0;
-  bestStreak = 0;
 
-  updateScoreDisplay();
-  generateQuestion();
-});
 
 difficultyEl.addEventListener("change", generateQuestion);
 modeEl.addEventListener("change", generateQuestion);
