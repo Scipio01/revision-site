@@ -35,5 +35,25 @@
   {
     "front": "How do you convert hexadecimal to denary?",
     "back": "Use place values (powers of 16) and add the results."
-  }
+  },
+  {
+  "front": "What is a number base?",
+  "back": "The number of different digits a number system uses, including zero."
+},
+{
+  "front": "What base is binary?",
+  "back": "Base 2 (uses digits 0 and 1)."
+},
+{
+  "front": "What base is denary?",
+  "back": "Base 10 (uses digits 0 to 9)."
+},
+{
+  "front": "What base is hexadecimal?",
+  "back": "Base 16 (uses digits 0–9 and A–F)."
+},
+{
+  "front": "What does the base number tell us?",
+  "back": "How many digits are available and what place values to use."
+}
 ]
