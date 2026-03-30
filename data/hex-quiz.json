@@ -1,1 +1,28 @@
 
+[
+  {
+    "question": "What base is hexadecimal?",
+    "correct": "Base 16",
+    "wrong": ["Base 2", "Base 10", "Base 8"]
+  },
+  {
+    "question": "What does A represent in hexadecimal?",
+    "correct": "10",
+    "wrong": ["11", "12", "15"]
+  },
+  {
+    "question": "How many bits are in a nibble?",
+    "correct": "4",
+    "wrong": ["8", "2", "16"]
+  },
+  {
+    "question": "Why is hexadecimal used?",
+    "correct": "It is shorter than binary",
+    "wrong": ["It is faster to process", "It uses less memory", "It is used by humans only"]
+  },
+  {
+    "question": "What is hexadecimal commonly used for?",
+    "correct": "Colour codes and memory addresses",
+    "wrong": ["Only arithmetic", "Only programming loops", "Only input devices"]
+  }
+]
