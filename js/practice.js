@@ -2,6 +2,12 @@ let currentQuestion = "";
 let currentAnswer = "";
 let currentQuestionType = "";
 let currentSourceValue = 0;
+let correctCount = 0;
+let incorrectCount = 0;
+let currentStreak = 0;
+let bestStreak = 0;
+let questionNumber = 0;
+let totalQuestions = 10;
 
 const questionEl = document.getElementById("question");
 const answerEl = document.getElementById("answer");
