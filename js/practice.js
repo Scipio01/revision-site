@@ -217,74 +217,96 @@ function checkAnswer() {
 
     isCorrect = normalisedUser === acceptedAnswer || normalisedUser === unpaddedAnswer;
     working = denaryToBinaryWorking(currentSourceValue, difficulty);
-  } else if (currentQuestionType === "binToDen") {
+  }
+
+  else if (currentQuestionType === "binToDen") {
     isCorrect = userAnswer === currentAnswer;
     const binaryShown = currentQuestion.match(/[01]+/)[0];
     working = binaryToDenaryWorking(binaryShown);
-  } else if (currentQuestionType === "denToHex") {
-    isCorrect = userAnswer.toUpperCase() === currentAnswer;
-    working =
-      `${currentSourceValue} ÷ 16 = ${Math.floor(currentSourceValue / 16)} remainder ${currentSourceValue % 16}\n\n` +
-      `Answer: ${currentAnswer}`;
-
-    else if (currentQuestionType === "hexToDen") {
-  isCorrect = userAnswer === currentAnswer;
-
-  const hexShown = currentSourceValue.toString(16).toUpperCase();
-  const digits = hexShown.split("");
-  const placeValues = [];
-  const steps = [];
-  let total = 0;
-
-  for (let i = 0; i < digits.length; i++) {
-    const digitValue = parseInt(digits[i], 16);
-    const placeValue = Math.pow(16, digits.length - 1 - i);
-    const result = digitValue * placeValue;
-
-    placeValues.push(placeValue);
-    total += result;
-
-    if (digitValue >= 10) {
-      steps.push(`${digits[i]} = ${digitValue}`);
-    }
-
-    steps.push(`${digitValue} × ${placeValue} = ${result}`);
   }
 
-  working =
-    `Hex: ${hexShown}\n\n` +
-    `Place values:\n${placeValues.join("   ")}\n\n` +
-    `Digits:\n${digits.join("   ")}\n\n` +
-    `Working:\n${steps.join("\n")}\n\n` +
-    `Total = ${total}\n\n` +
-    `Answer: ${currentAnswer}`;
-}
-  
+  else if (currentQuestionType === "denToHex") {
+    isCorrect = userAnswer.toUpperCase() === currentAnswer;
+
+    const quotient = Math.floor(currentSourceValue / 16);
+    const remainder = currentSourceValue % 16;
+    const remainderHex = remainder.toString(16).toUpperCase();
+
+    working =
+      `${currentSourceValue} ÷ 16 = ${quotient} remainder ${remainder}\n`;
+
+    if (remainder >= 10) {
+      working += `${remainder} = ${remainderHex}\n\n`;
+    } else {
+      working += `\n`;
+    }
+
+    working += `Answer: ${currentAnswer}`;
+  }
+
+  else if (currentQuestionType === "hexToDen") {
+    isCorrect = userAnswer === currentAnswer;
+
+    const hexShown = currentSourceValue.toString(16).toUpperCase();
+    const digits = hexShown.split("");
+    const placeValues = [];
+    const steps = [];
+    let total = 0;
+
+    for (let i = 0; i < digits.length; i++) {
+      const digitValue = parseInt(digits[i], 16);
+      const placeValue = Math.pow(16, digits.length - 1 - i);
+      const result = digitValue * placeValue;
+
+      placeValues.push(placeValue);
+      total += result;
+
+      if (digitValue >= 10) {
+        steps.push(`${digits[i]} = ${digitValue}`);
+      }
+
+      steps.push(`${digitValue} × ${placeValue} = ${result}`);
+    }
+
+    working =
+      `Hex: ${hexShown}\n\n` +
+      `Place values:\n${placeValues.join("   ")}\n\n` +
+      `Digits:\n${digits.join("   ")}\n\n` +
+      `Working:\n${steps.join("\n")}\n\n` +
+      `Total = ${total}\n\n` +
+      `Answer: ${currentAnswer}`;
+  }
+
   else if (currentQuestionType === "binToHex") {
     isCorrect = userAnswer.toUpperCase() === currentAnswer;
 
     const binaryShown = currentQuestion.match(/[01]+/)[0];
     const paddedBinary = binaryShown.padStart(Math.ceil(binaryShown.length / 4) * 4, "0");
     const grouped = paddedBinary.match(/.{1,4}/g);
+    const converted = grouped.map(group => parseInt(group, 2).toString(16).toUpperCase());
 
     working =
-      `Binary: ${binaryShown}\n` +
-      `Pad to groups of 4: ${grouped.join(" ")}\n\n` +
+      `Binary: ${binaryShown}\n\n` +
+      `Pad to groups of 4:\n${grouped.join(" ")}\n\n` +
+      `Convert each group:\n${grouped.map((group, i) => `${group} = ${converted[i]}`).join("\n")}\n\n` +
       `Answer: ${currentAnswer}`;
-  } else if (currentQuestionType === "hexToBin") {
+  }
+
+  else if (currentQuestionType === "hexToBin") {
     const normalisedUser = userAnswer.replace(/\s+/g, "");
     const correct = currentAnswer.replace(/\s+/g, "");
-    const unpaddedCorrect = parseInt(currentQuestion.match(/[0-9A-F]+/i)[0], 16).toString(2);
+    const unpaddedCorrect = currentSourceValue.toString(2);
 
     isCorrect = normalisedUser === correct || normalisedUser === unpaddedCorrect;
 
-    const hexShown = currentQuestion.match(/[0-9A-F]+/i)[0].toUpperCase();
-    const binaryParts = hexShown.split("").map(d => parseInt(d, 16).toString(2).padStart(4, "0"));
+    const hexShown = currentSourceValue.toString(16).toUpperCase();
+    const binaryParts = hexShown
+      .split("")
+      .map(d => parseInt(d, 16).toString(2).padStart(4, "0"));
 
     working =
       `Hex: ${hexShown}\n\n` +
-      `${hexShown.split("").join("  ")}\n` +
-      `${binaryParts.join("  ")}\n\n` +
+      `Convert each digit:\n${hexShown.split("").map((d, i) => `${d} = ${binaryParts[i]}`).join("\n")}\n\n` +
       `Answer: ${currentAnswer}`;
   }
 
@@ -296,19 +318,6 @@ function checkAnswer() {
   feedbackEl.classList.remove("correct", "incorrect");
   feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
 }
-
-checkBtn.addEventListener("click", checkAnswer);
-nextBtn.addEventListener("click", generateQuestion);
-newSetBtn.addEventListener("click", generateQuestion);
-
-difficultyEl.addEventListener("change", generateQuestion);
-modeEl.addEventListener("change", generateQuestion);
-
-answerEl.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    checkAnswer();
-  }
-});
 
 updatePracticeHeader();
 updateModeOptions();
