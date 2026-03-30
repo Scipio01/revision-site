@@ -164,25 +164,25 @@ function generateQuestion() {
     if (chosenMode === "denToHex") {
       currentQuestionType = "denToHex";
       currentSourceValue = num;
-      currentQuestion = `Convert ${num} to hexadecimal`;
+     currentQuestion = `Convert denary ${num} to hexadecimal`;
       currentAnswer = num.toString(16).toUpperCase();
     } else if (chosenMode === "hexToDen") {
       currentQuestionType = "hexToDen";
       currentSourceValue = num;
       const hex = num.toString(16).toUpperCase();
-      currentQuestion = `Convert ${hex} to denary`;
+    currentQuestion = `Convert hexadecimal ${hex} to denary`;
       currentAnswer = String(num);
     } else if (chosenMode === "binToHex") {
       currentQuestionType = "binToHex";
       currentSourceValue = num;
       const binary = difficulty === "hard" ? padBinary(num.toString(2)) : num.toString(2);
-      currentQuestion = `Convert ${binary} to hexadecimal`;
+     currentQuestion = `Convert binary ${binary} to hexadecimal`;
       currentAnswer = num.toString(16).toUpperCase();
     } else if (chosenMode === "hexToBin") {
       currentQuestionType = "hexToBin";
       currentSourceValue = num;
       const hex = num.toString(16).toUpperCase();
-      currentQuestion = `Convert ${hex} to binary`;
+      currentQuestion = `Convert hexadecimal ${hex} to binary`;
       currentAnswer = difficulty === "hard" ? padBinary(num.toString(2)) : num.toString(2);
     }
   } else {
