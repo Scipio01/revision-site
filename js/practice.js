@@ -164,8 +164,7 @@ function generateQuestion() {
   const max = getMaxValue(difficulty);
   const num = randomInt(max);
  
-  questionNumber++;
-updateScoreDisplay();
+
 
   let chosenMode = mode;
 
@@ -343,7 +342,11 @@ function checkAnswer() {
 }
 
 checkBtn.addEventListener("click", checkAnswer);
-nextBtn.addEventListener("click", generateQuestion);
+nextBtn.addEventListener("click", () => {
+  questionNumber++;
+  updateScoreDisplay();
+  generateQuestion();
+});
 newSetBtn.addEventListener("click", generateQuestion);
 
 difficultyEl.addEventListener("change", generateQuestion);
