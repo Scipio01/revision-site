@@ -264,9 +264,20 @@ function checkAnswer() {
   feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
 }
 
-checkBtn.addEventListener("click", checkAnswer);
-nextBtn.addEventListener("click", generateQuestion);
-newSetBtn.addEventListener("click", generateQuestion);
+checkBtn.addEventListener("click", function () {
+  alert("Check clicked");
+  checkAnswer();
+});
+
+nextBtn.addEventListener("click", function () {
+  alert("Next clicked");
+  generateQuestion();
+});
+
+newSetBtn.addEventListener("click", function () {
+  alert("New set clicked");
+  generateQuestion();
+});
 difficultyEl.addEventListener("change", generateQuestion);
 modeEl.addEventListener("change", generateQuestion);
 
