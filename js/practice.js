@@ -226,24 +226,41 @@ function checkAnswer() {
     working =
       `${currentSourceValue} ÷ 16 = ${Math.floor(currentSourceValue / 16)} remainder ${currentSourceValue % 16}\n\n` +
       `Answer: ${currentAnswer}`;
-  } else if (currentQuestionType === "hexToDen") {
-    isCorrect = userAnswer === currentAnswer;
 
-    const hexShown = currentQuestion.match(/[0-9A-F]+/i)[0].toUpperCase();
-    const digits = hexShown.split("");
-    const values = [];
+    else if (currentQuestionType === "hexToDen") {
+  isCorrect = userAnswer === currentAnswer;
 
-    for (let i = 0; i < digits.length; i++) {
-      const digitValue = parseInt(digits[i], 16);
-      const placeValue = Math.pow(16, digits.length - 1 - i);
-      values.push(`${digitValue} × ${placeValue}`);
+  const hexShown = currentSourceValue.toString(16).toUpperCase();
+  const digits = hexShown.split("");
+  const placeValues = [];
+  const steps = [];
+  let total = 0;
+
+  for (let i = 0; i < digits.length; i++) {
+    const digitValue = parseInt(digits[i], 16);
+    const placeValue = Math.pow(16, digits.length - 1 - i);
+    const result = digitValue * placeValue;
+
+    placeValues.push(placeValue);
+    total += result;
+
+    if (digitValue >= 10) {
+      steps.push(`${digits[i]} = ${digitValue}`);
     }
 
-    working =
-      `Hex: ${hexShown}\n\n` +
-      `Working:\n${values.join("\n")}\n\n` +
-      `Answer: ${currentAnswer}`;
-  } else if (currentQuestionType === "binToHex") {
+    steps.push(`${digitValue} × ${placeValue} = ${result}`);
+  }
+
+  working =
+    `Hex: ${hexShown}\n\n` +
+    `Place values:\n${placeValues.join("   ")}\n\n` +
+    `Digits:\n${digits.join("   ")}\n\n` +
+    `Working:\n${steps.join("\n")}\n\n` +
+    `Total = ${total}\n\n` +
+    `Answer: ${currentAnswer}`;
+}
+  
+  else if (currentQuestionType === "binToHex") {
     isCorrect = userAnswer.toUpperCase() === currentAnswer;
 
     const binaryShown = currentQuestion.match(/[01]+/)[0];
