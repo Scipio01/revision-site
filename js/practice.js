@@ -24,6 +24,15 @@ const bestStreakCountEl = document.getElementById("bestStreakCount");
 const questionNumberEl = document.getElementById("questionNumber");
 const totalQuestionsEl = document.getElementById("totalQuestions");
 
+function updateScoreDisplay() {
+  correctCountEl.textContent = correctCount;
+  incorrectCountEl.textContent = incorrectCount;
+  streakCountEl.textContent = currentStreak;
+  bestStreakCountEl.textContent = bestStreak;
+  questionNumberEl.textContent = questionNumber;
+  totalQuestionsEl.textContent = totalQuestions;
+}
+
 function updatePracticeHeader() {
   const topic = getTopic();
   const titleEl = document.getElementById("practiceTitle");
