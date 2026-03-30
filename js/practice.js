@@ -189,13 +189,13 @@ function generateQuestion() {
     if (chosenMode === "denToBin") {
       currentQuestionType = "denToBin";
       currentSourceValue = num;
-      currentQuestion = `Convert ${num} to binary`;
+      currentQuestion = `Convert denary ${num} to binary`;
       currentAnswer = difficulty === "hard" ? padBinary(num.toString(2)) : num.toString(2);
     } else {
       currentQuestionType = "binToDen";
       currentSourceValue = num;
       const binary = difficulty === "hard" ? padBinary(num.toString(2)) : num.toString(2);
-      currentQuestion = `Convert ${binary} to denary`;
+      currentQuestion = `Convert binary ${binary} to denary`;
       currentAnswer = String(num);
     }
   }
