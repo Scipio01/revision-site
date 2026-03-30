@@ -319,6 +319,19 @@ function checkAnswer() {
   feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
 }
 
+checkBtn.addEventListener("click", checkAnswer);
+nextBtn.addEventListener("click", generateQuestion);
+newSetBtn.addEventListener("click", generateQuestion);
+
+difficultyEl.addEventListener("change", generateQuestion);
+modeEl.addEventListener("change", generateQuestion);
+
+answerEl.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    checkAnswer();
+  }
+});
+
 updatePracticeHeader();
 updateModeOptions();
 generateQuestion();
