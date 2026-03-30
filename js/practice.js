@@ -12,6 +12,22 @@ const checkBtn = document.getElementById("checkBtn");
 const nextBtn = document.getElementById("nextBtn");
 const newSetBtn = document.getElementById("newSetBtn");
 
+
+function updatePracticeHeader() {
+  const topic = getTopic();
+  const titleEl = document.getElementById("practiceTitle");
+  const introEl = document.getElementById("practiceIntro");
+
+  if (topic === "hex") {
+    titleEl.textContent = "Hex Practice";
+    introEl.textContent = "Practise converting between denary, binary and hexadecimal with instant feedback and working.";
+  } else {
+    titleEl.textContent = "Binary Practice";
+    introEl.textContent = "Practise converting between denary and binary with instant feedback and working.";
+  }
+}
+
+
 function getTopic() {
   const params = new URLSearchParams(window.location.search);
   return params.get("topic") || "binary";
@@ -277,5 +293,6 @@ answerEl.addEventListener("keydown", function (event) {
   }
 });
 
+updatePracticeHeader();
 updateModeOptions();
 generateQuestion();
