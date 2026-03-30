@@ -361,4 +361,6 @@ answerEl.addEventListener("keydown", function (event) {
 updateScoreDisplay();
 updatePracticeHeader();
 updateModeOptions();
+questionNumber = 1;
+updateScoreDisplay();
 generateQuestion();
