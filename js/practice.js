@@ -337,8 +337,22 @@ function checkAnswer() {
     "Working:\n" +
     working;
 
-  feedbackEl.classList.remove("correct", "incorrect");
+    feedbackEl.classList.remove("correct", "incorrect");
   feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
+if (isCorrect) {
+  correctCount++;
+  currentStreak++;
+
+  if (currentStreak > bestStreak) {
+    bestStreak = currentStreak;
+  }
+} else {
+  incorrectCount++;
+  currentStreak = 0;
+}
+
+updateScoreDisplay();
+  
 }
 
 checkBtn.addEventListener("click", checkAnswer);
