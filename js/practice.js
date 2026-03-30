@@ -17,7 +17,12 @@ const modeEl = document.getElementById("mode");
 const checkBtn = document.getElementById("checkBtn");
 const nextBtn = document.getElementById("nextBtn");
 const newSetBtn = document.getElementById("newSetBtn");
-
+const correctCountEl = document.getElementById("correctCount");
+const incorrectCountEl = document.getElementById("incorrectCount");
+const streakCountEl = document.getElementById("streakCount");
+const bestStreakCountEl = document.getElementById("bestStreakCount");
+const questionNumberEl = document.getElementById("questionNumber");
+const totalQuestionsEl = document.getElementById("totalQuestions");
 
 function updatePracticeHeader() {
   const topic = getTopic();
