@@ -124,5 +124,72 @@
         "Binary stores more than one value in each bit"
       ]
     }
-  }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "What is a number base?",
+    "back": "The number of different digits a number system uses, including zero.",
+    "mcq": {
+      "question": "What is a number base?",
+      "correct": "The number of different digits a number system uses",
+      "wrong": [
+        "The largest number in the system",
+        "The number of bytes used",
+        "The number of place values shown"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "What base is binary?",
+    "back": "Base 2 (uses digits 0 and 1).",
+    "mcq": {
+      "question": "What base is binary?",
+      "correct": "Base 2",
+      "wrong": [
+        "Base 10",
+        "Base 16",
+        "Base 8"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "What base is denary?",
+    "back": "Base 10 (uses digits 0 to 9).",
+    "mcq": {
+      "question": "What base is denary?",
+      "correct": "Base 10",
+      "wrong": [
+        "Base 2",
+        "Base 8",
+        "Base 16"
+      ]
+    }
+  },
+  {
+    "topicName": "Hexadecimal",
+    "front": "What base is hexadecimal?",
+    "back": "Base 16 (uses digits 0–9 and A–F).",
+    "mcq": {
+      "question": "What base is hexadecimal?",
+      "correct": "Base 16",
+      "wrong": [
+        "Base 2",
+        "Base 10",
+        "Base 12"
+      ]
+    }
+  },
+  {
+    "topicName": "Binary Systems",
+    "front": "What does the base number tell us?",
+    "back": "How many digits are available and what place values to use.",
+    "mcq": {
+      "question": "What does the base number tell us?",
+      "correct": "How many digits are available and what place values to use",
+      "wrong": [
+        "How many bytes are in the number",
+        "How many answers are possible",
+        "How many bits make a byte"
 ]
