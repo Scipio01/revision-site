@@ -168,7 +168,7 @@
     }
   },
   {
-    "topicName": "Hexadecimal",
+    "topicName": "Binary Systems",
     "front": "What base is hexadecimal?",
     "back": "Base 16 (uses digits 0–9 and A–F).",
     "mcq": {
@@ -182,7 +182,7 @@
     }
   },
   {
-    "topicName": "Binary Systems",
+   "topicName": "Binary Systems",
     "front": "What does the base number tell us?",
     "back": "How many digits are available and what place values to use.",
     "mcq": {
@@ -192,4 +192,7 @@
         "How many bytes are in the number",
         "How many answers are possible",
         "How many bits make a byte"
+      ]
+    }
+  }
 ]
