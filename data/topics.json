@@ -27,4 +27,12 @@
     "description": "Classes, objects, encapsulation, inheritance and polymorphism.",
     "hasPractice": false
   }
+
+  {
+  "id": "hex",
+  "name": "Hexadecimal",
+  "level": "gcse",
+  "description": "Hexadecimal system, conversions and uses.",
+  "hasPractice": true
+  }
 ]
