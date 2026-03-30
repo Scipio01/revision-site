@@ -163,6 +163,9 @@ function generateQuestion() {
   const topic = getTopic();
   const max = getMaxValue(difficulty);
   const num = randomInt(max);
+ 
+  questionNumber++;
+updateScoreDisplay();
 
   let chosenMode = mode;
 
