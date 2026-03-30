@@ -373,7 +373,8 @@ newSetBtn.addEventListener("click", () => {
   currentStreak = 0;
   bestStreak = 0;
 
-  updateScoreDisplay();
+ updateScoreDisplay();
+ checkBtn.disabled = true;
   generateQuestion();
 });
 
