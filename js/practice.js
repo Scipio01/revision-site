@@ -205,11 +205,71 @@ function checkAnswer() {
     isCorrect = normalisedUser === acceptedAnswer || normalisedUser === unpaddedAnswer;
 
     working = denaryToBinaryWorking(currentSourceValue, difficulty);
-  } else {
+  }
+
+  else if (currentQuestionType === "binToDen") {
     isCorrect = userAnswer === currentAnswer;
 
     const binaryShown = currentQuestion.match(/[01]+/)[0];
     working = binaryToDenaryWorking(binaryShown);
+  }
+
+  else if (currentQuestionType === "denToHex") {
+    isCorrect = userAnswer.toUpperCase() === currentAnswer;
+
+    working =
+      `${currentSourceValue} ÷ 16 = ${Math.floor(currentSourceValue / 16)} remainder ${currentSourceValue % 16}\n\n` +
+      `Answer: ${currentAnswer}`;
+  }
+
+  else if (currentQuestionType === "hexToDen") {
+    isCorrect = userAnswer === currentAnswer;
+
+    const hexShown = currentQuestion.match(/[0-9A-F]+/i)[0].toUpperCase();
+    const digits = hexShown.split("");
+    let values = [];
+
+    for (let i = 0; i < digits.length; i++) {
+      let digit = digits[i];
+      let digitValue = parseInt(digit, 16);
+      let placeValue = Math.pow(16, digits.length - 1 - i);
+      values.push(`${digitValue} × ${placeValue}`);
+    }
+
+    working =
+      `Hex: ${hexShown}\n\n` +
+      `Working:\n${values.join("\n")}\n\n` +
+      `Answer: ${currentAnswer}`;
+  }
+
+  else if (currentQuestionType === "binToHex") {
+    isCorrect = userAnswer.toUpperCase() === currentAnswer;
+
+    const binaryShown = currentQuestion.match(/[01]+/)[0];
+    let paddedBinary = binaryShown.padStart(Math.ceil(binaryShown.length / 4) * 4, "0");
+    let grouped = paddedBinary.match(/.{1,4}/g);
+
+    working =
+      `Binary: ${binaryShown}\n` +
+      `Pad to groups of 4: ${grouped.join(" ")}\n\n` +
+      `Answer: ${currentAnswer}`;
+  }
+
+  else if (currentQuestionType === "hexToBin") {
+    const normalisedUser = userAnswer.replace(/\s+/g, "");
+    const correct = currentAnswer.replace(/\s+/g, "");
+    const unpaddedCorrect = parseInt(currentQuestion.match(/[0-9A-F]+/i)[0], 16).toString(2);
+
+    isCorrect = normalisedUser === correct || normalisedUser === unpaddedCorrect;
+
+    const hexShown = currentQuestion.match(/[0-9A-F]+/i)[0].toUpperCase();
+    let binaryParts = hexShown.split("").map(d => parseInt(d, 16).toString(2).padStart(4, "0"));
+
+    working =
+      `Hex: ${hexShown}\n\n` +
+      `${hexShown.split("").join("  ")}\n` +
+      `${binaryParts.join("  ")}\n\n` +
+      `Answer: ${currentAnswer}`;
   }
 
   feedbackEl.textContent =
