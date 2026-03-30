@@ -11,20 +11,10 @@ const modeEl = document.getElementById("mode");
 const checkBtn = document.getElementById("checkBtn");
 const nextBtn = document.getElementById("nextBtn");
 const newSetBtn = document.getElementById("newSetBtn");
-const practiceTitleEl = document.getElementById("practiceTitle");
-const practiceIntroEl = document.getElementById("practiceIntro");
 
-function getTopicFromUrl() {
+function getTopic() {
   const params = new URLSearchParams(window.location.search);
   return params.get("topic") || "binary";
-}
-
-function setupTopicText() {
-  const topic = getTopicFromUrl();
-  if (topic === "binary") {
-    practiceTitleEl.textContent = "Binary Practice";
-    practiceIntroEl.textContent = "Practise converting between denary and binary with instant feedback and working.";
-  }
 }
 
 function getMaxValue(difficulty) {
@@ -110,19 +100,36 @@ function binaryToDenaryWorking(binary) {
   ].join("\n");
 }
 
+function updateModeOptions() {
+  const topic = getTopic();
+  modeEl.innerHTML = "";
+
+  if (topic === "hex") {
+    modeEl.innerHTML = `
+      <option value="mixed">Mixed</option>
+      <option value="denToHex">Denary → Hex</option>
+      <option value="hexToDen">Hex → Denary</option>
+      <option value="binToHex">Binary → Hex</option>
+      <option value="hexToBin">Hex → Binary</option>
+    `;
+  } else {
+    modeEl.innerHTML = `
+      <option value="mixed">Mixed</option>
+      <option value="denToBin">Denary → Binary</option>
+      <option value="binToDen">Binary → Denary</option>
+    `;
+  }
+}
+
 function generateQuestion() {
   const difficulty = difficultyEl.value;
   const mode = modeEl.value;
-  const topic = new URLSearchParams(window.location.search).get("topic");
-
-  let max;
-  if (difficulty === "easy") max = 15;
-  else if (difficulty === "medium") max = 63;
-  else max = 255;
-
-  let num = Math.floor(Math.random() * (max + 1));
+  const topic = getTopic();
+  const max = getMaxValue(difficulty);
+  const num = randomInt(max);
 
   let chosenMode = mode;
+
   if (mode === "mixed") {
     if (topic === "hex") {
       const options = ["denToHex", "hexToDen", "binToHex", "hexToBin"];
@@ -133,57 +140,47 @@ function generateQuestion() {
   }
 
   feedbackEl.textContent = "";
+  feedbackEl.classList.remove("correct", "incorrect");
   answerEl.value = "";
   answerEl.focus();
 
-  // ===== HEX TOPIC =====
   if (topic === "hex") {
-
     if (chosenMode === "denToHex") {
       currentQuestionType = "denToHex";
       currentSourceValue = num;
       currentQuestion = `Convert ${num} to hexadecimal`;
       currentAnswer = num.toString(16).toUpperCase();
-    }
-
-    else if (chosenMode === "hexToDen") {
+    } else if (chosenMode === "hexToDen") {
       currentQuestionType = "hexToDen";
       currentSourceValue = num;
-      let hex = num.toString(16).toUpperCase();
+      const hex = num.toString(16).toUpperCase();
       currentQuestion = `Convert ${hex} to denary`;
-      currentAnswer = num.toString();
-    }
-
-    else if (chosenMode === "binToHex") {
+      currentAnswer = String(num);
+    } else if (chosenMode === "binToHex") {
       currentQuestionType = "binToHex";
       currentSourceValue = num;
-      let binary = num.toString(2).padStart(8, "0");
+      const binary = difficulty === "hard" ? padBinary(num.toString(2)) : num.toString(2);
       currentQuestion = `Convert ${binary} to hexadecimal`;
       currentAnswer = num.toString(16).toUpperCase();
-    }
-
-    else if (chosenMode === "hexToBin") {
+    } else if (chosenMode === "hexToBin") {
       currentQuestionType = "hexToBin";
       currentSourceValue = num;
-      let hex = num.toString(16).toUpperCase();
+      const hex = num.toString(16).toUpperCase();
       currentQuestion = `Convert ${hex} to binary`;
-      currentAnswer = num.toString(2).padStart(8, "0");
+      currentAnswer = difficulty === "hard" ? padBinary(num.toString(2)) : num.toString(2);
     }
-  }
-
-  // ===== BINARY TOPIC =====
-  else {
+  } else {
     if (chosenMode === "denToBin") {
       currentQuestionType = "denToBin";
       currentSourceValue = num;
       currentQuestion = `Convert ${num} to binary`;
-      currentAnswer = num.toString(2);
+      currentAnswer = difficulty === "hard" ? padBinary(num.toString(2)) : num.toString(2);
     } else {
       currentQuestionType = "binToDen";
       currentSourceValue = num;
-      let binary = num.toString(2);
+      const binary = difficulty === "hard" ? padBinary(num.toString(2)) : num.toString(2);
       currentQuestion = `Convert ${binary} to denary`;
-      currentAnswer = num.toString();
+      currentAnswer = String(num);
     }
   }
 
@@ -203,36 +200,26 @@ function checkAnswer() {
     const unpaddedAnswer = currentSourceValue.toString(2);
 
     isCorrect = normalisedUser === acceptedAnswer || normalisedUser === unpaddedAnswer;
-
     working = denaryToBinaryWorking(currentSourceValue, difficulty);
-  }
-
-  else if (currentQuestionType === "binToDen") {
+  } else if (currentQuestionType === "binToDen") {
     isCorrect = userAnswer === currentAnswer;
-
     const binaryShown = currentQuestion.match(/[01]+/)[0];
     working = binaryToDenaryWorking(binaryShown);
-  }
-
-  else if (currentQuestionType === "denToHex") {
+  } else if (currentQuestionType === "denToHex") {
     isCorrect = userAnswer.toUpperCase() === currentAnswer;
-
     working =
       `${currentSourceValue} ÷ 16 = ${Math.floor(currentSourceValue / 16)} remainder ${currentSourceValue % 16}\n\n` +
       `Answer: ${currentAnswer}`;
-  }
-
-  else if (currentQuestionType === "hexToDen") {
+  } else if (currentQuestionType === "hexToDen") {
     isCorrect = userAnswer === currentAnswer;
 
     const hexShown = currentQuestion.match(/[0-9A-F]+/i)[0].toUpperCase();
     const digits = hexShown.split("");
-    let values = [];
+    const values = [];
 
     for (let i = 0; i < digits.length; i++) {
-      let digit = digits[i];
-      let digitValue = parseInt(digit, 16);
-      let placeValue = Math.pow(16, digits.length - 1 - i);
+      const digitValue = parseInt(digits[i], 16);
+      const placeValue = Math.pow(16, digits.length - 1 - i);
       values.push(`${digitValue} × ${placeValue}`);
     }
 
@@ -240,22 +227,18 @@ function checkAnswer() {
       `Hex: ${hexShown}\n\n` +
       `Working:\n${values.join("\n")}\n\n` +
       `Answer: ${currentAnswer}`;
-  }
-
-  else if (currentQuestionType === "binToHex") {
+  } else if (currentQuestionType === "binToHex") {
     isCorrect = userAnswer.toUpperCase() === currentAnswer;
 
     const binaryShown = currentQuestion.match(/[01]+/)[0];
-    let paddedBinary = binaryShown.padStart(Math.ceil(binaryShown.length / 4) * 4, "0");
-    let grouped = paddedBinary.match(/.{1,4}/g);
+    const paddedBinary = binaryShown.padStart(Math.ceil(binaryShown.length / 4) * 4, "0");
+    const grouped = paddedBinary.match(/.{1,4}/g);
 
     working =
       `Binary: ${binaryShown}\n` +
       `Pad to groups of 4: ${grouped.join(" ")}\n\n` +
       `Answer: ${currentAnswer}`;
-  }
-
-  else if (currentQuestionType === "hexToBin") {
+  } else if (currentQuestionType === "hexToBin") {
     const normalisedUser = userAnswer.replace(/\s+/g, "");
     const correct = currentAnswer.replace(/\s+/g, "");
     const unpaddedCorrect = parseInt(currentQuestion.match(/[0-9A-F]+/i)[0], 16).toString(2);
@@ -263,7 +246,7 @@ function checkAnswer() {
     isCorrect = normalisedUser === correct || normalisedUser === unpaddedCorrect;
 
     const hexShown = currentQuestion.match(/[0-9A-F]+/i)[0].toUpperCase();
-    let binaryParts = hexShown.split("").map(d => parseInt(d, 16).toString(2).padStart(4, "0"));
+    const binaryParts = hexShown.split("").map(d => parseInt(d, 16).toString(2).padStart(4, "0"));
 
     working =
       `Hex: ${hexShown}\n\n` +
@@ -281,5 +264,17 @@ function checkAnswer() {
   feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
 }
 
-setupTopicText();
+checkBtn.addEventListener("click", checkAnswer);
+nextBtn.addEventListener("click", generateQuestion);
+newSetBtn.addEventListener("click", generateQuestion);
+difficultyEl.addEventListener("change", generateQuestion);
+modeEl.addEventListener("change", generateQuestion);
+
+answerEl.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    checkAnswer();
+  }
+});
+
+updateModeOptions();
 generateQuestion();
