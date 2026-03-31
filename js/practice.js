@@ -442,14 +442,18 @@ else if (currentQuestionType === "binShift") {
 
   const { binary, shift, registerSize } = currentSourceValue;
 
-  working =
-    `Register: ${registerSize} bits (fixed size)\n\n` +
-    `   ${binary}\n` +
-    `${shift === "left" ? "←" : "→"} shift\n` +
-    `   ${currentAnswer}\n\n` +
-    `Bits move ${shift}.\n` +
-    `A 0 is added on the ${shift === "left" ? "right" : "left"}.\n` +
-    `Number of bits stays the same.`;
+working =
+  `Register: ${registerSize} bits (fixed size)\n\n` +
+  `   ${binary}\n` +
+  `${shift === "left" ? "←" : "→"} shift\n` +
+  `   ${currentAnswer}\n\n` +
+  `Bits move ${shift}.\n` +
+  `A 0 is added on the ${shift === "left" ? "right" : "left"}.\n` +
+  `Number of bits stays the same.\n\n` +
+  `${shift === "left"
+    ? "This multiplies the value by 2."
+    : "This divides the value by 2 (integer division)."
+  }`;
 }
 
   feedbackEl.textContent =
