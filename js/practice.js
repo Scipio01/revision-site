@@ -183,8 +183,7 @@ if (topic === "binshift") {
 
   const binary = num.toString(2).padStart(registerSize, "0");
 
-  let shifted;
-  let shifted = binary;
+let shifted = binary;
 
 for (let i = 0; i < places; i++) {
   if (shift === "left") {
