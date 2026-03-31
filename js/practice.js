@@ -442,27 +442,14 @@ else if (currentQuestionType === "binShift") {
 
   const { binary, shift, registerSize } = currentSourceValue;
 
-if (shift === "left") {
   working =
     `Register: ${registerSize} bits (fixed size)\n\n` +
-    `Original: ${binary}\n\n` +
-    `Shift left by 1:\n` +
-    `${binary} → ${currentAnswer}\n\n` +
-    `All bits move left.\n` +
-    `Leftmost bit is lost.\n` +
-    `0 is added on the right.\n\n` +
+    `   ${binary}\n` +
+    `${shift === "left" ? "←" : "→"} shift\n` +
+    `   ${currentAnswer}\n\n` +
+    `Bits move ${shift}.\n` +
+    `A 0 is added on the ${shift === "left" ? "right" : "left"}.\n` +
     `Number of bits stays the same.`;
-} else {
-  working =
-    `Register: ${registerSize} bits (fixed size)\n\n` +
-    `Original: ${binary}\n\n` +
-    `Shift right by 1:\n` +
-    `${binary} → ${currentAnswer}\n\n` +
-    `All bits move right.\n` +
-    `Rightmost bit is lost.\n` +
-    `0 is added on the left.\n\n` +
-    `Number of bits stays the same.`;
-}
 }
 
   feedbackEl.textContent =
