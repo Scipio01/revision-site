@@ -19,10 +19,15 @@ document.addEventListener('DOMContentLoaded', async () => {
       <h3>${topic.name}</h3>
       <p class="muted">${topic.description}</p>
       <div class="actions">
-        <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
-        <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
-       ${topic.hasPractice ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>` : ''}
-      </div>
+  <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
+  <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
+  ${topic.id === 'datarep'
+    ? `<a class="btn-secondary button" href="data-representation.html">Open topic</a>`
+    : topic.hasPractice
+      ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>`
+      : ''
+  }
+</div>
     `;
     div.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setSelectedTopic(topic.id)));
     wrap.appendChild(div);
