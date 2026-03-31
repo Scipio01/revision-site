@@ -410,6 +410,7 @@ function showSummary() {
   feedbackEl.classList.remove("correct", "incorrect");
 
   answerEl.value = "";
+  answerEl.disabled = true;   // ← add this
   checkBtn.disabled = true;
 }
 
