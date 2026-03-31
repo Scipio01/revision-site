@@ -240,10 +240,17 @@ for (let i = 0; i < places; i++) {
     const registerSize = 4;
     const maxValue = Math.pow(2, registerSize) - 1;
   
-    const num1 = randomInt(maxValue + 1);
-    const num2 = randomInt(maxValue + 1);
-    const total = num1 + num2;
-    const overflow = total > maxValue;
+  let num1, num2, total, overflow;
+  
+  do {
+    num1 = randomInt(maxValue + 1);
+    num2 = randomInt(maxValue + 1);
+    total = num1 + num2;
+    overflow = total > maxValue;
+  } while (
+    (difficulty === "easy" && overflow && Math.random() < 0.7) ||
+    (difficulty === "medium" && !overflow && Math.random() < 0.7)
+  );
   
     const binary1 = num1.toString(2).padStart(registerSize, "0");
     const binary2 = num2.toString(2).padStart(registerSize, "0");
