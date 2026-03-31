@@ -193,7 +193,7 @@ if (topic === "binshift") {
   currentQuestionType = "binShift";
   currentSourceValue = { binary, shift, registerSize };
 
-  currentQuestion = `In a ${registerSize}-bit register, shift ${binary} ${shift} by 1`;
+  currentQuestion = `In a ${registerSize}-bit register, shift ${binary} ${shift} by ${places}`;
   currentAnswer = shifted;
 
   feedbackEl.textContent = "";
