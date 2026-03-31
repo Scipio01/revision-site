@@ -360,6 +360,7 @@ checkBtn.addEventListener("click", checkAnswer);
 nextBtn.addEventListener("click", () => {
   if (questionNumber >= totalQuestions) {
     nextBtn.disabled = true;
+    showSummary();
     return;
   }
 
@@ -397,6 +398,25 @@ answerEl.addEventListener("keydown", function (event) {
     checkAnswer();
   }
 });
+
+function showSummary() {
+  const totalAnswered = correctCount + incorrectCount;
+  const accuracy = totalAnswered > 0
+    ? Math.round((correctCount / totalAnswered) * 100)
+    : 0;
+
+  questionEl.textContent = "Set Complete!";
+  feedbackEl.textContent =
+    `Score: ${correctCount}/${totalAnswered}\n` +
+    `Accuracy: ${accuracy}%\n` +
+    `Best streak: ${bestStreak}`;
+
+  feedbackEl.classList.remove("correct", "incorrect");
+
+  answerEl.value = "";
+  checkBtn.disabled = true;
+}
+
 
 updateScoreDisplay();
 updatePracticeHeader();
