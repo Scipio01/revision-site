@@ -173,6 +173,32 @@ function generateQuestion() {
   const difficulty = difficultyEl.value;
   const mode = modeEl.value;
   const topic = getTopic();
+
+  if (topic === "binshift") {
+    const num = randomInt(15);
+    const shift = Math.random() < 0.5 ? "left" : "right";
+  
+    const binary = num.toString(2);
+    const shifted =
+      shift === "left"
+        ? (num << 1).toString(2)
+        : Math.floor(num / 2).toString(2);
+  
+    currentQuestionType = "binShift";
+    currentSourceValue = { num, shift };
+  
+    currentQuestion = `Shift ${binary} ${shift} by 1`;
+    currentAnswer = shifted;
+  
+    feedbackEl.textContent = "";
+    feedbackEl.classList.remove("correct", "incorrect");
+    answerEl.value = "";
+    answerEl.focus();
+  
+    questionEl.textContent = currentQuestion;
+    return;
+  }
+  
   if (topic === "binadd") {
     const num1 = randomInt(15);
     const num2 = randomInt(15);
