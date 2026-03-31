@@ -373,6 +373,7 @@ nextBtn.addEventListener("click", () => {
 
 
 newSetBtn.addEventListener("click", () => {
+  answerEl.disabled = false;
   checkBtn.disabled = false;
   nextBtn.disabled = false;
   questionNumber = 1;
