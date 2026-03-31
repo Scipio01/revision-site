@@ -184,11 +184,15 @@ if (topic === "binshift") {
   const binary = num.toString(2).padStart(registerSize, "0");
 
   let shifted;
+  let shifted = binary;
+
+for (let i = 0; i < places; i++) {
   if (shift === "left") {
-    shifted = binary.slice(1) + "0";
+    shifted = shifted.slice(1) + "0";
   } else {
-    shifted = "0" + binary.slice(0, -1);
+    shifted = "0" + shifted.slice(0, -1);
   }
+}
 
   currentQuestionType = "binShift";
   currentSourceValue = { binary, shift, registerSize };
