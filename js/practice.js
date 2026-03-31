@@ -352,7 +352,7 @@ if (isCorrect) {
 }
 
 updateScoreDisplay();
-  
+checkBtn.disabled = true;
 }
 
 checkBtn.addEventListener("click", checkAnswer);
