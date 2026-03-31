@@ -32,7 +32,7 @@ function updateScoreDisplay() {
   questionNumberEl.textContent = questionNumber;
   totalQuestionsEl.textContent = totalQuestions;
 }
-
+ 
 function updatePracticeHeader() {
   const topic = getTopic();
   const titleEl = document.getElementById("practiceTitle");
