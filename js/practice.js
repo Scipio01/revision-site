@@ -179,6 +179,7 @@ if (topic === "binshift") {
   const maxValue = Math.pow(2, registerSize) - 1;
   const num = randomInt(maxValue - 1) + 1;
   const shift = Math.random() < 0.5 ? "left" : "right";
+  const places = difficulty === "hard" ? (Math.random() < 0.5 ? 1 : 2) : 1;
 
   const binary = num.toString(2).padStart(registerSize, "0");
 
