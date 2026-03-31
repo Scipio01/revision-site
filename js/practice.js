@@ -420,6 +420,30 @@ function checkAnswer() {
   
       carry = total >= 2 ? 1 : 0;
     }
+
+    else if (currentQuestionType === "binShift") {
+    const normalisedUser = userAnswer.replace(/\s+/g, "");
+    isCorrect = normalisedUser === currentAnswer;
+  
+    const { num, shift } = currentSourceValue;
+    const binary = num.toString(2);
+  
+    if (shift === "left") {
+      working =
+        `Original: ${binary}\n\n` +
+        `Shift left by 1:\n` +
+        `${binary} → ${currentAnswer}\n\n` +
+        `A left shift moves all bits one place left and adds 0 on the right.\n` +
+        `This multiplies the value by 2.`;
+    } else {
+      working =
+        `Original: ${binary}\n\n` +
+        `Shift right by 1:\n` +
+        `${binary} → ${currentAnswer}\n\n` +
+        `A right shift moves all bits one place right.\n` +
+        `This divides the value by 2 and drops the rightmost bit.`;
+    }
+  }
   
     const carries = carryLine.join("");
   
