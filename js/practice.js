@@ -259,8 +259,15 @@ for (let i = 0; i < places; i++) {
   
   Answer Yes or No.`;
   
-    currentAnswer = overflow ? "yes" : "no";
-    return;
+  currentAnswer = overflow ? "yes" : "no";
+  
+  feedbackEl.textContent = "";
+  feedbackEl.classList.remove("correct", "incorrect");
+  answerEl.value = "";
+  answerEl.focus();
+  
+  questionEl.textContent = currentQuestion;
+  return;
   }
   const max = getMaxValue(difficulty);
   const num = randomInt(max);
