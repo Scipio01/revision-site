@@ -375,14 +375,14 @@ nextBtn.addEventListener("click", () => {
 
 newSetBtn.addEventListener("click", () => {
   checkBtn.disabled = false;
+  nextBtn.disabled = false;
   questionNumber = 1;
   correctCount = 0;
   incorrectCount = 0;
   currentStreak = 0;
   bestStreak = 0;
 
- updateScoreDisplay();
- checkBtn.disabled = true;
+  updateScoreDisplay();
   generateQuestion();
 });
 
