@@ -675,3 +675,28 @@ footer {
   font-weight: 600;
   font-size: 14px;
 }
+
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.topic-card {
+  display: block;
+  padding: 20px;
+  background: #f8fafc;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.topic-card:hover {
+  background: #e0f2fe;
+  transform: translateY(-2px);
+}
