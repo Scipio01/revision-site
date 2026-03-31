@@ -1,4 +1,13 @@
 [
+
+{
+  "id": "datarep",
+  "name": "Data Representation",
+  "level": "gcse",
+  "description": "Binary, hexadecimal and how data is represented in a computer.",
+  "hasPractice": false
+},
+  
   {
     "id": "binary",
     "name": "Binary Systems",
