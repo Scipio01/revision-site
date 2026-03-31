@@ -164,6 +164,28 @@ function generateQuestion() {
   const difficulty = difficultyEl.value;
   const mode = modeEl.value;
   const topic = getTopic();
+  if (topic === "binadd") {
+    const num1 = randomInt(15);
+    const num2 = randomInt(15);
+  
+    currentQuestionType = "binAdd";
+    currentSourceValue = { num1, num2 };
+  
+    const bin1 = num1.toString(2);
+    const bin2 = num2.toString(2);
+  
+    currentQuestion = `Add binary ${bin1} + ${bin2}`;
+    currentAnswer = (num1 + num2).toString(2);
+  
+    feedbackEl.textContent = "";
+    feedbackEl.classList.remove("correct", "incorrect");
+    answerEl.value = "";
+    answerEl.focus();
+  
+    questionEl.textContent = currentQuestion;
+    return;
+  }
+  
   const max = getMaxValue(difficulty);
   const num = randomInt(max);
  
