@@ -371,11 +371,11 @@ function checkAnswer() {
   const padded2 = bin2.padStart(width, "0");
   const paddedAnswer = currentAnswer.padStart(width, "0");
   
-  working =
-    `  ${padded1}\n` +
-    `+ ${padded2}\n` +
-    `-${"-".repeat(width)}\n` +
-    `  ${paddedAnswer}`;
+working =
+  `   ${padded1}\n` +
+  `+  ${padded2}\n` +
+  `   ${"-".repeat(width)}\n` +
+  `   ${paddedAnswer}`;
   }
 
   feedbackEl.textContent =
