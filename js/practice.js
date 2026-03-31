@@ -53,12 +53,19 @@ function updatePracticeHeader() {
   if (topic === "hex") {
     titleEl.textContent = "Hex Practice";
     introEl.textContent = "Practise converting between denary, binary and hexadecimal with instant feedback and working.";
-  } else {
-    titleEl.textContent = "Binary Practice";
-    introEl.textContent = "Practise converting between denary and binary with instant feedback and working.";
+    return;
   }
-}
 
+  if (topic === "overflow") {
+    titleEl.textContent = "Overflow Practice";
+    introEl.textContent = "Practise spotting when a result is too large to fit in the available bits.";
+    return;
+  }
+
+  // default
+  titleEl.textContent = "Binary Practice";
+  introEl.textContent = "Practise converting between denary and binary with instant feedback and working.";
+}
 
 function getTopic() {
   const params = new URLSearchParams(window.location.search);
