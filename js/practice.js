@@ -192,7 +192,7 @@ if (topic === "binshift") {
   currentQuestionType = "binShift";
   currentSourceValue = { binary, shift, registerSize };
 
-  currentQuestion = `Shift ${binary} ${shift} by 1`;
+  currentQuestion = `In a ${registerSize}-bit register, shift ${binary} ${shift} by 1`;
   currentAnswer = shifted;
 
   feedbackEl.textContent = "";
@@ -440,24 +440,25 @@ else if (currentQuestionType === "binShift") {
   const normalisedUser = userAnswer.replace(/\s+/g, "");
   isCorrect = normalisedUser === currentAnswer;
 
-  const { num, shift } = currentSourceValue;
-  const binary = num.toString(2);
+  const { binary, shift, registerSize } = currentSourceValue;
 
-  if (shift === "left") {
-    working =
-      `Original: ${binary}\n\n` +
-      `Shift left by 1:\n` +
-      `${binary} → ${currentAnswer}\n\n` +
-      `A left shift moves all bits one place left and adds 0 on the right.\n` +
-      `This multiplies the value by 2.`;
-  } else {
-    working =
-      `Original: ${binary}\n\n` +
-      `Shift right by 1:\n` +
-      `${binary} → ${currentAnswer}\n\n` +
-      `A right shift moves all bits one place right.\n` +
-      `This divides the value by 2 and drops the rightmost bit.`;
-  }
+if (shift === "left") {
+  working =
+    `Register: ${registerSize} bits\n\n` +
+    `Original: ${binary}\n\n` +
+    `Shift left by 1:\n` +
+    `${binary} → ${currentAnswer}\n\n` +
+    `All bits move one place left.\n` +
+    `The leftmost bit is lost and 0 is added on the right.`;
+} else {
+  working =
+    `Register: ${registerSize} bits\n\n` +
+    `Original: ${binary}\n\n` +
+    `Shift right by 1:\n` +
+    `${binary} → ${currentAnswer}\n\n` +
+    `All bits move one place right.\n` +
+    `The rightmost bit is lost and 0 is added on the left.`;
+}
 }
 
   feedbackEl.textContent =
