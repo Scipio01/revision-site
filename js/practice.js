@@ -38,7 +38,10 @@ function updatePracticeHeader() {
   const titleEl = document.getElementById("practiceTitle");
   const introEl = document.getElementById("practiceIntro");
 
-  if (topic === "hex") {
+  if (topic === "binadd") {
+    titleEl.textContent = "Binary Addition";
+    introEl.textContent = "Practise adding binary numbers with clear working.";
+  } else if (topic === "hex") {
     titleEl.textContent = "Hex Practice";
     introEl.textContent = "Practise converting between denary, binary and hexadecimal with instant feedback and working.";
   } else {
