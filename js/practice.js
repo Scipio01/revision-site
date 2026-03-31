@@ -515,16 +515,17 @@ working =
   const { binary1, binary2, registerSize, total, overflow } = currentSourceValue;
   const maxValue = Math.pow(2, registerSize) - 1;
 
-  working =
-    `   ${binary1}\n` +
-    `+  ${binary2}\n\n` +
-    `Register size: ${registerSize} bits\n` +
-    `Maximum value that fits: ${maxValue}\n` +
-    `Total in denary: ${total}\n\n` +
-    `${overflow
-      ? "The result is too large to fit in the available bits, so overflow occurs."
-      : "The result fits in the available bits, so no overflow occurs."
-    }`;
+working =
+  `   ${binary1}\n` +
+  `+  ${binary2}\n` +
+  `   -----\n\n` +
+  `Register size: ${registerSize} bits\n` +
+  `Maximum value (2^${registerSize} - 1): ${maxValue}\n` +
+  `Total (denary): ${total}\n\n` +
+  `${overflow
+    ? "Result is too large to fit in the available bits → OVERFLOW"
+    : "Result fits in the available bits → NO OVERFLOW"
+  }`;
 }
 
   
