@@ -355,6 +355,8 @@ updateScoreDisplay();
 checkBtn.disabled = true;
 }
 
+checkBtn.addEventListener("click", checkAnswer);
+
 nextBtn.addEventListener("click", () => {
   if (questionNumber >= totalQuestions) {
     nextBtn.disabled = true;
