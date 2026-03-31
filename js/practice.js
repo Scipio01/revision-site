@@ -359,8 +359,8 @@ checkBtn.addEventListener("click", checkAnswer);
 
 nextBtn.addEventListener("click", () => {
   if (questionNumber >= totalQuestions) {
-    nextBtn.disabled = true;
     showSummary();
+    nextBtn.disabled = true;
     return;
   }
 
@@ -368,10 +368,6 @@ nextBtn.addEventListener("click", () => {
   questionNumber++;
   updateScoreDisplay();
   generateQuestion();
-
-  if (questionNumber >= totalQuestions) {
-    nextBtn.disabled = true;
-  }
 });
 
 
