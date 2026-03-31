@@ -4,28 +4,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Data Representation</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/common.js"></script>
 </head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Data Representation</h1>
-      <p>Select a topic to revise</p>
+<body class="theme-ocean">
+  <header>
+    <div class="container navbar">
+      <div class="brand"><a href="index.html">CS Revision</a></div>
+      <div class="nav-stack">
+        <nav class="nav-links" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" href="topics.html">Topics</a>
+          <a class="nav-link" href="progress.html">Progress</a>
+        </nav>
+        <div class="nav-tools">
+          <select id="themeSelect" aria-label="Colour theme">
+            <option value="theme-ocean">Ocean</option>
+            <option value="theme-forest">Forest</option>
+            <option value="theme-lilac">Lilac</option>
+            <option value="theme-warm">Warm</option>
+          </select>
+          <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+        </div>
+      </div>
     </div>
   </header>
 
   <main class="container">
-    <div class="topic-grid">
-      <a class="topic-card" href="practice.html?topic=binary">Binary</a>
-      <a class="topic-card" href="practice.html?topic=hex">Hexadecimal</a>
-      <a class="topic-card" href="#">Binary Addition (coming soon)</a>
-      <a class="topic-card" href="#">Binary Shifts (coming soon)</a>
-      <a class="topic-card" href="#">Overflow (coming soon)</a>
-      <a class="topic-card" href="#">ASCII / Unicode (coming soon)</a>
-      <a class="topic-card" href="#">Images (coming soon)</a>
-      <a class="topic-card" href="#">Sound (coming soon)</a>
-      <a class="topic-card" href="#">Compression (coming soon)</a>
-    </div>
+    <section class="hero compact">
+      <div class="kicker">GCSE Topic</div>
+      <div class="page-head">
+        <div>
+          <h1>Data Representation</h1>
+          <p class="muted">Choose a subtopic to revise.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="topic-card">
+        <span class="badge">GCSE</span>
+        <h3>Binary</h3>
+        <p class="muted">Binary basics, place value and denary/binary conversion practice.</p>
+        <div class="actions">
+          <a class="btn-primary button" href="practice.html?topic=binary">Practice</a>
+        </div>
+      </div>
+
+      <div class="topic-card">
+        <span class="badge">GCSE</span>
+        <h3>Hexadecimal</h3>
+        <p class="muted">Hexadecimal system, conversions and uses.</p>
+        <div class="actions">
+          <a class="btn-primary button" href="practice.html?topic=hex">Practice</a>
+        </div>
+      </div>
+
+      <div class="topic-card">
+        <span class="badge">Coming soon</span>
+        <h3>Binary Addition</h3>
+        <p class="muted">Add binary numbers and show the working clearly.</p>
+        <div class="actions">
+          <a class="btn-secondary button" href="#">Coming soon</a>
+        </div>
+      </div>
+
+      <div class="topic-card">
+        <span class="badge">Coming soon</span>
+        <h3>Binary Shifts</h3>
+        <p class="muted">Left shifts, right shifts and multiplying/dividing by powers of 2.</p>
+        <div class="actions">
+          <a class="btn-secondary button" href="#">Coming soon</a>
+        </div>
+      </div>
+
+      <div class="topic-card">
+        <span class="badge">Coming soon</span>
+        <h3>Overflow</h3>
+        <p class="muted">Understand when a value cannot fit into the available bits.</p>
+        <div class="actions">
+          <a class="btn-secondary button" href="#">Coming soon</a>
+        </div>
+      </div>
+
+      <div class="topic-card">
+        <span class="badge">Coming soon</span>
+        <h3>ASCII / Unicode</h3>
+        <p class="muted">Character sets and how text is stored in a computer.</p>
+        <div class="actions">
+          <a class="btn-secondary button" href="#">Coming soon</a>
+        </div>
+      </div>
+
+      <div class="topic-card">
+        <span class="badge">Coming soon</span>
+        <h3>Images</h3>
+        <p class="muted">Pixels, resolution, colour depth and file size.</p>
+        <div class="actions">
+          <a class="btn-secondary button" href="#">Coming soon</a>
+        </div>
+      </div>
+
+      <div class="topic-card">
+        <span class="badge">Coming soon</span>
+        <h3>Sound</h3>
+        <p class="muted">Sample rate, sample resolution, bit rate and file size.</p>
+        <div class="actions">
+          <a class="btn-secondary button" href="#">Coming soon</a>
+        </div>
+      </div>
+
+      <div class="topic-card">
+        <span class="badge">Coming soon</span>
+        <h3>Compression</h3>
+        <p class="muted">Lossy and lossless compression and when each is used.</p>
+        <div class="actions">
+          <a class="btn-secondary button" href="#">Coming soon</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="container small">Choose a subtopic to continue.</footer>
 </body>
 </html>
