@@ -393,67 +393,67 @@ function checkAnswer() {
   }
 
   else if (currentQuestionType === "binAdd") {
-    const normalisedUser = userAnswer.replace(/\s+/g, "");
-    isCorrect = normalisedUser === currentAnswer;
-  
-    const { num1, num2 } = currentSourceValue;
-  
-    const bin1 = num1.toString(2);
-    const bin2 = num2.toString(2);
-  
-    const width = Math.max(bin1.length, bin2.length, currentAnswer.length);
-    const padded1 = bin1.padStart(width, "0");
-    const padded2 = bin2.padStart(width, "0");
-    const paddedAnswer = currentAnswer.padStart(width, "0");
-  
-    let carry = 0;
-    let carryLine = Array(width).fill(" ");
-  
-    for (let i = width - 1; i >= 0; i--) {
-      const bit1 = Number(padded1[i]);
-      const bit2 = Number(padded2[i]);
-      const total = bit1 + bit2 + carry;
-  
-      if (total >= 2 && i > 0) {
-        carryLine[i - 1] = "1";
-      }
-  
-      carry = total >= 2 ? 1 : 0;
+  const normalisedUser = userAnswer.replace(/\s+/g, "");
+  isCorrect = normalisedUser === currentAnswer;
+
+  const { num1, num2 } = currentSourceValue;
+
+  const bin1 = num1.toString(2);
+  const bin2 = num2.toString(2);
+
+  const width = Math.max(bin1.length, bin2.length, currentAnswer.length);
+  const padded1 = bin1.padStart(width, "0");
+  const padded2 = bin2.padStart(width, "0");
+  const paddedAnswer = currentAnswer.padStart(width, "0");
+
+  let carry = 0;
+  let carryLine = Array(width).fill(" ");
+
+  for (let i = width - 1; i >= 0; i--) {
+    const bit1 = Number(padded1[i]);
+    const bit2 = Number(padded2[i]);
+    const total = bit1 + bit2 + carry;
+
+    if (total >= 2 && i > 0) {
+      carryLine[i - 1] = "1";
     }
 
-    else if (currentQuestionType === "binShift") {
-    const normalisedUser = userAnswer.replace(/\s+/g, "");
-    isCorrect = normalisedUser === currentAnswer;
-  
-    const { num, shift } = currentSourceValue;
-    const binary = num.toString(2);
-  
-    if (shift === "left") {
-      working =
-        `Original: ${binary}\n\n` +
-        `Shift left by 1:\n` +
-        `${binary} → ${currentAnswer}\n\n` +
-        `A left shift moves all bits one place left and adds 0 on the right.\n` +
-        `This multiplies the value by 2.`;
-    } else {
-      working =
-        `Original: ${binary}\n\n` +
-        `Shift right by 1:\n` +
-        `${binary} → ${currentAnswer}\n\n` +
-        `A right shift moves all bits one place right.\n` +
-        `This divides the value by 2 and drops the rightmost bit.`;
-    }
+    carry = total >= 2 ? 1 : 0;
   }
-  
-    const carries = carryLine.join("");
-  
+
+  const carries = carryLine.join("");
+
+  working =
+    `   ${carries}\n` +
+    `   ${padded1}\n` +
+    `+  ${padded2}\n` +
+    `   ${"-".repeat(width)}\n` +
+    `   ${paddedAnswer}`;
+}
+
+else if (currentQuestionType === "binShift") {
+  const normalisedUser = userAnswer.replace(/\s+/g, "");
+  isCorrect = normalisedUser === currentAnswer;
+
+  const { num, shift } = currentSourceValue;
+  const binary = num.toString(2);
+
+  if (shift === "left") {
     working =
-      `   ${carries}\n` +
-      `   ${padded1}\n` +
-      `+  ${padded2}\n` +
-      `   ${"-".repeat(width)}\n` +
-      `   ${paddedAnswer}`;
+      `Original: ${binary}\n\n` +
+      `Shift left by 1:\n` +
+      `${binary} → ${currentAnswer}\n\n` +
+      `A left shift moves all bits one place left and adds 0 on the right.\n` +
+      `This multiplies the value by 2.`;
+  } else {
+    working =
+      `Original: ${binary}\n\n` +
+      `Shift right by 1:\n` +
+      `${binary} → ${currentAnswer}\n\n` +
+      `A right shift moves all bits one place right.\n` +
+      `This divides the value by 2 and drops the rightmost bit.`;
   }
+}
 
   feedbackEl.textContent =
     (isCorrect ? "✔ Correct!\n\n" : "✖ Incorrect.\n\n") +
