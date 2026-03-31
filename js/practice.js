@@ -175,7 +175,7 @@ function generateQuestion() {
   const topic = getTopic();
 
   if (topic === "binshift") {
-    const num = randomInt(15);
+    const num = randomInt(14) + 1;
     const shift = Math.random() < 0.5 ? "left" : "right";
   
     const binary = num.toString(2);
