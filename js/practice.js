@@ -236,7 +236,32 @@ for (let i = 0; i < places; i++) {
     questionEl.textContent = currentQuestion;
     return;
   }
+    if (topic === "overflow") {
+    const registerSize = 4;
+    const maxValue = Math.pow(2, registerSize) - 1;
   
+    const num1 = randomInt(maxValue + 1);
+    const num2 = randomInt(maxValue + 1);
+    const total = num1 + num2;
+    const overflow = total > maxValue;
+  
+    const binary1 = num1.toString(2).padStart(registerSize, "0");
+    const binary2 = num2.toString(2).padStart(registerSize, "0");
+  
+    currentQuestionType = "overflow";
+    currentSourceValue = { binary1, binary2, registerSize, total, overflow };
+  
+    currentQuestion = `A ${registerSize}-bit register is used.
+  
+  Will overflow occur when these binary numbers are added?
+  
+  ${binary1} + ${binary2}
+  
+  Answer Yes or No.`;
+  
+    currentAnswer = overflow ? "yes" : "no";
+    return;
+  }
   const max = getMaxValue(difficulty);
   const num = randomInt(max);
  
