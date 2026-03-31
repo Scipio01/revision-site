@@ -357,6 +357,22 @@ function checkAnswer() {
       `Answer: ${currentAnswer}`;
   }
 
+  else if (currentQuestionType === "binAdd") {
+    const normalisedUser = userAnswer.replace(/\s+/g, "");
+    isCorrect = normalisedUser === currentAnswer;
+  
+    const { num1, num2 } = currentSourceValue;
+  
+    const bin1 = num1.toString(2);
+    const bin2 = num2.toString(2);
+
+  working =
+    `  ${bin1}\n` +
+    `+ ${bin2}\n` +
+    `--------\n` +
+    `  ${currentAnswer}`;
+  }
+
   feedbackEl.textContent =
     (isCorrect ? "✔ Correct!\n\n" : "✖ Incorrect.\n\n") +
     "Working:\n" +
