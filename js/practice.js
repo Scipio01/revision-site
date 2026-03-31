@@ -174,30 +174,35 @@ function generateQuestion() {
   const mode = modeEl.value;
   const topic = getTopic();
 
-  if (topic === "binshift") {
-    const num = randomInt(30) + 1;
-    const shift = Math.random() < 0.5 ? "left" : "right";
-  
-    const binary = num.toString(2);
-    const shifted =
-      shift === "left"
-        ? (num << 1).toString(2)
-        : Math.floor(num / 2).toString(2);
-  
-    currentQuestionType = "binShift";
-    currentSourceValue = { num, shift };
-  
-    currentQuestion = `Shift ${binary} ${shift} by 1`;
-    currentAnswer = shifted;
-  
-    feedbackEl.textContent = "";
-    feedbackEl.classList.remove("correct", "incorrect");
-    answerEl.value = "";
-    answerEl.focus();
-  
-    questionEl.textContent = currentQuestion;
-    return;
+if (topic === "binshift") {
+  const registerSize = difficulty === "hard" ? 8 : 4;
+  const maxValue = Math.pow(2, registerSize) - 1;
+  const num = randomInt(maxValue - 1) + 1;
+  const shift = Math.random() < 0.5 ? "left" : "right";
+
+  const binary = num.toString(2).padStart(registerSize, "0");
+
+  let shifted;
+  if (shift === "left") {
+    shifted = binary.slice(1) + "0";
+  } else {
+    shifted = "0" + binary.slice(0, -1);
   }
+
+  currentQuestionType = "binShift";
+  currentSourceValue = { binary, shift, registerSize };
+
+  currentQuestion = `Shift ${binary} ${shift} by 1`;
+  currentAnswer = shifted;
+
+  feedbackEl.textContent = "";
+  feedbackEl.classList.remove("correct", "incorrect");
+  answerEl.value = "";
+  answerEl.focus();
+
+  questionEl.textContent = currentQuestion;
+  return;
+}
   
   if (topic === "binadd") {
     const num1 = randomInt(15);
