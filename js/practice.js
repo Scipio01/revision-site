@@ -444,20 +444,24 @@ else if (currentQuestionType === "binShift") {
 
 if (shift === "left") {
   working =
-    `Register: ${registerSize} bits\n\n` +
+    `Register: ${registerSize} bits (fixed size)\n\n` +
     `Original: ${binary}\n\n` +
     `Shift left by 1:\n` +
     `${binary} → ${currentAnswer}\n\n` +
-    `All bits move one place left.\n` +
-    `The leftmost bit is lost and 0 is added on the right.`;
+    `All bits move left.\n` +
+    `Leftmost bit is lost.\n` +
+    `0 is added on the right.\n\n` +
+    `Number of bits stays the same.`;
 } else {
   working =
-    `Register: ${registerSize} bits\n\n` +
+    `Register: ${registerSize} bits (fixed size)\n\n` +
     `Original: ${binary}\n\n` +
     `Shift right by 1:\n` +
     `${binary} → ${currentAnswer}\n\n` +
-    `All bits move one place right.\n` +
-    `The rightmost bit is lost and 0 is added on the left.`;
+    `All bits move right.\n` +
+    `Rightmost bit is lost.\n` +
+    `0 is added on the left.\n\n` +
+    `Number of bits stays the same.`;
 }
 }
 
