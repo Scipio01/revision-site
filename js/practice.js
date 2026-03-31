@@ -363,14 +363,19 @@ function checkAnswer() {
   
     const { num1, num2 } = currentSourceValue;
   
-    const bin1 = num1.toString(2);
-    const bin2 = num2.toString(2);
-
+  const bin1 = num1.toString(2);
+  const bin2 = num2.toString(2);
+  
+  const width = Math.max(bin1.length, bin2.length, currentAnswer.length);
+  const padded1 = bin1.padStart(width, "0");
+  const padded2 = bin2.padStart(width, "0");
+  const paddedAnswer = currentAnswer.padStart(width, "0");
+  
   working =
-    `  ${bin1}\n` +
-    `+ ${bin2}\n` +
-    `--------\n` +
-    `  ${currentAnswer}`;
+    `  ${padded1}\n` +
+    `+ ${padded2}\n` +
+    `-${"-".repeat(width)}\n` +
+    `  ${paddedAnswer}`;
   }
 
   feedbackEl.textContent =
