@@ -193,6 +193,11 @@ function generateQuestion() {
   const mode = modeEl.value;
   const topic = getTopic();
 
+    feedbackEl.textContent = "";
+    feedbackEl.classList.remove("correct", "incorrect");
+    answerEl.value = "";
+    answerEl.focus();
+
     if (topic === "text") {
     currentQuestion = "How many bits are used to represent a character in standard ASCII?";
     currentAnswer = "7";
@@ -228,10 +233,7 @@ function generateQuestion() {
     currentQuestion = `In a ${registerSize}-bit register, shift ${binary} ${shift} by ${places}`;
     currentAnswer = shifted;
 
-    feedbackEl.textContent = "";
-    feedbackEl.classList.remove("correct", "incorrect");
-    answerEl.value = "";
-    answerEl.focus();
+
 
     questionEl.textContent = currentQuestion;
     return;
