@@ -281,7 +281,7 @@ for (let i = 0; i < places; i++) {
   answerEl.value = "";
   answerEl.focus();
   
-  questionEl.textContent = currentQuestion;
+   questionEl.innerHTML = currentQuestion;
   return;
   }
   const max = getMaxValue(difficulty);
