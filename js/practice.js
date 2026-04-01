@@ -267,8 +267,10 @@ function generateQuestion() {
 
 When these binary numbers are added, will overflow occur?
 
-${binary1}
-+ ${binary2.padStart(binary1.length, " ")}
+<span class="binary">
+   ${binary1}
++  ${binary2}
+</span>
 
 (Overflow means the result is too large to fit in ${registerSize} bits)
 
