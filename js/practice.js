@@ -243,19 +243,73 @@ function generateQuestion() {
     return;
   }
 
-    if (topic === "twos") {
-      const registerSize = 8;
-    
-      const maxPositive = Math.pow(2, registerSize - 1) - 1;
-    
-      let num;
+if (topic === "twos") {
+  const registerSize = 8;
 
-        if (difficulty === "easy") {
-      // small numbers (1–20) + easy +1 (no carry)
-      do {
-        num = randomInt(19) + 1; // 1–20
-      } while (num % 2 === 0);   // ensure odd
+  const maxPositive = Math.pow(2, registerSize - 1) - 1;
+
+  let num;
+
+  if (difficulty === "easy") {
+    do {
+      num = randomInt(19) + 1; // 1–20
+    } while (num % 2 === 0);
+  }
+
+  else if (difficulty === "medium") {
+    num = randomInt(maxPositive) + 1;
+    if (num === 1) num = 2;
+  }
+
+  else {
+    num = randomInt(maxPositive) + 1;
+  }
+
+  const negative = -num;
+
+  // 👉 randomly choose direction
+  const reverse = Math.random() < 0.5;
+
+  if (!reverse) {
+    // NORMAL (you already had this)
+    currentQuestionType = "twos";
+    currentSourceValue = { num, registerSize };
+
+    currentQuestion = `Convert ${negative} into ${registerSize}-bit two’s complement binary.`;
+
+    let binary = num.toString(2).padStart(registerSize, "0");
+    let inverted = binary.split("").map(b => b === "0" ? "1" : "0").join("");
+    let twos = (parseInt(inverted, 2) + 1)
+      .toString(2)
+      .padStart(registerSize, "0");
+
+    currentAnswer = twos;
+  }
+
+    else {
+      //  reverse conversion
+      let binary = num.toString(2).padStart(registerSize, "0");
+      let inverted = binary.split("").map(b => b === "0" ? "1" : "0").join("");
+      let twos = (parseInt(inverted, 2) + 1)
+        .toString(2)
+        .padStart(registerSize, "0");
+  
+      currentQuestionType = "twosToDen";
+      currentSourceValue = { binary: twos, registerSize, num };
+  
+      currentQuestion = `Convert ${twos} (${registerSize}-bit two’s complement) to denary.`;
+  
+      currentAnswer = String(negative);
     }
+
+  feedbackEl.textContent = "";
+  feedbackEl.classList.remove("correct", "incorrect");
+  answerEl.value = "";
+  answerEl.focus();
+
+  questionEl.textContent = currentQuestion;
+  return;
+}
     
     else if (difficulty === "medium") {
       // avoid trivial + avoid worst cases
