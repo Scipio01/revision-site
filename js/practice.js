@@ -542,6 +542,7 @@ function checkAnswer() {
 
   else if (currentQuestionType === "binShift") {
     const normalisedUser = userAnswer.replace(/\s+/g, "");
+    const wrongBitLength = normalisedUser.length !== registerSize;
     isCorrect = normalisedUser === currentAnswer;
 
     const { binary, shift, registerSize } = currentSourceValue;
@@ -575,20 +576,21 @@ function checkAnswer() {
         .toString(2)
         .padStart(registerSize, "0");
     
-working =
-  `Use ${registerSize} bits at every step (given in the question).\n\n` +
-
-  `Step 1: Write +${num} in binary\n` +
-  `${positiveBinary}\n\n` +
-
-  `Step 2: Invert the bits\n` +
-  `${inverted}\n\n` +
-
-  `Step 3: Add 1\n` +
-  `${inverted}\n` +
-  `+0001\n` +
-  `-----\n` +
-  `${twos}`;
+    working =
+      `${wrongBitLength ? `Your answer must use ${registerSize} bits.\n\n` : ""}` +
+      `Use ${registerSize} bits at every step (given in the question).\n\n` +
+    
+      `Step 1: Write +${num} in binary\n` +
+      `${positiveBinary}\n\n` +
+    
+      `Step 2: Invert the bits\n` +
+      `${inverted}\n\n` +
+    
+      `Step 3: Add 1\n` +
+      `${inverted}\n` +
+      `+0001\n` +
+      `-----\n` +
+      `${twos}`;
 
     }
     
