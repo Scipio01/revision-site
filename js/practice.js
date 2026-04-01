@@ -267,8 +267,10 @@ for (let i = 0; i < places; i++) {
 
     When these binary numbers are added, will overflow occur?
     
-    <pre class="binary-block">${binary1}
-    + ${binary2}</pre>
+    <pre class="binary-block">
+      ${binary1}
+    + ${binary2}
+    </pre>
     
     (Overflow means the result is too large to fit in ${registerSize} bits)
     
@@ -521,18 +523,17 @@ working =
   const { binary1, binary2, registerSize, total, overflow } = currentSourceValue;
   const maxValue = Math.pow(2, registerSize) - 1;
 
-working =
-  `   ${binary1}\n` +
-  `+  ${binary2}\n` +
-  `   -----\n\n` +
-  `Register size: ${registerSize} bits\n` +
-  `Maximum value (2^${registerSize} - 1): ${maxValue}\n` +
-  `Total (denary): ${total}\n\n` +
-  `${overflow
-    ? "Result is too large to fit in the available bits → OVERFLOW"
-    : "Result fits in the available bits → NO OVERFLOW"
-  }`;
-}
+  working =
+    `   ${binary1}\n` +
+    `+  ${binary2}\n` +
+    `   -----\n\n` +
+    `Register size: ${registerSize} bits\n` +
+    `Largest value that can be stored: ${maxValue}\n` +
+    `Total (denary): ${total}\n\n` +
+    `${overflow
+      ? "The result is bigger than the largest value that can be stored, so overflow occurs."
+      : "The result is within the range that can be stored, so no overflow occurs."
+    }`;
 
   
   feedbackEl.textContent =
