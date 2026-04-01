@@ -244,11 +244,29 @@ function generateQuestion() {
   }
 
     if (topic === "twos") {
-      const registerSize = difficulty === "hard" ? 8 : 4;
+      const registerSize = 8;
     
       const maxPositive = Math.pow(2, registerSize - 1) - 1;
     
-      const num = randomInt(maxPositive) + 1; // avoid 0
+      let num;
+
+    if (difficulty === "easy") {
+      // choose numbers ending in 1 → invert ends in 0 → easy +1
+      do {
+        num = randomInt(maxPositive) + 1;
+      } while (num % 2 === 0);
+    }
+    
+    else if (difficulty === "medium") {
+      // avoid trivial + avoid worst cases
+      num = randomInt(maxPositive) + 1;
+      if (num === 1) num = 2;
+    }
+    
+    else {
+      // hard → include tricky carry chains (like 1)
+      num = randomInt(maxPositive) + 1;
+    }
       const negative = -num;
     
       currentQuestionType = "twos";
