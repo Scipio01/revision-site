@@ -25,6 +25,11 @@
   --shadow-soft: 0 8px 20px rgba(16, 24, 40, 0.05);
 }
 
+.binary {
+  font-family: Consolas, "Courier New", monospace;
+  display: inline-block;
+}
+
 body.dark {
   --bg: #09111f;
   --bg-accent: #10233f;
