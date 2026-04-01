@@ -619,13 +619,14 @@ button:disabled {
 }
 
 .question-text {
+  line-height: 1.6;
   font-size: 1.3rem;
   margin-bottom: 12px;
   font-weight: 500;   /* softer */
   color: var(--heading);
   text-align: center;
   white-space: pre-line;
-  line-height: 1.5;   /*improve readability */
+  
 }
 
 .button-row {
