@@ -250,11 +250,11 @@ function generateQuestion() {
     
       let num;
 
-    if (difficulty === "easy") {
-      // choose numbers ending in 1 → invert ends in 0 → easy +1
+        if (difficulty === "easy") {
+      // small numbers (1–20) + easy +1 (no carry)
       do {
-        num = randomInt(maxPositive) + 1;
-      } while (num % 2 === 0);
+        num = randomInt(19) + 1; // 1–20
+      } while (num % 2 === 0);   // ensure odd
     }
     
     else if (difficulty === "medium") {
