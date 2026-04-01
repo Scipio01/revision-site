@@ -240,46 +240,56 @@ for (let i = 0; i < places; i++) {
     const registerSize = 4;
     const maxValue = Math.pow(2, registerSize) - 1;
   
-  let num1, num2, total, overflow;
   
+  
+if (topic === "overflow") {
+  const registerSize = 4;
+  const maxValue = Math.pow(2, registerSize) - 1;
+
+  let num1, num2, total, overflow;
+
   do {
     num1 = randomInt(maxValue + 1);
     num2 = randomInt(maxValue + 1);
-  
-    // 🚫 avoid 0 + 0
+
     if (num1 === 0 && num2 === 0) continue;
-  
+
     total = num1 + num2;
     overflow = total > maxValue;
-  
+
   } while (
     (difficulty === "easy" && overflow && Math.random() < 0.7) ||
     (difficulty === "medium" && !overflow && Math.random() < 0.7)
   );
+
+  const binary1 = num1.toString(2).padStart(registerSize, "0");
+  const binary2 = num2.toString(2).padStart(registerSize, "0");
+
+  currentQuestionType = "overflow";
+  currentSourceValue = { binary1, binary2, registerSize, total, overflow };
+
+    currentQuestion = `A ${registerSize}-bit register is used.
   
-    const binary1 = num1.toString(2).padStart(registerSize, "0");
-    const binary2 = num2.toString(2).padStart(registerSize, "0");
+  When these binary numbers are added, will overflow occur?
   
-    currentQuestionType = "overflow";
-    currentSourceValue = { binary1, binary2, registerSize, total, overflow };
+  ${binary1}
+  + ${binary2}
   
-  currentQuestion =
-  "A " + registerSize + "-bit register is used.\n\n" +
-  "When these binary numbers are added, will overflow occur?\n\n" +
-  "<pre class='binary-block'>" + binary1 + "\n+ " + binary2 + "</pre>\n\n" +
-  "(Overflow means the result is too large to fit in " + registerSize + " bits)\n\n" +
-  "Answer Yes or No.";
-    
-  currentAnswer = overflow ? "yes" : "no";
+  (Overflow means the result is too large to fit in ${registerSize} bits)
   
+  Answer Yes or No.`;
+  
+    currentAnswer = overflow ? "yes" : "no";
+
   feedbackEl.textContent = "";
   feedbackEl.classList.remove("correct", "incorrect");
   answerEl.value = "";
   answerEl.focus();
-  
-   questionEl.innerHTML = currentQuestion;
+
+  questionEl.textContent = currentQuestion;
   return;
-  }
+}
+      
   const max = getMaxValue(difficulty);
   const num = randomInt(max);
  
