@@ -1,93 +1,110 @@
-
 [
   {
-    "question": "What is a character?",
-    "options": [
-      "A type of file",
-      "A letter, number or symbol",
-      "A binary number",
-      "A database field"
-    ],
-    "answer": 1
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "What is a character?",
+      "correct": "A letter, number or symbol",
+      "wrong": [
+        "A type of file",
+        "A binary number",
+        "A database field"
+      ]
+    }
   },
   {
-    "question": "What is a character set?",
-    "options": [
-      "A set of characters where each has a unique binary code",
-      "A group of files",
-      "A type of memory",
-      "A programming language"
-    ],
-    "answer": 0
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "What is a character set?",
+      "correct": "A set of characters where each has a unique binary code",
+      "wrong": [
+        "A group of files",
+        "A type of memory",
+        "A programming language"
+      ]
+    }
   },
   {
-    "question": "How is text stored in a computer?",
-    "options": [
-      "As images",
-      "As sound",
-      "As binary",
-      "As colours"
-    ],
-    "answer": 2
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "How is text stored in a computer?",
+      "correct": "As binary",
+      "wrong": [
+        "As images",
+        "As sound",
+        "As colours"
+      ]
+    }
   },
   {
-    "question": "How many bits are used in standard ASCII?",
-    "options": [
-      "4",
-      "7",
-      "8",
-      "16"
-    ],
-    "answer": 1
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "How many bits are used in standard ASCII?",
+      "correct": "7",
+      "wrong": [
+        "4",
+        "8",
+        "16"
+      ]
+    }
   },
   {
-    "question": "What is a limitation of ASCII?",
-    "options": [
-      "It uses too many bits",
-      "It cannot store numbers",
-      "It does not contain enough characters",
-      "It is too fast"
-    ],
-    "answer": 2
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "What is a limitation of ASCII?",
+      "correct": "It does not contain enough characters",
+      "wrong": [
+        "It uses too many bits",
+        "It cannot store numbers",
+        "It is too fast"
+      ]
+    }
   },
   {
-    "question": "What is Unicode?",
-    "options": [
-      "A type of CPU",
-      "A binary system",
-      "A file format",
-      "A character set that supports many characters"
-    ],
-    "answer": 3
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "What is Unicode?",
+      "correct": "A character set that supports many characters",
+      "wrong": [
+        "A type of CPU",
+        "A binary system",
+        "A file format"
+      ]
+    }
   },
   {
-    "question": "Why is Unicode needed?",
-    "options": [
-      "To reduce file size",
-      "To speed up computers",
-      "To represent many languages and symbols",
-      "To store images"
-    ],
-    "answer": 2
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "Why is Unicode needed?",
+      "correct": "To represent many languages and symbols",
+      "wrong": [
+        "To reduce file size",
+        "To speed up computers",
+        "To store images"
+      ]
+    }
   },
   {
-    "question": "Which character set supports emojis?",
-    "options": [
-      "Unicode",
-      "ASCII",
-      "Binary",
-      "Hexadecimal"
-    ],
-    "answer": 0
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "Which character set supports emojis?",
+      "correct": "Unicode",
+      "wrong": [
+        "ASCII",
+        "Binary",
+        "Hexadecimal"
+      ]
+    }
   },
   {
-    "question": "What is the effect of Unicode using more bits per character?",
-    "options": [
-      "Smaller file size",
-      "Larger file size",
-      "Faster processing",
-      "Less storage needed"
-    ],
-    "answer": 1
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "What is the effect of Unicode using more bits per character?",
+      "correct": "Larger file size",
+      "wrong": [
+        "Smaller file size",
+        "Faster processing",
+        "Less storage needed"
+      ]
+    }
   }
 ]
