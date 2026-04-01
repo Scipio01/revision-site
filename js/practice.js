@@ -56,6 +56,12 @@ function updatePracticeHeader() {
     return;
   }
 
+  if (topic === "twos") {
+    titleEl.textContent = "Two’s Complement";
+    introEl.textContent = "Practise converting negative denary numbers into binary using two’s complement.";
+    return;
+  }
+  
   if (topic === "overflow") {
     titleEl.textContent = "Overflow Practice";
     introEl.textContent = "Practise spotting when a result is too large to fit in the available bits.";
@@ -554,6 +560,35 @@ function checkAnswer() {
       }`;
   }
 
+    else if (currentQuestionType === "twos") {
+      const normalisedUser = userAnswer.replace(/\s+/g, "");
+      isCorrect = normalisedUser === currentAnswer;
+    
+      const { num, registerSize } = currentSourceValue;
+    
+      const positiveBinary = num.toString(2).padStart(registerSize, "0");
+      const inverted = positiveBinary
+        .split("")
+        .map(b => b === "0" ? "1" : "0")
+        .join("");
+      const twos = (parseInt(inverted, 2) + 1)
+        .toString(2)
+        .padStart(registerSize, "0");
+    
+      working =
+        `Step 1: Write +${num} in binary\n` +
+        `${positiveBinary}\n\n` +
+        `Step 2: Invert the bits\n` +
+        `${inverted}\n\n` +
+        `Step 3: Add 1\n` +
+        `${inverted}\n` +
+        `+0001\n` +
+        `-----\n` +
+        `${twos}`;
+    }
+
+
+    
   else if (currentQuestionType === "overflow") {
     const normalisedUser = userAnswer.trim().toLowerCase();
     isCorrect = normalisedUser === currentAnswer;
