@@ -264,11 +264,11 @@ for (let i = 0; i < places; i++) {
     currentSourceValue = { binary1, binary2, registerSize, total, overflow };
   
     currentQuestion = `A ${registerSize}-bit register is used.
-  
+
     When these binary numbers are added, will overflow occur?
     
-    ${binary1}
-    + ${binary2}
+    <pre class="binary-block">${binary1}
+    + ${binary2}</pre>
     
     (Overflow means the result is too large to fit in ${registerSize} bits)
     
