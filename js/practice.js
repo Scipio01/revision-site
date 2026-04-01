@@ -193,6 +193,16 @@ function generateQuestion() {
   const mode = modeEl.value;
   const topic = getTopic();
 
+    if (topic === "text") {
+    currentQuestion = "How many bits are used to represent a character in standard ASCII?";
+    currentAnswer = "7";
+    currentQuestionType = "asciiBits";
+  
+    questionEl.textContent = currentQuestion;
+    return;
+  }
+
+
   if (topic === "binshift") {
     const registerSize = difficulty === "hard" ? 8 : 4;
     const maxValue = Math.pow(2, registerSize) - 1;
@@ -385,6 +395,8 @@ Answer Yes or No.`;
     }
   }
 
+
+  
   feedbackEl.textContent = "";
   feedbackEl.classList.remove("correct", "incorrect");
   answerEl.value = "";
