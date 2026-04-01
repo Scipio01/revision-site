@@ -268,7 +268,7 @@ function generateQuestion() {
 When these binary numbers are added, will overflow occur?
 
 <span class="binary">
-   ${binary1}
+     ${binary1}
 +  ${binary2}
 </span>
 
