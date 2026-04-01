@@ -262,7 +262,8 @@ for (let i = 0; i < places; i++) {
   
   When these binary numbers are added, will overflow occur?
   
-  ${binary1} + ${binary2}
+    ${binary1}
+  + ${binary2}
   
   (Overflow means the result is too large to fit in ${registerSize} bits)
   
