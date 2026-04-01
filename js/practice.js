@@ -71,6 +71,7 @@ function updatePracticeHeader() {
   if (topic === "text") {
     titleEl.textContent = "ASCII / Unicode Practice";
     introEl.textContent = "Practise ASCII values, Unicode, and how text is represented in binary.";
+    return;
   }
   
   // default
