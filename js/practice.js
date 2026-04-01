@@ -68,6 +68,11 @@ function updatePracticeHeader() {
     return;
   }
 
+  if (topic === "text") {
+    titleEl.textContent = "ASCII / Unicode Practice";
+    introEl.textContent = "Practise ASCII values, Unicode, and how text is represented in binary.";
+  }
+  
   // default
   titleEl.textContent = "Binary Practice";
   introEl.textContent = "Practise converting between denary and binary with instant feedback and working.";
