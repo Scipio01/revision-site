@@ -1,1 +1,93 @@
 
+[
+  {
+    "question": "What is a character?",
+    "options": [
+      "A type of file",
+      "A letter, number or symbol",
+      "A binary number",
+      "A database field"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is a character set?",
+    "options": [
+      "A set of characters where each has a unique binary code",
+      "A group of files",
+      "A type of memory",
+      "A programming language"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How is text stored in a computer?",
+    "options": [
+      "As images",
+      "As sound",
+      "As binary",
+      "As colours"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How many bits are used in standard ASCII?",
+    "options": [
+      "4",
+      "7",
+      "8",
+      "16"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is a limitation of ASCII?",
+    "options": [
+      "It uses too many bits",
+      "It cannot store numbers",
+      "It does not contain enough characters",
+      "It is too fast"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is Unicode?",
+    "options": [
+      "A type of CPU",
+      "A binary system",
+      "A file format",
+      "A character set that supports many characters"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Why is Unicode needed?",
+    "options": [
+      "To reduce file size",
+      "To speed up computers",
+      "To represent many languages and symbols",
+      "To store images"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which character set supports emojis?",
+    "options": [
+      "Unicode",
+      "ASCII",
+      "Binary",
+      "Hexadecimal"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the effect of Unicode using more bits per character?",
+    "options": [
+      "Smaller file size",
+      "Larger file size",
+      "Faster processing",
+      "Less storage needed"
+    ],
+    "answer": 1
+  }
+]
