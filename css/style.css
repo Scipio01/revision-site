@@ -28,6 +28,7 @@
 .binary {
   font-family: Consolas, "Courier New", monospace;
   display: inline-block;
+  line-height: 1.4;   
 }
 
 body.dark {
