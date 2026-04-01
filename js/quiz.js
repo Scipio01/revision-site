@@ -111,7 +111,7 @@ async function showPracticeLinkIfAvailable(topic) {
 
 document.addEventListener('DOMContentLoaded', async () => {
   const topic = getSelectedTopic();
-  const res = await fetch(`data/${topic}.json`);
+  const res = await fetch(`data/${topic}-quiz.json`);
   questions = await res.json();
   renderQuestion();
   await showPracticeLinkIfAvailable(topic);
