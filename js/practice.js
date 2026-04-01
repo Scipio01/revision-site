@@ -262,14 +262,16 @@ function generateQuestion() {
 
     currentQuestionType = "overflow";
     currentSourceValue = { binary1, binary2, registerSize, total, overflow };
-
+const width = Math.max(binary1.length, binary2.length);
     currentQuestion = `A ${registerSize}-bit register is used.
 
 When these binary numbers are added, will overflow occur?
 
+
+
 <span class="binary">
-${binary1.padStart(Math.max(binary1.length, binary2.length), " ")}
-+ ${binary2.padStart(Math.max(binary1.length, binary2.length), " ")}
+${binary1.padStart(width + 1, " ")}
+${("+" + binary2).padStart(width + 1, " ")}
 </span>
 
 (Overflow means the result is too large to fit in ${registerSize} bits)
