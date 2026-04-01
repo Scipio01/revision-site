@@ -181,119 +181,112 @@ function generateQuestion() {
   const mode = modeEl.value;
   const topic = getTopic();
 
-if (topic === "binshift") {
-  const registerSize = difficulty === "hard" ? 8 : 4;
-  const maxValue = Math.pow(2, registerSize) - 1;
-  const num = randomInt(maxValue - 1) + 1;
-  const shift = Math.random() < 0.5 ? "left" : "right";
-  const places = difficulty === "hard" ? (Math.random() < 0.5 ? 1 : 2) : 1;
+  if (topic === "binshift") {
+    const registerSize = difficulty === "hard" ? 8 : 4;
+    const maxValue = Math.pow(2, registerSize) - 1;
+    const num = randomInt(maxValue - 1) + 1;
+    const shift = Math.random() < 0.5 ? "left" : "right";
+    const places = difficulty === "hard" ? (Math.random() < 0.5 ? 1 : 2) : 1;
 
-  const binary = num.toString(2).padStart(registerSize, "0");
+    const binary = num.toString(2).padStart(registerSize, "0");
 
-let shifted = binary;
+    let shifted = binary;
 
-for (let i = 0; i < places; i++) {
-  if (shift === "left") {
-    shifted = shifted.slice(1) + "0";
-  } else {
-    shifted = "0" + shifted.slice(0, -1);
-  }
-}
+    for (let i = 0; i < places; i++) {
+      if (shift === "left") {
+        shifted = shifted.slice(1) + "0";
+      } else {
+        shifted = "0" + shifted.slice(0, -1);
+      }
+    }
 
-  currentQuestionType = "binShift";
-  currentSourceValue = { binary, shift, registerSize };
+    currentQuestionType = "binShift";
+    currentSourceValue = { binary, shift, registerSize };
 
-  currentQuestion = `In a ${registerSize}-bit register, shift ${binary} ${shift} by ${places}`;
-  currentAnswer = shifted;
+    currentQuestion = `In a ${registerSize}-bit register, shift ${binary} ${shift} by ${places}`;
+    currentAnswer = shifted;
 
-  feedbackEl.textContent = "";
-  feedbackEl.classList.remove("correct", "incorrect");
-  answerEl.value = "";
-  answerEl.focus();
-
-  questionEl.textContent = currentQuestion;
-  return;
-}
-  
-  if (topic === "binadd") {
-    const num1 = randomInt(15);
-    const num2 = randomInt(15);
-  
-    currentQuestionType = "binAdd";
-    currentSourceValue = { num1, num2 };
-  
-    const bin1 = num1.toString(2);
-    const bin2 = num2.toString(2);
-  
-    currentQuestion = `Add binary ${bin1} + ${bin2}`;
-    currentAnswer = (num1 + num2).toString(2);
-  
     feedbackEl.textContent = "";
     feedbackEl.classList.remove("correct", "incorrect");
     answerEl.value = "";
     answerEl.focus();
-  
+
     questionEl.textContent = currentQuestion;
     return;
   }
-    if (topic === "overflow") {
+
+  if (topic === "binadd") {
+    const num1 = randomInt(15);
+    const num2 = randomInt(15);
+
+    currentQuestionType = "binAdd";
+    currentSourceValue = { num1, num2 };
+
+    const bin1 = num1.toString(2);
+    const bin2 = num2.toString(2);
+
+    currentQuestion = `Add binary ${bin1} + ${bin2}`;
+    currentAnswer = (num1 + num2).toString(2);
+
+    feedbackEl.textContent = "";
+    feedbackEl.classList.remove("correct", "incorrect");
+    answerEl.value = "";
+    answerEl.focus();
+
+    questionEl.textContent = currentQuestion;
+    return;
+  }
+
+  if (topic === "overflow") {
     const registerSize = 4;
     const maxValue = Math.pow(2, registerSize) - 1;
-  
-  
-  
-if (topic === "overflow") {
-  const registerSize = 4;
-  const maxValue = Math.pow(2, registerSize) - 1;
 
-  let num1, num2, total, overflow;
+    let num1, num2, total, overflow;
 
-  do {
-    num1 = randomInt(maxValue + 1);
-    num2 = randomInt(maxValue + 1);
+    do {
+      num1 = randomInt(maxValue + 1);
+      num2 = randomInt(maxValue + 1);
 
-    if (num1 === 0 && num2 === 0) continue;
+      if (num1 === 0 && num2 === 0) continue;
 
-    total = num1 + num2;
-    overflow = total > maxValue;
+      total = num1 + num2;
+      overflow = total > maxValue;
 
-  } while (
-    (difficulty === "easy" && overflow && Math.random() < 0.7) ||
-    (difficulty === "medium" && !overflow && Math.random() < 0.7)
-  );
+    } while (
+      (difficulty === "easy" && overflow && Math.random() < 0.7) ||
+      (difficulty === "medium" && !overflow && Math.random() < 0.7)
+    );
 
-  const binary1 = num1.toString(2).padStart(registerSize, "0");
-  const binary2 = num2.toString(2).padStart(registerSize, "0");
+    const binary1 = num1.toString(2).padStart(registerSize, "0");
+    const binary2 = num2.toString(2).padStart(registerSize, "0");
 
-  currentQuestionType = "overflow";
-  currentSourceValue = { binary1, binary2, registerSize, total, overflow };
+    currentQuestionType = "overflow";
+    currentSourceValue = { binary1, binary2, registerSize, total, overflow };
 
     currentQuestion = `A ${registerSize}-bit register is used.
-  
-  When these binary numbers are added, will overflow occur?
-  
-  ${binary1}
-  + ${binary2}
-  
-  (Overflow means the result is too large to fit in ${registerSize} bits)
-  
-  Answer Yes or No.`;
-  
+
+When these binary numbers are added, will overflow occur?
+
+${binary1}
++ ${binary2}
+
+(Overflow means the result is too large to fit in ${registerSize} bits)
+
+Answer Yes or No.`;
+
     currentAnswer = overflow ? "yes" : "no";
 
-  feedbackEl.textContent = "";
-  feedbackEl.classList.remove("correct", "incorrect");
-  answerEl.value = "";
-  answerEl.focus();
+    feedbackEl.textContent = "";
+    feedbackEl.classList.remove("correct", "incorrect");
+    answerEl.value = "";
+    answerEl.focus();
 
-  questionEl.textContent = currentQuestion;
-  return;
-}
-      
+    questionEl.textContent = currentQuestion;
+    return;
+  }
+
   const max = getMaxValue(difficulty);
   const num = randomInt(max);
- 
-
 
   let chosenMode = mode;
 
@@ -315,19 +308,19 @@ if (topic === "overflow") {
     if (chosenMode === "denToHex") {
       currentQuestionType = "denToHex";
       currentSourceValue = num;
-     currentQuestion = `Convert denary ${num} to hexadecimal`;
+      currentQuestion = `Convert denary ${num} to hexadecimal`;
       currentAnswer = num.toString(16).toUpperCase();
     } else if (chosenMode === "hexToDen") {
       currentQuestionType = "hexToDen";
       currentSourceValue = num;
       const hex = num.toString(16).toUpperCase();
-    currentQuestion = `Convert hexadecimal ${hex} to denary`;
+      currentQuestion = `Convert hexadecimal ${hex} to denary`;
       currentAnswer = String(num);
     } else if (chosenMode === "binToHex") {
       currentQuestionType = "binToHex";
       currentSourceValue = num;
       const binary = difficulty === "hard" ? padBinary(num.toString(2)) : num.toString(2);
-     currentQuestion = `Convert binary ${binary} to hexadecimal`;
+      currentQuestion = `Convert binary ${binary} to hexadecimal`;
       currentAnswer = num.toString(16).toUpperCase();
     } else if (chosenMode === "hexToBin") {
       currentQuestionType = "hexToBin";
@@ -462,167 +455,107 @@ function checkAnswer() {
   }
 
   else if (currentQuestionType === "binAdd") {
-  const normalisedUser = userAnswer.replace(/\s+/g, "");
-  isCorrect = normalisedUser === currentAnswer;
+    const normalisedUser = userAnswer.replace(/\s+/g, "");
+    isCorrect = normalisedUser === currentAnswer;
 
-  const { num1, num2 } = currentSourceValue;
+    const { num1, num2 } = currentSourceValue;
 
-  const bin1 = num1.toString(2);
-  const bin2 = num2.toString(2);
+    const bin1 = num1.toString(2);
+    const bin2 = num2.toString(2);
 
-  const width = Math.max(bin1.length, bin2.length, currentAnswer.length);
-  const padded1 = bin1.padStart(width, "0");
-  const padded2 = bin2.padStart(width, "0");
-  const paddedAnswer = currentAnswer.padStart(width, "0");
+    const width = Math.max(bin1.length, bin2.length, currentAnswer.length);
+    const padded1 = bin1.padStart(width, "0");
+    const padded2 = bin2.padStart(width, "0");
+    const paddedAnswer = currentAnswer.padStart(width, "0");
 
-  let carry = 0;
-  let carryLine = Array(width).fill(" ");
+    let carry = 0;
+    let carryLine = Array(width).fill(" ");
 
-  for (let i = width - 1; i >= 0; i--) {
-    const bit1 = Number(padded1[i]);
-    const bit2 = Number(padded2[i]);
-    const total = bit1 + bit2 + carry;
+    for (let i = width - 1; i >= 0; i--) {
+      const bit1 = Number(padded1[i]);
+      const bit2 = Number(padded2[i]);
+      const total = bit1 + bit2 + carry;
 
-    if (total >= 2 && i > 0) {
-      carryLine[i - 1] = "1";
+      if (total >= 2 && i > 0) {
+        carryLine[i - 1] = "1";
+      }
+
+      carry = total >= 2 ? 1 : 0;
     }
 
-    carry = total >= 2 ? 1 : 0;
+    const carries = carryLine.join("");
+
+    working =
+      `   ${carries}\n` +
+      `   ${padded1}\n` +
+      `+  ${padded2}\n` +
+      `   ${"-".repeat(width)}\n` +
+      `   ${paddedAnswer}`;
   }
 
-  const carries = carryLine.join("");
+  else if (currentQuestionType === "binShift") {
+    const normalisedUser = userAnswer.replace(/\s+/g, "");
+    isCorrect = normalisedUser === currentAnswer;
 
-  working =
-    `   ${carries}\n` +
-    `   ${padded1}\n` +
-    `+  ${padded2}\n` +
-    `   ${"-".repeat(width)}\n` +
-    `   ${paddedAnswer}`;
-}
+    const { binary, shift, registerSize } = currentSourceValue;
 
-else if (currentQuestionType === "binShift") {
-  const normalisedUser = userAnswer.replace(/\s+/g, "");
-  isCorrect = normalisedUser === currentAnswer;
-
-  const { binary, shift, registerSize } = currentSourceValue;
-
-working =
-  `Register: ${registerSize} bits (fixed size)\n\n` +
-  `   ${binary}\n` +
-  `${shift === "left" ? "←" : "→"} shift\n` +
-  `   ${currentAnswer}\n\n` +
-  `Bits move ${shift}.\n` +
-  `A 0 is added on the ${shift === "left" ? "right" : "left"}.\n` +
-  `Number of bits stays the same.\n\n` +
-  `${shift === "left"
-    ? "This multiplies the value by 2."
-    : "This divides the value by 2 (integer division)."
-  }`;
-}
+    working =
+      `Register: ${registerSize} bits (fixed size)\n\n` +
+      `   ${binary}\n` +
+      `${shift === "left" ? "←" : "→"} shift\n` +
+      `   ${currentAnswer}\n\n` +
+      `Bits move ${shift}.\n` +
+      `A 0 is added on the ${shift === "left" ? "right" : "left"}.\n` +
+      `Number of bits stays the same.\n\n` +
+      `${shift === "left"
+        ? "This multiplies the value by 2."
+        : "This divides the value by 2 (integer division)."
+      }`;
+  }
 
   else if (currentQuestionType === "overflow") {
-  const normalisedUser = userAnswer.trim().toLowerCase();
-  isCorrect = normalisedUser === currentAnswer;
+    const normalisedUser = userAnswer.trim().toLowerCase();
+    isCorrect = normalisedUser === currentAnswer;
 
-  const { binary1, binary2, registerSize, total, overflow } = currentSourceValue;
-  const maxValue = Math.pow(2, registerSize) - 1;
+    const { binary1, binary2, registerSize, total, overflow } = currentSourceValue;
+    const maxValue = Math.pow(2, registerSize) - 1;
 
-  working =
-    `   ${binary1}\n` +
-    `+  ${binary2}\n` +
-    `   -----\n\n` +
-    `Register size: ${registerSize} bits\n` +
-    `Largest value that can be stored: ${maxValue}\n` +
-    `Total (denary): ${total}\n\n` +
-    `${overflow
-      ? "The result is bigger than the largest value that can be stored, so overflow occurs."
-      : "The result is within the range that can be stored, so no overflow occurs."
-    }`;
+    working =
+      `   ${binary1}\n` +
+      `+  ${binary2}\n` +
+      `   -----\n\n` +
+      `Register size: ${registerSize} bits\n` +
+      `Largest value that can be stored: ${maxValue}\n` +
+      `Total (denary): ${total}\n\n` +
+      `${overflow
+        ? "The result is bigger than the largest value that can be stored, so overflow occurs."
+        : "The result is within the range that can be stored, so no overflow occurs."
+      }`;
+  }
 
-  
   feedbackEl.textContent =
     (isCorrect ? "✔ Correct!\n\n" : "✖ Incorrect.\n\n") +
     "Working:\n" +
     working;
 
-    feedbackEl.classList.remove("correct", "incorrect");
-  feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
-if (isCorrect) {
-  correctCount++;
-  currentStreak++;
-
-  if (currentStreak > bestStreak) {
-    bestStreak = currentStreak;
-  }
-} else {
-  incorrectCount++;
-  currentStreak = 0;
-}
-
-updateScoreDisplay();
-checkBtn.disabled = true;
-}
-
-checkBtn.addEventListener("click", checkAnswer);
-
-nextBtn.addEventListener("click", () => {
-  if (questionNumber >= totalQuestions) {
-    showSummary();
-    nextBtn.disabled = true;
-    return;
-  }
-
-  checkBtn.disabled = false;
-  questionNumber++;
-  updateScoreDisplay();
-  generateQuestion();
-});
-
-
-
-newSetBtn.addEventListener("click", () => {
-  answerEl.disabled = false;
-  checkBtn.disabled = false;
-  nextBtn.disabled = false;
-  questionNumber = 1;
-  correctCount = 0;
-  incorrectCount = 0;
-  currentStreak = 0;
-  bestStreak = 0;
-
-  updateScoreDisplay();
-  generateQuestion();
-});
-
-
-difficultyEl.addEventListener("change", generateQuestion);
-modeEl.addEventListener("change", generateQuestion);
-
-answerEl.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    checkAnswer();
-  }
-});
-
-function showSummary() {
-  const totalAnswered = correctCount + incorrectCount;
-  const accuracy = totalAnswered > 0
-    ? Math.round((correctCount / totalAnswered) * 100)
-    : 0;
-
-  questionEl.textContent = "Set Complete!";
-  feedbackEl.textContent =
-    `Score: ${correctCount}/${totalAnswered}\n` +
-    `Accuracy: ${accuracy}%\n` +
-    `Best streak: ${bestStreak}`;
-
   feedbackEl.classList.remove("correct", "incorrect");
+  feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
 
-  answerEl.value = "";
-  answerEl.disabled = true;   
+  if (isCorrect) {
+    correctCount++;
+    currentStreak++;
+
+    if (currentStreak > bestStreak) {
+      bestStreak = currentStreak;
+    }
+  } else {
+    incorrectCount++;
+    currentStreak = 0;
+  }
+
+  updateScoreDisplay();
   checkBtn.disabled = true;
 }
-
 
 updateScoreDisplay();
 updatePracticeHeader();
