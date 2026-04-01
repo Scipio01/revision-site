@@ -263,17 +263,17 @@ for (let i = 0; i < places; i++) {
     currentQuestionType = "overflow";
     currentSourceValue = { binary1, binary2, registerSize, total, overflow };
   
-  currentQuestion = `A ${registerSize}-bit register is used.
+    currentQuestion = `A ${registerSize}-bit register is used.
   
-  When these binary numbers are added, will overflow occur?
-  
+    When these binary numbers are added, will overflow occur?
+    
     ${binary1}
-  + ${binary2}
-  
-  (Overflow means the result is too large to fit in ${registerSize} bits)
-  
-  Answer Yes or No.`;
-  
+    + ${binary2}
+    
+    (Overflow means the result is too large to fit in ${registerSize} bits)
+    
+    Answer Yes or No.`;
+    
   currentAnswer = overflow ? "yes" : "no";
   
   feedbackEl.textContent = "";
