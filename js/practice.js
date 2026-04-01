@@ -621,7 +621,37 @@ function checkAnswer() {
         `-----\n` +
         `${twos}`;
     }
+
+    else if (currentQuestionType === "twosToDen") {
+      isCorrect = userAnswer === currentAnswer;
     
+      const { binary, num, registerSize } = currentSourceValue;
+    
+      const inverted = binary
+        .split("")
+        .map(b => b === "0" ? "1" : "0")
+        .join("");
+    
+      const plusOne = (parseInt(inverted, 2) + 1)
+        .toString(2)
+        .padStart(registerSize, "0");
+    
+      working =
+        `MSB is 1, so this is a negative number.\n\n` +
+        `Step 1: Invert the bits\n` +
+        `${inverted}\n\n` +
+        `Step 2: Add 1\n` +
+        `${inverted}\n` +
+        `+00000001\n` +
+        `--------\n` +
+        `${plusOne}\n\n` +
+        `Step 3: Convert to denary\n` +
+        `${plusOne} = ${num}\n\n` +
+    `Answer: -${num}`;
+}
+
+
+      
   else if (currentQuestionType === "overflow") {
     const normalisedUser = userAnswer.trim().toLowerCase();
     isCorrect = normalisedUser === currentAnswer;
