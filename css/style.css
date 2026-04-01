@@ -618,12 +618,18 @@ button:disabled {
 
 .question-card {
   margin-top: 10px;
-  padding: 20px;
+  padding: 24px;
   border-radius: 16px;
-  background: var(--surface);
-  box-shadow: var(--shadow-soft);
-  border: 1px solid var(--line);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.question-card h2 {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: #6b7280;
 }
 
 .question-card:hover {
