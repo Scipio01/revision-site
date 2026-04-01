@@ -283,7 +283,7 @@ Answer Yes or No.`;
     answerEl.value = "";
     answerEl.focus();
 
-    questionEl.textContent = currentQuestion;
+   questionEl.innerHTML = currentQuestion;
     return;
   }
 
