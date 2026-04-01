@@ -43,7 +43,14 @@
   "level": "gcse",
   "description": "Hexadecimal system, conversions and uses.",
   "hasPractice": true
-  }
+  },
   
+  {
+    "id": "text",
+    "name": "Character Sets",
+    "level": "gcse",
+    "description": "ASCII, Unicode and how text is stored in a computer.",
+    "hasPractice": true
+  }
 
 ]
