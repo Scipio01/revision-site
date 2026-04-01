@@ -542,7 +542,7 @@ function checkAnswer() {
 
   else if (currentQuestionType === "binShift") {
     const normalisedUser = userAnswer.replace(/\s+/g, "");
-    const wrongBitLength = normalisedUser.length !== registerSize;
+    
     isCorrect = normalisedUser === currentAnswer;
 
     const { binary, shift, registerSize } = currentSourceValue;
@@ -563,9 +563,9 @@ function checkAnswer() {
 
     else if (currentQuestionType === "twos") {
       const normalisedUser = userAnswer.replace(/\s+/g, "");
-      isCorrect = normalisedUser === currentAnswer;
-    
       const { num, registerSize } = currentSourceValue;
+      const wrongBitLength = normalisedUser.length !== registerSize;
+      isCorrect = normalisedUser === currentAnswer;
     
       const positiveBinary = num.toString(2).padStart(registerSize, "0");
       const inverted = positiveBinary
@@ -576,20 +576,17 @@ function checkAnswer() {
         .toString(2)
         .padStart(registerSize, "0");
     
-working =
-  `${wrongBitLength ? `Your answer must use ${registerSize} bits.\n\n` : ""}` +
-  `Step 1: Write +${num} in binary using ${registerSize} bits\n` +
-  `${positiveBinary}\n\n` +
-
-  `Step 2: Invert the bits\n` +
-  `${inverted}\n\n` +
-
-  `Step 3: Add 1\n` +
-  `${inverted}\n` +
-  `+0001\n` +
-  `-----\n` +
-  `${twos}`;
-
+      working =
+        `${wrongBitLength ? `Your answer must use ${registerSize} bits.\n\n` : ""}` +
+        `Step 1: Write +${num} in binary using ${registerSize} bits\n` +
+        `${positiveBinary}\n\n` +
+        `Step 2: Invert the bits\n` +
+        `${inverted}\n\n` +
+        `Step 3: Add 1\n` +
+        `${inverted}\n` +
+        `+0001\n` +
+        `-----\n` +
+        `${twos}`;
     }
     
   else if (currentQuestionType === "overflow") {
