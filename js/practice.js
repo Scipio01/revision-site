@@ -238,7 +238,7 @@ function generateQuestion() {
   }
 
   if (topic === "overflow") {
-    const registerSize = 4;
+    const registerSize = difficulty === "hard" ? 8 : 4;
     const maxValue = Math.pow(2, registerSize) - 1;
 
     let num1, num2, total, overflow;
