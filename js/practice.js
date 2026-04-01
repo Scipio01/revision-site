@@ -563,3 +563,67 @@ updateModeOptions();
 questionNumber = 1;
 updateScoreDisplay();
 generateQuestion();
+
+checkBtn.addEventListener("click", checkAnswer);
+
+nextBtn.addEventListener("click", () => {
+  if (questionNumber >= totalQuestions) {
+    showSummary();
+    nextBtn.disabled = true;
+    return;
+  }
+
+  checkBtn.disabled = false;
+  questionNumber++;
+  updateScoreDisplay();
+  generateQuestion();
+});
+
+newSetBtn.addEventListener("click", () => {
+  answerEl.disabled = false;
+  checkBtn.disabled = false;
+  nextBtn.disabled = false;
+  questionNumber = 1;
+  correctCount = 0;
+  incorrectCount = 0;
+  currentStreak = 0;
+  bestStreak = 0;
+
+  updateScoreDisplay();
+  generateQuestion();
+});
+
+difficultyEl.addEventListener("change", generateQuestion);
+modeEl.addEventListener("change", generateQuestion);
+
+answerEl.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    checkAnswer();
+  }
+});
+
+function showSummary() {
+  const totalAnswered = correctCount + incorrectCount;
+  const accuracy = totalAnswered > 0
+    ? Math.round((correctCount / totalAnswered) * 100)
+    : 0;
+
+  questionEl.textContent = "Set Complete!";
+  feedbackEl.textContent =
+    `Score: ${correctCount}/${totalAnswered}\n` +
+    `Accuracy: ${accuracy}%\n` +
+    `Best streak: ${bestStreak}`;
+
+  feedbackEl.classList.remove("correct", "incorrect");
+
+  answerEl.value = "";
+  answerEl.disabled = true;
+  checkBtn.disabled = true;
+}
+
+updateScoreDisplay();
+updatePracticeHeader();
+updateModeOptions();
+questionNumber = 1;
+updateScoreDisplay();
+generateQuestion();
