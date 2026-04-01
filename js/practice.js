@@ -263,18 +263,16 @@ for (let i = 0; i < places; i++) {
     currentQuestionType = "overflow";
     currentSourceValue = { binary1, binary2, registerSize, total, overflow };
   
-    currentQuestion = `A ${registerSize}-bit register is used.
-
-    When these binary numbers are added, will overflow occur?
-    
-    <pre class="binary-block">
-      ${binary1}
-    + ${binary2}
-    </pre>
-    
-    (Overflow means the result is too large to fit in ${registerSize} bits)
-    
-    Answer Yes or No.`;
+  currentQuestion = `A ${registerSize}-bit register is used.
+  
+  When these binary numbers are added, will overflow occur?
+  
+  <pre class="binary-block">${binary1}
+  + ${binary2}</pre>
+  
+  (Overflow means the result is too large to fit in ${registerSize} bits)
+  
+  Answer Yes or No.`;
     
   currentAnswer = overflow ? "yes" : "no";
   
