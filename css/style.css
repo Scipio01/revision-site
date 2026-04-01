@@ -60,6 +60,19 @@ body.theme-lilac {
   --card-back: #fff1f8;
   --border-front: #d8c0ff;
   --border-back: #f0c1d9;
+
+  
+}
+
+.binary-block {
+  font-family: Consolas, monospace;
+  font-size: 1.4rem;
+  background: #f5f7fa;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 10px 0;
+  line-height: 1.4;
 }
 
 body.theme-warm {
