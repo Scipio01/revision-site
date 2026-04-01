@@ -633,12 +633,7 @@ function checkAnswer() {
   checkBtn.disabled = true;
 }
 
-updateScoreDisplay();
-updatePracticeHeader();
-updateModeOptions();
-questionNumber = 1;
-updateScoreDisplay();
-generateQuestion();
+
 
 checkBtn.addEventListener("click", checkAnswer);
 
