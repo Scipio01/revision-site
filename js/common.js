@@ -50,7 +50,16 @@ function setSelectedLevel(level) {
 function setSelectedTopic(topicId) {
   localStorage.setItem('selectedTopic', topicId);
 }
+
 function getSelectedTopic() {
+  const params = new URLSearchParams(window.location.search);
+  const topicFromUrl = params.get('topic');
+
+  if (topicFromUrl) {
+    localStorage.setItem('selectedTopic', topicFromUrl);
+    return topicFromUrl;
+  }
+
   return localStorage.getItem('selectedTopic') || 'networks';
 }
 
