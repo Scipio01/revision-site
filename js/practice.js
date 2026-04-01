@@ -245,8 +245,13 @@ for (let i = 0; i < places; i++) {
   do {
     num1 = randomInt(maxValue + 1);
     num2 = randomInt(maxValue + 1);
+  
+    // 🚫 avoid 0 + 0
+    if (num1 === 0 && num2 === 0) continue;
+  
     total = num1 + num2;
     overflow = total > maxValue;
+  
   } while (
     (difficulty === "easy" && overflow && Math.random() < 0.7) ||
     (difficulty === "medium" && !overflow && Math.random() < 0.7)
