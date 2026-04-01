@@ -311,46 +311,7 @@ if (topic === "twos") {
   return;
 }
     
-    else if (difficulty === "medium") {
-      // avoid trivial + avoid worst cases
-      num = randomInt(maxPositive) + 1;
-      if (num === 1) num = 2;
-    }
     
-    else {
-      // hard → include tricky carry chains (like 1)
-      num = randomInt(maxPositive) + 1;
-    }
-      const negative = -num;
-    
-      currentQuestionType = "twos";
-      currentSourceValue = { num, registerSize };
-    
-      currentQuestion = `Convert ${negative} into ${registerSize}-bit two’s complement binary.`;
-    
-      // Step 1: positive binary
-      let binary = num.toString(2).padStart(registerSize, "0");
-    
-      // Step 2: invert
-      let inverted = binary.split("").map(b => b === "0" ? "1" : "0").join("");
-    
-      // Step 3: add 1
-      let twos = (parseInt(inverted, 2) + 1)
-        .toString(2)
-        .padStart(registerSize, "0");
-    
-      currentAnswer = twos;
-    
-      feedbackEl.textContent = "";
-      feedbackEl.classList.remove("correct", "incorrect");
-      answerEl.value = "";
-      answerEl.focus();
-    
-      questionEl.textContent = currentQuestion;
-      return;
-    }
-
-
   
   if (topic === "overflow") {
     const registerSize = difficulty === "hard" ? 8 : 4;
