@@ -106,5 +106,17 @@
         "Less storage needed"
       ]
     }
-  }
+  },
+    {
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "How many bits are used in extended ASCII?",
+      "correct": "8",
+      "wrong": [
+        "7",
+        "12",
+        "16"
+      ]
+    }
+  },
 ]
