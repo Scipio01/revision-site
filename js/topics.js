@@ -43,10 +43,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     
       function renderGroup(title, topicList) {
-        const heading = document.createElement('h2');
-        heading.textContent = title;
-        heading.style.margin = '24px 0 12px';
-        wrap.appendChild(heading);
+      const section = document.createElement('div');
+      section.style.marginBottom = '30px';
+      
+      const heading = document.createElement('h2');
+      heading.textContent = title;
+      heading.style.margin = '24px 0 12px';
+      
+      section.appendChild(heading);
     
         const grid = document.createElement('div');
         grid.className = 'grid';
@@ -55,7 +59,8 @@ document.addEventListener('DOMContentLoaded', async () => {
           grid.appendChild(renderTopicCard(topic));
         });
     
-        wrap.appendChild(grid);
+        section.appendChild(grid);
+        wrap.appendChild(section);
       }
     
       renderGroup('Paper 1', paper1);
