@@ -7,7 +7,7 @@ function renderCard() {
   const card = cards[index];
   document.getElementById('topicTitle').textContent = card.topicName;
   document.getElementById('cardCounter').textContent = `Card ${index + 1} of ${cards.length}`;
-  document.getElementById('frontText').textContent = card.front;
+  document.getElementById('frontText').innerHTML = card.front;
   document.getElementById('backText').innerHTML = card.back;
   const outer = document.getElementById('flashcard');
   outer.classList.toggle('flip', flipped);
