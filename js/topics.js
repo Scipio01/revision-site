@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       function renderGroup(title, topicList) {
       const section = document.createElement('div');
       section.style.marginBottom = '30px';
+      section.style.width = '100%';
       
       const heading = document.createElement('h2');
       heading.textContent = title;
