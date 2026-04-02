@@ -1,18 +1,17 @@
 [
-
-{
-  "id": "datarep",
-  "name": "Data Representation",
-  "level": "gcse",
-  "description": "Binary, hexadecimal and how data is represented in a computer.",
-  "hasPractice": false
-},
-  
-  
+  {
+    "id": "datarep",
+    "name": "Data Representation",
+    "level": "gcse",
+    "group": "paper1",
+    "description": "Binary, hexadecimal and how data is represented in a computer.",
+    "hasPractice": false
+  },
   {
     "id": "networks",
     "name": "Networks",
     "level": "gcse",
+    "group": "paper1",
     "description": "Addresses, DNS, routers, protocols and packets.",
     "hasPractice": false
   },
@@ -20,6 +19,7 @@
     "id": "databases",
     "name": "Databases",
     "level": "gcse",
+    "group": "paper2",
     "description": "Tables, keys, normalisation and SQL basics.",
     "hasPractice": false
   },
@@ -30,7 +30,4 @@
     "description": "Classes, objects, encapsulation, inheritance and polymorphism.",
     "hasPractice": false
   }
-
-  
-
 ]
