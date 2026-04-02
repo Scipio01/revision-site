@@ -2,7 +2,7 @@
 {
   "topicName": "Sound",
   "front": "What is analogue sound?",
-  "back": "<pre>A continuous sound wave that changes smoothly over time.\n\nAnalogue (continuous):\n\n    /‾\\    /‾\\    /‾\\\n   /   \\  /   \\  /   \\\n___/     \\/     \\/     \\___\n</pre>"
+  "back": "<pre style=\"white-space: pre-wrap; font-family: monospace;\">A continuous sound wave that changes smoothly over time.\n\nAnalogue (continuous):\n\n     /‾\\    /‾\\    /‾\\\n    /   \\  /   \\  /   \\\n  ___/     \\/     \\/     \\___\n</pre>"
 },
 {
   "topicName": "Sound",
