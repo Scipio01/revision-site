@@ -8,13 +8,7 @@
   "hasPractice": false
 },
   
-  {
-    "id": "binary",
-    "name": "Binary Systems",
-    "level": "gcse",
-    "description": "Binary basics, place value and denary/binary conversion practice.",
-    "hasPractice": true
-  },
+  
   {
     "id": "networks",
     "name": "Networks",
@@ -35,14 +29,8 @@
     "level": "alevel",
     "description": "Classes, objects, encapsulation, inheritance and polymorphism.",
     "hasPractice": false
-  },
-
-  {
-  "id": "hex",
-  "name": "Hexadecimal",
-  "level": "gcse",
-  "description": "Hexadecimal system, conversions and uses.",
-  "hasPractice": true
   }
+
+  
 
 ]
