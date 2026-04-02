@@ -10,26 +10,57 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const res = await fetch('data/topics.json');
   const topics = await res.json();
-  wrap.innerHTML = '';
-  topics.filter(t => t.level === level).forEach(topic => {
-    const div = document.createElement('div');
-    div.className = 'topic-card';
-    div.innerHTML = `
-      <span class="badge">${topic.level === 'alevel' ? 'A Level' : 'GCSE'}</span>
-      <h3>${topic.name}</h3>
-      <p class="muted">${topic.description}</p>
-  <div class="actions">
-    ${topic.id === 'datarep'
-      ? `<a class="btn-primary button" href="data-representation.html">Open topic</a>`
-      : `
-        <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
-        <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
-        ${topic.hasPractice ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>` : ''}
-      `
+
+
+    wrap.innerHTML = '';
+    
+    const filteredTopics = topics.filter(t => t.level === level);
+    
+    if (level === 'gcse') {
+      const paper1 = filteredTopics.filter(t => t.group === 'paper1');
+      const paper2 = filteredTopics.filter(t => t.group === 'paper2');
+    
+      function renderTopicCard(topic) {
+        const div = document.createElement('div');
+        div.className = 'topic-card';
+        div.innerHTML = `
+          <span class="badge">${topic.level === 'alevel' ? 'A Level' : 'GCSE'}</span>
+          <h3>${topic.name}</h3>
+          <p class="muted">${topic.description}</p>
+          <div class="actions">
+            ${topic.id === 'datarep'
+              ? `<a class="btn-primary button" href="data-representation.html">Open topic</a>`
+              : `
+                <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
+                <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
+                ${topic.hasPractice ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>` : ''}
+              `
+            }
+          </div>
+        `;
+        div.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setSelectedTopic(topic.id)));
+        return div;
+      }
+    
+      function renderGroup(title, topicList) {
+        const heading = document.createElement('h2');
+        heading.textContent = title;
+        heading.style.margin = '24px 0 12px';
+        wrap.appendChild(heading);
+    
+        const grid = document.createElement('div');
+        grid.className = 'grid';
+    
+        topicList.forEach(topic => {
+          grid.appendChild(renderTopicCard(topic));
+        });
+    
+        wrap.appendChild(grid);
+      }
+    
+      renderGroup('Paper 1', paper1);
+      renderGroup('Paper 2', paper2);
     }
-</div>
-    `;
-    div.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setSelectedTopic(topic.id)));
-    wrap.appendChild(div);
-  });
+
+  
 });
