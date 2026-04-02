@@ -4,11 +4,11 @@
   "front": "What is analogue sound?",
   "back": "<pre>A continuous sound wave that changes smoothly over time.\n\nAnalogue (continuous):\n\n    /‾\\    /‾\\    /‾\\\n   /   \\  /   \\  /   \\\n___/     \\/     \\/     \\___\n</pre>"
 }
-  {
-    "topicName": "Sound",
-    "front": "What is digital sound?",
-    "back": "Sound stored as binary numbers."
-  },
+{
+  "topicName": "Sound",
+  "front": "What is digital sound?",
+  "back": "<pre>Sound stored as binary numbers.\n\nDigital (samples):\n\n__|‾‾|__|‾‾|__|‾‾|__\n</pre>"
+}
   {
     "topicName": "Sound",
     "front": "What is sampling?",
