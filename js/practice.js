@@ -208,7 +208,8 @@ function generateQuestion() {
   }
 
   if (topic === "sound") {
-    const sampleRate = randomInt(9000) + 1000; // 1000–10000 Hz
+    const sampleRates = [1000, 2000, 4000, 8000, 10000];
+    const sampleRate = sampleRates[Math.floor(Math.random() * sampleRates.length)];
     const bitDepth = [8, 16][Math.floor(Math.random() * 2)];
 
     const bitsPerSecond = sampleRate * bitDepth;
