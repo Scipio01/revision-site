@@ -213,7 +213,12 @@ function generateQuestion() {
 
     const bitsPerSecond = sampleRate * bitDepth;
 
-    currentQuestion = `A sound is sampled at ${sampleRate} Hz with a resolution of ${bitDepth} bits.\n\nHow many bits are stored per second?`;
+    currentQuestion = `A sound is sampled at ${sampleRate} Hz (samples per second) with a resolution of ${bitDepth} bits (bits per sample).
+
+    How many bits are stored per second?
+    
+    Hint: bits per second = sampling rate × bit depth`;
+    
     currentAnswer = bitsPerSecond.toString();
     currentQuestionType = "soundBitsPerSecond";
     currentSourceValue = { sampleRate, bitDepth };
