@@ -193,20 +193,34 @@ function generateQuestion() {
   const mode = modeEl.value;
   const topic = getTopic();
 
-    feedbackEl.textContent = "";
-    feedbackEl.classList.remove("correct", "incorrect");
-    answerEl.value = "";
-    answerEl.focus();
+  feedbackEl.textContent = "";
+  feedbackEl.classList.remove("correct", "incorrect");
+  answerEl.value = "";
+  answerEl.focus();
 
-    if (topic === "text") {
+  if (topic === "text") {
     currentQuestion = "How many bits are used to represent a character in standard ASCII?";
     currentAnswer = "7";
     currentQuestionType = "asciiBits";
-  
+
     questionEl.textContent = currentQuestion;
     return;
   }
 
+  if (topic === "sound") {
+    const sampleRate = randomInt(9000) + 1000; // 1000–10000 Hz
+    const bitDepth = [8, 16][Math.floor(Math.random() * 2)];
+
+    const bitsPerSecond = sampleRate * bitDepth;
+
+    currentQuestion = `A sound is sampled at ${sampleRate} Hz with a resolution of ${bitDepth} bits.\n\nHow many bits are stored per second?`;
+    currentAnswer = bitsPerSecond.toString();
+    currentQuestionType = "soundBitsPerSecond";
+    currentSourceValue = { sampleRate, bitDepth };
+
+    questionEl.textContent = currentQuestion;
+    return;
+  }
 
   if (topic === "binshift") {
     const registerSize = difficulty === "hard" ? 8 : 4;
@@ -233,8 +247,6 @@ function generateQuestion() {
     currentQuestion = `In a ${registerSize}-bit register, shift ${binary} ${shift} by ${places}`;
     currentAnswer = shifted;
 
-
-
     questionEl.textContent = currentQuestion;
     return;
   }
@@ -252,85 +264,61 @@ function generateQuestion() {
     currentQuestion = `Add binary ${bin1} + ${bin2}`;
     currentAnswer = (num1 + num2).toString(2);
 
-    feedbackEl.textContent = "";
-    feedbackEl.classList.remove("correct", "incorrect");
-    answerEl.value = "";
-    answerEl.focus();
-
     questionEl.textContent = currentQuestion;
     return;
   }
 
-if (topic === "twos") {
-  const registerSize = 8;
+  if (topic === "twos") {
+    const registerSize = 8;
+    const maxPositive = Math.pow(2, registerSize - 1) - 1;
 
-  const maxPositive = Math.pow(2, registerSize - 1) - 1;
+    let num;
 
-  let num;
+    if (difficulty === "easy") {
+      do {
+        num = randomInt(19) + 1; // 1–20
+      } while (num % 2 === 0);
+    } else if (difficulty === "medium") {
+      num = randomInt(maxPositive) + 1;
+      if (num === 1) num = 2;
+    } else {
+      num = randomInt(maxPositive) + 1;
+    }
 
-  if (difficulty === "easy") {
-    do {
-      num = randomInt(19) + 1; // 1–20
-    } while (num % 2 === 0);
-  }
+    const negative = -num;
+    const reverse = Math.random() < 0.5;
 
-  else if (difficulty === "medium") {
-    num = randomInt(maxPositive) + 1;
-    if (num === 1) num = 2;
-  }
+    if (!reverse) {
+      currentQuestionType = "twos";
+      currentSourceValue = { num, registerSize };
 
-  else {
-    num = randomInt(maxPositive) + 1;
-  }
+      currentQuestion = `Convert ${negative} into ${registerSize}-bit two’s complement binary.`;
 
-  const negative = -num;
-
-  // 👉 randomly choose direction
-  const reverse = Math.random() < 0.5;
-
-  if (!reverse) {
-    // NORMAL (you already had this)
-    currentQuestionType = "twos";
-    currentSourceValue = { num, registerSize };
-
-    currentQuestion = `Convert ${negative} into ${registerSize}-bit two’s complement binary.`;
-
-    let binary = num.toString(2).padStart(registerSize, "0");
-    let inverted = binary.split("").map(b => b === "0" ? "1" : "0").join("");
-    let twos = (parseInt(inverted, 2) + 1)
-      .toString(2)
-      .padStart(registerSize, "0");
-
-    currentAnswer = twos;
-  }
-
-    else {
-      //  reverse conversion
       let binary = num.toString(2).padStart(registerSize, "0");
       let inverted = binary.split("").map(b => b === "0" ? "1" : "0").join("");
       let twos = (parseInt(inverted, 2) + 1)
         .toString(2)
         .padStart(registerSize, "0");
-  
+
+      currentAnswer = twos;
+    } else {
+      let binary = num.toString(2).padStart(registerSize, "0");
+      let inverted = binary.split("").map(b => b === "0" ? "1" : "0").join("");
+      let twos = (parseInt(inverted, 2) + 1)
+        .toString(2)
+        .padStart(registerSize, "0");
+
       currentQuestionType = "twosToDen";
       currentSourceValue = { binary: twos, registerSize, num };
-  
+
       currentQuestion = `Convert ${twos} (${registerSize}-bit two’s complement) to denary.`;
-  
       currentAnswer = String(negative);
     }
 
-  feedbackEl.textContent = "";
-  feedbackEl.classList.remove("correct", "incorrect");
-  answerEl.value = "";
-  answerEl.focus();
+    questionEl.textContent = currentQuestion;
+    return;
+  }
 
-  questionEl.textContent = currentQuestion;
-  return;
-}
-    
-    
-  
   if (topic === "overflow") {
     const registerSize = difficulty === "hard" ? 8 : 4;
     const maxValue = Math.pow(2, registerSize) - 1;
@@ -345,7 +333,6 @@ if (topic === "twos") {
 
       total = num1 + num2;
       overflow = total > maxValue;
-
     } while (
       (difficulty === "easy" && overflow && Math.random() < 0.7) ||
       (difficulty === "medium" && !overflow && Math.random() < 0.7)
@@ -356,12 +343,12 @@ if (topic === "twos") {
 
     currentQuestionType = "overflow";
     currentSourceValue = { binary1, binary2, registerSize, total, overflow };
-const width = Math.max(binary1.length, binary2.length);
+
+    const width = Math.max(binary1.length, binary2.length);
+
     currentQuestion = `A ${registerSize}-bit register is used.
 
 When these binary numbers are added, will overflow occur?
-
-
 
 <span class="binary">
 ${binary1.padStart(width + 1, " ")}
@@ -374,12 +361,7 @@ Answer Yes or No.`;
 
     currentAnswer = overflow ? "yes" : "no";
 
-    feedbackEl.textContent = "";
-    feedbackEl.classList.remove("correct", "incorrect");
-    answerEl.value = "";
-    answerEl.focus();
-
-   questionEl.innerHTML = currentQuestion;
+    questionEl.innerHTML = currentQuestion;
     return;
   }
 
@@ -396,13 +378,6 @@ Answer Yes or No.`;
       chosenMode = Math.random() < 0.5 ? "denToBin" : "binToDen";
     }
   }
-
-
-  
-  feedbackEl.textContent = "";
-  feedbackEl.classList.remove("correct", "incorrect");
-  answerEl.value = "";
-  answerEl.focus();
 
   if (topic === "hex") {
     if (chosenMode === "denToHex") {
