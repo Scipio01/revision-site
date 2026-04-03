@@ -679,6 +679,13 @@ function checkAnswer() {
       }`;
   }
 
+  else if (currentQuestionType === "soundBitsPerSecond") {
+    isCorrect = userAnswer === currentAnswer;
+    working = `${currentSourceValue.sampleRate} × ${currentSourceValue.bitDepth} = ${currentAnswer} bits per second`;
+  }
+
+
+  
   feedbackEl.textContent =
     (isCorrect ? "✔ Correct!\n\n" : "✖ Incorrect.\n\n") +
     "Working:\n" +
