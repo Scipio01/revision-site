@@ -207,23 +207,40 @@ function generateQuestion() {
     return;
   }
 
-  if (topic === "sound") {
+   if (topic === "sound") {
     const sampleRates = [1000, 2000, 4000, 8000, 10000];
     const sampleRate = sampleRates[Math.floor(Math.random() * sampleRates.length)];
     const bitDepth = [8, 16][Math.floor(Math.random() * 2)];
-
-    const bitsPerSecond = sampleRate * bitDepth;
-
-    currentQuestion = `A sound is sampled at ${sampleRate} Hz (samples per second) with a resolution of ${bitDepth} bits (bits per sample).
-
-    How many bits are stored per second?
-    
-    Hint: bits per second = sampling rate × bit depth`;
-    
-    currentAnswer = bitsPerSecond.toString();
-    currentQuestionType = "soundBitsPerSecond";
-    currentSourceValue = { sampleRate, bitDepth };
-
+  
+    const type = Math.random() < 0.5 ? "soundBitsPerSecond" : "soundTotalBits";
+  
+    if (type === "soundBitsPerSecond") {
+      const bitsPerSecond = sampleRate * bitDepth;
+  
+      currentQuestion = `A sound is sampled at ${sampleRate} Hz (samples per second) with a resolution of ${bitDepth} bits (bits per sample).
+  
+  How many bits are stored per second?
+  
+  Hint: bits per second = sampling rate × bit depth`;
+  
+      currentAnswer = bitsPerSecond.toString();
+      currentQuestionType = "soundBitsPerSecond";
+      currentSourceValue = { sampleRate, bitDepth };
+    } else {
+      const seconds = [2, 5, 10, 20][Math.floor(Math.random() * 4)];
+      const totalBits = sampleRate * bitDepth * seconds;
+  
+      currentQuestion = `A sound is sampled at ${sampleRate} Hz (samples per second) with a resolution of ${bitDepth} bits (bits per sample) for ${seconds} seconds.
+  
+  How many bits are stored in total?
+  
+  Hint: total bits = sampling rate × bit depth × time`;
+  
+      currentAnswer = totalBits.toString();
+      currentQuestionType = "soundTotalBits";
+      currentSourceValue = { sampleRate, bitDepth, seconds };
+    }
+  
     questionEl.textContent = currentQuestion;
     return;
   }
@@ -654,10 +671,13 @@ function checkAnswer() {
         `${plusOne}\n\n` +
         `Step 3: Convert to denary\n` +
         `${plusOne} = ${num}\n\n` +
-    `Answer: -${num}`;
-}
+        `Answer: -${num}`;
+    }
 
-
+    else if (currentQuestionType === "soundTotalBits") {
+      isCorrect = userAnswer === currentAnswer;
+      working = `${currentSourceValue.sampleRate} × ${currentSourceValue.bitDepth} × ${currentSourceValue.seconds} = ${currentAnswer} bits`;
+    }
       
   else if (currentQuestionType === "overflow") {
     const normalisedUser = userAnswer.trim().toLowerCase();
