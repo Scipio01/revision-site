@@ -214,7 +214,15 @@ function generateQuestion() {
     const sampleRate = sampleRates[Math.floor(Math.random() * sampleRates.length)];
     const bitDepth = [8, 16][Math.floor(Math.random() * 2)];
   
-    const type = Math.random() < 0.5 ? "soundBitsPerSecond" : "soundTotalBits";
+    soundQuestionCount++;
+
+    let type;
+    
+    if (soundQuestionCount <= 3) {
+      type = "soundBitsPerSecond";
+    } else {
+      type = Math.random() < 0.5 ? "soundBitsPerSecond" : "soundTotalBits";
+    }
   
     if (type === "soundBitsPerSecond") {
       const bitsPerSecond = sampleRate * bitDepth;
