@@ -9,6 +9,8 @@ let bestStreak = 0;
 let questionNumber = 0;
 let totalQuestions = 10;
 
+let soundQuestionCount = 0;
+
 const questionEl = document.getElementById("question");
 const answerEl = document.getElementById("answer");
 const feedbackEl = document.getElementById("feedback");
