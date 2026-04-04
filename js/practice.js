@@ -857,6 +857,14 @@ function showSummary() {
 updateScoreDisplay();
 updatePracticeHeader();
 updateModeOptions();
+
+const controls = document.getElementById("controls");
+if (getTopic() === "sound") {
+  controls.style.display = "none";
+} else {
+  controls.style.display = "flex";
+}
+
 questionNumber = 1;
 updateScoreDisplay();
 generateQuestion();
