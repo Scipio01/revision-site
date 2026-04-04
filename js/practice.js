@@ -771,10 +771,10 @@ function checkAnswer() {
 
 
   
-  feedbackEl.textContent =
-    (isCorrect ? "✔ Correct!\n\n" : "✖ Incorrect.\n\n") +
-    "Working:\n" +
-    working;
+    feedbackEl.textContent =
+    isCorrect
+    ? `✔ Correct!\n\nWorking:\n${working}`
+    : `✖ Incorrect.\nCorrect answer: ${currentAnswer}\n\nWorking:\n${working}`;
 
   feedbackEl.classList.remove("correct", "incorrect");
   feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
