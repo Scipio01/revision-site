@@ -1,1 +1,149 @@
+[
+  {
+    "topicName": "Sound",
+    "mcq": {
+      "question": "What is analogue sound?",
+      "correct": "A continuous wave",
+      "wrong": [
+        "A series of binary values",
+        "A type of file",
+        "A compressed format"
+      ]
+    }
+  },
+  {
+    "topicName": "Sound",
+    "mcq": {
+      "question": "What is digital sound?",
+      "correct": "Sound stored as binary values",
+      "wrong": [
+        "A continuous wave",
+        "A type of speaker",
+        "An analogue signal"
+      ]
+    }
+  },
+  {
+    "topicName": "Sound",
+    "mcq": {
+      "question": "What does sampling rate measure?",
+      "correct": "Number of samples per second",
+      "wrong": [
+        "Number of bits per sample",
+        "File size",
+        "Sound volume"
+      ]
+    }
+  },
+  {
+    "topicName": "Sound",
+    "mcq": {
+      "question": "What is sampling rate measured in?",
+      "correct": "Hertz (Hz)",
+      "wrong": [
+        "Bytes",
+        "Bits",
+        "Seconds"
+      ]
+    }
+  },
+  {
+    "topicName": "Sound",
+    "mcq": {
+      "question": "What does sample resolution measure?",
+      "correct": "Number of bits per sample",
+      "wrong": [
+        "Number of samples per second",
+        "File size",
+        "Duration"
+      ]
+    }
+  },
+  {
+    "topicName": "Sound",
+    "mcq": {
+      "question": "What happens when sampling rate increases?",
+      "correct": "File size increases",
+      "wrong": [
+        "File size decreases",
+        "Sound becomes analogue",
+        "Bit depth decreases"
+      ]
+    }
+  },
+  {
+    "topicName": "Sound",
+    "mcq": {
+      "question": "What happens when sample resolution increases?",
+      "correct": "File size increases",
+      "wrong": [
+        "File size decreases",
+        "Sampling rate decreases",
+        "Sound becomes analogue"
+      ]
+    }
+  },
+  {
+    "topicName": "Sound",
+    "mcq": {
+      "question": "How many bits are in a byte?",
+      "correct": "8",
+      "wrong": [
+        "4",
+        "16",
+        "1024"
+      ]
+    }
+  },
+  {
+    "topicName": "Sound",
+    "mcq": {
+      "question": "How many bytes are in 1 KiB?",
+      "correct": "1024",
+      "wrong": [
+        "1000",
+        "8",
+        "2048"
+      ]
+    }
+  },
 
+  {
+  "topicName": "Sound",
+  "mcq": {
+    "question": "What is sampling?",
+    "correct": "Measuring sound at regular intervals",
+    "wrong": [
+      "Compressing sound",
+      "Storing sound as images",
+      "Increasing file size"
+    ]
+  }
+},
+
+  {
+  "topicName": "Sound",
+  "mcq": {
+    "question": "What happens if sampling rate is too low?",
+    "correct": "Sound quality is poor",
+    "wrong": [
+      "File size increases",
+      "Sound becomes analogue",
+      "More samples are taken"
+    ]
+  }
+},
+
+  {
+  "topicName": "Sound",
+  "mcq": {
+    "question": "What happens if sample resolution is too low?",
+    "correct": "Sound quality is reduced",
+    "wrong": [
+      "File size increases",
+      "More samples are taken",
+      "Sound becomes analogue"
+    ]
+  }
+}
+]
