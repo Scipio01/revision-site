@@ -264,13 +264,40 @@ How many bytes per second is this?
 
 Hint: 8 bits = 1 byte`;
 
-    currentAnswer = bytes.toString();
-    currentQuestionType = "soundBitsToBytes";
-    currentSourceValue = { bitsPerSecond };
-  }
+currentAnswer = bytes.toString();
+currentQuestionType = "soundBitsToBytes";
+currentSourceValue = { bitsPerSecond };
 
-  questionEl.textContent = currentQuestion;
-  return;
+} else if (type === "soundUnits") {
+
+  const unitQuestions = [
+    {
+      q: "How many bits are in a byte?",
+      a: "8",
+      w: "1 byte = 8 bits"
+    },
+    {
+      q: "How many bytes are in a kibibyte (KiB)?",
+      a: "1024",
+      w: "1 KiB = 1024 bytes"
+    },
+    {
+      q: "How many kibibytes (KiB) are in 1 mebibyte (MiB)?",
+      a: "1024",
+      w: "1 MiB = 1024 KiB"
+    }
+  ];
+
+  const chosen = unitQuestions[Math.floor(Math.random() * unitQuestions.length)];
+
+  currentQuestion = chosen.q;
+  currentAnswer = chosen.a;
+  currentQuestionType = "soundUnits";
+  currentSourceValue = chosen.w;
+}
+
+questionEl.textContent = currentQuestion;
+return;
 }
 
   if (topic === "binshift") {
