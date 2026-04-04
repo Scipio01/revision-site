@@ -70,6 +70,12 @@ function updatePracticeHeader() {
     return;
   }
 
+  if (topic === "sound") {
+    titleEl.textContent = "Sound Practice";
+    introEl.textContent = "Practise sound file size calculations and unit conversions.";
+    return;
+  }
+  
   if (topic === "text") {
     titleEl.textContent = "ASCII / Unicode Practice";
     introEl.textContent = "Practise ASCII values, Unicode, and how text is represented in binary.";
