@@ -75,7 +75,11 @@ function updatePracticeHeader() {
     introEl.textContent = "Practise ASCII values, Unicode, and how text is represented in binary.";
     return;
   }
-  
+    if (topic === "sound") {
+    titleEl.textContent = "Sound Practice";
+    introEl.textContent = "Practise sound file size calculations and unit conversions.";
+    return;
+  }
   // default
   titleEl.textContent = "Binary Practice";
   introEl.textContent = "Practise converting between denary and binary with instant feedback and working.";
