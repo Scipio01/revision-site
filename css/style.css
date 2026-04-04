@@ -168,6 +168,17 @@ header {
   letter-spacing: 0.01em;
 }
 
+.site-notice {
+  margin: 0 0 18px 0;
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid #d8dee9;
+  background: #f8fafc;
+  font-size: 0.95rem;
+}
+
+
+
 .brand a {
   display: inline-block;
   padding: 6px 2px;
