@@ -209,51 +209,69 @@ function generateQuestion() {
     return;
   }
 
-   if (topic === "sound") {
-    const sampleRates = [1000, 2000, 4000, 8000, 10000];
-    const sampleRate = sampleRates[Math.floor(Math.random() * sampleRates.length)];
-    const bitDepth = [8, 16][Math.floor(Math.random() * 2)];
-  
-    soundQuestionCount++;
+  if (topic === "sound") {
+  const sampleRates = [1000, 2000, 4000, 8000, 10000];
+  const sampleRate = sampleRates[Math.floor(Math.random() * sampleRates.length)];
+  const bitDepth = [8, 16][Math.floor(Math.random() * 2)];
 
-    let type;
-    
-    if (soundQuestionCount <= 3) {
-      type = "soundBitsPerSecond";
-    } else {
-      type = Math.random() < 0.5 ? "soundBitsPerSecond" : "soundTotalBits";
-    }
-  
-    if (type === "soundBitsPerSecond") {
-      const bitsPerSecond = sampleRate * bitDepth;
-  
-      currentQuestion = `A sound is sampled at ${sampleRate} Hz (samples per second) with a resolution of ${bitDepth} bits (bits per sample).
-  
-  How many bits are stored per second?
-  
-  Hint: bits per second = sampling rate × bit depth`;
-  
-      currentAnswer = bitsPerSecond.toString();
-      currentQuestionType = "soundBitsPerSecond";
-      currentSourceValue = { sampleRate, bitDepth };
-    } else {
-      const seconds = [2, 5, 10, 20][Math.floor(Math.random() * 4)];
-      const totalBits = sampleRate * bitDepth * seconds;
-  
-      currentQuestion = `A sound is sampled at ${sampleRate} Hz (samples per second) with a resolution of ${bitDepth} bits (bits per sample) for ${seconds} seconds.
-  
-  How many bits are stored in total?
-  
-  Hint: total bits = sampling rate × bit depth × time`;
-  
-      currentAnswer = totalBits.toString();
-      currentQuestionType = "soundTotalBits";
-      currentSourceValue = { sampleRate, bitDepth, seconds };
-    }
-  
-    questionEl.textContent = currentQuestion;
-    return;
+  soundQuestionCount++;
+
+  let type;
+
+  if (soundQuestionCount <= 3) {
+    type = "soundBitsPerSecond";
+  } else {
+    const options = ["soundBitsPerSecond", "soundTotalBits", "soundBitsToBytes", "soundUnits"];
+    type = options[Math.floor(Math.random() * options.length)];
   }
+
+  if (type === "soundBitsPerSecond") {
+    const bitsPerSecond = sampleRate * bitDepth;
+
+    currentQuestion = `A sound is sampled at ${sampleRate} Hz (samples per second) with a resolution of ${bitDepth} bits (bits per sample).
+
+How many bits are stored per second?
+
+Hint: bits per second = sampling rate × bit depth`;
+
+    currentAnswer = bitsPerSecond.toString();
+    currentQuestionType = "soundBitsPerSecond";
+    currentSourceValue = { sampleRate, bitDepth };
+
+  } else if (type === "soundTotalBits") {
+    const seconds = [2, 5, 10, 20][Math.floor(Math.random() * 4)];
+    const totalBits = sampleRate * bitDepth * seconds;
+
+    currentQuestion = `A sound is sampled at ${sampleRate} Hz (samples per second) with a resolution of ${bitDepth} bits (bits per sample) for ${seconds} seconds.
+
+How many bits are stored in total?
+
+Hint: total bits = sampling rate × bit depth × time`;
+
+    currentAnswer = totalBits.toString();
+    currentQuestionType = "soundTotalBits";
+    currentSourceValue = { sampleRate, bitDepth, seconds };
+
+  } else if (type === "soundBitsToBytes") {
+    const bitsPerSecond = sampleRate * bitDepth;
+    const bytes = bitsPerSecond / 8;
+
+    currentQuestion = `A sound is sampled at ${sampleRate} Hz (samples per second) with a resolution of ${bitDepth} bits (bits per sample).
+
+It stores ${bitsPerSecond} bits per second.
+
+How many bytes per second is this?
+
+Hint: 8 bits = 1 byte`;
+
+    currentAnswer = bytes.toString();
+    currentQuestionType = "soundBitsToBytes";
+    currentSourceValue = { bitsPerSecond };
+  }
+
+  questionEl.textContent = currentQuestion;
+  return;
+}
 
   if (topic === "binshift") {
     const registerSize = difficulty === "hard" ? 8 : 4;
@@ -482,6 +500,10 @@ function checkAnswer() {
       working = "Standard ASCII uses 7 bits per character.";
     }
 
+    else if (currentQuestionType === "soundBitsToBytes") {
+  isCorrect = userAnswer === currentAnswer;
+  working = `${currentSourceValue.bitsPerSecond} ÷ 8 = ${currentAnswer} bytes`;
+  }
     
   else if (currentQuestionType === "denToHex") {
     isCorrect = userAnswer.toUpperCase() === currentAnswer;
