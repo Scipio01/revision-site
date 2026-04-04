@@ -524,7 +524,7 @@ function checkAnswer() {
 
   else if (currentQuestionType === "soundUnits") {
     isCorrect = userAnswer === currentAnswer;
-    working = currentSourceValue;
+    working = `Key fact:\n${currentSourceValue}`;
   }
 
     
