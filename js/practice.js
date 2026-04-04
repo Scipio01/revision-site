@@ -522,6 +522,12 @@ function checkAnswer() {
     working = binaryToDenaryWorking(binaryShown);
   }
 
+  else if (currentQuestionType === "soundUnits") {
+    isCorrect = userAnswer === currentAnswer;
+    working = currentSourceValue;
+  }
+
+    
   else if (currentQuestionType === "asciiBits") {
       isCorrect = userAnswer === currentAnswer;
       working = "Standard ASCII uses 7 bits per character.";
