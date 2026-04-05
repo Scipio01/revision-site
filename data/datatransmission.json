@@ -1,1 +1,107 @@
-
+[
+  {
+    "topicName": "Data Transmission",
+    "front": "What is data transmission?",
+    "back": "The process of sending data from one device to another."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is a packet?",
+    "back": "A small piece of data sent across a network."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "Why is data split into packets?",
+    "back": "To allow data to be transmitted efficiently and reliably."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What are the three parts of a packet?",
+    "back": "Header, payload, trailer."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is in the packet header?",
+    "back": "Destination address, source address, packet number."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is the payload?",
+    "back": "The actual data being sent."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is the trailer?",
+    "back": "Marks the end of the packet and includes error checking."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is packet switching?",
+    "back": "Packets are sent independently across a network and reassembled at the destination."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "Why might packets arrive out of order?",
+    "back": "They may take different routes through the network."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What device controls packet routing?",
+    "back": "A router."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is serial transmission?",
+    "back": "Data sent one bit at a time over a single wire."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is parallel transmission?",
+    "back": "Multiple bits sent at the same time over multiple wires."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is an advantage of parallel transmission?",
+    "back": "Faster over short distances."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What are disadvantages of parallel transmission?",
+    "back": "Crosstalk, skew, expensive, not suitable for long distances."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What are advantages of serial transmission?",
+    "back": "No crosstalk, no skew, cheaper, reliable over long distances."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is simplex transmission?",
+    "back": "Data flows in one direction only."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is half-duplex transmission?",
+    "back": "Data flows both ways but not at the same time."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is full-duplex transmission?",
+    "back": "Data flows both ways at the same time."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is USB?",
+    "back": "A standard interface that uses serial transmission to connect devices."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "Give two advantages of USB",
+    "back": "Provides power, plug and play, supports many devices."
+  },
+  {
+    "topicName": "Data Transmission",
+    "front": "What is a disadvantage of USB?",
+    "back": "Limited cable length."
+  }
+]
