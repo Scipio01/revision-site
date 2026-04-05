@@ -1,9 +1,9 @@
 [
   {
-    "topicName": "Encryption",
+    "topicName": "encryption",
     "mcq": {
       "question": "What is encryption?",
-      "correct": "Converting data into an unreadable form",
+      "correct": "Converting data into an unreadable coded form",
       "wrong": [
         "Compressing data",
         "Sending data",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "Encryption",
+    "topicName": "encryption",
     "mcq": {
       "question": "Why is encryption used?",
       "correct": "To prevent unauthorised access",
@@ -24,7 +24,19 @@
     }
   },
   {
-    "topicName": "Encryption",
+    "topicName": "encryption",
+    "mcq": {
+      "question": "What does encryption NOT prevent?",
+      "correct": "Data being intercepted",
+      "wrong": [
+        "Data being read",
+        "Data being protected",
+        "Data being secured"
+      ]
+    }
+  },
+  {
+    "topicName": "encryption",
     "mcq": {
       "question": "What is symmetric encryption?",
       "correct": "Same key used to encrypt and decrypt",
@@ -36,7 +48,19 @@
     }
   },
   {
-    "topicName": "Encryption",
+    "topicName": "encryption",
+    "mcq": {
+      "question": "What is an advantage of symmetric encryption?",
+      "correct": "Fast and efficient",
+      "wrong": [
+        "More secure than asymmetric",
+        "No key needed",
+        "Always slower"
+      ]
+    }
+  },
+  {
+    "topicName": "encryption",
     "mcq": {
       "question": "What is a disadvantage of symmetric encryption?",
       "correct": "Key must be shared securely",
@@ -48,7 +72,7 @@
     }
   },
   {
-    "topicName": "Encryption",
+    "topicName": "encryption",
     "mcq": {
       "question": "What is asymmetric encryption?",
       "correct": "Uses a public and private key",
@@ -60,7 +84,7 @@
     }
   },
   {
-    "topicName": "Encryption",
+    "topicName": "encryption",
     "mcq": {
       "question": "What is a public key?",
       "correct": "Used to encrypt data",
@@ -72,7 +96,7 @@
     }
   },
   {
-    "topicName": "Encryption",
+    "topicName": "encryption",
     "mcq": {
       "question": "What is a private key?",
       "correct": "Used to decrypt data",
@@ -84,7 +108,19 @@
     }
   },
   {
-    "topicName": "Encryption",
+    "topicName": "encryption",
+    "mcq": {
+      "question": "Which key is used to encrypt data in asymmetric encryption?",
+      "correct": "Public key",
+      "wrong": [
+        "Private key",
+        "Both keys",
+        "No key"
+      ]
+    }
+  },
+  {
+    "topicName": "encryption",
     "mcq": {
       "question": "What is an advantage of asymmetric encryption?",
       "correct": "No need to share a secret key",
@@ -92,6 +128,54 @@
         "Faster",
         "Uses less data",
         "No keys needed"
+      ]
+    }
+  },
+  {
+    "topicName": "encryption",
+    "mcq": {
+      "question": "What is a disadvantage of asymmetric encryption?",
+      "correct": "Slower than symmetric encryption",
+      "wrong": [
+        "Cannot encrypt data",
+        "Uses no keys",
+        "Always insecure"
+      ]
+    }
+  },
+  {
+    "topicName": "encryption",
+    "mcq": {
+      "question": "Which is a use of symmetric encryption?",
+      "correct": "Encrypting stored data such as backups",
+      "wrong": [
+        "HTTPS websites",
+        "Public key exchange",
+        "Digital certificates"
+      ]
+    }
+  },
+  {
+    "topicName": "encryption",
+    "mcq": {
+      "question": "Which is a use of asymmetric encryption?",
+      "correct": "Secure communication over the internet (HTTPS)",
+      "wrong": [
+        "Saving files locally",
+        "Compressing data",
+        "Parallel transmission"
+      ]
+    }
+  },
+  {
+    "topicName": "encryption",
+    "mcq": {
+      "question": "What is the main purpose of encryption?",
+      "correct": "To keep data confidential and secure",
+      "wrong": [
+        "To increase speed",
+        "To store data",
+        "To reduce file size"
       ]
     }
   }
