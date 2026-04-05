@@ -1,1 +1,74 @@
-
+[
+  {
+    "topicName": "Images",
+    "mcq": {
+      "question": "What is a pixel?",
+      "correct": "The smallest unit of an image",
+      "wrong": [
+        "A type of file",
+        "A colour value",
+        "A compression method"
+      ]
+    }
+  },
+  {
+    "topicName": "Images",
+    "mcq": {
+      "question": "What is resolution?",
+      "correct": "Number of pixels in an image",
+      "wrong": [
+        "Number of colours",
+        "File size",
+        "Brightness"
+      ]
+    }
+  },
+  {
+    "topicName": "Images",
+    "mcq": {
+      "question": "What is colour depth?",
+      "correct": "Number of bits per pixel",
+      "wrong": [
+        "Number of pixels",
+        "File size",
+        "Image width"
+      ]
+    }
+  },
+  {
+    "topicName": "Images",
+    "mcq": {
+      "question": "What happens when resolution increases?",
+      "correct": "File size increases",
+      "wrong": [
+        "File size decreases",
+        "Colour depth decreases",
+        "Image becomes analogue"
+      ]
+    }
+  },
+  {
+    "topicName": "Images",
+    "mcq": {
+      "question": "What happens when colour depth increases?",
+      "correct": "File size increases",
+      "wrong": [
+        "File size decreases",
+        "Resolution decreases",
+        "Image becomes binary"
+      ]
+    }
+  },
+  {
+    "topicName": "Images",
+    "mcq": {
+      "question": "What is metadata?",
+      "correct": "Extra information about an image",
+      "wrong": [
+        "The image pixels",
+        "The colour values",
+        "The file size"
+      ]
+    }
+  }
+]
