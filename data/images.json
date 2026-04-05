@@ -1,1 +1,37 @@
-
+[
+  {
+    "topicName": "Images",
+    "front": "What is a pixel?",
+    "back": "The smallest unit of an image."
+  },
+  {
+    "topicName": "Images",
+    "front": "What is a bitmap image?",
+    "back": "An image made of pixels."
+  },
+  {
+    "topicName": "Images",
+    "front": "What is resolution?",
+    "back": "The number of pixels in an image (width × height)."
+  },
+  {
+    "topicName": "Images",
+    "front": "What is colour depth?",
+    "back": "The number of bits used to represent the colour of each pixel."
+  },
+  {
+    "topicName": "Images",
+    "front": "What is metadata?",
+    "back": "Extra data about an image (e.g. date, camera used)."
+  },
+  {
+    "topicName": "Images",
+    "front": "What happens when resolution increases?",
+    "back": "File size increases and image quality improves."
+  },
+  {
+    "topicName": "Images",
+    "front": "What happens when colour depth increases?",
+    "back": "File size increases and image quality improves."
+  }
+]
