@@ -1,52 +1,222 @@
 [
   {
-    "topicName": "Encryption",
-    "front": "What is encryption?",
-    "back": "Converting data into an unreadable coded form."
+    "topic": "transmissionmodes",
+    "question": "What is data transmission?",
+    "options": [
+      "The process of storing data permanently",
+      "The process of sending data from one device to another",
+      "The process of deleting data from memory",
+      "The process of encrypting data"
+    ],
+    "answer": 1
   },
   {
-    "topicName": "Encryption",
-    "front": "Why is encryption used?",
-    "back": "To protect data from unauthorised access."
+    "topic": "transmissionmodes",
+    "question": "What is parallel transmission?",
+    "options": [
+      "Bits are sent one at a time over one wire",
+      "Data flows in one direction only",
+      "Multiple bits are sent at the same time using multiple wires",
+      "Packets are sent independently across a network"
+    ],
+    "answer": 2
   },
   {
-    "topicName": "Encryption",
-    "front": "What is symmetric encryption?",
-    "back": "Uses the same key to encrypt and decrypt data."
+    "topic": "transmissionmodes",
+    "question": "What is serial transmission?",
+    "options": [
+      "Bits are sent one at a time over a single wire",
+      "Multiple bits are sent at once over multiple wires",
+      "Data flows both ways at the same time",
+      "Data is split into packets"
+    ],
+    "answer": 0
   },
   {
-    "topicName": "Encryption",
-    "front": "What is an advantage of symmetric encryption?",
-    "back": "Fast and efficient."
+    "topic": "transmissionmodes",
+    "question": "Which is an advantage of parallel transmission?",
+    "options": [
+      "Reliable over long distances",
+      "No skew",
+      "Can be faster over short distances",
+      "Uses fewer wires"
+    ],
+    "answer": 2
   },
   {
-    "topicName": "Encryption",
-    "front": "What is a disadvantage of symmetric encryption?",
-    "back": "The key must be shared securely."
+    "topic": "transmissionmodes",
+    "question": "Which is a disadvantage of parallel transmission?",
+    "options": [
+      "No crosstalk",
+      "Limited cable length",
+      "Crosstalk",
+      "One-way communication only"
+    ],
+    "answer": 2
   },
   {
-    "topicName": "Encryption",
-    "front": "What is asymmetric encryption?",
-    "back": "Uses a public key and a private key."
+    "topic": "transmissionmodes",
+    "question": "What is skew?",
+    "options": [
+      "When bits arrive at different times",
+      "When wires interfere with each other",
+      "When a device needs restarting",
+      "When data is sent both ways"
+    ],
+    "answer": 0
   },
   {
-    "topicName": "Encryption",
-    "front": "What is a public key?",
-    "back": "A key used to encrypt data and can be shared."
+    "topic": "transmissionmodes",
+    "question": "Which is an advantage of serial transmission?",
+    "options": [
+      "Uses multiple wires",
+      "Reliable over long distances",
+      "Always faster than parallel",
+      "Can only be used inside a computer"
+    ],
+    "answer": 1
   },
   {
-    "topicName": "Encryption",
-    "front": "What is a private key?",
-    "back": "A secret key used to decrypt data."
+    "topic": "transmissionmodes",
+    "question": "Which is a disadvantage of serial transmission?",
+    "options": [
+      "Can be slower over very short distances",
+      "Requires more wires",
+      "Causes crosstalk",
+      "Not suitable for external devices"
+    ],
+    "answer": 0
   },
   {
-    "topicName": "Encryption",
-    "front": "What is an advantage of asymmetric encryption?",
-    "back": "No need to share a secret key."
+    "topic": "transmissionmodes",
+    "question": "Which transmission method is commonly used for buses connecting RAM and CPU?",
+    "options": [
+      "Simplex",
+      "Serial",
+      "Parallel",
+      "Packet switching"
+    ],
+    "answer": 2
   },
   {
-    "topicName": "Encryption",
-    "front": "What is a disadvantage of asymmetric encryption?",
-    "back": "Slower than symmetric encryption."
+    "topic": "transmissionmodes",
+    "question": "What is simplex transmission?",
+    "options": [
+      "Data flows both ways at the same time",
+      "Data flows in one direction only",
+      "Multiple bits are sent at once",
+      "Data flows both ways but not at the same time"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "transmissionmodes",
+    "question": "Which is an example of simplex transmission?",
+    "options": [
+      "Phone call",
+      "Walkie-talkie",
+      "Keyboard sending data to a computer",
+      "USB printer cable"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "transmissionmodes",
+    "question": "What is half-duplex transmission?",
+    "options": [
+      "Data flows in one direction only",
+      "Data flows both ways at the same time",
+      "Data flows both ways, but not at the same time",
+      "Bits are sent one at a time"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "transmissionmodes",
+    "question": "Which is an example of half-duplex transmission?",
+    "options": [
+      "Walkie-talkies",
+      "Keyboard",
+      "RAM to CPU bus",
+      "Monitor cable"
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "transmissionmodes",
+    "question": "What is full-duplex transmission?",
+    "options": [
+      "Data flows both ways at the same time",
+      "Data flows in one direction only",
+      "Bits are sent one at a time",
+      "Data is split into packets"
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "transmissionmodes",
+    "question": "Which is an example of full-duplex transmission?",
+    "options": [
+      "Walkie-talkie",
+      "Keyboard",
+      "Phone call",
+      "Barcode scanner"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "transmissionmodes",
+    "question": "What does USB stand for?",
+    "options": [
+      "Universal System Bus",
+      "Unified Serial Bus",
+      "Universal Serial Bus",
+      "Universal Standard Buffer"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "transmissionmodes",
+    "question": "What type of transmission does USB use?",
+    "options": [
+      "Parallel",
+      "Serial",
+      "Simplex",
+      "Half-duplex"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "transmissionmodes",
+    "question": "Which is an advantage of USB?",
+    "options": [
+      "Unlimited cable length",
+      "Can provide power",
+      "Uses multiple wires",
+      "Needs screws to connect"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "transmissionmodes",
+    "question": "What does hot-swappable mean?",
+    "options": [
+      "The cable gets hot during use",
+      "The device can be connected or removed without restarting",
+      "The device transfers data faster",
+      "The cable can only be used once"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "transmissionmodes",
+    "question": "Which is a disadvantage of USB?",
+    "options": [
+      "Limited cable length",
+      "Cannot transfer data",
+      "Needs multiple wires",
+      "Not suitable for peripherals"
+    ],
+    "answer": 0
   }
 ]
