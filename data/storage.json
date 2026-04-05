@@ -1,1 +1,42 @@
-
+[
+  {
+    "topicName": "Data Storage",
+    "front": "What is a bit?",
+    "back": "A single binary digit (0 or 1)."
+  },
+  {
+    "topicName": "Data Storage",
+    "front": "What is a nibble?",
+    "back": "4 bits."
+  },
+  {
+    "topicName": "Data Storage",
+    "front": "What is a byte?",
+    "back": "8 bits."
+  },
+  {
+    "topicName": "Data Storage",
+    "front": "How many bytes are in a KiB?",
+    "back": "1024 bytes."
+  },
+  {
+    "topicName": "Data Storage",
+    "front": "How many KiB are in a MiB?",
+    "back": "1024 KiB."
+  },
+  {
+    "topicName": "Data Storage",
+    "front": "What is file size?",
+    "back": "The amount of storage space a file uses."
+  },
+  {
+    "topicName": "Data Storage",
+    "front": "What is data compression?",
+    "back": "The process of reducing the size of a file."
+  },
+  {
+    "topicName": "Data Storage",
+    "front": "Why is compression needed?",
+    "back": "To save storage space and reduce transfer time."
+  }
+]
