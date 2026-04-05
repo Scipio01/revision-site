@@ -1,1 +1,67 @@
-
+[
+  {
+    "topicName": "Error Detection",
+    "front": "Why can errors occur during transmission?",
+    "back": "Noise, interference, or signal loss."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "What is a parity bit?",
+    "back": "An extra bit added to detect errors."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "What is even parity?",
+    "back": "Total number of 1s is even."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "What is odd parity?",
+    "back": "Total number of 1s is odd."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "What is a limitation of parity?",
+    "back": "It cannot correct errors and may miss some."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "What is a checksum?",
+    "back": "A value calculated from data to detect errors."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "How does a checksum work?",
+    "back": "Sender calculates it, receiver recalculates and compares."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "What is an echo check?",
+    "back": "Data is sent back and compared with the original."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "What is a check digit?",
+    "back": "An extra digit used to detect data entry errors."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "Give an example of a check digit use",
+    "back": "ISBN or barcodes."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "What is ARQ?",
+    "back": "Automatic Repeat Query used to ensure data is received correctly."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "What is ACK?",
+    "back": "Positive acknowledgement that data is correct."
+  },
+  {
+    "topicName": "Error Detection",
+    "front": "What is NACK?",
+    "back": "Negative acknowledgement requesting resend."
+  }
+]
