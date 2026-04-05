@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           <h3>${topic.name}</h3>
           <p class="muted">${topic.description}</p>
           <div class="actions">
-            ${topic.id === 'datarep'
+            ${topic.id === 'datarep' || topic.id === 'datatransmission'
               ? `<a class="btn-primary button" href="data-representation.html">Open topic</a>`
               : `
                 <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
