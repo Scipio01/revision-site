@@ -1,9 +1,9 @@
 [
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "mcq": {
       "question": "Why do errors occur during transmission?",
-      "correct": "Noise or interference",
+      "correct": "Noise, interference or signal loss",
       "wrong": [
         "Too many files",
         "Large storage",
@@ -12,7 +12,19 @@
     }
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
+    "mcq": {
+      "question": "Why is error detection needed?",
+      "correct": "To ensure data is received correctly",
+      "wrong": [
+        "To increase file size",
+        "To compress data",
+        "To speed up processing"
+      ]
+    }
+  },
+  {
+    "topicName": "errordetection",
     "mcq": {
       "question": "What is a parity bit?",
       "correct": "An extra bit used to detect errors",
@@ -24,7 +36,7 @@
     }
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "mcq": {
       "question": "What is even parity?",
       "correct": "Total number of 1s is even",
@@ -36,10 +48,10 @@
     }
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "mcq": {
       "question": "What is a limitation of parity?",
-      "correct": "Cannot correct errors",
+      "correct": "Cannot correct errors and may miss some",
       "wrong": [
         "Cannot detect errors",
         "Too fast",
@@ -48,7 +60,31 @@
     }
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
+    "mcq": {
+      "question": "What is parity block check?",
+      "correct": "Uses parity bits for rows and columns of data",
+      "wrong": [
+        "Encrypts data",
+        "Compresses files",
+        "Stores data permanently"
+      ]
+    }
+  },
+  {
+    "topicName": "errordetection",
+    "mcq": {
+      "question": "What is an advantage of parity block check?",
+      "correct": "Detects more errors than a single parity bit",
+      "wrong": [
+        "Corrects all errors",
+        "Speeds up transmission",
+        "Reduces file size"
+      ]
+    }
+  },
+  {
+    "topicName": "errordetection",
     "mcq": {
       "question": "What is a checksum?",
       "correct": "A calculated value used to detect errors",
@@ -60,7 +96,31 @@
     }
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
+    "mcq": {
+      "question": "How does a checksum detect errors?",
+      "correct": "The receiver recalculates it and compares it",
+      "wrong": [
+        "It encrypts the data",
+        "It deletes incorrect data",
+        "It resends automatically"
+      ]
+    }
+  },
+  {
+    "topicName": "errordetection",
+    "mcq": {
+      "question": "What is an advantage of a checksum?",
+      "correct": "Detects more errors than parity",
+      "wrong": [
+        "Corrects errors",
+        "Uses less memory",
+        "Speeds up processing"
+      ]
+    }
+  },
+  {
+    "topicName": "errordetection",
     "mcq": {
       "question": "What is an echo check?",
       "correct": "Data is sent back and compared",
@@ -72,7 +132,7 @@
     }
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "mcq": {
       "question": "What is a check digit used for?",
       "correct": "Detecting data entry errors",
@@ -84,19 +144,43 @@
     }
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "mcq": {
-      "question": "What is ARQ?",
-      "correct": "A method to ensure data is correctly received",
+      "question": "Which is an example of a check digit use?",
+      "correct": "ISBN or barcodes",
       "wrong": [
-        "A packet type",
-        "A cable",
-        "A storage unit"
+        "RAM",
+        "CPU",
+        "USB"
       ]
     }
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
+    "mcq": {
+      "question": "What does ARQ stand for?",
+      "correct": "Automatic Repeat Query",
+      "wrong": [
+        "Automatic Response Queue",
+        "Advanced Routing Query",
+        "Automated Request Queue"
+      ]
+    }
+  },
+  {
+    "topicName": "errordetection",
+    "mcq": {
+      "question": "What happens if an error is detected in ARQ?",
+      "correct": "A NACK is sent and the data is resent",
+      "wrong": [
+        "Data is deleted",
+        "The system shuts down",
+        "Data is encrypted"
+      ]
+    }
+  },
+  {
+    "topicName": "errordetection",
     "mcq": {
       "question": "What does ACK mean?",
       "correct": "Data received correctly",
@@ -108,14 +192,26 @@
     }
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "mcq": {
       "question": "What does NACK mean?",
-      "correct": "Data needs to be resent",
+      "correct": "Error detected, resend required",
       "wrong": [
         "Data is correct",
         "Transmission complete",
         "Encryption successful"
+      ]
+    }
+  },
+  {
+    "topicName": "errordetection",
+    "mcq": {
+      "question": "What is the difference between error detection and correction?",
+      "correct": "Detection finds errors, correction fixes them",
+      "wrong": [
+        "They are the same",
+        "Detection fixes errors",
+        "Correction only stores data"
       ]
     }
   }
