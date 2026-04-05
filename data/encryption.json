@@ -1,1 +1,52 @@
-
+[
+  {
+    "topicName": "Encryption",
+    "front": "What is encryption?",
+    "back": "Converting data into an unreadable coded form."
+  },
+  {
+    "topicName": "Encryption",
+    "front": "Why is encryption used?",
+    "back": "To protect data from unauthorised access."
+  },
+  {
+    "topicName": "Encryption",
+    "front": "What is symmetric encryption?",
+    "back": "Uses the same key to encrypt and decrypt data."
+  },
+  {
+    "topicName": "Encryption",
+    "front": "What is an advantage of symmetric encryption?",
+    "back": "Fast and efficient."
+  },
+  {
+    "topicName": "Encryption",
+    "front": "What is a disadvantage of symmetric encryption?",
+    "back": "The key must be shared securely."
+  },
+  {
+    "topicName": "Encryption",
+    "front": "What is asymmetric encryption?",
+    "back": "Uses a public key and a private key."
+  },
+  {
+    "topicName": "Encryption",
+    "front": "What is a public key?",
+    "back": "A key used to encrypt data and can be shared."
+  },
+  {
+    "topicName": "Encryption",
+    "front": "What is a private key?",
+    "back": "A secret key used to decrypt data."
+  },
+  {
+    "topicName": "Encryption",
+    "front": "What is an advantage of asymmetric encryption?",
+    "back": "No need to share a secret key."
+  },
+  {
+    "topicName": "Encryption",
+    "front": "What is a disadvantage of asymmetric encryption?",
+    "back": "Slower than symmetric encryption."
+  }
+]
