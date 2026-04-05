@@ -43,5 +43,30 @@
     "topicName": "datapackets",
     "front": "What device directs packets?",
     "back": "A router."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "What additional information is in the packet header?",
+    "back": "The total number of packets in the message."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "What is the first step of packet switching?",
+    "back": "Data is broken down into packets."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "How are packets sent across the network?",
+    "back": "Routers read the header and forward packets to the next router."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "Do all packets take the same route?",
+    "back": "No, packets can take different routes through the network."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "How are packets reassembled at the destination?",
+    "back": "They are put back in order using the packet numbers in the header."
   }
 ]
