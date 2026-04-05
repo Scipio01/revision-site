@@ -1,1 +1,47 @@
-
+[
+  {
+    "topicName": "datapackets",
+    "front": "What is a packet?",
+    "back": "A small piece of data sent across a network."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "Why is data split into packets?",
+    "back": "To allow efficient and reliable transmission."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "What are the three parts of a packet?",
+    "back": "Header, payload, trailer."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "What is in the header?",
+    "back": "Source address, destination address, packet number."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "What is the payload?",
+    "back": "The actual data being sent."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "What is the trailer?",
+    "back": "Marks the end of the packet and includes error checking."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "What is packet switching?",
+    "back": "Packets are sent independently and reassembled at the destination."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "Why can packets arrive out of order?",
+    "back": "They may take different routes through the network."
+  },
+  {
+    "topicName": "datapackets",
+    "front": "What device directs packets?",
+    "back": "A router."
+  }
+]
