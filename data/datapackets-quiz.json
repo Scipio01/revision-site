@@ -1,156 +1,170 @@
 [
   {
-    "topic": "datapackets",
-    "question": "What is a packet?",
-    "options": [
-      "A type of network cable",
-      "A small piece of data sent across a network",
-      "A storage device",
-      "A type of encryption"
-    ],
-    "answer": 1
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "What is a packet?",
+      "correct": "A small piece of data sent across a network",
+      "wrong": [
+        "A type of network cable",
+        "A storage device",
+        "A type of encryption"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "Why is data split into packets?",
-    "options": [
-      "To reduce storage space",
-      "To allow efficient and reliable transmission",
-      "To encrypt the data",
-      "To increase file size"
-    ],
-    "answer": 1
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "Why is data split into packets?",
+      "correct": "To allow efficient and reliable transmission",
+      "wrong": [
+        "To reduce storage space",
+        "To encrypt the data",
+        "To increase file size"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "Which of the following is NOT part of a packet?",
-    "options": [
-      "Header",
-      "Payload",
-      "Trailer",
-      "Protocol"
-    ],
-    "answer": 3
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "Which of the following is NOT part of a packet?",
+      "correct": "Protocol",
+      "wrong": [
+        "Header",
+        "Payload",
+        "Trailer"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "What is stored in the payload?",
-    "options": [
-      "Routing information",
-      "Error checking data",
-      "The actual data being sent",
-      "Packet number"
-    ],
-    "answer": 2
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "What is stored in the payload?",
+      "correct": "The actual data being sent",
+      "wrong": [
+        "Routing information",
+        "Error checking data",
+        "Packet number"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "What is the role of the header?",
-    "options": [
-      "Store the actual data",
-      "Mark the end of the packet",
-      "Store addressing and packet information",
-      "Encrypt the packet"
-    ],
-    "answer": 2
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "What is the role of the header?",
+      "correct": "Store addressing and packet information",
+      "wrong": [
+        "Store the actual data",
+        "Mark the end of the packet",
+        "Encrypt the packet"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "Which of the following is found in the header?",
-    "options": [
-      "Payload data",
-      "Packet number",
-      "Error check only",
-      "End marker"
-    ],
-    "answer": 1
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "Which of the following is found in the header?",
+      "correct": "Packet number",
+      "wrong": [
+        "Payload data",
+        "Error check only",
+        "End marker"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "What is the function of the trailer?",
-    "options": [
-      "Stores destination address",
-      "Contains the data",
-      "Marks the end and checks for errors",
-      "Sends the packet"
-    ],
-    "answer": 2
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "What is the function of the trailer?",
+      "correct": "Marks the end and checks for errors",
+      "wrong": [
+        "Stores destination address",
+        "Contains the data",
+        "Sends the packet"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "What is packet switching?",
-    "options": [
-      "Sending all data at once",
-      "Sending packets independently and reassembling them",
-      "Encrypting packets",
-      "Storing packets permanently"
-    ],
-    "answer": 1
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "What is packet switching?",
+      "correct": "Sending packets independently and reassembling them",
+      "wrong": [
+        "Sending all data at once",
+        "Encrypting packets",
+        "Storing packets permanently"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "What is the first step in packet switching?",
-    "options": [
-      "Packets are reassembled",
-      "Packets are encrypted",
-      "Data is broken into packets",
-      "Packets are deleted"
-    ],
-    "answer": 2
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "What is the first step in packet switching?",
+      "correct": "Data is broken into packets",
+      "wrong": [
+        "Packets are reassembled",
+        "Packets are encrypted",
+        "Packets are deleted"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "What device is used to send packets between networks?",
-    "options": [
-      "Switch",
-      "Router",
-      "Server",
-      "Printer"
-    ],
-    "answer": 1
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "What device is used to send packets between networks?",
+      "correct": "Router",
+      "wrong": [
+        "Switch",
+        "Server",
+        "Printer"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "Why might packets take different routes?",
-    "options": [
-      "To slow down transmission",
-      "To avoid routers",
-      "Routers choose the best available route",
-      "To encrypt data"
-    ],
-    "answer": 2
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "Why might packets take different routes?",
+      "correct": "Routers choose the best available route",
+      "wrong": [
+        "To slow down transmission",
+        "To avoid routers",
+        "To encrypt data"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "Why might packets arrive out of order?",
-    "options": [
-      "They are corrupted",
-      "They take different routes",
-      "They are encrypted",
-      "They are deleted"
-    ],
-    "answer": 1
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "Why might packets arrive out of order?",
+      "correct": "They take different routes",
+      "wrong": [
+        "They are corrupted",
+        "They are encrypted",
+        "They are deleted"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "How are packets put back in the correct order?",
-    "options": [
-      "Using the payload",
-      "Using the packet number in the header",
-      "Using the trailer",
-      "Using the router"
-    ],
-    "answer": 1
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "How are packets put back in the correct order?",
+      "correct": "Using the packet number in the header",
+      "wrong": [
+        "Using the payload",
+        "Using the trailer",
+        "Using the router"
+      ]
+    }
   },
   {
-    "topic": "datapackets",
-    "question": "What extra information helps reassemble a message?",
-    "options": [
-      "File size",
-      "Number of packets",
-      "Cable type",
-      "Transmission speed"
-    ],
-    "answer": 1
+    "topicName": "datapackets",
+    "mcq": {
+      "question": "What extra information helps reassemble a message?",
+      "correct": "Number of packets",
+      "wrong": [
+        "File size",
+        "Cable type",
+        "Transmission speed"
+      ]
+    }
   }
 ]
