@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "Data Storage",
+    "mcq": {
+      "question": "How many bits are in a byte?",
+      "correct": "8",
+      "wrong": ["4", "16", "1024"]
+    }
+  },
+  {
+    "topicName": "Data Storage",
+    "mcq": {
+      "question": "How many bytes are in a KiB?",
+      "correct": "1024",
+      "wrong": ["1000", "8", "2048"]
+    }
+  },
+  {
+    "topicName": "Data Storage",
+    "mcq": {
+      "question": "What is a nibble?",
+      "correct": "4 bits",
+      "wrong": ["8 bits", "16 bits", "1 bit"]
+    }
+  },
+  {
+    "topicName": "Data Storage",
+    "mcq": {
+      "question": "Why is compression used?",
+      "correct": "To reduce file size",
+      "wrong": [
+        "To increase quality",
+        "To increase resolution",
+        "To convert to binary"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Storage",
+    "mcq": {
+      "question": "What is lossless compression?",
+      "correct": "No data is lost",
+      "wrong": [
+        "Some data is removed",
+        "File size increases",
+        "Only used for images"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Storage",
+    "mcq": {
+      "question": "What is lossy compression?",
+      "correct": "Some data is permanently removed",
+      "wrong": [
+        "No data is lost",
+        "File size increases",
+        "Only used for text"
+      ]
+    }
+  }
+]
