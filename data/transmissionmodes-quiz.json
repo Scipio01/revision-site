@@ -1,222 +1,242 @@
 [
   {
-    "topic": "transmissionmodes",
-    "question": "What is data transmission?",
-    "options": [
-      "The process of storing data permanently",
-      "The process of sending data from one device to another",
-      "The process of deleting data from memory",
-      "The process of encrypting data"
-    ],
-    "answer": 1
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "What is data transmission?",
+      "correct": "The process of sending data from one device to another",
+      "wrong": [
+        "The process of storing data permanently",
+        "The process of deleting data from memory",
+        "The process of encrypting data"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "What is parallel transmission?",
-    "options": [
-      "Bits are sent one at a time over one wire",
-      "Data flows in one direction only",
-      "Multiple bits are sent at the same time using multiple wires",
-      "Packets are sent independently across a network"
-    ],
-    "answer": 2
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "What is parallel transmission?",
+      "correct": "Multiple bits are sent at the same time using multiple wires",
+      "wrong": [
+        "Bits are sent one at a time over one wire",
+        "Data flows in one direction only",
+        "Packets are sent independently across a network"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "What is serial transmission?",
-    "options": [
-      "Bits are sent one at a time over a single wire",
-      "Multiple bits are sent at once over multiple wires",
-      "Data flows both ways at the same time",
-      "Data is split into packets"
-    ],
-    "answer": 0
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "What is serial transmission?",
+      "correct": "Bits are sent one at a time over a single wire",
+      "wrong": [
+        "Multiple bits are sent at once over multiple wires",
+        "Data flows both ways at the same time",
+        "Data is split into packets"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "Which is an advantage of parallel transmission?",
-    "options": [
-      "Reliable over long distances",
-      "No skew",
-      "Can be faster over short distances",
-      "Uses fewer wires"
-    ],
-    "answer": 2
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "Which is an advantage of parallel transmission?",
+      "correct": "Can be faster over short distances",
+      "wrong": [
+        "Reliable over long distances",
+        "No skew",
+        "Uses fewer wires"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "Which is a disadvantage of parallel transmission?",
-    "options": [
-      "No crosstalk",
-      "Limited cable length",
-      "Crosstalk",
-      "One-way communication only"
-    ],
-    "answer": 2
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "Which is a disadvantage of parallel transmission?",
+      "correct": "Crosstalk",
+      "wrong": [
+        "No crosstalk",
+        "Limited cable length",
+        "One-way communication only"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "What is skew?",
-    "options": [
-      "When bits arrive at different times",
-      "When wires interfere with each other",
-      "When a device needs restarting",
-      "When data is sent both ways"
-    ],
-    "answer": 0
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "What is skew?",
+      "correct": "When bits arrive at different times",
+      "wrong": [
+        "When wires interfere with each other",
+        "When a device needs restarting",
+        "When data is sent both ways"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "Which is an advantage of serial transmission?",
-    "options": [
-      "Uses multiple wires",
-      "Reliable over long distances",
-      "Always faster than parallel",
-      "Can only be used inside a computer"
-    ],
-    "answer": 1
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "Which is an advantage of serial transmission?",
+      "correct": "Reliable over long distances",
+      "wrong": [
+        "Uses multiple wires",
+        "Always faster than parallel",
+        "Can only be used inside a computer"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "Which is a disadvantage of serial transmission?",
-    "options": [
-      "Can be slower over very short distances",
-      "Requires more wires",
-      "Causes crosstalk",
-      "Not suitable for external devices"
-    ],
-    "answer": 0
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "Which is a disadvantage of serial transmission?",
+      "correct": "Can be slower over very short distances",
+      "wrong": [
+        "Requires more wires",
+        "Causes crosstalk",
+        "Not suitable for external devices"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "Which transmission method is commonly used for buses connecting RAM and CPU?",
-    "options": [
-      "Simplex",
-      "Serial",
-      "Parallel",
-      "Packet switching"
-    ],
-    "answer": 2
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "Which transmission method is commonly used for buses connecting RAM and CPU?",
+      "correct": "Parallel",
+      "wrong": [
+        "Simplex",
+        "Serial",
+        "Packet switching"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "What is simplex transmission?",
-    "options": [
-      "Data flows both ways at the same time",
-      "Data flows in one direction only",
-      "Multiple bits are sent at once",
-      "Data flows both ways but not at the same time"
-    ],
-    "answer": 1
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "What is simplex transmission?",
+      "correct": "Data flows in one direction only",
+      "wrong": [
+        "Data flows both ways at the same time",
+        "Multiple bits are sent at once",
+        "Data flows both ways but not at the same time"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "Which is an example of simplex transmission?",
-    "options": [
-      "Phone call",
-      "Walkie-talkie",
-      "Keyboard sending data to a computer",
-      "USB printer cable"
-    ],
-    "answer": 2
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "Which is an example of simplex transmission?",
+      "correct": "Keyboard sending data to a computer",
+      "wrong": [
+        "Phone call",
+        "Walkie-talkie",
+        "USB printer cable"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "What is half-duplex transmission?",
-    "options": [
-      "Data flows in one direction only",
-      "Data flows both ways at the same time",
-      "Data flows both ways, but not at the same time",
-      "Bits are sent one at a time"
-    ],
-    "answer": 2
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "What is half-duplex transmission?",
+      "correct": "Data flows both ways, but not at the same time",
+      "wrong": [
+        "Data flows in one direction only",
+        "Data flows both ways at the same time",
+        "Bits are sent one at a time"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "Which is an example of half-duplex transmission?",
-    "options": [
-      "Walkie-talkies",
-      "Keyboard",
-      "RAM to CPU bus",
-      "Monitor cable"
-    ],
-    "answer": 0
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "Which is an example of half-duplex transmission?",
+      "correct": "Walkie-talkies",
+      "wrong": [
+        "Keyboard",
+        "RAM to CPU bus",
+        "Monitor cable"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "What is full-duplex transmission?",
-    "options": [
-      "Data flows both ways at the same time",
-      "Data flows in one direction only",
-      "Bits are sent one at a time",
-      "Data is split into packets"
-    ],
-    "answer": 0
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "What is full-duplex transmission?",
+      "correct": "Data flows both ways at the same time",
+      "wrong": [
+        "Data flows in one direction only",
+        "Bits are sent one at a time",
+        "Data is split into packets"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "Which is an example of full-duplex transmission?",
-    "options": [
-      "Walkie-talkie",
-      "Keyboard",
-      "Phone call",
-      "Barcode scanner"
-    ],
-    "answer": 2
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "Which is an example of full-duplex transmission?",
+      "correct": "Phone call",
+      "wrong": [
+        "Walkie-talkie",
+        "Keyboard",
+        "Barcode scanner"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "What does USB stand for?",
-    "options": [
-      "Universal System Bus",
-      "Unified Serial Bus",
-      "Universal Serial Bus",
-      "Universal Standard Buffer"
-    ],
-    "answer": 2
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "What does USB stand for?",
+      "correct": "Universal Serial Bus",
+      "wrong": [
+        "Universal System Bus",
+        "Unified Serial Bus",
+        "Universal Standard Buffer"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "What type of transmission does USB use?",
-    "options": [
-      "Parallel",
-      "Serial",
-      "Simplex",
-      "Half-duplex"
-    ],
-    "answer": 1
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "What type of transmission does USB use?",
+      "correct": "Serial",
+      "wrong": [
+        "Parallel",
+        "Simplex",
+        "Half-duplex"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "Which is an advantage of USB?",
-    "options": [
-      "Unlimited cable length",
-      "Can provide power",
-      "Uses multiple wires",
-      "Needs screws to connect"
-    ],
-    "answer": 1
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "Which is an advantage of USB?",
+      "correct": "Can provide power",
+      "wrong": [
+        "Unlimited cable length",
+        "Uses multiple wires",
+        "Needs screws to connect"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "What does hot-swappable mean?",
-    "options": [
-      "The cable gets hot during use",
-      "The device can be connected or removed without restarting",
-      "The device transfers data faster",
-      "The cable can only be used once"
-    ],
-    "answer": 1
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "What does hot-swappable mean?",
+      "correct": "The device can be connected or removed without restarting",
+      "wrong": [
+        "The cable gets hot during use",
+        "The device transfers data faster",
+        "The cable can only be used once"
+      ]
+    }
   },
   {
-    "topic": "transmissionmodes",
-    "question": "Which is a disadvantage of USB?",
-    "options": [
-      "Limited cable length",
-      "Cannot transfer data",
-      "Needs multiple wires",
-      "Not suitable for peripherals"
-    ],
-    "answer": 0
+    "topicName": "transmissionmodes",
+    "mcq": {
+      "question": "Which is a disadvantage of USB?",
+      "correct": "Limited cable length",
+      "wrong": [
+        "Cannot transfer data",
+        "Needs multiple wires",
+        "Not suitable for peripherals"
+      ]
+    }
   }
 ]
