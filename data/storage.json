@@ -38,5 +38,67 @@
     "topicName": "Data Storage",
     "front": "Why is compression needed?",
     "back": "To save storage space and reduce transfer time."
-  }
+  },
+{
+  "topicName": "Data Storage",
+  "front": "What happens to file size when data is compressed?",
+  "back": "File size is reduced."
+},
+{
+  "topicName": "Data Storage",
+  "front": "What are the benefits of compression?",
+  "back": "Less storage space, less bandwidth, faster transmission."
+},
+{
+  "topicName": "Data Storage",
+  "front": "What is lossless compression?",
+  "back": "Compression where no data is lost and the original file can be recreated exactly."
+},
+{
+  "topicName": "Data Storage",
+  "front": "When is lossless compression used?",
+  "back": "When accuracy is essential, e.g. text files and programs."
+},
+{
+  "topicName": "Data Storage",
+  "front": "What is lossy compression?",
+  "back": "Compression where some data is permanently removed."
+},
+{
+  "topicName": "Data Storage",
+  "front": "What is a key disadvantage of lossy compression?",
+  "back": "Lost data cannot be recovered."
+},
+{
+  "topicName": "Data Storage",
+  "front": "When is lossy compression used?",
+  "back": "For images, sound and video where small quality loss is acceptable."
+},
+{
+  "topicName": "Data Storage",
+  "front": "What is Run Length Encoding (RLE)?",
+  "back": "A lossless compression method that stores repeated data as frequency/value pairs."
+},
+{
+  "topicName": "Data Storage",
+  "front": "How does RLE work?",
+  "back": "Repeated values are replaced with how many times they occur and the value."
+},
+{
+  "topicName": "Data Storage",
+  "front": "When is RLE most effective?",
+  "back": "When there are long runs of the same data."
+},
+{
+  "topicName": "Data Storage",
+  "front": "How does lossy compression reduce file size (images)?",
+  "back": "By reducing resolution or colour depth."
+},
+{
+  "topicName": "Data Storage",
+  "front": "How does lossy compression reduce file size (sound)?",
+  "back": "By reducing sample rate or bit depth."
+}
+
+  
 ]
