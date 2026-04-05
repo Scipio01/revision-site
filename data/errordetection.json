@@ -1,67 +1,97 @@
 [
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "front": "Why can errors occur during transmission?",
-    "back": "Noise, interference, or signal loss."
+    "back": "Noise, interference or signal loss."
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
+    "front": "Why is error detection needed?",
+    "back": "To ensure data is received correctly and accurately."
+  },
+  {
+    "topicName": "errordetection",
     "front": "What is a parity bit?",
-    "back": "An extra bit added to detect errors."
+    "back": "An extra bit added to data to detect errors."
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "front": "What is even parity?",
-    "back": "Total number of 1s is even."
+    "back": "The total number of 1s (including the parity bit) is even."
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "front": "What is odd parity?",
-    "back": "Total number of 1s is odd."
+    "back": "The total number of 1s (including the parity bit) is odd."
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "front": "What is a limitation of parity?",
-    "back": "It cannot correct errors and may miss some."
+    "back": "It cannot correct errors and may miss some errors."
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
+    "front": "What is parity block check?",
+    "back": "A method using parity bits for rows and columns of data."
+  },
+  {
+    "topicName": "errordetection",
+    "front": "What is an advantage of parity block check?",
+    "back": "It can detect more errors than a single parity bit."
+  },
+  {
+    "topicName": "errordetection",
     "front": "What is a checksum?",
     "back": "A value calculated from data to detect errors."
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "front": "How does a checksum work?",
-    "back": "Sender calculates it, receiver recalculates and compares."
+    "back": "The sender calculates it, the receiver recalculates and compares."
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
+    "front": "What is an advantage of a checksum?",
+    "back": "It can detect more errors than parity."
+  },
+  {
+    "topicName": "errordetection",
     "front": "What is an echo check?",
     "back": "Data is sent back and compared with the original."
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "front": "What is a check digit?",
     "back": "An extra digit used to detect data entry errors."
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "front": "Give an example of a check digit use",
-    "back": "ISBN or barcodes."
+    "back": "ISBN, credit cards or barcodes."
   },
   {
-    "topicName": "Error Detection",
+    "topicName": "errordetection",
     "front": "What is ARQ?",
-    "back": "Automatic Repeat Query used to ensure data is received correctly."
+    "back": "Automatic Repeat Query, used to ensure data is received correctly."
   },
   {
-    "topicName": "Error Detection",
-    "front": "What is ACK?",
-    "back": "Positive acknowledgement that data is correct."
+    "topicName": "errordetection",
+    "front": "What happens if an error is detected in ARQ?",
+    "back": "A NACK is sent and the data is resent."
   },
   {
-    "topicName": "Error Detection",
-    "front": "What is NACK?",
-    "back": "Negative acknowledgement requesting resend."
+    "topicName": "errordetection",
+    "front": "What happens if data is correct in ARQ?",
+    "back": "An ACK is sent."
+  },
+  {
+    "topicName": "errordetection",
+    "front": "What happens if no response is received in ARQ?",
+    "back": "The data is automatically resent."
+  },
+  {
+    "topicName": "errordetection",
+    "front": "What is the difference between error detection and correction?",
+    "back": "Detection finds errors, correction fixes them."
   }
 ]
