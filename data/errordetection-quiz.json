@@ -1,1 +1,122 @@
-
+[
+  {
+    "topicName": "Error Detection",
+    "mcq": {
+      "question": "Why do errors occur during transmission?",
+      "correct": "Noise or interference",
+      "wrong": [
+        "Too many files",
+        "Large storage",
+        "High resolution"
+      ]
+    }
+  },
+  {
+    "topicName": "Error Detection",
+    "mcq": {
+      "question": "What is a parity bit?",
+      "correct": "An extra bit used to detect errors",
+      "wrong": [
+        "A type of data",
+        "A packet header",
+        "A checksum"
+      ]
+    }
+  },
+  {
+    "topicName": "Error Detection",
+    "mcq": {
+      "question": "What is even parity?",
+      "correct": "Total number of 1s is even",
+      "wrong": [
+        "Total number of 0s is even",
+        "Always odd",
+        "No parity used"
+      ]
+    }
+  },
+  {
+    "topicName": "Error Detection",
+    "mcq": {
+      "question": "What is a limitation of parity?",
+      "correct": "Cannot correct errors",
+      "wrong": [
+        "Cannot detect errors",
+        "Too fast",
+        "Uses too much memory"
+      ]
+    }
+  },
+  {
+    "topicName": "Error Detection",
+    "mcq": {
+      "question": "What is a checksum?",
+      "correct": "A calculated value used to detect errors",
+      "wrong": [
+        "A packet",
+        "A wire",
+        "A key"
+      ]
+    }
+  },
+  {
+    "topicName": "Error Detection",
+    "mcq": {
+      "question": "What is an echo check?",
+      "correct": "Data is sent back and compared",
+      "wrong": [
+        "Data is deleted",
+        "Data is compressed",
+        "Data is encrypted"
+      ]
+    }
+  },
+  {
+    "topicName": "Error Detection",
+    "mcq": {
+      "question": "What is a check digit used for?",
+      "correct": "Detecting data entry errors",
+      "wrong": [
+        "Encrypting data",
+        "Compressing data",
+        "Sending packets"
+      ]
+    }
+  },
+  {
+    "topicName": "Error Detection",
+    "mcq": {
+      "question": "What is ARQ?",
+      "correct": "A method to ensure data is correctly received",
+      "wrong": [
+        "A packet type",
+        "A cable",
+        "A storage unit"
+      ]
+    }
+  },
+  {
+    "topicName": "Error Detection",
+    "mcq": {
+      "question": "What does ACK mean?",
+      "correct": "Data received correctly",
+      "wrong": [
+        "Error detected",
+        "Data lost",
+        "Transmission stopped"
+      ]
+    }
+  },
+  {
+    "topicName": "Error Detection",
+    "mcq": {
+      "question": "What does NACK mean?",
+      "correct": "Data needs to be resent",
+      "wrong": [
+        "Data is correct",
+        "Transmission complete",
+        "Encryption successful"
+      ]
+    }
+  }
+]
