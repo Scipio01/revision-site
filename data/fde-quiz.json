@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "fde",
+    "mcq": {
+      "question": "What does FDE stand for?",
+      "correct": "Fetch-Decode-Execute",
+      "wrong": [
+        "Fetch-Display-Execute",
+        "Find-Decode-Edit",
+        "Fetch-Drive-Execute"
+      ]
+    }
+  },
+  {
+    "topicName": "fde",
+    "mcq": {
+      "question": "What happens during the fetch stage?",
+      "correct": "The next instruction is retrieved from memory",
+      "wrong": [
+        "The instruction is printed",
+        "The computer shuts down",
+        "The result is displayed"
+      ]
+    }
+  },
+  {
+    "topicName": "fde",
+    "mcq": {
+      "question": "Which register holds the address of the next instruction?",
+      "correct": "Program Counter (PC)",
+      "wrong": [
+        "Accumulator (ACC)",
+        "Memory Data Register (MDR)",
+        "Control Unit (CU)"
+      ]
+    }
+  },
+  {
+    "topicName": "fde",
+    "mcq": {
+      "question": "What happens during the decode stage?",
+      "correct": "The control unit interprets the instruction",
+      "wrong": [
+        "The instruction is deleted",
+        "The screen is updated",
+        "The file is saved"
+      ]
+    }
+  },
+  {
+    "topicName": "fde",
+    "mcq": {
+      "question": "What happens during the execute stage?",
+      "correct": "The instruction is carried out",
+      "wrong": [
+        "The instruction is copied",
+        "The RAM is cleared",
+        "The keyboard is activated"
+      ]
+    }
+  }
+]
