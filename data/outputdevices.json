@@ -98,5 +98,36 @@
     "topicName": "outputdevices",
     "front": "Give one difference between DLP and LCD projectors.",
     "back": "DLP projectors are smaller but noisier, LCD projectors have better image quality."
-  }
+  },
+
+  {
+  "topicName": "outputdevices",
+  "front": "Why are LED screens better than LCD screens?",
+  "back": "They are brighter, more energy efficient, thinner and have better image quality."
+},
+{
+  "topicName": "outputdevices",
+  "front": "When would an inkjet printer be used?",
+  "back": "For low-volume or high-quality colour printing such as photos."
+},
+{
+  "topicName": "outputdevices",
+  "front": "When would a laser printer be used?",
+  "back": "For fast, high-volume printing in offices."
+},
+{
+  "topicName": "outputdevices",
+  "front": "When would a 3D printer be used?",
+  "back": "When a physical object is required from a digital design."
+},
+{
+  "topicName": "outputdevices",
+  "front": "What is additive manufacturing?",
+  "back": "Creating an object by adding material layer by layer."
+},
+{
+  "topicName": "outputdevices",
+  "front": "What is subtractive manufacturing?",
+  "back": "Creating an object by removing material from a solid block."
+}
 ]
