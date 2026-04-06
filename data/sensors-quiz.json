@@ -1,1 +1,74 @@
-
+[
+  {
+    "topicName": "sensors",
+    "mcq": {
+      "question": "What is a sensor?",
+      "correct": "A device that measures a physical property and converts it into data",
+      "wrong": [
+        "A device that displays images",
+        "A storage device",
+        "A type of printer"
+      ]
+    }
+  },
+  {
+    "topicName": "sensors",
+    "mcq": {
+      "question": "What type of data do most sensors produce?",
+      "correct": "Analogue",
+      "wrong": [
+        "Digital only",
+        "Binary text",
+        "Images"
+      ]
+    }
+  },
+  {
+    "topicName": "sensors",
+    "mcq": {
+      "question": "What is used to convert sensor data into digital form?",
+      "correct": "ADC",
+      "wrong": [
+        "DAC",
+        "CPU",
+        "ROM"
+      ]
+    }
+  },
+  {
+    "topicName": "sensors",
+    "mcq": {
+      "question": "Which sensor detects heat?",
+      "correct": "Infra-red sensor",
+      "wrong": [
+        "Pressure sensor",
+        "Moisture sensor",
+        "Magnetic sensor"
+      ]
+    }
+  },
+  {
+    "topicName": "sensors",
+    "mcq": {
+      "question": "Which sensor is used in car parking systems?",
+      "correct": "Proximity sensor",
+      "wrong": [
+        "Light sensor",
+        "Flow sensor",
+        "pH sensor"
+      ]
+    }
+  },
+  {
+    "topicName": "sensors",
+    "mcq": {
+      "question": "Which sensor measures temperature?",
+      "correct": "Temperature sensor",
+      "wrong": [
+        "Level sensor",
+        "Gas sensor",
+        "Accelerometer"
+      ]
+    }
+  }
+]
