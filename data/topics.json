@@ -25,12 +25,20 @@
     "hasPractice": false
   },
 
-  {
+ {
   "id": "hardware2",
   "name": "Hardware Part 2",
   "level": "gcse",
   "group": "paper1",
-  "description": "CPU performance, memory, storage and embedded systems.",
+  "description": "CPU performance and embedded systems.",
+  "hasPractice": false
+},
+{
+  "id": "hardware3",
+  "name": "Hardware Part 3",
+  "level": "gcse",
+  "group": "paper1",
+  "description": "Memory, secondary storage and cloud storage.",
   "hasPractice": false
 },
   
