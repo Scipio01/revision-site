@@ -1,1 +1,42 @@
-
+[
+  {
+    "topicName": "alucontrol",
+    "front": "What does ALU stand for?",
+    "back": "Arithmetic Logic Unit."
+  },
+  {
+    "topicName": "alucontrol",
+    "front": "What does the ALU do?",
+    "back": "It carries out arithmetic calculations and logical operations."
+  },
+  {
+    "topicName": "alucontrol",
+    "front": "Give one example of an arithmetic operation carried out by the ALU.",
+    "back": "Addition, subtraction, multiplication or division."
+  },
+  {
+    "topicName": "alucontrol",
+    "front": "Give one example of a logical operation carried out by the ALU.",
+    "back": "Comparisons such as greater than, less than or equal to."
+  },
+  {
+    "topicName": "alucontrol",
+    "front": "What does the control unit do?",
+    "back": "It controls and coordinates the operations of the CPU and the rest of the computer."
+  },
+  {
+    "topicName": "alucontrol",
+    "front": "Which part of the CPU controls the fetch-decode-execute cycle?",
+    "back": "The control unit."
+  },
+  {
+    "topicName": "alucontrol",
+    "front": "Which part of the CPU executes calculations?",
+    "back": "The ALU."
+  },
+  {
+    "topicName": "alucontrol",
+    "front": "How do the ALU and control unit work together?",
+    "back": "The control unit manages and directs operations, and the ALU performs the calculations and logic."
+  }
+]
