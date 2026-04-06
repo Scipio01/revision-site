@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "clockspeed",
+    "mcq": {
+      "question": "What is CPU performance?",
+      "correct": "How quickly a CPU processes instructions",
+      "wrong": [
+        "How much storage a computer has",
+        "The size of the screen",
+        "The number of input devices"
+      ]
+    }
+  },
+  {
+    "topicName": "clockspeed",
+    "mcq": {
+      "question": "What is clock speed measured in?",
+      "correct": "Hertz (Hz)",
+      "wrong": [
+        "Bytes",
+        "Watts",
+        "Pixels"
+      ]
+    }
+  },
+  {
+    "topicName": "clockspeed",
+    "mcq": {
+      "question": "What does a higher clock speed mean?",
+      "correct": "More instructions processed per second",
+      "wrong": [
+        "More storage space",
+        "Better graphics",
+        "More RAM"
+      ]
+    }
+  },
+  {
+    "topicName": "clockspeed",
+    "mcq": {
+      "question": "What is a CPU core?",
+      "correct": "An independent processing unit",
+      "wrong": [
+        "A type of memory",
+        "A storage device",
+        "A network cable"
+      ]
+    }
+  },
+  {
+    "topicName": "clockspeed",
+    "mcq": {
+      "question": "How does cache memory improve performance?",
+      "correct": "It stores frequently used data for faster access",
+      "wrong": [
+        "It increases screen size",
+        "It connects to the internet",
+        "It stores files permanently"
+      ]
+    }
+  }
+]
