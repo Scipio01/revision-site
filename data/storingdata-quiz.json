@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "storingdata",
+    "mcq": {
+      "question": "Where does the CPU temporarily store data and instructions?",
+      "correct": "Registers",
+      "wrong": [
+        "Hard drive",
+        "Monitor",
+        "Keyboard"
+      ]
+    }
+  },
+  {
+    "topicName": "storingdata",
+    "mcq": {
+      "question": "Why are registers used?",
+      "correct": "They are very fast",
+      "wrong": [
+        "They store data permanently",
+        "They connect to the internet",
+        "They display graphics"
+      ]
+    }
+  },
+  {
+    "topicName": "storingdata",
+    "mcq": {
+      "question": "Which register stores the address of the next instruction?",
+      "correct": "Program Counter (PC)",
+      "wrong": [
+        "Accumulator (ACC)",
+        "Memory Data Register (MDR)",
+        "Control Unit (CU)"
+      ]
+    }
+  },
+  {
+    "topicName": "storingdata",
+    "mcq": {
+      "question": "Which register stores fetched data or instructions?",
+      "correct": "Memory Data Register (MDR)",
+      "wrong": [
+        "Program Counter (PC)",
+        "Control Unit (CU)",
+        "Cache"
+      ]
+    }
+  },
+  {
+    "topicName": "storingdata",
+    "mcq": {
+      "question": "Why must addresses be stored?",
+      "correct": "So the CPU knows where to fetch or store data",
+      "wrong": [
+        "To increase screen resolution",
+        "To store images",
+        "To power the computer"
+      ]
+    }
+  }
+]
