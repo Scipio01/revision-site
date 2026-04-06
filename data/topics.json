@@ -24,6 +24,15 @@
     "description": "CPU, fetch-decode-execute cycle, registers, cache, clock speed, cores and embedded systems.",
     "hasPractice": false
   },
+
+  {
+  "id": "hardware2",
+  "name": "Hardware Part 2",
+  "level": "gcse",
+  "group": "paper1",
+  "description": "CPU performance, memory, storage and embedded systems.",
+  "hasPractice": false
+},
   
   {
     "id": "databases",
