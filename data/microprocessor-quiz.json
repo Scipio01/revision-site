@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "microprocessor",
+    "mcq": {
+      "question": "What is a microprocessor?",
+      "correct": "An integrated circuit containing the CPU",
+      "wrong": [
+        "A type of memory",
+        "An input device",
+        "A storage device"
+      ]
+    }
+  },
+  {
+    "topicName": "microprocessor",
+    "mcq": {
+      "question": "What does a microprocessor contain?",
+      "correct": "The CPU",
+      "wrong": [
+        "Only RAM",
+        "Only storage",
+        "Only input devices"
+      ]
+    }
+  },
+  {
+    "topicName": "microprocessor",
+    "mcq": {
+      "question": "What is an integrated circuit?",
+      "correct": "A complete circuit on a single chip",
+      "wrong": [
+        "A group of wires",
+        "A type of software",
+        "A network connection"
+      ]
+    }
+  },
+  {
+    "topicName": "microprocessor",
+    "mcq": {
+      "question": "Where is the microprocessor located?",
+      "correct": "On the motherboard",
+      "wrong": [
+        "In the monitor",
+        "In the keyboard",
+        "In the power supply"
+      ]
+    }
+  },
+  {
+    "topicName": "microprocessor",
+    "mcq": {
+      "question": "Why are microprocessors important?",
+      "correct": "They allow CPU functions on a single chip",
+      "wrong": [
+        "They store files permanently",
+        "They display graphics",
+        "They connect to the internet"
+      ]
+    }
+  }
+]
