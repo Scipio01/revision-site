@@ -1,1 +1,86 @@
-
+[
+  {
+    "topicName": "memory",
+    "mcq": {
+      "question": "What is primary storage?",
+      "correct": "Memory directly accessed by the CPU",
+      "wrong": [
+        "External storage devices",
+        "Cloud-based storage",
+        "Backup storage only"
+      ]
+    }
+  },
+  {
+    "topicName": "memory",
+    "mcq": {
+      "question": "Which of these is an example of primary storage?",
+      "correct": "RAM",
+      "wrong": [
+        "Hard drive",
+        "USB stick",
+        "DVD"
+      ]
+    }
+  },
+  {
+    "topicName": "memory",
+    "mcq": {
+      "question": "What does volatile mean?",
+      "correct": "Loses data when power is off",
+      "wrong": [
+        "Stores data permanently",
+        "Can only store images",
+        "Is very large"
+      ]
+    }
+  },
+  {
+    "topicName": "memory",
+    "mcq": {
+      "question": "What is the main role of ROM?",
+      "correct": "Store startup instructions",
+      "wrong": [
+        "Store user files",
+        "Run programs",
+        "Display graphics"
+      ]
+    }
+  },
+  {
+    "topicName": "memory",
+    "mcq": {
+      "question": "Why is RAM needed?",
+      "correct": "To store running programs and data",
+      "wrong": [
+        "To connect to the internet",
+        "To store permanent files",
+        "To control the keyboard"
+      ]
+    }
+  },
+  {
+    "topicName": "memory",
+    "mcq": {
+      "question": "What is virtual memory?",
+      "correct": "Secondary storage used as an extension of RAM",
+      "wrong": [
+        "A type of ROM",
+        "A network connection",
+        "A graphics system"
+      ]
+    }
+  },
+  {
+    "topicName": "memory",
+    "mcq": {
+      "question": "Why is virtual memory slower?",
+      "correct": "It uses secondary storage",
+      "wrong": [
+        "It has fewer colours",
+        "It uses the keyboard",
+        "It is stored in ROM"
+      ]
+    }
+  }
+]
