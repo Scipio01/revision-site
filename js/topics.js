@@ -28,14 +28,21 @@ document.addEventListener('DOMContentLoaded', async () => {
           <h3>${topic.name}</h3>
       <p class="muted">${topic.description}</p>
       <div class="actions">
-        ${topic.id === 'datarep' || topic.id === 'datatransmission'
-          ? `<a class="btn-primary button" href="${topic.id === 'datarep' ? 'data-representation.html' : 'data-transmission.html'}">Open topic</a>`
-          : `
-            <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
-            <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
-            ${topic.hasPractice ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>` : ''}
-          `
-        }
+        ${
+  topic.id === 'datarep' || topic.id === 'datatransmission' || topic.id === 'hardware1'
+    ? `<a class="btn-primary button" href="${
+        topic.id === 'datarep'
+          ? 'data-representation.html'
+          : topic.id === 'datatransmission'
+          ? 'data-transmission.html'
+          : 'hardware1.html'
+      }">Open topic</a>`
+    : `
+      <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
+      <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
+      ${topic.hasPractice ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>` : ''}
+    `
+}
       </div>
         `;
         div.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setSelectedTopic(topic.id)));
