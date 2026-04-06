@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "embedded",
+    "mcq": {
+      "question": "What is an embedded system?",
+      "correct": "A computer built into another device to perform a specific function",
+      "wrong": [
+        "A large computer used in an office",
+        "A type of external hard drive",
+        "A computer used only for gaming"
+      ]
+    }
+  },
+  {
+    "topicName": "embedded",
+    "mcq": {
+      "question": "What is the main purpose of an embedded system?",
+      "correct": "To carry out a dedicated task",
+      "wrong": [
+        "To store unlimited files",
+        "To allow internet browsing",
+        "To run many different office programs"
+      ]
+    }
+  },
+  {
+    "topicName": "embedded",
+    "mcq": {
+      "question": "Which of these is an example of an embedded system?",
+      "correct": "Washing machine",
+      "wrong": [
+        "Desktop PC",
+        "Laptop used for homework",
+        "Gaming monitor"
+      ]
+    }
+  },
+  {
+    "topicName": "embedded",
+    "mcq": {
+      "question": "How is an embedded system different from a general-purpose computer?",
+      "correct": "It is designed for a specific task",
+      "wrong": [
+        "It always has more storage",
+        "It is always larger",
+        "It can only be used at school"
+      ]
+    }
+  },
+  {
+    "topicName": "embedded",
+    "mcq": {
+      "question": "Why are embedded systems often efficient?",
+      "correct": "They are designed to do one job well",
+      "wrong": [
+        "They always use cloud storage",
+        "They have the biggest screens",
+        "They are connected to more printers"
+      ]
+    }
+  }
+]
