@@ -1,1 +1,42 @@
-
+[
+  {
+    "topicName": "clockspeed",
+    "front": "What is CPU performance?",
+    "back": "How quickly a CPU can process instructions."
+  },
+  {
+    "topicName": "clockspeed",
+    "front": "What is clock speed?",
+    "back": "The number of cycles per second a CPU can perform."
+  },
+  {
+    "topicName": "clockspeed",
+    "front": "What is clock speed measured in?",
+    "back": "Hertz (Hz)."
+  },
+  {
+    "topicName": "clockspeed",
+    "front": "How does clock speed affect CPU performance?",
+    "back": "A higher clock speed means more instructions can be processed per second."
+  },
+  {
+    "topicName": "clockspeed",
+    "front": "What is a CPU core?",
+    "back": "A core is an independent processing unit inside the CPU."
+  },
+  {
+    "topicName": "clockspeed",
+    "front": "How does the number of cores affect performance?",
+    "back": "More cores allow multiple tasks to be processed at the same time."
+  },
+  {
+    "topicName": "clockspeed",
+    "front": "What is cache memory?",
+    "back": "A small amount of very fast memory inside the CPU."
+  },
+  {
+    "topicName": "clockspeed",
+    "front": "How does cache affect CPU performance?",
+    "back": "Frequently used data is stored in cache so the CPU does not need to access RAM as often, speeding up processing."
+  }
+]
