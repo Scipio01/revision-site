@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "alucontrol",
+    "mcq": {
+      "question": "What does ALU stand for?",
+      "correct": "Arithmetic Logic Unit",
+      "wrong": [
+        "Advanced Logic Unit",
+        "Arithmetic Link Unit",
+        "Automatic Logic Utility"
+      ]
+    }
+  },
+  {
+    "topicName": "alucontrol",
+    "mcq": {
+      "question": "What is the role of the ALU?",
+      "correct": "To carry out arithmetic and logical operations",
+      "wrong": [
+        "To store files permanently",
+        "To control theme settings",
+        "To connect devices to the internet"
+      ]
+    }
+  },
+  {
+    "topicName": "alucontrol",
+    "mcq": {
+      "question": "Which part of the CPU controls the fetch-decode-execute cycle?",
+      "correct": "Control unit",
+      "wrong": [
+        "Accumulator",
+        "Cache memory",
+        "Hard drive"
+      ]
+    }
+  },
+  {
+    "topicName": "alucontrol",
+    "mcq": {
+      "question": "Which of these is a logical operation?",
+      "correct": "Comparing whether one value is greater than another",
+      "wrong": [
+        "Saving a file",
+        "Printing a document",
+        "Loading a web page"
+      ]
+    }
+  },
+  {
+    "topicName": "alucontrol",
+    "mcq": {
+      "question": "How do the control unit and ALU work together?",
+      "correct": "The control unit directs operations and the ALU performs calculations and logic",
+      "wrong": [
+        "The ALU stores programs and the control unit prints output",
+        "The control unit stores images and the ALU controls the keyboard",
+        "The ALU fetches data from the internet and the control unit saves it"
+      ]
+    }
+  }
+]
