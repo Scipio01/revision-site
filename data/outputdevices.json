@@ -1,1 +1,102 @@
-
+[
+  {
+    "topicName": "outputdevices",
+    "front": "What is an output device?",
+    "back": "A device that converts digital data from a computer into a form that can be seen, heard or acted upon."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "Give examples of output devices.",
+    "back": "Speaker, printer, monitor, projector, actuator."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "What does a speaker do?",
+    "back": "It converts digital sound data into analogue sound."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "What does DAC stand for?",
+    "back": "Digital-to-Analogue Converter."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "Why is a DAC needed?",
+    "back": "To convert digital sound data into analogue signals that can be heard."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "What is an actuator?",
+    "back": "A device that converts an electrical signal into physical movement."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "Give examples of actuators.",
+    "back": "Motors, valves, robotic arms, central locking systems."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "How does an inkjet printer work?",
+    "back": "It sprays tiny droplets of ink onto paper."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "When is an inkjet printer typically used?",
+    "back": "For high-quality colour printing such as photos."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "How does a laser printer work?",
+    "back": "It uses a laser and toner powder fused onto paper using heat."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "When is a laser printer typically used?",
+    "back": "For fast, high-volume printing in offices."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "What is a 3D printer?",
+    "back": "A device that creates physical objects layer by layer from a digital design."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "What is additive manufacturing?",
+    "back": "Building objects by adding material layer by layer."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "What is subtractive manufacturing?",
+    "back": "Creating objects by removing material from a solid block."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "What is an LCD screen?",
+    "back": "A display that uses liquid crystals and requires a backlight."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "What is an LED screen?",
+    "back": "A display that uses LEDs to produce light directly."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "Give one advantage of LED over LCD.",
+    "back": "Brighter images and lower power usage."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "What is an LCD projector?",
+    "back": "A projector that uses LCD panels and coloured light."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "What is a DLP projector?",
+    "back": "A projector that uses microscopic mirrors to reflect light."
+  },
+  {
+    "topicName": "outputdevices",
+    "front": "Give one difference between DLP and LCD projectors.",
+    "back": "DLP projectors are smaller but noisier, LCD projectors have better image quality."
+  }
+]
