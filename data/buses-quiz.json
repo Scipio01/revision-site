@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "buses",
+    "mcq": {
+      "question": "What is a bus?",
+      "correct": "A set of wires used to transfer data, addresses and control signals",
+      "wrong": [
+        "A type of memory",
+        "An input device",
+        "A storage unit"
+      ]
+    }
+  },
+  {
+    "topicName": "buses",
+    "mcq": {
+      "question": "Which of these is a type of bus?",
+      "correct": "Address bus",
+      "wrong": [
+        "Storage bus",
+        "Input bus",
+        "Graphics bus"
+      ]
+    }
+  },
+  {
+    "topicName": "buses",
+    "mcq": {
+      "question": "What does the data bus carry?",
+      "correct": "The actual data",
+      "wrong": [
+        "The memory address",
+        "The operating system",
+        "The CPU temperature"
+      ]
+    }
+  },
+  {
+    "topicName": "buses",
+    "mcq": {
+      "question": "What does the control bus carry?",
+      "correct": "Control signals",
+      "wrong": [
+        "Only numbers",
+        "Images",
+        "User input"
+      ]
+    }
+  },
+  {
+    "topicName": "buses",
+    "mcq": {
+      "question": "Which bus is unidirectional?",
+      "correct": "Address bus",
+      "wrong": [
+        "Data bus",
+        "Control bus",
+        "All buses"
+      ]
+    }
+  }
+]
