@@ -29,24 +29,27 @@ document.addEventListener('DOMContentLoaded', async () => {
       <p class="muted">${topic.description}</p>
       <div class="actions">
       
-       ${
-  
-  topic.id === 'datarep' || topic.id === 'datatransmission' || topic.id === 'hardware1' || topic.id === 'hardware2'
-    ? `<a class="btn-primary button" href="${
-        topic.id === 'datarep'
-          ? 'data-representation.html'
-          : topic.id === 'datatransmission'
-          ? 'data-transmission.html'
-          : topic.id === 'hardware1'
-          ? 'hardware1.html'
-          : 'hardware2.html'
-      }">Open topic</a>`
-    : `
-      <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
-      <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
-      ${topic.hasPractice ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>` : ''}
-    `
-}
+      ${
+        topic.id === 'datarep' || topic.id === 'datatransmission' || topic.id === 'hardware1' || topic.id === 'hardware2' || topic.id === 'hardware3' || topic.id === 'hardware4'
+          ? `<a class="btn-primary button" href="${
+              topic.id === 'datarep'
+                ? 'data-representation.html'
+                : topic.id === 'datatransmission'
+                ? 'data-transmission.html'
+                : topic.id === 'hardware1'
+                ? 'hardware1.html'
+                : topic.id === 'hardware2'
+                ? 'hardware2.html'
+                : topic.id === 'hardware3'
+                ? 'hardware3.html'
+                : 'hardware4.html'
+            }">Open topic</a>`
+          : `
+            <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
+            <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
+            ${topic.hasPractice ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>` : ''}
+          `
+      }
       </div>
         `;
         div.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setSelectedTopic(topic.id)));
