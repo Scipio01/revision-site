@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "cpucomponents",
+    "mcq": {
+      "question": "Which of these is a main component of the CPU?",
+      "correct": "Control unit",
+      "wrong": [
+        "Hard drive",
+        "Monitor",
+        "Keyboard"
+      ]
+    }
+  },
+  {
+    "topicName": "cpucomponents",
+    "mcq": {
+      "question": "What does the ALU do?",
+      "correct": "Carries out arithmetic and logical operations",
+      "wrong": [
+        "Stores files permanently",
+        "Connects the computer to a network",
+        "Displays images on the screen"
+      ]
+    }
+  },
+  {
+    "topicName": "cpucomponents",
+    "mcq": {
+      "question": "What is the role of the control unit?",
+      "correct": "To control and coordinate operations",
+      "wrong": [
+        "To store the operating system",
+        "To provide sound output",
+        "To power the computer"
+      ]
+    }
+  },
+  {
+    "topicName": "cpucomponents",
+    "mcq": {
+      "question": "What are registers?",
+      "correct": "Very small, fast memory locations in the CPU",
+      "wrong": [
+        "Permanent storage devices",
+        "Input devices",
+        "External memory chips"
+      ]
+    }
+  },
+  {
+    "topicName": "cpucomponents",
+    "mcq": {
+      "question": "Why is cache memory useful?",
+      "correct": "It is faster for the CPU to access than RAM",
+      "wrong": [
+        "It holds the computer case together",
+        "It connects to the internet",
+        "It replaces the motherboard"
+      ]
+    }
+  }
+]
