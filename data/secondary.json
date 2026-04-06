@@ -1,1 +1,112 @@
-
+[
+  {
+    "topicName": "secondary",
+    "front": "What is secondary storage?",
+    "back": "Storage that is not directly accessed by the CPU and is used for permanent storage of data and programs."
+  },
+  {
+    "topicName": "secondary",
+    "front": "Why is secondary storage needed?",
+    "back": "To store data and programs long-term when the computer is turned off."
+  },
+  {
+    "topicName": "secondary",
+    "front": "Is secondary storage volatile or non-volatile?",
+    "back": "Non-volatile."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What is meant by capacity?",
+    "back": "The amount of data a storage device can hold, usually measured in GB or TB."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What is internal storage?",
+    "back": "Storage devices inside the computer, such as HDD or SSD."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What is external storage?",
+    "back": "Storage devices connected to a computer, such as USB drives or external hard drives."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What is offline storage?",
+    "back": "Storage not permanently connected to a computer, often used for backup or transfer."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What is magnetic storage?",
+    "back": "A storage method that uses magnetised areas on a disk to store data."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What device uses magnetic storage?",
+    "back": "Hard Disk Drive (HDD)."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What are platters?",
+    "back": "Circular magnetic disks inside a hard drive where data is stored."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What are tracks and sectors?",
+    "back": "Tracks are circular paths on a platter and sectors are sections of tracks that store data."
+  },
+  {
+    "topicName": "secondary",
+    "front": "How is data written in magnetic storage?",
+    "back": "Using electromagnets in the read/write head."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What is optical storage?",
+    "back": "A storage method that uses lasers to read and write data on a disc."
+  },
+  {
+    "topicName": "secondary",
+    "front": "Give examples of optical storage.",
+    "back": "CD, DVD and Blu-ray."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What are pits and lands?",
+    "back": "Pits are indentations and lands are flat areas on a disc that reflect laser light differently."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What is solid-state storage?",
+    "back": "Storage that uses electronic circuits and has no moving parts."
+  },
+  {
+    "topicName": "secondary",
+    "front": "Give examples of solid-state storage.",
+    "back": "SSD, USB flash drive and SD card."
+  },
+  {
+    "topicName": "secondary",
+    "front": "How does solid-state storage store data?",
+    "back": "Using flash memory and transistors."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What is virtual memory?",
+    "back": "A portion of secondary storage used as an extension of RAM when RAM is full."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What is a page?",
+    "back": "A fixed-size block of data transferred between RAM and virtual memory."
+  },
+  {
+    "topicName": "secondary",
+    "front": "What is paging (or swapping)?",
+    "back": "The process of moving pages of data between RAM and secondary storage."
+  },
+  {
+    "topicName": "secondary",
+    "front": "Why is virtual memory slower than RAM?",
+    "back": "Because it uses secondary storage, which is slower to access."
+  }
+]
