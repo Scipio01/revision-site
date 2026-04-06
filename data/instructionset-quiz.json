@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "instructionset",
+    "mcq": {
+      "question": "What is an instruction set?",
+      "correct": "A list of commands a CPU can process",
+      "wrong": [
+        "A type of memory",
+        "A storage device",
+        "An input system"
+      ]
+    }
+  },
+  {
+    "topicName": "instructionset",
+    "mcq": {
+      "question": "In what form are instructions stored?",
+      "correct": "Machine code",
+      "wrong": [
+        "Images",
+        "Text files",
+        "Sound files"
+      ]
+    }
+  },
+  {
+    "topicName": "instructionset",
+    "mcq": {
+      "question": "Why is an instruction set important?",
+      "correct": "It defines what operations a CPU can perform",
+      "wrong": [
+        "It increases screen resolution",
+        "It stores user data",
+        "It connects to networks"
+      ]
+    }
+  },
+  {
+    "topicName": "instructionset",
+    "mcq": {
+      "question": "What happens if a CPU does not recognise an instruction?",
+      "correct": "It cannot execute it",
+      "wrong": [
+        "It deletes the program",
+        "It shuts down",
+        "It stores it permanently"
+      ]
+    }
+  },
+  {
+    "topicName": "instructionset",
+    "mcq": {
+      "question": "Do all CPUs have the same instruction set?",
+      "correct": "No",
+      "wrong": [
+        "Yes",
+        "Only laptops do",
+        "Only servers do"
+      ]
+    }
+  }
+]
