@@ -1,1 +1,42 @@
-
+[
+  {
+    "topicName": "embedded",
+    "front": "What is an embedded system?",
+    "back": "An embedded system is a computer built into another device to perform a specific function."
+  },
+  {
+    "topicName": "embedded",
+    "front": "What is the main purpose of an embedded system?",
+    "back": "To carry out a dedicated task inside a larger system."
+  },
+  {
+    "topicName": "embedded",
+    "front": "How is an embedded system different from a general-purpose computer?",
+    "back": "An embedded system is designed for a specific task, while a general-purpose computer can perform many different tasks."
+  },
+  {
+    "topicName": "embedded",
+    "front": "Give an example of an embedded system.",
+    "back": "A washing machine, microwave, traffic lights, printer or sat nav."
+  },
+  {
+    "topicName": "embedded",
+    "front": "Why are embedded systems often small and efficient?",
+    "back": "Because they are designed to perform one specific job."
+  },
+  {
+    "topicName": "embedded",
+    "front": "Where are embedded systems commonly found?",
+    "back": "Inside household appliances, vehicles, medical devices and industrial machines."
+  },
+  {
+    "topicName": "embedded",
+    "front": "Why are embedded systems reliable?",
+    "back": "Because they are designed for a limited set of tasks and can be optimised for that purpose."
+  },
+  {
+    "topicName": "embedded",
+    "front": "Can an embedded system usually be reprogrammed by the user for many different tasks?",
+    "back": "No, it is normally designed for one main purpose."
+  }
+]
