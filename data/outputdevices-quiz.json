@@ -1,1 +1,74 @@
-
+[
+  {
+    "topicName": "outputdevices",
+    "mcq": {
+      "question": "What is an output device?",
+      "correct": "A device that converts digital data into a form that can be seen or heard",
+      "wrong": [
+        "A device that inputs data",
+        "A storage device",
+        "A network device"
+      ]
+    }
+  },
+  {
+    "topicName": "outputdevices",
+    "mcq": {
+      "question": "What does a speaker do?",
+      "correct": "Converts digital sound into analogue sound",
+      "wrong": [
+        "Stores sound permanently",
+        "Prints sound waves",
+        "Amplifies images"
+      ]
+    }
+  },
+  {
+    "topicName": "outputdevices",
+    "mcq": {
+      "question": "What is an actuator?",
+      "correct": "A device that produces movement",
+      "wrong": [
+        "A type of memory",
+        "A storage disk",
+        "A type of sensor"
+      ]
+    }
+  },
+  {
+    "topicName": "outputdevices",
+    "mcq": {
+      "question": "Which printer is best for high-volume printing?",
+      "correct": "Laser printer",
+      "wrong": [
+        "Inkjet printer",
+        "3D printer",
+        "Dot matrix printer"
+      ]
+    }
+  },
+  {
+    "topicName": "outputdevices",
+    "mcq": {
+      "question": "What is a 3D printer used for?",
+      "correct": "Creating physical objects",
+      "wrong": [
+        "Displaying images",
+        "Playing sound",
+        "Scanning documents"
+      ]
+    }
+  },
+  {
+    "topicName": "outputdevices",
+    "mcq": {
+      "question": "What is one advantage of LED screens?",
+      "correct": "Brighter and more energy efficient",
+      "wrong": [
+        "They need no electricity",
+        "They cannot display colour",
+        "They are always larger"
+      ]
+    }
+  }
+]
