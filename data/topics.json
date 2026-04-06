@@ -41,6 +41,15 @@
   "description": "Memory, secondary storage and cloud storage.",
   "hasPractice": false
 },
+
+  {
+  "id": "hardware4",
+  "name": "Hardware Part 4",
+  "level": "gcse",
+  "group": "paper1",
+  "description": "Input devices, output devices and sensors.",
+  "hasPractice": false
+},
   
   {
     "id": "databases",
