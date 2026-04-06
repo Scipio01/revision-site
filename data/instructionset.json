@@ -1,1 +1,32 @@
-
+[
+  {
+    "topicName": "instructionset",
+    "front": "What is an instruction set?",
+    "back": "A list of all the commands a CPU can process."
+  },
+  {
+    "topicName": "instructionset",
+    "front": "In what form are instruction set commands written?",
+    "back": "Machine code."
+  },
+  {
+    "topicName": "instructionset",
+    "front": "Why does a CPU need an instruction set?",
+    "back": "So it knows which operations it can perform."
+  },
+  {
+    "topicName": "instructionset",
+    "front": "What happens if a program uses an instruction not in the CPU’s instruction set?",
+    "back": "The CPU cannot execute it."
+  },
+  {
+    "topicName": "instructionset",
+    "front": "Are all CPUs guaranteed to have the same instruction set?",
+    "back": "No, different CPUs can have different instruction sets."
+  },
+  {
+    "topicName": "instructionset",
+    "front": "Why are instruction sets important for compatibility?",
+    "back": "Programs must use instructions that the CPU understands."
+  }
+]
