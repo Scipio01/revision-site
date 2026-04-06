@@ -7,14 +7,7 @@
     "description": "Binary, hexadecimal and how data is represented in a computer.",
     "hasPractice": false
   },
-  {
-    "id": "networks",
-    "name": "Networks",
-    "level": "gcse",
-    "group": "paper1",
-    "description": "Addresses, DNS, routers, protocols and packets.",
-    "hasPractice": false
-  },
+ 
   {
     "id": "datatransmission",
     "name": "Data Transmission",
@@ -23,6 +16,15 @@
     "description": "Packets, transmission methods, error detection and encryption.",
     "hasPractice": false
   },
+  {
+    "id": "hardware1",
+    "name": "Hardware Part 1",
+    "level": "gcse",
+    "group": "paper1",
+    "description": "CPU, fetch-decode-execute cycle, registers, cache, clock speed, cores and embedded systems.",
+    "hasPractice": false
+  },
+  
   {
     "id": "databases",
     "name": "Databases",
