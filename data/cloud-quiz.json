@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "cloud",
+    "mcq": {
+      "question": "What is cloud storage?",
+      "correct": "Storage on remote servers accessed via the internet",
+      "wrong": [
+        "Storage only on a USB stick",
+        "Storage inside RAM",
+        "Storage on a graphics card"
+      ]
+    }
+  },
+  {
+    "topicName": "cloud",
+    "mcq": {
+      "question": "What does remote access mean?",
+      "correct": "Accessing data from anywhere using the internet",
+      "wrong": [
+        "Accessing files only at school",
+        "Accessing files without power",
+        "Accessing files using a printer"
+      ]
+    }
+  },
+  {
+    "topicName": "cloud",
+    "mcq": {
+      "question": "Where is cloud data stored?",
+      "correct": "On physical servers in data centres",
+      "wrong": [
+        "Inside RAM",
+        "In a keyboard",
+        "In a monitor"
+      ]
+    }
+  },
+  {
+    "topicName": "cloud",
+    "mcq": {
+      "question": "What is an advantage of cloud storage?",
+      "correct": "Access from anywhere",
+      "wrong": [
+        "No need for internet",
+        "Always faster than RAM",
+        "No security risks"
+      ]
+    }
+  },
+  {
+    "topicName": "cloud",
+    "mcq": {
+      "question": "What is a disadvantage of cloud storage?",
+      "correct": "Requires an internet connection",
+      "wrong": [
+        "Cannot store files",
+        "Cannot be shared",
+        "Has no capacity"
+      ]
+    }
+  }
+]
