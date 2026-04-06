@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "registers",
+    "mcq": {
+      "question": "What are registers?",
+      "correct": "Very small, very fast memory locations inside the CPU",
+      "wrong": [
+        "Permanent storage devices",
+        "Input devices",
+        "External memory units"
+      ]
+    }
+  },
+  {
+    "topicName": "registers",
+    "mcq": {
+      "question": "What does the program counter (PC) store?",
+      "correct": "The address of the next instruction",
+      "wrong": [
+        "The current calculation result",
+        "The data fetched from RAM",
+        "The operating system"
+      ]
+    }
+  },
+  {
+    "topicName": "registers",
+    "mcq": {
+      "question": "What does the memory address register (MAR) store?",
+      "correct": "The address of the data or instruction being fetched",
+      "wrong": [
+        "The final answer from the ALU",
+        "The current web page",
+        "The instruction being printed"
+      ]
+    }
+  },
+  {
+    "topicName": "registers",
+    "mcq": {
+      "question": "What does the memory data register (MDR) store?",
+      "correct": "The data or instruction fetched from memory",
+      "wrong": [
+        "The address of the next instruction",
+        "The computer password",
+        "The display settings"
+      ]
+    }
+  },
+  {
+    "topicName": "registers",
+    "mcq": {
+      "question": "What does the accumulator (ACC) store?",
+      "correct": "The result of calculations and processing",
+      "wrong": [
+        "The address of a website",
+        "The next instruction to fetch",
+        "The list of input devices"
+      ]
+    }
+  }
+]
