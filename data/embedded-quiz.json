@@ -3,10 +3,10 @@
     "topicName": "embedded",
     "mcq": {
       "question": "What is an embedded system?",
-      "correct": "A computer built into another device to perform a specific function",
+      "correct": "A computer system built into another device to perform a specific function",
       "wrong": [
-        "A large computer used in an office",
-        "A type of external hard drive",
+        "A large office computer",
+        "A storage device used for backups",
         "A computer used only for gaming"
       ]
     }
@@ -14,12 +14,12 @@
   {
     "topicName": "embedded",
     "mcq": {
-      "question": "What is the main purpose of an embedded system?",
-      "correct": "To carry out a dedicated task",
+      "question": "What is meant by a dedicated function?",
+      "correct": "A single fixed task",
       "wrong": [
-        "To store unlimited files",
-        "To allow internet browsing",
-        "To run many different office programs"
+        "A task that changes every day",
+        "A group of unrelated jobs",
+        "A program that stores files"
       ]
     }
   },
@@ -30,8 +30,8 @@
       "correct": "Washing machine",
       "wrong": [
         "Desktop PC",
-        "Laptop used for homework",
-        "Gaming monitor"
+        "Laptop",
+        "Tablet used for homework"
       ]
     }
   },
@@ -39,23 +39,35 @@
     "topicName": "embedded",
     "mcq": {
       "question": "How is an embedded system different from a general-purpose computer?",
-      "correct": "It is designed for a specific task",
+      "correct": "It is designed for one main task",
       "wrong": [
-        "It always has more storage",
-        "It is always larger",
-        "It can only be used at school"
+        "It always has more memory",
+        "It always has a larger screen",
+        "It can run every type of software"
       ]
     }
   },
   {
     "topicName": "embedded",
     "mcq": {
-      "question": "Why are embedded systems often efficient?",
-      "correct": "They are designed to do one job well",
+      "question": "What is firmware?",
+      "correct": "Software stored in ROM",
       "wrong": [
-        "They always use cloud storage",
-        "They have the biggest screens",
-        "They are connected to more printers"
+        "Software stored on the internet",
+        "A type of input device",
+        "A removable storage disk"
+      ]
+    }
+  },
+  {
+    "topicName": "embedded",
+    "mcq": {
+      "question": "What is a microcontroller?",
+      "correct": "A single microprocessor system including CPU, RAM and ROM used to control a device",
+      "wrong": [
+        "A very large hard drive",
+        "A graphics card",
+        "A network switch"
       ]
     }
   }
