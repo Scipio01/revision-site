@@ -1,62 +1,62 @@
 [
-{
-"topicName": "cpu",
-"mcq": {
-"question": "What is the main role of the CPU?",
-"correct": "To fetch, decode and execute instructions",
-"wrong": [
-"To store files permanently",
-"To display images on the screen",
-"To connect to the internet"
-]
-}
-},
-{
-"topicName": "cpu",
-"mcq": {
-"question": "What does the CPU process?",
-"correct": "Instructions and data",
-"wrong": [
-"Only images",
-"Only text files",
-"Only sound"
-]
-}
-},
-{
-"topicName": "cpu",
-"mcq": {
-"question": "Where are instructions stored before the CPU processes them?",
-"correct": "RAM",
-"wrong": [
-"Hard drive only",
-"Monitor",
-"Keyboard"
-]
-}
-},
-{
-"topicName": "cpu",
-"mcq": {
-"question": "Which cycle does the CPU constantly repeat?",
-"correct": "Fetch-decode-execute cycle",
-"wrong": [
-"Input-process-output cycle",
-"Compile-run cycle",
-"Load-save cycle"
-]
-}
-},
-{
-"topicName": "cpu",
-"mcq": {
-"question": "What happens after the CPU processes data?",
-"correct": "The result is output",
-"wrong": [
-"The data is deleted",
-"The computer shuts down",
-"The RAM is cleared"
-]
-}
-}
+  {
+    "topicName": "cpu",
+    "mcq": {
+      "question": "What is the main role of the CPU?",
+      "correct": "To fetch, decode and execute instructions",
+      "wrong": [
+        "To store files permanently",
+        "To display images on the screen",
+        "To connect to the internet"
+      ]
+    }
+  },
+  {
+    "topicName": "cpu",
+    "mcq": {
+      "question": "What does the CPU process?",
+      "correct": "Instructions and data",
+      "wrong": [
+        "Only images",
+        "Only text files",
+        "Only sound"
+      ]
+    }
+  },
+  {
+    "topicName": "cpu",
+    "mcq": {
+      "question": "Where are instructions stored before the CPU processes them?",
+      "correct": "RAM",
+      "wrong": [
+        "Hard drive only",
+        "Monitor",
+        "Keyboard"
+      ]
+    }
+  },
+  {
+    "topicName": "cpu",
+    "mcq": {
+      "question": "Which cycle does the CPU constantly repeat?",
+      "correct": "Fetch-decode-execute cycle",
+      "wrong": [
+        "Input-process-output cycle",
+        "Compile-run cycle",
+        "Load-save cycle"
+      ]
+    }
+  },
+  {
+    "topicName": "cpu",
+    "mcq": {
+      "question": "What happens after the CPU processes data?",
+      "correct": "The result is output",
+      "wrong": [
+        "The data is deleted",
+        "The computer shuts down",
+        "The RAM is cleared"
+      ]
+    }
+  }
 ]
