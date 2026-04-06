@@ -1,1 +1,74 @@
-
+[
+  {
+    "topicName": "secondary",
+    "mcq": {
+      "question": "What is secondary storage?",
+      "correct": "Storage not directly accessed by the CPU",
+      "wrong": [
+        "Memory inside the CPU",
+        "Temporary storage only",
+        "A type of RAM"
+      ]
+    }
+  },
+  {
+    "topicName": "secondary",
+    "mcq": {
+      "question": "Why is secondary storage used?",
+      "correct": "To store data permanently",
+      "wrong": [
+        "To speed up the CPU",
+        "To display graphics",
+        "To connect to networks"
+      ]
+    }
+  },
+  {
+    "topicName": "secondary",
+    "mcq": {
+      "question": "Which device uses magnetic storage?",
+      "correct": "HDD",
+      "wrong": [
+        "SSD",
+        "RAM",
+        "ROM"
+      ]
+    }
+  },
+  {
+    "topicName": "secondary",
+    "mcq": {
+      "question": "What is used to read optical storage?",
+      "correct": "Laser",
+      "wrong": [
+        "Magnet",
+        "Keyboard",
+        "Battery"
+      ]
+    }
+  },
+  {
+    "topicName": "secondary",
+    "mcq": {
+      "question": "Which of these is solid-state storage?",
+      "correct": "SSD",
+      "wrong": [
+        "CD",
+        "HDD",
+        "DVD"
+      ]
+    }
+  },
+  {
+    "topicName": "secondary",
+    "mcq": {
+      "question": "What is virtual memory?",
+      "correct": "Secondary storage used as an extension of RAM",
+      "wrong": [
+        "A type of ROM",
+        "A graphics system",
+        "A network device"
+      ]
+    }
+  }
+]
