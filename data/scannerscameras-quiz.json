@@ -1,1 +1,86 @@
-
+[
+  {
+    "topicName": "scannerscameras",
+    "mcq": {
+      "question": "What is an automatic input device?",
+      "correct": "A device that collects input automatically",
+      "wrong": [
+        "A device that outputs sound",
+        "A storage device",
+        "A manual input device"
+      ]
+    }
+  },
+  {
+    "topicName": "scannerscameras",
+    "mcq": {
+      "question": "Which of these is an automatic input device?",
+      "correct": "Barcode scanner",
+      "wrong": [
+        "Speaker",
+        "Printer",
+        "Monitor"
+      ]
+    }
+  },
+  {
+    "topicName": "scannerscameras",
+    "mcq": {
+      "question": "What is one advantage of barcodes?",
+      "correct": "Faster than manual data entry",
+      "wrong": [
+        "They store images",
+        "They require no hardware",
+        "They use magnetic storage"
+      ]
+    }
+  },
+  {
+    "topicName": "scannerscameras",
+    "mcq": {
+      "question": "What is one advantage of QR codes?",
+      "correct": "They can store more data",
+      "wrong": [
+        "They only store numbers",
+        "They cannot be scanned at angles",
+        "They require a keyboard"
+      ]
+    }
+  },
+  {
+    "topicName": "scannerscameras",
+    "mcq": {
+      "question": "What is a 2D scanner used for?",
+      "correct": "Digitising documents",
+      "wrong": [
+        "Printing objects",
+        "Measuring temperature",
+        "Playing sound"
+      ]
+    }
+  },
+  {
+    "topicName": "scannerscameras",
+    "mcq": {
+      "question": "What does a 3D scanner create?",
+      "correct": "A digital 3D model",
+      "wrong": [
+        "A printed document",
+        "A sound file",
+        "A barcode"
+      ]
+    }
+  },
+  {
+    "topicName": "scannerscameras",
+    "mcq": {
+      "question": "How does a digital camera capture images?",
+      "correct": "Using a CCD to record pixels",
+      "wrong": [
+        "Using a laser",
+        "Using magnetic platters",
+        "Using a speaker"
+      ]
+    }
+  }
+]
