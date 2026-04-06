@@ -70,5 +70,18 @@
         "They are always larger"
       ]
     }
+  },
+
+  {
+  "topicName": "outputdevices",
+  "mcq": {
+    "question": "Which printer is best for high-volume office printing?",
+    "correct": "Laser printer",
+    "wrong": [
+      "Inkjet printer",
+      "3D printer",
+      "Plotter"
+    ]
   }
+}
 ]
