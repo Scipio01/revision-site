@@ -1,110 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hardware Part 1</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/common.js"></script>
 </head>
-<body>
-  <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="index.html">GCSE CS Revision</a>
+<body class="theme-ocean">
+<header>
+  <div class="container navbar">
+    <div class="brand"><a href="index.html">CS Revision</a></div>
+    <div class="nav-stack">
+      <nav class="nav-links" aria-label="Main navigation">
+        <a class="nav-link" data-nav href="index.html">Home</a>
+        <a class="nav-link" data-nav href="topics.html">Topics</a>
+        <a class="nav-link" data-nav href="progress.html">Progress</a>
+      </nav>
+      <div class="nav-tools">
+        <select id="themeSelect" aria-label="Colour theme">
+          <option value="theme-ocean">Ocean</option>
+          <option value="theme-forest">Forest</option>
+          <option value="theme-lilac">Lilac</option>
+          <option value="theme-warm">Warm</option>
+        </select>
+        <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+      </div>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="container">
-    <section class="hero compact">
-      <p class="eyebrow">GCSE Computer Science</p>
-      <h1>Hardware Part 1</h1>
-      <p class="muted">
-        Choose a subtopic to open flashcards or a quiz.
-      </p>
-    </section>
+<main class="container">
+  <section class="hero compact">
+    <div class="kicker">GCSE Computer Science</div>
+    <h1>Hardware Part 1</h1>
+    <p class="muted">Choose a subtopic to open flashcards or a quiz.</p>
+  </section>
 
-    <section class="topics-grid">
-      <article class="topic-card">
-        <span class="badge">GCSE</span>
-        <h3>Role of the CPU</h3>
-        <p class="muted">What the CPU does and why it is central to processing data and instructions.</p>
-        <div class="actions">
-          <a class="btn-primary button" href="flashcards.html?topic=cpu">Flashcards</a>
-          <a class="button" href="quiz.html?topic=cpu">Quiz</a>
-        </div>
-      </article>
+  <section class="topics-grid">
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>Role of the CPU</h3>
+      <p class="muted">What the CPU does and why it is central to processing data and instructions.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=cpu">Flashcards</a>
+        <a class="button" href="quiz.html?topic=cpu">Quiz</a>
+      </div>
+    </article>
 
-      <article class="topic-card">
-        <span class="badge">GCSE</span>
-        <h3>Microprocessor</h3>
-        <p class="muted">What a microprocessor is and how it relates to the CPU.</p>
-        <div class="actions">
-          <a class="btn-primary button" href="flashcards.html?topic=microprocessor">Flashcards</a>
-          <a class="button" href="quiz.html?topic=microprocessor">Quiz</a>
-        </div>
-      </article>
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>Microprocessor</h3>
+      <p class="muted">What a microprocessor is and how it relates to the CPU.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=microprocessor">Flashcards</a>
+        <a class="button" href="quiz.html?topic=microprocessor">Quiz</a>
+      </div>
+    </article>
 
-      <article class="topic-card">
-        <span class="badge">GCSE</span>
-        <h3>CPU Components</h3>
-        <p class="muted">The main parts of the CPU in a Von Neumann architecture.</p>
-        <div class="actions">
-          <a class="btn-primary button" href="flashcards.html?topic=cpucomponents">Flashcards</a>
-          <a class="button" href="quiz.html?topic=cpucomponents">Quiz</a>
-        </div>
-      </article>
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>CPU Components</h3>
+      <p class="muted">The main parts of the CPU in a Von Neumann architecture.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=cpucomponents">Flashcards</a>
+        <a class="button" href="quiz.html?topic=cpucomponents">Quiz</a>
+      </div>
+    </article>
 
-      <article class="topic-card">
-        <span class="badge">GCSE</span>
-        <h3>ALU and Control Unit</h3>
-        <p class="muted">The jobs of the arithmetic logic unit and the control unit.</p>
-        <div class="actions">
-          <a class="btn-primary button" href="flashcards.html?topic=alucontrol">Flashcards</a>
-          <a class="button" href="quiz.html?topic=alucontrol">Quiz</a>
-        </div>
-      </article>
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>ALU and Control Unit</h3>
+      <p class="muted">The jobs of the arithmetic logic unit and the control unit.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=alucontrol">Flashcards</a>
+        <a class="button" href="quiz.html?topic=alucontrol">Quiz</a>
+      </div>
+    </article>
 
-      <article class="topic-card">
-        <span class="badge">GCSE</span>
-        <h3>Registers</h3>
-        <p class="muted">The purpose of PC, MAR, MDR, CIR and ACC.</p>
-        <div class="actions">
-          <a class="btn-primary button" href="flashcards.html?topic=registers">Flashcards</a>
-          <a class="button" href="quiz.html?topic=registers">Quiz</a>
-        </div>
-      </article>
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>Registers</h3>
+      <p class="muted">The purpose of PC, MAR, MDR, CIR and ACC.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=registers">Flashcards</a>
+        <a class="button" href="quiz.html?topic=registers">Quiz</a>
+      </div>
+    </article>
 
-      <article class="topic-card">
-        <span class="badge">GCSE</span>
-        <h3>Buses</h3>
-        <p class="muted">Address, data and control buses and what they carry.</p>
-        <div class="actions">
-          <a class="btn-primary button" href="flashcards.html?topic=buses">Flashcards</a>
-          <a class="button" href="quiz.html?topic=buses">Quiz</a>
-        </div>
-      </article>
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>Buses</h3>
+      <p class="muted">Address, data and control buses and what they carry.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=buses">Flashcards</a>
+        <a class="button" href="quiz.html?topic=buses">Quiz</a>
+      </div>
+    </article>
 
-      <article class="topic-card">
-        <span class="badge">GCSE</span>
-        <h3>Fetch-Decode-Execute Cycle</h3>
-        <p class="muted">How instructions are fetched from memory, decoded and executed.</p>
-        <div class="actions">
-          <a class="btn-primary button" href="flashcards.html?topic=fde">Flashcards</a>
-          <a class="button" href="quiz.html?topic=fde">Quiz</a>
-        </div>
-      </article>
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>Fetch-Decode-Execute Cycle</h3>
+      <p class="muted">How instructions are fetched from memory, decoded and executed.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=fde">Flashcards</a>
+        <a class="button" href="quiz.html?topic=fde">Quiz</a>
+      </div>
+    </article>
 
-      <article class="topic-card">
-        <span class="badge">GCSE</span>
-        <h3>Storing Data and Addresses</h3>
-        <p class="muted">How data, instructions and addresses are stored in specific CPU registers.</p>
-        <div class="actions">
-          <a class="btn-primary button" href="flashcards.html?topic=storingdata">Flashcards</a>
-          <a class="button" href="quiz.html?topic=storingdata">Quiz</a>
-        </div>
-      </article>
-    </section>
-  </main>
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>Storing Data and Addresses</h3>
+      <p class="muted">How data, instructions and addresses are stored in specific CPU registers.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=storingdata">Flashcards</a>
+        <a class="button" href="quiz.html?topic=storingdata">Quiz</a>
+      </div>
+    </article>
+  </section>
+</main>
 
-  <footer class="container small">Choose a subtopic to continue.</footer>
+<footer class="container small">Choose a subtopic to continue.</footer>
 </body>
 </html>
