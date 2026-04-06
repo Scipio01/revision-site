@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardware Part 3</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/common.js"></script>
+</head>
+<body class="theme-ocean">
+  <header>
+    <div class="container navbar">
+      <div class="brand"><a href="index.html">CS Revision</a></div>
+      <div class="nav-stack">
+        <nav class="nav-links" aria-label="Main navigation">
+          <a class="nav-link" data-nav href="index.html">Home</a>
+          <a class="nav-link" data-nav href="topics.html">Topics</a>
+          <a class="nav-link" data-nav href="progress.html">Progress</a>
+        </nav>
+        <div class="nav-tools">
+          <select id="themeSelect">
+            <option value="theme-ocean">Ocean</option>
+            <option value="theme-forest">Forest</option>
+            <option value="theme-lilac">Lilac</option>
+            <option value="theme-warm">Warm</option>
+          </select>
+          <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+        </div>
+      </div>
+    </div>
+  </header>
 
+  <main class="container">
+    <section class="hero compact">
+      <span class="badge">GCSE Topic</span>
+      <h1>Hardware Part 3</h1>
+      <p>Choose a subtopic to revise.</p>
+    </section>
+
+    <section class="topic-grid">
+
+      <article class="topic-card">
+        <span class="badge">GCSE</span>
+        <h3>Primary Memory</h3>
+        <p class="muted">RAM, ROM and the role of primary memory.</p>
+        <div class="actions">
+          <a class="btn-primary button" href="flashcards.html?topic=memory">Flashcards</a>
+          <a class="button" href="quiz.html?topic=memory">Quiz</a>
+        </div>
+      </article>
+
+      <article class="topic-card">
+        <span class="badge">GCSE</span>
+        <h3>Secondary Storage</h3>
+        <p class="muted">Magnetic, optical and solid state storage.</p>
+        <div class="actions">
+          <a class="btn-primary button" href="flashcards.html?topic=secondary">Flashcards</a>
+          <a class="button" href="quiz.html?topic=secondary">Quiz</a>
+        </div>
+      </article>
+
+      <article class="topic-card">
+        <span class="badge">GCSE</span>
+        <h3>Cloud Storage</h3>
+        <p class="muted">How cloud storage works and its advantages and disadvantages.</p>
+        <div class="actions">
+          <a class="btn-primary button" href="flashcards.html?topic=cloud">Flashcards</a>
+          <a class="button" href="quiz.html?topic=cloud">Quiz</a>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="container small">Choose a subtopic to continue.</footer>
+</body>
+</html>
