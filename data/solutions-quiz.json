@@ -1,1 +1,230 @@
-
+[
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What is anti-malware software?",
+      "correct": "Software used to detect and remove malware",
+      "wrong": [
+        "Hardware used to block network traffic",
+        "A system for storing user data",
+        "A method for encrypting messages"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "Which is a type of anti-malware software?",
+      "correct": "Anti-virus",
+      "wrong": [
+        "Web browser",
+        "Router",
+        "Firewall rule"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What is encryption?",
+      "correct": "Scrambling data so it cannot be read without a key",
+      "wrong": [
+        "Deleting data permanently from a device",
+        "Sending data across a network",
+        "Storing data on a remote server"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "Why is encryption used?",
+      "correct": "To protect data during storage and transmission",
+      "wrong": [
+        "To increase internet speed for users",
+        "To store files on a computer",
+        "To connect devices to a network"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What is a protocol?",
+      "correct": "A set of rules that allow devices to communicate",
+      "wrong": [
+        "A type of network cable",
+        "A method of storing passwords",
+        "A device used to connect networks"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What does HTTP do?",
+      "correct": "Sends and receives unencrypted data",
+      "wrong": [
+        "Encrypts all data automatically",
+        "Assigns IP addresses to devices",
+        "Filters network traffic"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What does HTTPS do?",
+      "correct": "Sends and receives encrypted data",
+      "wrong": [
+        "Stores data on a server",
+        "Assigns IP addresses",
+        "Blocks malware on a device"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What is SSL used for?",
+      "correct": "Encrypting data during transmission",
+      "wrong": [
+        "Blocking unauthorised users",
+        "Storing files on a server",
+        "Assigning IP addresses"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What does a firewall do?",
+      "correct": "Monitors and filters network traffic",
+      "wrong": [
+        "Stores user data permanently",
+        "Encrypts all data automatically",
+        "Connects devices to Wi-Fi"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What are user access levels?",
+      "correct": "Controls what users can see or do",
+      "wrong": [
+        "A type of malware protection",
+        "A method of encrypting data",
+        "A system for storing files"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What is a proxy server?",
+      "correct": "A server that acts between a user and the internet",
+      "wrong": [
+        "A device that stores data locally",
+        "A type of antivirus software",
+        "A program that encrypts files"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What is one benefit of a proxy server?",
+      "correct": "It can hide the user's IP address",
+      "wrong": [
+        "It increases storage space",
+        "It deletes malware automatically",
+        "It replaces the need for passwords"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What do privacy settings control?",
+      "correct": "How apps and websites use personal data",
+      "wrong": [
+        "How fast the internet connection is",
+        "How data is stored on a server",
+        "How files are deleted permanently"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What is authentication?",
+      "correct": "Checking that a user is who they claim to be",
+      "wrong": [
+        "Encrypting data before sending",
+        "Storing passwords securely",
+        "Connecting devices to a network"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "Which is an example of biometrics?",
+      "correct": "Fingerprint scan",
+      "wrong": [
+        "Password entry",
+        "Firewall rule",
+        "IP address"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What is two-factor authentication (2FA)?",
+      "correct": "Using two methods to verify identity",
+      "wrong": [
+        "Using two passwords only",
+        "Storing data in two places",
+        "Connecting two devices together"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "What is physical security?",
+      "correct": "Protecting hardware from theft or damage",
+      "wrong": [
+        "Encrypting data on a device",
+        "Filtering network traffic",
+        "Blocking software access"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "Which is an example of physical security?",
+      "correct": "CCTV system",
+      "wrong": [
+        "Antivirus software",
+        "Firewall settings",
+        "Encryption key"
+      ]
+    }
+  },
+  {
+    "topicName": "solutions",
+    "mcq": {
+      "question": "Why are automatic software updates important?",
+      "correct": "They fix security weaknesses and protect against threats",
+      "wrong": [
+        "They increase storage space on devices",
+        "They remove the need for passwords",
+        "They replace antivirus software"
+      ]
+    }
+  }
+]
