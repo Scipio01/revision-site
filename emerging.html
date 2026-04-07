@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automated & Emerging Technologies</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/common.js"></script>
+</head>
+<body class="theme-ocean">
+<header>
+  <div class="container navbar">
+    <div class="brand"><a href="index.html">CS Revision</a></div>
+    <div class="nav-stack">
+      <nav class="nav-links" aria-label="Main navigation">
+        <a class="nav-link" data-nav href="index.html">Home</a>
+        <a class="nav-link" data-nav href="topics.html">Topics</a>
+        <a class="nav-link" data-nav href="progress.html">Progress</a>
+      </nav>
+      <div class="nav-tools">
+        <select id="themeSelect" aria-label="Colour theme">
+          <option value="theme-ocean">Ocean</option>
+          <option value="theme-forest">Forest</option>
+          <option value="theme-lilac">Lilac</option>
+          <option value="theme-warm">Warm</option>
+        </select>
+        <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+      </div>
+    </div>
+  </div>
+</header>
 
+<main class="container">
+  <section class="hero compact">
+    <div class="kicker">GCSE Computer Science</div>
+    <h1>Automated & Emerging Technologies</h1>
+    <p class="muted">Choose a subtopic to open flashcards or a quiz.</p>
+  </section>
+
+  <section class="topics-grid">
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>Automated Systems</h3>
+      <p class="muted">How automated systems use sensors, processors and actuators to operate automatically.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=automation">Flashcards</a>
+        <a class="button" href="quiz.html?topic=automation">Quiz</a>
+      </div>
+    </article>
+
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>Robotics</h3>
+      <p class="muted">What robots are and how they are used in different environments.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=robotics">Flashcards</a>
+        <a class="button" href="quiz.html?topic=robotics">Quiz</a>
+      </div>
+    </article>
+
+    <article class="topic-card">
+      <span class="badge">GCSE</span>
+      <h3>Artificial Intelligence</h3>
+      <p class="muted">How AI systems mimic human intelligence and decision making.</p>
+      <div class="actions">
+        <a class="btn-primary button" href="flashcards.html?topic=ai">Flashcards</a>
+        <a class="button" href="quiz.html?topic=ai">Quiz</a>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer class="container small">Choose a subtopic to continue.</footer>
+</body>
+</html>
