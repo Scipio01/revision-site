@@ -1,1 +1,58 @@
-
+[
+  {
+    "topicName": "Networks",
+    "front": "What is DNS?",
+    "back": "DNS translates a domain name into the IP address of the server.",
+    "mcq": {
+      "question": "What does DNS do?",
+      "correct": "Translates domain names into IP addresses",
+      "wrong": [
+        "Encrypts network traffic",
+        "Stores web pages",
+        "Allocates MAC addresses"
+      ]
+    }
+  },
+  {
+    "topicName": "Networks",
+    "front": "What is an IP address?",
+    "back": "An IP address identifies a device on a network so data can be sent to the correct destination.",
+    "mcq": {
+      "question": "What is the main purpose of an IP address?",
+      "correct": "To identify a device on a network",
+      "wrong": [
+        "To physically connect devices",
+        "To store files permanently",
+        "To compress packets"
+      ]
+    }
+  },
+  {
+    "topicName": "Networks",
+    "front": "What does a router do?",
+    "back": "A router forwards packets between different networks and chooses a path for the data.",
+    "mcq": {
+      "question": "Which device forwards packets between networks?",
+      "correct": "Router",
+      "wrong": [
+        "Switch",
+        "NIC",
+        "Access point"
+      ]
+    }
+  },
+  {
+    "topicName": "Networks",
+    "front": "What is packet switching?",
+    "back": "Data is broken into packets, sent across the network, and reassembled at the destination.",
+    "mcq": {
+      "question": "What happens in packet switching?",
+      "correct": "Data is broken into packets and reassembled later",
+      "wrong": [
+        "The whole file travels as one unbroken unit",
+        "Only wired networks can be used",
+        "Packets are stored permanently in RAM"
+      ]
+    }
+  }
+]
