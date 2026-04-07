@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       <div class="actions">
       
      ${
-       topic.id === 'datarep' || topic.id === 'datatransmission' || topic.id === 'hardware1' || topic.id === 'hardware2' || topic.id === 'hardware3' || topic.id === 'hardware4' || topic.id === 'software' || topic.id === 'internet'
+       topic.id === 'datarep' || topic.id === 'datatransmission' || topic.id === 'hardware1' || topic.id === 'hardware2' || topic.id === 'hardware3' || topic.id === 'hardware4' || topic.id === 'software' || topic.id === 'internet' || topic.id === 'emerging'
           ? `<a class="btn-primary button" href="${
               topic.id === 'datarep'
                 ? 'data-representation.html'
@@ -46,6 +46,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 ? 'hardware4.html'
                 : topic.id === 'internet'
                 ? 'internet.html'
+                : topic.id === 'emerging'
+                ? 'emerging.html'
                 : 'software.html'
             }">Open topic</a>`
           : `
