@@ -1,1 +1,194 @@
-
+[
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "What is currency?",
+      "correct": "Money used to buy and sell goods and services",
+      "wrong": [
+        "A method used to store data securely",
+        "A type of computer hardware device",
+        "A system used to connect networks"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "What is digital currency?",
+      "correct": "Currency that exists only electronically",
+      "wrong": [
+        "Currency stored only in banks",
+        "Physical money stored online",
+        "A type of network protocol"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "What is another name for digital currency?",
+      "correct": "Cryptocurrency",
+      "wrong": [
+        "Digital storage",
+        "Binary currency",
+        "Network token"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "What determines the value of digital currency?",
+      "correct": "What users believe it is worth",
+      "wrong": [
+        "The number of computers in a network",
+        "The speed of the internet connection",
+        "The size of the storage device"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "What is a private key?",
+      "correct": "A secret key used to authorise transactions",
+      "wrong": [
+        "A public key shared with others",
+        "A type of network address",
+        "A password used to log in"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "Why must a private key be kept secure?",
+      "correct": "It is needed to spend or transfer currency",
+      "wrong": [
+        "It increases internet speed",
+        "It stores transaction history",
+        "It connects to the blockchain"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "What is a public key?",
+      "correct": "A key shared so others can send currency",
+      "wrong": [
+        "A key used to unlock encrypted files",
+        "A password used for authentication",
+        "A key stored only on servers"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "What does a digital wallet store?",
+      "correct": "Public and private keys",
+      "wrong": [
+        "The currency itself",
+        "Web pages and files",
+        "Passwords and usernames only"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "Where are transactions stored?",
+      "correct": "In the blockchain",
+      "wrong": [
+        "In the digital wallet",
+        "On the local hard drive",
+        "In the web browser"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "What is a blockchain?",
+      "correct": "A distributed digital ledger of transactions",
+      "wrong": [
+        "A type of encryption key",
+        "A program that stores passwords",
+        "A device used for networking"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "How are transactions stored in a blockchain?",
+      "correct": "In blocks with details and timestamps",
+      "wrong": [
+        "In single files on one server",
+        "In folders on a computer",
+        "In memory on a device"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "What is a distributed ledger?",
+      "correct": "A ledger stored on many computers",
+      "wrong": [
+        "A ledger stored on one server",
+        "A file stored on a hard drive",
+        "A type of encryption system"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "Why is fraud difficult in blockchain?",
+      "correct": "All copies of the ledger must match",
+      "wrong": [
+        "Data is stored on one computer",
+        "Only one user controls the system",
+        "Transactions are hidden from users"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "Which is a benefit of digital currency?",
+      "correct": "Difficult to counterfeit",
+      "wrong": [
+        "Always increases in value",
+        "Stored only on one device",
+        "Cannot be lost or stolen"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "Which is a drawback of digital currency?",
+      "correct": "Private keys can be lost or hacked",
+      "wrong": [
+        "Transactions are always free",
+        "It cannot be used online",
+        "It is easy to counterfeit"
+      ]
+    }
+  },
+  {
+    "topicName": "currency",
+    "mcq": {
+      "question": "What happens if a private key is lost?",
+      "correct": "The currency is permanently lost",
+      "wrong": [
+        "It can be recovered easily",
+        "The blockchain resets",
+        "The account is deleted automatically"
+      ]
+    }
+  }
+]
