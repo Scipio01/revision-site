@@ -1,1 +1,67 @@
-
+[
+  {
+    "topicName": "ids",
+    "front": "What is an IDE?",
+    "back": "An Integrated Development Environment is software that helps programmers write, test and debug source code."
+  },
+  {
+    "topicName": "ids",
+    "front": "What are the main functions of an IDE?",
+    "back": "Writing, testing and debugging programs."
+  },
+  {
+    "topicName": "ids",
+    "front": "What is a code editor?",
+    "back": "A tool that allows the programmer to write and edit source code."
+  },
+  {
+    "topicName": "ids",
+    "front": "What is a run-time environment?",
+    "back": "Allows a program to be executed and tested, showing output and errors."
+  },
+  {
+    "topicName": "ids",
+    "front": "What is the role of a translator in an IDE?",
+    "back": "Converts source code into machine code so it can be executed."
+  },
+  {
+    "topicName": "ids",
+    "front": "What types of translators can be used in an IDE?",
+    "back": "Compiler, interpreter or assembler."
+  },
+  {
+    "topicName": "ids",
+    "front": "What are error diagnostics?",
+    "back": "Tools that help identify and fix errors, often showing line numbers and suggestions."
+  },
+  {
+    "topicName": "ids",
+    "front": "What is auto-completion?",
+    "back": "Suggests keywords or variable names as the programmer types."
+  },
+  {
+    "topicName": "ids",
+    "front": "What is auto-correction?",
+    "back": "Automatically fixes simple spelling or syntax mistakes."
+  },
+  {
+    "topicName": "ids",
+    "front": "What is prettyprint?",
+    "back": "Automatically formats code using indentation and layout to improve readability."
+  },
+  {
+    "topicName": "ids",
+    "front": "Why are line numbers useful?",
+    "back": "They make it easier to locate errors in code."
+  },
+  {
+    "topicName": "ids",
+    "front": "What is syntax highlighting?",
+    "back": "Uses colours to make code easier to read."
+  },
+  {
+    "topicName": "ids",
+    "front": "Why are IDEs useful?",
+    "back": "They help programmers write code more efficiently and reduce errors."
+  }
+]
