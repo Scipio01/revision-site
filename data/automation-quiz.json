@@ -1,1 +1,134 @@
-
+[
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "What is an automated system?",
+      "correct": "A system that operates automatically",
+      "wrong": [
+        "A system that stores data automatically",
+        "A system that controls network traffic",
+        "A system that displays output automatically"
+      ]
+    }
+  },
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "What are the three main parts of an automated system?",
+      "correct": "Input, processing and output",
+      "wrong": [
+        "Input, storage and output",
+        "Processing, memory and output",
+        "Input, processor and storage"
+      ]
+    }
+  },
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "What provides the input in an automated system?",
+      "correct": "Sensors",
+      "wrong": [
+        "Actuators",
+        "Processors",
+        "Motors"
+      ]
+    }
+  },
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "What carries out the output in an automated system?",
+      "correct": "An actuator",
+      "wrong": [
+        "A sensor",
+        "A processor",
+        "An input device"
+      ]
+    }
+  },
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "What does the processor do in an automated system?",
+      "correct": "Makes decisions using sensor data",
+      "wrong": [
+        "Collects data from the environment",
+        "Carries out the physical action",
+        "Stores data for long-term use"
+      ]
+    }
+  },
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "How do sensors, processors and actuators work together?",
+      "correct": "Sensors collect data, processor decides, actuator acts",
+      "wrong": [
+        "Processor collects data, sensors act, actuator stores data",
+        "Actuator collects data, processor displays output, sensor stores it",
+        "Sensors store data, actuator processes it, processor outputs it"
+      ]
+    }
+  },
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "Which is an example of an automated system?",
+      "correct": "Central heating",
+      "wrong": [
+        "A desktop computer",
+        "A mobile phone",
+        "A printer"
+      ]
+    }
+  },
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "Which scenario best describes an automated system?",
+      "correct": "A thermostat turning heating on when temperature drops",
+      "wrong": [
+        "A user typing on a keyboard",
+        "A person manually switching on a heater",
+        "A student saving a file"
+      ]
+    }
+  },
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "Which is an example of automation in transport?",
+      "correct": "Traffic lights changing automatically",
+      "wrong": [
+        "A driver steering a car",
+        "A person pressing a pedestrian button",
+        "A cyclist changing gears"
+      ]
+    }
+  },
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "What is one advantage of automated systems?",
+      "correct": "They can work continuously",
+      "wrong": [
+        "They never need maintenance",
+        "They always understand complex situations",
+        "They do not need electricity"
+      ]
+    }
+  },
+  {
+    "topicName": "automation",
+    "mcq": {
+      "question": "What is one disadvantage of automated systems?",
+      "correct": "They may fail if sensor data is wrong",
+      "wrong": [
+        "They cannot use inputs",
+        "They do not use processors",
+        "They cannot produce outputs"
+      ]
+    }
+  }
+]
