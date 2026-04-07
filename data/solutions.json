@@ -1,1 +1,112 @@
-
+[
+  {
+    "topicName": "solutions",
+    "front": "What is anti-malware software?",
+    "back": "Software used to detect, prevent and remove malware."
+  },
+  {
+    "topicName": "solutions",
+    "front": "Give two types of anti-malware software.",
+    "back": "Anti-virus and anti-spyware."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What is encryption?",
+    "back": "Encryption is a way of changing data so it cannot be understood, it cannot be read without the correct key."
+  },
+  {
+    "topicName": "solutions",
+    "front": "Why is encryption used?",
+    "back": "To protect data during storage and transmission."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What is a protocol?",
+    "back": "A protocol is a set of rules that allow computers to communicate."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What is HTTP?",
+    "back": "HTTP is a protocol used to send and receive unencrypted data."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What is HTTPS?",
+    "back": "HTTPS is a protocol used to send and receive encrypted data."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What is SSL?",
+    "back": "SSL is a protocol used by HTTPS to encrypt data during transmission."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What does a firewall do?",
+    "back": "A firewall monitors and filters network traffic to block unauthorised access."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What are user access levels?",
+    "back": "They control what users can see, edit or install on a system."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What is a proxy server?",
+    "back": "A proxy server acts as an intermediary between a user and the internet."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What can a proxy server do?",
+    "back": "Hide IP addresses, improve privacy and filter content."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What are privacy settings?",
+    "back": "Settings that limit how software and websites access personal data."
+  },
+  {
+    "topicName": "solutions",
+    "front": "Give examples of privacy settings.",
+    "back": "Blocking location tracking, limiting cookies or disabling camera access."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What is authentication?",
+    "back": "The process of verifying a user's identity."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What is a strong password?",
+    "back": "A password that is long and uses a mix of letters, numbers and symbols."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What are biometrics?",
+    "back": "Using physical characteristics such as fingerprints or facial recognition to verify identity."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What is two-factor authentication (2FA)?",
+    "back": "Using two methods to verify identity, such as a password and a code sent to a phone."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What is physical security?",
+    "back": "Protecting hardware from physical access or theft."
+  },
+  {
+    "topicName": "solutions",
+    "front": "Give examples of physical security.",
+    "back": "Locks, CCTV, ID badges, alarms and secure rooms."
+  },
+  {
+    "topicName": "solutions",
+    "front": "What are automatic software updates?",
+    "back": "Updates that install automatically to fix security weaknesses."
+  },
+  {
+    "topicName": "solutions",
+    "front": "Why are automatic updates important?",
+    "back": "They protect systems from new threats without relying on the user."
+  }
+]
