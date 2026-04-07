@@ -1,157 +1,145 @@
 [
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What hardware is needed to connect a device to a network?",
-      "correct": "A Network Interface Card (NIC)",
+      "question": "What is a MAC address?",
+      "correct": "A unique identifier built into a network interface card",
       "wrong": [
-        "A router",
-        "A modem",
-        "A web browser"
+        "An address used to identify a website",
+        "A type of IP address",
+        "A device used to connect to a network"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What hardware is needed to connect to the internet?",
-      "correct": "A NIC and a router",
+      "question": "What is an IP address?",
+      "correct": "An address used to identify a device on a network",
       "wrong": [
-        "A NIC only",
-        "A WAP only",
-        "A modem only"
+        "A type of hardware device",
+        "A unique code for a website only",
+        "A method of encrypting data"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What does a NIC do?",
-      "correct": "Allows a device to connect to a network",
+      "question": "What is the main difference between a MAC address and an IP address?",
+      "correct": "MAC identifies a device locally, IP identifies it on a network",
       "wrong": [
-        "Stores data",
-        "Displays web pages",
-        "Assigns IP addresses"
+        "IP is permanent and MAC changes",
+        "MAC is used on the internet only",
+        "There is no difference"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What does a router do?",
-      "correct": "Connects a local network to the internet and forwards packets",
+      "question": "How long is a MAC address?",
+      "correct": "48 bits",
       "wrong": [
-        "Stores files",
-        "Displays output",
-        "Runs applications"
+        "32 bits",
+        "64 bits",
+        "128 bits"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What can a router provide?",
-      "correct": "Wi-Fi access and DHCP",
+      "question": "What format is a MAC address written in?",
+      "correct": "Hexadecimal",
       "wrong": [
-        "Web pages and HTML",
-        "Antivirus and firewalls",
-        "Printers and monitors"
+        "Binary",
+        "Denary",
+        "ASCII"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What does a router use to forward packets?",
-      "correct": "IP addresses",
+      "question": "What does the first part of a MAC address represent?",
+      "correct": "The manufacturer",
       "wrong": [
-        "Filenames",
-        "Passwords",
-        "MAC addresses only"
+        "The IP address",
+        "The user",
+        "The network type"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What is a WAP used for?",
-      "correct": "Allowing devices to connect wirelessly using Wi-Fi",
+      "question": "What does the second part of a MAC address represent?",
+      "correct": "The specific device",
       "wrong": [
-        "Assigning IP addresses",
-        "Running software",
-        "Storing packets"
+        "The network location",
+        "The internet provider",
+        "The router address"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What does DHCP stand for?",
-      "correct": "Dynamic Host Configuration Protocol",
+      "question": "What is IPv4?",
+      "correct": "An IP system using 32 bits written in four numbers",
       "wrong": [
-        "Digital Host Control Process",
-        "Dynamic Hardware Connection Program",
-        "Data Host Configuration Process"
+        "An IP system using 128 bits",
+        "A type of MAC address",
+        "A hardware device"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What does DHCP do?",
-      "correct": "Automatically assigns IP addresses to devices",
+      "question": "What is IPv6?",
+      "correct": "An IP system using 128 bits written in hexadecimal",
       "wrong": [
-        "Encrypts data",
-        "Blocks viruses",
-        "Converts signals"
+        "An IP system using 32 bits",
+        "A type of MAC address",
+        "A network cable"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What is a packet?",
-      "correct": "A small piece of data sent across a network",
+      "question": "Why was IPv6 introduced?",
+      "correct": "There are not enough IPv4 addresses",
       "wrong": [
-        "A type of cable",
-        "A hardware component",
-        "A website"
+        "To increase internet speed",
+        "To replace MAC addresses",
+        "To store more data"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "What is packet switching?",
-      "correct": "Sending data by splitting it into packets",
+      "question": "What is a dynamic IP address?",
+      "correct": "An address that changes when a device connects",
       "wrong": [
-        "Changing an IP address",
-        "Using only one fixed route",
-        "Connecting to Wi-Fi"
+        "An address that never changes",
+        "An address used only by servers",
+        "An address built into hardware"
       ]
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "ipmac",
     "mcq": {
-      "question": "Which is the correct order for packet switching?",
-      "correct": "Split into packets, sent across network, may take different routes, reassembled at destination",
+      "question": "What is a static IP address?",
+      "correct": "An address that stays the same",
       "wrong": [
-        "Reassembled, split into packets, sent to router, stored",
-        "Sent as one whole file, encrypted, reassembled, printed",
-        "Split into packets, always take same route, stored, deleted"
-      ]
-    }
-  },
-  {
-    "topicName": "networkhardware",
-    "mcq": {
-      "question": "What helps packets get put back into the correct order?",
-      "correct": "Sequence number",
-      "wrong": [
-        "Password",
-        "MAC address",
-        "Filename"
+        "An address that changes regularly",
+        "An address used only on Wi-Fi",
+        "An address stored in RAM"
       ]
     }
   }
