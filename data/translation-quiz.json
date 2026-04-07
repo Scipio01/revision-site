@@ -1,1 +1,116 @@
+[
+  {
+    "topicName": "translation",
+    "mcq": {
+      "question": "What is a high-level language?",
+      "correct": "A language that is easy for humans to read and write",
+      "wrong": [
+        "A language written in binary",
+        "A type of hardware",
+        "A storage device"
+      ]
+    }
+  },
+  {
+    "topicName": "translation",
+    "mcq": {
+      "question": "Which of these is a low-level language?",
+      "correct": "Assembly language",
+      "wrong": [
+        "Python",
+        "HTML",
+        "CSS"
+      ]
+    }
+  },
+  {
+    "topicName": "translation",
+    "mcq": {
+      "question": "What does an assembler do?",
+      "correct": "Converts assembly language into machine code",
+      "wrong": [
+        "Runs programs line by line",
+        "Stores files",
+        "Controls hardware"
+      ]
+    }
+  },
+  {
+    "topicName": "translation",
+    "mcq": {
+      "question": "What does a compiler do?",
+      "correct": "Translates the whole program at once",
+      "wrong": [
+        "Translates one line at a time",
+        "Deletes errors",
+        "Stores programs in RAM"
+      ]
+    }
+  },
+  {
+    "topicName": "translation",
+    "mcq": {
+      "question": "What does an interpreter do?",
+      "correct": "Translates and executes code line by line",
+      "wrong": [
+        "Translates the whole program at once",
+        "Creates hardware",
+        "Stores files permanently"
+      ]
+    }
+  },
+  {
+    "topicName": "translation",
+    "mcq": {
+      "question": "What happens when an interpreter finds an error?",
+      "correct": "It stops immediately",
+      "wrong": [
+        "It ignores the error",
+        "It fixes the error",
+        "It deletes the program"
+      ]
+    }
+  },
+  {
+    "topicName": "translation",
+    "mcq": {
+      "question": "Why are compilers used for final programs?",
+      "correct": "Programs run faster and source code is hidden",
+      "wrong": [
+        "They are easier to write",
+        "They require no CPU",
+        "They use less storage"
+      ]
+    }
+  },
 
+  ,
+{
+  "topicName": "translation",
+  "mcq": {
+    "question": "In machine code 01110 11011, which part is the opcode?",
+    "correct": "01110",
+    "wrong": [
+      "11011",
+      "Both parts",
+      "Neither part"
+    ]
+  }
+},
+{
+  "topicName": "translation",
+  "mcq": {
+    "question": "What does the operand represent in machine code?",
+    "correct": "Data or a memory location",
+    "wrong": [
+      "The instruction to perform",
+      "The operating system",
+      "The CPU speed"
+    ]
+  }
+}
+
+
+
+  
+]
