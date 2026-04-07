@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "ipmac",
+    "front": "What is an address in networking?",
+    "back": "An address is a way to identify a device so data can be sent to it."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "Why do devices need addresses?",
+    "back": "So data knows where to go and is sent to the correct device."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What is a network?",
+    "back": "A network is a group of devices connected together so they can communicate."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "Does every device have a built-in identity?",
+    "back": "Yes, every device has a unique hardware address built into it."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What is a MAC address? (simple)",
+    "back": "A MAC address is a unique code built into a device to identify it on a local network."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "Where is a MAC address stored?",
+    "back": "It is stored in the device’s network interface card (NIC)."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "Do devices use the same address everywhere?",
+    "back": "No, devices use different addresses depending on the network."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What is an IP address? (simple)",
+    "back": "An IP address is an address used to send data to the correct device."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "Is an IP address permanent?",
+    "back": "No, an IP address can change depending on the network."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What is a MAC address?",
+    "back": "A MAC address is a unique identifier built into a device’s network interface card (NIC), used to identify it on a local network."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What is an IP address?",
+    "back": "An IP address is a unique address used to identify a device and send data to the correct destination."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What is the difference between a MAC address and an IP address?",
+    "back": "A MAC address identifies a device on a local network, while an IP address is used to send data across networks and the internet."
+  }
+]
