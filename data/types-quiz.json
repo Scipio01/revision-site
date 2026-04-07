@@ -1,1 +1,74 @@
-
+[
+  {
+    "topicName": "types",
+    "mcq": {
+      "question": "What is software?",
+      "correct": "Programs and data that tell a computer what to do",
+      "wrong": [
+        "Physical computer parts",
+        "A type of storage device",
+        "A network connection"
+      ]
+    }
+  },
+  {
+    "topicName": "types",
+    "mcq": {
+      "question": "What is application software?",
+      "correct": "Software that provides services for the user",
+      "wrong": [
+        "Software that controls hardware only",
+        "Software stored in ROM",
+        "Software used only by the CPU"
+      ]
+    }
+  },
+  {
+    "topicName": "types",
+    "mcq": {
+      "question": "Which of these is system software?",
+      "correct": "Operating system",
+      "wrong": [
+        "Game",
+        "Word processor",
+        "Web browser"
+      ]
+    }
+  },
+  {
+    "topicName": "types",
+    "mcq": {
+      "question": "What is utility software used for?",
+      "correct": "Maintaining and managing a computer system",
+      "wrong": [
+        "Playing games",
+        "Browsing the internet",
+        "Creating documents"
+      ]
+    }
+  },
+  {
+    "topicName": "types",
+    "mcq": {
+      "question": "What does antivirus software do?",
+      "correct": "Detects and removes malware",
+      "wrong": [
+        "Speeds up RAM",
+        "Stores files",
+        "Prints documents"
+      ]
+    }
+  },
+  {
+    "topicName": "types",
+    "mcq": {
+      "question": "What is the main difference between system and application software?",
+      "correct": "System software runs the computer, application software performs user tasks",
+      "wrong": [
+        "System software is hardware",
+        "Application software is always faster",
+        "They are the same thing"
+      ]
+    }
+  }
+]
