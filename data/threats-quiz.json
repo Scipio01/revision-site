@@ -1,1 +1,254 @@
-
+[
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is malware?",
+      "correct": "Software designed to harm a computer system",
+      "wrong": [
+        "Software used to protect a computer system",
+        "A type of computer hardware device",
+        "A method used to store data safely"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is a virus?",
+      "correct": "Malware that spreads when a user opens an infected file",
+      "wrong": [
+        "Malware that spreads automatically across a network",
+        "Malware that pretends to be useful software",
+        "Malware that displays unwanted adverts"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is a worm?",
+      "correct": "Malware that spreads automatically without user action",
+      "wrong": [
+        "Malware that needs a file to be opened",
+        "Malware that encrypts files for payment",
+        "Malware that collects user data secretly"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is the key difference between a virus and a worm?",
+      "correct": "A virus needs user action, a worm spreads automatically",
+      "wrong": [
+        "A worm needs user action, a virus does not",
+        "They are exactly the same type of malware",
+        "A virus spreads through networks only"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is a Trojan?",
+      "correct": "Malware that pretends to be safe software",
+      "wrong": [
+        "Malware that spreads automatically across networks",
+        "Malware that encrypts files and demands payment",
+        "Malware that displays adverts on a device"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What does it mean to encrypt data?",
+      "correct": "To scramble data so it cannot be read without a key",
+      "wrong": [
+        "To delete data so it cannot be recovered",
+        "To store data on a remote server",
+        "To send data across a network"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is ransomware?",
+      "correct": "Malware that encrypts data and demands payment",
+      "wrong": [
+        "Malware that spreads automatically across networks",
+        "Malware that secretly collects user information",
+        "Malware that displays unwanted advertisements"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is spyware?",
+      "correct": "Malware that secretly collects user information",
+      "wrong": [
+        "Malware that encrypts files for payment",
+        "Malware that spreads without user action",
+        "Malware that displays adverts on screen"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is adware?",
+      "correct": "Malware that displays unwanted adverts",
+      "wrong": [
+        "Malware that encrypts data for payment",
+        "Malware that spreads across networks",
+        "Malware that steals passwords silently"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is hacking?",
+      "correct": "Gaining unauthorised access to a system",
+      "wrong": [
+        "Protecting a system from cyber threats",
+        "Backing up data on a server",
+        "Sending data between devices"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is a vulnerability?",
+      "correct": "A weakness in a system that can be exploited",
+      "wrong": [
+        "A type of malware used to attack systems",
+        "A secure feature built into a system",
+        "A device used to protect networks"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "Which is an example of a vulnerability?",
+      "correct": "Out-of-date software",
+      "wrong": [
+        "Encrypted data",
+        "A firewall system",
+        "A strong password"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is social engineering?",
+      "correct": "Tricking people into giving personal information",
+      "wrong": [
+        "Writing malicious computer programs",
+        "Encrypting data during transmission",
+        "Blocking access to a network"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "Which is an example of social engineering?",
+      "correct": "A fake email asking for login details",
+      "wrong": [
+        "A firewall blocking network traffic",
+        "Antivirus scanning files for threats",
+        "Encrypting data on a server"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is phishing?",
+      "correct": "Fake messages pretending to be from trusted organisations",
+      "wrong": [
+        "A method of encrypting data securely",
+        "A type of hardware used in networks",
+        "A system that stores web pages"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is pharming?",
+      "correct": "Redirecting users to a fake website by changing DNS records",
+      "wrong": [
+        "Sending spam emails to many users",
+        "Guessing passwords using software",
+        "Spreading malware through attachments"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is a DoS attack?",
+      "correct": "One computer flooding a server with requests",
+      "wrong": [
+        "Many computers flooding a server",
+        "Stealing personal information",
+        "Encrypting files for payment"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is a DDoS attack?",
+      "correct": "Many computers flooding a server with requests",
+      "wrong": [
+        "One computer flooding a server",
+        "Intercepting data in transit",
+        "Guessing passwords automatically"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is a botnet?",
+      "correct": "A group of infected computers controlled by a hacker",
+      "wrong": [
+        "A secure network used for protection",
+        "A type of antivirus software",
+        "A system for storing user data"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is data interception?",
+      "correct": "Intercepting data being sent between devices",
+      "wrong": [
+        "Deleting data from a server",
+        "Encrypting data for protection",
+        "Storing data on a hard drive"
+      ]
+    }
+  },
+  {
+    "topicName": "threats",
+    "mcq": {
+      "question": "What is a brute force attack?",
+      "correct": "Trying many password combinations until one works",
+      "wrong": [
+        "Tricking users into giving passwords",
+        "Spreading malware across a network",
+        "Blocking access to a website"
+      ]
+    }
+  }
+]
