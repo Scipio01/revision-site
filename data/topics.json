@@ -74,7 +74,7 @@
   "id": "emerging",
   "name": "Automated & Emerging Technologies",
   "level": "gcse",
-  "group": "paper2",
+  "group": "paper1",
   "description": "Automation, robotics and artificial intelligence.",
   "hasPractice": false
 },
