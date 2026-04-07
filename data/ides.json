@@ -1,0 +1,72 @@
+[
+  {
+    "topicName": "ides",
+    "front": "What does IDE stand for?",
+    "back": "Integrated Development Environment."
+  },
+  {
+    "topicName": "ides",
+    "front": "What is an IDE?",
+    "back": "Software that helps programmers write, test and debug source code."
+  },
+  {
+    "topicName": "ides",
+    "front": "What are the main functions of an IDE?",
+    "back": "Writing, testing and debugging programs."
+  },
+  {
+    "topicName": "ides",
+    "front": "What is a code editor?",
+    "back": "A tool that allows programmers to write and edit source code."
+  },
+  {
+    "topicName": "ides",
+    "front": "What is a run-time environment?",
+    "back": "A feature that allows programs to run and be tested, showing output and errors."
+  },
+  {
+    "topicName": "ides",
+    "front": "What is the role of a translator in an IDE?",
+    "back": "It converts source code into machine code so the program can be executed."
+  },
+  {
+    "topicName": "ides",
+    "front": "What types of translators are used in an IDE?",
+    "back": "Compiler, interpreter or assembler."
+  },
+  {
+    "topicName": "ides",
+    "front": "What are error diagnostics?",
+    "back": "Tools that identify and help fix errors, often showing line numbers and messages."
+  },
+  {
+    "topicName": "ides",
+    "front": "What is auto-completion?",
+    "back": "A feature that suggests keywords or variable names as the programmer types."
+  },
+  {
+    "topicName": "ides",
+    "front": "What is auto-correction?",
+    "back": "A feature that automatically fixes simple spelling or syntax mistakes."
+  },
+  {
+    "topicName": "ides",
+    "front": "What is prettyprint?",
+    "back": "A feature that formats code with indentation and layout to improve readability."
+  },
+  {
+    "topicName": "ides",
+    "front": "Why are line numbers useful?",
+    "back": "They help programmers quickly locate errors in code."
+  },
+  {
+    "topicName": "ides",
+    "front": "What is syntax highlighting?",
+    "back": "A feature that uses colours to make different parts of code easier to read."
+  },
+  {
+    "topicName": "ides",
+    "front": "Why are IDEs useful?",
+    "back": "They help programmers work more efficiently and reduce errors when writing code."
+  }
+]
