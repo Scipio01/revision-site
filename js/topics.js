@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       <p class="muted">${topic.description}</p>
       <div class="actions">
       
-      ${
-        topic.id === 'datarep' || topic.id === 'datatransmission' || topic.id === 'hardware1' || topic.id === 'hardware2' || topic.id === 'hardware3' || topic.id === 'hardware4'
+     ${
+        topic.id === 'datarep' || topic.id === 'datatransmission' || topic.id === 'hardware1' || topic.id === 'hardware2' || topic.id === 'hardware3' || topic.id === 'hardware4' || topic.id === 'software'
           ? `<a class="btn-primary button" href="${
               topic.id === 'datarep'
                 ? 'data-representation.html'
@@ -42,7 +42,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 ? 'hardware2.html'
                 : topic.id === 'hardware3'
                 ? 'hardware3.html'
-                : 'hardware4.html'
+                : topic.id === 'hardware4'
+                ? 'hardware4.html'
+                : 'software.html'
             }">Open topic</a>`
           : `
             <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
