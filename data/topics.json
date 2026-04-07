@@ -68,6 +68,17 @@
   "description": "The internet, the world wide web, URLs, HTTP and HTTPS, web browsers, cookies, digital currency and cyber security.",
   "hasPractice": false
 },
+
+
+{
+  "id": "emerging",
+  "name": "Automated & Emerging Technologies",
+  "level": "gcse",
+  "group": "paper2",
+  "description": "Automation, robotics and artificial intelligence.",
+  "hasPractice": false
+},
+  
   
   {
     "id": "databases",
