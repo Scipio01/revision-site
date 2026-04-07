@@ -1,1 +1,86 @@
-
+[
+  {
+    "topicName": "interrupts",
+    "mcq": {
+      "question": "What is an interrupt?",
+      "correct": "A signal to the CPU requiring immediate attention",
+      "wrong": [
+        "A type of memory",
+        "A storage device",
+        "A programming language"
+      ]
+    }
+  },
+  {
+    "topicName": "interrupts",
+    "mcq": {
+      "question": "What does the CPU do when an interrupt occurs?",
+      "correct": "Pauses the current task",
+      "wrong": [
+        "Deletes the program",
+        "Shuts down",
+        "Stores the data permanently"
+      ]
+    }
+  },
+  {
+    "topicName": "interrupts",
+    "mcq": {
+      "question": "What is an ISR?",
+      "correct": "A program that runs when an interrupt occurs",
+      "wrong": [
+        "A storage device",
+        "A type of RAM",
+        "A network protocol"
+      ]
+    }
+  },
+  {
+    "topicName": "interrupts",
+    "mcq": {
+      "question": "Which of these is a hardware interrupt?",
+      "correct": "Keyboard input",
+      "wrong": [
+        "Division by zero",
+        "File saving",
+        "Opening a program"
+      ]
+    }
+  },
+  {
+    "topicName": "interrupts",
+    "mcq": {
+      "question": "Which of these is a software interrupt?",
+      "correct": "Division by zero",
+      "wrong": [
+        "Mouse movement",
+        "Printer out of paper",
+        "Key press"
+      ]
+    }
+  },
+  {
+    "topicName": "interrupts",
+    "mcq": {
+      "question": "What happens after the ISR is completed?",
+      "correct": "The CPU resumes the original process",
+      "wrong": [
+        "The computer shuts down",
+        "The file is deleted",
+        "The RAM is cleared"
+      ]
+    }
+  },
+  {
+    "topicName": "interrupts",
+    "mcq": {
+      "question": "Why are interrupts useful?",
+      "correct": "They allow quick response to important events",
+      "wrong": [
+        "They increase storage space",
+        "They reduce file size",
+        "They improve screen resolution"
+      ]
+    }
+  }
+]
