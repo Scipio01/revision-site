@@ -42,7 +42,7 @@
   {
     "topicName": "translation",
     "front": "Give one disadvantage of low-level languages.",
-    "back": "They are difficult to read, write and debug."
+    "back": "For humans they are difficult to read, write and debug."
   },
   {
     "topicName": "translation",
@@ -61,13 +61,26 @@
   },
   {
     "topicName": "translation",
+    "front": "In machine code 01110 11011, which part is the opcode and which part is the operand?",
+    "back": "01110 = opcode (instruction)<br>11011 = operand (data or memory location)"
+  },
+
+  {
+  "topicName": "translation",
+  "front": "What do opcodes and operands represent in machine code?",
+  "back": "Opcode = instruction to perform<br>Operand = data or memory location used"
+  },
+
+  
+  {
+    "topicName": "translation",
     "front": "What is assembly language?",
     "back": "A low-level language that uses mnemonics instead of binary."
   },
   {
     "topicName": "translation",
     "front": "What is a mnemonic?",
-    "back": "A short code that represents a machine instruction, such as ADD."
+    "back": "A short code that represents a machine instruction, such as ADD or LDA."
   },
   {
     "topicName": "translation",
