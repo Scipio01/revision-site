@@ -1,57 +1,157 @@
 [
   {
-    "topicName": "Networks",
-    "front": "What is DNS?",
-    "back": "DNS translates a domain name into the IP address of the server.",
+    "topicName": "networkhardware",
     "mcq": {
-      "question": "What does DNS do?",
-      "correct": "Translates domain names into IP addresses",
+      "question": "What hardware is needed to connect a device to a network?",
+      "correct": "A Network Interface Card (NIC)",
       "wrong": [
-        "Encrypts network traffic",
-        "Stores web pages",
-        "Allocates MAC addresses"
+        "A router",
+        "A modem",
+        "A web browser"
       ]
     }
   },
   {
-    "topicName": "Networks",
-    "front": "What is an IP address?",
-    "back": "An IP address identifies a device on a network so data can be sent to the correct destination.",
+    "topicName": "networkhardware",
     "mcq": {
-      "question": "What is the main purpose of an IP address?",
-      "correct": "To identify a device on a network",
+      "question": "What hardware is needed to connect to the internet?",
+      "correct": "A NIC and a router",
       "wrong": [
-        "To physically connect devices",
-        "To store files permanently",
-        "To compress packets"
+        "A NIC only",
+        "A WAP only",
+        "A modem only"
       ]
     }
   },
   {
-    "topicName": "Networks",
-    "front": "What does a router do?",
-    "back": "A router forwards packets between different networks and chooses a path for the data.",
+    "topicName": "networkhardware",
     "mcq": {
-      "question": "Which device forwards packets between networks?",
-      "correct": "Router",
+      "question": "What does a NIC do?",
+      "correct": "Allows a device to connect to a network",
       "wrong": [
-        "Switch",
-        "NIC",
-        "Access point"
+        "Stores data",
+        "Displays web pages",
+        "Assigns IP addresses"
       ]
     }
   },
   {
-    "topicName": "Networks",
-    "front": "What is packet switching?",
-    "back": "Data is broken into packets, sent across the network, and reassembled at the destination.",
+    "topicName": "networkhardware",
     "mcq": {
-      "question": "What happens in packet switching?",
-      "correct": "Data is broken into packets and reassembled later",
+      "question": "What does a router do?",
+      "correct": "Connects a local network to the internet and forwards packets",
       "wrong": [
-        "The whole file travels as one unbroken unit",
-        "Only wired networks can be used",
-        "Packets are stored permanently in RAM"
+        "Stores files",
+        "Displays output",
+        "Runs applications"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What can a router provide?",
+      "correct": "Wi-Fi access and DHCP",
+      "wrong": [
+        "Web pages and HTML",
+        "Antivirus and firewalls",
+        "Printers and monitors"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What does a router use to forward packets?",
+      "correct": "IP addresses",
+      "wrong": [
+        "Filenames",
+        "Passwords",
+        "MAC addresses only"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What is a WAP used for?",
+      "correct": "Allowing devices to connect wirelessly using Wi-Fi",
+      "wrong": [
+        "Assigning IP addresses",
+        "Running software",
+        "Storing packets"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What does DHCP stand for?",
+      "correct": "Dynamic Host Configuration Protocol",
+      "wrong": [
+        "Digital Host Control Process",
+        "Dynamic Hardware Connection Program",
+        "Data Host Configuration Process"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What does DHCP do?",
+      "correct": "Automatically assigns IP addresses to devices",
+      "wrong": [
+        "Encrypts data",
+        "Blocks viruses",
+        "Converts signals"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What is a packet?",
+      "correct": "A small piece of data sent across a network",
+      "wrong": [
+        "A type of cable",
+        "A hardware component",
+        "A website"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What is packet switching?",
+      "correct": "Sending data by splitting it into packets",
+      "wrong": [
+        "Changing an IP address",
+        "Using only one fixed route",
+        "Connecting to Wi-Fi"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "Which is the correct order for packet switching?",
+      "correct": "Split into packets, sent across network, may take different routes, reassembled at destination",
+      "wrong": [
+        "Reassembled, split into packets, sent to router, stored",
+        "Sent as one whole file, encrypted, reassembled, printed",
+        "Split into packets, always take same route, stored, deleted"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What helps packets get put back into the correct order?",
+      "correct": "Sequence number",
+      "wrong": [
+        "Password",
+        "MAC address",
+        "Filename"
       ]
     }
   }
