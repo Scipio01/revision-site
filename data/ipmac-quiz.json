@@ -1,1 +1,158 @@
-
+[
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What hardware is needed to connect a device to a network?",
+      "correct": "A Network Interface Card (NIC)",
+      "wrong": [
+        "A router",
+        "A modem",
+        "A web browser"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What hardware is needed to connect to the internet?",
+      "correct": "A NIC and a router",
+      "wrong": [
+        "A NIC only",
+        "A WAP only",
+        "A modem only"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What does a NIC do?",
+      "correct": "Allows a device to connect to a network",
+      "wrong": [
+        "Stores data",
+        "Displays web pages",
+        "Assigns IP addresses"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What does a router do?",
+      "correct": "Connects a local network to the internet and forwards packets",
+      "wrong": [
+        "Stores files",
+        "Displays output",
+        "Runs applications"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What can a router provide?",
+      "correct": "Wi-Fi access and DHCP",
+      "wrong": [
+        "Web pages and HTML",
+        "Antivirus and firewalls",
+        "Printers and monitors"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What does a router use to forward packets?",
+      "correct": "IP addresses",
+      "wrong": [
+        "Filenames",
+        "Passwords",
+        "MAC addresses only"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What is a WAP used for?",
+      "correct": "Allowing devices to connect wirelessly using Wi-Fi",
+      "wrong": [
+        "Assigning IP addresses",
+        "Running software",
+        "Storing packets"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What does DHCP stand for?",
+      "correct": "Dynamic Host Configuration Protocol",
+      "wrong": [
+        "Digital Host Control Process",
+        "Dynamic Hardware Connection Program",
+        "Data Host Configuration Process"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What does DHCP do?",
+      "correct": "Automatically assigns IP addresses to devices",
+      "wrong": [
+        "Encrypts data",
+        "Blocks viruses",
+        "Converts signals"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What is a packet?",
+      "correct": "A small piece of data sent across a network",
+      "wrong": [
+        "A type of cable",
+        "A hardware component",
+        "A website"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What is packet switching?",
+      "correct": "Sending data by splitting it into packets",
+      "wrong": [
+        "Changing an IP address",
+        "Using only one fixed route",
+        "Connecting to Wi-Fi"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "Which is the correct order for packet switching?",
+      "correct": "Split into packets, sent across network, may take different routes, reassembled at destination",
+      "wrong": [
+        "Reassembled, split into packets, sent to router, stored",
+        "Sent as one whole file, encrypted, reassembled, printed",
+        "Split into packets, always take same route, stored, deleted"
+      ]
+    }
+  },
+  {
+    "topicName": "networkhardware",
+    "mcq": {
+      "question": "What helps packets get put back into the correct order?",
+      "correct": "Sequence number",
+      "wrong": [
+        "Password",
+        "MAC address",
+        "Filename"
+      ]
+    }
+  }
+]
