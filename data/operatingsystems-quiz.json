@@ -70,5 +70,92 @@
         "By using speakers"
       ]
     }
+  },
+
+,
+{
+  "topicName": "operatingsystems",
+  "mcq": {
+    "question": "Which interface uses typed commands?",
+    "correct": "CLI",
+    "wrong": [
+      "GUI",
+      "Menu-driven",
+      "Touchscreen"
+    ]
   }
+},
+{
+  "topicName": "operatingsystems",
+  "mcq": {
+    "question": "Which interface uses menus to navigate?",
+    "correct": "Menu-driven interface",
+    "wrong": [
+      "CLI",
+      "GUI only",
+      "Binary interface"
+    ]
+  }
+},
+{
+  "topicName": "operatingsystems",
+  "mcq": {
+    "question": "What does memory management prevent?",
+    "correct": "Programs overwriting each other",
+    "wrong": [
+      "Files being deleted",
+      "Viruses spreading",
+      "Screens going blank"
+    ]
+  }
+},
+{
+  "topicName": "operatingsystems",
+  "mcq": {
+    "question": "Why is multitasking important?",
+    "correct": "It allows multiple programs to run at the same time",
+    "wrong": [
+      "It increases storage capacity",
+      "It reduces file sizes",
+      "It speeds up printing"
+    ]
+  }
+},
+{
+  "topicName": "operatingsystems",
+  "mcq": {
+    "question": "What is the purpose of user accounts?",
+    "correct": "To give different users different access permissions",
+    "wrong": [
+      "To increase CPU speed",
+      "To store files permanently",
+      "To connect to networks"
+    ]
+  }
+},
+{
+  "topicName": "operatingsystems",
+  "mcq": {
+    "question": "What happens when an interrupt occurs?",
+    "correct": "The current task is paused so the CPU can deal with it",
+    "wrong": [
+      "The computer shuts down",
+      "The file is deleted",
+      "The RAM is cleared"
+    ]
+  }
+},
+{
+  "topicName": "operatingsystems",
+  "mcq": {
+    "question": "What is the role of an operating system when running applications?",
+    "correct": "Provides a platform and manages resources",
+    "wrong": [
+      "Stores files permanently",
+      "Prints documents",
+      "Creates hardware"
+    ]
+  }
+}
+  
 ]
