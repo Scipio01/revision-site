@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       <div class="actions">
       
      ${
-        topic.id === 'datarep' || topic.id === 'datatransmission' || topic.id === 'hardware1' || topic.id === 'hardware2' || topic.id === 'hardware3' || topic.id === 'hardware4' || topic.id === 'software'
+       topic.id === 'datarep' || topic.id === 'datatransmission' || topic.id === 'hardware1' || topic.id === 'hardware2' || topic.id === 'hardware3' || topic.id === 'hardware4' || topic.id === 'software' || topic.id === 'internet'
           ? `<a class="btn-primary button" href="${
               topic.id === 'datarep'
                 ? 'data-representation.html'
