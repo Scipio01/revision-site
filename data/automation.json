@@ -2,7 +2,7 @@
   {
     "topicName": "automation",
     "front": "What is an automated system?",
-    "back": "An automated system is a system that operates automatically without constant human input."
+    "back": "An automated system operates automatically without constant human input."
   },
   {
     "topicName": "automation",
@@ -11,8 +11,8 @@
   },
   {
     "topicName": "automation",
-    "front": "What is the input in an automated system?",
-    "back": "The input is data collected by sensors."
+    "front": "What provides the input in an automated system?",
+    "back": "Sensors collect data from the environment."
   },
   {
     "topicName": "automation",
@@ -21,8 +21,8 @@
   },
   {
     "topicName": "automation",
-    "front": "What is the output in an automated system?",
-    "back": "The output is the action carried out by an actuator."
+    "front": "What provides the output in an automated system?",
+    "back": "Actuators carry out actions based on the processor’s decision."
   },
   {
     "topicName": "automation",
@@ -32,21 +32,36 @@
   {
     "topicName": "automation",
     "front": "What is an actuator?",
-    "back": "An actuator carries out a physical action, such as opening a valve or moving a motor."
+    "back": "An actuator carries out a physical action, such as moving or switching something on or off."
+  },
+  {
+    "topicName": "automation",
+    "front": "How do sensors, processors and actuators work together in an automated system?",
+    "back": "Sensors collect data → the processor makes a decision → actuators carry out the action."
   },
   {
     "topicName": "automation",
     "front": "Give an example of an automated system.",
-    "back": "A central heating system, traffic lights or a washing machine."
+    "back": "Central heating, traffic lights or a washing machine."
   },
   {
     "topicName": "automation",
-    "front": "What are the benefits of automated systems?",
-    "back": "They can work quickly, accurately and continuously."
+    "front": "How does a central heating system work as an automated system?",
+    "back": "A sensor measures temperature → the processor compares it to a set value → the actuator turns the heating on or off."
   },
   {
     "topicName": "automation",
-    "front": "What is a drawback of automated systems?",
-    "back": "They can reduce the need for human workers or fail if sensors give incorrect data."
+    "front": "Give examples of automated systems in different areas.",
+    "back": "Traffic lights (transport), irrigation systems (agriculture), weather stations, automatic lighting and industrial robots."
+  },
+  {
+    "topicName": "automation",
+    "front": "What are the advantages of automated systems?",
+    "back": "They can work continuously, quickly and accurately."
+  },
+  {
+    "topicName": "automation",
+    "front": "What are the disadvantages of automated systems?",
+    "back": "They can reduce jobs, have high setup costs and may fail if sensor data is incorrect."
   }
 ]
