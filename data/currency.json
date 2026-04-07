@@ -1,1 +1,102 @@
-
+[
+  {
+    "topicName": "currency",
+    "front": "What is currency?",
+    "back": "Money used to buy and sell goods and services."
+  },
+  {
+    "topicName": "currency",
+    "front": "What are problems with traditional currency?",
+    "back": "Counterfeiting and hyperinflation."
+  },
+  {
+    "topicName": "currency",
+    "front": "What is digital currency?",
+    "back": "Currency that exists only electronically and has no physical form."
+  },
+  {
+    "topicName": "currency",
+    "front": "What is another name for digital currency?",
+    "back": "Cryptocurrency."
+  },
+  {
+    "topicName": "currency",
+    "front": "What determines the value of digital currency?",
+    "back": "What users believe it is worth."
+  },
+  {
+    "topicName": "currency",
+    "front": "What is a private key?",
+    "back": "A secret key used to authorise transactions."
+  },
+  {
+    "topicName": "currency",
+    "front": "Why must a private key be kept secure?",
+    "back": "Because it is needed to spend or transfer digital currency."
+  },
+  {
+    "topicName": "currency",
+    "front": "What is a public key?",
+    "back": "A key that can be shared so others can send you digital currency."
+  },
+  {
+    "topicName": "currency",
+    "front": "What is a digital wallet?",
+    "back": "Software that stores a user’s public and private keys."
+  },
+  {
+    "topicName": "currency",
+    "front": "Does a digital wallet store the currency?",
+    "back": "No, it stores keys and reads the blockchain to show balances."
+  },
+  {
+    "topicName": "currency",
+    "front": "What is a ledger?",
+    "back": "A record of transactions."
+  },
+  {
+    "topicName": "currency",
+    "front": "What is a digital ledger?",
+    "back": "A ledger stored electronically that records transactions."
+  },
+  {
+    "topicName": "currency",
+    "front": "What is a blockchain?",
+    "back": "A distributed digital ledger that stores all transactions."
+  },
+  {
+    "topicName": "currency",
+    "front": "How are transactions stored in a blockchain?",
+    "back": "They are grouped into blocks with transaction details and timestamps."
+  },
+  {
+    "topicName": "currency",
+    "front": "What is a distributed ledger?",
+    "back": "A ledger stored on many computers with no central authority."
+  },
+  {
+    "topicName": "currency",
+    "front": "Why is fraud difficult in blockchain?",
+    "back": "Because all copies of the ledger must match."
+  },
+  {
+    "topicName": "currency",
+    "front": "Give one benefit of digital currency.",
+    "back": "It is difficult to counterfeit."
+  },
+  {
+    "topicName": "currency",
+    "front": "Give another benefit of digital currency.",
+    "back": "Low transaction fees or reduced inflation."
+  },
+  {
+    "topicName": "currency",
+    "front": "Give one drawback of digital currency.",
+    "back": "Private keys can be lost or hacked."
+  },
+  {
+    "topicName": "currency",
+    "front": "What happens if a private key is lost?",
+    "back": "The digital currency is permanently lost."
+  }
+]
