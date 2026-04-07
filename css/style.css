@@ -741,3 +741,12 @@ footer {
   background: #e0f2fe;
   transform: translateY(-2px);
 }
+
+
+.flashcard-front {
+  background: #cce5ff !important;
+}
+
+.flashcard-back {
+  background: #d4edda !important;
+}
