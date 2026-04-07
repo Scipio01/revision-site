@@ -1,1 +1,86 @@
-
+[
+  {
+    "topicName": "ipmac",
+    "mcq": {
+      "question": "What is a MAC address used for?",
+      "correct": "Identifying a device on a local network",
+      "wrong": [
+        "Connecting to websites",
+        "Storing data",
+        "Running programs"
+      ]
+    }
+  },
+  {
+    "topicName": "ipmac",
+    "mcq": {
+      "question": "What is an IP address used for?",
+      "correct": "Identifying a device and sending data to the correct destination",
+      "wrong": [
+        "Storing files",
+        "Running applications",
+        "Controlling hardware"
+      ]
+    }
+  },
+  {
+    "topicName": "ipmac",
+    "mcq": {
+      "question": "Which statement is correct?",
+      "correct": "MAC is local, IP is network-wide",
+      "wrong": [
+        "IP is local, MAC is network-wide",
+        "They are the same thing",
+        "MAC addresses change frequently"
+      ]
+    }
+  },
+  {
+    "topicName": "ipmac",
+    "mcq": {
+      "question": "How many bits are in an IPv4 address?",
+      "correct": "32 bits",
+      "wrong": [
+        "48 bits",
+        "64 bits",
+        "128 bits"
+      ]
+    }
+  },
+  {
+    "topicName": "ipmac",
+    "mcq": {
+      "question": "Why was IPv6 introduced?",
+      "correct": "Because IPv4 does not have enough addresses",
+      "wrong": [
+        "To make networks slower",
+        "To replace MAC addresses",
+        "To remove routers"
+      ]
+    }
+  },
+  {
+    "topicName": "ipmac",
+    "mcq": {
+      "question": "What is a dynamic IP address?",
+      "correct": "An IP address that can change",
+      "wrong": [
+        "An IP address that never changes",
+        "A MAC address",
+        "A type of router"
+      ]
+    }
+  },
+  {
+    "topicName": "ipmac",
+    "mcq": {
+      "question": "Which device is most likely to use a static IP address?",
+      "correct": "Printer",
+      "wrong": [
+        "Smartphone",
+        "Laptop",
+        "Tablet"
+      ]
+    }
+  }
+]
