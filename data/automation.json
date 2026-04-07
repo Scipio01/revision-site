@@ -1,1 +1,52 @@
-
+[
+  {
+    "topicName": "automation",
+    "front": "What is an automated system?",
+    "back": "An automated system is a system that operates automatically without constant human input."
+  },
+  {
+    "topicName": "automation",
+    "front": "What are the three main parts of an automated system?",
+    "back": "Input, processing and output."
+  },
+  {
+    "topicName": "automation",
+    "front": "What is the input in an automated system?",
+    "back": "The input is data collected by sensors."
+  },
+  {
+    "topicName": "automation",
+    "front": "What does the processor do in an automated system?",
+    "back": "The processor makes decisions using the data from the sensors."
+  },
+  {
+    "topicName": "automation",
+    "front": "What is the output in an automated system?",
+    "back": "The output is the action carried out by an actuator."
+  },
+  {
+    "topicName": "automation",
+    "front": "What is a sensor?",
+    "back": "A sensor detects changes in the environment and sends data to the processor."
+  },
+  {
+    "topicName": "automation",
+    "front": "What is an actuator?",
+    "back": "An actuator carries out a physical action, such as opening a valve or moving a motor."
+  },
+  {
+    "topicName": "automation",
+    "front": "Give an example of an automated system.",
+    "back": "A central heating system, traffic lights or a washing machine."
+  },
+  {
+    "topicName": "automation",
+    "front": "What are the benefits of automated systems?",
+    "back": "They can work quickly, accurately and continuously."
+  },
+  {
+    "topicName": "automation",
+    "front": "What is a drawback of automated systems?",
+    "back": "They can reduce the need for human workers or fail if sensors give incorrect data."
+  }
+]
