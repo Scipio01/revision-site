@@ -1,0 +1,86 @@
+[
+  {
+    "topicName": "ides",
+    "mcq": {
+      "question": "What does IDE stand for?",
+      "correct": "Integrated Development Environment",
+      "wrong": [
+        "Internal Data Engine",
+        "Integrated Device Equipment",
+        "Internet Development Environment"
+      ]
+    }
+  },
+  {
+    "topicName": "ides",
+    "mcq": {
+      "question": "What is an IDE?",
+      "correct": "Software used to write, test and debug programs",
+      "wrong": [
+        "A type of computer hardware device",
+        "A storage system for program files",
+        "A programming language used in development"
+      ]
+    }
+  },
+  {
+    "topicName": "ides",
+    "mcq": {
+      "question": "What does a code editor do?",
+      "correct": "Allows programmers to write and edit code",
+      "wrong": [
+        "Executes programs on a computer",
+        "Stores files on a hard drive",
+        "Controls input and output devices"
+      ]
+    }
+  },
+  {
+    "topicName": "ides",
+    "mcq": {
+      "question": "What is the purpose of a run-time environment?",
+      "correct": "Allows programs to run and be tested",
+      "wrong": [
+        "Stores data on a computer system",
+        "Connects devices to a network",
+        "Prints output from programs"
+      ]
+    }
+  },
+  {
+    "topicName": "ides",
+    "mcq": {
+      "question": "What does syntax highlighting do?",
+      "correct": "Uses colours to make code easier to read",
+      "wrong": [
+        "Fixes all errors in the program",
+        "Runs the program automatically",
+        "Stores code in memory"
+      ]
+    }
+  },
+  {
+    "topicName": "ides",
+    "mcq": {
+      "question": "What is auto-completion?",
+      "correct": "Suggests code as the programmer types",
+      "wrong": [
+        "Deletes errors in the code",
+        "Runs programs automatically",
+        "Compiles the program into machine code"
+      ]
+    }
+  },
+  {
+    "topicName": "ides",
+    "mcq": {
+      "question": "What is the benefit of error diagnostics?",
+      "correct": "Helps identify and fix errors in code",
+      "wrong": [
+        "Increases storage capacity",
+        "Improves internet connection speed",
+        "Controls hardware components"
+      ]
+    }
+  }
+]
