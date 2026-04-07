@@ -1,1 +1,132 @@
-
+[
+  {
+    "topicName": "translation",
+    "front": "What is a programming language?",
+    "back": "A language used to write instructions that a computer can follow."
+  },
+  {
+    "topicName": "translation",
+    "front": "What is a high-level language?",
+    "back": "A programming language that is easy for humans to read and write using English-like commands."
+  },
+  {
+    "topicName": "translation",
+    "front": "Give an example of a high-level language.",
+    "back": "Python."
+  },
+  {
+    "topicName": "translation",
+    "front": "Give one advantage of high-level languages.",
+    "back": "They are easier to read, write and debug."
+  },
+  {
+    "topicName": "translation",
+    "front": "Give one disadvantage of high-level languages.",
+    "back": "They are slower and give less direct control of hardware."
+  },
+  {
+    "topicName": "translation",
+    "front": "What is a low-level language?",
+    "back": "A language close to machine code that is designed for the CPU."
+  },
+  {
+    "topicName": "translation",
+    "front": "Give examples of low-level languages.",
+    "back": "Machine code and assembly language."
+  },
+  {
+    "topicName": "translation",
+    "front": "Give one advantage of low-level languages.",
+    "back": "They give direct control of hardware and run very fast."
+  },
+  {
+    "topicName": "translation",
+    "front": "Give one disadvantage of low-level languages.",
+    "back": "They are difficult to read, write and debug."
+  },
+  {
+    "topicName": "translation",
+    "front": "What is machine code?",
+    "back": "The binary instructions (1s and 0s) that the CPU understands directly."
+  },
+  {
+    "topicName": "translation",
+    "front": "What are opcodes?",
+    "back": "The part of machine code that represents the instruction."
+  },
+  {
+    "topicName": "translation",
+    "front": "What are operands?",
+    "back": "The part of machine code that represents data or memory locations."
+  },
+  {
+    "topicName": "translation",
+    "front": "What is assembly language?",
+    "back": "A low-level language that uses mnemonics instead of binary."
+  },
+  {
+    "topicName": "translation",
+    "front": "What is a mnemonic?",
+    "back": "A short code that represents a machine instruction, such as ADD."
+  },
+  {
+    "topicName": "translation",
+    "front": "What is a translator?",
+    "back": "Software that converts code from one language into another."
+  },
+  {
+    "topicName": "translation",
+    "front": "Why must all programs be translated?",
+    "back": "Because the CPU can only understand machine code."
+  },
+  {
+    "topicName": "translation",
+    "front": "What is an assembler?",
+    "back": "A translator that converts assembly language into machine code."
+  },
+  {
+    "topicName": "translation",
+    "front": "What is a compiler?",
+    "back": "A translator that converts the entire program into machine code at once."
+  },
+  {
+    "topicName": "translation",
+    "front": "What does a compiler produce?",
+    "back": "An executable file."
+  },
+  {
+    "topicName": "translation",
+    "front": "When are errors reported in a compiled program?",
+    "back": "After the whole program has been compiled."
+  },
+  {
+    "topicName": "translation",
+    "front": "What is an interpreter?",
+    "back": "A translator that converts and executes code line by line."
+  },
+  {
+    "topicName": "translation",
+    "front": "When does an interpreter stop?",
+    "back": "When an error is found."
+  },
+  {
+    "topicName": "translation",
+    "front": "Give one advantage of an interpreter.",
+    "back": "It is useful for development and debugging."
+  },
+  {
+    "topicName": "translation",
+    "front": "Give one disadvantage of an interpreter.",
+    "back": "Programs run slower because they are translated line by line."
+  },
+  {
+    "topicName": "translation",
+    "front": "What is the key difference between a compiler and an interpreter?",
+    "back": "A compiler translates the whole program at once, while an interpreter translates line by line."
+  },
+  {
+    "topicName": "translation",
+    "front": "Why is a compiler used for final programs?",
+    "back": "Because compiled programs run faster and the source code is not visible."
+  }
+]
