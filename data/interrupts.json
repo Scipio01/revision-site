@@ -9,6 +9,14 @@
     "front": "What happens when an interrupt occurs?",
     "back": "The CPU pauses its current task to deal with the interrupt."
   },
+
+  {
+    "topicName": "interrupts",
+    "front": "Does the CPU STOP the current process when an interrupt occurs?",
+    "back": "No. The CPU PAUSES the current process, runs the interrupt service routine (ISR), and then resumes the original process."
+  },
+
+  
   {
     "topicName": "interrupts",
     "front": "What is an Interrupt Service Routine (ISR)?",
