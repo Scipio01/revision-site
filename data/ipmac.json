@@ -1,9 +1,23 @@
 [
+
+{
+  "topicName": "ipmac",
+  "front": "What does MAC stand for?",
+  "back": "Media Access Control."
+},
+  
   {
     "topicName": "ipmac",
     "front": "What is a MAC address?",
     "back": "A MAC address is a unique identifier built into a network interface card (NIC) used to identify a device on a local network."
   },
+
+  {
+  "topicName": "ipmac",
+  "front": "What does IP stand for?",
+  "back": "Internet Protocol."
+},
+  
   {
     "topicName": "ipmac",
     "front": "What is an IP address?",
