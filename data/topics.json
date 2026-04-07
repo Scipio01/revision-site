@@ -50,6 +50,15 @@
   "description": "Input devices, output devices and sensors.",
   "hasPractice": false
 },
+
+  {
+  "id": "software",
+  "name": "Software",
+  "level": "gcse",
+  "group": "paper1",
+  "description": "Types of software, operating systems, interrupts, translation software and IDS.",
+  "hasPractice": false
+},
   
   {
     "id": "databases",
