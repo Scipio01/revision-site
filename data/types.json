@@ -1,1 +1,77 @@
-
+[
+  {
+    "topicName": "types",
+    "front": "What is software?",
+    "back": "A set of programs and data that tell a computer what to do."
+  },
+  {
+    "topicName": "types",
+    "front": "What is application software?",
+    "back": "Software that provides services for the user."
+  },
+  {
+    "topicName": "types",
+    "front": "Give examples of application software.",
+    "back": "Word processors, email software and games."
+  },
+  {
+    "topicName": "types",
+    "front": "What is system software?",
+    "back": "Software that provides services that the computer requires to operate."
+  },
+  {
+    "topicName": "types",
+    "front": "Give examples of system software.",
+    "back": "Operating systems and utility software."
+  },
+  {
+    "topicName": "types",
+    "front": "What is an operating system?",
+    "back": "Software that manages hardware and software resources and provides a user interface."
+  },
+  {
+    "topicName": "types",
+    "front": "What does an operating system do?",
+    "back": "Provides a user interface, manages hardware and loads software into RAM."
+  },
+  {
+    "topicName": "types",
+    "front": "What is utility software?",
+    "back": "Software that helps to maintain, manage or configure a computer system."
+  },
+  {
+    "topicName": "types",
+    "front": "Give examples of utility software.",
+    "back": "Backup software, antivirus software, disk clean-up, disk defragmentation and compression tools."
+  },
+  {
+    "topicName": "types",
+    "front": "What does backup software do?",
+    "back": "Creates copies of files so they can be restored if lost or damaged."
+  },
+  {
+    "topicName": "types",
+    "front": "What does antivirus software do?",
+    "back": "Detects, prevents and removes malicious software."
+  },
+  {
+    "topicName": "types",
+    "front": "What does disk clean-up do?",
+    "back": "Removes unnecessary files to free up storage space."
+  },
+  {
+    "topicName": "types",
+    "front": "What does disk defragmentation do?",
+    "back": "Reorganises files on a hard disk so they are stored contiguously and can be accessed faster."
+  },
+  {
+    "topicName": "types",
+    "front": "What do compression tools do?",
+    "back": "Reduce file size so they use less storage and can be transmitted faster."
+  },
+  {
+    "topicName": "types",
+    "front": "What is the key difference between system software and application software?",
+    "back": "System software runs the computer, while application software helps the user perform tasks."
+  }
+]
