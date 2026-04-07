@@ -128,14 +128,16 @@
     "front": "What is data interception?",
     "back": "Data interception is when a hacker intercepts data being transmitted between a user and a server."
   },
-  {
-    "topicName": "threats",
-    "front": "What is a brute force attack?",
-    "back": "A brute force attack uses software to try many password combinations until the correct one is found."
-  },
+
   {
     "topicName": "threats",
     "front": "What is the difference between a DoS and a DDoS attack?",
     "back": "A DoS attack uses one computer, while a DDoS attack uses many computers."
+  },
+
+    {
+    "topicName": "threats",
+    "front": "What is a brute force attack?",
+    "back": "A brute force attack uses software to try many password combinations until the correct one is found."
   }
 ]
