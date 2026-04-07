@@ -34,6 +34,13 @@
     "front": "What is an actuator?",
     "back": "An actuator carries out a physical action, such as moving or switching something on or off."
   },
+
+{
+  "topicName": "automation",
+  "front": "Give an example of an actuator.",
+  "back": "A motor, which converts electrical energy into movement."
+}
+  
   {
     "topicName": "automation",
     "front": "How do sensors, processors and actuators work together in an automated system?",
