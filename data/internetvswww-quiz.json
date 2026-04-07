@@ -1,1 +1,74 @@
-
+[
+  {
+    "topicName": "internetvswww",
+    "mcq": {
+      "question": "What is the internet?",
+      "correct": "A global network that connects devices so they can communicate and share data",
+      "wrong": [
+        "A collection of websites",
+        "A web browser",
+        "A single server"
+      ]
+    }
+  },
+  {
+    "topicName": "internetvswww",
+    "mcq": {
+      "question": "What is the world wide web?",
+      "correct": "A collection of websites and web pages accessed using the internet",
+      "wrong": [
+        "The cables used to connect devices",
+        "A type of router",
+        "A system of IP addresses"
+      ]
+    }
+  },
+  {
+    "topicName": "internetvswww",
+    "mcq": {
+      "question": "What is the difference between the internet and the world wide web?",
+      "correct": "The internet connects devices, the world wide web lets you access websites",
+      "wrong": [
+        "They are exactly the same thing",
+        "The world wide web connects devices",
+        "The internet is a type of website"
+      ]
+    }
+  },
+  {
+    "topicName": "internetvswww",
+    "mcq": {
+      "question": "Which of these is a device connected to the internet?",
+      "correct": "Smartphone",
+      "wrong": [
+        "Web page",
+        "Hyperlink",
+        "HTML"
+      ]
+    }
+  },
+  {
+    "topicName": "internetvswww",
+    "mcq": {
+      "question": "Which of these is part of the world wide web?",
+      "correct": "Online video",
+      "wrong": [
+        "Router",
+        "Network cable",
+        "IP address"
+      ]
+    }
+  },
+  {
+    "topicName": "internetvswww",
+    "mcq": {
+      "question": "Which of these uses the internet but is not part of the world wide web?",
+      "correct": "Email",
+      "wrong": [
+        "Web page",
+        "Online shop",
+        "Social media site"
+      ]
+    }
+  }
+]
