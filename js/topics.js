@@ -44,6 +44,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 ? 'hardware3.html'
                 : topic.id === 'hardware4'
                 ? 'hardware4.html'
+                : topic.id === 'internet'
+                ? 'internet.html'
                 : 'software.html'
             }">Open topic</a>`
           : `
