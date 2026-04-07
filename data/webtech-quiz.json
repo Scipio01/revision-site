@@ -1,1 +1,170 @@
+[
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What is a web browser?",
+      "correct": "Software used to access, display and navigate web pages",
+      "wrong": [
+        "A type of server",
+        "A network cable",
+        "A storage device"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What is a URL?",
+      "correct": "The address of a web page",
+      "wrong": [
+        "A type of IP address",
+        "A web server",
+        "A data packet"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What is the purpose of DNS?",
+      "correct": "To convert a domain name into an IP address so the web server can be found",
+      "wrong": [
+        "To store web pages",
+        "To encrypt data",
+        "To assign IP addresses"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "Why is DNS needed?",
+      "correct": "Because routers use IP addresses, not domain names",
+      "wrong": [
+        "Because websites store data",
+        "Because browsers need passwords",
+        "Because IP addresses are faster"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What happens after DNS returns the IP address?",
+      "correct": "The browser uses it to contact the web server",
+      "wrong": [
+        "The browser stores it permanently",
+        "The router deletes it",
+        "The user enters it manually"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What does HTTP do?",
+      "correct": "Transfers web pages between a browser and a web server",
+      "wrong": [
+        "Stores web pages",
+        "Assigns IP addresses",
+        "Connects devices to Wi-Fi"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What is the difference between HTTP and HTTPS?",
+      "correct": "HTTPS encrypts data, HTTP does not",
+      "wrong": [
+        "HTTP is faster but less accurate",
+        "HTTPS stores data permanently",
+        "There is no difference"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What is a web server?",
+      "correct": "A computer that stores and sends web pages to users",
+      "wrong": [
+        "A type of browser",
+        "A storage device",
+        "A network cable"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What is a cookie?",
+      "correct": "A small file stored on a user's device by a website",
+      "wrong": [
+        "A type of virus",
+        "A web page",
+        "A network protocol"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What are cookies used for?",
+      "correct": "Storing login details and user preferences",
+      "wrong": [
+        "Encrypting data",
+        "Assigning IP addresses",
+        "Routing packets"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What is a session cookie?",
+      "correct": "A cookie that is deleted when the browser is closed",
+      "wrong": [
+        "A cookie stored permanently",
+        "A cookie stored on a server",
+        "A cookie used for encryption"
+      ]
+    }
+  },
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "What is a persistent cookie?",
+      "correct": "A cookie stored on a device that remains after it is turned off",
+      "wrong": [
+        "A cookie deleted immediately",
+        "A cookie stored in RAM only",
+        "A cookie used for routing data"
+      ]
+    },
 
+    {
+      "topicName": "webtech",
+      "mcq": {
+        "question": "What is DNS?",
+        "correct": "A system that converts domain names into IP addresses",
+        "wrong": [
+          "A system that stores web pages",
+          "A type of web browser",
+          "A method of encrypting data"
+        ]
+      },
+    
+  {
+    "topicName": "webtech",
+    "mcq": {
+      "question": "Which is the correct order when loading a web page?",
+      "correct": "Enter URL → DNS finds IP → browser contacts server → server sends HTML → browser displays page",
+      "wrong": [
+        "DNS finds IP → enter URL → display page → server sends HTML",
+        "Server sends HTML → DNS finds IP → browser displays page",
+        "Enter URL → display page → DNS finds IP → server stores data"
+      ]
+    }
+  }
+]
