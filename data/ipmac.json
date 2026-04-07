@@ -1,62 +1,57 @@
 [
   {
     "topicName": "ipmac",
-    "front": "What is an address in networking?",
-    "back": "An address is a way to identify a device so data can be sent to it."
-  },
-  {
-    "topicName": "ipmac",
-    "front": "Why do devices need addresses?",
-    "back": "So data knows where to go and is sent to the correct device."
-  },
-  {
-    "topicName": "ipmac",
-    "front": "What is a network?",
-    "back": "A network is a group of devices connected together so they can communicate."
-  },
-  {
-    "topicName": "ipmac",
-    "front": "Does every device have a built-in identity?",
-    "back": "Yes, every device has a unique hardware address built into it."
-  },
-  {
-    "topicName": "ipmac",
-    "front": "What is a MAC address? (simple)",
-    "back": "A MAC address is a unique code built into a device to identify it on a local network."
-  },
-  {
-    "topicName": "ipmac",
-    "front": "Where is a MAC address stored?",
-    "back": "It is stored in the device’s network interface card (NIC)."
-  },
-  {
-    "topicName": "ipmac",
-    "front": "Do devices use the same address everywhere?",
-    "back": "No, devices use different addresses depending on the network."
-  },
-  {
-    "topicName": "ipmac",
-    "front": "What is an IP address? (simple)",
-    "back": "An IP address is an address used to send data to the correct device."
-  },
-  {
-    "topicName": "ipmac",
-    "front": "Is an IP address permanent?",
-    "back": "No, an IP address can change depending on the network."
-  },
-  {
-    "topicName": "ipmac",
     "front": "What is a MAC address?",
-    "back": "A MAC address is a unique identifier built into a device’s network interface card (NIC), used to identify it on a local network."
+    "back": "A MAC address is a unique identifier built into a network interface card (NIC) used to identify a device on a local network."
   },
   {
     "topicName": "ipmac",
     "front": "What is an IP address?",
-    "back": "An IP address is a unique address used to identify a device and send data to the correct destination."
+    "back": "An IP address is a unique address used to identify a device on a network and ensure data is sent to the correct destination."
   },
   {
     "topicName": "ipmac",
     "front": "What is the difference between a MAC address and an IP address?",
-    "back": "A MAC address identifies a device on a local network, while an IP address is used to send data across networks and the internet."
+    "back": "A MAC address identifies a device on a local network, while an IP address identifies a device on a network or the internet."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "How long is a MAC address?",
+    "back": "A MAC address is 48 bits long and written in hexadecimal."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What does the first part of a MAC address show?",
+    "back": "It identifies the manufacturer of the device."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What does the second part of a MAC address show?",
+    "back": "It uniquely identifies the device."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What is IPv4?",
+    "back": "IPv4 is an IP address system that uses 32 bits and is written as four numbers between 0 and 255 separated by dots."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What is IPv6?",
+    "back": "IPv6 is a newer IP address system that uses 128 bits and is written in hexadecimal separated by colons."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "Why was IPv6 introduced?",
+    "back": "Because there are not enough IPv4 addresses for all devices connected to the internet."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What is a dynamic IP address?",
+    "back": "A dynamic IP address is assigned automatically and can change each time a device connects to the network."
+  },
+  {
+    "topicName": "ipmac",
+    "front": "What is a static IP address?",
+    "back": "A static IP address does not change and is used for devices that need a fixed address, such as servers or printers."
   }
 ]
