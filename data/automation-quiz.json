@@ -11,18 +11,34 @@
       ]
     }
   },
+
+{
+  "topicName": "automation",
+  "mcq": {
+    "question": "What are the three main parts of an automated system?",
+    "correct": "Input (sensors), processing (comparison) and output (actuators)",
+    "wrong": [
+      "Input, storage and output",
+      "Processing, memory and output",
+      "Input, processor and storage"
+    ]
+  }
+},
+
   {
-    "topicName": "automation",
-    "mcq": {
-      "question": "What are the three main parts of an automated system?",
-      "correct": "Input, processing and output",
-      "wrong": [
-        "Input, storage and output",
-        "Processing, memory and output",
-        "Input, processor and storage"
-      ]
-    }
-  },
+  "topicName": "automation",
+  "mcq": {
+    "question": "What does processing usually involve in an automated system?",
+    "correct": "Comparing sensor data to stored values",
+    "wrong": [
+      "Storing data permanently",
+      "Displaying output to the user",
+      "Connecting to the internet"
+    ]
+  }
+},
+
+  
   {
     "topicName": "automation",
     "mcq": {
