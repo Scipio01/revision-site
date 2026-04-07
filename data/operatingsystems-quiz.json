@@ -1,1 +1,74 @@
-
+[
+  {
+    "topicName": "operatingsystems",
+    "mcq": {
+      "question": "What is an operating system?",
+      "correct": "System software that manages hardware and software",
+      "wrong": [
+        "Application software for games",
+        "A storage device",
+        "A type of network"
+      ]
+    }
+  },
+  {
+    "topicName": "operatingsystems",
+    "mcq": {
+      "question": "What is a GUI?",
+      "correct": "A graphical interface using windows and icons",
+      "wrong": [
+        "A command-only system",
+        "A type of printer",
+        "A storage method"
+      ]
+    }
+  },
+  {
+    "topicName": "operatingsystems",
+    "mcq": {
+      "question": "What is multitasking?",
+      "correct": "Running multiple programs at the same time",
+      "wrong": [
+        "Running one program only",
+        "Storing files",
+        "Connecting to the internet"
+      ]
+    }
+  },
+  {
+    "topicName": "operatingsystems",
+    "mcq": {
+      "question": "What is a device driver?",
+      "correct": "Software that allows hardware to communicate with the computer",
+      "wrong": [
+        "A type of storage device",
+        "A network cable",
+        "A program for games"
+      ]
+    }
+  },
+  {
+    "topicName": "operatingsystems",
+    "mcq": {
+      "question": "What does file management do?",
+      "correct": "Organises and stores files",
+      "wrong": [
+        "Prints documents",
+        "Controls sound output",
+        "Runs antivirus scans"
+      ]
+    }
+  },
+  {
+    "topicName": "operatingsystems",
+    "mcq": {
+      "question": "How does an OS provide security?",
+      "correct": "Using usernames, passwords and access rights",
+      "wrong": [
+        "By increasing RAM",
+        "By printing files",
+        "By using speakers"
+      ]
+    }
+  }
+]
