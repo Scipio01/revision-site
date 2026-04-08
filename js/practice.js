@@ -43,11 +43,17 @@ function updatePracticeHeader() {
   const introEl = document.getElementById("practiceIntro");
 
 
-  if (topic === "flowcharts") {
-  titleEl.textContent = "Flowcharts Practice";
-  introEl.textContent = "Practise matching flowchart symbols to their meanings.";
-  return;
-}
+    const tip = document.querySelector(".exam-tip");
+    
+    if (topic === "flowcharts") {
+      titleEl.textContent = "Flowcharts Practice";
+      introEl.textContent = "Practise matching flowchart symbols to their meanings.";
+    
+      if (tip) tip.style.display = "block";
+      return;
+    }
+    
+    if (tip) tip.style.display = "none";
 
   if (topic === "binshift") {
     titleEl.textContent = "Binary Shifts";
