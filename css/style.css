@@ -740,5 +740,24 @@ footer {
   transform: translateY(-2px);
 }
 
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark .kicker,
+body.dark .badge,
+body.dark .topic-card h3,
+body.dark .hero h1,
+body.dark .page-head h1 {
+  color: #f5f7fb;
+}
 
+body.dark .muted,
+body.dark .topic-card .muted,
+body.dark .hero .muted,
+body.dark #cardCounter,
+body.dark .flashcard-tip,
+body.dark footer,
+body.dark .small {
+  color: #cbd5e1;
+}
 
