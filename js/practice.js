@@ -270,8 +270,15 @@ if (topic === "flowcharts") {
     div.innerHTML = `<img src="images/practice/flowcharts/${opt.file}" alt="${opt.name}">`;
 
     div.addEventListener("click", () => {
+      if (checkBtn.disabled) return;
+    
       answerEl.value = opt.name;
       checkAnswer();
+    
+      document.querySelectorAll(".image-option").forEach(option => {
+        option.style.pointerEvents = "none";
+        option.style.opacity = "0.85";
+      });
     });
 
     imageDiv.appendChild(div);
