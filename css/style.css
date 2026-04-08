@@ -116,8 +116,8 @@ body.dark.theme-lilac,
 body.dark.theme-warm,
 body.dark.theme-ocean,
 body.dark.theme-forest {
-  --card-text-front: #182230;
-  --card-text-back: #182230;
+  --card-text-front: #f6f8ff;
+  --card-text-back: #f6f8ff;
 }
 
 * { box-sizing: border-box; }
@@ -234,7 +234,7 @@ body.dark .level-switch a.active,
 body.dark .level-switch a:hover,
 body.dark .topic-chip.active,
 body.dark .topic-chip:hover {
-  color: #0f172a;
+  color: var(--heading);
 }
 
 button { cursor: pointer; }
@@ -724,20 +724,24 @@ footer {
 }
 
 .topic-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 220px;
   padding: 20px;
-  background: #f8fafc;
-  border: 1px solid #dbeafe;
-  border-radius: 12px;
-  text-decoration: none;
-  color: #0f172a;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  color: var(--text);
   font-weight: 600;
+  box-shadow: var(--shadow);
   transition: 0.2s ease;
 }
 
 .topic-card:hover {
-  background: #e0f2fe;
+  background: var(--surface);
   transform: translateY(-2px);
+  box-shadow: var(--shadow);
 }
 
 body.dark h1,
