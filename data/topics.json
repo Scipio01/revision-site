@@ -7,7 +7,6 @@
     "description": "Binary, hexadecimal and how data is represented in a computer.",
     "hasPractice": false
   },
- 
   {
     "id": "datatransmission",
     "name": "Data Transmission",
@@ -24,68 +23,68 @@
     "description": "CPU, fetch-decode-execute cycle, registers, cache, clock speed, cores and embedded systems.",
     "hasPractice": false
   },
-
- {
-  "id": "hardware2",
-  "name": "Hardware Part 2",
-  "level": "gcse",
-  "group": "paper1",
-  "description": "CPU performance and embedded systems.",
-  "hasPractice": false
-},
-{
-  "id": "hardware3",
-  "name": "Hardware Part 3",
-  "level": "gcse",
-  "group": "paper1",
-  "description": "Memory, secondary storage and cloud storage.",
-  "hasPractice": false
-},
-
   {
-  "id": "hardware4",
-  "name": "Hardware Part 4",
-  "level": "gcse",
-  "group": "paper1",
-  "description": "Input devices, output devices and sensors.",
-  "hasPractice": false
-},
-
+    "id": "hardware2",
+    "name": "Hardware Part 2",
+    "level": "gcse",
+    "group": "paper1",
+    "description": "CPU performance and embedded systems.",
+    "hasPractice": false
+  },
   {
-  "id": "software",
-  "name": "Software",
-  "level": "gcse",
-  "group": "paper1",
-  "description": "Types of software, operating systems, interrupts, translation software and IDS.",
-  "hasPractice": false
-},
-
+    "id": "hardware3",
+    "name": "Hardware Part 3",
+    "level": "gcse",
+    "group": "paper1",
+    "description": "Memory, secondary storage and cloud storage.",
+    "hasPractice": false
+  },
   {
-  "id": "internet",
-  "name": "The Internet and its Uses",
-  "level": "gcse",
-  "group": "paper1",
-  "description": "The internet, the world wide web, URLs, HTTP and HTTPS, web browsers, cookies, digital currency and cyber security.",
-  "hasPractice": false
-},
-
-
-{
-  "id": "emerging",
-  "name": "Automated & Emerging Technologies",
-  "level": "gcse",
-  "group": "paper1",
-  "description": "Automation, robotics and artificial intelligence.",
-  "hasPractice": false
-},
-  
-  
+    "id": "hardware4",
+    "name": "Hardware Part 4",
+    "level": "gcse",
+    "group": "paper1",
+    "description": "Input devices, output devices and sensors.",
+    "hasPractice": false
+  },
+  {
+    "id": "software",
+    "name": "Software",
+    "level": "gcse",
+    "group": "paper1",
+    "description": "Types of software, operating systems, interrupts, translation software and IDS.",
+    "hasPractice": false
+  },
+  {
+    "id": "internet",
+    "name": "The Internet and its Uses",
+    "level": "gcse",
+    "group": "paper1",
+    "description": "The internet, the world wide web, URLs, HTTP and HTTPS, web browsers, cookies, digital currency and cyber security.",
+    "hasPractice": false
+  },
+  {
+    "id": "emerging",
+    "name": "Automated & Emerging Technologies",
+    "level": "gcse",
+    "group": "paper1",
+    "description": "Automation, robotics and artificial intelligence.",
+    "hasPractice": false
+  },
   {
     "id": "databases",
     "name": "Databases",
     "level": "gcse",
     "group": "paper2",
     "description": "Tables, keys, normalisation and SQL basics.",
+    "hasPractice": false
+  },
+  {
+    "id": "algorithms",
+    "name": "Algorithm Design and Problem Solving",
+    "level": "gcse",
+    "group": "paper2",
+    "description": "Program development life cycle, flowcharts, pseudocode, standard algorithms, validation, verification, testing and trace tables.",
     "hasPractice": false
   },
   {
