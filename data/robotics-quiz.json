@@ -1,1 +1,125 @@
+[
+  {
+    "topicName": "robotics",
+    "mcq": {
+      "question": "What is robotics?",
+      "correct": "The study of robots",
+      "wrong": [
+        "A type of programming language",
+        "A method of storing data",
+        "A type of computer network"
+      ]
+    }
+  },
+  {
+    "topicName": "robotics",
+    "mcq": {
+      "question": "Which is a characteristic of a robot?",
+      "correct": "Programmable",
+      "wrong": [
+        "Uses binary only",
+        "Requires internet access",
+        "Has a keyboard"
+      ]
+    }
+  },
+  {
+    "topicName": "robotics",
+    "mcq": {
+      "question": "A robot is used to move car parts in a factory. One characteristic is that it has a mechanical structure. What is another characteristic of a robot?",
+      "correct": "It is programmable",
+      "wrong": [
+        "It uses Wi-Fi",
+        "It has a screen",
+        "It stores files"
+      ]
+    }
+  },
+  {
+    "topicName": "robotics",
+    "mcq": {
+      "question": "What do sensors do in a robot?",
+      "correct": "Collect data from the environment",
+      "wrong": [
+        "Store data permanently",
+        "Display output to the user",
+        "Power the robot"
+      ]
+    }
+  },
 
+    {
+      "topicName": "robotics",
+      "mcq": {
+        "question": "Which is a characteristic of a robot?",
+        "correct": "It has electrical components",
+        "wrong": [
+          "It must be connected to the internet",
+          "It always has a screen",
+          "It stores large amounts of data"
+        ]
+      }
+    },
+
+  
+  {
+    "topicName": "robotics",
+    "mcq": {
+      "question": "What is the role of actuators?",
+      "correct": "Produce movement",
+      "wrong": [
+        "Store instructions",
+        "Process data",
+        "Connect to networks"
+      ]
+    }
+  },
+  {
+    "topicName": "robotics",
+    "mcq": {
+      "question": "Which is an example of robot use?",
+      "correct": "Manufacturing in factories",
+      "wrong": [
+        "Typing documents",
+        "Browsing websites",
+        "Sending emails"
+      ]
+    }
+  },
+  {
+    "topicName": "robotics",
+    "mcq": {
+      "question": "Why are robots used in industry?",
+      "correct": "They can do repetitive tasks",
+      "wrong": [
+        "They reduce electricity use",
+        "They remove the need for software",
+        "They improve internet speed"
+      ]
+    }
+  },
+  {
+    "topicName": "robotics",
+    "mcq": {
+      "question": "Which is an advantage of robots?",
+      "correct": "They can work continuously",
+      "wrong": [
+        "They always improve creativity",
+        "They eliminate all errors",
+        "They require no setup"
+      ]
+    }
+  },
+  {
+    "topicName": "robotics",
+    "mcq": {
+      "question": "Which is a disadvantage of robots?",
+      "correct": "High cost",
+      "wrong": [
+        "Slow processing speed",
+        "Cannot use sensors",
+        "Cannot be programmed"
+      ]
+    }
+  }
+]
