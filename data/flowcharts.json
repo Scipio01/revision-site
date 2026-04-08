@@ -1,1 +1,102 @@
-
+[
+  {
+    "topicName": "flowcharts",
+    "front": "What is an algorithm?",
+    "back": "A set of instructions used to solve a problem."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What is a flowchart?",
+    "back": "A diagram that shows the steps of an algorithm."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What are two ways algorithms are commonly represented?",
+    "back": "Flowcharts and pseudocode."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What is the purpose of a flowchart?",
+    "back": "To show how a problem is solved step by step."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "Which flowchart symbol is used for the start and end of a program?",
+    "back": "Terminal."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What is the purpose of the terminal symbol?",
+    "back": "It shows the start or end of a flowchart."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "Which flowchart symbol is used for input and output?",
+    "back": "Input/Output symbol."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What is the purpose of the input/output symbol?",
+    "back": "To show data being input or output."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "Which flowchart symbol is used for calculations or instructions?",
+    "back": "Process."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What is the purpose of the process symbol?",
+    "back": "To show calculations or assigning values to variables."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "Which flowchart symbol is used for decisions?",
+    "back": "Decision."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What does a decision symbol do?",
+    "back": "It allows the flow to branch based on a condition."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What must be included on the branches of a decision?",
+    "back": "Yes/No (or True/False)."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What does a flow line show in a flowchart?",
+    "back": "The direction of the flow of the algorithm."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What is a subprogram in a flowchart?",
+    "back": "A call to another procedure or function."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "Why are flowcharts useful?",
+    "back": "They help plan, understand and check algorithms."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What does a decision in a flowchart usually check?",
+    "back": "A condition, such as a comparison."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What is meant by input in a flowchart?",
+    "back": "Data entered into the system."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What is meant by output in a flowchart?",
+    "back": "Data produced by the system."
+  },
+  {
+    "topicName": "flowcharts",
+    "front": "What is a process step in a flowchart?",
+    "back": "An instruction such as a calculation or assignment."
+  }
+]
