@@ -765,3 +765,14 @@ body.dark .small {
   color: #cbd5e1;
 }
 
+body.dark .flashcard-front {
+  background: #2c4672;
+  border-color: #80aaf4;
+  color: #f6f8ff;
+}
+
+body.dark .flashcard-back {
+  background: #21483e;
+  border-color: #63c593;
+  color: #f6f8ff;
+}
