@@ -1,1 +1,206 @@
-
+[
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which is the first stage of the program development life cycle?",
+      "correct": "Analysis",
+      "wrong": [
+        "Design",
+        "Coding",
+        "Testing"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which stage involves identifying the problem and requirements?",
+      "correct": "Analysis",
+      "wrong": [
+        "Design",
+        "Coding",
+        "Testing"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which stage involves planning the solution using flowcharts or pseudocode?",
+      "correct": "Design",
+      "wrong": [
+        "Analysis",
+        "Coding",
+        "Testing"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which stage involves writing the program code?",
+      "correct": "Coding",
+      "wrong": [
+        "Analysis",
+        "Design",
+        "Testing"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which stage involves checking the program works using test data?",
+      "correct": "Testing",
+      "wrong": [
+        "Analysis",
+        "Design",
+        "Coding"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "A developer breaks a problem into smaller parts. What is this called?",
+      "correct": "Decomposition",
+      "wrong": [
+        "Abstraction",
+        "Iteration",
+        "Compilation"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "A developer removes unnecessary detail to focus on the important parts. What is this called?",
+      "correct": "Abstraction",
+      "wrong": [
+        "Decomposition",
+        "Validation",
+        "Verification"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which of the following happens in the analysis stage?",
+      "correct": "Identifying the problem and requirements",
+      "wrong": [
+        "Writing the program code",
+        "Testing with data",
+        "Drawing flowcharts"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which of the following happens in the design stage?",
+      "correct": "Creating flowcharts and pseudocode",
+      "wrong": [
+        "Fixing errors in code",
+        "Gathering requirements",
+        "Running test data"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which set shows the correct order of stages?",
+      "correct": "Analysis, Design, Coding, Testing",
+      "wrong": [
+        "Design, Analysis, Coding, Testing",
+        "Analysis, Coding, Design, Testing",
+        "Coding, Design, Analysis, Testing"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which is a design method?",
+      "correct": "Pseudocode",
+      "wrong": [
+        "Compiler",
+        "RAM",
+        "Cache"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which is another design method?",
+      "correct": "Flowchart",
+      "wrong": [
+        "Processor",
+        "Hard drive",
+        "Operating system"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "What is iterative testing?",
+      "correct": "Testing the program repeatedly during development",
+      "wrong": [
+        "Testing only at the end",
+        "Testing hardware performance",
+        "Testing user input only"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "A programmer tests their code each time they add a new feature. What is this called?",
+      "correct": "Iterative testing",
+      "wrong": [
+        "Final testing",
+        "Validation",
+        "Compilation"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "Which of the following are the components of a system?",
+      "correct": "Input, process, output, storage",
+      "wrong": [
+        "CPU, RAM, storage, internet",
+        "Keyboard, mouse, screen, printer",
+        "Files, folders, backups, encryption"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "A student writes code to solve a problem. Which stage are they in?",
+      "correct": "Coding",
+      "wrong": [
+        "Analysis",
+        "Design",
+        "Testing"
+      ]
+    }
+  },
+  {
+    "topicName": "pdlc",
+    "mcq": {
+      "question": "A system is tested using different values to check it works correctly. Which stage is this?",
+      "correct": "Testing",
+      "wrong": [
+        "Analysis",
+        "Design",
+        "Coding"
+      ]
+    }
+  }
+]
