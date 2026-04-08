@@ -1,1 +1,170 @@
-
+[
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "What is artificial intelligence?",
+      "correct": "Simulation of intelligent behaviour by computers",
+      "wrong": [
+        "Storage of large amounts of data",
+        "A method of building networks",
+        "A type of computer memory"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "Which is a characteristic of an AI system?",
+      "correct": "Ability to reason",
+      "wrong": [
+        "Requires a keyboard",
+        "Must use the internet",
+        "Always stores files"
+      ]
+    }
+  },
+    {
+      "topicName": "ai",
+      "mcq": {
+        "question": "Which set shows all four characteristics of an AI system?",
+        "correct": "Collection of data, rules for using data, ability to reason, ability to learn and adapt",
+        "wrong": [
+          "Collection of data, sensors, ability to reason, ability to learn and adapt",
+          "Rules for using data, ability to reason, ability to learn and adapt, storage of data",
+          "Collection of data, rules for using data, ability to reason, user interface"
+        ]
+      }
+    },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "A system collects data and applies rules to make decisions. Which characteristic of AI is this?",
+      "correct": "Rules for using data",
+      "wrong": [
+        "Mechanical structure",
+        "Secondary storage",
+        "File compression"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "A system improves its performance as it processes more data. Which characteristic of AI is this?",
+      "correct": "Ability to learn and adapt",
+      "wrong": [
+        "Uses binary",
+        "Has a processor",
+        "Stores data permanently"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "What does an expert system do?",
+      "correct": "Simulates the decisions of a human expert",
+      "wrong": [
+        "Builds computer hardware automatically",
+        "Stores all files on a network",
+        "Creates websites automatically"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "Which component of an expert system stores facts?",
+      "correct": "Knowledge base",
+      "wrong": [
+        "Inference engine",
+        "Interface",
+        "Rule base"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "Which component of an expert system stores rules?",
+      "correct": "Rule base",
+      "wrong": [
+        "Knowledge base",
+        "Interface",
+        "Sensor"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "What does the inference engine do?",
+      "correct": "Applies rules to reach conclusions",
+      "wrong": [
+        "Stores user input",
+        "Controls hardware devices",
+        "Collects environmental data"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "What is the role of the interface in an expert system?",
+      "correct": "Allows the user to interact with the system",
+      "wrong": [
+        "Stores rules",
+        "Processes data",
+        "Controls actuators"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "What is machine learning?",
+      "correct": "AI that learns patterns from data",
+      "wrong": [
+        "A type of storage device",
+        "A programming language",
+        "A network protocol"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "A medical system uses a knowledge base, rule base and inference engine to suggest a diagnosis. What type of AI is this?",
+      "correct": "Expert system",
+      "wrong": [
+        "Virtual reality",
+        "Embedded system",
+        "Database system"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "A program identifies patterns in data and improves over time. What type of AI is this?",
+      "correct": "Machine learning",
+      "wrong": [
+        "Expert system",
+        "Operating system",
+        "Spreadsheet model"
+      ]
+    }
+  },
+  {
+    "topicName": "ai",
+    "mcq": {
+      "question": "Which is an example use of AI?",
+      "correct": "Speech recognition",
+      "wrong": [
+        "Printing a document",
+        "Saving a file",
+        "Formatting text"
+      ]
+    }
+  }
+]
