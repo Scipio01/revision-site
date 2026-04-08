@@ -195,6 +195,7 @@ function updateModeOptions() {
   if (topic === "flowcharts") {
     modeEl.innerHTML = `
       <option value="symbols">Flowchart Symbols</option>
+      <option value="draw">Draw from Prompt</option>
     `;
     return;
   }
