@@ -239,6 +239,38 @@ function generateQuestion() {
     checkBtn.style.display = "inline-flex";
 
     if (topic === "flowcharts") {
+
+    
+    if (mode === "draw") {
+      currentQuestionType = "flowchartDraw";
+      currentQuestion = "Draw a flowchart to ask the user to enter 2 numbers, add the numbers together and output the total.";
+      currentAnswer = "total.png";
+    
+      questionEl.textContent = currentQuestion;
+    
+      const imageDiv = document.getElementById("imageOptions");
+      imageDiv.innerHTML = `
+        <button id="showSolutionBtn" type="button" class="button btn-primary">Show solution</button>
+        <div id="solutionWrap" style="display:none; margin-top:16px;">
+          <img src="images/practice/flowcharts/solutions/total.png" alt="Flowchart solution" style="max-width:100%; max-height:420px; object-fit:contain;">
+        </div>
+      `;
+    
+      answerEl.style.display = "none";
+      answerEl.parentElement.style.display = "none";
+      checkBtn.style.display = "none";
+    
+      const showSolutionBtn = document.getElementById("showSolutionBtn");
+      const solutionWrap = document.getElementById("solutionWrap");
+    
+      showSolutionBtn.addEventListener("click", () => {
+        solutionWrap.style.display = "block";
+        showSolutionBtn.disabled = true;
+      });
+    
+      return;
+    }
+      
       const symbols = [
         { name: "Terminal", file: "terminal.png" },
         { name: "Process", file: "process.png" },
