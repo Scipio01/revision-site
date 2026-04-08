@@ -1,1 +1,158 @@
-
+[
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "What is an algorithm?",
+      "correct": "A set of instructions to solve a problem",
+      "wrong": [
+        "A type of programming language",
+        "A hardware device",
+        "A data storage method"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "What is a flowchart?",
+      "correct": "A diagram showing the steps of an algorithm",
+      "wrong": [
+        "A type of database",
+        "A programming language",
+        "A testing method"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "Which symbol is used for the start and end of a flowchart?",
+      "correct": "Terminal",
+      "wrong": [
+        "Process",
+        "Decision",
+        "Input/Output"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "Which symbol is used to show input or output?",
+      "correct": "Input/Output",
+      "wrong": [
+        "Decision",
+        "Process",
+        "Terminal"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "Which symbol is used for calculations or instructions?",
+      "correct": "Process",
+      "wrong": [
+        "Decision",
+        "Terminal",
+        "Input/Output"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "Which symbol is used to make a decision?",
+      "correct": "Decision",
+      "wrong": [
+        "Process",
+        "Terminal",
+        "Input/Output"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "What must be labelled on the branches of a decision?",
+      "correct": "Yes/No",
+      "wrong": [
+        "Start/Stop",
+        "Input/Output",
+        "True/False values only"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "What do flow lines show?",
+      "correct": "The direction of the algorithm",
+      "wrong": [
+        "The size of data",
+        "The type of variable",
+        "The speed of processing"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "A step calculates total ← num1 + num2. Which symbol is used?",
+      "correct": "Process",
+      "wrong": [
+        "Decision",
+        "Input/Output",
+        "Terminal"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "A program asks the user to enter a number. Which symbol is used?",
+      "correct": "Input/Output",
+      "wrong": [
+        "Process",
+        "Decision",
+        "Terminal"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "A program checks if age > 18. Which symbol is used?",
+      "correct": "Decision",
+      "wrong": [
+        "Process",
+        "Input/Output",
+        "Terminal"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "Why are flowcharts used?",
+      "correct": "To plan and understand algorithms",
+      "wrong": [
+        "To store data",
+        "To speed up hardware",
+        "To compress files"
+      ]
+    }
+  },
+  {
+    "topicName": "flowcharts",
+    "mcq": {
+      "question": "Which of the following is a design method?",
+      "correct": "Flowchart",
+      "wrong": [
+        "Compiler",
+        "Processor",
+        "RAM"
+      ]
+    }
+  }
+]
