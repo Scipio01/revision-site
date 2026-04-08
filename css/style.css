@@ -460,7 +460,7 @@ button:disabled {
 .flashcard-tip {
   text-align: center;
   color: var(--muted);
-  margin-top: -6px;
+  margin-top: 12px;
 }
 
 .quiz-shell { display: grid; gap: 20px; }
