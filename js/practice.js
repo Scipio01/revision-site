@@ -10,6 +10,7 @@ let questionNumber = 0;
 let totalQuestions = 10;
 
 let soundQuestionCount = 0;
+let lastFlowchartAnswer = "";
 
 const questionEl = document.getElementById("question");
 const answerEl = document.getElementById("answer");
@@ -236,24 +237,31 @@ function generateQuestion() {
     answerEl.parentElement.style.display = "flex";
     checkBtn.style.display = "inline-flex";
 
-if (topic === "flowcharts") {
-  const symbols = [
-    { name: "Terminal", file: "terminal.png" },
-    { name: "Process", file: "process.png" },
-    { name: "Decision", file: "decision.png" },
-    { name: "Input/Output", file: "input-output.png" },
-    { name: "Subprogram", file: "subprogram.png" }
-  ];
-
-  const prompts = {
-    "Terminal": "start or end of a program",
-    "Process": "a calculation or instruction",
-    "Decision": "a condition that branches the flow",
-    "Input/Output": "inputting or outputting data",
-    "Subprogram": "calling another procedure"
-  };
-
-  const correct = symbols[Math.floor(Math.random() * symbols.length)];
+    if (topic === "flowcharts") {
+      const symbols = [
+        { name: "Terminal", file: "terminal.png" },
+        { name: "Process", file: "process.png" },
+        { name: "Decision", file: "decision.png" },
+        { name: "Input/Output", file: "input-output.png" },
+        { name: "Subprogram", file: "subprogram.png" }
+      ];
+    
+      const prompts = {
+        "Terminal": "start or end of a program",
+        "Process": "a calculation or instruction",
+        "Decision": "a condition that branches the flow",
+        "Input/Output": "inputting or outputting data",
+        "Subprogram": "calling another procedure"
+      };
+    
+      let availableSymbols = symbols.filter(symbol => symbol.name !== lastFlowchartAnswer);
+    
+    if (availableSymbols.length === 0) {
+      availableSymbols = symbols;
+    }
+    
+    const correct = availableSymbols[Math.floor(Math.random() * availableSymbols.length)];
+    lastFlowchartAnswer = correct.name;
   const options = [...symbols].sort(() => Math.random() - 0.5);
 
   currentQuestionType = "flowSymbol";
