@@ -4,21 +4,25 @@
     "front": "What is an automated system?",
     "back": "An automated system operates automatically without constant human input."
   },
-  {
-    "topicName": "automation",
-    "front": "What are the three main parts of an automated system?",
-    "back": "Input, processing and output."
-  },
+ 
+{
+  "topicName": "automation",
+  "front": "What are the main parts of an automated system?",
+  "back": "Input, processing, storage (for comparison values) and output."
+},
   {
     "topicName": "automation",
     "front": "What provides the input in an automated system?",
     "back": "Sensors collect data from the environment."
   },
-  {
-    "topicName": "automation",
-    "front": "What does the processor do in an automated system?",
-    "back": "The processor makes decisions using the data from the sensors."
-  },
+
+{
+  "topicName": "automation",
+  "front": "What does the processor do in an automated system?",
+  "back": "The processor compares sensor data with stored values and makes a decision."
+},
+
+  
   {
     "topicName": "automation",
     "front": "What provides the output in an automated system?",
@@ -35,6 +39,23 @@
     "back": "An actuator carries out a physical action, such as moving or switching something on or off."
   },
 
+{
+  "topicName": "automation",
+  "front": "Why is storage used in an automated system?",
+  "back": "To store values that the processor can compare with sensor data."
+},
+{
+  "topicName": "automation",
+  "front": "What is a stored value in an automated system?",
+  "back": "A preset value used by the processor to compare with sensor data."
+},
+{
+  "topicName": "automation",
+  "front": "Give an example of a stored value in an automated system.",
+  "back": "A temperature setting in a central heating system."
+},
+
+  
 {
   "topicName": "automation",
   "front": "Give an example of an actuator.",
@@ -54,7 +75,7 @@
   {
     "topicName": "automation",
     "front": "How does a central heating system work as an automated system?",
-    "back": "A sensor measures temperature → the processor compares it to a set value → the actuator turns the heating on or off."
+    "back": "A sensor measures temperature → the processor compares it to a stored value → the actuator turns the heating on or off."
   },
   {
     "topicName": "automation",
