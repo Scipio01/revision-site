@@ -275,10 +275,24 @@ if (topic === "flowcharts") {
       answerEl.value = opt.name;
       checkAnswer();
     
-      document.querySelectorAll(".image-option").forEach(option => {
+      const allOptions = document.querySelectorAll(".image-option");
+    
+      allOptions.forEach(option => {
         option.style.pointerEvents = "none";
         option.style.opacity = "0.85";
+    
+        const img = option.querySelector("img");
+    
+        if (img.alt === currentAnswer) {
+          option.style.borderColor = "green";
+        }
       });
+    
+      if (opt.name !== currentAnswer) {
+        div.style.borderColor = "red";
+      } else {
+        div.style.borderColor = "green";
+      }
     });
 
     imageDiv.appendChild(div);
