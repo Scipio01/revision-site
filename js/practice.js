@@ -25,6 +25,7 @@ const streakCountEl = document.getElementById("streakCount");
 const bestStreakCountEl = document.getElementById("bestStreakCount");
 const questionNumberEl = document.getElementById("questionNumber");
 const totalQuestionsEl = document.getElementById("totalQuestions");
+const imageOptionsEl = document.getElementById("imageOptions");
 
 function updateScoreDisplay() {
   correctCountEl.textContent = correctCount;
@@ -39,6 +40,13 @@ function updatePracticeHeader() {
   const topic = getTopic();
   const titleEl = document.getElementById("practiceTitle");
   const introEl = document.getElementById("practiceIntro");
+
+
+  if (topic === "flowcharts") {
+  titleEl.textContent = "Flowcharts Practice";
+  introEl.textContent = "Practise matching flowchart symbols to their meanings.";
+  return;
+}
 
   if (topic === "binshift") {
     titleEl.textContent = "Binary Shifts";
@@ -182,7 +190,16 @@ function binaryToDenaryWorking(binary) {
 function updateModeOptions() {
   const topic = getTopic();
   modeEl.innerHTML = "";
+  
+  if (topic === "flowcharts") {
+    modeEl.innerHTML = `
+      <option value="symbols">Flowchart Symbols</option>
+    `;
+    return;
+  }
 
+
+  
   if (topic === "hex") {
     modeEl.innerHTML = `
       <option value="mixed">Mixed</option>
@@ -210,6 +227,63 @@ function generateQuestion() {
   answerEl.value = "";
   answerEl.focus();
 
+
+      if (imageOptionsEl) {
+      imageOptionsEl.innerHTML = "";
+    }
+    
+    answerEl.style.display = "block";
+    answerEl.parentElement.style.display = "flex";
+    checkBtn.style.display = "inline-flex";
+
+if (topic === "flowcharts") {
+  const symbols = [
+    { name: "Terminal", file: "terminal.png" },
+    { name: "Process", file: "process.png" },
+    { name: "Decision", file: "decision.png" },
+    { name: "Input/Output", file: "input-output.png" },
+    { name: "Subprogram", file: "subprogram.png" }
+  ];
+
+  const prompts = {
+    "Terminal": "start or end of a program",
+    "Process": "a calculation or instruction",
+    "Decision": "a condition that branches the flow",
+    "Input/Output": "inputting or outputting data",
+    "Subprogram": "calling another procedure"
+  };
+
+  const correct = symbols[Math.floor(Math.random() * symbols.length)];
+  const options = [...symbols].sort(() => Math.random() - 0.5);
+
+  currentQuestionType = "flowSymbol";
+  currentAnswer = correct.name;
+
+  questionEl.textContent = "Which flowchart symbol is used for: " + prompts[correct.name] + "?";
+
+  const imageDiv = document.getElementById("imageOptions");
+  imageDiv.innerHTML = "";
+
+  options.forEach(opt => {
+    const div = document.createElement("div");
+    div.className = "image-option";
+    div.innerHTML = `<img src="images/practice/flowcharts/${opt.file}" alt="${opt.name}">`;
+
+    div.addEventListener("click", () => {
+      answerEl.value = opt.name;
+      checkAnswer();
+    });
+
+    imageDiv.appendChild(div);
+  });
+
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "none";
+
+  return;
+}
+  
   if (topic === "text") {
     currentQuestion = "How many bits are used to represent a character in standard ASCII?";
     currentAnswer = "7";
