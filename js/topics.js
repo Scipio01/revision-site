@@ -63,8 +63,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                     : 'software.html'
                 }">Open topic</a>`
               : `
-                <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
-                <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
+      <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
+      <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
+      <a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>
                 ${topic.hasPractice ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>` : ''}
               `
           }
