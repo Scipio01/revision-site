@@ -75,18 +75,18 @@
     }
   },
 
-  {
-    "topicName": "robotics",
-    "mcq": {
-      "question": "Which set shows all three characteristics of a robot?",
-      "correct": "Mechanical structure, electrical components, programmable",
-      "wrong": [
-        "Sensors, internet connection, storage",
-        "Keyboard, screen, software",
-        "CPU, RAM, storage"
-      ]
-    }
-  }
+    {
+      "topicName": "robotics",
+      "mcq": {
+        "question": "Which set shows all three characteristics of a robot?",
+        "correct": "Mechanical structure, electrical components, programmable",
+        "wrong": [
+          "Sensors, actuators, programmable",
+          "Mechanical structure, sensors, programmable",
+          "Electrical components, software, storage"
+        ]
+      }
+    },
 
   
   {
