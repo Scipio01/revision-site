@@ -591,6 +591,12 @@ function checkAnswer() {
   let isCorrect = false;
   let working = "";
 
+    if (currentQuestionType === "flowSymbol") {
+      isCorrect = userAnswer === currentAnswer;
+      working = `Correct symbol: ${currentAnswer}`;
+    }
+
+  
   if (currentQuestionType === "denToBin") {
     const normalisedUser = userAnswer.replace(/\s+/g, "");
     const acceptedAnswer = currentAnswer;
