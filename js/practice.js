@@ -618,7 +618,7 @@ if (topic === "pseudocode") {
       "Did you use ELSE IF?",
       "Did you handle the zero case?"
     ]
-  }
+  },
 
 // 🔹 Level 4 — Iteration (Loops)
 {
