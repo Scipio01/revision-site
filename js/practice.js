@@ -544,83 +544,340 @@ if (topic === "pseudocode") {
 
   window.pseudocodeQuestions = [
 
-  // 🔹 Level 1 — Input / Output
-  {
-    category: "inputoutput",
-    question: "Write pseudocode to input a name and output it.",
-    answer: "OUTPUT \"Enter your name\"\nINPUT name\nOUTPUT name",
-    hints: [
-      "Did you include an OUTPUT prompt?",
-      "Did you INPUT a variable?",
-      "Did you OUTPUT the value entered?"
-    ]
-  },
-  {
-    category: "inputoutput",
-    question: "Write pseudocode to input a number and output double the value.",
-    answer: "OUTPUT \"Enter a number\"\nINPUT num\nnum ← num * 2\nOUTPUT \"Double is \", num",
-    hints: [
-      "Did you INPUT a number?",
-      "Did you multiply it by 2?",
-      "Did you OUTPUT the result?"
-    ]
-  },
-  {
-    category: "inputoutput",
-    question: "Write pseudocode to input two numbers and output the total.",
-    answer: "OUTPUT \"Enter first number\"\nINPUT num1\nOUTPUT \"Enter second number\"\nINPUT num2\ntotal ← num1 + num2\nOUTPUT \"The total is \", total",
-    hints: [
-      "Did you INPUT two numbers?",
-      "Did you add them together?",
-      "Did you OUTPUT the total?"
-    ]
-  },
+// 🔹 Level 1 — Input / Output (10 Questions)
 
-  // 🔹 Level 2 — Selection
-  {
-    category: "selection",
-    question: "Write pseudocode to input a number and output if it is positive.",
-    answer: "OUTPUT \"Enter a number\"\nINPUT num\nIF num > 0 THEN\n  OUTPUT \"Positive\"\nENDIF",
-    hints: [
-      "Did you INPUT a value?",
-      "Did you use an IF statement?",
-      "Did you check if the number is greater than 0?"
-    ]
-  },
-  {
-    category: "selection",
-    question: "Write pseudocode to input a mark and output Pass if it is 50 or more.",
-    answer: "OUTPUT \"Enter your mark\"\nINPUT mark\nIF mark >= 50 THEN\n  OUTPUT \"Pass\"\nENDIF",
-    hints: [
-      "Did you INPUT a mark?",
-      "Did you compare using >= 50?",
-      "Did you use an IF statement?"
-    ]
-  },
-  {
-    category: "selection",
-    question: "Write pseudocode to input a number and output if it is even or odd.",
-    answer: "OUTPUT \"Enter a number\"\nINPUT num\nIF num MOD 2 = 0 THEN\n  OUTPUT \"Even\"\nELSE\n  OUTPUT \"Odd\"\nENDIF",
-    hints: [
-      "Did you use MOD 2?",
-      "Did you include IF and ELSE?",
-      "Did you output both results?"
-    ]
-  },
+{
+  category: "inputoutput",
+  question: "Write pseudocode to input a name and output it.",
+  answer:
+`OUTPUT "Enter your name"
+INPUT name
+OUTPUT name`,
+  hints: [
+    "Did you include an OUTPUT prompt?",
+    "Did you INPUT a variable?",
+    "Did you OUTPUT the value entered?"
+  ]
+},
+{
+  category: "inputoutput",
+  question: "Write pseudocode to input a number and output double the value.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+num ← num * 2
+OUTPUT "Double is ", num`,
+  hints: [
+    "Did you INPUT a number?",
+    "Did you multiply it by 2?",
+    "Did you OUTPUT the result?"
+  ]
+},
+{
+  category: "inputoutput",
+  question: "Write pseudocode to input two numbers and output the total.",
+  answer:
+`OUTPUT "Enter first number"
+INPUT num1
+OUTPUT "Enter second number"
+INPUT num2
+total ← num1 + num2
+OUTPUT "The total is ", total`,
+  hints: [
+    "Did you INPUT two numbers?",
+    "Did you add them together?",
+    "Did you OUTPUT the total?"
+  ]
+},
+{
+  category: "inputoutput",
+  question: "Write pseudocode to input a number and output its square.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+square ← num * num
+OUTPUT "The square is ", square`,
+  hints: [
+    "Did you INPUT a number?",
+    "Did you multiply it by itself?",
+    "Did you OUTPUT the result?"
+  ]
+},
+{
+  category: "inputoutput",
+  question: "Write pseudocode to input a number and output half the value.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+result ← num / 2
+OUTPUT "Half is ", result`,
+  hints: [
+    "Did you divide the number by 2?",
+    "Did you store the result?",
+    "Did you OUTPUT it?"
+  ]
+},
+{
+  category: "inputoutput",
+  question: "Write pseudocode to input a name and age, then output both.",
+  answer:
+`OUTPUT "Enter name"
+INPUT name
+OUTPUT "Enter age"
+INPUT age
+OUTPUT name, age`,
+  hints: [
+    "Did you INPUT two values?",
+    "Did you use two prompts?",
+    "Did you OUTPUT both values?"
+  ]
+},
+{
+  category: "inputoutput",
+  question: "Write pseudocode to input a price and output the price with 20% added.",
+  answer:
+`OUTPUT "Enter price"
+INPUT price
+newPrice ← price * 1.2
+OUTPUT "New price is ", newPrice`,
+  hints: [
+    "Did you multiply by 1.2?",
+    "Did you store the result?",
+    "Did you OUTPUT it clearly?"
+  ]
+},
+{
+  category: "inputoutput",
+  question: "Write pseudocode to input two numbers and output the difference.",
+  answer:
+`OUTPUT "Enter first number"
+INPUT num1
+OUTPUT "Enter second number"
+INPUT num2
+difference ← num1 - num2
+OUTPUT "Difference is ", difference`,
+  hints: [
+    "Did you subtract the numbers?",
+    "Which number comes first?",
+    "Did you OUTPUT the result?"
+  ]
+},
+{
+  category: "inputoutput",
+  question: "Write pseudocode to input a length and width and output the area of a rectangle.",
+  answer:
+`OUTPUT "Enter length"
+INPUT length
+OUTPUT "Enter width"
+INPUT width
+area ← length * width
+OUTPUT "Area is ", area`,
+  hints: [
+    "What formula calculates area?",
+    "Did you multiply length and width?",
+    "Did you OUTPUT the result?"
+  ]
+},
+{
+  category: "inputoutput",
+  question: "Write pseudocode to input a number and output the number plus 10.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+result ← num + 10
+OUTPUT "Result is ", result`,
+  hints: [
+    "Did you add 10 to the number?",
+    "Did you store the result?",
+    "Did you OUTPUT it?"
+  ]
+},
 
-  // 🔹 Level 3 — More structure
-  {
-    category: "selection",
-    question: "Write pseudocode to input a number and output 'Positive', 'Negative' or 'Zero'.",
-    answer: "OUTPUT \"Enter a number\"\nINPUT num\nIF num > 0 THEN\n  OUTPUT \"Positive\"\nELSE IF num < 0 THEN\n  OUTPUT \"Negative\"\nELSE\n  OUTPUT \"Zero\"\nENDIF",
-    hints: [
-      "Did you check for more than one condition?",
-      "Did you use ELSE IF?",
-      "Did you handle the zero case?"
-    ]
-  },
 
-// 🔹 Level 4 — Iteration (Loops)
+// 🔹 Level 2 — Selection (10 Questions)
+
+{
+  category: "selection",
+  question: "Write pseudocode to input a number and output if it is positive.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+IF num > 0 THEN
+  OUTPUT "Positive"
+ENDIF`,
+  hints: [
+    "You are making a decision → use IF",
+    "What condition checks for positive?",
+    "Only one outcome is needed"
+  ]
+},
+{
+  category: "selection",
+  question: "Write pseudocode to input a number and output if it is positive or negative.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+IF num >= 0 THEN
+  OUTPUT "Positive"
+ELSE
+  OUTPUT "Negative"
+ENDIF`,
+  hints: [
+    "You need two outcomes → use IF...ELSE",
+    "What condition separates positive and negative?",
+    "Don't forget the ELSE"
+  ]
+},
+{
+  category: "selection",
+  question: "Write pseudocode to input a number and output 'Positive', 'Negative' or 'Zero'.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+IF num > 0 THEN
+  OUTPUT "Positive"
+ELSE IF num < 0 THEN
+  OUTPUT "Negative"
+ELSE
+  OUTPUT "Zero"
+ENDIF`,
+  hints: [
+    "You have three outcomes → use ELSE IF",
+    "Check positive first",
+    "What happens if it is neither positive nor negative?"
+  ]
+},
+{
+  category: "selection",
+  question: "Write pseudocode to input a mark and output Pass if it is 50 or more, otherwise Fail.",
+  answer:
+`OUTPUT "Enter mark"
+INPUT mark
+IF mark >= 50 THEN
+  OUTPUT "Pass"
+ELSE
+  OUTPUT "Fail"
+ENDIF`,
+  hints: [
+    "This is a boundary check → use IF",
+    "What comparison is needed for pass?",
+    "You need both outcomes"
+  ]
+},
+{
+  category: "selection",
+  question: "Write pseudocode to input a number and output if it is even or odd.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+IF num MOD 2 = 0 THEN
+  OUTPUT "Even"
+ELSE
+  OUTPUT "Odd"
+ENDIF`,
+  hints: [
+    "Use MOD to check divisibility",
+    "What does MOD 2 = 0 mean?",
+    "Include both outcomes"
+  ]
+},
+{
+  category: "selection",
+  question: "Write pseudocode to input two numbers and output the largest.",
+  answer:
+`OUTPUT "Enter first number"
+INPUT num1
+OUTPUT "Enter second number"
+INPUT num2
+IF num1 > num2 THEN
+  OUTPUT num1
+ELSE
+  OUTPUT num2
+ENDIF`,
+  hints: [
+    "Compare two values",
+    "Which operator finds the larger?",
+    "One IF is enough"
+  ]
+},
+{
+  category: "selection",
+  question: "Write pseudocode to input two numbers and output 'Equal' if they are the same, otherwise output the largest.",
+  answer:
+`OUTPUT "Enter first number"
+INPUT num1
+OUTPUT "Enter second number"
+INPUT num2
+IF num1 = num2 THEN
+  OUTPUT "Equal"
+ELSE IF num1 > num2 THEN
+  OUTPUT num1
+ELSE
+  OUTPUT num2
+ENDIF`,
+  hints: [
+    "First check if they are equal",
+    "Then compare which is larger",
+    "You need ELSE IF"
+  ]
+},
+{
+  category: "selection",
+  question: "Write pseudocode to input a number and output 'High' if it is greater than 100, otherwise output 'Low'.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+IF num > 100 THEN
+  OUTPUT "High"
+ELSE
+  OUTPUT "Low"
+ENDIF`,
+  hints: [
+    "Single condition → IF",
+    "What value is the boundary?",
+    "Include ELSE"
+  ]
+},
+{
+  category: "selection",
+  question: "Write pseudocode to input an age and output 'Adult' if 18 or over, otherwise 'Child'.",
+  answer:
+`OUTPUT "Enter age"
+INPUT age
+IF age >= 18 THEN
+  OUTPUT "Adult"
+ELSE
+  OUTPUT "Child"
+ENDIF`,
+  hints: [
+    "Think about the boundary value",
+    "Use >= for 18 and over",
+    "Two outcomes needed"
+  ]
+},
+{
+  category: "selection",
+  question: "Write pseudocode to input a number and output 'Divisible by 5' if it is divisible by 5, otherwise 'Not divisible'.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+IF num MOD 5 = 0 THEN
+  OUTPUT "Divisible by 5"
+ELSE
+  OUTPUT "Not divisible"
+ENDIF`,
+  hints: [
+    "Use MOD to test divisibility",
+    "What result means divisible?",
+    "Include both outcomes"
+  ]
+},
+
+    
+
+
+// 🔹 Level 3 — Iteration (10 Questions)
+
 {
   category: "iteration",
   question: "Write pseudocode to output the numbers 1 to 10.",
@@ -629,10 +886,23 @@ if (topic === "pseudocode") {
   OUTPUT i
 NEXT i`,
   hints: [
-    "Did you use a loop?",
-    "Did you start at 1?",
-    "Did you go up to 10?",
-    "Did you OUTPUT inside the loop?"
+    "This is a fixed number of repetitions → use a FOR loop",
+    "Start at 1",
+    "Finish at 10",
+    "OUTPUT inside the loop"
+  ]
+},
+{
+  category: "iteration",
+  question: "Write pseudocode to output the message \"Hello\" 5 times.",
+  answer:
+`FOR i ← 1 TO 5
+  OUTPUT "Hello"
+NEXT i`,
+  hints: [
+    "This is a fixed number of repetitions → use a FOR loop",
+    "How many times should it repeat?",
+    "OUTPUT should be inside the loop"
   ]
 },
 {
@@ -647,10 +917,59 @@ FOR i ← 1 TO 5
 NEXT i
 OUTPUT "Total is ", total`,
   hints: [
-    "Did you use a loop that runs 5 times?",
-    "Did you INPUT inside the loop?",
-    "Did you keep a running total?",
-    "Did you OUTPUT the result after the loop?"
+    "You know exactly how many times to repeat → use a FOR loop",
+    "You need a running total",
+    "INPUT inside the loop",
+    "OUTPUT after the loop"
+  ]
+},
+{
+  category: "iteration",
+  question: "Write pseudocode to input 5 numbers and count how many are positive.",
+  answer:
+`count ← 0
+FOR i ← 1 TO 5
+  OUTPUT "Enter a number"
+  INPUT num
+  IF num > 0 THEN
+    count ← count + 1
+  ENDIF
+NEXT i
+OUTPUT "Count is ", count`,
+  hints: [
+    "You know how many inputs there are → use a FOR loop",
+    "You need a counter",
+    "What condition checks for positive?",
+    "OUTPUT the count after the loop"
+  ]
+},
+{
+  category: "iteration",
+  question: "Write pseudocode to output the 5 times table from 5 × 1 to 5 × 10.",
+  answer:
+`FOR i ← 1 TO 10
+  OUTPUT 5 * i
+NEXT i`,
+  hints: [
+    "This is a fixed number of repetitions → use a FOR loop",
+    "What values should i take?",
+    "Multiply 5 by the loop variable"
+  ]
+},
+{
+  category: "iteration",
+  question: "Write pseudocode to keep asking for a number until the user enters 0.",
+  answer:
+`OUTPUT "Enter a number"
+INPUT num
+WHILE num <> 0 DO
+  OUTPUT "Enter a number"
+  INPUT num
+ENDWHILE`,
+  hints: [
+    "This depends on a condition → use a WHILE loop",
+    "What value stops the loop?",
+    "You need to input again inside the loop"
   ]
 },
 {
@@ -667,10 +986,54 @@ WHILE num <> 0 DO
 ENDWHILE
 OUTPUT "Total is ", total`,
   hints: [
-    "Did you use a WHILE loop?",
-    "Did you stop when 0 is entered?",
-    "Did you keep adding to a total?",
-    "Did you OUTPUT at the end?"
+    "This depends on a condition → use a WHILE loop",
+    "You need a running total",
+    "Stop when 0 is entered",
+    "OUTPUT the total after the loop"
+  ]
+},
+{
+  category: "iteration",
+  question: "Write pseudocode to keep asking for a password until the user enters \"Secret\".",
+  answer:
+`OUTPUT "Enter password"
+INPUT password
+WHILE password <> "Secret" DO
+  OUTPUT "Enter password"
+  INPUT password
+ENDWHILE`,
+  hints: [
+    "This depends on a condition → use a WHILE loop",
+    "What makes the loop stop?",
+    "Check the password each time"
+  ]
+},
+{
+  category: "iteration",
+  question: "Write pseudocode to ask the user to enter a number until they enter one greater than 100.",
+  answer:
+`REPEAT
+  OUTPUT "Enter a number"
+  INPUT num
+UNTIL num > 100`,
+  hints: [
+    "The loop must run at least once → use REPEAT...UNTIL",
+    "What condition ends the loop?",
+    "Check the condition after the input"
+  ]
+},
+{
+  category: "iteration",
+  question: "Write pseudocode to ask the user to enter \"yes\" until they do so.",
+  answer:
+`REPEAT
+  OUTPUT "Enter yes"
+  INPUT reply
+UNTIL reply = "yes"`,
+  hints: [
+    "The user must enter something at least once → use REPEAT...UNTIL",
+    "What value makes the loop stop?",
+    "Check the condition after the input"
   ]
 }
 
