@@ -263,7 +263,7 @@ function generateQuestion() {
     answer: "biggestnumber.png"
   },
   {
-    question: "Draw a flowchart to input 10 numbers and output the total.",
+    question: "Draw a flowchart to ask the user to enter 10 numbers and output the total.",
     answer: "total10.png"
   },
   {
