@@ -248,19 +248,44 @@ function generateQuestion() {
 
     
     if (mode === "draw") {
-      currentQuestionType = "flowchartDraw";
-      currentQuestion = "Draw a flowchart to ask the user to enter 2 numbers, add the numbers together and output the total.";
-      currentAnswer = "total.png";
-    
-      questionEl.textContent = currentQuestion;
-    
-      const imageDiv = document.getElementById("imageOptions");
-      imageDiv.innerHTML = `
-        <button id="showSolutionBtn" type="button" class="button btn-primary">Show solution</button>
-        <div id="solutionWrap" style="display:none; margin-top:16px;">
-          <img src="images/practice/flowcharts/solutions/total.png" alt="Flowchart solution" style="max-width:100%; max-height:420px; object-fit:contain;">
-        </div>
-      `;
+     const drawQuestions = [
+  {
+    question: "Draw a flowchart to ask the user to enter 2 numbers, add the numbers together and output the total.",
+    answer: "total.png"
+  },
+  {
+    question: "Draw a flowchart to input a number and output whether it is greater than 10.",
+    answer: "numbergreater10.png"
+  },
+  {
+    question: "Draw a flowchart to input two numbers and output the largest number.",
+    answer: "biggestnumber.png"
+  },
+  {
+    question: "Draw a flowchart to input 10 numbers and output the total.",
+    answer: "total10.png"
+  },
+  {
+    question: "Draw a flowchart that uses a subprogram to add two numbers and output the total.",
+    answer: "subprogramflow.png"
+  }
+];
+
+const selected = drawQuestions[0];
+
+currentQuestionType = "flowchartDraw";
+currentQuestion = selected.question;
+currentAnswer = selected.answer;
+
+questionEl.textContent = currentQuestion;
+
+const imageDiv = document.getElementById("imageOptions");
+imageDiv.innerHTML = `
+  <button id="showSolutionBtn" type="button" class="button btn-primary">Show solution</button>
+  <div id="solutionWrap" style="display:none; margin-top:16px;">
+    <img src="images/practice/flowcharts/solutions/${currentAnswer}" alt="Flowchart solution" style="max-width:100%; max-height:420px; object-fit:contain;">
+  </div>
+`;
     
       answerEl.style.display = "none";
       answerEl.parentElement.style.display = "none";
