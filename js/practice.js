@@ -619,6 +619,10 @@ if (topic === "pseudocode") {
 
 ];
 
+
+    if (questionNumber > window.pseudocodeQuestions.length) {
+    questionNumber = window.pseudocodeQuestions.length;
+  }
   const item = window.pseudocodeQuestions[(questionNumber - 1) % window.pseudocodeQuestions.length];
   currentQuestionType = "pseudocode";
   currentQuestion = item.question;
@@ -1161,9 +1165,14 @@ nextBtn.addEventListener("click", () => {
     }
   }
 
-  questionNumber++;
-  updateScoreDisplay();
-  generateQuestion();
+if (getTopic() === "pseudocode" && questionNumber >= window.pseudocodeQuestions.length) {
+  showSummary();
+  return;
+}
+
+questionNumber++;
+updateScoreDisplay();
+generateQuestion();
 });
 
 newSetBtn.addEventListener("click", () => {
