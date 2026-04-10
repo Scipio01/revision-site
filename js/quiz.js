@@ -20,7 +20,7 @@ function updateStatus() {
 function renderQuestion() {
   const q = questions[current];
   document.getElementById('quizTitle').textContent = q.topicName;
-  document.getElementById('questionText').textContent = q.mcq.question;
+  document.getElementById('questionText').innerHTML = q.mcq.question.replace(/\n/g, '<br>');
   document.getElementById('feedback').className = 'feedback-box muted';
   document.getElementById('feedback').textContent = 'Choose the best answer to unlock the next question.';
   const optionsWrap = document.getElementById('options');
