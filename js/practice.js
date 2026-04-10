@@ -240,6 +240,7 @@ function generateQuestion() {
 
   const statsBox = document.querySelector(".practice-stats");
   const pseudoCategoryWrap = document.getElementById("pseudoCategoryWrap");
+  window.pseudocodeQuestions = window.pseudocodeQuestions || [];
 
 
   if (topic === "pseudocode") {
