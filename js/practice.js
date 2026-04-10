@@ -1008,19 +1008,17 @@ function checkAnswer() {
 checkBtn.addEventListener("click", checkAnswer);
 
 nextBtn.addEventListener("click", () => {
-  if (questionNumber >= totalQuestions) {
-    showSummary();
-    nextBtn.disabled = true;
-    return;
-  }
+  checkBtn.disabled = false;
 
-checkBtn.disabled = false;
-questionNumber++;
-
+  // STOP at last flowchart question
   if (getTopic() === "flowcharts" && modeEl.value === "draw") {
+    if (drawQuestionIndex >= drawQuestions.length - 1) {
+      return; // stop here
+    }
     drawQuestionIndex++;
   }
-  
+
+  questionNumber++;
   updateScoreDisplay();
   generateQuestion();
 });
