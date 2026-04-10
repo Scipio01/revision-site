@@ -567,6 +567,7 @@ if (topic === "pseudocode") {
   currentAnswer = item.answer;
   currentHints = item.hints;
   questionEl.innerHTML = currentQuestion.replace(/\n/g, "<br>");
+  document.getElementById("answer").parentElement.style.display = "none";
   return;
 }
 
