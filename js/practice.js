@@ -620,6 +620,62 @@ if (topic === "pseudocode") {
     ]
   }
 
+// 🔹 Level 4 — Iteration (Loops)
+{
+  category: "iteration",
+  question: "Write pseudocode to output the numbers 1 to 10.",
+  answer:
+`FOR i ← 1 TO 10
+  OUTPUT i
+NEXT i`,
+  hints: [
+    "Did you use a loop?",
+    "Did you start at 1?",
+    "Did you go up to 10?",
+    "Did you OUTPUT inside the loop?"
+  ]
+},
+{
+  category: "iteration",
+  question: "Write pseudocode to input 5 numbers and output the total.",
+  answer:
+`total ← 0
+FOR i ← 1 TO 5
+  OUTPUT "Enter a number"
+  INPUT num
+  total ← total + num
+NEXT i
+OUTPUT "Total is ", total`,
+  hints: [
+    "Did you use a loop that runs 5 times?",
+    "Did you INPUT inside the loop?",
+    "Did you keep a running total?",
+    "Did you OUTPUT the result after the loop?"
+  ]
+},
+{
+  category: "iteration",
+  question: "Write pseudocode to input numbers until 0 is entered, then output the total.",
+  answer:
+`total ← 0
+OUTPUT "Enter a number (0 to stop)"
+INPUT num
+WHILE num <> 0 DO
+  total ← total + num
+  OUTPUT "Enter a number (0 to stop)"
+  INPUT num
+ENDWHILE
+OUTPUT "Total is ", total`,
+  hints: [
+    "Did you use a WHILE loop?",
+    "Did you stop when 0 is entered?",
+    "Did you keep adding to a total?",
+    "Did you OUTPUT at the end?"
+  ]
+}
+
+    
+
 ];
 
 
