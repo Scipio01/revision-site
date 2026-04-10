@@ -243,7 +243,14 @@ function generateQuestion() {
 
  if (topic === "pseudocode") {
   statsBox.innerHTML =
-   `<div class="stat-box">Question: ${questionNumber}/${window.pseudocodeQuestions?.length || 7}</div>`;
+  const pseudoCategory = document.getElementById("pseudoCategory").value;
+
+const filteredQuestions = pseudoCategory === "all"
+  ? window.pseudocodeQuestions
+  : window.pseudocodeQuestions.filter(q => q.category === pseudoCategory);
+
+statsBox.innerHTML =
+  `<div class="stat-box">Question: ${questionNumber}/${filteredQuestions.length}</div>`;
   pseudoCategoryWrap.style.display = "block";
 } else {
   statsBox.innerHTML =
