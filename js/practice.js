@@ -255,7 +255,7 @@ function generateQuestion() {
     answer: "total.png"
   },
   {
-    question: "Draw a flowchart to input a number and output whether it is greater than 10.",
+    question: "Draw a flowchart to input a number and output 'Higher' if it is greater than 10, otherwise output 'Lower'.",
     answer: "numbergreater10.png"
   },
   {
