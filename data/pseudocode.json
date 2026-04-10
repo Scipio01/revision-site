@@ -1,0 +1,282 @@
+[
+  {
+    "topicName": "pseudocode",
+    "front": "What is pseudocode?",
+    "back": "Pseudocode is a way of writing an algorithm using structured English that resembles programming code but is not written in a specific language."
+  },
+  {
+    "topicName": "pseudocode",
+    "front": "Why is pseudocode used?",
+    "back": "It is used to plan and design algorithms before writing them in a programming language."
+  },
+  {
+    "topicName": "pseudocode",
+    "front": "What is the advantage of pseudocode over programming code?",
+    "back": "It is easier to read and understand because it is not restricted by strict syntax rules."
+  },
+  {
+    "topicName": "pseudocode",
+    "front": "What keyword is used to display output?",
+    "back": "OUTPUT"
+  },
+  {
+    "topicName": "pseudocode",
+    "front": "What keyword is used to get input from a user?",
+    "back": "INPUT"
+  },
+  {
+    "topicName": "pseudocode",
+    "front": "What is selection in pseudocode?",
+    "back": "Selection is making a decision using IF, ELSE, and ENDIF statements."
+  },
+  {
+    "topicName": "pseudocode",
+    "front": "What is iteration in pseudocode?",
+    "back": "Iteration is repeating instructions using loops such as FOR, WHILE, or REPEAT UNTIL."
+  },
+  {
+    "topicName": "pseudocode",
+    "front": "What is a variable?",
+    "back": "A variable is a named storage location used to store data."
+  },
+  {
+    "topicName": "pseudocode",
+    "front": "What does assignment mean in pseudocode?",
+    "back": "Assignment means giving a value to a variable using ←"
+  },
+  {
+    "topicName": "pseudocode",
+    "front": "What is sequencing in algorithms?",
+    "back": "Sequencing is when instructions are carried out in order, one after another."
+  },
+
+  ,
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used to declare a variable?",
+  "back": "DECLARE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used to declare a constant?",
+  "back": "CONSTANT"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What does ← mean in pseudocode?",
+  "back": "Assignment (it sets a variable to a value)"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What data type is used for whole numbers?",
+  "back": "INTEGER"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What data type is used for decimal numbers?",
+  "back": "REAL"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What data type is used for text?",
+  "back": "STRING"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What data type stores TRUE or FALSE values?",
+  "back": "BOOLEAN"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What data type stores a single character?",
+  "back": "CHAR"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What does = mean in pseudocode?",
+  "back": "Equal to (used for comparison)"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What does <> mean in pseudocode?",
+  "back": "Not equal to"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What does DIV do?",
+  "back": "Performs integer division (returns a whole number)"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What does MOD do?",
+  "back": "Returns the remainder after division"
+},
+
+  ,
+{
+  "topicName": "pseudocode",
+  "front": "What keyword starts a selection statement?",
+  "back": "IF"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used to specify the condition in an IF statement?",
+  "back": "THEN"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used for the alternative path in selection?",
+  "back": "ELSE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword ends an IF statement?",
+  "back": "ENDIF"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What structure is used to handle multiple possible values?",
+  "back": "CASE OF ... ENDCASE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used for the default option in a CASE statement?",
+  "back": "OTHERWISE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword starts a count-controlled loop?",
+  "back": "FOR"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword sets the range in a FOR loop?",
+  "back": "TO"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword ends a FOR loop?",
+  "back": "NEXT"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword starts a pre-condition loop?",
+  "back": "WHILE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used with WHILE to begin the loop body?",
+  "back": "DO"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword ends a WHILE loop?",
+  "back": "ENDWHILE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword starts a post-condition loop?",
+  "back": "REPEAT"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword sets the condition to stop a REPEAT loop?",
+  "back": "UNTIL"
+},
+  ,
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used to define a procedure?",
+  "back": "PROCEDURE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used to call a procedure?",
+  "back": "CALL"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword ends a procedure?",
+  "back": "ENDPROCEDURE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used to define a function?",
+  "back": "FUNCTION"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword sends a value back from a function?",
+  "back": "RETURN"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword ends a function?",
+  "back": "ENDFUNCTION"
+},
+{
+  "topicName": "pseudocode",
+  "front": "How do you access an element in an array?",
+  "back": "Using an index, e.g. names[2]"
+},
+{
+  "topicName": "pseudocode",
+  "front": "How do you assign a value to an array element?",
+  "back": "Using ← with an index, e.g. names[2] ← \"Ali\""
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used to open a file for reading?",
+  "back": "OPENFILE ... FOR READ"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What keyword is used to open a file for writing?",
+  "back": "OPENFILE ... FOR WRITE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What command reads a line from a file?",
+  "back": "READFILE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What command writes a line to a file?",
+  "back": "WRITEFILE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What command closes a file?",
+  "back": "CLOSEFILE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What function returns the length of a string?",
+  "back": "LENGTH"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What function returns part of a string?",
+  "back": "SUBSTRING"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What function converts text to uppercase?",
+  "back": "UCASE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What function converts text to lowercase?",
+  "back": "LCASE"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What function generates a random number?",
+  "back": "RANDOM"
+},
+{
+  "topicName": "pseudocode",
+  "front": "What function rounds a number?",
+  "back": "ROUND"
+}
+]
