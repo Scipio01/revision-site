@@ -240,6 +240,18 @@ function generateQuestion() {
 
   const statsBox = document.querySelector(".practice-stats");
 
+  if (topic === "pseudocode") {
+  statsBox.innerHTML =
+    `<div class="stat-box">Question: ${questionNumber}/${pseudocodeQuestions.length}</div>`;
+} else {
+  statsBox.innerHTML =
+    `<div class="stat-box">Correct: <span id="correctCount">${correctCount}</span></div>
+     <div class="stat-box">Incorrect: <span id="incorrectCount">${incorrectCount}</span></div>
+     <div class="stat-box">Streak: <span id="streakCount">${currentStreak}</span></div>
+     <div class="stat-box">Best: <span id="bestStreakCount">${bestStreak}</span></div>
+     <div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span>/<span id="totalQuestions">10</span></div>`;
+}
+
   document.getElementById("answer").parentElement.style.display = "block";
   hintBtn.style.display = "none";
 
