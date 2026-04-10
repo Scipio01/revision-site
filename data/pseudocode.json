@@ -49,8 +49,6 @@
     "front": "What is sequencing in algorithms?",
     "back": "Sequencing is when instructions are carried out in order, one after another."
   },
-
-  ,
 {
   "topicName": "pseudocode",
   "front": "What keyword is used to declare a variable?",
@@ -112,7 +110,6 @@
   "back": "Returns the remainder after division"
 },
 
-  ,
 {
   "topicName": "pseudocode",
   "front": "What keyword starts a selection statement?",
@@ -183,7 +180,6 @@
   "front": "What keyword sets the condition to stop a REPEAT loop?",
   "back": "UNTIL"
 },
-  ,
 {
   "topicName": "pseudocode",
   "front": "What keyword is used to define a procedure?",
