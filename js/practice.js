@@ -1237,11 +1237,17 @@ updateScoreDisplay();
 updatePracticeHeader();
 updateModeOptions();
 
-const controls = document.getElementById("controls");
-if (getTopic() === "sound") {
+ const controls = document.getElementById("controls");
+const statsBox = document.querySelector(".practice-stats");
+
+if (getTopic() === "sound" || getTopic() === "pseudocode") {
   controls.style.display = "none";
 } else {
   controls.style.display = "flex";
+}
+
+if (getTopic() === "pseudocode") {
+  statsBox.style.display = "none";
 }
 
 questionNumber = 1;
