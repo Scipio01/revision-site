@@ -1019,7 +1019,7 @@ nextBtn.addEventListener("click", () => {
   checkBtn.disabled = false;
 
   // STOP at last flowchart question
-if (drawQuestionIndex >= 4) {
+nextBtn.disabled = false; {
     drawQuestionIndex++;
   }
 
