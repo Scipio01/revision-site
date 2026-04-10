@@ -241,18 +241,20 @@ function generateQuestion() {
   const statsBox = document.querySelector(".practice-stats");
   const pseudoCategoryWrap = document.getElementById("pseudoCategoryWrap");
 
- if (topic === "pseudocode") {
-  statsBox.innerHTML =
-  const pseudoCategory = document.getElementById("pseudoCategory").value;
 
-const filteredQuestions = pseudoCategory === "all"
-  ? window.pseudocodeQuestions
-  : window.pseudocodeQuestions.filter(q => q.category === pseudoCategory);
+  if (topic === "pseudocode") {
+    const pseudoCategory = document.getElementById("pseudoCategory").value;
+  
+    const filteredQuestions = pseudoCategory === "all"
+      ? window.pseudocodeQuestions
+      : window.pseudocodeQuestions.filter(q => q.category === pseudoCategory);
+  
+    statsBox.innerHTML =
+      `<div class="stat-box">Question: ${questionNumber}/${filteredQuestions.length}</div>`;
+    pseudoCategoryWrap.style.display = "block";
+  } else {
 
-statsBox.innerHTML =
-  `<div class="stat-box">Question: ${questionNumber}/${filteredQuestions.length}</div>`;
-  pseudoCategoryWrap.style.display = "block";
-} else {
+  
   statsBox.innerHTML =
     `<div class="stat-box">Correct: <span id="correctCount">${correctCount}</span></div>
      <div class="stat-box">Incorrect: <span id="incorrectCount">${incorrectCount}</span></div>
@@ -1049,15 +1051,16 @@ UNTIL reply = "yes"`,
 ];
 
 
-    if (questionNumber > window.pseudocodeQuestions.length) {
-    questionNumber = window.pseudocodeQuestions.length;
-  }
-  
-const pseudoCategory = document.getElementById("pseudoCategory").value;
+
+  const pseudoCategory = document.getElementById("pseudoCategory").value;
 
 const filteredQuestions = pseudoCategory === "all"
   ? window.pseudocodeQuestions
   : window.pseudocodeQuestions.filter(q => q.category === pseudoCategory);
+
+if (questionNumber > filteredQuestions.length) {
+  questionNumber = filteredQuestions.length;
+}
 
 const item = filteredQuestions[(questionNumber - 1) % filteredQuestions.length];
 
