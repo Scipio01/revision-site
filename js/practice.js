@@ -890,7 +890,7 @@ function checkAnswer() {
         : "This divides the value by 2 (integer division)."
       }`;
   }
-
+ 
     else if (currentQuestionType === "twos") {
       const normalisedUser = userAnswer.replace(/\s+/g, "");
       const { num, registerSize } = currentSourceValue;
