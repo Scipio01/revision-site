@@ -231,6 +231,14 @@ function generateQuestion() {
   const mode = modeEl.value;
   const topic = getTopic();
 
+  const statsBox = document.querySelector(".practice-stats");
+
+  if (topic === "flowcharts" && mode === "draw") {
+    statsBox.style.display = "none";
+  } else {
+    statsBox.style.display = "flex";
+  }
+
   feedbackEl.textContent = "";
   feedbackEl.classList.remove("correct", "incorrect");
   answerEl.value = "";
@@ -1013,7 +1021,8 @@ nextBtn.addEventListener("click", () => {
   // STOP at last flowchart question
   if (getTopic() === "flowcharts" && modeEl.value === "draw") {
     if (drawQuestionIndex >= 4) {
-      return; // stop here
+      nextBtn.disabled = true; 
+      return;
     }
     drawQuestionIndex++;
   }
