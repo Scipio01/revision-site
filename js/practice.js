@@ -302,10 +302,19 @@ const imageDiv = document.getElementById("imageOptions");
       const showSolutionBtn = document.getElementById("showSolutionBtn");
       const solutionWrap = document.getElementById("solutionWrap");
     
-      showSolutionBtn.addEventListener("click", () => {
-        solutionWrap.style.display = "block";
-        showSolutionBtn.disabled = true;
-      });
+     showSolutionBtn.addEventListener("click", () => {
+      solutionWrap.style.display = "block";
+      showSolutionBtn.disabled = true;
+    
+      const imageDiv = document.getElementById("imageOptions");
+    
+      const feedbackMsg = document.createElement("div");
+      feedbackMsg.className = "exam-tip";
+      feedbackMsg.style.marginTop = "12px";
+      feedbackMsg.textContent = "Compare your answer before moving on.";
+    
+      imageDiv.appendChild(feedbackMsg);
+    });
     
       return;
     }
