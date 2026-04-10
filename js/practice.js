@@ -1218,6 +1218,24 @@ hintBtn.addEventListener("click", function () {
 
 
 function showSummary() {
+
+if (getTopic() === "pseudocode") {
+  questionEl.textContent = "Set complete!";
+  feedbackEl.innerHTML = `
+    <p>You've worked through all the questions.</p>
+    <p>Use "New set" to practise again or choose a different category.</p>
+  `;
+
+  feedbackEl.classList.remove("correct", "incorrect");
+
+  answerEl.value = "";
+  answerEl.disabled = true;
+  checkBtn.disabled = true;
+
+  return;
+}
+
+  
   const totalAnswered = correctCount + incorrectCount;
   const accuracy = totalAnswered > 0
     ? Math.round((correctCount / totalAnswered) * 100)
