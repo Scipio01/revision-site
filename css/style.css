@@ -661,10 +661,16 @@ button:disabled {
   font-weight: 600;
   padding: 16px;
   border-radius: 12px;
-  background: rgba(110, 168, 255, 0.08);
+  background: linear-gradient(
+    135deg,
+    rgba(110, 168, 255, 0.18),
+    rgba(142, 224, 212, 0.12)
+  );
   border: 1px solid rgba(110, 168, 255, 0.2);
   margin-top: 10px;
   font-family: "Courier New", monospace;
+  color: var(--heading);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .button-row {
