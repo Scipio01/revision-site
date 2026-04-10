@@ -1612,6 +1612,19 @@ if (getTopic() === "pseudocode" && questionNumber >= window.pseudocodeQuestions.
   return;
 }
 
+if (getTopic() === "pseudocode") {
+  const pseudoCategory = document.getElementById("pseudoCategory").value;
+
+  const filteredQuestions = pseudoCategory === "all"
+    ? window.pseudocodeQuestions
+    : window.pseudocodeQuestions.filter(q => q.category === pseudoCategory);
+
+  if (questionNumber >= filteredQuestions.length) {
+    showSummary();
+    return;
+  }
+}
+
 questionNumber++;
 updateScoreDisplay();
 generateQuestion();
