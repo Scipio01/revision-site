@@ -682,7 +682,16 @@ OUTPUT "Total is ", total`,
     if (questionNumber > window.pseudocodeQuestions.length) {
     questionNumber = window.pseudocodeQuestions.length;
   }
-  const item = window.pseudocodeQuestions[(questionNumber - 1) % window.pseudocodeQuestions.length];
+  
+const pseudoCategory = document.getElementById("pseudoCategory").value;
+
+const filteredQuestions = pseudoCategory === "all"
+  ? window.pseudocodeQuestions
+  : window.pseudocodeQuestions.filter(q => q.category === pseudoCategory);
+
+const item = filteredQuestions[(questionNumber - 1) % filteredQuestions.length];
+
+  
   currentQuestionType = "pseudocode";
   currentQuestion = item.question;
   currentAnswer = item.answer;
