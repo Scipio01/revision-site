@@ -1017,10 +1017,15 @@ checkBtn.addEventListener("click", checkAnswer);
 
 nextBtn.addEventListener("click", () => {
   checkBtn.disabled = false;
+  nextBtn.disabled = false;
 
-  // STOP at last flowchart question
-nextBtn.disabled = false; {
-    drawQuestionIndex++;
+  if (getTopic() === "flowcharts" && modeEl.value === "draw") {
+    if (drawQuestionIndex >= 4) {
+      drawQuestionIndex = 0;
+      questionNumber = 0;
+    } else {
+      drawQuestionIndex++;
+    }
   }
 
   questionNumber++;
