@@ -526,48 +526,86 @@ return;
 
 
 if (topic === "pseudocode") {
+
   const pseudocodeQuestions = [
-   {
-  category: "inputoutput",
-  question: "Write pseudocode to input a name and output it.",
-  answer: "OUTPUT \"Enter your name\"\nINPUT name\nOUTPUT name",
-  hints: [
-    "Did you include an OUTPUT prompt?",
-    "Did you INPUT a variable?",
-    "Did you OUTPUT the value entered?"
-  ]
-},
-    {
-      category: "inputoutput",
-      question: "Write pseudocode to input a number and output its square.",
-      answer: "OUTPUT \"Enter a number\"\nINPUT num\nsquare ← num * num\nOUTPUT \"The square is \", square"
-    },
-    {
-      category: "inputoutput",
-      question: "Write pseudocode to input two numbers and output the total.",
-      answer: "OUTPUT \"Enter first number\"\nINPUT num1\nOUTPUT \"Enter second number\"\nINPUT num2\ntotal ← num1 + num2\nOUTPUT \"The total is \", total"
-    },
-    {
-      category: "inputoutput",
-      question: "Write pseudocode to input a number and output double the value.",
-      answer: "OUTPUT \"Enter a number\"\nINPUT num\nnum ← num * 2\nOUTPUT \"Double is \", num"
-    },
-    {
-      category: "inputoutput",
-      question: "Write pseudocode to input a number and output if it is positive.",
-      answer: "OUTPUT \"Enter a number\"\nINPUT num\nIF num > 0 THEN\n  OUTPUT \"Positive\"\nENDIF"
-    },
-    {
-      category: "inputoutput",
-      question: "Write pseudocode to input a mark and output Pass if it is 50 or more.",
-      answer: "OUTPUT \"Enter your mark\"\nINPUT mark\nIF mark >= 50 THEN\n  OUTPUT \"Pass\"\nENDIF"
-    },
-    {
-      category: "inputoutput",
-      question: "Write pseudocode to input a number and output if it is even or odd.",
-      answer: "OUTPUT \"Enter a number\"\nINPUT num\nIF num MOD 2 = 0 THEN\n  OUTPUT \"Even\"\nELSE\n  OUTPUT \"Odd\"\nENDIF"
-    }
-  ];
+
+  // 🔹 Level 1 — Input / Output
+  {
+    category: "inputoutput",
+    question: "Write pseudocode to input a name and output it.",
+    answer: "OUTPUT \"Enter your name\"\nINPUT name\nOUTPUT name",
+    hints: [
+      "Did you include an OUTPUT prompt?",
+      "Did you INPUT a variable?",
+      "Did you OUTPUT the value entered?"
+    ]
+  },
+  {
+    category: "inputoutput",
+    question: "Write pseudocode to input a number and output double the value.",
+    answer: "OUTPUT \"Enter a number\"\nINPUT num\nnum ← num * 2\nOUTPUT \"Double is \", num",
+    hints: [
+      "Did you INPUT a number?",
+      "Did you multiply it by 2?",
+      "Did you OUTPUT the result?"
+    ]
+  },
+  {
+    category: "inputoutput",
+    question: "Write pseudocode to input two numbers and output the total.",
+    answer: "OUTPUT \"Enter first number\"\nINPUT num1\nOUTPUT \"Enter second number\"\nINPUT num2\ntotal ← num1 + num2\nOUTPUT \"The total is \", total",
+    hints: [
+      "Did you INPUT two numbers?",
+      "Did you add them together?",
+      "Did you OUTPUT the total?"
+    ]
+  },
+
+  // 🔹 Level 2 — Selection
+  {
+    category: "selection",
+    question: "Write pseudocode to input a number and output if it is positive.",
+    answer: "OUTPUT \"Enter a number\"\nINPUT num\nIF num > 0 THEN\n  OUTPUT \"Positive\"\nENDIF",
+    hints: [
+      "Did you INPUT a value?",
+      "Did you use an IF statement?",
+      "Did you check if the number is greater than 0?"
+    ]
+  },
+  {
+    category: "selection",
+    question: "Write pseudocode to input a mark and output Pass if it is 50 or more.",
+    answer: "OUTPUT \"Enter your mark\"\nINPUT mark\nIF mark >= 50 THEN\n  OUTPUT \"Pass\"\nENDIF",
+    hints: [
+      "Did you INPUT a mark?",
+      "Did you compare using >= 50?",
+      "Did you use an IF statement?"
+    ]
+  },
+  {
+    category: "selection",
+    question: "Write pseudocode to input a number and output if it is even or odd.",
+    answer: "OUTPUT \"Enter a number\"\nINPUT num\nIF num MOD 2 = 0 THEN\n  OUTPUT \"Even\"\nELSE\n  OUTPUT \"Odd\"\nENDIF",
+    hints: [
+      "Did you use MOD 2?",
+      "Did you include IF and ELSE?",
+      "Did you output both results?"
+    ]
+  },
+
+  // 🔹 Level 3 — More structure
+  {
+    category: "selection",
+    question: "Write pseudocode to input a number and output 'Positive', 'Negative' or 'Zero'.",
+    answer: "OUTPUT \"Enter a number\"\nINPUT num\nIF num > 0 THEN\n  OUTPUT \"Positive\"\nELSE IF num < 0 THEN\n  OUTPUT \"Negative\"\nELSE\n  OUTPUT \"Zero\"\nENDIF",
+    hints: [
+      "Did you check for more than one condition?",
+      "Did you use ELSE IF?",
+      "Did you handle the zero case?"
+    ]
+  }
+
+];
 
   const item = pseudocodeQuestions[(questionNumber - 1) % pseudocodeQuestions.length];
   currentQuestionType = "pseudocode";
