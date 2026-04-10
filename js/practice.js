@@ -239,6 +239,7 @@ function generateQuestion() {
   const topic = getTopic();
 
   const statsBox = document.querySelector(".practice-stats");
+  const pseudoCategoryWrap = document.getElementById("pseudoCategoryWrap");
 
   if (topic === "pseudocode") {
   statsBox.innerHTML =
