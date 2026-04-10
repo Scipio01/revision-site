@@ -1261,6 +1261,12 @@ newSetBtn.addEventListener("click", () => {
 difficultyEl.addEventListener("change", generateQuestion);
 modeEl.addEventListener("change", generateQuestion);
 
+document.getElementById("pseudoCategory").addEventListener("change", () => {
+  questionNumber = 1;
+  generateQuestion();
+});
+
+
 answerEl.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     checkAnswer();
