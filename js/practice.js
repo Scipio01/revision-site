@@ -569,7 +569,7 @@ if (topic === "pseudocode") {
     }
   ];
 
-  const item = pseudocodeQuestions[Math.floor(Math.random() * pseudocodeQuestions.length)];
+  const item = pseudocodeQuestions[(questionNumber - 1) % pseudocodeQuestions.length];
   currentQuestionType = "pseudocode";
   currentQuestion = item.question;
   currentAnswer = item.answer;
