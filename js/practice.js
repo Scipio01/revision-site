@@ -281,8 +281,15 @@ currentAnswer = selected.answer;
 questionEl.textContent = currentQuestion;
 
 const imageDiv = document.getElementById("imageOptions");
-imageDiv.innerHTML = `
+
+
+      imageDiv.innerHTML = `
+  <div class="exam-tip" style="margin-bottom:12px;">
+    💡 Your flowchart does not have to look exactly the same as this model answer. If the logic, symbols and outputs are correct, it can still gain full marks.
+  </div>
+
   <button id="showSolutionBtn" type="button" class="button btn-primary">Show solution</button>
+
   <div id="solutionWrap" style="display:none; margin-top:16px;">
     <img src="images/practice/flowcharts/solutions/${currentAnswer}" alt="Flowchart solution" style="max-width:100%; max-height:420px; object-fit:contain;">
   </div>
