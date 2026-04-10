@@ -1,1 +1,44 @@
-
+[
+  {
+    "topic": "pseudocode",
+    "category": "inputoutput",
+    "question": "Write pseudocode to input a name and output it.",
+    "answer": "OUTPUT \"Enter your name\"\nINPUT name\nOUTPUT name"
+  },
+  {
+    "topic": "pseudocode",
+    "category": "inputoutput",
+    "question": "Write pseudocode to input a number and output its square.",
+    "answer": "OUTPUT \"Enter a number\"\nINPUT num\nsquare ← num * num\nOUTPUT \"The square is \", square"
+  },
+  {
+    "topic": "pseudocode",
+    "category": "inputoutput",
+    "question": "Write pseudocode to input two numbers and output the total.",
+    "answer": "OUTPUT \"Enter first number\"\nINPUT num1\nOUTPUT \"Enter second number\"\nINPUT num2\ntotal ← num1 + num2\nOUTPUT \"The total is \", total"
+  },
+  {
+    "topic": "pseudocode",
+    "category": "inputoutput",
+    "question": "Write pseudocode to input a number and output double the value.",
+    "answer": "OUTPUT \"Enter a number\"\nINPUT num\nnum ← num * 2\nOUTPUT \"Double is \", num"
+  },
+  {
+    "topic": "pseudocode",
+    "category": "inputoutput",
+    "question": "Write pseudocode to input a number and output if it is positive.",
+    "answer": "OUTPUT \"Enter a number\"\nINPUT num\nIF num > 0 THEN\n  OUTPUT \"Positive\"\nENDIF"
+  },
+  {
+    "topic": "pseudocode",
+    "category": "inputoutput",
+    "question": "Write pseudocode to input a mark and output Pass if it is 50 or more.",
+    "answer": "OUTPUT \"Enter your mark\"\nINPUT mark\nIF mark >= 50 THEN\n  OUTPUT \"Pass\"\nENDIF"
+  },
+  {
+    "topic": "pseudocode",
+    "category": "inputoutput",
+    "question": "Write pseudocode to input a number and output if it is even or odd.",
+    "answer": "OUTPUT \"Enter a number\"\nINPUT num\nIF num MOD 2 = 0 THEN\n  OUTPUT \"Even\"\nELSE\n  OUTPUT \"Odd\"\nENDIF"
+  }
+]
