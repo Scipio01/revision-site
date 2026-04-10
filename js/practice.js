@@ -1020,9 +1020,6 @@ nextBtn.addEventListener("click", () => {
 
   // STOP at last flowchart question
 if (drawQuestionIndex >= 4) {
-  nextBtn.style.display = "none"; // hide BUTTON completely
-  return;
-}
     drawQuestionIndex++;
   }
 
