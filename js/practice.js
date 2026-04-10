@@ -102,6 +102,13 @@ function updatePracticeHeader() {
     introEl.textContent = "Practise sound file size calculations and unit conversions.";
     return;
   }
+
+if (topic === "pseudocode") {
+  titleEl.textContent = "Pseudocode Practice";
+  introEl.textContent = "Practise writing algorithms using pseudocode with model answers.";
+  return;
+}
+  
   // default
   titleEl.textContent = "Binary Practice";
   introEl.textContent = "Practise converting between denary and binary with instant feedback and working.";
@@ -514,6 +521,55 @@ questionEl.textContent = currentQuestion;
 return;
 }
 
+
+if (topic === "pseudocode") {
+  const pseudocodeQuestions = [
+    {
+      category: "inputoutput",
+      question: "Write pseudocode to input a name and output it.",
+      answer: "OUTPUT \"Enter your name\"\nINPUT name\nOUTPUT name"
+    },
+    {
+      category: "inputoutput",
+      question: "Write pseudocode to input a number and output its square.",
+      answer: "OUTPUT \"Enter a number\"\nINPUT num\nsquare ← num * num\nOUTPUT \"The square is \", square"
+    },
+    {
+      category: "inputoutput",
+      question: "Write pseudocode to input two numbers and output the total.",
+      answer: "OUTPUT \"Enter first number\"\nINPUT num1\nOUTPUT \"Enter second number\"\nINPUT num2\ntotal ← num1 + num2\nOUTPUT \"The total is \", total"
+    },
+    {
+      category: "inputoutput",
+      question: "Write pseudocode to input a number and output double the value.",
+      answer: "OUTPUT \"Enter a number\"\nINPUT num\nnum ← num * 2\nOUTPUT \"Double is \", num"
+    },
+    {
+      category: "inputoutput",
+      question: "Write pseudocode to input a number and output if it is positive.",
+      answer: "OUTPUT \"Enter a number\"\nINPUT num\nIF num > 0 THEN\n  OUTPUT \"Positive\"\nENDIF"
+    },
+    {
+      category: "inputoutput",
+      question: "Write pseudocode to input a mark and output Pass if it is 50 or more.",
+      answer: "OUTPUT \"Enter your mark\"\nINPUT mark\nIF mark >= 50 THEN\n  OUTPUT \"Pass\"\nENDIF"
+    },
+    {
+      category: "inputoutput",
+      question: "Write pseudocode to input a number and output if it is even or odd.",
+      answer: "OUTPUT \"Enter a number\"\nINPUT num\nIF num MOD 2 = 0 THEN\n  OUTPUT \"Even\"\nELSE\n  OUTPUT \"Odd\"\nENDIF"
+    }
+  ];
+
+  const item = pseudocodeQuestions[randomInt(pseudocodeQuestions.length)];
+  currentQuestionType = "pseudocode";
+  currentQuestion = item.question;
+  currentAnswer = item.answer;
+  questionEl.innerHTML = currentQuestion.replace(/\n/g, "<br>");
+  return;
+}
+
+  
   if (topic === "binshift") {
     const registerSize = difficulty === "hard" ? 8 : 4;
     const maxValue = Math.pow(2, registerSize) - 1;
