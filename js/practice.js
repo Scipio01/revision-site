@@ -240,13 +240,16 @@ function generateQuestion() {
 
   const statsBox = document.querySelector(".practice-stats");
 
+  document.getElementById("answer").parentElement.style.display = "block";
+  hintBtn.style.display = "none";
+
   if (topic === "flowcharts" && mode === "draw") {
     statsBox.style.display = "none";
   } else {
     statsBox.style.display = "flex";
   }
 
-  feedbackEl.textContent = "";
+  feedbackEl.innerHTML = "";
   feedbackEl.classList.remove("correct", "incorrect");
   answerEl.value = "";
   answerEl.focus();
@@ -568,6 +571,7 @@ if (topic === "pseudocode") {
   currentHints = item.hints;
   questionEl.innerHTML = currentQuestion.replace(/\n/g, "<br>");
   document.getElementById("answer").parentElement.style.display = "none";
+  hintBtn.style.display = "inline-flex";
   return;
 }
 
@@ -1130,6 +1134,20 @@ answerEl.addEventListener("keydown", function (event) {
     checkAnswer();
   }
 });
+
+
+const hintBtn = document.getElementById("hintBtn");
+
+hintBtn.addEventListener("click", function () {
+  if (getTopic() === "pseudocode" && currentHints) {
+    feedbackEl.innerHTML =
+      "<strong>Hints:</strong><br><br>" +
+      currentHints.map(h => `✔ ${h}`).join("<br>");
+
+    feedbackEl.classList.remove("correct", "incorrect");
+  }
+});
+
 
 function showSummary() {
   const totalAnswered = correctCount + incorrectCount;
