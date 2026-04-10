@@ -527,11 +527,16 @@ return;
 
 if (topic === "pseudocode") {
   const pseudocodeQuestions = [
-    {
-      category: "inputoutput",
-      question: "Write pseudocode to input a name and output it.",
-      answer: "OUTPUT \"Enter your name\"\nINPUT name\nOUTPUT name"
-    },
+   {
+  category: "inputoutput",
+  question: "Write pseudocode to input a name and output it.",
+  answer: "OUTPUT \"Enter your name\"\nINPUT name\nOUTPUT name",
+  hints: [
+    "Did you include an OUTPUT prompt?",
+    "Did you INPUT a variable?",
+    "Did you OUTPUT the value entered?"
+  ]
+}
     {
       category: "inputoutput",
       question: "Write pseudocode to input a number and output its square.",
