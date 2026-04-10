@@ -271,7 +271,7 @@ function generateQuestion() {
   }
 ];
 
-const selected = drawQuestions[0];
+const selected = drawQuestions[Math.floor(Math.random() * drawQuestions.length)];
 
 currentQuestionType = "flowchartDraw";
 currentQuestion = selected.question;
