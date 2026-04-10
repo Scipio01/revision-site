@@ -242,7 +242,7 @@ function generateQuestion() {
 
   if (topic === "pseudocode") {
   statsBox.innerHTML =
-    `<div class="stat-box">Question: ${questionNumber}/${window.pseudocodeQuestions.length}</div>`;
+   `<div class="stat-box">Question: ${questionNumber}/${window.pseudocodeQuestions?.length || 7}</div>`;
 } else {
   statsBox.innerHTML =
     `<div class="stat-box">Correct: <span id="correctCount">${correctCount}</span></div>
