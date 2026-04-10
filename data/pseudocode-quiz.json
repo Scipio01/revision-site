@@ -111,7 +111,7 @@
   {
     "topicName": "pseudocode",
     "mcq": {
-      "question": "What will this output?\n\nx ← 5\nOUTPUT x",
+      "question": "x ← 5\nOUTPUT x\n\nWhat will this output?",
       "correct": "5",
       "wrong": [
         "x",
@@ -123,7 +123,7 @@
   {
     "topicName": "pseudocode",
     "mcq": {
-      "question": "What will this output?\n\nx ← 3\nx ← x + 2\nOUTPUT x",
+      "question": "x ← 3\nx ← x + 2\nOUTPUT x\n\nWhat will this output?",
       "correct": "5",
       "wrong": [
         "3",
