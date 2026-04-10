@@ -280,7 +280,7 @@ function generateQuestion() {
   }
 ];
 
-const selected = drawQuestions[drawQuestionIndex % drawQuestions.length];
+const selected = drawQuestions[drawQuestionIndex];
 
 currentQuestionType = "flowchartDraw";
 currentQuestion = selected.question;
