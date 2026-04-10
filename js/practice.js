@@ -241,9 +241,10 @@ function generateQuestion() {
   const statsBox = document.querySelector(".practice-stats");
   const pseudoCategoryWrap = document.getElementById("pseudoCategoryWrap");
 
-  if (topic === "pseudocode") {
+ if (topic === "pseudocode") {
   statsBox.innerHTML =
    `<div class="stat-box">Question: ${questionNumber}/${window.pseudocodeQuestions?.length || 7}</div>`;
+  pseudoCategoryWrap.style.display = "block";
 } else {
   statsBox.innerHTML =
     `<div class="stat-box">Correct: <span id="correctCount">${correctCount}</span></div>
@@ -251,6 +252,7 @@ function generateQuestion() {
      <div class="stat-box">Streak: <span id="streakCount">${currentStreak}</span></div>
      <div class="stat-box">Best: <span id="bestStreakCount">${bestStreak}</span></div>
      <div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span>/<span id="totalQuestions">10</span></div>`;
+  pseudoCategoryWrap.style.display = "none";
 }
 
   document.getElementById("answer").parentElement.style.display = "block";
