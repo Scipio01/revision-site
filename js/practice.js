@@ -536,7 +536,7 @@ if (topic === "pseudocode") {
     "Did you INPUT a variable?",
     "Did you OUTPUT the value entered?"
   ]
-}
+},
     {
       category: "inputoutput",
       question: "Write pseudocode to input a number and output its square.",
