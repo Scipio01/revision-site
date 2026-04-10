@@ -1139,6 +1139,7 @@ answerEl.addEventListener("keydown", function (event) {
 const hintBtn = document.getElementById("hintBtn");
 
 hintBtn.addEventListener("click", function () {
+  console.log("hint button clicked", getTopic(), currentHints);
   if (getTopic() === "pseudocode" && currentHints) {
     feedbackEl.innerHTML =
       "<strong>Hints:</strong><br><br>" +
