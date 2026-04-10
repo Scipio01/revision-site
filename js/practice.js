@@ -267,7 +267,7 @@ function generateQuestion() {
     answer: "total10.png"
   },
   {
-    question: "Draw a flowchart that uses a subprogram to add two numbers and output the total.",
+    question: "Draw a flowchart to ask the user to enter two numbers, then call a subprogram to calculate and output the total.",
     answer: "subprogramflow.png"
   }
 ];
