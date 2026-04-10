@@ -539,7 +539,7 @@ return;
 
 if (topic === "pseudocode") {
 
-  const pseudocodeQuestions = [
+  window.pseudocodeQuestions = [
 
   // 🔹 Level 1 — Input / Output
   {
@@ -619,7 +619,7 @@ if (topic === "pseudocode") {
 
 ];
 
-  const item = pseudocodeQuestions[(questionNumber - 1) % pseudocodeQuestions.length];
+  const item = window.pseudocodeQuestions[(questionNumber - 1) % window.pseudocodeQuestions.length];
   currentQuestionType = "pseudocode";
   currentQuestion = item.question;
   currentAnswer = item.answer;
