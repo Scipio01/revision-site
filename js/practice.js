@@ -565,6 +565,7 @@ if (topic === "pseudocode") {
   currentQuestionType = "pseudocode";
   currentQuestion = item.question;
   currentAnswer = item.answer;
+  currentHints = item.hints;
   questionEl.innerHTML = currentQuestion.replace(/\n/g, "<br>");
   return;
 }
@@ -776,7 +777,19 @@ function checkAnswer() {
 
   let isCorrect = false;
   let working = "";
- 
+
+    if (getTopic() === "pseudocode") {
+     feedbackEl.innerHTML =
+  `<strong>Model Answer:</strong><br><br>${currentAnswer.replace(/\n/g, "<br>")}` +
+  `<br><br><strong>Check your answer:</strong><br>` +
+  (currentHints ? currentHints.map(h => `✔ ${h}`).join("<br>") : "");
+    
+      feedbackEl.classList.remove("correct", "incorrect");
+      checkBtn.disabled = true;
+      return;
+    }
+
+  
     if (currentQuestionType === "flowSymbol") {
       isCorrect = userAnswer === currentAnswer;
       working = `Correct symbol: ${currentAnswer}`;
