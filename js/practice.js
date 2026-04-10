@@ -1012,7 +1012,7 @@ nextBtn.addEventListener("click", () => {
 
   // STOP at last flowchart question
   if (getTopic() === "flowcharts" && modeEl.value === "draw") {
-    if (drawQuestionIndex >= drawQuestions.length - 1) {
+    if (drawQuestionIndex >= 4) {
       return; // stop here
     }
     drawQuestionIndex++;
