@@ -10,6 +10,7 @@ let questionNumber = 0;
 let totalQuestions = 10;
 
 let soundQuestionCount = 0;
+let drawQuestionIndex = 0;
 let lastFlowchartAnswer = "";
 
 const questionEl = document.getElementById("question");
