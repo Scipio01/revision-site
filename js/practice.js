@@ -288,11 +288,15 @@ currentAnswer = selected.answer;
 
 questionEl.textContent = currentQuestion;
 
-      if (drawQuestionIndex === drawQuestions.length - 1) {
+ // remove old message if it exists
+const existingMsg = document.getElementById("finalMsg");
+if (existingMsg) existingMsg.remove();
+
+if (drawQuestionIndex === drawQuestions.length - 1) {
   const endMsg = document.createElement("div");
   endMsg.id = "finalMsg";
   endMsg.className = "exam-tip";
-  endMsg.textContent = "You have reached the final flowchart question.";
+  endMsg.textContent = "You have reached the final flowchart question. Click Next question to go through them again.";
   questionEl.insertAdjacentElement("afterend", endMsg);
 }
 
