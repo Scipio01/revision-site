@@ -272,7 +272,7 @@ function generateQuestion() {
   }
 ];
 
-const selected = drawQuestions[Math.floor(Math.random() * drawQuestions.length)];
+const selected = drawQuestions[drawQuestionIndex % drawQuestions.length];
 
 currentQuestionType = "flowchartDraw";
 currentQuestion = selected.question;
@@ -990,8 +990,13 @@ nextBtn.addEventListener("click", () => {
     return;
   }
 
-  checkBtn.disabled = false;
-  questionNumber++;
+checkBtn.disabled = false;
+questionNumber++;
+
+  if (getTopic() === "flowcharts" && modeEl.value === "draw") {
+    drawQuestionIndex++;
+  }
+  
   updateScoreDisplay();
   generateQuestion();
 });
@@ -1005,6 +1010,7 @@ newSetBtn.addEventListener("click", () => {
   incorrectCount = 0;
   currentStreak = 0;
   bestStreak = 0;
+  drawQuestionIndex = 0;
 
   updateScoreDisplay();
   generateQuestion();
