@@ -259,7 +259,7 @@ function generateQuestion() {
     answer: "numbergreater10.png"
   },
   {
-    question: "Draw a flowchart to input two numbers and output the largest number.",
+    question: "Draw a flowchart to input two numbers and output the largest number, or output 'Equal' if the numbers are the same.",
     answer: "biggestnumber.png"
   },
   {
