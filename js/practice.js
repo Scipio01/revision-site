@@ -247,7 +247,13 @@ const writeTip = document.querySelector(".question-card .exam-tip");
   
  if (topic === "flowcharts") {
   flowchartModeButtons.style.display = "block";
-  if (writeTip) writeTip.style.display = "none";
+
+  if (mode === "draw") {
+    if (writeTip) writeTip.style.display = "none";
+  } else {
+    if (writeTip) writeTip.style.display = "block";
+  }
+
 } else {
   flowchartModeButtons.style.display = "none";
   if (writeTip) writeTip.style.display = "block";
