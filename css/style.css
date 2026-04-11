@@ -836,3 +836,22 @@ body.dark .flashcard-back {
   font-weight: 600;
   border-radius: 6px;
 }
+
+
+/* Flowchart mode buttons */
+#flowchartModeButtons .button {
+  min-width: 180px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 14px;
+  border: 2px solid var(--accent);
+  background: var(--surface-2);
+  color: var(--text);
+  transition: all 0.2s ease;
+}
+
+#flowchartModeButtons .button:hover {
+  background: var(--accent);
+  color: white;
+  transform: translateY(-1px);
+}
