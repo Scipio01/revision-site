@@ -1681,6 +1681,26 @@ hintBtn.addEventListener("click", function () {
 });
 
 
+const flowSymbolsBtn = document.getElementById("flowSymbolsBtn");
+const flowDrawBtn = document.getElementById("flowDrawBtn");
+
+flowSymbolsBtn.addEventListener("click", function () {
+  modeEl.value = "symbols";
+  questionNumber = 1;
+  drawQuestionIndex = 0;
+  generateQuestion();
+});
+
+flowDrawBtn.addEventListener("click", function () {
+  modeEl.value = "draw";
+  questionNumber = 1;
+  drawQuestionIndex = 0;
+  generateQuestion();
+});
+
+
+
+
 function showSummary() {
 
 if (getTopic() === "pseudocode") {
