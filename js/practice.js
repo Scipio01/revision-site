@@ -372,6 +372,7 @@ const imageDiv = document.getElementById("imageOptions");
   showSolutionBtn.addEventListener("click", () => {
   solutionWrap.style.display = "block";
   showSolutionBtn.disabled = true;
+    if (writeTip) writeTip.style.display = "none";
 
   const imageDiv = document.getElementById("imageOptions");
 
