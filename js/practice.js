@@ -245,20 +245,19 @@ function generateQuestion() {
 
 const writeTip = document.querySelector(".question-card .exam-tip");
   
- if (topic === "flowcharts") {
+if (topic === "flowcharts") {
   flowchartModeButtons.style.display = "block";
 
   if (mode === "draw") {
-    if (writeTip) writeTip.style.display = "none";
-  } else {
     if (writeTip) writeTip.style.display = "block";
+  } else {
+    if (writeTip) writeTip.style.display = "none";
   }
 
 } else {
   flowchartModeButtons.style.display = "none";
   if (writeTip) writeTip.style.display = "block";
 }
-
 
   if (topic === "pseudocode") {
     const pseudoCategory = document.getElementById("pseudoCategory").value;
