@@ -855,3 +855,23 @@ body.dark .flashcard-back {
   color: white;
   transform: translateY(-1px);
 }
+
+
+
+body.dark .practice-panel,
+body.dark .question-card,
+body.dark .practice-stats .stat-box,
+body.dark #feedback {
+  background: var(--surface-strong);
+  color: var(--text);
+}
+
+body.dark .practice-input {
+  background: var(--surface-2);
+  color: var(--text);
+  border-color: var(--line-strong);
+}
+
+body.dark .practice-input::placeholder {
+  color: var(--muted);
+}
