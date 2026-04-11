@@ -875,3 +875,8 @@ body.dark .practice-input {
 body.dark .practice-input::placeholder {
   color: var(--muted);
 }
+
+
+body.dark #solutionWrap img {
+  filter: brightness(1.2) contrast(1.2);
+}
