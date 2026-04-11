@@ -46,13 +46,13 @@ function updatePracticeHeader() {
 
     const tip = document.querySelector(".exam-tip");
     
-    if (topic === "flowcharts") {
-      titleEl.textContent = "Flowcharts Practice";
-      introEl.textContent = "Practise matching flowchart symbols to their meanings.";
-    
-      if (tip) tip.style.display = "block";
-      return;
-    }
+   if (topic === "flowcharts") {
+  titleEl.textContent = "Flowcharts Practice";
+  introEl.textContent = "Practise matching flowchart symbols to their meanings.";
+
+  if (tip) tip.style.display = "none";
+  return;
+}
     
     if (tip) tip.style.display = "none";
 
