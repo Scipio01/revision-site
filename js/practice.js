@@ -242,6 +242,11 @@ function generateQuestion() {
   const statsBox = document.querySelector(".practice-stats");
   const pseudoCategoryWrap = document.getElementById("pseudoCategoryWrap");
   window.pseudocodeQuestions = window.pseudocodeQuestions || [];
+  if (topic === "flowcharts") {
+  flowchartModeButtons.style.display = "block";
+} else {
+  flowchartModeButtons.style.display = "none";
+}
 
 
   if (topic === "pseudocode") {
