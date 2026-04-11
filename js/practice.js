@@ -359,19 +359,24 @@ const imageDiv = document.getElementById("imageOptions");
       const showSolutionBtn = document.getElementById("showSolutionBtn");
       const solutionWrap = document.getElementById("solutionWrap");
     
-     showSolutionBtn.addEventListener("click", () => {
-      solutionWrap.style.display = "block";
-      showSolutionBtn.disabled = true;
-    
-      const imageDiv = document.getElementById("imageOptions");
-    
-      const feedbackMsg = document.createElement("div");
-      feedbackMsg.className = "exam-tip";
-      feedbackMsg.style.marginTop = "12px";
-      feedbackMsg.textContent = "Compare your answer before moving on.";
-    
-      imageDiv.appendChild(feedbackMsg);
-    });
+  showSolutionBtn.addEventListener("click", () => {
+  solutionWrap.style.display = "block";
+  showSolutionBtn.disabled = true;
+
+  const imageDiv = document.getElementById("imageOptions");
+
+  // prevent duplicate message
+  if (!document.getElementById("flowTip")) {
+    const feedbackMsg = document.createElement("div");
+    feedbackMsg.id = "flowTip";
+    feedbackMsg.className = "exam-tip";
+    feedbackMsg.style.marginTop = "12px";
+    feedbackMsg.textContent =
+      "💡 Your flowchart does not have to look exactly the same as this model answer. If the logic, symbols and outputs are correct, it can still gain full marks.";
+
+    imageDiv.appendChild(feedbackMsg);
+  }
+});
     
       return;
     }
