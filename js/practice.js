@@ -242,10 +242,15 @@ function generateQuestion() {
   const statsBox = document.querySelector(".practice-stats");
   const pseudoCategoryWrap = document.getElementById("pseudoCategoryWrap");
   window.pseudocodeQuestions = window.pseudocodeQuestions || [];
-  if (topic === "flowcharts") {
+
+const writeTip = document.querySelector(".question-card .exam-tip");
+  
+ if (topic === "flowcharts") {
   flowchartModeButtons.style.display = "block";
+  if (writeTip) writeTip.style.display = "none";
 } else {
   flowchartModeButtons.style.display = "none";
+  if (writeTip) writeTip.style.display = "block";
 }
 
 
