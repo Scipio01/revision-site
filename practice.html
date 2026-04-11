@@ -46,11 +46,13 @@
     <section class="panel practice-panel">
  
 
-        <div class="control-group">
-          <label for="mode">Mode</label>
-          <select id="mode" class="practice-select"></select>
-        </div>
-      </div>
+<div id="flowchartModeButtons" class="control-group" style="display:none;">
+  <span>Mode</span>
+  <div class="button-row top-gap">
+    <button type="button" id="flowSymbolsBtn" class="button btn-secondary">Flowchart Symbols</button>
+    <button type="button" id="flowDrawBtn" class="button btn-secondary">Draw from Prompt</button>
+  </div>
+</div>
 
 <div class="practice-stats">
   <div class="stat-box">Correct: <span id="correctCount">0</span></div>
