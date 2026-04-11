@@ -237,6 +237,7 @@ function generateQuestion() {
   const difficulty = difficultyEl.value;
   const mode = modeEl.value;
   const topic = getTopic();
+  const flowchartModeButtons = document.getElementById("flowchartModeButtons");
 
   const statsBox = document.querySelector(".practice-stats");
   const pseudoCategoryWrap = document.getElementById("pseudoCategoryWrap");
