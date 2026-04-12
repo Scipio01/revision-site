@@ -1762,10 +1762,17 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
 
 
   
-    feedbackEl.textContent =
+if (currentQuestionType === "standardAlgorithmsIdentify") {
+  feedbackEl.textContent =
+    isCorrect
+    ? `✔ Correct!`
+    : `✖ Incorrect.\nCorrect answer: ${currentAnswer}`;
+} else {
+  feedbackEl.textContent =
     isCorrect
     ? `✔ Correct!\n\nWorking:\n${working}`
     : `✖ Incorrect.\nCorrect answer: ${currentAnswer}\n\nWorking:\n${working}`;
+}
 
   feedbackEl.classList.remove("correct", "incorrect");
   feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
