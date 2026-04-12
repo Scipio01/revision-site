@@ -1484,6 +1484,12 @@ function checkAnswer() {
       working = `Correct symbol: ${currentAnswer}`;
     }
 
+
+  if (currentQuestionType === "standardAlgorithmsIdentify") {
+  isCorrect = userAnswer.toLowerCase() === currentAnswer.toLowerCase();
+  working = `Correct answer: ${currentAnswer}`;
+}
+
   
   if (currentQuestionType === "denToBin") {
     const normalisedUser = userAnswer.replace(/\s+/g, "");
