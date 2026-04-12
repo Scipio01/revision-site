@@ -1197,7 +1197,7 @@ OUTPUT average`,
   currentQuestion = item.question;
   currentAnswer = item.answer;
 
-  questionEl.innerHTML = currentQuestion.replace(/\n/g, "<br>");
+  questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
   return;
 }
 
