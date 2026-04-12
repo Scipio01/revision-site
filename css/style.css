@@ -515,6 +515,13 @@ button:disabled {
   border-left: 6px solid var(--danger);
 }
 
+
+.code-block {
+  font-family: Consolas, "Courier New", monospace;
+  white-space: pre;
+  line-height: 1.6;
+}
+
 .quiz-option {
   width: 100%;
   text-align: left;
