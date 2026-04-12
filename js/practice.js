@@ -256,7 +256,12 @@ if (topic === "flowcharts") {
 
 } else {
   flowchartModeButtons.style.display = "none";
-  if (writeTip) writeTip.style.display = "block";
+
+  if (topic === "pseudocode") {
+    if (writeTip) writeTip.style.display = "block";
+  } else {
+    if (writeTip) writeTip.style.display = "none";
+  }
 }
 
   if (topic === "pseudocode") {
