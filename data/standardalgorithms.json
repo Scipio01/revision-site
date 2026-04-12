@@ -1,1 +1,97 @@
-
+[
+  {
+    "topicName": "standardalgorithms",
+    "front": "What are standard methods of solution?",
+    "back": "Standard methods of solution are common algorithm patterns used to solve typical problems such as searching, sorting and processing lists of data."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What is counting in an algorithm?",
+    "back": "Counting is when a variable is increased by 1 each time a condition is met."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What line is commonly used in a counting algorithm?",
+    "back": "count ← count + 1"
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What is totalling in an algorithm?",
+    "back": "Totalling is when values are added together to produce a running total."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What line is commonly used in a totalling algorithm?",
+    "back": "total ← total + value"
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What is a maximum (max) algorithm used for?",
+    "back": "A maximum algorithm is used to find the largest value in a set of data."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What is the key comparison used in a maximum algorithm?",
+    "back": "IF value > max THEN max ← value"
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What is a minimum (min) algorithm used for?",
+    "back": "A minimum algorithm is used to find the smallest value in a set of data."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What is the key comparison used in a minimum algorithm?",
+    "back": "IF value < min THEN min ← value"
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What is an average algorithm used for?",
+    "back": "An average algorithm calculates the mean by dividing the total by the number of values."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "How is the average calculated in an algorithm?",
+    "back": "average ← total / count"
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What is a linear search?",
+    "back": "A linear search checks each item in a list one by one until the required item is found."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "When is a linear search used?",
+    "back": "A linear search is used when the data is not sorted or when a simple search is needed."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What condition is used in a linear search?",
+    "back": "IF item = searchTerm"
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What is a bubble sort?",
+    "back": "A bubble sort repeatedly compares adjacent items and swaps them if they are in the wrong order."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What happens at the end of each pass in a bubble sort?",
+    "back": "The largest value moves to the end of the list."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "When does a bubble sort stop?",
+    "back": "A bubble sort stops when no swaps are made during a pass."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "What is the key idea shared by counting, totalling and max/min algorithms?",
+    "back": "They all use a loop to process each item in a list and update a variable."
+  },
+  {
+    "topicName": "standardalgorithms",
+    "front": "Why are standard algorithms useful?",
+    "back": "They provide reliable, reusable solutions to common problems, saving time when designing programs."
+  }
+]
