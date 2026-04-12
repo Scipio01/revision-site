@@ -1303,16 +1303,17 @@ function checkAnswer() {
   let isCorrect = false;
   let working = "";
 
-    if (getTopic() === "pseudocode") {
-     feedbackEl.innerHTML =
-  `<strong>Model Answer:</strong><br><br>${currentAnswer.replace(/\n/g, "<br>")}` +
-  `<br><br><strong>Check your answer:</strong><br>` +
-  (currentHints ? currentHints.map(h => `✔ ${h}`).join("<br>") : "");
-    
-      feedbackEl.classList.remove("correct", "incorrect");
-      checkBtn.disabled = true;
-      return;
-    }
+  if (getTopic() === "pseudocode") {
+  feedbackEl.innerHTML =
+    `<strong>Model Answer:</strong><br><br>${currentAnswer.replace(/\n/g, "<br>")}` +
+    `<br><br><strong>Check your answer:</strong><br>` +
+    (currentHints ? currentHints.map(h => `✔ ${h}`).join("<br>") : "") +
+    `<br><br><div class="exam-tip">💡 Your answer may look different but could still gain full marks, as long as your pseudocode is clear, consistent, and logically correct.</div>`;
+
+  feedbackEl.classList.remove("correct", "incorrect");
+  checkBtn.disabled = true;
+  return;
+}
 
   
     if (currentQuestionType === "flowSymbol") {
