@@ -103,6 +103,15 @@ function updatePracticeHeader() {
     return;
   }
 
+if (topic === "standardalgorithms") {
+  titleEl.textContent = "Standard Algorithms Practice";
+  introEl.textContent = "Practise identifying methods such as counting, totalling, maximum, minimum and average.";
+  return;
+}
+
+
+  
+
 if (topic === "pseudocode") {
   titleEl.textContent = "Pseudocode Practice";
   introEl.textContent = "Practise writing algorithms using pseudocode with model answers.";
