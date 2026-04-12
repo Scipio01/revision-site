@@ -351,10 +351,8 @@ if (drawQuestionIndex === drawQuestions.length - 1) {
   questionEl.insertAdjacentElement("afterend", endMsg);
 }
 
-const imageDiv = document.getElementById("imageOptions");
+ const imageDiv = document.getElementById("imageOptions");
 
-
-     imageDiv.innerHTML = `
 imageDiv.innerHTML = `
   <button id="showSolutionBtn" type="button" class="button btn-primary">Show solution</button>
 
