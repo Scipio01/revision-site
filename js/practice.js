@@ -1125,6 +1125,84 @@ const item = filteredQuestions[(questionNumber - 1) % filteredQuestions.length];
   return;
 }
 
+if (topic === "standardalgorithms") {
+  const identifyQuestions = [
+    {
+      question: `What standard method of solution is this?
+
+count ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > 10 THEN
+    count ← count + 1
+  ENDIF
+NEXT i
+OUTPUT count`,
+      answer: "counting"
+    },
+    {
+      question: `What standard method of solution is this?
+
+total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  total ← total + num
+NEXT i
+OUTPUT total`,
+      answer: "totalling"
+    },
+    {
+      question: `What standard method of solution is this?
+
+max ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > max THEN
+    max ← num
+  ENDIF
+NEXT i
+OUTPUT max`,
+      answer: "maximum"
+    },
+    {
+      question: `What standard method of solution is this?
+
+min ← 999999
+FOR i ← 1 TO 5
+  INPUT num
+  IF num < min THEN
+    min ← num
+  ENDIF
+NEXT i
+OUTPUT min`,
+      answer: "minimum"
+    },
+    {
+      question: `What standard method of solution is this?
+
+total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  total ← total + num
+NEXT i
+average ← total / 5
+OUTPUT average`,
+      answer: "average"
+    }
+  ];
+
+  const item = identifyQuestions[Math.floor(Math.random() * identifyQuestions.length)];
+
+  currentQuestionType = "standardAlgorithmsIdentify";
+  currentQuestion = item.question;
+  currentAnswer = item.answer;
+
+  questionEl.innerHTML = currentQuestion.replace(/\n/g, "<br>");
+  return;
+}
+
+
+  
   
   if (topic === "binshift") {
     const registerSize = difficulty === "hard" ? 8 : 4;
@@ -1154,6 +1232,9 @@ const item = filteredQuestions[(questionNumber - 1) % filteredQuestions.length];
     questionEl.textContent = currentQuestion;
     return;
   }
+
+
+  
 
   if (topic === "binadd") {
     const num1 = randomInt(15);
