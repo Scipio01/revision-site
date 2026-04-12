@@ -311,13 +311,13 @@ if (topic === "flowcharts") {
   } else {
 
   
-  statsBox.innerHTML =
-    `<div class="stat-box">Correct: <span id="correctCount">${correctCount}</span></div>
-     <div class="stat-box">Incorrect: <span id="incorrectCount">${incorrectCount}</span></div>
-     <div class="stat-box">Streak: <span id="streakCount">${currentStreak}</span></div>
-     <div class="stat-box">Best: <span id="bestStreakCount">${bestStreak}</span></div>
-<div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span>/<span id="totalQuestions">${topic === "standardalgorithms" ? 5 : 10}</span></div>
-  pseudoCategoryWrap.style.display = "none";
+ statsBox.innerHTML =
+  `<div class="stat-box">Correct: <span id="correctCount">${correctCount}</span></div>
+   <div class="stat-box">Incorrect: <span id="incorrectCount">${incorrectCount}</span></div>
+   <div class="stat-box">Streak: <span id="streakCount">${currentStreak}</span></div>
+   <div class="stat-box">Best: <span id="bestStreakCount">${bestStreak}</span></div>
+   <div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span>/<span id="totalQuestions">${topic === "standardalgorithms" ? 5 : 10}</span></div>`;
+pseudoCategoryWrap.style.display = "none";
 }
 
   document.getElementById("answer").parentElement.style.display = "block";
