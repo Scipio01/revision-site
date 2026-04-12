@@ -1202,12 +1202,55 @@ OUTPUT average`,
 
   const item = identifyQuestions[Math.floor(Math.random() * identifyQuestions.length)];
 
-  currentQuestionType = "standardAlgorithmsIdentify";
-  currentQuestion = item.question;
-  currentAnswer = item.answer;
+currentQuestionType = "standardAlgorithmsIdentify";
+currentQuestion = item.question;
+currentAnswer = item.answer;
 
-  questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
-  return;
+questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
+
+const imageDiv = document.getElementById("imageOptions");
+imageDiv.innerHTML = "";
+
+const options = ["counting", "totalling", "maximum", "minimum", "average"];
+
+options.forEach(opt => {
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "button";
+  btn.textContent = opt.charAt(0).toUpperCase() + opt.slice(1);
+
+  btn.addEventListener("click", () => {
+    if (checkBtn.disabled) return;
+
+    answerEl.value = opt;
+    checkAnswer();
+
+    const allButtons = imageDiv.querySelectorAll("button");
+
+    allButtons.forEach(button => {
+      button.disabled = true;
+      button.style.opacity = "0.85";
+
+      if (button.textContent.toLowerCase() === currentAnswer) {
+        button.style.borderColor = "green";
+      }
+    });
+
+    if (opt !== currentAnswer) {
+      btn.style.borderColor = "red";
+    } else {
+      btn.style.borderColor = "green";
+    }
+  });
+
+  imageDiv.appendChild(btn);
+});
+
+answerEl.style.display = "none";
+answerEl.parentElement.style.display = "none";
+checkBtn.style.display = "none";
+
+return;
 }
 
 
