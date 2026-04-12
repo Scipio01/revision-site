@@ -1,0 +1,182 @@
+[
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "What is the purpose of a counting algorithm?",
+      "correct": "To count how many times a condition is true",
+      "wrong": [
+        "To sort values into order",
+        "To find the average of values",
+        "To store values in an array"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "Which line is used in a counting algorithm?",
+      "correct": "count ← count + 1",
+      "wrong": [
+        "total ← total + value",
+        "average ← total / count",
+        "value ← value - 1"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "What does a totalling algorithm do?",
+      "correct": "Adds values together to produce a total",
+      "wrong": [
+        "Counts how many values there are",
+        "Finds the largest value only",
+        "Searches for a specific item"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "Which line is used in a totalling algorithm?",
+      "correct": "total ← total + value",
+      "wrong": [
+        "count ← count + 1",
+        "max ← value",
+        "value ← total / count"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "What is the purpose of a maximum algorithm?",
+      "correct": "To find the largest value",
+      "wrong": [
+        "To find the total of values",
+        "To sort the list",
+        "To count values"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "Which condition is used in a maximum algorithm?",
+      "correct": "IF value > max THEN max ← value",
+      "wrong": [
+        "IF value < min THEN min ← value",
+        "IF value = searchTerm",
+        "IF value + total"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "What is the purpose of a minimum algorithm?",
+      "correct": "To find the smallest value",
+      "wrong": [
+        "To find the average",
+        "To sort the list",
+        "To count values"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "How is an average calculated?",
+      "correct": "total ÷ count",
+      "wrong": [
+        "count + total",
+        "largest - smallest",
+        "total × count"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "What is a linear search?",
+      "correct": "Checking each item in a list one by one",
+      "wrong": [
+        "Sorting a list into order",
+        "Adding values together",
+        "Comparing only the first and last items"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "When is a linear search most useful?",
+      "correct": "When the data is not sorted",
+      "wrong": [
+        "When the list is already sorted",
+        "When calculating averages",
+        "When counting values"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "Which condition is used in a linear search?",
+      "correct": "IF item = searchTerm",
+      "wrong": [
+        "IF item > max",
+        "IF total + value",
+        "IF count + 1"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "What does a bubble sort do?",
+      "correct": "Sorts a list by comparing and swapping adjacent values",
+      "wrong": [
+        "Counts values in a list",
+        "Finds the largest value only",
+        "Searches for a value in a list"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "What happens during one pass of a bubble sort?",
+      "correct": "The largest value moves to the end of the list",
+      "wrong": [
+        "The list becomes fully sorted",
+        "The smallest value is removed",
+        "All values are added together"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "When does a bubble sort stop?",
+      "correct": "When no swaps are made in a pass",
+      "wrong": [
+        "After one pass",
+        "When the first value is correct",
+        "When the count reaches zero"
+      ]
+    }
+  },
+  {
+    "topicName": "standardalgorithms",
+    "mcq": {
+      "question": "What do counting, totalling and max algorithms all have in common?",
+      "correct": "They use a loop to process each item in a list",
+      "wrong": [
+        "They all sort data",
+        "They only work on sorted lists",
+        "They only use IF statements"
+      ]
+    }
+  }
+]
