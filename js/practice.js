@@ -316,7 +316,7 @@ if (topic === "flowcharts") {
      <div class="stat-box">Incorrect: <span id="incorrectCount">${incorrectCount}</span></div>
      <div class="stat-box">Streak: <span id="streakCount">${currentStreak}</span></div>
      <div class="stat-box">Best: <span id="bestStreakCount">${bestStreak}</span></div>
-     <div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span>/<span id="totalQuestions">10</span></div>`;
+<div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span>/<span id="totalQuestions">${topic === "standardalgorithms" ? 5 : 10}</span></div>
   pseudoCategoryWrap.style.display = "none";
 }
 
@@ -1200,7 +1200,14 @@ OUTPUT average`,
     }
   ];
 
-  const item = identifyQuestions[Math.floor(Math.random() * identifyQuestions.length)];
+ let availableQuestions = identifyQuestions;
+
+if (typeof lastStandardAlgorithmsQuestion !== "undefined" && lastStandardAlgorithmsQuestion !== null) {
+  availableQuestions = identifyQuestions.filter(q => q.question !== lastStandardAlgorithmsQuestion);
+}
+
+const item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+lastStandardAlgorithmsQuestion = item.question;
 
 currentQuestionType = "standardAlgorithmsIdentify";
 currentQuestion = item.question;
@@ -1814,6 +1821,11 @@ if (getTopic() === "pseudocode") {
   }
 }
 
+if (getTopic() === "standardalgorithms" && questionNumber >= 5) {
+  showSummary();
+  return;
+}
+  
 questionNumber++;
 updateScoreDisplay();
 generateQuestion();
