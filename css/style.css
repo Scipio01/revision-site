@@ -894,3 +894,14 @@ body.dark .practice-stats .stat-box {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   border: 2px solid var(--line-strong);
 }
+
+/* Pseudocode hints / feedback mobile wrapping */
+#feedback {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+#feedback br {
+  display: block;
+}
