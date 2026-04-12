@@ -110,7 +110,9 @@ async function showPracticeLinkIfAvailable(topic) {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const topic = getSelectedTopic();
+  const params = new URLSearchParams(window.location.search);
+  const topic = params.get('topic') || getSelectedTopic();
+
   const res = await fetch(`data/${topic}-quiz.json`);
   questions = await res.json();
   renderQuestion();
