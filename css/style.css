@@ -877,8 +877,16 @@ body.dark .practice-input::placeholder {
 }
 
 
-body.dark #solutionWrap img {
-  filter: invert(1) hue-rotate(180deg) contrast(1.15);
+body.dark .question-card {
+  border: 1px solid var(--line);
 }
 
+body.dark .practice-stats .stat-box {
+  border: 1px solid var(--line);
+}
+
+
+.flowchart-solution {
+  border: 2px solid var(--line-strong);
+}
 
