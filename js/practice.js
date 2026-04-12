@@ -249,7 +249,10 @@ if (topic === "flowcharts") {
   flowchartModeButtons.style.display = "block";
 
   if (mode === "draw") {
-    if (writeTip) writeTip.style.display = "block";
+    if (writeTip) {
+      writeTip.style.display = "block";
+      writeTip.textContent = "✍️ Draw your flowchart on paper before clicking “Show solution”. Then compare your answer.";
+    }
   } else {
     if (writeTip) writeTip.style.display = "none";
   }
@@ -258,7 +261,17 @@ if (topic === "flowcharts") {
   flowchartModeButtons.style.display = "none";
 
   if (topic === "pseudocode") {
-    if (writeTip) writeTip.style.display = "block";
+    if (writeTip) {
+      writeTip.style.display = "block";
+      writeTip.textContent = "✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.";
+    }
+
+  } else if (["binadd", "overflow", "twos", "hex", "sound"].includes(topic)) {
+    if (writeTip) {
+      writeTip.style.display = "block";
+      writeTip.textContent = "✍️ Consider working this out on paper first before typing your answer and pressing “Show answer” — it’s important to practise your workings.";
+    }
+
   } else {
     if (writeTip) writeTip.style.display = "none";
   }
