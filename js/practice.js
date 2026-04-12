@@ -244,6 +244,15 @@ function generateQuestion() {
   window.pseudocodeQuestions = window.pseudocodeQuestions || [];
 
 const writeTip = document.querySelector(".question-card .exam-tip");
+  const topicTips = {
+  binadd: "✍️ Write the numbers out in columns and track your carries carefully.",
+  binshift: "💡 Remember: left shift multiplies by 2, right shift divides by 2.",
+  overflow: "💡 Check the register size first — can the result fit in the available bits?",
+  twos: "✍️ Write the positive value first, then invert the bits and add 1.",
+  hex: "✍️ Group binary into 4 bits or divide by 16 when converting.",
+  sound: "💡 Use the formula: sample rate × bit depth × time.",
+  text: "💡 Remember: standard ASCII uses 7 bits per character."
+};
   
 if (topic === "flowcharts") {
   flowchartModeButtons.style.display = "block";
@@ -258,6 +267,8 @@ if (topic === "flowcharts") {
   }
 
 } else {
+
+
   flowchartModeButtons.style.display = "none";
 
   if (topic === "pseudocode") {
@@ -266,16 +277,17 @@ if (topic === "flowcharts") {
       writeTip.textContent = "✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.";
     }
 
-  } else if (["binadd", "overflow", "twos", "hex", "sound"].includes(topic)) {
+  } else if (topicTips[topic]) {
     if (writeTip) {
       writeTip.style.display = "block";
-      writeTip.textContent = "✍️ Consider working this out on paper first before typing your answer and pressing “Show answer” — it’s important to practise your workings.";
+      writeTip.textContent = topicTips[topic];
     }
 
   } else {
     if (writeTip) writeTip.style.display = "none";
   }
 }
+  
 
   if (topic === "pseudocode") {
     const pseudoCategory = document.getElementById("pseudoCategory").value;
