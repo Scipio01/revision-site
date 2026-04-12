@@ -1492,9 +1492,9 @@ function checkAnswer() {
     }
 
 
-  if (currentQuestionType === "standardAlgorithmsIdentify") {
+if (currentQuestionType === "standardAlgorithmsIdentify") {
   isCorrect = userAnswer.toLowerCase() === currentAnswer.toLowerCase();
-  working = `Correct answer: ${currentAnswer}`;
+  working = "";
 }
 
   
