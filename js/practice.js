@@ -355,10 +355,13 @@ const imageDiv = document.getElementById("imageOptions");
 
 
      imageDiv.innerHTML = `
+imageDiv.innerHTML = `
   <button id="showSolutionBtn" type="button" class="button btn-primary">Show solution</button>
 
   <div id="solutionWrap" style="display:none; margin-top:16px;">
-    <img src="images/practice/flowcharts/solutions/${currentAnswer}" alt="Flowchart solution" style="max-width:100%; max-height:420px; object-fit:contain;">
+    <div class="flowchart-solution">
+      <img src="images/practice/flowcharts/solutions/${currentAnswer}" alt="Flowchart solution">
+    </div>
   </div>
 `;
     
