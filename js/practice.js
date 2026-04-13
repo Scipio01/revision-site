@@ -1499,13 +1499,19 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
   answerEl.style.display = "none";
   answerEl.parentElement.style.display = "none";
   checkBtn.style.display = "none";
+
+} else if (currentQuestionType === "standardAlgorithmsWrite") {
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "inline-flex";
+  checkBtn.textContent = "Show answer";
+
 } else {
   answerEl.style.display = "block";
   answerEl.parentElement.style.display = "flex";
   checkBtn.style.display = "inline-flex";
-}
+  checkBtn.textContent = "Check answer";
 
-return;
   
 }
 
