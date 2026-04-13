@@ -1749,8 +1749,8 @@ function checkAnswer() {
 
 if (currentQuestionType === "standardAlgorithmsWrite") {
   feedbackEl.innerHTML =
-    `<strong>Model Answer:</strong><br><br>${currentAnswer.replace(/\n/g, "<br>")}` +
-    `<br><br><div class="exam-tip">💡 Your answer may look different but could still be correct if the logic and structure are sound.</div>`;
+    `<strong>Model Answer:</strong><br><br><div class="code-block">${currentAnswer}</div>` +
+    `<br><div class="exam-tip">💡 Your answer may look different but could still be correct if the logic and structure are sound.</div>`;
 
   feedbackEl.classList.remove("correct", "incorrect");
   checkBtn.disabled = true;
