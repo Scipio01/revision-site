@@ -2234,7 +2234,7 @@ updatePracticeHeader();
 updateModeOptions();
 
  const controls = document.getElementById("controls");
-const statsBox = document.querySelector(".practice-stats");
+
 
 if (getTopic() === "sound" || getTopic() === "pseudocode") {
   controls.style.display = "none";
