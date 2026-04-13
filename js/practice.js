@@ -1359,15 +1359,37 @@ if (mode === "identify") {
   item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
   lastStandardAlgorithmsQuestion = item.question;
   currentQuestionType = "standardAlgorithmsIdentify";
+
 } else if (mode === "fill") {
   item = fillQuestions[Math.floor(Math.random() * fillQuestions.length)];
   currentQuestionType = "standardAlgorithmsFill";
-} else {
-  let availableQuestions = identifyQuestions;
 
-  if (typeof lastStandardAlgorithmsQuestion !== "undefined" && lastStandardAlgorithmsQuestion !== null) {
-    availableQuestions = identifyQuestions.filter(q => q.question !== lastStandardAlgorithmsQuestion);
+} else if (mode === "trace") {
+  item = traceQuestions[Math.floor(Math.random() * traceQuestions.length)];
+  currentQuestionType = "standardAlgorithmsTrace";
+
+} else {
+  const questionTypes = ["identify", "fill", "trace"];
+  const chosenType = questionTypes[Math.floor(Math.random() * questionTypes.length)];
+
+  if (chosenType === "identify") {
+    let availableQuestions = identifyQuestions;
+
+    if (typeof lastStandardAlgorithmsQuestion !== "undefined" && lastStandardAlgorithmsQuestion !== null) {
+      availableQuestions = identifyQuestions.filter(q => q.question !== lastStandardAlgorithmsQuestion);
+    }
+
+    item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+    lastStandardAlgorithmsQuestion = item.question;
+    currentQuestionType = "standardAlgorithmsIdentify";
+  } else if (chosenType === "fill") {
+    item = fillQuestions[Math.floor(Math.random() * fillQuestions.length)];
+    currentQuestionType = "standardAlgorithmsFill";
+  } else {
+    item = traceQuestions[Math.floor(Math.random() * traceQuestions.length)];
+    currentQuestionType = "standardAlgorithmsTrace";
   }
+}
 
   if (Math.random() < 0.5) {
     item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
