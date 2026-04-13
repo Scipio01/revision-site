@@ -1622,12 +1622,16 @@ What is the list after the second full pass?`,
   }
 
   else if (currentQuestionType === "standardAlgorithmsWrite") {
+    questionEl.innerHTML =
+      `<div class="exam-tip">✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.</div><br>` +
+      `<div class="code-block">${currentQuestion}</div>`;
+
     answerEl.style.display = "none";
     answerEl.parentElement.style.display = "none";
     checkBtn.style.display = "inline-flex";
     checkBtn.textContent = "Show answer";
   }
-
+    
   else {
     answerEl.style.display = "block";
     answerEl.parentElement.style.display = "flex";
