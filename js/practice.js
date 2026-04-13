@@ -1517,7 +1517,9 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
   checkBtn.style.display = "inline-flex";
   checkBtn.textContent = "Check answer";
 
-  
+}
+  return;
+
 }
 
 
