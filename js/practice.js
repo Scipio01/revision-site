@@ -1977,6 +1977,13 @@ modeEl.addEventListener("change", () => {
   answerEl.disabled = false;
   checkBtn.disabled = false;
   nextBtn.disabled = false;
+
+  if (getTopic() === "standardalgorithms" && modeEl.value === "standardmethods") {
+    difficultyEl.style.display = "inline-block";
+  } else if (getTopic() === "standardalgorithms") {
+    difficultyEl.style.display = "none";
+  }
+
   updateScoreDisplay();
   generateQuestion();
 });
@@ -2081,7 +2088,13 @@ if (getTopic() === "sound" || getTopic() === "pseudocode") {
 const difficultySelect = document.getElementById("difficulty");
 
 if (getTopic() === "standardalgorithms") {
-  difficultySelect.style.display = "none";
+
+  if (modeEl.value === "standardmethods") {
+    difficultySelect.style.display = "inline-block";
+  } else {
+    difficultySelect.style.display = "none";
+  }
+
 } else {
   difficultySelect.style.display = "inline-block";
 }
