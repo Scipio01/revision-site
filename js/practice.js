@@ -230,6 +230,15 @@ if (topic === "standardalgorithms") {
     <option value="bubblesort">Bubble sort</option>
     <option value="mixed">Mixed</option>
   `;
+
+  difficultyEl.innerHTML = `
+    <option value="identify">Identify the method</option>
+    <option value="fill">Complete the missing line</option>
+    <option value="trace">Trace the algorithm</option>
+    <option value="write">Write the algorithm</option>
+  `;
+
+  difficultyEl.value = "identify";
   return;
 }
 
@@ -1146,9 +1155,71 @@ const item = filteredQuestions[(questionNumber - 1) % filteredQuestions.length];
 
 if (topic === "standardalgorithms") {
 
+  const standardMode = difficultyEl.value;
+
+  const fillQuestions = [
+    {
+      question: `Complete the missing line to count how many numbers are greater than 10:
+
+count ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > 10 THEN
+    __________
+  ENDIF
+NEXT i`,
+      answer: "count ← count + 1"
+    },
+    {
+      question: `Complete the missing line to calculate the total of the numbers:
+
+total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  __________
+NEXT i`,
+      answer: "total ← total + num"
+    },
+    {
+      question: `Complete the missing line to find the largest number:
+
+max ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > max THEN
+    __________
+  ENDIF
+NEXT i`,
+      answer: "max ← num"
+    },
+    {
+      question: `Complete the missing line to find the smallest number:
+
+min ← 999999
+FOR i ← 1 TO 5
+  INPUT num
+  IF num < min THEN
+    __________
+  ENDIF
+NEXT i`,
+      answer: "min ← num"
+    },
+    {
+      question: `Complete the missing line to calculate the average:
+
+total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  total ← total + num
+NEXT i
+average ← __________`,
+      answer: "total / 5"
+    }
+  ];
+
   const identifyQuestions = [
     {
-      question: `What standard method is this?
+      question: `What standard method of solution is this?
 
 count ← 0
 FOR i ← 1 TO 5
@@ -1156,80 +1227,262 @@ FOR i ← 1 TO 5
   IF num > 10 THEN
     count ← count + 1
   ENDIF
-NEXT i`,
+NEXT i
+OUTPUT count`,
       answer: "counting"
     },
     {
-      question: `What standard method is this?
+      question: `What standard method of solution is this?
 
 total ← 0
 FOR i ← 1 TO 5
   INPUT num
   total ← total + num
-NEXT i`,
+NEXT i
+OUTPUT total`,
       answer: "totalling"
+    },
+    {
+      question: `What standard method of solution is this?
+
+max ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > max THEN
+    max ← num
+  ENDIF
+NEXT i
+OUTPUT max`,
+      answer: "maximum"
+    },
+    {
+      question: `What standard method of solution is this?
+
+min ← 999999
+FOR i ← 1 TO 5
+  INPUT num
+  IF num < min THEN
+    min ← num
+  ENDIF
+NEXT i
+OUTPUT min`,
+      answer: "minimum"
+    },
+    {
+      question: `What standard method of solution is this?
+
+total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  total ← total + num
+NEXT i
+average ← total / 5
+OUTPUT average`,
+      answer: "average"
+    }
+  ];
+
+  const traceQuestions = [
+    {
+      question: `Trace the algorithm and give the final value of count:
+
+count ← 0
+FOR i ← 1 TO 4
+  INPUT num
+  IF num > 10 THEN
+    count ← count + 1
+  ENDIF
+NEXT i
+
+Inputs: 5, 12, 8, 20`,
+      answer: "2"
+    },
+    {
+      question: `Trace the algorithm and give the final value of total:
+
+total ← 0
+FOR i ← 1 TO 3
+  INPUT num
+  total ← total + num
+NEXT i
+
+Inputs: 5, 3, 2`,
+      answer: "10"
+    },
+    {
+      question: `Trace the algorithm and give the final value of max:
+
+max ← 0
+FOR i ← 1 TO 4
+  INPUT num
+  IF num > max THEN
+    max ← num
+  ENDIF
+NEXT i
+
+Inputs: 7, 3, 9, 5`,
+      answer: "9"
+    },
+    {
+      question: `Trace the algorithm and give the final value of min:
+
+min ← 999999
+FOR i ← 1 TO 4
+  INPUT num
+  IF num < min THEN
+    min ← num
+  ENDIF
+NEXT i
+
+Inputs: 7, 3, 9, 5`,
+      answer: "3"
+    },
+    {
+      question: `Trace the algorithm and give the final value of average:
+
+total ← 0
+FOR i ← 1 TO 4
+  INPUT num
+  total ← total + num
+NEXT i
+average ← total / 4
+
+Inputs: 6, 4, 8, 2`,
+      answer: "5"
+    }
+  ];
+
+  const writeQuestions = [
+    {
+      question: `Write pseudocode to input 5 numbers and count how many are greater than 10.`,
+      answer: `count ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > 10 THEN
+    count ← count + 1
+  ENDIF
+NEXT i
+OUTPUT count`
+    },
+    {
+      question: `Write pseudocode to input 5 numbers and calculate the total.`,
+      answer: `total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  total ← total + num
+NEXT i
+OUTPUT total`
+    },
+    {
+      question: `Write pseudocode to input 5 numbers and find the largest number.`,
+      answer: `max ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > max THEN
+    max ← num
+  ENDIF
+NEXT i
+OUTPUT max`
+    },
+    {
+      question: `Write pseudocode to input 5 numbers and find the smallest number.`,
+      answer: `min ← 999999
+FOR i ← 1 TO 5
+  INPUT num
+  IF num < min THEN
+    min ← num
+  ENDIF
+NEXT i
+OUTPUT min`
+    },
+    {
+      question: `Write pseudocode to input 5 numbers and calculate the average.`,
+      answer: `total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  total ← total + num
+NEXT i
+average ← total / 5
+OUTPUT average`
     }
   ];
 
   const linearSearchQuestions = [
     {
       question: `Explain how a linear search works.`,
-      answer: `Checks each item one by one from the start until found or end reached.`
+      answer: `A linear search checks each item in the list one by one from the start until the item is found or the end of the list is reached.`
     },
     {
-      question: `Find 12 in:
+      question: `A linear search is used to find 12 in this list:
+
 5, 9, 3, 12, 7
 
-What position is it found?`,
+What position is 12 found in?`,
       answer: "4"
     },
     {
-      question: `Find 3 in:
-8, 6, 3, 1
+      question: `A linear search is used to find 3 in this list:
 
-How many checks are made?`,
+8, 6, 3, 1, 5
+
+How many checks are made before the item is found?`,
       answer: "3"
     },
     {
-      question: `Find 10 in:
-4, 2, 8, 6
+      question: `A linear search is used to find 10 in this list:
 
-Result?`,
+4, 2, 8, 6, 1
+
+What is the result of the search?`,
       answer: "not found"
     },
     {
-      question: `Write the steps of a linear search.`,
-      answer: `1. Start at first item
-2. Compare
-3. If match stop
-4. Else move next
-5. Repeat until found or end`
+      question: `Write the steps of a linear search in a simple way.`,
+      answer: `1. Start at the first item.
+2. Compare it with the value you want to find.
+3. If it matches, stop.
+4. If it does not match, move to the next item.
+5. Keep going until the item is found or the end of the list is reached.`
     }
   ];
 
   const bubbleSortQuestions = [
     {
       question: `Explain how bubble sort works.`,
-      answer: `Compare neighbours, swap if needed, repeat passes until sorted.`
+      answer: `Bubble sort compares neighbouring values and swaps them if they are in the wrong order. It keeps making passes through the list until the values are in order.`
     },
     {
-      question: `After one pass:
-5, 3, 8, 1`,
+      question: `Bubble sort is applied to this list:
+
+5, 3, 8, 1
+
+What is the list after the first full pass?`,
       answer: "3, 5, 1, 8"
     },
     {
-      question: `After one pass:
-7, 4, 2, 6`,
+      question: `Bubble sort is applied to this list:
+
+7, 4, 2, 6
+
+What is the list after the first full pass?`,
       answer: "4, 2, 6, 7"
     },
     {
-      question: `After second pass:
-3, 1, 2`,
+      question: `Bubble sort is applied to this list:
+
+3, 1, 2
+
+What is the list after the second full pass?`,
       answer: "1, 2, 3"
     },
     {
-      question: `Write simple steps of bubble sort.`,
-      answer: `Compare neighbours, swap if needed, repeat passes until sorted`
+      question: `Write the steps of bubble sort in a simple way.`,
+      answer: `1. Start at the beginning of the list.
+2. Compare two neighbouring values.
+3. If they are in the wrong order, swap them.
+4. Move to the next pair and repeat.
+5. After one pass, the largest value has moved towards the end.
+6. Keep making passes until the list is sorted.`
     }
   ];
 
@@ -1238,14 +1491,19 @@ Result?`,
   let item;
 
   if (mode === "standardmethods") {
-    questionSet = [
-      identifyQuestions[0],
-      identifyQuestions[1],
-      identifyQuestions[0],
-      identifyQuestions[1],
-      identifyQuestions[0]
-    ];
-    currentQuestionType = "standardAlgorithmsIdentify";
+    if (standardMode === "identify") {
+      questionSet = identifyQuestions;
+      currentQuestionType = "standardAlgorithmsIdentify";
+    } else if (standardMode === "fill") {
+      questionSet = fillQuestions;
+      currentQuestionType = "standardAlgorithmsFill";
+    } else if (standardMode === "trace") {
+      questionSet = traceQuestions;
+      currentQuestionType = "standardAlgorithmsTrace";
+    } else {
+      questionSet = writeQuestions;
+      currentQuestionType = "standardAlgorithmsWrite";
+    }
   }
 
   else if (mode === "linearsearch") {
@@ -1296,24 +1554,42 @@ Result?`,
 
   questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
 
-  const imageDiv = document.getElementById("imageOptions");
-  imageDiv.innerHTML = "";
+  imageOptionsEl.innerHTML = "";
 
   if (currentQuestionType === "standardAlgorithmsIdentify") {
-    const options = ["counting", "totalling"];
+    const options = ["counting", "totalling", "maximum", "minimum", "average"];
 
     options.forEach(opt => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "button";
-      btn.textContent = opt;
+      btn.textContent = opt.charAt(0).toUpperCase() + opt.slice(1);
 
       btn.addEventListener("click", () => {
+        if (checkBtn.disabled) return;
+
         answerEl.value = opt;
         checkAnswer();
+
+        const allButtons = imageOptionsEl.querySelectorAll("button");
+
+        allButtons.forEach(button => {
+          button.disabled = true;
+          button.style.opacity = "0.85";
+
+          if (button.textContent.toLowerCase() === currentAnswer) {
+            button.style.borderColor = "green";
+          }
+        });
+
+        if (opt !== currentAnswer) {
+          btn.style.borderColor = "red";
+        } else {
+          btn.style.borderColor = "green";
+        }
       });
 
-      imageDiv.appendChild(btn);
+      imageOptionsEl.appendChild(btn);
     });
 
     answerEl.style.display = "none";
@@ -1336,6 +1612,7 @@ Result?`,
   }
 
   return;
+
 
 
 
