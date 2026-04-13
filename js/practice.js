@@ -1401,64 +1401,54 @@ OUTPUT average`
   }
 ];
 
+let questionSet = [];
+let index = questionNumber - 1;
 let item;
 
 if (mode === "identify") {
-  let availableQuestions = identifyQuestions;
-
-  if (typeof lastStandardAlgorithmsQuestion !== "undefined" && lastStandardAlgorithmsQuestion !== null) {
-    availableQuestions = identifyQuestions.filter(q => q.question !== lastStandardAlgorithmsQuestion);
-  }
-
-  item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
-  lastStandardAlgorithmsQuestion = item.question;
+  questionSet = identifyQuestions;
   currentQuestionType = "standardAlgorithmsIdentify";
 
 } else if (mode === "fill") {
-  item = fillQuestions[Math.floor(Math.random() * fillQuestions.length)];
+  questionSet = fillQuestions;
   currentQuestionType = "standardAlgorithmsFill";
 
 } else if (mode === "trace") {
-  item = traceQuestions[Math.floor(Math.random() * traceQuestions.length)];
+  questionSet = traceQuestions;
   currentQuestionType = "standardAlgorithmsTrace";
 
 } else if (mode === "write") {
-  item = writeQuestions[Math.floor(Math.random() * writeQuestions.length)];
+  questionSet = writeQuestions;
   currentQuestionType = "standardAlgorithmsWrite";
 
 } else {
-  const questionTypes = ["identify", "fill", "trace", "write"];
-  const chosenType = questionTypes[Math.floor(Math.random() * questionTypes.length)];
+  questionSet = [
+    identifyQuestions[0],
+    identifyQuestions[1],
+    fillQuestions[0],
+    traceQuestions[0],
+    writeQuestions[0]
+  ];
 
-  if (chosenType === "identify") {
-    let availableQuestions = identifyQuestions;
-
-    if (typeof lastStandardAlgorithmsQuestion !== "undefined" && lastStandardAlgorithmsQuestion !== null) {
-      availableQuestions = identifyQuestions.filter(q => q.question !== lastStandardAlgorithmsQuestion);
-    }
-
-    item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
-    lastStandardAlgorithmsQuestion = item.question;
+  if (index === 0 || index === 1) {
     currentQuestionType = "standardAlgorithmsIdentify";
-
-  } else if (chosenType === "fill") {
-    item = fillQuestions[Math.floor(Math.random() * fillQuestions.length)];
+  } else if (index === 2) {
     currentQuestionType = "standardAlgorithmsFill";
-
-  } else if (chosenType === "trace") {
-    item = traceQuestions[Math.floor(Math.random() * traceQuestions.length)];
+  } else if (index === 3) {
     currentQuestionType = "standardAlgorithmsTrace";
-
   } else {
-    item = writeQuestions[Math.floor(Math.random() * writeQuestions.length)];
     currentQuestionType = "standardAlgorithmsWrite";
   }
 }
 
- 
+if (index >= questionSet.length) {
+  index = questionSet.length - 1;
+}
 
+item = questionSet[index];
 currentQuestion = item.question;
 currentAnswer = item.answer;
+  
 
 questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
 
