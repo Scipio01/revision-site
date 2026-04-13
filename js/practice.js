@@ -1275,6 +1275,77 @@ OUTPUT average`,
     }
   ];
 
+const traceQuestions = [
+  {
+    question: `Trace the algorithm and give the final value of count:
+
+count ← 0
+FOR i ← 1 TO 4
+  INPUT num
+  IF num > 10 THEN
+    count ← count + 1
+  ENDIF
+NEXT i
+
+Inputs: 5, 12, 8, 20`,
+    answer: "2"
+  },
+  {
+    question: `Trace the algorithm and give the final value of total:
+
+total ← 0
+FOR i ← 1 TO 3
+  INPUT num
+  total ← total + num
+NEXT i
+
+Inputs: 5, 3, 2`,
+    answer: "10"
+  },
+  {
+    question: `Trace the algorithm and give the final value of max:
+
+max ← 0
+FOR i ← 1 TO 4
+  INPUT num
+  IF num > max THEN
+    max ← num
+  ENDIF
+NEXT i
+
+Inputs: 7, 3, 9, 5`,
+    answer: "9"
+  },
+  {
+    question: `Trace the algorithm and give the final value of min:
+
+min ← 999999
+FOR i ← 1 TO 4
+  INPUT num
+  IF num < min THEN
+    min ← num
+  ENDIF
+NEXT i
+
+Inputs: 7, 3, 9, 5`,
+    answer: "3"
+  },
+  {
+    question: `Trace the algorithm and give the final value of average:
+
+total ← 0
+FOR i ← 1 TO 4
+  INPUT num
+  total ← total + num
+NEXT i
+average ← total / 4
+
+Inputs: 6, 4, 8, 2`,
+    answer: "5"
+  }
+];
+
+  
 
 let item;
 
