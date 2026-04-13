@@ -1391,16 +1391,6 @@ if (mode === "identify") {
   }
 }
 
-  if (Math.random() < 0.5) {
-    item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
-    lastStandardAlgorithmsQuestion = item.question;
-    currentQuestionType = "standardAlgorithmsIdentify";
-  } else {
-    item = fillQuestions[Math.floor(Math.random() * fillQuestions.length)];
-    currentQuestionType = "standardAlgorithmsFill";
-  }
-}
-
  
 
 currentQuestion = item.question;
