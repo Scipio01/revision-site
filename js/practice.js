@@ -1890,9 +1890,9 @@ if (
 
   feedbackEl.innerHTML =
     `<strong>Model Answer:</strong><br><br>` +
-    (isWrite
-      ? `<div class="code-block">${currentAnswer}</div>`
-      : `${currentAnswer}`) +
+
+`<div class="code-block" style="line-height:1.5;">${currentAnswer.replace(/\n/g, "<br>")}</div>`+
+    
     `<br><br><div class="exam-tip">💡 ${
       isWrite
         ? "Your answer may look different but could still be correct if the logic and structure are sound."
