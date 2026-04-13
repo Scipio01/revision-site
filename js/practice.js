@@ -2135,7 +2135,19 @@ newSetBtn.addEventListener("click", () => {
 });
 
 difficultyEl.addEventListener("change", generateQuestion);
-modeEl.addEventListener("change", generateQuestion);
+
+modeEl.addEventListener("change", () => {
+  questionNumber = 1;
+  correctCount = 0;
+  incorrectCount = 0;
+  currentStreak = 0;
+  bestStreak = 0;
+  answerEl.disabled = false;
+  checkBtn.disabled = false;
+  nextBtn.disabled = false;
+  updateScoreDisplay();
+  generateQuestion();
+});
 
 document.getElementById("pseudoCategory").addEventListener("change", () => {
   questionNumber = 1;
