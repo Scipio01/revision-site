@@ -1147,7 +1147,7 @@ if (topic === "standardalgorithms") {
  
   const fillQuestions = [
   {
-    question: `Complete the missing line:
+    question: `Complete the missing line to count how many numbers are greater than 10:
 
 count ← 0
 FOR i ← 1 TO 5
@@ -1159,7 +1159,7 @@ NEXT i`,
     answer: "count ← count + 1"
   },
   {
-    question: `Complete the missing line:
+    question: `Complete the missing line to calculate the total of the numbers:
 
 total ← 0
 FOR i ← 1 TO 5
@@ -1169,7 +1169,7 @@ NEXT i`,
     answer: "total ← total + num"
   },
   {
-    question: `Complete the missing line:
+    question: `Complete the missing line to find the largest number:
 
 max ← 0
 FOR i ← 1 TO 5
@@ -1181,7 +1181,7 @@ NEXT i`,
     answer: "max ← num"
   },
   {
-    question: `Complete the missing line:
+    question: `Complete the missing line to find the smallest number:
 
 min ← 999999
 FOR i ← 1 TO 5
@@ -1193,7 +1193,7 @@ NEXT i`,
     answer: "min ← num"
   },
   {
-    question: `Complete the missing line:
+    question: `Complete the missing line to calculate the average:
 
 total ← 0
 FOR i ← 1 TO 5
