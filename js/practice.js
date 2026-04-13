@@ -1624,27 +1624,27 @@ else if (mode === "bubblesort") {
     answerEl.parentElement.style.display = "none";
     checkBtn.style.display = "none";
   }
-else if (
+
+  else if (
   currentQuestionType === "standardAlgorithmsWrite" ||
   currentQuestionType === "standardAlgorithmsExplain"
-) {else if (currentQuestionType === "standardAlgorithmsWrite") {
-    
+) {
   questionEl.innerHTML =
-  `<div class="exam-tip">✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.</div>` +
-  `<div class="code-block" style="margin-top: 14px;"><strong>Task:</strong><br><br>${currentQuestion}</div>`;
-    
-    answerEl.style.display = "none";
-    answerEl.parentElement.style.display = "none";
-    checkBtn.style.display = "inline-flex";
-    checkBtn.textContent = "Show answer";
-  }
-    
-  else {
-    answerEl.style.display = "block";
-    answerEl.parentElement.style.display = "flex";
-    checkBtn.style.display = "inline-flex";
-    checkBtn.textContent = "Check answer";
-  }
+    `<div class="exam-tip">✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.</div>` +
+    `<div class="code-block" style="margin-top: 14px;"><strong>Task:</strong><br><br>${currentQuestion}</div>`;
+
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "inline-flex";
+  checkBtn.textContent = "Show answer";
+}
+
+else {
+  answerEl.style.display = "block";
+  answerEl.parentElement.style.display = "flex";
+  checkBtn.style.display = "inline-flex";
+  checkBtn.textContent = "Check answer";
+}
 
   return;
 
@@ -2424,7 +2424,7 @@ if (getTopic() === "standardalgorithms") {
 }
 
 if (getTopic() === "pseudocode") {
-  statsBox.style.display = "none";
+  document.querySelector(".practice-stats").style.display = "none";
 }
 
 questionNumber = 1;
