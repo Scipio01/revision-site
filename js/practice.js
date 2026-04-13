@@ -1346,7 +1346,60 @@ Inputs: 6, 4, 8, 2`,
   }
 ];
 
-  
+  const writeQuestions = [
+  {
+    question: `Write pseudocode to input 5 numbers and count how many are greater than 10.`,
+    answer: `count ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > 10 THEN
+    count ← count + 1
+  ENDIF
+NEXT i
+OUTPUT count`
+  },
+  {
+    question: `Write pseudocode to input 5 numbers and calculate the total.`,
+    answer: `total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  total ← total + num
+NEXT i
+OUTPUT total`
+  },
+  {
+    question: `Write pseudocode to input 5 numbers and find the largest number.`,
+    answer: `max ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > max THEN
+    max ← num
+  ENDIF
+NEXT i
+OUTPUT max`
+  },
+  {
+    question: `Write pseudocode to input 5 numbers and find the smallest number.`,
+    answer: `min ← 999999
+FOR i ← 1 TO 5
+  INPUT num
+  IF num < min THEN
+    min ← num
+  ENDIF
+NEXT i
+OUTPUT min`
+  },
+  {
+    question: `Write pseudocode to input 5 numbers and calculate the average.`,
+    answer: `total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  total ← total + num
+NEXT i
+average ← total / 5
+OUTPUT average`
+  }
+];
 
 let item;
 
