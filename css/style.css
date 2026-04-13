@@ -518,7 +518,9 @@ button:disabled {
 
 .code-block {
   font-family: Consolas, "Courier New", monospace;
-  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
   line-height: 1.6;
 }
 
