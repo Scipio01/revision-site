@@ -2246,6 +2246,14 @@ if (getTopic() === "sound" || getTopic() === "pseudocode") {
   controls.style.display = "flex";
 }
 
+const difficultySelect = document.getElementById("difficulty");
+
+if (getTopic() === "standardalgorithms") {
+  difficultySelect.style.display = "none";
+} else {
+  difficultySelect.style.display = "inline-block";
+}
+
 if (getTopic() === "pseudocode") {
   statsBox.style.display = "none";
 }
