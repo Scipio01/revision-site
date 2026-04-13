@@ -1428,7 +1428,7 @@ if (mode === "identify") {
   
 
 } else {
- cconst questionTypes = ["identify", "fill", "trace", "write"];
+ const questionTypes = ["identify", "fill", "trace", "write"];
   const chosenType = questionTypes[Math.floor(Math.random() * questionTypes.length)];
 
   if (chosenType === "identify") {
