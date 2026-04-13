@@ -1870,8 +1870,9 @@ function checkAnswer() {
   return;
 }
 
-if (currentQuestionType === "standardAlgorithmsWrite") {
+  if (currentQuestionType === "standardAlgorithmsWrite") {
   feedbackEl.innerHTML =
+    `<div class="exam-tip">✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.</div><br>` +
     `<strong>Model Answer:</strong><br><br><div class="code-block">${currentAnswer}</div>` +
     `<br><div class="exam-tip">💡 Your answer may look different but could still be correct if the logic and structure are sound.</div>`;
 
