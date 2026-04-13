@@ -170,7 +170,7 @@ function denaryToBinaryWorking(num, difficulty) {
       bits.push(0);
     }
   }
-
+   
   return [
     `${num} = ${usedValues.length ? usedValues.join(" + ") : "0"}`,
     "",
@@ -222,7 +222,7 @@ function updateModeOptions() {
     `;
     return;
   }
-
+ 
   if (topic === "standardalgorithms") {
   modeEl.innerHTML = `
     <option value="mixed">Mixed</option>
@@ -1277,7 +1277,7 @@ OUTPUT average`,
 
 let item;
 
-if (Math.random() < 0.5) {
+if (mode === "identify") {
   let availableQuestions = identifyQuestions;
 
   if (typeof lastStandardAlgorithmsQuestion !== "undefined" && lastStandardAlgorithmsQuestion !== null) {
@@ -1287,10 +1287,27 @@ if (Math.random() < 0.5) {
   item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
   lastStandardAlgorithmsQuestion = item.question;
   currentQuestionType = "standardAlgorithmsIdentify";
-} else {
+} else if (mode === "fill") {
   item = fillQuestions[Math.floor(Math.random() * fillQuestions.length)];
   currentQuestionType = "standardAlgorithmsFill";
+} else {
+  let availableQuestions = identifyQuestions;
+
+  if (typeof lastStandardAlgorithmsQuestion !== "undefined" && lastStandardAlgorithmsQuestion !== null) {
+    availableQuestions = identifyQuestions.filter(q => q.question !== lastStandardAlgorithmsQuestion);
+  }
+
+  if (Math.random() < 0.5) {
+    item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+    lastStandardAlgorithmsQuestion = item.question;
+    currentQuestionType = "standardAlgorithmsIdentify";
+  } else {
+    item = fillQuestions[Math.floor(Math.random() * fillQuestions.length)];
+    currentQuestionType = "standardAlgorithmsFill";
+  }
 }
+
+ 
 
 currentQuestion = item.question;
 currentAnswer = item.answer;
