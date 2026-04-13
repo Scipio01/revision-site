@@ -1893,6 +1893,7 @@ if (
 
 `<div class="code-block" style="line-height:1.5;">${currentAnswer
   .replace(/\n/g, "<br>")
+  .replace(/Start:/g, "<strong>Start:</strong>")
   .replace(/Pass \d+:/g, match => `<br><strong>${match}</strong>`)
 }</div>`+
     
