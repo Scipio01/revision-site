@@ -1135,6 +1135,72 @@ const item = filteredQuestions[(questionNumber - 1) % filteredQuestions.length];
 }
 
 if (topic === "standardalgorithms") {
+ 
+  const fillQuestions = [
+  {
+    question: `Complete the missing line:
+
+count ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > 10 THEN
+    __________
+  ENDIF
+NEXT i`,
+    answer: "count ← count + 1"
+  },
+  {
+    question: `Complete the missing line:
+
+total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  __________
+NEXT i`,
+    answer: "total ← total + num"
+  },
+  {
+    question: `Complete the missing line:
+
+max ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  IF num > max THEN
+    __________
+  ENDIF
+NEXT i`,
+    answer: "max ← num"
+  },
+  {
+    question: `Complete the missing line:
+
+min ← 999999
+FOR i ← 1 TO 5
+  INPUT num
+  IF num < min THEN
+    __________
+  ENDIF
+NEXT i`,
+    answer: "min ← num"
+  },
+  {
+    question: `Complete the missing line:
+
+total ← 0
+FOR i ← 1 TO 5
+  INPUT num
+  total ← total + num
+NEXT i
+average ← __________`,
+    answer: "total / 5"
+  }
+];
+  
+  
+  
+  
+  
+  
   const identifyQuestions = [
     {
       question: `What standard method of solution is this?
@@ -1200,16 +1266,24 @@ OUTPUT average`,
     }
   ];
 
- let availableQuestions = identifyQuestions;
 
-if (typeof lastStandardAlgorithmsQuestion !== "undefined" && lastStandardAlgorithmsQuestion !== null) {
-  availableQuestions = identifyQuestions.filter(q => q.question !== lastStandardAlgorithmsQuestion);
+let item;
+
+if (Math.random() < 0.5) {
+  let availableQuestions = identifyQuestions;
+
+  if (typeof lastStandardAlgorithmsQuestion !== "undefined" && lastStandardAlgorithmsQuestion !== null) {
+    availableQuestions = identifyQuestions.filter(q => q.question !== lastStandardAlgorithmsQuestion);
+  }
+
+  item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+  lastStandardAlgorithmsQuestion = item.question;
+  currentQuestionType = "standardAlgorithmsIdentify";
+} else {
+  item = fillQuestions[Math.floor(Math.random() * fillQuestions.length)];
+  currentQuestionType = "standardAlgorithmsFill";
 }
 
-const item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
-lastStandardAlgorithmsQuestion = item.question;
-
-currentQuestionType = "standardAlgorithmsIdentify";
 currentQuestion = item.question;
 currentAnswer = item.answer;
 
@@ -1218,46 +1292,56 @@ questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
 const imageDiv = document.getElementById("imageOptions");
 imageDiv.innerHTML = "";
 
-const options = ["counting", "totalling", "maximum", "minimum", "average"];
+const imageDiv = document.getElementById("imageOptions");
+imageDiv.innerHTML = "";
 
-options.forEach(opt => {
-  const btn = document.createElement("button");
-  btn.type = "button";
-  btn.className = "button";
-  btn.textContent = opt.charAt(0).toUpperCase() + opt.slice(1);
+if (currentQuestionType === "standardAlgorithmsIdentify") {
+  const options = ["counting", "totalling", "maximum", "minimum", "average"];
 
-  btn.addEventListener("click", () => {
-    if (checkBtn.disabled) return;
+  options.forEach(opt => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "button";
+    btn.textContent = opt.charAt(0).toUpperCase() + opt.slice(1);
 
-    answerEl.value = opt;
-    checkAnswer();
+    btn.addEventListener("click", () => {
+      if (checkBtn.disabled) return;
 
-    const allButtons = imageDiv.querySelectorAll("button");
+      answerEl.value = opt;
+      checkAnswer();
 
-    allButtons.forEach(button => {
-      button.disabled = true;
-      button.style.opacity = "0.85";
+      const allButtons = imageDiv.querySelectorAll("button");
 
-      if (button.textContent.toLowerCase() === currentAnswer) {
-        button.style.borderColor = "green";
+      allButtons.forEach(button => {
+        button.disabled = true;
+        button.style.opacity = "0.85";
+
+        if (button.textContent.toLowerCase() === currentAnswer) {
+          button.style.borderColor = "green";
+        }
+      });
+
+      if (opt !== currentAnswer) {
+        btn.style.borderColor = "red";
+      } else {
+        btn.style.borderColor = "green";
       }
     });
 
-    if (opt !== currentAnswer) {
-      btn.style.borderColor = "red";
-    } else {
-      btn.style.borderColor = "green";
-    }
+    imageDiv.appendChild(btn);
   });
 
-  imageDiv.appendChild(btn);
-});
-
-answerEl.style.display = "none";
-answerEl.parentElement.style.display = "none";
-checkBtn.style.display = "none";
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "none";
+} else {
+  answerEl.style.display = "block";
+  answerEl.parentElement.style.display = "flex";
+  checkBtn.style.display = "inline-flex";
+}
 
 return;
+  
 }
 
 
@@ -1494,6 +1578,14 @@ function checkAnswer() {
 
 if (currentQuestionType === "standardAlgorithmsIdentify") {
   isCorrect = userAnswer.toLowerCase() === currentAnswer.toLowerCase();
+  working = "";
+}
+
+
+  if (currentQuestionType === "standardAlgorithmsFill") {
+  isCorrect =
+    userAnswer.toLowerCase().replace(/\s+/g, "") ===
+    currentAnswer.toLowerCase().replace(/\s+/g, "");
   working = "";
 }
 
