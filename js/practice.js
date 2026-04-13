@@ -225,10 +225,9 @@ function updateModeOptions() {
  
 if (topic === "standardalgorithms") {
   modeEl.innerHTML = `
-    <option value="identify">Identify the method</option>
-    <option value="fill">Complete the missing line</option>
-    <option value="trace">Trace the algorithm</option>
-    <option value="write">Write the algorithm</option>
+    <option value="standardmethods">Standard methods</option>
+    <option value="linearsearch">Linear search</option>
+    <option value="bubblesort">Bubble sort</option>
     <option value="mixed">Mixed</option>
   `;
   return;
@@ -1144,76 +1143,12 @@ const item = filteredQuestions[(questionNumber - 1) % filteredQuestions.length];
   return;
 }
 
+
 if (topic === "standardalgorithms") {
- 
-  const fillQuestions = [
-  {
-    question: `Complete the missing line to count how many numbers are greater than 10:
 
-count ← 0
-FOR i ← 1 TO 5
-  INPUT num
-  IF num > 10 THEN
-    __________
-  ENDIF
-NEXT i`,
-    answer: "count ← count + 1"
-  },
-  {
-    question: `Complete the missing line to calculate the total of the numbers:
-
-total ← 0
-FOR i ← 1 TO 5
-  INPUT num
-  __________
-NEXT i`,
-    answer: "total ← total + num"
-  },
-  {
-    question: `Complete the missing line to find the largest number:
-
-max ← 0
-FOR i ← 1 TO 5
-  INPUT num
-  IF num > max THEN
-    __________
-  ENDIF
-NEXT i`,
-    answer: "max ← num"
-  },
-  {
-    question: `Complete the missing line to find the smallest number:
-
-min ← 999999
-FOR i ← 1 TO 5
-  INPUT num
-  IF num < min THEN
-    __________
-  ENDIF
-NEXT i`,
-    answer: "min ← num"
-  },
-  {
-    question: `Complete the missing line to calculate the average:
-
-total ← 0
-FOR i ← 1 TO 5
-  INPUT num
-  total ← total + num
-NEXT i
-average ← __________`,
-    answer: "total / 5"
-  }
-];
-  
-  
-  
-  
-  
-  
   const identifyQuestions = [
     {
-      question: `What standard method of solution is this?
+      question: `What standard method is this?
 
 count ← 0
 FOR i ← 1 TO 5
@@ -1221,295 +1156,192 @@ FOR i ← 1 TO 5
   IF num > 10 THEN
     count ← count + 1
   ENDIF
-NEXT i
-OUTPUT count`,
+NEXT i`,
       answer: "counting"
     },
     {
-      question: `What standard method of solution is this?
+      question: `What standard method is this?
 
 total ← 0
 FOR i ← 1 TO 5
   INPUT num
   total ← total + num
-NEXT i
-OUTPUT total`,
+NEXT i`,
       answer: "totalling"
-    },
-    {
-      question: `What standard method of solution is this?
-
-max ← 0
-FOR i ← 1 TO 5
-  INPUT num
-  IF num > max THEN
-    max ← num
-  ENDIF
-NEXT i
-OUTPUT max`,
-      answer: "maximum"
-    },
-    {
-      question: `What standard method of solution is this?
-
-min ← 999999
-FOR i ← 1 TO 5
-  INPUT num
-  IF num < min THEN
-    min ← num
-  ENDIF
-NEXT i
-OUTPUT min`,
-      answer: "minimum"
-    },
-    {
-      question: `What standard method of solution is this?
-
-total ← 0
-FOR i ← 1 TO 5
-  INPUT num
-  total ← total + num
-NEXT i
-average ← total / 5
-OUTPUT average`,
-      answer: "average"
     }
   ];
 
-const traceQuestions = [
-  {
-    question: `Trace the algorithm and give the final value of count:
+  const linearSearchQuestions = [
+    {
+      question: `Explain how a linear search works.`,
+      answer: `Checks each item one by one from the start until found or end reached.`
+    },
+    {
+      question: `Find 12 in:
+5, 9, 3, 12, 7
 
-count ← 0
-FOR i ← 1 TO 4
-  INPUT num
-  IF num > 10 THEN
-    count ← count + 1
-  ENDIF
-NEXT i
+What position is it found?`,
+      answer: "4"
+    },
+    {
+      question: `Find 3 in:
+8, 6, 3, 1
 
-Inputs: 5, 12, 8, 20`,
-    answer: "2"
-  },
-  {
-    question: `Trace the algorithm and give the final value of total:
+How many checks are made?`,
+      answer: "3"
+    },
+    {
+      question: `Find 10 in:
+4, 2, 8, 6
 
-total ← 0
-FOR i ← 1 TO 3
-  INPUT num
-  total ← total + num
-NEXT i
-
-Inputs: 5, 3, 2`,
-    answer: "10"
-  },
-  {
-    question: `Trace the algorithm and give the final value of max:
-
-max ← 0
-FOR i ← 1 TO 4
-  INPUT num
-  IF num > max THEN
-    max ← num
-  ENDIF
-NEXT i
-
-Inputs: 7, 3, 9, 5`,
-    answer: "9"
-  },
-  {
-    question: `Trace the algorithm and give the final value of min:
-
-min ← 999999
-FOR i ← 1 TO 4
-  INPUT num
-  IF num < min THEN
-    min ← num
-  ENDIF
-NEXT i
-
-Inputs: 7, 3, 9, 5`,
-    answer: "3"
-  },
-  {
-    question: `Trace the algorithm and give the final value of average:
-
-total ← 0
-FOR i ← 1 TO 4
-  INPUT num
-  total ← total + num
-NEXT i
-average ← total / 4
-
-Inputs: 6, 4, 8, 2`,
-    answer: "5"
-  }
-];
-
-  const writeQuestions = [
-  {
-    question: `Write pseudocode to input 5 numbers and count how many are greater than 10.`,
-    answer: `count ← 0
-FOR i ← 1 TO 5
-  INPUT num
-  IF num > 10 THEN
-    count ← count + 1
-  ENDIF
-NEXT i
-OUTPUT count`
-  },
-  {
-    question: `Write pseudocode to input 5 numbers and calculate the total.`,
-    answer: `total ← 0
-FOR i ← 1 TO 5
-  INPUT num
-  total ← total + num
-NEXT i
-OUTPUT total`
-  },
-  {
-    question: `Write pseudocode to input 5 numbers and find the largest number.`,
-    answer: `max ← 0
-FOR i ← 1 TO 5
-  INPUT num
-  IF num > max THEN
-    max ← num
-  ENDIF
-NEXT i
-OUTPUT max`
-  },
-  {
-    question: `Write pseudocode to input 5 numbers and find the smallest number.`,
-    answer: `min ← 999999
-FOR i ← 1 TO 5
-  INPUT num
-  IF num < min THEN
-    min ← num
-  ENDIF
-NEXT i
-OUTPUT min`
-  },
-  {
-    question: `Write pseudocode to input 5 numbers and calculate the average.`,
-    answer: `total ← 0
-FOR i ← 1 TO 5
-  INPUT num
-  total ← total + num
-NEXT i
-average ← total / 5
-OUTPUT average`
-  }
-];
-
-let questionSet = [];
-let index = questionNumber - 1;
-let item;
-
-if (mode === "identify") {
-  questionSet = identifyQuestions;
-  currentQuestionType = "standardAlgorithmsIdentify";
-
-} else if (mode === "fill") {
-  questionSet = fillQuestions;
-  currentQuestionType = "standardAlgorithmsFill";
-
-} else if (mode === "trace") {
-  questionSet = traceQuestions;
-  currentQuestionType = "standardAlgorithmsTrace";
-
-} else if (mode === "write") {
-  questionSet = writeQuestions;
-  currentQuestionType = "standardAlgorithmsWrite";
-
-} else {
-  questionSet = [
-    identifyQuestions[0],
-    identifyQuestions[1],
-    fillQuestions[0],
-    traceQuestions[0],
-    writeQuestions[0]
+Result?`,
+      answer: "not found"
+    },
+    {
+      question: `Write the steps of a linear search.`,
+      answer: `1. Start at first item
+2. Compare
+3. If match stop
+4. Else move next
+5. Repeat until found or end`
+    }
   ];
 
-  if (index === 0 || index === 1) {
+  const bubbleSortQuestions = [
+    {
+      question: `Explain how bubble sort works.`,
+      answer: `Compare neighbours, swap if needed, repeat passes until sorted.`
+    },
+    {
+      question: `After one pass:
+5, 3, 8, 1`,
+      answer: "3, 5, 1, 8"
+    },
+    {
+      question: `After one pass:
+7, 4, 2, 6`,
+      answer: "4, 2, 6, 7"
+    },
+    {
+      question: `After second pass:
+3, 1, 2`,
+      answer: "1, 2, 3"
+    },
+    {
+      question: `Write simple steps of bubble sort.`,
+      answer: `Compare neighbours, swap if needed, repeat passes until sorted`
+    }
+  ];
+
+  let questionSet = [];
+  let index = questionNumber - 1;
+  let item;
+
+  if (mode === "standardmethods") {
+    questionSet = [
+      identifyQuestions[0],
+      identifyQuestions[1],
+      identifyQuestions[0],
+      identifyQuestions[1],
+      identifyQuestions[0]
+    ];
     currentQuestionType = "standardAlgorithmsIdentify";
-  } else if (index === 2) {
-    currentQuestionType = "standardAlgorithmsFill";
-  } else if (index === 3) {
-    currentQuestionType = "standardAlgorithmsTrace";
-  } else {
-    currentQuestionType = "standardAlgorithmsWrite";
   }
-}
 
-if (index >= questionSet.length) {
-  index = questionSet.length - 1;
-}
+  else if (mode === "linearsearch") {
+    questionSet = linearSearchQuestions;
 
-item = questionSet[index];
-currentQuestion = item.question;
-currentAnswer = item.answer;
-  
+    if (index === 0 || index === 4) {
+      currentQuestionType = "standardAlgorithmsWrite";
+    } else {
+      currentQuestionType = "standardAlgorithmsTrace";
+    }
+  }
 
-questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
+  else if (mode === "bubblesort") {
+    questionSet = bubbleSortQuestions;
 
-const imageDiv = document.getElementById("imageOptions");
-imageDiv.innerHTML = "";
+    if (index === 0 || index === 4) {
+      currentQuestionType = "standardAlgorithmsWrite";
+    } else {
+      currentQuestionType = "standardAlgorithmsTrace";
+    }
+  }
 
-if (currentQuestionType === "standardAlgorithmsIdentify") {
-  const options = ["counting", "totalling", "maximum", "minimum", "average"];
+  else {
+    questionSet = [
+      identifyQuestions[0],
+      linearSearchQuestions[1],
+      bubbleSortQuestions[1],
+      linearSearchQuestions[0],
+      bubbleSortQuestions[0]
+    ];
 
-  options.forEach(opt => {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "button";
-    btn.textContent = opt.charAt(0).toUpperCase() + opt.slice(1);
+    if (index === 0) {
+      currentQuestionType = "standardAlgorithmsIdentify";
+    } else if (index === 1 || index === 2) {
+      currentQuestionType = "standardAlgorithmsTrace";
+    } else {
+      currentQuestionType = "standardAlgorithmsWrite";
+    }
+  }
 
-    btn.addEventListener("click", () => {
-      if (checkBtn.disabled) return;
+  if (index >= questionSet.length) {
+    index = questionSet.length - 1;
+  }
 
-      answerEl.value = opt;
-      checkAnswer();
+  item = questionSet[index];
+  currentQuestion = item.question;
+  currentAnswer = item.answer;
 
-      const allButtons = imageDiv.querySelectorAll("button");
+  questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
 
-      allButtons.forEach(button => {
-        button.disabled = true;
-        button.style.opacity = "0.85";
+  const imageDiv = document.getElementById("imageOptions");
+  imageDiv.innerHTML = "";
 
-        if (button.textContent.toLowerCase() === currentAnswer) {
-          button.style.borderColor = "green";
-        }
+  if (currentQuestionType === "standardAlgorithmsIdentify") {
+    const options = ["counting", "totalling"];
+
+    options.forEach(opt => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "button";
+      btn.textContent = opt;
+
+      btn.addEventListener("click", () => {
+        answerEl.value = opt;
+        checkAnswer();
       });
 
-      if (opt !== currentAnswer) {
-        btn.style.borderColor = "red";
-      } else {
-        btn.style.borderColor = "green";
-      }
+      imageDiv.appendChild(btn);
     });
 
-    imageDiv.appendChild(btn);
-  });
+    answerEl.style.display = "none";
+    answerEl.parentElement.style.display = "none";
+    checkBtn.style.display = "none";
+  }
 
-  answerEl.style.display = "none";
-  answerEl.parentElement.style.display = "none";
-  checkBtn.style.display = "none";
+  else if (currentQuestionType === "standardAlgorithmsWrite") {
+    answerEl.style.display = "none";
+    answerEl.parentElement.style.display = "none";
+    checkBtn.style.display = "inline-flex";
+    checkBtn.textContent = "Show answer";
+  }
 
-} else if (currentQuestionType === "standardAlgorithmsWrite") {
-  answerEl.style.display = "none";
-  answerEl.parentElement.style.display = "none";
-  checkBtn.style.display = "inline-flex";
-  checkBtn.textContent = "Show answer";
+  else {
+    answerEl.style.display = "block";
+    answerEl.parentElement.style.display = "flex";
+    checkBtn.style.display = "inline-flex";
+    checkBtn.textContent = "Check answer";
+  }
 
-} else {
-  answerEl.style.display = "block";
-  answerEl.parentElement.style.display = "flex";
-  checkBtn.style.display = "inline-flex";
-  checkBtn.textContent = "Check answer";
-
-}
   return;
 
+
+
+
+
+  
 }
 
 
