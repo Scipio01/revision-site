@@ -1300,9 +1300,6 @@ questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
 const imageDiv = document.getElementById("imageOptions");
 imageDiv.innerHTML = "";
 
-const imageDiv = document.getElementById("imageOptions");
-imageDiv.innerHTML = "";
-
 if (currentQuestionType === "standardAlgorithmsIdentify") {
   const options = ["counting", "totalling", "maximum", "minimum", "average"];
 
