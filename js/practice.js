@@ -1530,25 +1530,29 @@ What is the list after the second full pass?`,
     }
   }
 
-  else if (mode === "linearsearch") {
-    questionSet = linearSearchQuestions;
+ else if (mode === "linearsearch") {
+  questionSet = linearSearchQuestions;
 
-    if (index === 0 || index === 4) {
-      currentQuestionType = "standardAlgorithmsWrite";
-    } else {
-      currentQuestionType = "standardAlgorithmsTrace";
-    }
+  if (index === 0) {
+    currentQuestionType = "standardAlgorithmsExplain";
+  } else if (index === 4) {
+    currentQuestionType = "standardAlgorithmsWrite";
+  } else {
+    currentQuestionType = "standardAlgorithmsTrace";
   }
+}
 
-  else if (mode === "bubblesort") {
-    questionSet = bubbleSortQuestions;
+else if (mode === "bubblesort") {
+  questionSet = bubbleSortQuestions;
 
-    if (index === 0 || index === 4) {
-      currentQuestionType = "standardAlgorithmsWrite";
-    } else {
-      currentQuestionType = "standardAlgorithmsTrace";
-    }
+  if (index === 0) {
+    currentQuestionType = "standardAlgorithmsExplain";
+  } else if (index === 4) {
+    currentQuestionType = "standardAlgorithmsWrite";
+  } else {
+    currentQuestionType = "standardAlgorithmsTrace";
   }
+}
 
   else {
     questionSet = [
@@ -1620,8 +1624,10 @@ What is the list after the second full pass?`,
     answerEl.parentElement.style.display = "none";
     checkBtn.style.display = "none";
   }
-
-  else if (currentQuestionType === "standardAlgorithmsWrite") {
+else if (
+  currentQuestionType === "standardAlgorithmsWrite" ||
+  currentQuestionType === "standardAlgorithmsExplain"
+) {else if (currentQuestionType === "standardAlgorithmsWrite") {
     
   questionEl.innerHTML =
   `<div class="exam-tip">✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.</div>` +
@@ -1875,16 +1881,28 @@ function checkAnswer() {
   return;
 }
 
- if (currentQuestionType === "standardAlgorithmsWrite") {
+if (
+  currentQuestionType === "standardAlgorithmsWrite" ||
+  currentQuestionType === "standardAlgorithmsExplain"
+) {
+
+  const isWrite = currentQuestionType === "standardAlgorithmsWrite";
+
   feedbackEl.innerHTML =
-    `<strong>Model Answer:</strong><br><br><div class="code-block">${currentAnswer}</div>` +
-    `<br><div class="exam-tip">💡 Your answer may look different but could still be correct if the logic and structure are sound.</div>`;
+    `<strong>Model Answer:</strong><br><br>` +
+    (isWrite
+      ? `<div class="code-block">${currentAnswer}</div>`
+      : `${currentAnswer}`) +
+    `<br><br><div class="exam-tip">💡 ${
+      isWrite
+        ? "Your answer may look different but could still be correct if the logic and structure are sound."
+        : "Your explanation may be worded differently and still be correct if the key idea is clear."
+    }</div>`;
 
   feedbackEl.classList.remove("correct", "incorrect");
   checkBtn.disabled = true;
   return;
 }
-  
   
     if (currentQuestionType === "flowSymbol") {
       isCorrect = userAnswer === currentAnswer;
