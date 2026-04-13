@@ -1891,7 +1891,10 @@ if (
   feedbackEl.innerHTML =
     `<strong>Model Answer:</strong><br><br>` +
 
-`<div class="code-block" style="line-height:1.5;">${currentAnswer.replace(/\n/g, "<br>")}</div>`+
+`<div class="code-block" style="line-height:1.5;">${currentAnswer
+  .replace(/\n/g, "<br>")
+  .replace(/Pass \d+:/g, match => `<br><strong>${match}</strong>`)
+}</div>`+
     
     `<br><br><div class="exam-tip">💡 ${
       isWrite
