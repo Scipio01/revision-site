@@ -1600,7 +1600,7 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
 }
 
   if (currentQuestionType === "standardAlgorithmsTrace") {
-  isCorrect = userAnswer.trim() === currentAnswer;
+ isCorrect = userAnswer.toLowerCase().trim() === currentAnswer.toLowerCase().trim();
   working = "";
 }
 
