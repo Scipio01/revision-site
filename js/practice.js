@@ -1449,7 +1449,31 @@ What is the result of the search?`,
   const bubbleSortQuestions = [
     {
       question: `Explain how bubble sort works.`,
-      answer: `Bubble sort compares neighbouring values and swaps them if they are in the wrong order. It keeps making passes through the list until the values are in order.`
+     answer: `Bubble sort starts by comparing the first two values in the list.
+
+If they are in the wrong order, they are swapped. Then it moves to the next pair and repeats this process.
+
+After one full pass, the largest value has moved to the end of the list.
+
+Example:
+
+Start: 5, 3, 8, 1
+
+Pass 1:
+5 and 3 → swap → 3, 5, 8, 1  
+5 and 8 → no swap → 3, 5, 8, 1  
+8 and 1 → swap → 3, 5, 1, 8  
+
+Pass 2:
+3 and 5 → no swap  
+5 and 1 → swap → 3, 1, 5, 8  
+
+Pass 3:
+3 and 1 → swap → 1, 3, 5, 8  
+
+The list is now sorted.
+
+Bubble sort keeps making passes until no swaps are needed.`
     },
     {
       question: `Bubble sort is applied to this list:
