@@ -228,6 +228,7 @@ if (topic === "standardalgorithms") {
     <option value="identify">Identify the method</option>
     <option value="fill">Complete the missing line</option>
     <option value="trace">Trace the algorithm</option>
+    <option value="write">Write the algorithm</option>
     <option value="mixed">Mixed</option>
   `;
   return;
