@@ -1705,6 +1705,11 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
   working = "";
 }
 
+  if (currentQuestionType === "standardAlgorithmsTrace") {
+  isCorrect = userAnswer.trim() === currentAnswer;
+  working = "";
+}
+
   
   if (currentQuestionType === "denToBin") {
     const normalisedUser = userAnswer.replace(/\s+/g, "");
