@@ -1425,10 +1425,9 @@ if (mode === "identify") {
 } else if (mode === "write") {
   item = writeQuestions[Math.floor(Math.random() * writeQuestions.length)];
   currentQuestionType = "standardAlgorithmsWrite";
-  
 
 } else {
- const questionTypes = ["identify", "fill", "trace", "write"];
+  const questionTypes = ["identify", "fill", "trace", "write"];
   const chosenType = questionTypes[Math.floor(Math.random() * questionTypes.length)];
 
   if (chosenType === "identify") {
@@ -1441,12 +1440,18 @@ if (mode === "identify") {
     item = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
     lastStandardAlgorithmsQuestion = item.question;
     currentQuestionType = "standardAlgorithmsIdentify";
+
   } else if (chosenType === "fill") {
     item = fillQuestions[Math.floor(Math.random() * fillQuestions.length)];
     currentQuestionType = "standardAlgorithmsFill";
-  } else {
+
+  } else if (chosenType === "trace") {
     item = traceQuestions[Math.floor(Math.random() * traceQuestions.length)];
     currentQuestionType = "standardAlgorithmsTrace";
+
+  } else {
+    item = writeQuestions[Math.floor(Math.random() * writeQuestions.length)];
+    currentQuestionType = "standardAlgorithmsWrite";
   }
 }
 
