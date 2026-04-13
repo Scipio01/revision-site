@@ -223,6 +223,14 @@ function updateModeOptions() {
     return;
   }
 
+  if (topic === "standardalgorithms") {
+  modeEl.innerHTML = `
+    <option value="mixed">Mixed</option>
+    <option value="identify">Identify the method</option>
+    <option value="fill">Complete the missing line</option>
+  `;
+  return;
+}
 
   
   if (topic === "hex") {
