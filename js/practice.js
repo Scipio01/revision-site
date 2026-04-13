@@ -1977,8 +1977,11 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
   
 if (
   currentQuestionType === "standardAlgorithmsIdentify" ||
-  currentQuestionType === "standardAlgorithmsFill"
+  currentQuestionType === "standardAlgorithmsFill" ||
+  currentQuestionType === "standardAlgorithmsTrace"
 ) {
+
+  
   feedbackEl.textContent =
     isCorrect
     ? `✔ Correct!`
