@@ -1623,10 +1623,10 @@ What is the list after the second full pass?`,
 
   else if (currentQuestionType === "standardAlgorithmsWrite") {
     
-    questionEl.innerHTML =
+  questionEl.innerHTML =
   `<div class="exam-tip">✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.</div>` +
-  `<div class="code-block" style="margin-top: 14px;"><strong>Question:</strong><br><br>${currentQuestion}</div>`;
-
+  `<div class="code-block" style="margin-top: 14px;"><strong>Task:</strong><br><br>${currentQuestion}</div>`;
+    
     answerEl.style.display = "none";
     answerEl.parentElement.style.display = "none";
     checkBtn.style.display = "inline-flex";
