@@ -223,11 +223,11 @@ function updateModeOptions() {
     return;
   }
  
-  if (topic === "standardalgorithms") {
+if (topic === "standardalgorithms") {
   modeEl.innerHTML = `
-    <option value="mixed">Mixed</option>
     <option value="identify">Identify the method</option>
     <option value="fill">Complete the missing line</option>
+    <option value="mixed">Mixed</option>
   `;
   return;
 }
@@ -1876,7 +1876,10 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
 
 
   
-if (currentQuestionType === "standardAlgorithmsIdentify") {
+if (
+  currentQuestionType === "standardAlgorithmsIdentify" ||
+  currentQuestionType === "standardAlgorithmsFill"
+) {
   feedbackEl.textContent =
     isCorrect
     ? `✔ Correct!`
