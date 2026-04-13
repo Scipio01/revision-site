@@ -1422,8 +1422,13 @@ if (mode === "identify") {
   item = traceQuestions[Math.floor(Math.random() * traceQuestions.length)];
   currentQuestionType = "standardAlgorithmsTrace";
 
+} else if (mode === "write") {
+  item = writeQuestions[Math.floor(Math.random() * writeQuestions.length)];
+  currentQuestionType = "standardAlgorithmsWrite";
+  
+
 } else {
-  const questionTypes = ["identify", "fill", "trace"];
+ cconst questionTypes = ["identify", "fill", "trace", "write"];
   const chosenType = questionTypes[Math.floor(Math.random() * questionTypes.length)];
 
   if (chosenType === "identify") {
