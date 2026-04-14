@@ -31,6 +31,17 @@
     "description": "CPU performance and embedded systems.",
     "hasPractice": false
   },
+
+  {
+    "id": "validation",
+    "name": "Validation and Verification",
+    "level": "gcse",
+    "group": "paper2",
+    "description": "Validation checks, verification methods and check digits.",
+    "hasPractice": true
+  },
+
+  
   {
     "id": "hardware3",
     "name": "Hardware Part 3",
