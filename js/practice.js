@@ -109,7 +109,11 @@ if (topic === "standardalgorithms") {
   return;
 }
 
-
+if (topic === "validationchecks") {
+  titleEl.textContent = "Validation and Verification Practice";
+  introEl.textContent = "Practise choosing validation checks and writing simple validation and verification algorithms.";
+  return;
+}
   
 
 if (topic === "pseudocode") {
@@ -239,6 +243,16 @@ if (topic === "standardalgorithms") {
   `;
 
   difficultyEl.value = "identify";
+  return;
+}
+
+  if (topic === "validationchecks") {
+  modeEl.innerHTML = `
+    <option value="identify">Identify the check</option>
+    <option value="fill">Complete the missing line</option>
+    <option value="write">Write the algorithm</option>
+    <option value="mixed">Mixed</option>
+  `;
   return;
 }
 
@@ -1648,14 +1662,66 @@ else {
 
   return;
 
-
-
-
-
-
-  
+ 
 }
 
+
+  if (topic === "validationchecks") {
+
+  const identifyQuestions = [
+    {
+      question: `What type of validation check is this?
+
+IF age < 0 OR age > 120 THEN
+  OUTPUT "Invalid"`,
+      answer: "range"
+    },
+    {
+      question: `What type of validation check is this?
+
+IF LENGTH(password) < 8 THEN
+  OUTPUT "Invalid"`,
+      answer: "length"
+    },
+    {
+      question: `What type of validation check is this?
+
+IF username = "" THEN
+  OUTPUT "Invalid"`,
+      answer: "presence"
+    },
+    {
+      question: `What type of validation check is this?
+
+IF postcode does not match pattern THEN
+  OUTPUT "Invalid"`,
+      answer: "format"
+    },
+    {
+      question: `What type of verification check is this?
+
+IF email1 = email2 THEN
+  OUTPUT "Match"`,
+      answer: "double entry"
+    }
+  ];
+
+  let index = questionNumber - 1;
+
+  if (index >= identifyQuestions.length) {
+    index = identifyQuestions.length - 1;
+  }
+
+  const item = identifyQuestions[index];
+
+  currentQuestion = item.question;
+  currentAnswer = item.answer;
+  currentQuestionType = "validationIdentify";
+
+  questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
+
+  return;
+}
 
   
   
@@ -1919,6 +1985,12 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
   working = "";
 }
 
+  if (currentQuestionType === "validationIdentify") {
+  isCorrect = userAnswer.toLowerCase().trim() === currentAnswer.toLowerCase().trim();
+  working = "";
+}
+
+  
 
   if (currentQuestionType === "standardAlgorithmsFill") {
   isCorrect =
