@@ -2346,6 +2346,12 @@ if (getTopic() === "standardalgorithms" && questionNumber >= 5) {
   showSummary();
   return;
 }
+
+if (getTopic() === "validationchecks" && questionNumber >= 5) {
+  showSummary();
+  return;
+}
+  
   
 questionNumber++;
 updateScoreDisplay();
@@ -2496,6 +2502,8 @@ if (getTopic() === "standardalgorithms") {
     difficultySelect.style.display = "none";
   }
 
+} else if (getTopic() === "validationchecks") {
+  difficultySelect.style.display = "none";
 } else {
   difficultySelect.style.display = "inline-block";
 }
