@@ -1,1 +1,98 @@
-
+[
+  {
+    "topicName": "validationchecks",
+    "mcq": {
+      "question": "What does a range check do?",
+      "correct": "Checks that a value is within a set minimum and maximum",
+      "wrong": [
+        "Checks that data has been entered twice",
+        "Checks that data is the correct type",
+        "Checks that a field is not empty"
+      ]
+    }
+  },
+  {
+    "topicName": "validationchecks",
+    "mcq": {
+      "question": "Which validation check ensures a field is not left empty?",
+      "correct": "Presence check",
+      "wrong": [
+        "Range check",
+        "Type check",
+        "Format check"
+      ]
+    }
+  },
+  {
+    "topicName": "validationchecks",
+    "mcq": {
+      "question": "What does a type check ensure?",
+      "correct": "That data is the correct data type",
+      "wrong": [
+        "That data is within a range",
+        "That data is formatted correctly",
+        "That data is entered twice"
+      ]
+    }
+  },
+  {
+    "topicName": "validationchecks",
+    "mcq": {
+      "question": "Which check ensures a postcode follows the correct pattern?",
+      "correct": "Format check",
+      "wrong": [
+        "Range check",
+        "Presence check",
+        "Length check"
+      ]
+    }
+  },
+  {
+    "topicName": "validationchecks",
+    "mcq": {
+      "question": "What does a length check do?",
+      "correct": "Checks that data is a specific number of characters",
+      "wrong": [
+        "Checks that data is within a range",
+        "Checks that data is numeric",
+        "Checks that data is entered correctly"
+      ]
+    }
+  },
+  {
+    "topicName": "validationchecks",
+    "mcq": {
+      "question": "Which validation check would be used for age between 0 and 120?",
+      "correct": "Range check",
+      "wrong": [
+        "Presence check",
+        "Format check",
+        "Length check"
+      ]
+    }
+  },
+  {
+    "topicName": "validationchecks",
+    "mcq": {
+      "question": "Which validation check would be used for a 5-digit PIN?",
+      "correct": "Length check",
+      "wrong": [
+        "Range check",
+        "Presence check",
+        "Check digit"
+      ]
+    }
+  },
+  {
+    "topicName": "validationchecks",
+    "mcq": {
+      "question": "What is the purpose of a check digit?",
+      "correct": "To detect errors in data entry or transmission",
+      "wrong": [
+        "To ensure a field is not empty",
+        "To check the data type",
+        "To enforce a format"
+      ]
+    }
+  }
+]
