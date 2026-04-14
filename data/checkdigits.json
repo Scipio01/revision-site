@@ -1,1 +1,32 @@
-
+[
+  {
+    "topicName": "checkdigits",
+    "front": "What is a check digit?",
+    "back": "A check digit is an extra digit added to a number and calculated from the other digits."
+  },
+  {
+    "topicName": "checkdigits",
+    "front": "What is the purpose of a check digit?",
+    "back": "A check digit is used to detect errors in data entry or transmission."
+  },
+  {
+    "topicName": "checkdigits",
+    "front": "Give an example of where check digits are used.",
+    "back": "Check digits are used in barcodes, ISBN numbers and bank card numbers."
+  },
+  {
+    "topicName": "checkdigits",
+    "front": "Does a check digit guarantee that data is correct?",
+    "back": "No. A check digit helps detect errors, but it does not guarantee the data is correct."
+  },
+  {
+    "topicName": "checkdigits",
+    "front": "How is a simple check digit often calculated?",
+    "back": "The digits are processed using a rule, then the final digit of the total is used as the check digit."
+  },
+  {
+    "topicName": "checkdigits",
+    "front": "Why are weighted check digits better than simple addition?",
+    "back": "Weighted check digits are better because they can detect some digits being entered in the wrong order."
+  }
+]
