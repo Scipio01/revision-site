@@ -2272,7 +2272,8 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
 if (
   currentQuestionType === "standardAlgorithmsIdentify" ||
   currentQuestionType === "standardAlgorithmsFill" ||
-  currentQuestionType === "standardAlgorithmsTrace"
+  currentQuestionType === "standardAlgorithmsTrace" ||
+  currentQuestionType === "validationIdentify"
 ) {
 
   
