@@ -32,15 +32,6 @@
     "hasPractice": false
   },
 
-  {
-    "id": "validationchecks",
-    "name": "Validation and Verification",
-    "level": "gcse",
-    "group": "paper2",
-    "description": "Validation checks, verification methods and check digits.",
-    "hasPractice": true
-  },
-
   
   {
     "id": "hardware3",
