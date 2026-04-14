@@ -1,1 +1,98 @@
 
+[
+  {
+    "topicName": "validationchecks",
+    "front": "What is a range check?",
+    "back": "A range check ensures a value is between a minimum and maximum limit."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "Give an example of a range check.",
+    "back": "An age must be between 0 and 120."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "What is the purpose of a range check?",
+    "back": "To ensure values are within sensible or allowed limits."
+  },
+
+  {
+    "topicName": "validationchecks",
+    "front": "What is a length check?",
+    "back": "A length check ensures the number of characters in input is correct."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "Give an example of a length check.",
+    "back": "A password must be at least 8 characters long."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "What is the purpose of a length check?",
+    "back": "To ensure data is not too short or too long."
+  },
+
+  {
+    "topicName": "validationchecks",
+    "front": "What is a type check?",
+    "back": "A type check ensures data is of the correct data type (e.g. integer, string)."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "Give an example of a type check.",
+    "back": "An age must be entered as a number, not text."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "What is the purpose of a type check?",
+    "back": "To ensure data is in the correct format for processing."
+  },
+
+  {
+    "topicName": "validationchecks",
+    "front": "What is a presence check?",
+    "back": "A presence check ensures that data has been entered and is not left blank."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "Give an example of a presence check.",
+    "back": "A username field must not be empty."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "What is the purpose of a presence check?",
+    "back": "To ensure required fields are not left empty."
+  },
+
+  {
+    "topicName": "validationchecks",
+    "front": "What is a format check?",
+    "back": "A format check ensures data follows a specific pattern."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "Give an example of a format check.",
+    "back": "A postcode must follow the pattern LLNN NLL."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "What is the purpose of a format check?",
+    "back": "To ensure data is entered in a specific structure."
+  },
+
+  {
+    "topicName": "validationchecks",
+    "front": "What is a check digit?",
+    "back": "A check digit is an extra digit added to a number that is calculated from the other digits."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "What is the purpose of a check digit?",
+    "back": "To detect errors in data entry or transmission."
+  },
+  {
+    "topicName": "validationchecks",
+    "front": "Give an example of where check digits are used.",
+    "back": "Barcodes, ISBN numbers, and bank card numbers."
+  }
+]
