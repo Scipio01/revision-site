@@ -1,1 +1,63 @@
 
+[
+  {
+    "topicName": "verificationchecks",
+    "front": "What is verification?",
+    "back": "Verification is checking that data has been entered correctly by comparing it to the original input."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "What is a visual check?",
+    "back": "A visual check is when a person manually compares entered data with the original data."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "What is the purpose of a visual check?",
+    "back": "To ensure that data has been entered accurately by checking it manually."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "Give an example of a visual check.",
+    "back": "A person checks typed data on a screen against a paper form."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "What is a double entry check?",
+    "back": "A double entry check is when data is entered twice and the system compares both entries."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "What is the purpose of a double entry check?",
+    "back": "To detect data entry errors by ensuring both entries match."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "Give an example of a double entry check.",
+    "back": "Entering a password or email address twice when creating an account."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "Which verification method is more reliable: visual check or double entry?",
+    "back": "Double entry is more reliable because it does not rely on human judgement."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "What is a limitation of a visual check?",
+    "back": "Humans can make mistakes and may not notice errors."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "What is a limitation of a double entry check?",
+    "back": "If the same incorrect data is entered twice, the error will not be detected."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "Does verification guarantee that data is correct?",
+    "back": "No. Verification only checks that data was entered correctly, not that it is correct."
+  },
+  {
+    "topicName": "verificationchecks",
+    "front": "What is the key difference between validation and verification?",
+    "back": "Validation checks if data is sensible. Verification checks if data is entered correctly."
+  }
+]
