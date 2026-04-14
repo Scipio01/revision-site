@@ -1,1 +1,47 @@
-
+[
+  {
+    "topicName": "validationbasics",
+    "front": "What is validation?",
+    "back": "Validation is checking that input data is sensible, reasonable, and follows defined rules."
+  },
+  {
+    "topicName": "validationbasics",
+    "front": "What is verification?",
+    "back": "Verification is checking that data has been entered correctly by comparing it to the original input."
+  },
+  {
+    "topicName": "validationbasics",
+    "front": "What is the purpose of validation?",
+    "back": "To prevent invalid or unreasonable data from being entered into a system."
+  },
+  {
+    "topicName": "validationbasics",
+    "front": "What is the purpose of verification?",
+    "back": "To ensure data has been entered or copied correctly."
+  },
+  {
+    "topicName": "validationbasics",
+    "front": "Does validation guarantee that data is correct?",
+    "back": "No. Validation only checks that data follows rules, not that it is actually correct."
+  },
+  {
+    "topicName": "validationbasics",
+    "front": "Does verification guarantee that data is correct?",
+    "back": "No. Verification only checks that data was entered correctly. The data may still be wrong."
+  },
+  {
+    "topicName": "validationbasics",
+    "front": "Give an example where validation passes but data is still incorrect.",
+    "back": "Entering age as 200 passes a type check (it is a number) but is not realistic."
+  },
+  {
+    "topicName": "validationbasics",
+    "front": "Give an example where verification passes but data is still incorrect.",
+    "back": "A number is entered twice as 12345 and matches, but the original number should have been 12354."
+  },
+  {
+    "topicName": "validationbasics",
+    "front": "What is the difference between validation and verification?",
+    "back": "Validation checks if data is sensible. Verification checks if data is entered correctly."
+  }
+]
