@@ -1701,17 +1701,14 @@ IF postcode does not match pattern THEN
 What type of validation check is being used?`,
       answer: "format"
     },
-    {
-      question: `A user must enter their email address twice when creating an account.
+   {
+  question: `A user is entering their age into a form.
 
-The system compares both entries:
+The system checks that the value entered is a number and not text.
 
-IF email1 = email2 THEN
-  OUTPUT "Match"
-
-What type of verification check is being used?`,
-      answer: "double entry"
-    }
+What type of validation check is being used?`,
+  answer: "type"
+}
   ];
 
   let index = questionNumber - 1;
@@ -1728,7 +1725,7 @@ What type of verification check is being used?`,
 
   imageOptionsEl.innerHTML = "";
 
-const options = ["range", "length", "presence", "format", "double entry"];
+const options = ["range", "length", "presence", "format", "type"];
 
 options.forEach(opt => {
   const btn = document.createElement("button");
