@@ -1774,6 +1774,99 @@ checkBtn.style.display = "none";
   return;
 }
 
+if (topic === "verificationchecks") {
+
+  const identifyQuestions = [
+    {
+      question: `A user enters their password and is asked to check it on screen before submitting.
+
+What type of verification check is being used?`,
+      answer: "visual"
+    },
+    {
+      question: `A user enters their email address twice.
+
+The system compares both entries:
+
+IF email1 = email2 THEN
+  OUTPUT "Match"
+
+What type of verification check is being used?`,
+      answer: "double entry"
+    },
+    {
+      question: `A user is asked to read through their entered data and confirm it is correct.
+
+What type of verification check is being used?`,
+      answer: "visual"
+    },
+    {
+      question: `A system asks a user to input their password twice and checks both entries match.
+
+What type of verification check is being used?`,
+      answer: "double entry"
+    }
+  ];
+
+  let index = questionNumber - 1;
+
+  if (index >= identifyQuestions.length) {
+    index = identifyQuestions.length - 1;
+  }
+
+  const item = identifyQuestions[index];
+
+  currentQuestion = item.question;
+  currentAnswer = item.answer;
+  currentQuestionType = "verificationIdentify";
+
+  imageOptionsEl.innerHTML = "";
+
+  const options = ["visual", "double entry"];
+
+  options.forEach(opt => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "button";
+    btn.textContent = opt.charAt(0).toUpperCase() + opt.slice(1);
+
+    btn.addEventListener("click", () => {
+      if (checkBtn.disabled) return;
+
+      answerEl.value = opt;
+      checkAnswer();
+
+      const allButtons = imageOptionsEl.querySelectorAll("button");
+
+      allButtons.forEach(button => {
+        button.disabled = true;
+        button.style.opacity = "0.85";
+
+        if (button.textContent.toLowerCase() === currentAnswer) {
+          button.style.borderColor = "green";
+        }
+      });
+
+      if (opt !== currentAnswer) {
+        btn.style.borderColor = "red";
+      } else {
+        btn.style.borderColor = "green";
+      }
+    });
+
+    imageOptionsEl.appendChild(btn);
+  });
+
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "none";
+
+  questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
+
+  return;
+}
+
+  
   
   
   if (topic === "binshift") {
