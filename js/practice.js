@@ -29,7 +29,19 @@ const questionNumberEl = document.getElementById("questionNumber");
 const totalQuestionsEl = document.getElementById("totalQuestions");
 const imageOptionsEl = document.getElementById("imageOptions");
 
+
+
 function updateScoreDisplay() {
+  if (getTopic() === "validationchecks") {
+    totalQuestions = 5;
+  } else if (getTopic() === "verificationchecks") {
+    totalQuestions = 4;
+  } else if (getTopic() === "standardalgorithms") {
+    totalQuestions = 5;
+  } else {
+    totalQuestions = 10;
+  }
+
   correctCountEl.textContent = correctCount;
   incorrectCountEl.textContent = incorrectCount;
   streakCountEl.textContent = currentStreak;
@@ -37,6 +49,10 @@ function updateScoreDisplay() {
   questionNumberEl.textContent = questionNumber;
   totalQuestionsEl.textContent = totalQuestions;
 }
+
+
+
+
  
 function updatePracticeHeader() {
   const topic = getTopic();
