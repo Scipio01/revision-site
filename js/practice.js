@@ -1691,14 +1691,18 @@ IF username = "" THEN
       answer: "presence"
     },
     {
-      question: `What type of validation check is this?
+      question: `A user enters a postcode when filling in a form.
+
+The system checks that the postcode follows the correct pattern (e.g. NP19 0AB):
 
 IF postcode does not match pattern THEN
-  OUTPUT "Invalid"`,
+  OUTPUT "Invalid"
+
+What type of validation check is being used?`,
       answer: "format"
     },
-   {
-  question: `A user must enter their email address twice when creating an account.
+    {
+      question: `A user must enter their email address twice when creating an account.
 
 The system compares both entries:
 
@@ -1706,8 +1710,8 @@ IF email1 = email2 THEN
   OUTPUT "Match"
 
 What type of verification check is being used?`,
-  answer: "double entry"
-}
+      answer: "double entry"
+    }
   ];
 
   let index = questionNumber - 1;
