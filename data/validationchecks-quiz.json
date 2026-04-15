@@ -83,16 +83,17 @@
       ]
     }
   },
-  {
-    "topicName": "validationchecks",
-    "mcq": {
-      "question": "What is the purpose of a check digit?",
-      "correct": "To detect errors in data entry or transmission",
-      "wrong": [
-        "To ensure a field is not empty",
-        "To check the data type",
-        "To enforce a format"
-      ]
-    }
+{
+  "topicName": "validationchecks",
+  "mcq": {
+    "question": "Which validation check ensures data matches a required pattern?",
+    "correct": "Format check",
+    "wrong": [
+      "Range check",
+      "Presence check",
+      "Length check"
+    ]
   }
+}
+  
 ]
