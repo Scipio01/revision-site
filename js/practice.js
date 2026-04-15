@@ -1699,6 +1699,133 @@ else {
  
 }
 
+  if (topic === "errortypes") {
+
+  const identifyQuestions = [
+    {
+      question: `What type of error is this?
+
+IF age > 18
+  OUTPUT "Adult"`,
+      answer: "syntax"
+    },
+    {
+      question: `What type of error is this?
+
+total = 10 / 0`,
+      answer: "runtime"
+    },
+    {
+      question: `What type of error is this?
+
+answer = 5
+OUTPUT "2 + 2 = ", answer`,
+      answer: "logic"
+    },
+    {
+      question: `A program crashes when it tries to access an item that does not exist in a list.
+
+What type of error is this?`,
+      answer: "runtime"
+    },
+    {
+      question: `A keyword has been misspelt in code.
+
+What type of error is this?`,
+      answer: "syntax"
+    },
+    {
+      question: `A program runs, but it multiplies two numbers when it should add them.
+
+What type of error is this?`,
+      answer: "logic"
+    },
+    {
+      question: `What type of error is this?
+
+WHLIE num > 0
+  OUTPUT num
+ENDWHILE`,
+      answer: "syntax"
+    },
+    {
+      question: `A program runs correctly until the user enters a value that causes it to crash.
+
+What type of error is this?`,
+      answer: "runtime"
+    },
+    {
+      question: `A program always outputs the wrong total, but it does not crash.
+
+What type of error is this?`,
+      answer: "logic"
+    },
+    {
+      question: `What type of error is this?
+
+name = "Sam"
+OUTPUT nam`,
+      answer: "runtime"
+    }
+  ];
+
+  let index = questionNumber - 1;
+
+  if (index >= identifyQuestions.length) {
+    index = identifyQuestions.length - 1;
+  }
+
+  const item = identifyQuestions[index];
+
+  currentQuestion = item.question;
+  currentAnswer = item.answer;
+  currentQuestionType = "errorTypeIdentify";
+
+  imageOptionsEl.innerHTML = "";
+
+  const options = ["syntax", "runtime", "logic"];
+
+  options.forEach(opt => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "button";
+    btn.textContent = opt.charAt(0).toUpperCase() + opt.slice(1);
+
+    btn.addEventListener("click", () => {
+      if (checkBtn.disabled) return;
+
+      answerEl.value = opt;
+      checkAnswer();
+
+      const allButtons = imageOptionsEl.querySelectorAll("button");
+
+      allButtons.forEach(button => {
+        button.disabled = true;
+        button.style.opacity = "0.85";
+
+        if (button.textContent.toLowerCase() === currentAnswer) {
+          button.style.borderColor = "green";
+        }
+      });
+
+      if (opt !== currentAnswer) {
+        btn.style.borderColor = "red";
+      } else {
+        btn.style.borderColor = "green";
+      }
+    });
+
+    imageOptionsEl.appendChild(btn);
+  });
+
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "none";
+
+  questionEl.innerHTML = `<div class="code-block">${currentQuestion.replace(/\n/g, "<br>")}</div>`;
+
+  return;
+}
 
  if (topic === "validationexam") {
 
