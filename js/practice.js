@@ -2374,6 +2374,19 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
   isCorrect = userAnswer.toLowerCase().trim() === currentAnswer.toLowerCase().trim();
   working = "";
 }
+
+
+  if (currentQuestionType === "errorTypeIdentify") {
+  isCorrect = userAnswer.toLowerCase().trim() === currentAnswer.toLowerCase().trim();
+
+  if (currentAnswer === "syntax") {
+    working = "A syntax error breaks the rules of the programming language, so the program will not run properly.";
+  } else if (currentAnswer === "runtime") {
+    working = "A runtime error happens while the program is running and can cause the program to crash.";
+  } else if (currentAnswer === "logic") {
+    working = "A logic error means the program runs, but the output is wrong.";
+  }
+}
   
 
   if (currentQuestionType === "standardAlgorithmsFill") {
