@@ -1739,14 +1739,17 @@ What type of error is this?`,
 What type of error is this?`,
       answer: "logic"
     },
-    {
-      question: `What type of error is this?
+   
 
-WHLIE num > 0
-  OUTPUT num
-ENDWHILE`,
-      answer: "syntax"
-    },
+{
+  question: `What type of error is this?
+
+IF age > 18 THEN
+  OUTPUT "Adult`,
+  answer: "syntax"
+},
+
+    
     {
       question: `A program runs correctly until the user enters a value that causes it to crash.
 
