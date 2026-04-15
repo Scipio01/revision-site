@@ -239,7 +239,10 @@ function binaryToDenaryWorking(binary) {
 function updateModeOptions() {
   const topic = getTopic();
   modeEl.innerHTML = "";
-  
+
+  modeEl.style.display = "inline-block";
+  difficultyEl.style.display = "inline-block";
+
   if (topic === "flowcharts") {
     modeEl.innerHTML = `
       <option value="symbols">Flowchart Symbols</option>
@@ -247,39 +250,32 @@ function updateModeOptions() {
     `;
     return;
   }
- 
-if (topic === "standardalgorithms") {
-  modeEl.innerHTML = `
-    <option value="standardmethods">Standard methods</option>
-    <option value="linearsearch">Linear search</option>
-    <option value="bubblesort">Bubble sort</option>
-    <option value="mixed">Mixed</option>
-  `;
 
-  difficultyEl.innerHTML = `
-    <option value="identify">Identify the method</option>
-    <option value="fill">Complete the missing line</option>
-    <option value="trace">Trace the algorithm</option>
-    <option value="write">Write the algorithm</option>
-  `;
+  if (topic === "standardalgorithms") {
+    modeEl.innerHTML = `
+      <option value="standardmethods">Standard methods</option>
+      <option value="linearsearch">Linear search</option>
+      <option value="bubblesort">Bubble sort</option>
+      <option value="mixed">Mixed</option>
+    `;
 
-  difficultyEl.value = "identify";
-  return;
-}
+    difficultyEl.innerHTML = `
+      <option value="identify">Identify the method</option>
+      <option value="fill">Complete the missing line</option>
+      <option value="trace">Trace the algorithm</option>
+      <option value="write">Write the algorithm</option>
+    `;
 
-if (topic === "validationchecks") {
-  modeEl.style.display = "none";
-  difficultyEl.style.display = "none";
-}
+    difficultyEl.value = "identify";
+    return;
+  }
 
+  if (topic === "validationchecks" || topic === "verificationchecks" || topic === "validationexam") {
+    modeEl.style.display = "none";
+    difficultyEl.style.display = "none";
+    return;
+  }
 
-  if (topic === "verificationchecks") {
-  modeEl.style.display = "none";
-  difficultyEl.style.display = "none";
-  return;
-}
-
-  
   if (topic === "hex") {
     modeEl.innerHTML = `
       <option value="mixed">Mixed</option>
@@ -296,6 +292,7 @@ if (topic === "validationchecks") {
     `;
   }
 }
+
 
 function generateQuestion() {
   const difficulty = difficultyEl.value;
