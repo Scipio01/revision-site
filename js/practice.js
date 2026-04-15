@@ -1844,6 +1844,124 @@ OUTPUT numbers[5]`,
   return;
 }
 
+if (topic === "testdata") {
+
+  const identifyQuestions = [
+    {
+      question: "What type of test data is a valid value within the expected range?",
+      answer: "normal"
+    },
+    {
+      question: "What type of test data is invalid and should be rejected?",
+      answer: "abnormal"
+    },
+    {
+      question: "What type of test data uses the lowest and highest valid values?",
+      answer: "extreme"
+    },
+    {
+      question: "What type of test data checks values just inside and just outside the limits?",
+      answer: "boundary"
+    },
+    {
+      question: "A program accepts values between 1 and 100. Which is normal data?",
+      answer: "normal"
+    },
+    {
+      question: "A program accepts values between 1 and 100. Which is extreme data?",
+      answer: "extreme"
+    },
+    {
+      question: "A program accepts values between 1 and 100. Which is boundary data?",
+      answer: "boundary"
+    },
+    {
+      question: "A program accepts values between 10 and 20. Which is abnormal data?",
+      answer: "abnormal"
+    },
+    {
+      question: "A program accepts values between 5 and 15. Which is boundary data?",
+      answer: "boundary"
+    },
+    {
+      question: "A program accepts values between 100 and 200. Which is normal data?",
+      answer: "normal"
+    }
+  ];
+
+  let index = questionNumber - 1;
+
+  if (index >= identifyQuestions.length) {
+    questionNumber = identifyQuestions.length;
+
+    const liveQuestionNumberEl = document.getElementById("questionNumber");
+    const liveTotalQuestionsEl = document.getElementById("totalQuestions");
+
+    if (liveQuestionNumberEl) liveQuestionNumberEl.textContent = questionNumber;
+    if (liveTotalQuestionsEl) liveTotalQuestionsEl.textContent = identifyQuestions.length;
+
+    questionEl.innerHTML = `<div class="code-block">✔ You have completed all questions.</div>`;
+    imageOptionsEl.innerHTML = "";
+    answerEl.style.display = "none";
+    answerEl.parentElement.style.display = "none";
+    checkBtn.style.display = "none";
+    return;
+  }
+
+  const item = identifyQuestions[index];
+
+  currentQuestion = item.question;
+  currentAnswer = item.answer;
+  currentQuestionType = "testDataIdentify";
+
+  imageOptionsEl.innerHTML = "";
+
+  const options = ["normal", "abnormal", "extreme", "boundary"];
+
+  options.forEach(opt => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "button";
+    btn.textContent = opt.charAt(0).toUpperCase() + opt.slice(1);
+
+    btn.addEventListener("click", () => {
+      if (checkBtn.disabled) return;
+
+      answerEl.value = opt;
+      checkAnswer();
+
+      const allButtons = imageOptionsEl.querySelectorAll("button");
+
+      allButtons.forEach(button => {
+        button.disabled = true;
+        button.style.opacity = "0.85";
+
+        if (button.textContent.toLowerCase() === currentAnswer) {
+          button.style.borderColor = "green";
+        }
+      });
+
+      if (opt !== currentAnswer) {
+        btn.style.borderColor = "red";
+      } else {
+        btn.style.borderColor = "green";
+      }
+    });
+
+    imageOptionsEl.appendChild(btn);
+  });
+
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "none";
+
+  questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
+
+  return;
+}
+
+
+  
  if (topic === "validationexam") {
 
   const examQuestions = [
