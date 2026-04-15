@@ -21,63 +21,66 @@ document.addEventListener('DOMContentLoaded', async () => {
     const paper1 = filteredTopics.filter(t => t.group === 'paper1');
     const paper2 = filteredTopics.filter(t => t.group === 'paper2');
 
-    function renderTopicCard(topic) {
-      const div = document.createElement('div');
-      div.className = 'topic-card';
+   function renderTopicCard(topic) {
+  const div = document.createElement('div');
+  div.className = 'topic-card';
 
-      div.innerHTML = `
-        <span class="badge">${topic.level === 'alevel' ? 'A Level' : 'GCSE'}</span>
-        <h3>${topic.name}</h3>
-        <p class="muted">${topic.description}</p>
-        <div class="actions">
-          ${
-            topic.id === 'datarep' ||
-            topic.id === 'datatransmission' ||
-            topic.id === 'hardware1' ||
-            topic.id === 'hardware2' ||
-            topic.id === 'hardware3' ||
-            topic.id === 'hardware4' ||
-            topic.id === 'software' ||
-            topic.id === 'internet' ||
-            topic.id === 'emerging' ||
-            topic.id === 'algorithms'
-              ? `<a class="btn-primary button" href="${
-                  topic.id === 'datarep'
-                    ? 'data-representation.html'
-                    : topic.id === 'datatransmission'
-                    ? 'data-transmission.html'
-                    : topic.id === 'hardware1'
-                    ? 'hardware1.html'
-                    : topic.id === 'hardware2'
-                    ? 'hardware2.html'
-                    : topic.id === 'hardware3'
-                    ? 'hardware3.html'
-                    : topic.id === 'hardware4'
-                    ? 'hardware4.html'
-                    : topic.id === 'internet'
-                    ? 'internet.html'
-                    : topic.id === 'emerging'
-                    ? 'emerging.html'
-                    : topic.id === 'algorithms'
-                    ? 'algorithms.html'
-                    : 'software.html'
-                }">Open topic</a>`
-              : `
-      <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
-      <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
-      <a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>
-                ${topic.hasPractice ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>` : ''}
-              `
-          }
-        </div>
-      `;
+  div.innerHTML = `
+    <span class="badge">${topic.level === 'alevel' ? 'A Level' : 'GCSE'}</span>
+    <h3>${topic.name}</h3>
+    <p class="muted">${topic.description}</p>
+    <div class="actions">
+      ${
+        topic.id === 'datarep' ||
+        topic.id === 'datatransmission' ||
+        topic.id === 'hardware1' ||
+        topic.id === 'hardware2' ||
+        topic.id === 'hardware3' ||
+        topic.id === 'hardware4' ||
+        topic.id === 'software' ||
+        topic.id === 'internet' ||
+        topic.id === 'emerging' ||
+        topic.id === 'algorithms' ||
+        topic.id === 'testingtracetables'
+          ? `<a class="btn-primary button" href="${
+              topic.id === 'datarep'
+                ? 'data-representation.html'
+                : topic.id === 'datatransmission'
+                ? 'data-transmission.html'
+                : topic.id === 'hardware1'
+                ? 'hardware1.html'
+                : topic.id === 'hardware2'
+                ? 'hardware2.html'
+                : topic.id === 'hardware3'
+                ? 'hardware3.html'
+                : topic.id === 'hardware4'
+                ? 'hardware4.html'
+                : topic.id === 'internet'
+                ? 'internet.html'
+                : topic.id === 'emerging'
+                ? 'emerging.html'
+                : topic.id === 'algorithms'
+                ? 'algorithms.html'
+                : topic.id === 'testingtracetables'
+                ? 'testing-trace-tables.html'
+                : 'software.html'
+            }">Open topic</a>`
+          : `
+  <a class="btn-primary button" href="flashcards.html" data-topic="${topic.id}">Flashcards</a>
+  <a class="btn-secondary button" href="quiz.html" data-topic="${topic.id}">Quiz</a>
+  <a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>
+            ${topic.hasPractice ? `<a class="btn-secondary button" href="practice.html?topic=${topic.id}" data-topic="${topic.id}">Practice</a>` : ''}
+          `
+      }
+    </div>
+  `;
 
-      div.querySelectorAll('a').forEach(a =>
-        a.addEventListener('click', () => setSelectedTopic(topic.id))
-      );
+  div.querySelectorAll('a').forEach(a =>
+    a.addEventListener('click', () => setSelectedTopic(topic.id))
+  );
 
-      return div;
-    }
+  return div;
+}
 
     function renderGroup(title, topicList) {
       const section = document.createElement('div');
