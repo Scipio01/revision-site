@@ -369,7 +369,15 @@ if (topic === "flowcharts") {
    <div class="stat-box">Incorrect: <span id="incorrectCount">${incorrectCount}</span></div>
    <div class="stat-box">Streak: <span id="streakCount">${currentStreak}</span></div>
    <div class="stat-box">Best: <span id="bestStreakCount">${bestStreak}</span></div>
-   <div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span>/<span id="totalQuestions">${topic === "standardalgorithms" ? 5 : 10}</span></div>`;
+   
+<div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span>/<span id="totalQuestions">${
+  topic === "standardalgorithms" ? 5 :
+  topic === "validationchecks" ? 5 :
+  topic === "verificationchecks" ? 4 :
+  10
+}</span></div>`;
+
+   
 pseudoCategoryWrap.style.display = "none";
 }
 
