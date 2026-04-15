@@ -1,1 +1,62 @@
-
+[
+  {
+    "topicName": "tracetables",
+    "front": "What is a trace table?",
+    "back": "A trace table is used to track the values of variables as a program runs step by step."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "Why are trace tables used?",
+    "back": "Trace tables are used to test algorithms and find logic errors."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "What is usually included in a trace table?",
+    "back": "Variable names, their values at each step, and sometimes outputs."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "When completing a trace table, how should values be recorded?",
+    "back": "Values should be updated step by step as each line of the algorithm is executed."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "What should you do when a variable changes value?",
+    "back": "Record the new value in the next row of the trace table."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "What type of error can trace tables help identify?",
+    "back": "Logic errors."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "What happens in a trace table when a loop is used?",
+    "back": "The steps are repeated and new values are recorded for each iteration."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "Why is it important to follow the algorithm line by line?",
+    "back": "To ensure values are updated correctly and no steps are missed."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "What should you do if an OUTPUT statement appears?",
+    "back": "Record the output value at that step."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "What is a common mistake when completing trace tables?",
+    "back": "Skipping steps or updating values in the wrong order."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "How can trace tables help in exams?",
+    "back": "They help you work out the final output or value of variables accurately."
+  },
+  {
+    "topicName": "tracetables",
+    "front": "What should you do before writing the final answer in a trace table question?",
+    "back": "Check all steps carefully to make sure no mistakes were made."
+  }
+]
