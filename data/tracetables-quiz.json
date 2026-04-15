@@ -98,24 +98,60 @@
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A trace table is mainly used to:",
-      "correct": "Track the values of variables step by step",
+      "question": "A program uses this pseudocode:\n\ntotal ← 0\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\n\nComplete the trace table:\n\ni | total\n1 | 1\n2 | 3\n3 | ?\n\nWhat is the final value of total?",
+      "correct": "6",
       "wrong": [
-        "Store images in memory",
-        "Translate pseudocode into machine code",
-        "Check spelling in code"
+        "3",
+        "4",
+        "5"
       ]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "In a trace table question, what should you do when a variable changes value?",
-      "correct": "Record the new value at that step",
+      "question": "A program uses this pseudocode:\n\nsum ← 0\nFOR i ← 1 TO 4\n  sum ← sum + 2\nNEXT i\n\nComplete the trace table:\n\ni | sum\n1 | 2\n2 | 4\n3 | 6\n4 | ?\n\nWhat is the final value of sum?",
+      "correct": "8",
       "wrong": [
-        "Delete the old value from the code",
-        "Restart the trace table",
-        "Ignore the change until the end"
+        "6",
+        "7",
+        "10"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\ncount ← 1\nFOR i ← 1 TO 3\n  count ← count + 3\nNEXT i\n\nComplete the trace table:\n\ni | count\n1 | 4\n2 | 7\n3 | ?\n\nWhat is the final value of count?",
+      "correct": "10",
+      "wrong": [
+        "7",
+        "9",
+        "12"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\nx ← 2\nFOR i ← 1 TO 3\n  x ← x * 2\nNEXT i\n\nComplete the trace table:\n\ni | x\n1 | 4\n2 | 8\n3 | ?\n\nWhat is the final value of x?",
+      "correct": "16",
+      "wrong": [
+        "8",
+        "12",
+        "14"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\ny ← 10\nFOR i ← 1 TO 2\n  y ← y - 3\nNEXT i\n\nComplete the trace table:\n\ni | y\n1 | 7\n2 | ?\n\nWhat is the final value of y?",
+      "correct": "4",
+      "wrong": [
+        "5",
+        "6",
+        "7"
       ]
     }
   }
