@@ -2806,7 +2806,19 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
     working = `${currentSourceValue.sampleRate} × ${currentSourceValue.bitDepth} = ${currentAnswer} bits per second`;
   }
 
+else if (currentQuestionType === "testDataIdentify") {
+  isCorrect = userAnswer.toLowerCase().trim() === currentAnswer.toLowerCase().trim();
 
+  if (currentAnswer === "normal") {
+    working = "Normal data is valid input within the expected range.";
+  } else if (currentAnswer === "abnormal") {
+    working = "Abnormal data is invalid and should be rejected.";
+  } else if (currentAnswer === "extreme") {
+    working = "Extreme data uses the lowest and highest valid values.";
+  } else if (currentAnswer === "boundary") {
+    working = "Boundary data tests values just inside and just outside the limits.";
+  }
+}
   
 if (
   currentQuestionType === "standardAlgorithmsIdentify" ||
