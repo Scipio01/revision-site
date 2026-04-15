@@ -1863,11 +1863,11 @@ if (topic === "testdata") {
     answer: "normal"
   },
   {
-    question: "A program accepts values between 1 and 100. Which type of test data would 0 be?",
+    question: "A program accepts values between 1 and 100. Which type of test data would -10 be?",
     answer: "abnormal"
   },
   {
-    question: "A program accepts values between 1 and 100. Which type of test data would 1 be?",
+    question: "A program accepts values between 1 and 100. Which type of test data would 100 be??",
     answer: "extreme"
   },
   {
