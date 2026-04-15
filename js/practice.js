@@ -1750,7 +1750,7 @@ If the original data is wrong, both entries can still match and still be incorre
     `<div class="code-block" style="margin-top: 14px;"><strong>Question:</strong><br><br>${currentQuestion.replace(/\n/g, "<br>")}</div>`;
 
   imageOptionsEl.innerHTML = "";
-
+ 
   answerEl.style.display = "none";
   answerEl.parentElement.style.display = "none";
   checkBtn.style.display = "inline-flex";
