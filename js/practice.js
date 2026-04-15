@@ -276,7 +276,7 @@ function updateModeOptions() {
     return;
   }
 
-  if (topic === "validationchecks" || topic === "verificationchecks" || topic === "validationexam") {
+  if (topic === "validationchecks" || topic === "verificationchecks" || topic === "validationexam" || topic === "errortypes") {
     modeEl.style.display = "none";
     difficultyEl.style.display = "none";
     return;
