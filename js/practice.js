@@ -2671,7 +2671,8 @@ if (
   currentQuestionType === "standardAlgorithmsFill" ||
   currentQuestionType === "standardAlgorithmsTrace" ||
   currentQuestionType === "validationIdentify" ||
-  currentQuestionType === "verificationIdentify"
+  currentQuestionType === "verificationIdentify" ||
+  currentQuestionType === "errorTypeIdentify"
 ) {
   
   feedbackEl.textContent =
@@ -2684,6 +2685,8 @@ if (
     ? `✔ Correct!\n\nWorking:\n${working}`
     : `✖ Incorrect.\nCorrect answer: ${currentAnswer}\n\nWorking:\n${working}`;
 }
+
+  
 
   feedbackEl.classList.remove("correct", "incorrect");
   feedbackEl.classList.add(isCorrect ? "correct" : "incorrect");
