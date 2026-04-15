@@ -1,0 +1,122 @@
+[
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\nx ← 2\ny ← 5\nx ← x + y\n\nWhat is the value of x at the end?",
+      "correct": "7",
+      "wrong": [
+        "2",
+        "5",
+        "10"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\nx ← 4\ny ← 3\ny ← y + 2\n\nWhat is the value of y at the end?",
+      "correct": "5",
+      "wrong": [
+        "2",
+        "3",
+        "7"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\nx ← 6\ny ← 2\nx ← x - y\ny ← y + 1\n\nWhat is the value of x at the end?",
+      "correct": "4",
+      "wrong": [
+        "3",
+        "6",
+        "8"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\nx ← 2\ny ← 5\nx ← x + y\ny ← y - 1\n\nWhat is the value of y at the end?",
+      "correct": "4",
+      "wrong": [
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\nscore ← 10\nbonus ← 3\nscore ← score + bonus\n\nWhat is the value of score after line 3?",
+      "correct": "13",
+      "wrong": [
+        "3",
+        "10",
+        "16"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\nnum ← 8\ncount ← 1\ncount ← count + 2\n\nWhat is the value of count after line 3?",
+      "correct": "3",
+      "wrong": [
+        "1",
+        "2",
+        "8"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\nx ← 3\ny ← 4\nx ← x * 2\ny ← y + x\n\nWhat is the value of x after line 3?",
+      "correct": "6",
+      "wrong": [
+        "3",
+        "7",
+        "10"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A program uses this pseudocode:\n\nx ← 5\ny ← 2\nx ← x + 1\ny ← x + y\n\nWhat is the value of y after line 4?",
+      "correct": "8",
+      "wrong": [
+        "2",
+        "6",
+        "7"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "A trace table is mainly used to:",
+      "correct": "Track the values of variables step by step",
+      "wrong": [
+        "Store images in memory",
+        "Translate pseudocode into machine code",
+        "Check spelling in code"
+      ]
+    }
+  },
+  {
+    "topicName": "tracetables",
+    "mcq": {
+      "question": "In a trace table question, what should you do when a variable changes value?",
+      "correct": "Record the new value at that step",
+      "wrong": [
+        "Delete the old value from the code",
+        "Restart the trace table",
+        "Ignore the change until the end"
+      ]
+    }
+  }
+]
