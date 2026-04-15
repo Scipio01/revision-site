@@ -2134,6 +2134,10 @@ if (currentQuestionType === "standardAlgorithmsIdentify") {
   working = "";
 }
 
+  if (currentQuestionType === "verificationIdentify") {
+  isCorrect = userAnswer.toLowerCase().trim() === currentAnswer.toLowerCase().trim();
+  working = "";
+}
   
 
   if (currentQuestionType === "standardAlgorithmsFill") {
