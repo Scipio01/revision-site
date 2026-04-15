@@ -137,6 +137,12 @@ if (topic === "validationchecks") {
   return;
 }
 
+ if (topic === "errortypes") {
+  titleEl.textContent = "Error Types Practice";
+  introEl.textContent = "Practise identifying syntax errors, runtime errors and logic errors.";
+  return;
+} 
+
 if (topic === "pseudocode") {
   titleEl.textContent = "Pseudocode Practice";
   introEl.textContent = "Practise writing algorithms using pseudocode with model answers.";
