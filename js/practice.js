@@ -1699,14 +1699,13 @@ else {
  
 }
 
-  if (topic === "errortypes") {
+if (topic === "errortypes") {
 
   const identifyQuestions = [
     {
       question: `What type of error is this?
 
-IF age > 18
-  OUTPUT "Adult"`,
+PRINT "Hello`,
       answer: "syntax"
     },
     {
@@ -1763,8 +1762,8 @@ What type of error is this?`,
     {
       question: `What type of error is this?
 
-name = "Sam"
-OUTPUT nam`,
+numbers = [1, 2, 3]
+OUTPUT numbers[5]`,
       answer: "runtime"
     }
   ];
@@ -2674,18 +2673,23 @@ if (
   currentQuestionType === "verificationIdentify" ||
   currentQuestionType === "errorTypeIdentify"
 ) {
-  
-  feedbackEl.textContent =
-    isCorrect
-    ? `✔ Correct!`
-    : `✖ Incorrect.\nCorrect answer: ${currentAnswer}`;
+  if (currentQuestionType === "errorTypeIdentify") {
+    feedbackEl.textContent =
+      isCorrect
+      ? `✔ Correct!\n${working}`
+      : `✖ Incorrect.\nCorrect answer: ${currentAnswer}\n${working}`;
+  } else {
+    feedbackEl.textContent =
+      isCorrect
+      ? `✔ Correct!`
+      : `✖ Incorrect.\nCorrect answer: ${currentAnswer}`;
+  }
 } else {
   feedbackEl.textContent =
     isCorrect
-    ? `✔ Correct!\n\nWorking:\n${working}`
-    : `✖ Incorrect.\nCorrect answer: ${currentAnswer}\n\nWorking:\n${working}`;
+      ? `✔ Correct!\n\nWorking:\n${working}`
+      : `✖ Incorrect.\nCorrect answer: ${currentAnswer}\n\nWorking:\n${working}`;
 }
-
   
 
   feedbackEl.classList.remove("correct", "incorrect");
