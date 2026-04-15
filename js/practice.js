@@ -114,7 +114,12 @@ if (topic === "validationchecks") {
   introEl.textContent = "Practise choosing validation checks and writing simple validation and verification algorithms.";
   return;
 }
-  
+
+  if (topic === "verificationchecks") {
+  titleEl.textContent = "Verification Practice";
+  introEl.textContent = "Practise identifying and using visual checks and double entry checks.";
+  return;
+}
 
 if (topic === "pseudocode") {
   titleEl.textContent = "Pseudocode Practice";
