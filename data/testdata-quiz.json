@@ -1,0 +1,198 @@
+[
+  {
+    "topicName": "testdata",
+    "mcq": {
+      "question": "What type of test data is a valid value within the expected range?",
+      "correct": "Normal data",
+      "wrong": [
+        "Abnormal data",
+        "Boundary data",
+        "Extreme data"
+      ]
+    }
+  },
+  {
+    "topicName": "testdata",
+    "mcq": {
+      "question": "What type of test data is invalid and should be rejected?",
+      "correct": "Abnormal data",
+      "wrong": [
+        "Normal data",
+        "Extreme data",
+        "Boundary data"
+      ]
+    }
+  },
+  {
+    "topicName": "testdata",
+    "mcq": {
+      "question": "What type of test data uses the lowest and highest valid values?",
+      "correct": "Extreme data",
+      "wrong": [
+        "Normal data",
+        "Abnormal data",
+        "Boundary data"
+      ]
+    }
+  },
+  {
+    "topicName": "testdata",
+    "mcq": {
+      "question": "What type of test data checks values just inside and just outside the limits?",
+      "correct": "Boundary data",
+      "wrong": [
+        "Normal data",
+        "Extreme data",
+        "Abnormal data"
+      ]
+    }
+  },
+  {
+    "topicName": "testdata",
+    "mcq": {
+      "question": "A program accepts values between 1 and 100. Which is normal data?",
+      "correct": "50",
+      "wrong": [
+        "0",
+        "101",
+        "-10"
+      ]
+    }
+  },
+  {
+    "topicName": "testdata",
+    "mcq": {
+      "question": "A program accepts values between 1 and 100. Which is extreme data?",
+      "correct": "1 and 100",
+      "wrong": [
+        "0 and 101",
+        "50 and 75",
+        "-1 and 200"
+      ]
+    }
+  },
+  {
+    "topicName": "testdata",
+    "mcq": {
+      "question": "A program accepts values between 1 and 100. Which is boundary data?",
+      "correct": "0, 1, 100, 101",
+      "wrong": [
+        "1 and 100",
+        "50 only",
+        "10 and 20"
+      ]
+    }
+  },
+
+{
+  "topicName": "testdata",
+  "mcq": {
+    "question": "A program accepts values between 10 and 20. Which is abnormal data?",
+    "correct": "25",
+    "wrong": [
+      "15",
+      "10",
+      "20"
+    ]
+  }
+},
+{
+  "topicName": "testdata",
+  "mcq": {
+    "question": "A program accepts values between 10 and 20. Which is normal data?",
+    "correct": "12",
+    "wrong": [
+      "9",
+      "21",
+      "-5"
+    ]
+  }
+},
+{
+  "topicName": "testdata",
+  "mcq": {
+    "question": "A program accepts values between 10 and 20. Which is extreme data?",
+    "correct": "10 and 20",
+    "wrong": [
+      "9 and 21",
+      "12 and 18",
+      "0 and 30"
+    ]
+  }
+},
+{
+  "topicName": "testdata",
+  "mcq": {
+    "question": "A program accepts values between 10 and 20. Which is boundary data?",
+    "correct": "9, 10, 20, 21",
+    "wrong": [
+      "10 and 20",
+      "12 and 18",
+      "11 and 19"
+    ]
+  }
+},
+{
+  "topicName": "testdata",
+  "mcq": {
+    "question": "A program accepts values between 5 and 15. Which is abnormal data?",
+    "correct": "20",
+    "wrong": [
+      "10",
+      "5",
+      "15"
+    ]
+  }
+},
+{
+  "topicName": "testdata",
+  "mcq": {
+    "question": "A program accepts values between 5 and 15. Which is boundary data?",
+    "correct": "4, 5, 15, 16",
+    "wrong": [
+      "5 and 15",
+      "10",
+      "6 and 14"
+    ]
+  }
+},
+{
+  "topicName": "testdata",
+  "mcq": {
+    "question": "A program accepts values between 100 and 200. Which is normal data?",
+    "correct": "150",
+    "wrong": [
+      "99",
+      "201",
+      "-100"
+    ]
+  }
+},
+{
+  "topicName": "testdata",
+  "mcq": {
+    "question": "A program accepts values between 100 and 200. Which is extreme data?",
+    "correct": "100 and 200",
+    "wrong": [
+      "99 and 201",
+      "150 only",
+      "0 and 300"
+    ]
+  }
+},
+{
+  "topicName": "testdata",
+  "mcq": {
+    "question": "A program accepts values between 100 and 200. Which is boundary data?",
+    "correct": "99, 100, 200, 201",
+    "wrong": [
+      "100 and 200",
+      "150",
+      "120 and 180"
+    ]
+  }
+}
+
+
+  
+]
