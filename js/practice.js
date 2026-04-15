@@ -38,6 +38,8 @@ function updateScoreDisplay() {
     totalQuestions = 4;
   } else if (getTopic() === "standardalgorithms") {
     totalQuestions = 5;
+  } else if (getTopic() === "errortypes") {
+    totalQuestions = 10;
   } else {
     totalQuestions = 10;
   }
