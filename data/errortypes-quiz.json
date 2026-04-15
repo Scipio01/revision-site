@@ -1,1 +1,86 @@
-
+[
+  {
+    "topicName": "errortypes",
+    "mcq": {
+      "question": "What type of error is caused by a missing bracket in code?",
+      "correct": "Syntax error",
+      "wrong": [
+        "Runtime error",
+        "Logic error",
+        "Validation error"
+      ]
+    }
+  },
+  {
+    "topicName": "errortypes",
+    "mcq": {
+      "question": "What type of error occurs when a program divides by zero while running?",
+      "correct": "Runtime error",
+      "wrong": [
+        "Syntax error",
+        "Logic error",
+        "Compilation error"
+      ]
+    }
+  },
+  {
+    "topicName": "errortypes",
+    "mcq": {
+      "question": "What type of error causes a program to run but produce the wrong answer?",
+      "correct": "Logic error",
+      "wrong": [
+        "Syntax error",
+        "Runtime error",
+        "Input error"
+      ]
+    }
+  },
+  {
+    "topicName": "errortypes",
+    "mcq": {
+      "question": "When are syntax errors usually found?",
+      "correct": "Before the program runs",
+      "wrong": [
+        "While the program is running",
+        "After the program finishes",
+        "Only during testing"
+      ]
+    }
+  },
+  {
+    "topicName": "errortypes",
+    "mcq": {
+      "question": "Which error would stop a program from running at all?",
+      "correct": "Syntax error",
+      "wrong": [
+        "Logic error",
+        "Runtime error",
+        "Boundary error"
+      ]
+    }
+  },
+  {
+    "topicName": "errortypes",
+    "mcq": {
+      "question": "A program crashes while running. What type of error is this most likely to be?",
+      "correct": "Runtime error",
+      "wrong": [
+        "Syntax error",
+        "Logic error",
+        "Validation error"
+      ]
+    }
+  },
+  {
+    "topicName": "errortypes",
+    "mcq": {
+      "question": "A calculation in a program uses the wrong formula. What type of error is this?",
+      "correct": "Logic error",
+      "wrong": [
+        "Syntax error",
+        "Runtime error",
+        "Input error"
+      ]
+    }
+  }
+]
