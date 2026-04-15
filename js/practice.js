@@ -1776,6 +1776,14 @@ OUTPUT numbers[5]`,
   let index = questionNumber - 1;
 
  if (index >= identifyQuestions.length) {
+  questionNumber = identifyQuestions.length;
+
+  const liveQuestionNumberEl = document.getElementById("questionNumber");
+  const liveTotalQuestionsEl = document.getElementById("totalQuestions");
+
+  if (liveQuestionNumberEl) liveQuestionNumberEl.textContent = questionNumber;
+  if (liveTotalQuestionsEl) liveTotalQuestionsEl.textContent = identifyQuestions.length;
+
   questionEl.innerHTML = `<div class="code-block">✔ You have completed all questions.</div>`;
   imageOptionsEl.innerHTML = "";
   answerEl.style.display = "none";
