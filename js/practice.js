@@ -1773,9 +1773,14 @@ OUTPUT numbers[5]`,
 
   let index = questionNumber - 1;
 
-  if (index >= identifyQuestions.length) {
-    index = identifyQuestions.length - 1;
-  }
+ if (index >= identifyQuestions.length) {
+  questionEl.innerHTML = `<div class="code-block">✔ You have completed all questions.</div>`;
+  imageOptionsEl.innerHTML = "";
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "none";
+  return;
+}
 
   const item = identifyQuestions[index];
 
