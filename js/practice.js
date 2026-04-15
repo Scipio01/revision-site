@@ -1698,7 +1698,7 @@ else {
 }
 
 
- if (topic === "validationchecks") {
+ if (topic === "validationexam") {
 
   const examQuestions = [
     {
