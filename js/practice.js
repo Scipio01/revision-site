@@ -144,6 +144,13 @@ if (topic === "validationchecks") {
   introEl.textContent = "Practise identifying syntax errors, runtime errors and logic errors.";
   return;
 } 
+
+if (topic === "testdata") {
+  titleEl.textContent = "Test Data Practice";
+  introEl.textContent = "Practise identifying normal, abnormal, extreme and boundary data.";
+  return;
+}
+  
  
 if (topic === "pseudocode") {
   titleEl.textContent = "Pseudocode Practice";
