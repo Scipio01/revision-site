@@ -1698,105 +1698,67 @@ else {
 }
 
 
-  if (topic === "validationchecks") {
+ if (topic === "validationchecks") {
 
-  const identifyQuestions = [
+  const examQuestions = [
     {
-      question: `What type of validation check is this?
+      question: `Explain the difference between validation and verification.`,
+      answer: `Validation checks that data is reasonable and within acceptable limits.
 
-IF age < 0 OR age > 120 THEN
-  OUTPUT "Invalid"`,
-      answer: "range"
+Verification checks that data has been entered correctly and matches the original source.`
     },
     {
-      question: `What type of validation check is this?
+      question: `A user enters their date of birth into a form.
 
-IF LENGTH(password) < 8 THEN
-  OUTPUT "Invalid"`,
-      answer: "length"
+Suggest a suitable validation check and explain why it is needed.`,
+      answer: `A range check could be used.
+
+This ensures the date of birth is within a realistic range, for example not in the future or unrealistically old.`
     },
     {
-      question: `What type of validation check is this?
+      question: `A user enters their email address twice.
 
-IF username = "" THEN
-  OUTPUT "Invalid"`,
-      answer: "presence"
+Suggest a suitable verification method and explain why it is used.`,
+      answer: `Double entry verification can be used.
+
+This ensures both entries match, reducing the chance of typing errors.`
     },
     {
-      question: `A user enters a postcode when filling in a form.
+      question: `Explain why validation does not guarantee that data is correct.`,
+      answer: `Validation only checks that data is reasonable.
 
-The system checks that the postcode follows the correct pattern (e.g. NP19 0AB):
-
-IF postcode does not match pattern THEN
-  OUTPUT "Invalid"
-
-What type of validation check is being used?`,
-      answer: "format"
+Data can still be incorrect but within the valid range, for example a wrong age that is still between 0 and 120.`
     },
-   {
-  question: `A user is entering their age into a form.
+    {
+      question: `Explain why verification does not guarantee that data is correct.`,
+      answer: `Verification only checks that data has been entered the same way twice.
 
-The system checks that the value entered is a number and not text.
-
-What type of validation check is being used?`,
-  answer: "type"
-}
+If the original data is wrong, both entries can still match and still be incorrect.`
+    }
   ];
 
   let index = questionNumber - 1;
 
-  if (index >= identifyQuestions.length) {
-    index = identifyQuestions.length - 1;
+  if (index >= examQuestions.length) {
+    index = examQuestions.length - 1;
   }
 
-  const item = identifyQuestions[index];
+  const item = examQuestions[index];
 
   currentQuestion = item.question;
   currentAnswer = item.answer;
-  currentQuestionType = "validationIdentify";
+  currentQuestionType = "validationExam";
+
+  questionEl.innerHTML =
+    `<div class="exam-tip">✍️ Write your answer on paper before clicking “Show answer”. Then compare your response with the model answer.</div>` +
+    `<div class="code-block" style="margin-top: 14px;"><strong>Question:</strong><br><br>${currentQuestion.replace(/\n/g, "<br>")}</div>`;
 
   imageOptionsEl.innerHTML = "";
 
-const options = ["range", "length", "presence", "format", "type"];
-
-options.forEach(opt => {
-  const btn = document.createElement("button");
-  btn.type = "button";
-  btn.className = "button";
-  btn.textContent = opt.charAt(0).toUpperCase() + opt.slice(1);
-
-  btn.addEventListener("click", () => {
-    if (checkBtn.disabled) return;
-
-    answerEl.value = opt;
-    checkAnswer();
-
-    const allButtons = imageOptionsEl.querySelectorAll("button");
-
-    allButtons.forEach(button => {
-      button.disabled = true;
-      button.style.opacity = "0.85";
-
-      if (button.textContent.toLowerCase() === currentAnswer) {
-        button.style.borderColor = "green";
-      }
-    });
-
-    if (opt !== currentAnswer) {
-      btn.style.borderColor = "red";
-    } else {
-      btn.style.borderColor = "green";
-    }
-  });
-
-  imageOptionsEl.appendChild(btn);
-});
-
-answerEl.style.display = "none";
-answerEl.parentElement.style.display = "none";
-checkBtn.style.display = "none";
-
-  questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "inline-flex";
+  checkBtn.textContent = "Show answer";
 
   return;
 }
@@ -1892,7 +1854,6 @@ What type of verification check is being used?`,
 
   return;
 }
-
   
   
   
@@ -2144,6 +2105,21 @@ if (
   checkBtn.disabled = true;
   return;
 }
+
+if (currentQuestionType === "validationExam") {
+
+  feedbackEl.innerHTML =
+    `<strong>Model Answer:</strong><br><br>` +
+    `<div class="code-block" style="line-height:1.5;">${currentAnswer.replace(/\n/g, "<br>")}</div>` +
+    `<br><br><div class="exam-tip">💡 Your answer may be worded differently and still be correct if the key idea is clear.</div>`;
+
+  feedbackEl.classList.remove("correct", "incorrect");
+  checkBtn.disabled = true;
+  return;
+}
+
+
+  
   
     if (currentQuestionType === "flowSymbol") {
       isCorrect = userAnswer === currentAnswer;
@@ -2448,9 +2424,9 @@ if (
   currentQuestionType === "standardAlgorithmsIdentify" ||
   currentQuestionType === "standardAlgorithmsFill" ||
   currentQuestionType === "standardAlgorithmsTrace" ||
-  currentQuestionType === "validationIdentify"
+  currentQuestionType === "validationIdentify" ||
+  currentQuestionType === "verificationIdentify"
 ) {
-
   
   feedbackEl.textContent =
     isCorrect
