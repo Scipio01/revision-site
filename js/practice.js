@@ -2499,6 +2499,11 @@ if (getTopic() === "validationchecks" && questionNumber >= 5) {
   showSummary();
   return;
 }
+
+  if (getTopic() === "verificationchecks" && questionNumber >= 4) {
+  showSummary();
+  return;
+}
   
   
 questionNumber++;
