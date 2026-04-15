@@ -1759,6 +1759,110 @@ If the original data is wrong, both entries can still match and still be incorre
   return;
 }
 
+if (topic === "validationchecks") {
+
+  const identifyQuestions = [
+    {
+      question: `What type of validation check is this?
+
+IF age < 0 OR age > 120 THEN
+  OUTPUT "Invalid"`,
+      answer: "range"
+    },
+    {
+      question: `What type of validation check is this?
+
+IF LENGTH(password) < 8 THEN
+  OUTPUT "Invalid"`,
+      answer: "length"
+    },
+    {
+      question: `What type of validation check is this?
+
+IF username = "" THEN
+  OUTPUT "Invalid"`,
+      answer: "presence"
+    },
+    {
+      question: `A user enters a postcode when filling in a form.
+
+The system checks that the postcode follows the correct pattern (e.g. NP19 0AB):
+
+IF postcode does not match pattern THEN
+  OUTPUT "Invalid"
+
+What type of validation check is being used?`,
+      answer: "format"
+    },
+    {
+      question: `A user is entering their age into a form.
+
+The system checks that the value entered is a number and not text.
+
+What type of validation check is being used?`,
+      answer: "type"
+    }
+  ];
+
+  let index = questionNumber - 1;
+
+  if (index >= identifyQuestions.length) {
+    index = identifyQuestions.length - 1;
+  }
+
+  const item = identifyQuestions[index];
+
+  currentQuestion = item.question;
+  currentAnswer = item.answer;
+  currentQuestionType = "validationIdentify";
+
+  imageOptionsEl.innerHTML = "";
+
+  const options = ["range", "length", "presence", "format", "type"];
+
+  options.forEach(opt => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "button";
+    btn.textContent = opt.charAt(0).toUpperCase() + opt.slice(1);
+
+    btn.addEventListener("click", () => {
+      if (checkBtn.disabled) return;
+
+      answerEl.value = opt;
+      checkAnswer();
+
+      const allButtons = imageOptionsEl.querySelectorAll("button");
+
+      allButtons.forEach(button => {
+        button.disabled = true;
+        button.style.opacity = "0.85";
+
+        if (button.textContent.toLowerCase() === currentAnswer) {
+          button.style.borderColor = "green";
+        }
+      });
+
+      if (opt !== currentAnswer) {
+        btn.style.borderColor = "red";
+      } else {
+        btn.style.borderColor = "green";
+      }
+    });
+
+    imageOptionsEl.appendChild(btn);
+  });
+
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "none";
+
+  questionEl.innerHTML = `<div class="code-block">${currentQuestion}</div>`;
+
+  return;
+}
+  
+
 if (topic === "verificationchecks") {
 
   const identifyQuestions = [
