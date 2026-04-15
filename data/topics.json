@@ -97,33 +97,7 @@
     "description": "Error types, test data and trace tables.",
     "hasPractice": false
   },
-  {
-    "id": "errortypes",
-    "name": "Error Types",
-    "level": "gcse",
-    "group": "paper2",
-    "description": "Syntax errors, runtime errors and logic errors.",
-    "hasPractice": true
-  },
-  {
-    "id": "testdata",
-    "name": "Test Data",
-    "level": "gcse",
-    "group": "paper2",
-    "description": "Normal, abnormal, extreme and boundary test data.",
-    "hasPractice": true
-  },
-  {
-    "id": "tracetables",
-    "name": "Trace Tables",
-    "level": "gcse",
-    "group": "paper2",
-    "description": "Following values through an algorithm step by step.",
-    "hasPractice": true
-  },
-
-
-  
+   
   {
     "id": "oop",
     "name": "Object-Oriented Programming",
