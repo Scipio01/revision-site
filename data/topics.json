@@ -89,8 +89,6 @@
     "description": "Program development life cycle, flowcharts, pseudocode, standard algorithms, validation, verification, testing and trace tables.",
     "hasPractice": false
   },
-
-  ,
   {
     "id": "testingtracetables",
     "name": "Testing and Trace Tables",
