@@ -38,11 +38,13 @@ function updateScoreDisplay() {
     totalQuestions = 4;
   } else if (getTopic() === "standardalgorithms") {
     totalQuestions = 5;
-  } else if (getTopic() === "errortypes") {
-    totalQuestions = 10;
-  } else {
-    totalQuestions = 10;
-  }
+} else if (getTopic() === "errortypes") {
+  totalQuestions = 10;
+} else if (getTopic() === "testdata") {
+  totalQuestions = 10;
+} else {
+  totalQuestions = 10;
+}
 
   correctCountEl.textContent = correctCount;
   incorrectCountEl.textContent = incorrectCount;
