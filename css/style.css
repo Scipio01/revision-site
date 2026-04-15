@@ -917,3 +917,9 @@ body.dark .practice-stats .stat-box {
 #feedback br {
   display: block;
 }
+
+
+.trace-missing {
+  color: #ff6b6b;
+  font-weight: bold;
+}
