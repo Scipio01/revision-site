@@ -2682,8 +2682,14 @@ if (getTopic() === "standardalgorithms") {
     difficultySelect.style.display = "none";
   }
 
-} else if (getTopic() === "validationchecks") {
+if (getTopic() === "validationchecks" || getTopic() === "verificationchecks") {
   difficultySelect.style.display = "none";
+} else if (getTopic() === "standardalgorithms") {
+  if (modeEl.value === "standardmethods") {
+    difficultySelect.style.display = "inline-block";
+  } else {
+    difficultySelect.style.display = "none";
+  }
 } else {
   difficultySelect.style.display = "inline-block";
 }
