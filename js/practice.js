@@ -1854,48 +1854,48 @@ OUTPUT numbers[5]`,
 if (topic === "testdata") {
 
   const identifyQuestions = [
-    {
-      question: "What type of test data is a valid value within the expected range?",
-      answer: "normal"
-    },
-    {
-      question: "What type of test data is invalid and should be rejected?",
-      answer: "abnormal"
-    },
-    {
-      question: "What type of test data uses the lowest and highest valid values?",
-      answer: "extreme"
-    },
-    {
-      question: "What type of test data checks values just inside and just outside the limits?",
-      answer: "boundary"
-    },
-    {
-      question: "A program accepts values between 1 and 100. Which is normal data?",
-      answer: "normal"
-    },
-    {
-      question: "A program accepts values between 1 and 100. Which is extreme data?",
-      answer: "extreme"
-    },
-    {
-      question: "A program accepts values between 1 and 100. Which is boundary data?",
-      answer: "boundary"
-    },
-    {
-      question: "A program accepts values between 10 and 20. Which is abnormal data?",
-      answer: "abnormal"
-    },
-    {
-      question: "A program accepts values between 5 and 15. Which is boundary data?",
-      answer: "boundary"
-    },
-    {
-      question: "A program accepts values between 100 and 200. Which is normal data?",
-      answer: "normal"
-    }
-  ];
-
+  {
+    question: "A program accepts values between 1 and 100. Which type of test data would 50 be?",
+    answer: "normal"
+  },
+  {
+    question: "A program accepts values between 1 and 100. Which type of test data would 0 be?",
+    answer: "abnormal"
+  },
+  {
+    question: "A program accepts values between 1 and 100. Which type of test data would 1 be?",
+    answer: "extreme"
+  },
+  {
+    question: "A program accepts values between 1 and 100. Which type of test data would 101 be?",
+    answer: "boundary"
+  },
+  {
+    question: "A program accepts values between 10 and 20. Which type of test data would 15 be?",
+    answer: "normal"
+  },
+  {
+    question: "A program accepts values between 10 and 20. Which type of test data would 9 be?",
+    answer: "boundary"
+  },
+  {
+    question: "A program accepts values between 10 and 20. Which type of test data would 25 be?",
+    answer: "abnormal"
+  },
+  {
+    question: "A program accepts values between 5 and 15. Which type of test data would 5 be?",
+    answer: "extreme"
+  },
+  {
+    question: "A program accepts values between 5 and 15. Which type of test data would 4 be?",
+    answer: "boundary"
+  },
+  {
+    question: "A program accepts values between 100 and 200. Which type of test data would 150 be?",
+    answer: "normal"
+  }
+];
+  
   let index = questionNumber - 1;
 
   if (index >= identifyQuestions.length) {
