@@ -267,13 +267,16 @@ if (topic === "standardalgorithms") {
   return;
 }
 
-  if (topic === "validationchecks") {
-  modeEl.innerHTML = `
-    <option value="identify">Identify the check</option>
-    <option value="fill">Complete the missing line</option>
-    <option value="write">Write the algorithm</option>
-    <option value="mixed">Mixed</option>
-  `;
+if (topic === "validationchecks") {
+  modeEl.style.display = "none";
+  difficultyEl.style.display = "none";
+  return;
+}
+
+
+  if (topic === "verificationchecks") {
+  modeEl.style.display = "none";
+  difficultyEl.style.display = "none";
   return;
 }
 
