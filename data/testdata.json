@@ -1,0 +1,62 @@
+[
+  {
+    "topicName": "testdata",
+    "front": "Why do we use test data?",
+    "back": "Test data is used to check that a program works correctly and produces the expected results."
+  },
+  {
+    "topicName": "testdata",
+    "front": "What is normal data?",
+    "back": "Normal data is valid data that should be accepted by the program."
+  },
+  {
+    "topicName": "testdata",
+    "front": "Give an example of normal data for a program that accepts numbers between 1 and 100.",
+    "back": "Any number between 1 and 100, such as 50."
+  },
+  {
+    "topicName": "testdata",
+    "front": "What is abnormal data?",
+    "back": "Abnormal data is invalid data that should be rejected by the program."
+  },
+  {
+    "topicName": "testdata",
+    "front": "Give an example of abnormal data for a program that accepts numbers between 1 and 100.",
+    "back": "A number outside the range, such as -10 or 150."
+  },
+  {
+    "topicName": "testdata",
+    "front": "What is extreme data?",
+    "back": "Extreme data is the lowest and highest values that are still valid."
+  },
+  {
+    "topicName": "testdata",
+    "front": "Give an example of extreme data for a program that accepts numbers between 1 and 100.",
+    "back": "1 and 100."
+  },
+  {
+    "topicName": "testdata",
+    "front": "What is boundary data?",
+    "back": "Boundary data tests the edges of the valid range, including just inside and just outside the limits."
+  },
+  {
+    "topicName": "testdata",
+    "front": "Give examples of boundary data for a program that accepts numbers between 1 and 100.",
+    "back": "0 and 1 (lower boundary), 100 and 101 (upper boundary)."
+  },
+  {
+    "topicName": "testdata",
+    "front": "Why is boundary testing important?",
+    "back": "Because errors often occur at the edges of valid input ranges."
+  },
+  {
+    "topicName": "testdata",
+    "front": "What is a test plan?",
+    "back": "A test plan is a set of test data and expected results used to test a program."
+  },
+  {
+    "topicName": "testdata",
+    "front": "What should be included in a test plan?",
+    "back": "Normal, abnormal, extreme and boundary test data with expected outcomes."
+  }
+]
