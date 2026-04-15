@@ -1697,13 +1697,17 @@ IF postcode does not match pattern THEN
   OUTPUT "Invalid"`,
       answer: "format"
     },
-    {
-      question: `What type of verification check is this?
+   {
+  question: `A user must enter their email address twice when creating an account.
+
+The system compares both entries:
 
 IF email1 = email2 THEN
-  OUTPUT "Match"`,
-      answer: "double entry"
-    }
+  OUTPUT "Match"
+
+What type of verification check is being used?`,
+  answer: "double entry"
+}
   ];
 
   let index = questionNumber - 1;
