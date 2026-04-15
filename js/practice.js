@@ -270,7 +270,6 @@ if (topic === "standardalgorithms") {
 if (topic === "validationchecks") {
   modeEl.style.display = "none";
   difficultyEl.style.display = "none";
-  return;
 }
 
 
