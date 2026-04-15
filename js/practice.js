@@ -16,6 +16,7 @@ let lastFlowchartAnswer = "";
 const questionEl = document.getElementById("question");
 const answerEl = document.getElementById("answer");
 const feedbackEl = document.getElementById("feedback");
+const difficultyEl = document.getElementById("difficulty");
 const modeEl = document.getElementById("mode");
 const checkBtn = document.getElementById("checkBtn");
 const nextBtn = document.getElementById("nextBtn");
