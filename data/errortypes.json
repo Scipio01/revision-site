@@ -1,0 +1,62 @@
+[
+  {
+    "topicName": "errortypes",
+    "front": "What is a syntax error?",
+    "back": "A syntax error is an error caused by code that does not follow the rules of the programming language."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "When are syntax errors usually found?",
+    "back": "Syntax errors are usually found before the program runs."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "What effect does a syntax error have on a program?",
+    "back": "A syntax error stops the program from running."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "What is a runtime error?",
+    "back": "A runtime error is an error that happens while the program is running."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "What effect can a runtime error have on a program?",
+    "back": "A runtime error can cause the program to crash or stop unexpectedly."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "Why can runtime errors be harder to spot than syntax errors?",
+    "back": "They only appear when the program is run."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "What is a logic error?",
+    "back": "A logic error is an error in the program logic that causes the wrong output to be produced."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "Does a logic error usually stop a program from running?",
+    "back": "No, the program usually still runs but gives an incorrect result."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "Why can logic errors be difficult to find?",
+    "back": "Because the program runs without crashing, but the answer is wrong."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "Which type of error is caused by spelling a keyword incorrectly?",
+    "back": "A syntax error."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "Which type of error could be caused by dividing by zero?",
+    "back": "A runtime error."
+  },
+  {
+    "topicName": "errortypes",
+    "front": "Which type of error could be caused by using the wrong formula in a calculation?",
+    "back": "A logic error."
+  }
+]
