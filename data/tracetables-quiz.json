@@ -66,7 +66,7 @@
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "<pre>total ← 0\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\n\n i   | total\n-----|------\n 1   | 1\n 2   | 3\n 3   | ?</pre>\n\nWhat is the final value of total?",
+      "question": "<pre>total ← 0\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\n\n i   | total\n-----|------\n 1   | 1\n 2   | 3\n 3   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of total?",
       "correct": "6",
       "wrong": ["3", "4", "5"]
     }
@@ -74,7 +74,7 @@
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "<pre>sum ← 0\nFOR i ← 1 TO 4\n  sum ← sum + 2\nNEXT i\n\n i   | sum\n-----|-----\n 1   | 2\n 2   | 4\n 3   | 6\n 4   | ?</pre>\n\nWhat is the final value of sum?",
+      "question": "<pre>sum ← 0\nFOR i ← 1 TO 4\n  sum ← sum + 2\nNEXT i\n\n i   | sum\n-----|-----\n 1   | 2\n 2   | 4\n 3   | 6\n 4   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of sum?",
       "correct": "8",
       "wrong": ["6", "7", "10"]
     }
@@ -82,7 +82,7 @@
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "<pre>count ← 1\nFOR i ← 1 TO 3\n  count ← count + 3\nNEXT i\n\n i   | count\n-----|-------\n 1   | 4\n 2   | 7\n 3   | ?</pre>\n\nWhat is the final value of count?",
+      "question": "<pre>count ← 1\nFOR i ← 1 TO 3\n  count ← count + 3\nNEXT i\n\n i   | count\n-----|-------\n 1   | 4\n 2   | 7\n 3   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of count?",
       "correct": "10",
       "wrong": ["7", "9", "12"]
     }
@@ -90,7 +90,7 @@
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "<pre>x ← 2\nFOR i ← 1 TO 3\n  x ← x * 2\nNEXT i\n\n i   | x\n-----|---\n 1   | 4\n 2   | 8\n 3   | ?</pre>\n\nWhat is the final value of x?",
+      "question": "<pre>x ← 2\nFOR i ← 1 TO 3\n  x ← x * 2\nNEXT i\n\n i   | x\n-----|---\n 1   | 4\n 2   | 8\n 3   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of x?",
       "correct": "16",
       "wrong": ["8", "12", "14"]
     }
@@ -98,7 +98,7 @@
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "<pre>y ← 10\nFOR i ← 1 TO 2\n  y ← y - 3\nNEXT i\n\n i   | y\n-----|---\n 1   | 7\n 2   | ?</pre>\n\nWhat is the final value of y?",
+      "question": "<pre>y ← 10\nFOR i ← 1 TO 2\n  y ← y - 3\nNEXT i\n\n i   | y\n-----|---\n 1   | 7\n 2   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of y?",
       "correct": "4",
       "wrong": ["5", "6", "7"]
     }
