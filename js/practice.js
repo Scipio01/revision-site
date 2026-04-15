@@ -110,7 +110,7 @@ if (topic === "standardalgorithms") {
 }
 
 if (topic === "validationchecks") {
-  titleEl.textContent = "Validation and Verification Practice";
+  titleEl.textContent = "Validation Checks Practice";
   introEl.textContent = "Practise choosing validation checks and writing simple validation and verification algorithms.";
   return;
 }
