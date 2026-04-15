@@ -385,10 +385,12 @@ if (topic === "flowcharts") {
    <div class="stat-box">Best: <span id="bestStreakCount">${bestStreak}</span></div>
    
 <div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span>/<span id="totalQuestions">${
-  topic === "standardalgorithms" ? 5 :
-  topic === "validationchecks" ? 5 :
-  topic === "verificationchecks" ? 4 :
-  10
+topic === "standardalgorithms" ? 5 :
+topic === "validationchecks" ? 5 :
+topic === "verificationchecks" ? 4 :
+topic === "errortypes" ? 10 :
+topic === "testdata" ? 10 :
+10
 }</span></div>`;
 
    
@@ -2831,15 +2833,7 @@ if (
 ) {
 
 
-  if (
-  currentQuestionType === "standardAlgorithmsIdentify" ||
-  currentQuestionType === "standardAlgorithmsFill" ||
-  currentQuestionType === "standardAlgorithmsTrace" ||
-  currentQuestionType === "validationIdentify" ||
-  currentQuestionType === "verificationIdentify" ||
-  currentQuestionType === "errorTypeIdentify" ||
-  currentQuestionType === "testDataIdentify"
-) {
+
   if (currentQuestionType === "errorTypeIdentify") {
     feedbackEl.textContent =
       isCorrect
@@ -2932,6 +2926,16 @@ if (getTopic() === "validationchecks" && questionNumber >= 5) {
 }
 
   if (getTopic() === "verificationchecks" && questionNumber >= 4) {
+  showSummary();
+  return;
+}
+
+  if (getTopic() === "errortypes" && questionNumber >= 10) {
+  showSummary();
+  return;
+}
+
+if (getTopic() === "testdata" && questionNumber >= 10) {
   showSummary();
   return;
 }
@@ -3078,9 +3082,17 @@ if (getTopic() === "sound" || getTopic() === "pseudocode") {
 
 const difficultySelect = document.getElementById("difficulty");
 
-if (getTopic() === "validationchecks" || getTopic() === "verificationchecks") {
+if (
+  getTopic() === "validationchecks" ||
+  getTopic() === "verificationchecks" ||
+  getTopic() === "errortypes" ||
+  getTopic() === "testdata"
+) {
   difficultySelect.style.display = "none";
-} else if (getTopic() === "standardalgorithms") {
+}
+
+
+else if (getTopic() === "standardalgorithms") {
   if (modeEl.value === "standardmethods") {
     difficultySelect.style.display = "inline-block";
   } else {
