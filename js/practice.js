@@ -2826,19 +2826,39 @@ if (
   currentQuestionType === "standardAlgorithmsTrace" ||
   currentQuestionType === "validationIdentify" ||
   currentQuestionType === "verificationIdentify" ||
-  currentQuestionType === "errorTypeIdentify"
+  currentQuestionType === "errorTypeIdentify" ||
+  currentQuestionType === "testDataIdentify"
+) {
+
+
+  if (
+  currentQuestionType === "standardAlgorithmsIdentify" ||
+  currentQuestionType === "standardAlgorithmsFill" ||
+  currentQuestionType === "standardAlgorithmsTrace" ||
+  currentQuestionType === "validationIdentify" ||
+  currentQuestionType === "verificationIdentify" ||
+  currentQuestionType === "errorTypeIdentify" ||
+  currentQuestionType === "testDataIdentify"
 ) {
   if (currentQuestionType === "errorTypeIdentify") {
     feedbackEl.textContent =
       isCorrect
-      ? `✔ Correct!\n${working}`
-      : `✖ Incorrect.\nCorrect answer: ${currentAnswer}\n${working}`;
+        ? `✔ Correct!\n${working}`
+        : `✖ Incorrect.\nCorrect answer: ${currentAnswer}\n${working}`;
+
+  } else if (currentQuestionType === "testDataIdentify") {
+    feedbackEl.textContent =
+      isCorrect
+        ? `✔ Correct!\n${working}`
+        : `✖ Incorrect.\nCorrect answer: ${currentAnswer}\n${working}`;
+
   } else {
     feedbackEl.textContent =
       isCorrect
-      ? `✔ Correct!`
-      : `✖ Incorrect.\nCorrect answer: ${currentAnswer}`;
+        ? `✔ Correct!`
+        : `✖ Incorrect.\nCorrect answer: ${currentAnswer}`;
   }
+
 } else {
   feedbackEl.textContent =
     isCorrect
