@@ -2,157 +2,105 @@
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\nx ← 2\ny ← 5\nx ← x + y\n\nWhat is the value of x at the end?",
+      "question": "<pre>x ← 2\ny ← 5\nx ← x + y</pre>\n\nWhat is the value of x at the end?",
       "correct": "7",
-      "wrong": [
-        "2",
-        "5",
-        "10"
-      ]
+      "wrong": ["2", "5", "10"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\nx ← 4\ny ← 3\ny ← y + 2\n\nWhat is the value of y at the end?",
+      "question": "<pre>x ← 4\ny ← 3\ny ← y + 2</pre>\n\nWhat is the value of y at the end?",
       "correct": "5",
-      "wrong": [
-        "2",
-        "3",
-        "7"
-      ]
+      "wrong": ["2", "3", "7"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\nx ← 6\ny ← 2\nx ← x - y\ny ← y + 1\n\nWhat is the value of x at the end?",
+      "question": "<pre>x ← 6\ny ← 2\nx ← x - y\ny ← y + 1</pre>\n\nWhat is the value of x at the end?",
       "correct": "4",
-      "wrong": [
-        "3",
-        "6",
-        "8"
-      ]
+      "wrong": ["3", "6", "8"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\nx ← 2\ny ← 5\nx ← x + y\ny ← y - 1\n\nWhat is the value of y at the end?",
+      "question": "<pre>x ← 2\ny ← 5\nx ← x + y\ny ← y - 1</pre>\n\nWhat is the value of y at the end?",
       "correct": "4",
-      "wrong": [
-        "5",
-        "6",
-        "7"
-      ]
+      "wrong": ["5", "6", "7"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\nscore ← 10\nbonus ← 3\nscore ← score + bonus\n\nWhat is the value of score after line 3?",
+      "question": "<pre>score ← 10\nbonus ← 3\nscore ← score + bonus</pre>\n\nWhat is the value of score after line 3?",
       "correct": "13",
-      "wrong": [
-        "3",
-        "10",
-        "16"
-      ]
+      "wrong": ["3", "10", "16"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\nnum ← 8\ncount ← 1\ncount ← count + 2\n\nWhat is the value of count after line 3?",
+      "question": "<pre>num ← 8\ncount ← 1\ncount ← count + 2</pre>\n\nWhat is the value of count after line 3?",
       "correct": "3",
-      "wrong": [
-        "1",
-        "2",
-        "8"
-      ]
+      "wrong": ["1", "2", "8"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\nx ← 3\ny ← 4\nx ← x * 2\ny ← y + x\n\nWhat is the value of x after line 3?",
+      "question": "<pre>x ← 3\ny ← 4\nx ← x * 2\ny ← y + x</pre>\n\nWhat is the value of x after line 3?",
       "correct": "6",
-      "wrong": [
-        "3",
-        "7",
-        "10"
-      ]
+      "wrong": ["3", "7", "10"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\nx ← 5\ny ← 2\nx ← x + 1\ny ← x + y\n\nWhat is the value of y after line 4?",
+      "question": "<pre>x ← 5\ny ← 2\nx ← x + 1\ny ← x + y</pre>\n\nWhat is the value of y after line 4?",
       "correct": "8",
-      "wrong": [
-        "2",
-        "6",
-        "7"
-      ]
+      "wrong": ["2", "6", "7"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\ntotal ← 0\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\n\nComplete the trace table:\n\ni | total\n1 | 1\n2 | 3\n3 | ?\n\nWhat is the final value of total?",
+      "question": "<pre>total ← 0\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\n\n i   | total\n-----|------\n 1   | 1\n 2   | 3\n 3   | ?</pre>\n\nWhat is the final value of total?",
       "correct": "6",
-      "wrong": [
-        "3",
-        "4",
-        "5"
-      ]
+      "wrong": ["3", "4", "5"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\nsum ← 0\nFOR i ← 1 TO 4\n  sum ← sum + 2\nNEXT i\n\nComplete the trace table:\n\ni | sum\n1 | 2\n2 | 4\n3 | 6\n4 | ?\n\nWhat is the final value of sum?",
+      "question": "<pre>sum ← 0\nFOR i ← 1 TO 4\n  sum ← sum + 2\nNEXT i\n\n i   | sum\n-----|-----\n 1   | 2\n 2   | 4\n 3   | 6\n 4   | ?</pre>\n\nWhat is the final value of sum?",
       "correct": "8",
-      "wrong": [
-        "6",
-        "7",
-        "10"
-      ]
+      "wrong": ["6", "7", "10"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\ncount ← 1\nFOR i ← 1 TO 3\n  count ← count + 3\nNEXT i\n\nComplete the trace table:\n\ni | count\n1 | 4\n2 | 7\n3 | ?\n\nWhat is the final value of count?",
+      "question": "<pre>count ← 1\nFOR i ← 1 TO 3\n  count ← count + 3\nNEXT i\n\n i   | count\n-----|-------\n 1   | 4\n 2   | 7\n 3   | ?</pre>\n\nWhat is the final value of count?",
       "correct": "10",
-      "wrong": [
-        "7",
-        "9",
-        "12"
-      ]
+      "wrong": ["7", "9", "12"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\nx ← 2\nFOR i ← 1 TO 3\n  x ← x * 2\nNEXT i\n\nComplete the trace table:\n\ni | x\n1 | 4\n2 | 8\n3 | ?\n\nWhat is the final value of x?",
+      "question": "<pre>x ← 2\nFOR i ← 1 TO 3\n  x ← x * 2\nNEXT i\n\n i   | x\n-----|---\n 1   | 4\n 2   | 8\n 3   | ?</pre>\n\nWhat is the final value of x?",
       "correct": "16",
-      "wrong": [
-        "8",
-        "12",
-        "14"
-      ]
+      "wrong": ["8", "12", "14"]
     }
   },
   {
     "topicName": "tracetables",
     "mcq": {
-      "question": "A program uses this pseudocode:\n\ny ← 10\nFOR i ← 1 TO 2\n  y ← y - 3\nNEXT i\n\nComplete the trace table:\n\ni | y\n1 | 7\n2 | ?\n\nWhat is the final value of y?",
+      "question": "<pre>y ← 10\nFOR i ← 1 TO 2\n  y ← y - 3\nNEXT i\n\n i   | y\n-----|---\n 1   | 7\n 2   | ?</pre>\n\nWhat is the final value of y?",
       "correct": "4",
-      "wrong": [
-        "5",
-        "6",
-        "7"
-      ]
+      "wrong": ["5", "6", "7"]
     }
   }
 ]
