@@ -1,56 +1,90 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CS Revision</title>
-<link rel="stylesheet" href="css/style.css">
-<script defer src="js/common.js"></script>
-</head><body class="theme-ocean">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS Revision</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/common.js"></script>
+</head>
+<body class="theme-ocean">
   <script data-goatcounter="https://scipio01.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-<header><div class="container navbar">
-  <div class="brand"><a href="index.html">CS Revision</a></div>
-  <div class="nav-stack">
-    <nav class="nav-links" aria-label="Main navigation">
-      <a class="nav-link" data-nav href="index.html">Home</a>
-      <a class="nav-link" data-nav href="topics.html">Topics</a>
-      <a class="nav-link" data-nav href="progress.html">Progress</a>
-    </nav>
-    <div class="nav-tools">
-      <select id="themeSelect" aria-label="Colour theme"><option value="theme-ocean">Ocean</option><option value="theme-forest">Forest</option><option value="theme-lilac">Lilac</option><option value="theme-warm">Warm</option></select>
-      <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
-    </div>
-  </div>
-</div></header>
-<main class="container">
+          async src="//gc.zgo.at/count.js"></script>
 
-  <section class="site-notice">
-  <strong>Site update:</strong> This revision site is still being built and improved. More topics, quizzes and practice tasks are being added regularly.
-</section>
-
-  
-  <section class="hero">
-    <div class="kicker">Revision website prototype</div>
-    <div class="page-head">
-      <div>
-        <h1>Flashcards, quizzes and progress in one place</h1>
-        <p class="muted"> At the moment the site is growing, data representation is nearly finished with other topics being added daily at the moment. If you are revising I wish you good luck!</p>
-      </div>
-      <div class="actions">
-        <a class="btn-primary button" href="topics.html" onclick="setSelectedLevel('gcse')">Browse GCSE</a>
-        <a class="btn-secondary button" href="topics.html" onclick="setSelectedLevel('alevel')">Browse A Level</a>
+  <header>
+    <div class="container navbar">
+      <div class="brand"><a href="index.html">CS Revision</a></div>
+      <div class="nav-stack">
+        <nav class="nav-links" aria-label="Main navigation">
+          <a class="nav-link" data-nav href="index.html">Home</a>
+          <a class="nav-link" data-nav href="topics.html">Topics</a>
+          <a class="nav-link" data-nav href="progress.html">Progress</a>
+        </nav>
+        <div class="nav-tools">
+          <select id="themeSelect" aria-label="Colour theme">
+            <option value="theme-ocean">Ocean</option>
+            <option value="theme-forest">Forest</option>
+            <option value="theme-lilac">Lilac</option>
+            <option value="theme-warm">Warm</option>
+          </select>
+          <button id="modeToggle"><span id="modeLabel">Light</span> mode</button>
+        </div>
       </div>
     </div>
-  </section>
-  <section class="summary-grid">
-    <div class="mini-card"><h3>Cleaner navigation</h3><p class="muted">Consistent top navigation, clearer level switching and stronger page structure.</p></div>
-    <div class="mini-card"><h3>Refined colour themes</h3><p class="muted">Pastel themes now keep better contrast across light and dark mode.</p></div>
-    <div class="mini-card"><h3>Progress saved locally</h3><p class="muted">Best score, last score, attempts and last topic stay in this browser only.</p></div>
-  </section>
-  <section class="grid">
-    <div class="card"><h3>Flashcards</h3><p>Flip cards with a proper 3D animation and work through one topic at a time.</p></div>
-    <div class="card"><h3>Quizzes</h3><p>Use the same content bank to generate quick multiple-choice checks.</p></div>
-    <div class="card"><h3>Scalable structure</h3><p>Separate pages, scripts and JSON data so it can later move into Flask and a database.</p></div>
-  </section>
-</main>
-<footer class="container small">Prototype version for GitHub Pages hosting.</footer>
-</body></html>
+  </header>
+
+  <main class="container">
+
+    <section class="site-notice">
+      <strong>Site update:</strong> New GCSE Computer Science topics, quizzes and practice tasks are being added regularly over the next few weeks. A Level Computer Science content is planned for Summer/Autumn.
+    </section>
+
+    <section class="hero">
+      <div class="kicker">GCSE Computer Science revision</div>
+      <div class="page-head">
+        <div>
+          <h1>Revise GCSE Computer Science with flashcards, quizzes and practice</h1>
+          <p class="muted">Build your knowledge with flashcards, test yourself with quizzes and improve with exam-style practice. New GCSE topics are being added regularly, with A Level content planned for Summer/Autumn.</p>
+        </div>
+        <div class="actions">
+          <a class="btn-primary button" href="topics.html" onclick="setSelectedLevel('gcse')">Browse GCSE</a>
+          <a class="btn-secondary button" href="topics.html" onclick="setSelectedLevel('alevel')">Browse A Level</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="summary-grid">
+      <div class="mini-card">
+        <h3>Built for revision</h3>
+        <p class="muted">Move quickly between topics, flashcards, quizzes and practice without losing your place.</p>
+      </div>
+      <div class="mini-card">
+        <h3>GCSE content growing weekly</h3>
+        <p class="muted">More topics, question sets and exam-style tasks are being added over the next few weeks.</p>
+      </div>
+      <div class="mini-card">
+        <h3>Progress saved on this device</h3>
+        <p class="muted">Best score, last score, attempts and your most recent topic are stored in this browser only.</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Flashcards</h3>
+        <p>Learn key terms, definitions and concepts one topic at a time.</p>
+      </div>
+      <div class="card">
+        <h3>Quizzes</h3>
+        <p>Check your understanding with quick multiple-choice questions and immediate feedback.</p>
+      </div>
+      <div class="card">
+        <h3>Practice</h3>
+        <p>Work through structured questions designed to build confidence for GCSE exam tasks.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container small">GCSE Computer Science revision site — updated regularly with new content.</footer>
+</body>
+</html>
