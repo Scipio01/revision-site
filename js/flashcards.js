@@ -7,7 +7,7 @@ let topicDisplayName = "Topic";
 function renderCard() {
   if (!cards.length) return;
   const card = cards[index];
-  document.getElementById('topicTitle').textContent = topicDisplayName;
+  document.getElementById('topicTitle').textContent = card.topicName;
   document.getElementById('cardCounter').textContent = `Card ${index + 1} of ${cards.length}`;
   document.getElementById('frontText').innerHTML = card.front;
   document.getElementById('backText').innerHTML = card.back;
