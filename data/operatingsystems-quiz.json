@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "mcq": {
       "question": "What is an operating system?",
       "correct": "System software that manages hardware and software",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "mcq": {
       "question": "What is a GUI?",
       "correct": "A graphical interface using windows and icons",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "mcq": {
       "question": "What is multitasking?",
       "correct": "Running multiple programs at the same time",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "mcq": {
       "question": "What is a device driver?",
       "correct": "Software that allows hardware to communicate with the computer",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "mcq": {
       "question": "What does file management do?",
       "correct": "Organises and stores files",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "mcq": {
       "question": "How does an OS provide security?",
       "correct": "Using usernames, passwords and access rights",
@@ -73,7 +73,7 @@
   },
 
 {
-  "topicName": "operatingsystems",
+  "topicName": "Operating Systems",
   "mcq": {
     "question": "Which interface uses typed commands?",
     "correct": "CLI",
@@ -85,7 +85,7 @@
   }
 },
 {
-  "topicName": "operatingsystems",
+  "topicName": "Operating Systems",
   "mcq": {
     "question": "Which interface uses menus to navigate?",
     "correct": "Menu-driven interface",
@@ -97,7 +97,7 @@
   }
 },
 {
-  "topicName": "operatingsystems",
+  "topicName": "Operating Systems",
   "mcq": {
     "question": "What does memory management prevent?",
     "correct": "Programs overwriting each other",
@@ -109,7 +109,7 @@
   }
 },
 {
-  "topicName": "operatingsystems",
+  "topicName": "Operating Systems",
   "mcq": {
     "question": "Why is multitasking important?",
     "correct": "It allows multiple programs to run at the same time",
@@ -121,7 +121,7 @@
   }
 },
 {
-  "topicName": "operatingsystems",
+  "topicName": "Operating Systems",
   "mcq": {
     "question": "What is the purpose of user accounts?",
     "correct": "To give different users different access permissions",
@@ -133,7 +133,7 @@
   }
 },
 {
-  "topicName": "operatingsystems",
+  "topicName": "Operating Systems",
   "mcq": {
     "question": "What happens when an interrupt occurs?",
     "correct": "The current task is paused so the CPU can deal with it",
@@ -145,7 +145,7 @@
   }
 },
 {
-  "topicName": "operatingsystems",
+  "topicName": "Operating Systems",
   "mcq": {
     "question": "What is the role of an operating system when running applications?",
     "correct": "Provides a platform and manages resources",
