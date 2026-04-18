@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "checkdigits",
+    "topicName": "Check Digit",
     "mcq": {
       "question": "What is a check digit?",
       "correct": "An extra digit calculated from the other digits",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "checkdigits",
+    "topicName": "Check Digit",
     "mcq": {
       "question": "What is the purpose of a check digit?",
       "correct": "To detect errors in data",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "checkdigits",
+    "topicName": "Check Digit",
     "mcq": {
       "question": "Where are check digits commonly used?",
       "correct": "Barcodes and ISBN numbers",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "checkdigits",
+    "topicName": "Check Digit",
     "mcq": {
       "question": "What does a check digit help detect?",
       "correct": "Errors during input or transmission",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "checkdigits",
+    "topicName": "Check Digit",
     "mcq": {
       "question": "Does a check digit guarantee that data is correct?",
       "correct": "No, it only helps detect errors",
