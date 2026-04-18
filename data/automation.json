@@ -1,94 +1,94 @@
 [
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "What is an automated system?",
     "back": "An automated system operates automatically without constant human input."
   },
  
 {
-  "topicName": "automation",
+  "topicName": "Automated Systems",
   "front": "What are the main parts of an automated system?",
   "back": "Input, processing, storage (for comparison values) and output."
 },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "What provides the input in an automated system?",
     "back": "Sensors collect data from the environment."
   },
 
 {
-  "topicName": "automation",
+  "topicName": "Automated Systems",
   "front": "What does the processor do in an automated system?",
   "back": "The processor compares sensor data with stored values and makes a decision."
 },
 
   
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "What provides the output in an automated system?",
     "back": "Actuators carry out actions based on the processor’s decision."
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "What is a sensor?",
     "back": "A sensor detects changes in the environment and sends data to the processor."
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "What is an actuator?",
     "back": "An actuator carries out a physical action, such as moving or switching something on or off."
   },
 
 {
-  "topicName": "automation",
+  "topicName": "Automated Systems",
   "front": "Why is storage used in an automated system?",
   "back": "To store values that the processor can compare with sensor data."
 },
 {
-  "topicName": "automation",
+  "topicName": "Automated Systems",
   "front": "What is a stored value in an automated system?",
   "back": "A preset value used by the processor to compare with sensor data."
 },
 {
-  "topicName": "automation",
+  "topicName": "Automated Systems",
   "front": "Give an example of a stored value in an automated system.",
   "back": "A temperature setting in a central heating system."
 },
 
   
 {
-  "topicName": "automation",
+  "topicName": "Automated Systems",
   "front": "Give an example of an actuator.",
   "back": "A motor, which converts electrical energy into movement."
 },
   
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "How do sensors, processors and actuators work together in an automated system?",
     "back": "Sensors collect data → the processor makes a decision → actuators carry out the action."
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "Give an example of an automated system.",
     "back": "Central heating, traffic lights or a washing machine."
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "How does a central heating system work as an automated system?",
     "back": "A sensor measures temperature → the processor compares it to a stored value → the actuator turns the heating on or off."
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "Give examples of automated systems in different areas.",
     "back": "Traffic lights (transport), irrigation systems (agriculture), weather stations, automatic lighting and industrial robots."
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "What are the advantages of automated systems?",
     "back": "They can work continuously, quickly and accurately."
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "front": "What are the disadvantages of automated systems?",
     "back": "They can reduce jobs, have high setup costs and may fail if sensor data is incorrect."
   }
