@@ -1,51 +1,51 @@
 [
   {
-    "topicName": "fde",
+   "topicName": "Fetch Decode Execute Cycle",
     "front": "What does FDE stand for?",
     "back": "Fetch-Decode-Execute."
   },
   {
-    "topicName": "fde",
+   "topicName": "Fetch Decode Execute Cycle",
     "front": "What is the fetch-decode-execute cycle?",
     "back": "The process the CPU repeatedly follows to process instructions."
   },
   {
-    "topicName": "fde",
+   "topicName": "Fetch Decode Execute Cycle",
     "front": "What happens during the fetch stage?",
     "back": "The CPU fetches the next instruction from memory (RAM or cache)."
   },
   {
-    "topicName": "fde",
+   "topicName": "Fetch Decode Execute Cycle",
     "front": "Which register holds the address of the next instruction?",
     "back": "The Program Counter (PC)."
   },
   {
-    "topicName": "fde",
+   "topicName": "Fetch Decode Execute Cycle",
     "front": "Which register stores the address being accessed?",
     "back": "The Memory Address Register (MAR)."
   },
   {
-    "topicName": "fde",
+   "topicName": "Fetch Decode Execute Cycle",
     "front": "Which register stores the fetched instruction?",
     "back": "The Memory Data Register (MDR)."
   },
   {
-    "topicName": "fde",
+   "topicName": "Fetch Decode Execute Cycle",
     "front": "What happens during the decode stage?",
     "back": "The control unit decodes the instruction to determine what needs to be done."
   },
   {
-    "topicName": "fde",
+   "topicName": "Fetch Decode Execute Cycle",
     "front": "Which register holds the current instruction being decoded?",
     "back": "The Current Instruction Register (CIR)."
   },
   {
-    "topicName": "fde",
+   "topicName": "Fetch Decode Execute Cycle",
     "front": "What happens during the execute stage?",
     "back": "The instruction is carried out, usually by the ALU."
   },
   {
-    "topicName": "fde",
+   "topicName": "Fetch Decode Execute Cycle",
     "front": "Where is the result of execution often stored?",
     "back": "In the accumulator (ACC)."
   }
