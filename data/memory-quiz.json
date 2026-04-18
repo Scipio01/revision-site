@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "mcq": {
       "question": "What is primary storage?",
       "correct": "Memory directly accessed by the CPU",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "mcq": {
       "question": "Which of these is an example of primary storage?",
       "correct": "RAM",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "mcq": {
       "question": "What does volatile mean?",
       "correct": "Loses data when power is off",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "mcq": {
       "question": "What is the main role of ROM?",
       "correct": "Store startup instructions",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "mcq": {
       "question": "Why is RAM needed?",
       "correct": "To store running programs and data",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "mcq": {
       "question": "What is virtual memory?",
       "correct": "Secondary storage used as an extension of RAM",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "mcq": {
       "question": "Why is virtual memory slower?",
       "correct": "It uses secondary storage",
