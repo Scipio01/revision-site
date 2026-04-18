@@ -1,101 +1,101 @@
 [
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "What is an input device?",
     "back": "A device that inputs data into a computer system from the outside world."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "Why is an input device needed?",
     "back": "It allows data and instructions to be entered into a computer system."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "What is a manual input device?",
     "back": "An input device that requires direct human interaction to operate."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "What is an automatic input device?",
     "back": "A device that collects input automatically with little or no human intervention."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "How does a keyboard work?",
     "back": "It uses pressure-sensitive switches to detect a key press."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "How does an optical mouse work?",
     "back": "It uses a light source and optical sensor to detect movement."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "How does a microphone work?",
     "back": "It uses vibrations to create an electrical signal. This analogue signal must be converted to digital so the computer can process it."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "What does ADC stand for?",
     "back": "Analogue-to-Digital Converter."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "Why is an ADC needed with a microphone?",
     "back": "Because the microphone produces analogue data, which must be converted into digital data."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "What is a barcode scanner used for?",
     "back": "It reads barcodes to identify products or items quickly."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "Give one advantage of barcodes.",
     "back": "They are faster to scan than entering data manually."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "What is the difference between UPC-A and Code 128 barcodes?",
     "back": "UPC-A represents numbers only, while Code 128 can represent letters and numbers."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "What is a QR code scanner used for?",
     "back": "It reads QR codes, often to open links or access stored information."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "Give one advantage of QR codes.",
     "back": "They can hold more data than a barcode."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "Why are QR codes easy to scan?",
     "back": "They can be read in any orientation using their alignment patterns."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "What is a 2D scanner used for?",
     "back": "It converts documents or images into a digital format."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "How does a 2D scanner work?",
     "back": "A bright light is shone on the image and a light-sensitive sheet records the image as pixels."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "What is a 3D scanner used for?",
     "back": "It creates a digital representation of a three-dimensional object."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "What is a point cloud?",
     "back": "A digital representation of an object created by a 3D scanner."
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "front": "How does a digital camera work?",
     "back": "It focuses light onto a CCD, which breaks the image into pixels and records the light intensity."
   }
