@@ -1,41 +1,41 @@
 [
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "front": "What is a bus in a computer system?",
     "back": "A bus is a set of wires used to transfer data, addresses and control signals between components."
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "front": "What are the three main types of bus?",
     "back": "Address bus, data bus and control bus."
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "front": "What does the address bus carry?",
     "back": "The address of the memory location where data is to be read from or written to."
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "front": "What does the data bus carry?",
     "back": "The actual data being transferred between components."
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "front": "What does the control bus carry?",
     "back": "Control signals such as read, write and clock signals."
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "front": "Which bus is unidirectional?",
     "back": "The address bus."
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "front": "Which buses are bidirectional?",
     "back": "The data bus and the control bus."
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "front": "Why are buses important?",
     "back": "They allow communication between the CPU, memory and other components."
   }
