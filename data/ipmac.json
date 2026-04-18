@@ -1,70 +1,70 @@
 [
 
 {
-  "topicName": "ipmac",
+  "topicName": "IP and MAC addresses",
   "front": "What does MAC stand for?",
   "back": "Media Access Control."
 },
   
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "What is a MAC address?",
     "back": "A MAC address is a unique identifier built into a network interface card (NIC) used to identify a device on a local network."
   },
 
   {
-  "topicName": "ipmac",
+  "topicName": "IP and MAC addresses",
   "front": "What does IP stand for?",
   "back": "Internet Protocol."
 },
   
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "What is an IP address?",
     "back": "An IP address is a unique address used to identify a device on a network and ensure data is sent to the correct destination."
   },
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "What is the difference between a MAC address and an IP address?",
     "back": "An IP address is used to send data to the correct network. A MAC address is then used to deliver the data to the exact device on that network."
   },
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "How long is a MAC address?",
     "back": "A MAC address is 48 bits long and written in hexadecimal."
   },
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "What does the first part of a MAC address show?",
     "back": "It identifies the manufacturer of the device."
   },
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "What does the second part of a MAC address show?",
     "back": "It uniquely identifies the device."
   },
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "What is IPv4?",
     "back": "IPv4 is an IP address system that uses 32 bits and is written as four numbers between 0 and 255 separated by dots."
   },
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "What is IPv6?",
     "back": "IPv6 is a newer IP address system that uses 128 bits and is written in hexadecimal separated by colons."
   },
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "Why was IPv6 introduced?",
     "back": "Because there are not enough IPv4 addresses for all devices connected to the internet."
   },
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "What is a dynamic IP address?",
     "back": "A dynamic IP address is assigned automatically and can change each time a device connects to the network."
   },
   {
-    "topicName": "ipmac",
+    "topicName": "IP and MAC addresses",
     "front": "What is a static IP address?",
     "back": "A static IP address does not change and is used for devices that need a fixed address, such as servers or printers."
   }
