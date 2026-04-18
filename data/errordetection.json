@@ -1,96 +1,96 @@
 [
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "Why can errors occur during transmission?",
     "back": "Noise, interference or signal loss."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "Why is error detection needed?",
     "back": "To ensure data is received correctly and accurately."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is a parity bit?",
     "back": "An extra bit added to data to detect errors."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is even parity?",
     "back": "The total number of 1s (including the parity bit) is even."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is odd parity?",
     "back": "The total number of 1s (including the parity bit) is odd."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is a limitation of parity?",
     "back": "It cannot correct errors and may miss some errors."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is parity block check?",
     "back": "A method using parity bits for rows and columns of data."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is an advantage of parity block check?",
     "back": "It can detect more errors than a single parity bit."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is a checksum?",
     "back": "A value calculated from data to detect errors."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "How does a checksum work?",
     "back": "The sender calculates it, the receiver recalculates and compares."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is an advantage of a checksum?",
     "back": "It can detect more errors than parity."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is an echo check?",
     "back": "Data is sent back and compared with the original."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is a check digit?",
     "back": "An extra digit used to detect data entry errors."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "Give an example of a check digit use",
     "back": "ISBN, credit cards or barcodes."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is ARQ?",
     "back": "Automatic Repeat Query, used to ensure data is received correctly."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What happens if an error is detected in ARQ?",
     "back": "A NACK is sent and the data is resent."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What happens if data is correct in ARQ?",
     "back": "An ACK is sent."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What happens if no response is received in ARQ?",
     "back": "The data is automatically resent."
   },
   {
-    "topicName": "errordetection",
+    "topicName": "Error Detection",
     "front": "What is the difference between error detection and correction?",
     "back": "Detection finds errors, correction fixes them."
   }
