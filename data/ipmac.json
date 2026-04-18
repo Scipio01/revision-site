@@ -26,7 +26,7 @@
   {
     "topicName": "ipmac",
     "front": "What is the difference between a MAC address and an IP address?",
-    "back": "A MAC address identifies a device on a local network, while an IP address identifies a device on a network or the internet."
+    "back": "An IP address is used to send data to the correct network. A MAC address is then used to deliver the data to the exact device on that network."
   },
   {
     "topicName": "ipmac",
