@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "mcq": {
       "question": "What is an input device?",
       "correct": "A device used to enter data into a computer system",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "mcq": {
       "question": "Why are input devices needed?",
       "correct": "To allow data and instructions to be entered into a system",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "mcq": {
       "question": "Which of these is a manual input device?",
       "correct": "Keyboard",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "mcq": {
       "question": "How does an optical mouse detect movement?",
       "correct": "Using a light source and optical sensor",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "mcq": {
       "question": "Why is an ADC needed with a microphone?",
       "correct": "To convert analogue sound into digital data",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "mcq": {
       "question": "What is one advantage of barcodes?",
       "correct": "They can be scanned faster than entering data manually",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "mcq": {
       "question": "What is one advantage of QR codes compared with barcodes?",
       "correct": "They can hold more data",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "mcq": {
       "question": "What is a 2D scanner used for?",
       "correct": "To convert documents or images into a digital format",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "mcq": {
       "question": "What does a 3D scanner create?",
       "correct": "A digital representation of a 3D object",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "topicName": "inputdevices",
+    "topicName": "Input Devices",
     "mcq": {
       "question": "How does a digital camera capture an image?",
       "correct": "By focusing light onto a CCD that records pixels",
