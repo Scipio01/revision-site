@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "mcq": {
       "question": "What is a bus?",
       "correct": "A set of wires used to transfer data, addresses and control signals",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "mcq": {
       "question": "Which of these is a type of bus?",
       "correct": "Address bus",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "mcq": {
       "question": "What does the data bus carry?",
       "correct": "The actual data",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "mcq": {
       "question": "What does the control bus carry?",
       "correct": "Control signals",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "buses",
+    "topicName": "Buses",
     "mcq": {
       "question": "Which bus is unidirectional?",
       "correct": "Address bus",
