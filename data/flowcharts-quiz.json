@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "What is an algorithm?",
       "correct": "A set of instructions to solve a problem",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "What is a flowchart?",
       "correct": "A diagram showing the steps of an algorithm",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "Which symbol is used for the start and end of a flowchart?",
       "correct": "Terminal",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "Which symbol is used to show input or output?",
       "correct": "Input/Output",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "Which symbol is used for calculations or instructions?",
       "correct": "Process",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "Which symbol is used to make a decision?",
       "correct": "Decision",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "What must be labelled on the branches of a decision?",
       "correct": "Yes/No",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "What do flow lines show?",
       "correct": "The direction of the algorithm",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "A step calculates total ← num1 + num2. Which symbol is used?",
       "correct": "Process",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "A program asks the user to enter a number. Which symbol is used?",
       "correct": "Input/Output",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "A program checks if age > 18. Which symbol is used?",
       "correct": "Decision",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "Why are flowcharts used?",
       "correct": "To plan and understand algorithms",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "topicName": "flowcharts",
+    "topicName": "Flowcharts",
     "mcq": {
       "question": "Which of the following is a design method?",
       "correct": "Flowchart",
