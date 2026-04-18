@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "ides",
+    "topicName": "Integrated Development Environment",
     "mcq": {
       "question": "What does IDE stand for?",
       "correct": "Integrated Development Environment",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "ides",
+    "topicName": "Integrated Development Environment",
     "mcq": {
       "question": "What is an IDE?",
       "correct": "Software used to write, test and debug programs",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "ides",
+    "topicName": "Integrated Development Environment",
     "mcq": {
       "question": "What does a code editor do?",
       "correct": "Allows programmers to write and edit code",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "ides",
+    "topicName": "Integrated Development Environment",
     "mcq": {
       "question": "What is the purpose of a run-time environment?",
       "correct": "Allows programs to run and be tested",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "ides",
+    "topicName": "Integrated Development Environment",
     "mcq": {
       "question": "What does syntax highlighting do?",
       "correct": "Uses colours to make code easier to read",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "ides",
+    "topicName": "Integrated Development Environment",
     "mcq": {
       "question": "What is auto-completion?",
       "correct": "Suggests code as the programmer types",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "ides",
+    "topicName": "Integrated Development Environment",
     "mcq": {
       "question": "What is the benefit of error diagnostics?",
       "correct": "Helps identify and fix errors in code",
