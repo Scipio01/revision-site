@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "cpu",
+    "topicName": "Central Processing Unit",
     "mcq": {
       "question": "What is the main role of the CPU?",
       "correct": "To fetch, decode and execute instructions",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "cpu",
+    "topicName": "Central Processing Unit",
     "mcq": {
       "question": "What does the CPU process?",
       "correct": "Instructions and data",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "cpu",
+    "topicName": "Central Processing Unit",
     "mcq": {
       "question": "Where are instructions stored before the CPU processes them?",
       "correct": "RAM",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "cpu",
+    "topicName": "Central Processing Unit",
     "mcq": {
       "question": "Which cycle does the CPU constantly repeat?",
       "correct": "Fetch-decode-execute cycle",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "cpu",
+    "topicName": "Central Processing Unit",
     "mcq": {
       "question": "What happens after the CPU processes data?",
       "correct": "The result is output",
