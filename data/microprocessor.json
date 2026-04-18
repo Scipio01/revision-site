@@ -1,31 +1,31 @@
 [
   {
-    "topicName": "microprocessor",
+    "topicName": "Microprocessor",
     "front": "What is a microprocessor?",
     "back": "A microprocessor is an integrated circuit on a single chip that contains the CPU."
   },
   {
-    "topicName": "microprocessor",
+    "topicName": "Microprocessor",
     "front": "What does a microprocessor contain?",
     "back": "The CPU, including the control unit, ALU and registers."
   },
   {
-    "topicName": "microprocessor",
+    "topicName": "Microprocessor",
     "front": "Why is a microprocessor important?",
     "back": "It allows all CPU functions to be performed on a single chip."
   },
   {
-    "topicName": "microprocessor",
+    "topicName": "Microprocessor",
     "front": "What is meant by an integrated circuit?",
     "back": "A complete electronic circuit built onto a single chip."
   },
   {
-    "topicName": "microprocessor",
+    "topicName": "Microprocessor",
     "front": "Where is the microprocessor found in a computer?",
     "back": "On the motherboard."
   },
   {
-    "topicName": "microprocessor",
+    "topicName": "Microprocessor",
     "front": "How does a microprocessor improve computers?",
     "back": "It makes computers smaller, faster and more efficient."
   }
