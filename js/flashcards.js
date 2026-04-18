@@ -3,6 +3,7 @@ let index = 0;
 let flipped = false;
 let topicDisplayName = "Topic";
 
+
 function renderCard() {
   if (!cards.length) return;
   const card = cards[index];
