@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "What is a packet?",
       "correct": "A small piece of data sent across a network",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "Why is data split into packets?",
       "correct": "To allow efficient and reliable transmission",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "Which of the following is NOT part of a packet?",
       "correct": "Protocol",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "What is stored in the payload?",
       "correct": "The actual data being sent",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "What is the role of the header?",
       "correct": "Store addressing and packet information",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "Which of the following is found in the header?",
       "correct": "Packet number",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "What is the function of the trailer?",
       "correct": "Marks the end and checks for errors",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "What is packet switching?",
       "correct": "Sending packets independently and reassembling them",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "What is the first step in packet switching?",
       "correct": "Data is broken into packets",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "What device is used to send packets between networks?",
       "correct": "Router",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "Why might packets take different routes?",
       "correct": "Routers choose the best available route",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "Why might packets arrive out of order?",
       "correct": "They take different routes",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "How are packets put back in the correct order?",
       "correct": "Using the packet number in the header",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "topicName": "datapackets",
+    "topicName": "Data Packets",
     "mcq": {
       "question": "What extra information helps reassemble a message?",
       "correct": "Number of packets",
