@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "fde",
+    "topicName": "Fetch Decode Execute Cycle",
     "mcq": {
       "question": "What does FDE stand for?",
       "correct": "Fetch-Decode-Execute",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "fde",
+    "topicName": "Fetch Decode Execute Cycle",
     "mcq": {
       "question": "What happens during the fetch stage?",
       "correct": "The next instruction is retrieved from memory",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "fde",
+    "topicName": "Fetch Decode Execute Cycle",
     "mcq": {
       "question": "Which register holds the address of the next instruction?",
       "correct": "Program Counter (PC)",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "fde",
+    "topicName": "Fetch Decode Execute Cycle",
     "mcq": {
       "question": "What happens during the decode stage?",
       "correct": "The control unit interprets the instruction",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "fde",
+    "topicName": "Fetch Decode Execute Cycle",
     "mcq": {
       "question": "What happens during the execute stage?",
       "correct": "The instruction is carried out",
