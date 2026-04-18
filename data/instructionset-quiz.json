@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "instructionset",
+    "topicName": "Instruction Set",
     "mcq": {
       "question": "What is an instruction set?",
       "correct": "A list of commands a CPU can process",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "instructionset",
+    "topicName": "Instruction Set",
     "mcq": {
       "question": "In what form are instructions stored?",
       "correct": "Machine code",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "instructionset",
+    "topicName": "Instruction Set",
     "mcq": {
       "question": "Why is an instruction set important?",
       "correct": "It defines what operations a CPU can perform",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "instructionset",
+    "topicName": "Instruction Set",
     "mcq": {
       "question": "What happens if a CPU does not recognise an instruction?",
       "correct": "It cannot execute it",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "instructionset",
+    "topicName": "Instruction Set",
     "mcq": {
       "question": "Do all CPUs have the same instruction set?",
       "correct": "No",
