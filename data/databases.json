@@ -12,19 +12,5 @@
         "To sort every field alphabetically"
       ]
     }
-  },
-  {
-    "topicName": "Databases",
-    "front": "What does atomic mean in 1NF?",
-    "back": "Each field should contain one item only and not multiple values.",
-    "mcq": {
-      "question": "In 1NF, atomic means a field should...",
-      "correct": "Contain one item only",
-      "wrong": [
-        "Contain only numbers",
-        "Always be a primary key",
-        "Be repeated in every row"
-      ]
-    }
-  }
+  
 ]
