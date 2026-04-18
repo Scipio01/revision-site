@@ -1,31 +1,31 @@
 [
   {
-    "topicName": "cpu",
+   "topicName": "Central Processing Unit",
     "front": "What is the role of the CPU?",
     "back": "To fetch, decode and execute instructions and process data."
   },
   {
-    "topicName": "cpu",
+   "topicName": "Central Processing Unit",
     "front": "What does the CPU process?",
     "back": "Instructions and data input into the computer."
   },
   {
-    "topicName": "cpu",
+   "topicName": "Central Processing Unit",
     "front": "What happens after the CPU processes data?",
     "back": "The result is output."
   },
   {
-    "topicName": "cpu",
+   "topicName": "Central Processing Unit",
     "front": "What three steps does the CPU repeat constantly?",
     "back": "Fetch, decode and execute."
   },
   {
-    "topicName": "cpu",
+   "topicName": "Central Processing Unit",
     "front": "Why is the CPU important?",
     "back": "It carries out processing and instructions in a computer."
   },
   {
-    "topicName": "cpu",
+   "topicName": "Central Processing Unit",
     "front": "Where does the CPU get instructions from?",
     "back": "Main memory (RAM)."
   }
