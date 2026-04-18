@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "What is artificial intelligence?",
       "correct": "Simulation of intelligent behaviour by computers",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "Which is a characteristic of an AI system?",
       "correct": "Ability to reason",
@@ -24,7 +24,7 @@
     }
   },
     {
-      "topicName": "AI",
+      "topicName": "Artificial Intelligence",
       "mcq": {
         "question": "Which set shows all four characteristics of an AI system?",
         "correct": "Collection of data, rules for using data, ability to reason, ability to learn and adapt",
@@ -36,7 +36,7 @@
       }
     },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "A system collects data and applies rules to make decisions. Which characteristic of AI is this?",
       "correct": "Rules for using data",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "A system improves its performance as it processes more data. Which characteristic of AI is this?",
       "correct": "Ability to learn and adapt",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "What does an expert system do?",
       "correct": "Simulates the decisions of a human expert",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "Which component of an expert system stores facts?",
       "correct": "Knowledge base",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "Which component of an expert system stores rules?",
       "correct": "Rule base",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "What does the inference engine do?",
       "correct": "Applies rules to reach conclusions",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "What is the role of the interface in an expert system?",
       "correct": "Allows the user to interact with the system",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "What is machine learning?",
       "correct": "AI that learns patterns from data",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "A medical system uses a knowledge base, rule base and inference engine to suggest a diagnosis. What type of AI is this?",
       "correct": "Expert system",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "A program identifies patterns in data and improves over time. What type of AI is this?",
       "correct": "Machine learning",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "mcq": {
       "question": "Which is an example use of AI?",
       "correct": "Speech recognition",
