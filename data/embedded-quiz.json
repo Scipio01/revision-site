@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "mcq": {
       "question": "What is an embedded system?",
       "correct": "A computer system built into another device to perform a specific function",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "mcq": {
       "question": "What is meant by a dedicated function?",
       "correct": "A single fixed task",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "mcq": {
       "question": "Which of these is an example of an embedded system?",
       "correct": "Washing machine",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "mcq": {
       "question": "How is an embedded system different from a general-purpose computer?",
       "correct": "It is designed for one main task",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "mcq": {
       "question": "What is firmware?",
       "correct": "Software stored in ROM",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "mcq": {
       "question": "What is a microcontroller?",
       "correct": "A single microprocessor system including CPU, RAM and ROM used to control a device",
