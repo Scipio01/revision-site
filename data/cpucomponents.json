@@ -1,31 +1,31 @@
 [
   {
-    "topicName": "cpucomponents",
+   "topicName": "Main CPU Components",
     "front": "What are the main components of the CPU?",
     "back": "The main components are the control unit (CU), arithmetic logic unit (ALU), registers and cache memory."
   },
   {
-    "topicName": "cpucomponents",
+   "topicName": "Main CPU Components",
     "front": "What does the control unit do?",
     "back": "It controls and coordinates the operations of the CPU and the rest of the computer."
   },
   {
-    "topicName": "cpucomponents",
+   "topicName": "Main CPU Components",
     "front": "What does the arithmetic logic unit (ALU) do?",
     "back": "It carries out arithmetic calculations and logical operations."
   },
   {
-    "topicName": "cpucomponents",
+   "topicName": "Main CPU Components",
     "front": "What are registers?",
     "back": "Registers are very small, very fast memory locations inside the CPU."
   },
   {
-    "topicName": "cpucomponents",
+   "topicName": "Main CPU Components",
     "front": "What is cache memory?",
     "back": "Cache memory is a small amount of fast memory that stores frequently used data and instructions."
   },
   {
-    "topicName": "cpucomponents",
+   "topicName": "Main CPU Components",
     "front": "Why is cache memory useful?",
     "back": "It is faster for the CPU to access than RAM, so it speeds up processing."
   }
