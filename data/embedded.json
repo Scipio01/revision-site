@@ -1,61 +1,61 @@
 [
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "What is an embedded system?",
     "back": "An embedded system is a combination of hardware and software designed to carry out a specific or dedicated function within a larger device."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "What is meant by a dedicated function?",
     "back": "A single fixed task that a system is designed to perform."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "What is the main purpose of an embedded system?",
     "back": "To carry out one specific task inside a larger system or device."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "How is an embedded system different from a general-purpose computer?",
     "back": "An embedded system is designed for one specific task, while a general-purpose computer is designed to perform many different tasks."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "What is a general-purpose computer?",
     "back": "A computer designed to perform many different tasks, such as a PC or laptop."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "Give examples of embedded systems.",
     "back": "Washing machines, microwaves, cars, security systems, lighting systems and vending machines."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "Why are embedded systems often reliable?",
     "back": "Because they are designed to do one main job and can be optimised for that task."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "What is a microcontroller?",
     "back": "A microcontroller is a single microprocessor system that includes a CPU, RAM and ROM and is used to control a device."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "What is firmware?",
     "back": "Firmware is software stored in ROM."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "Why is ROM often used in embedded systems?",
     "back": "Because the software is fixed, reliable and does not need to be changed often."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "Can users usually install lots of new software on an embedded system?",
     "back": "No, embedded systems are normally designed for one main purpose."
   },
   {
-    "topicName": "embedded",
+    "topicName": "Embedded Systems",
     "front": "What kind of inputs might an embedded system use?",
     "back": "Simple inputs such as sensors, switches or buttons."
   }
