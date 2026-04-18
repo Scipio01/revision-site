@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "mcq": {
       "question": "What is an automated system?",
       "correct": "A system that operates automatically",
@@ -13,7 +13,7 @@
   },
 
 {
-  "topicName": "automation",
+  "topicName": "Automated Systems",
   "mcq": {
     "question": "What are the three main parts of an automated system?",
     "correct": "Input (sensors), processing (comparison) and output (actuators)",
@@ -26,7 +26,7 @@
 },
 
   {
-  "topicName": "automation",
+  "topicName": "Automated Systems",
   "mcq": {
     "question": "What does processing usually involve in an automated system?",
     "correct": "Comparing sensor data to stored values",
@@ -40,7 +40,7 @@
 
   
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "mcq": {
       "question": "What provides the input in an automated system?",
       "correct": "Sensors",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "mcq": {
       "question": "What carries out the output in an automated system?",
       "correct": "An actuator",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "mcq": {
       "question": "What does the processor do in an automated system?",
       "correct": "Makes decisions using sensor data",
@@ -76,7 +76,7 @@
     }
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "mcq": {
       "question": "How do sensors, processors and actuators work together?",
       "correct": "Sensors collect data, processor decides, actuator acts",
@@ -88,7 +88,7 @@
     }
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "mcq": {
       "question": "Which is an example of an automated system?",
       "correct": "Central heating",
@@ -100,7 +100,7 @@
     }
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "mcq": {
       "question": "Which scenario best describes an automated system?",
       "correct": "A thermostat turning heating on when temperature drops",
@@ -112,7 +112,7 @@
     }
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "mcq": {
       "question": "Which is an example of automation in transport?",
       "correct": "Traffic lights changing automatically",
@@ -124,7 +124,7 @@
     }
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "mcq": {
       "question": "What is one advantage of automated systems?",
       "correct": "They can work continuously",
@@ -136,7 +136,7 @@
     }
   },
   {
-    "topicName": "automation",
+    "topicName": "Automated Systems",
     "mcq": {
       "question": "What is one disadvantage of automated systems?",
       "correct": "They may fail if sensor data is wrong",
