@@ -1,86 +1,86 @@
 [
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What hardware is needed to connect a device to a network?",
     "back": "A device needs a Network Interface Card (NIC) to connect to a network."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What hardware is needed to connect to the internet?",
     "back": "A device needs a NIC and a router to connect to the internet."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What is a Network Interface Card (NIC)?",
     "back": "A NIC allows a device to connect to a network."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "Give examples of devices that have a NIC.",
     "back": "Laptops, smartphones, tablets and games consoles."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What is a router?",
     "back": "A router connects a local network (LAN) to the internet and forwards data packets to their destination."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What features can a router provide?",
     "back": "A router can provide a wireless access point (Wi-Fi) and DHCP to assign IP addresses to devices."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What does a router use to forward packets?",
     "back": "It uses IP addresses."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What is a Wireless Access Point (WAP)?",
     "back": "A device that allows devices to connect to a network wirelessly using Wi-Fi."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What is a modem?",
     "back": "A modem converts digital data into analogue signals for transmission and back into digital at the receiving end."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What does DHCP stand for?",
     "back": "Dynamic Host Configuration Protocol."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What does DHCP do?",
     "back": "It automatically assigns IP addresses to devices that want to connect to a network."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What is a packet?",
     "back": "A packet is a small piece of data sent across a network."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What information is stored in a packet?",
     "back": "Destination IP address, source IP address, sequence number and the data."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What is packet switching?",
     "back": "Packet switching is a method of sending data where data is split into packets and sent across a network."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What are the steps in packet switching?",
     "back": "Data is split into packets → packets are sent to a router → packets may take different routes → packets are reassembled in order at the destination."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "Do packets always take the same route?",
     "back": "No, packets can take different routes across the network."
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "front": "What happens to packets at the destination?",
     "back": "They are reassembled in the correct order using the sequence number."
   }
