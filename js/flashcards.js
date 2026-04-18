@@ -1,11 +1,12 @@
 let cards = [];
 let index = 0;
 let flipped = false;
+let topicDisplayName = "Topic";
 
 function renderCard() {
   if (!cards.length) return;
   const card = cards[index];
-  document.getElementById('topicTitle').textContent = card.topicName;
+  document.getElementById('topicTitle').textContent = topicDisplayName;
   document.getElementById('cardCounter').textContent = `Card ${index + 1} of ${cards.length}`;
   document.getElementById('frontText').innerHTML = card.front;
   document.getElementById('backText').innerHTML = card.back;
@@ -23,6 +24,12 @@ async function showPracticeLinkIfAvailable(topic) {
   if (topicMeta?.hasPractice) {
     document.getElementById('practiceLink').style.display = 'inline-flex';
   }
+}
+
+async function getTopicDisplayName(topic) {
+  const metaRes = await fetch('data/topics.json');
+  const topics = await metaRes.json();
+  return topics.find(item => item.id === topic)?.name || topic;
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
