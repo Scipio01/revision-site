@@ -1,105 +1,105 @@
 [
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is an operating system (OS)?",
     "back": "System software that manages the hardware and software of a computer and provides services for users and applications."
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is the main role of an operating system?",
     "back": "To manage resources, provide security and allow the user to interact with the computer."
   },
 
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is a user interface?",
     "back": "A way for the user to interact with the computer."
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is a GUI?",
     "back": "Graphical User Interface – uses windows, icons and menus."
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is a CLI?",
     "back": "Command Line Interface – uses typed text commands."
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is a menu-driven interface?",
     "back": "Uses menus to allow the user to choose options."
   },
 
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What does memory management do?",
     "back": "Controls how RAM is used and ensures programs do not overwrite each other."
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is multitasking?",
     "back": "Running multiple programs at the same time."
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "How does an OS manage multitasking?",
     "back": "By rapidly switching CPU time between programs so they appear to run simultaneously."
   },
 
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is peripheral management?",
     "back": "Controlling input and output devices connected to the computer."
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is a device driver?",
     "back": "Software that allows a peripheral device to communicate with the computer."
   },
 
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is file management?",
     "back": "Organising, storing and accessing files on storage devices."
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "Why is file management important?",
     "back": "It ensures files do not overwrite each other and can be accessed efficiently."
   },
 
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "How does an OS provide system security?",
     "back": "Using usernames, passwords and access rights to prevent unauthorised access."
   },
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What are access rights?",
     "back": "Permissions that control what a user can do with files or systems."
   },
 
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is user account management?",
     "back": "Allowing multiple users to have separate accounts with different permissions."
   },
 
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "How does an OS handle interrupts?",
     "back": "It pauses the current task so the CPU can deal with an important event."
   },
 
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "What is the role of an OS in running applications?",
     "back": "It provides a platform for applications by managing memory, files and hardware."
   },
 
   {
-    "topicName": "operatingsystems",
+    "topicName": "Operating Systems",
     "front": "Why are different versions of software needed for different operating systems?",
     "back": "Because each OS manages hardware and software differently."
   }
