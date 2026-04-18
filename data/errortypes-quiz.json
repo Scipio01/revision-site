@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "errortypes",
+    "topicName": "Error Types",
     "mcq": {
       "question": "What type of error is caused by a missing bracket in code?",
       "correct": "Syntax error",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "errortypes",
+    "topicName": "Error Types",
     "mcq": {
       "question": "What type of error occurs when a program divides by zero while running?",
       "correct": "Runtime error",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "errortypes",
+    "topicName": "Error Types",
     "mcq": {
       "question": "What type of error causes a program to run but produce the wrong answer?",
       "correct": "Logic error",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "errortypes",
+    "topicName": "Error Types",
     "mcq": {
       "question": "When are syntax errors usually found?",
       "correct": "Before the program runs",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "errortypes",
+    "topicName": "Error Types",
     "mcq": {
       "question": "Which error would stop a program from running at all?",
       "correct": "Syntax error",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "errortypes",
+    "topicName": "Error Types",
     "mcq": {
       "question": "A program crashes while running. What type of error is this most likely to be?",
       "correct": "Runtime error",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "errortypes",
+    "topicName": "Error Types",
     "mcq": {
       "question": "A calculation in a program uses the wrong formula. What type of error is this?",
       "correct": "Logic error",
