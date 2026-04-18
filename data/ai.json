@@ -1,101 +1,101 @@
 [
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What is artificial intelligence (AI)?",
     "back": "A branch of computer science that focuses on the simulation of intelligent behaviour by computers."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "Give one ability of an AI system.",
     "back": "Reasoning, learning, or adapting to new situations."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "State one characteristic of an AI system.",
     "back": "Collection of data."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "State one characteristic of an AI system.",
     "back": "Rules for using data."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "State one characteristic of an AI system.",
     "back": "Ability to reason."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "State one characteristic of an AI system.",
     "back": "Ability to learn and adapt."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "State all four characteristics of an AI system.",
     "back": "Collection of data, rules for using data, ability to reason, ability to learn and adapt."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What does it mean that an AI system collects data?",
     "back": "It uses data to make decisions or draw conclusions."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What are rules for using data in an AI system?",
     "back": "Instructions or patterns that determine how data is used to make decisions."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What does it mean if an AI system can reason?",
     "back": "It can draw conclusions from data and rules."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What does it mean if an AI system can learn and adapt?",
     "back": "It can improve performance over time as it processes more data."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What two types of AI systems are in the specification?",
     "back": "Expert systems and machine learning."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What is an expert system?",
     "back": "A computer program that simulates the decision-making ability of a human expert."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What is the knowledge base in an expert system?",
     "back": "Stores facts and information."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What is the rule base in an expert system?",
     "back": "Stores rules that link information in the knowledge base."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What is the inference engine in an expert system?",
     "back": "Applies rules to the knowledge base to reach conclusions."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What is the interface in an expert system?",
     "back": "Allows the user to interact with the system."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "What is machine learning?",
     "back": "A type of AI where a program learns from data and can automatically adapt its own processes or data."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "How is machine learning different from a normal program?",
     "back": "It learns patterns from data instead of relying only on pre-programmed rules."
   },
   {
-    "topicName": "AI",
+    "topicName": "Artificial Intelligence",
     "front": "Give one example use of AI.",
     "back": "Self-driving vehicles, speech recognition, chatbots, image recognition, healthcare, or product recommendations."
   }
