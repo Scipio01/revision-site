@@ -120,6 +120,12 @@ body.dark.theme-forest {
   --card-text-back: #f6f8ff;
 }
 
+body.dark .site-notice {
+  background: var(--surface-strong);
+  color: var(--text);
+  border-color: var(--line);
+}
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
