@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "interrupts",
+    "topicName": "Interrupts",
     "mcq": {
       "question": "What is an interrupt?",
       "correct": "A signal to the CPU requiring immediate attention",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "interrupts",
+    "topicName": "Interrupts",
     "mcq": {
       "question": "What does the CPU do when an interrupt occurs?",
       "correct": "Pauses the current task",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "interrupts",
+    "topicName": "Interrupts",
     "mcq": {
       "question": "What is an ISR?",
       "correct": "A program that runs when an interrupt occurs",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "interrupts",
+    "topicName": "Interrupts",
     "mcq": {
       "question": "Which of these is a hardware interrupt?",
       "correct": "Keyboard input",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "interrupts",
+    "topicName": "Interrupts",
     "mcq": {
       "question": "Which of these is a software interrupt?",
       "correct": "Division by zero",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "interrupts",
+    "topicName": "Interrupts",
     "mcq": {
       "question": "What happens after the ISR is completed?",
       "correct": "The CPU resumes the original process",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "interrupts",
+    "topicName": "Interrupts",
     "mcq": {
       "question": "Why are interrupts useful?",
       "correct": "They allow quick response to important events",
