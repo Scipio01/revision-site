@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What hardware is needed to connect a device to a network?",
       "correct": "A Network Interface Card (NIC)",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What hardware is needed to connect to the internet?",
       "correct": "A NIC and a router",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What does a NIC do?",
       "correct": "Allows a device to connect to a network",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What does a router do?",
       "correct": "Connects a local network to the internet and forwards packets",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What can a router provide?",
       "correct": "Wi-Fi access and DHCP",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What does a router use to forward packets?",
       "correct": "IP addresses",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What is a WAP used for?",
       "correct": "Allowing devices to connect wirelessly using Wi-Fi",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What does DHCP stand for?",
       "correct": "Dynamic Host Configuration Protocol",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What does DHCP do?",
       "correct": "Automatically assigns IP addresses to devices",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What is a packet?",
       "correct": "A small piece of data sent across a network",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What is packet switching?",
       "correct": "Sending data by splitting it into packets",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "Which is the correct order for packet switching?",
       "correct": "Split into packets, sent across network, may take different routes, reassembled at destination",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "topicName": "networkhardware",
+    "topicName": "Network Hardware",
     "mcq": {
       "question": "What helps packets get put back into the correct order?",
       "correct": "Sequence number",
