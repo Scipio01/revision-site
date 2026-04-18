@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "clockspeed",
+    "topicName": "Clock Speed",
     "mcq": {
       "question": "What is CPU performance?",
       "correct": "How quickly a CPU processes instructions",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "clockspeed",
+    "topicName": "Clock Speed",
     "mcq": {
       "question": "What is clock speed measured in?",
       "correct": "Hertz (Hz)",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "clockspeed",
+    "topicName": "Clock Speed",
     "mcq": {
       "question": "What does a higher clock speed mean?",
       "correct": "More instructions processed per second",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "clockspeed",
+    "topicName": "Clock Speed",
     "mcq": {
       "question": "What is a CPU core?",
       "correct": "An independent processing unit",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "clockspeed",
+    "topicName": "Clock Speed",
     "mcq": {
       "question": "How does cache memory improve performance?",
       "correct": "It stores frequently used data for faster access",
