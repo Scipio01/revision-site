@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "cloud",
+    "topicName": "Cloud Storage",
     "mcq": {
       "question": "What is cloud storage?",
       "correct": "Storage on remote servers accessed via the internet",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "cloud",
+    "topicName": "Cloud Storage",
     "mcq": {
       "question": "What does remote access mean?",
       "correct": "Accessing data from anywhere using the internet",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "cloud",
+    "topicName": "Cloud Storage",
     "mcq": {
       "question": "Where is cloud data stored?",
       "correct": "On physical servers in data centres",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "cloud",
+    "topicName": "Cloud Storage",
     "mcq": {
       "question": "What is an advantage of cloud storage?",
       "correct": "Access from anywhere",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "cloud",
+    "topicName": "Cloud Storage",
     "mcq": {
       "question": "What is a disadvantage of cloud storage?",
       "correct": "Requires an internet connection",
