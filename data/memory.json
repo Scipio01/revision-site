@@ -1,66 +1,66 @@
 [
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "What is primary storage?",
     "back": "Memory that is directly accessed by the CPU and used to store programs and data currently in use."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "Give two examples of primary storage.",
     "back": "RAM and ROM."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "What is RAM?",
     "back": "Primary storage that stores programs and data currently in use."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "What does volatile mean?",
     "back": "Memory that loses its contents when the power is turned off."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "Is RAM volatile or non-volatile?",
     "back": "Volatile."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "What is ROM?",
     "back": "Primary storage that stores essential instructions needed to start the computer."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "Is ROM volatile or non-volatile?",
     "back": "Non-volatile."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "What is the bootstrap program?",
     "back": "The initial program stored in ROM that starts the computer and loads the operating system."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "What is BIOS?",
     "back": "Software stored in ROM that controls basic hardware settings and helps start the computer."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "Why does a computer need both RAM and ROM?",
     "back": "ROM is needed to start the computer, and RAM is needed to run programs efficiently."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "What is virtual memory?",
     "back": "A portion of secondary storage used as an extension of RAM when RAM is full."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "Why is virtual memory slower than RAM?",
     "back": "Because it uses secondary storage, which is slower to access than RAM."
   },
   {
-    "topicName": "memory",
+    "topicName": "Memory",
     "front": "What is paging (or swapping)?",
     "back": "The process of moving data between RAM and virtual memory."
   }
