@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "What is currency?",
       "correct": "Money used to buy and sell goods and services",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "What is digital currency?",
       "correct": "Currency that exists only electronically",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "What is another name for digital currency?",
       "correct": "Cryptocurrency",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "What determines the value of digital currency?",
       "correct": "What users believe it is worth",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "What is a private key?",
       "correct": "A secret key used to authorise transactions",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "Why must a private key be kept secure?",
       "correct": "It is needed to spend or transfer currency",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "What is a public key?",
       "correct": "A key shared so others can send currency",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "What does a digital wallet store?",
       "correct": "Public and private keys",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "Where are transactions stored?",
       "correct": "In the blockchain",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "What is a blockchain?",
       "correct": "A distributed digital ledger of transactions",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "How are transactions stored in a blockchain?",
       "correct": "In blocks with details and timestamps",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "What is a distributed ledger?",
       "correct": "A ledger stored on many computers",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "Why is fraud difficult in blockchain?",
       "correct": "All copies of the ledger must match",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "Which is a benefit of digital currency?",
       "correct": "Difficult to counterfeit",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "Which is a drawback of digital currency?",
       "correct": "Private keys can be lost or hacked",
@@ -180,7 +180,7 @@
     }
   },
   {
-    "topicName": "currency",
+    "topicName": "Digital Currency",
     "mcq": {
       "question": "What happens if a private key is lost?",
       "correct": "The currency is permanently lost",
