@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "alucontrol",
+    "topicName": "ALU and Control Unit",
     "mcq": {
       "question": "What does ALU stand for?",
       "correct": "Arithmetic Logic Unit",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "alucontrol",
+    "topicName": "ALU and Control Unit",
     "mcq": {
       "question": "What is the role of the ALU?",
       "correct": "To carry out arithmetic and logical operations",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "alucontrol",
+    "topicName": "ALU and Control Unit",
     "mcq": {
       "question": "Which part of the CPU controls the fetch-decode-execute cycle?",
       "correct": "Control unit",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "alucontrol",
+    "topicName": "ALU and Control Unit",
     "mcq": {
       "question": "Which of these is a logical operation?",
       "correct": "Comparing whether one value is greater than another",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "alucontrol",
+    "topicName": "ALU and Control Unit",
     "mcq": {
       "question": "How do the control unit and ALU work together?",
       "correct": "The control unit directs operations and the ALU performs calculations and logic",
