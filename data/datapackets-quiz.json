@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is a packet?",
       "correct": "A small piece of data sent across a network",
-      "wrong": [
-        "A type of network cable",
-        "A storage device",
-        "A type of encryption"
-      ]
+     "wrong": [
+    "A set of rules for sending data",
+    "A device used to connect networks",
+    "A method of protecting data"
+  ]
     }
   },
   {
@@ -16,11 +16,11 @@
     "mcq": {
       "question": "Why is data split into packets?",
       "correct": "To allow efficient and reliable transmission",
-      "wrong": [
-        "To reduce storage space",
-        "To encrypt the data",
-        "To increase file size"
-      ]
+     "wrong": [
+    "To store data more permanently",
+    "To hide the contents of the data",
+    "To make the message larger"
+  ]
     }
   },
   {
@@ -88,11 +88,11 @@
     "mcq": {
       "question": "What is packet switching?",
       "correct": "Sending packets independently and reassembling them",
-      "wrong": [
-        "Sending all data at once",
-        "Encrypting packets",
-        "Storing packets permanently"
-      ]
+     "wrong": [
+      "Sending the whole message in one block",
+      "Changing packet contents during transmission",
+      "Saving packets for long-term storage"
+    ]
     }
   },
   {
@@ -100,11 +100,11 @@
     "mcq": {
       "question": "What is the first step in packet switching?",
       "correct": "Data is broken into packets",
-      "wrong": [
-        "Packets are reassembled",
-        "Packets are encrypted",
-        "Packets are deleted"
-      ]
+     "wrong": [
+    "Packets are put back in order",
+    "Packets are checked for errors",
+    "Packets are sent to storage"
+  ]
     }
   },
   {
@@ -124,11 +124,11 @@
     "mcq": {
       "question": "Why might packets take different routes?",
       "correct": "Routers choose the best available route",
-      "wrong": [
-        "To slow down transmission",
-        "To avoid routers",
-        "To encrypt data"
-      ]
+     "wrong": [
+    "To make the file larger",
+    "To avoid using packet numbers",
+    "To stop the packets being checked"
+  ]
     }
   },
   {
@@ -136,11 +136,11 @@
     "mcq": {
       "question": "Why might packets arrive out of order?",
       "correct": "They take different routes",
-      "wrong": [
-        "They are corrupted",
-        "They are encrypted",
-        "They are deleted"
-      ]
+     "wrong": [
+    "They are all sent at the same speed",
+    "They are stored in the payload",
+    "They are checked by the trailer"
+  ]
     }
   },
   {
