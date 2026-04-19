@@ -12,15 +12,15 @@
     }
   },
   {
-    "topicName": "Secondary Storage",
-    "mcq": {
-      "question": "Why is secondary storage used?",
-      "correct": "To store data permanently",
-      "wrong": [
-        "To speed up the CPU",
-        "To display graphics",
-        "To connect to networks"
-      ]
+   "topicName": "Secondary Storage",
+  "mcq": {
+    "question": "Why can't primary storage replace secondary storage?",
+    "correct": "Primary storage is volatile and loses data when power is off",
+    "wrong": [
+      "Primary storage is too slow",
+      "Primary storage cannot store data",
+      "Primary storage is only used for input"
+    ]
     }
   },
   {
@@ -63,7 +63,7 @@
     "topicName": "Secondary Storage",
     "mcq": {
       "question": "What is virtual memory?",
-      "correct": "Secondary storage used as an extension of RAM",
+     "correct": "Part of secondary storage used as an extension of RAM",
       "wrong": [
         "A type of ROM",
         "A graphics system",
@@ -113,7 +113,7 @@
   "topicName": "Secondary Storage",
   "mcq": {
     "question": "What is an advantage of SSDs?",
-    "correct": "They are more durable",
+    "correct": "They are more durable because they have no moving parts",
     "wrong": [
       "They are cheaper",
       "They use magnetic storage",
