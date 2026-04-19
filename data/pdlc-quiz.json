@@ -136,11 +136,11 @@
     "mcq": {
       "question": "Which is another design method?",
       "correct": "Flowchart",
-      "wrong": [
-        "Processor",
-        "Hard drive",
-        "Operating system"
-      ]
+     "wrong": [
+  "A component that executes instructions",
+  "A device used for long-term storage",
+  "System software that manages hardware"
+]
     }
   },
   {
