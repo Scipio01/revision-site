@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is encryption?",
       "correct": "Converting data into an unreadable coded form",
-      "wrong": [
-        "Compressing data",
-        "Sending data",
-        "Storing data"
-      ]
+     "wrong": [
+    "Reducing the size of data for storage",
+    "Transferring data between devices",
+    "Saving data for later use"
+  ]
     }
   },
   {
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "What does encryption NOT prevent?",
       "correct": "Data being intercepted",
-      "wrong": [
-        "Data being read",
-        "Data being protected",
-        "Data being secured"
-      ]
+     "wrong": [
+    "Data being read without a key",
+    "Data being accessed by authorised users",
+    "Data being kept confidential"
+  ]
     }
   },
   {
@@ -65,10 +65,10 @@
       "question": "What is a disadvantage of symmetric encryption?",
       "correct": "Key must be shared securely",
       "wrong": [
-        "Too slow",
-        "Too expensive",
-        "No encryption used"
-      ]
+    "It cannot encrypt large amounts of data",
+    "It does not use any keys",
+    "It cannot be used for stored data"
+  ]
     }
   },
   {
@@ -125,10 +125,10 @@
       "question": "What is an advantage of asymmetric encryption?",
       "correct": "No need to share a secret key",
       "wrong": [
-        "Faster",
-        "Uses less data",
-        "No keys needed"
-      ]
+    "Does not require any keys",
+    "Is always more secure than asymmetric encryption",
+    "Is slower than asymmetric encryption"
+  ]
     }
   },
   {
