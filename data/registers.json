@@ -1,41 +1,41 @@
 [
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "front": "What are registers?",
     "back": "Registers are very small, very fast memory locations inside the CPU."
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "front": "What are registers used for?",
     "back": "They store data, instructions, addresses and the results of processing."
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "front": "What does the program counter (PC) store?",
     "back": "The address of the next instruction to be fetched."
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "front": "What does the memory address register (MAR) store?",
     "back": "The address in memory of the data or instruction being fetched."
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "front": "What does the memory data register (MDR) store?",
     "back": "The data or instruction that has been fetched from memory."
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "front": "What does the current instruction register (CIR) store?",
     "back": "The current instruction being decoded or executed."
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "front": "What does the accumulator (ACC) store?",
     "back": "The result of calculations and processing."
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "front": "Why are registers important?",
     "back": "They allow the CPU to access important data and instructions very quickly."
   }
