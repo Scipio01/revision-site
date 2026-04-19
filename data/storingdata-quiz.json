@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "storingdata",
+    "topicName": "CPU and registers",
     "mcq": {
       "question": "Where does the CPU temporarily store data and instructions?",
       "correct": "Registers",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "storingdata",
+    "topicName": "CPU and registers",
     "mcq": {
       "question": "Why are registers used?",
       "correct": "They are very fast",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "storingdata",
+    "topicName": "CPU and registers",
     "mcq": {
       "question": "Which register stores the address of the next instruction?",
       "correct": "Program Counter (PC)",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "storingdata",
+    "topicName": "CPU and registers",
     "mcq": {
       "question": "Which register stores fetched data or instructions?",
       "correct": "Memory Data Register (MDR)",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "storingdata",
+    "topicName": "CPU and registers",
     "mcq": {
       "question": "Why must addresses be stored?",
       "correct": "So the CPU knows where to fetch or store data",
