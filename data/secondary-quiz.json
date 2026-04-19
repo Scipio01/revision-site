@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "secondary",
+    "topicName": "Secondary Storage",
     "mcq": {
       "question": "What is secondary storage?",
       "correct": "Storage not directly accessed by the CPU",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "secondary",
+    "topicName": "Secondary Storage",
     "mcq": {
       "question": "Why is secondary storage used?",
       "correct": "To store data permanently",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "secondary",
+    "topicName": "Secondary Storage",
     "mcq": {
       "question": "Which device uses magnetic storage?",
       "correct": "HDD",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "secondary",
+    "topicName": "Secondary Storage",
     "mcq": {
       "question": "What is used to read optical storage?",
       "correct": "Laser",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "secondary",
+    "topicName": "Secondary Storage",
     "mcq": {
       "question": "Which of these is solid-state storage?",
       "correct": "SSD",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "secondary",
+    "topicName": "Secondary Storage",
     "mcq": {
       "question": "What is virtual memory?",
       "correct": "Secondary storage used as an extension of RAM",
