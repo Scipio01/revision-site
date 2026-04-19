@@ -16,11 +16,11 @@
     "mcq": {
       "question": "What happens during the fetch stage?",
       "correct": "The next instruction is retrieved from memory",
-      "wrong": [
-        "The instruction is printed",
-        "The computer shuts down",
-        "The result is displayed"
-      ]
+     "wrong": [
+  "The instruction is interpreted",
+  "The instruction is executed",
+  "The result is stored in memory"
+]
     }
   },
   {
@@ -29,10 +29,10 @@
       "question": "Which register holds the address of the next instruction?",
       "correct": "Program Counter (PC)",
       "wrong": [
-        "Accumulator (ACC)",
-        "Memory Data Register (MDR)",
-        "Control Unit (CU)"
-      ]
+  "Accumulator (ACC)",
+  "Memory Address Register (MAR)",
+  "Memory Data Register (MDR)"
+]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What happens during the decode stage?",
       "correct": "The control unit interprets the instruction",
-      "wrong": [
-        "The instruction is deleted",
-        "The screen is updated",
-        "The file is saved"
-      ]
+     "wrong": [
+  "The instruction is fetched from memory",
+  "The instruction is executed",
+  "The result is written to memory"
+]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "What happens during the execute stage?",
       "correct": "The instruction is carried out",
-      "wrong": [
-        "The instruction is copied",
-        "The RAM is cleared",
-        "The keyboard is activated"
-      ]
+    "wrong": [
+  "The instruction is fetched from memory",
+  "The instruction is decoded",
+  "The instruction is stored for later use"
+]
     }
   }
 ]
