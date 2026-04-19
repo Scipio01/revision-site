@@ -3,7 +3,7 @@
     "topicName": "Sensors",
     "mcq": {
       "question": "What is a sensor?",
-      "correct": "A device that measures a physical property and converts it into data",
+      "correct": "A device that measures a physical property and converts it into an electrical signal",
       "wrong": [
         "A device that displays images",
         "A storage device",
@@ -60,15 +60,80 @@
     }
   },
   {
-    "topicName": "Sensors",
-    "mcq": {
-      "question": "Which sensor measures temperature?",
-      "correct": "Temperature sensor",
-      "wrong": [
-        "Level sensor",
-        "Gas sensor",
-        "Accelerometer"
-      ]
+   "topicName": "Sensors",
+  "mcq": {
+    "question": "A greenhouse system needs to monitor temperature automatically. Which sensor should be used?",
+    "correct": "Temperature sensor",
+    "wrong": [
+      "Light sensor",
+      "Pressure sensor",
+      "Moisture sensor"
+    ]
     }
+  },
+
+  {
+  "topicName": "Sensors",
+  "mcq": {
+    "question": "Why is an ADC needed with sensors?",
+    "correct": "Because computers can only process digital data",
+    "wrong": [
+      "To store data permanently",
+      "To increase sensor accuracy",
+      "To display output"
+    ]
   }
+},
+
+  {
+  "topicName": "Sensors",
+  "mcq": {
+    "question": "What happens after a sensor collects data in an automated system?",
+    "correct": "The signal is converted to digital by an ADC and sent to the processor",
+    "wrong": [
+      "The data is stored permanently immediately",
+      "The actuator is activated straight away",
+      "The data is displayed to the user"
+    ]
+  }
+},
+
+  {
+  "topicName": "Sensors",
+  "mcq": {
+    "question": "What does the processor do with data from a sensor?",
+    "correct": "Compares it to stored or set values and decides what action to take",
+    "wrong": [
+      "Stores the data permanently",
+      "Sends it directly to an output device",
+      "Deletes the data after reading it"
+    ]
+  }
+},
+
+  {
+  "topicName": "Sensors",
+  "mcq": {
+    "question": "What is an output in an automated system?",
+    "correct": "An action carried out by an actuator or output device",
+    "wrong": [
+      "The data collected by the sensor",
+      "The program stored in memory",
+      "The signal sent to the ADC"
+    ]
+  }
+},
+
+  {
+  "topicName": "Sensors",
+  "mcq": {
+    "question": "A temperature sensor sends data to a system controlling heating. What happens next?",
+    "correct": "The processor compares the value to a set temperature and decides whether to turn heating on",
+    "wrong": [
+      "The data is automatically displayed and ignored",
+      "The sensor directly switches the heating on",
+      "The data is stored without processing"
+    ]
+  }
+}
 ]
