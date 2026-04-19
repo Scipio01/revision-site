@@ -5,10 +5,10 @@
       "question": "What is an embedded system?",
       "correct": "A computer system built into another device to perform a specific function",
       "wrong": [
-        "A large office computer",
-        "A storage device used for backups",
-        "A computer used only for gaming"
-      ]
+      "A general-purpose computer used for many tasks",
+      "A system designed to store large amounts of data",
+      "A device used mainly for user interaction"
+    ]
     }
   },
   {
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "Which of these is an example of an embedded system?",
       "correct": "Washing machine",
-      "wrong": [
-        "Desktop PC",
-        "Laptop",
-        "Tablet used for homework"
-      ]
+     "wrong": [
+    "A computer used for office work",
+    "A laptop used for multiple applications",
+    "A tablet used for general tasks"
+  ]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "How is an embedded system different from a general-purpose computer?",
       "correct": "It is designed for one main task",
-      "wrong": [
-        "It always has more memory",
-        "It always has a larger screen",
-        "It can run every type of software"
-      ]
+     "wrong": [
+    "It is designed to run many different programs",
+    "It always has more processing power",
+    "It is mainly used for user interaction"
+  ]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "What is firmware?",
       "correct": "Software stored in ROM",
-      "wrong": [
-        "Software stored on the internet",
-        "A type of input device",
-        "A removable storage disk"
-      ]
+     "wrong": [
+  "Software stored in RAM",
+  "A program downloaded from the internet",
+  "Software stored on secondary storage"
+]
     }
   },
   {
@@ -65,10 +65,10 @@
       "question": "What is a microcontroller?",
       "correct": "A single microprocessor system including CPU, RAM and ROM used to control a device",
       "wrong": [
-        "A very large hard drive",
-        "A graphics card",
-        "A network switch"
-      ]
+    "A component used only for graphics processing",
+    "A storage device used for saving data",
+    "A device used to connect networks together"
+  ]
     }
   }
 ]
