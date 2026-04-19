@@ -16,11 +16,11 @@
     "mcq": {
       "question": "What is the purpose of a check digit?",
       "correct": "To detect errors in data",
-      "wrong": [
-        "To ensure data is within a range",
-        "To check data type",
-        "To make data smaller"
-      ]
+       "wrong": [
+    "To ensure data is within an acceptable range",
+    "To verify the format of the data",
+    "To reduce the size of the data"
+  ]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What does a check digit help detect?",
       "correct": "Errors during input or transmission",
-      "wrong": [
-        "Missing fields",
-        "Incorrect data types",
-        "Incorrect formats"
-      ]
+       "wrong": [
+    "Invalid data formats",
+    "Incorrect data types",
+    "Missing required fields"
+  ]
     }
   },
   {
@@ -53,10 +53,10 @@
       "question": "Does a check digit guarantee that data is correct?",
       "correct": "No, it only helps detect errors",
       "wrong": [
-        "Yes, it guarantees correctness",
-        "Yes, but only for numbers",
-        "No, because it checks the format"
-      ]
+    "Yes, it guarantees the data is correct",
+    "Yes, but only for numerical data",
+    "No, because it verifies the data format"
+  ]
     }
   }
 ]
