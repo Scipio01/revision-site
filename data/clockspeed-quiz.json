@@ -17,7 +17,7 @@
       "question": "What is clock speed measured in?",
       "correct": "Hertz (Hz)",
       "wrong": [
-        "Bytes",
+        "Megabytes (MB)",
         "Watts",
         "Pixels"
       ]
