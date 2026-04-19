@@ -4,11 +4,11 @@
     "mcq": {
       "question": "Which of these is a main component of the CPU?",
       "correct": "Control unit",
-      "wrong": [
-        "Hard drive",
-        "Monitor",
-        "Keyboard"
-      ]
+     "wrong": [
+      "Cache memory",
+      "Main memory",
+      "Input device controller"
+    ]
     }
   },
   {
@@ -17,10 +17,10 @@
       "question": "What does the ALU do?",
       "correct": "Carries out arithmetic and logical operations",
       "wrong": [
-        "Stores files permanently",
-        "Connects the computer to a network",
-        "Displays images on the screen"
-      ]
+    "Stores data for later use",
+    "Controls the fetch-decode-execute cycle",
+    "Manages communication between components"
+  ]
     }
   },
   {
@@ -29,10 +29,10 @@
       "question": "What is the role of the control unit?",
       "correct": "To control and coordinate operations",
       "wrong": [
-        "To store the operating system",
-        "To provide sound output",
-        "To power the computer"
-      ]
+      "To perform calculations and logic operations",
+      "To store frequently used data",
+      "To manage long-term storage"
+    ]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What are registers?",
       "correct": "Very small, fast memory locations in the CPU",
-      "wrong": [
-        "Permanent storage devices",
-        "Input devices",
-        "External memory chips"
-      ]
+     "wrong": [
+      "Sections of main memory",
+      "Devices used for input",
+      "External storage components"
+    ]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "Why is cache memory useful?",
       "correct": "It is faster for the CPU to access than RAM",
-      "wrong": [
-        "It holds the computer case together",
-        "It connects to the internet",
-        "It replaces the motherboard"
-      ]
+     "wrong": [
+      "It increases the storage capacity of the computer",
+      "It allows more programs to run at once",
+      "It stores data permanently"
+    ]
     }
   }
 ]
