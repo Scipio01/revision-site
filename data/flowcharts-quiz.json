@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is an algorithm?",
       "correct": "A set of instructions to solve a problem",
-      "wrong": [
-        "A type of programming language",
-        "A hardware device",
-        "A data storage method"
-      ]
+     "wrong": [
+  "A program written in code",
+  "A set of data stored in memory",
+  "A method of displaying results"
+]
     }
   },
   {
@@ -16,11 +16,11 @@
     "mcq": {
       "question": "What is a flowchart?",
       "correct": "A diagram showing the steps of an algorithm",
-      "wrong": [
-        "A type of database",
-        "A programming language",
-        "A testing method"
-      ]
+     "wrong": [
+  "A program written in code",
+  "A method used to store data",
+  "A way of testing software"
+]
     }
   },
   {
@@ -76,11 +76,11 @@
     "mcq": {
       "question": "What must be labelled on the branches of a decision?",
       "correct": "Yes/No",
-      "wrong": [
-        "Start/Stop",
-        "Input/Output",
-        "True/False values only"
-      ]
+     "wrong": [
+  "Start/End",
+  "Input/Output",
+  "Numbers only"
+]
     }
   },
   {
@@ -148,11 +148,11 @@
     "mcq": {
       "question": "Which of the following is a design method?",
       "correct": "Flowchart",
-      "wrong": [
-        "Compiler",
-        "Processor",
-        "RAM"
-      ]
+     "wrong": [
+  "Programming language",
+  "Processor component",
+  "Memory device"
+]
     }
   }
 ]
