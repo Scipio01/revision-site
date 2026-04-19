@@ -47,16 +47,53 @@
       ]
     }
   },
-  {
-    "topicName": "Central Processing Unit",
-    "mcq": {
-      "question": "What happens after the CPU processes data?",
-      "correct": "The result is output",
-      "wrong": [
-        "The data is deleted",
-        "The computer shuts down",
-        "The RAM is cleared"
-      ]
-    }
+{
+  "topicName": "Central Processing Unit",
+  "mcq": {
+    "question": "What happens during the fetch stage?",
+    "correct": "An instruction is fetched from memory",
+    "wrong": [
+      "The instruction is executed",
+      "The result is output",
+      "The instruction is deleted"
+    ]
   }
+},
+{
+  "topicName": "Central Processing Unit",
+  "mcq": {
+    "question": "What happens during the decode stage?",
+    "correct": "The instruction is interpreted by the CPU",
+    "wrong": [
+      "The instruction is stored permanently",
+      "The instruction is executed",
+      "The instruction is sent to an output device"
+    ]
+  }
+},
+{
+  "topicName": "Central Processing Unit",
+  "mcq": {
+    "question": "What happens during the execute stage?",
+    "correct": "The instruction is carried out",
+    "wrong": [
+      "The instruction is fetched from memory",
+      "The instruction is decoded",
+      "The instruction is saved to storage"
+    ]
+  }
+},
+{
+  "topicName": "Central Processing Unit",
+  "mcq": {
+    "question": "Which stage involves carrying out calculations or logical operations?",
+    "correct": "Execute",
+    "wrong": [
+      "Fetch",
+      "Decode",
+      "Store"
+    ]
+  }
+}
+  
 ]
