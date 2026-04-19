@@ -1,71 +1,71 @@
 [
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "What is robotics?",
     "back": "A branch of computer science that involves the design, construction and operation of robots."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "Give two examples of robots.",
     "back": "Factory robots, domestic robots, or drones."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "What are the three main characteristics of a robot?",
     "back": "Mechanical structure, electrical components, and programmable."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "What is the mechanical structure of a robot?",
     "back": "The physical framework that allows the robot to move or manipulate objects."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "What are sensors in a robot?",
     "back": "Devices that collect data from the environment, such as cameras or microphones."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "What is the role of the microprocessor in a robot?",
     "back": "To process data from sensors and make decisions."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "What are actuators in a robot?",
     "back": "Components that create movement, such as motors."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "What does it mean for a robot to be programmable?",
     "back": "It can be given instructions to perform different tasks or respond to inputs."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "Give two areas where robots are used.",
     "back": "Industry, transport, agriculture, medicine, domestic settings, or entertainment."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "State one advantage of using robots.",
     "back": "They can work faster and more accurately than humans."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "State another advantage of robots.",
     "back": "They can work 24/7 without breaks."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "State one disadvantage of robots.",
     "back": "High purchase and maintenance cost."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "Give another disadvantage of robots.",
     "back": "They can lead to job losses."
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "front": "Why are robots useful in dangerous environments?",
     "back": "They reduce risk to humans."
   }
