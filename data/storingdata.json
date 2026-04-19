@@ -1,41 +1,41 @@
 [
   {
-    "topicName": "storingdata",
+     "topicName": "CPU and registers",
     "front": "Where does the CPU store data and instructions temporarily?",
     "back": "In registers."
   },
   {
-    "topicName": "storingdata",
+     "topicName": "CPU and registers",
     "front": "Why are registers used to store data and instructions?",
     "back": "Because they are very fast and allow quick access by the CPU."
   },
   {
-    "topicName": "storingdata",
+     "topicName": "CPU and registers",
     "front": "Which register stores the address of the next instruction?",
     "back": "Program Counter (PC)."
   },
   {
-    "topicName": "storingdata",
+     "topicName": "CPU and registers",
     "front": "Which register stores the address being accessed in memory?",
     "back": "Memory Address Register (MAR)."
   },
   {
-    "topicName": "storingdata",
+     "topicName": "CPU and registers",
     "front": "Which register stores the data or instruction fetched from memory?",
     "back": "Memory Data Register (MDR)."
   },
   {
-    "topicName": "storingdata",
+     "topicName": "CPU and registers",
     "front": "Which register stores the current instruction being processed?",
     "back": "Current Instruction Register (CIR)."
   },
   {
-    "topicName": "storingdata",
+     "topicName": "CPU and registers",
     "front": "Which register stores the result of processing?",
     "back": "Accumulator (ACC)."
   },
   {
-    "topicName": "storingdata",
+     "topicName": "CPU and registers",
     "front": "Why is it important to store addresses as well as data?",
     "back": "So the CPU knows where to fetch data from or where to store results in memory."
   }
