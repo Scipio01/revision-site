@@ -1,156 +1,156 @@
 [
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What is a sensor?",
     "back": "A device that measures a physical property in the real world and converts it into data a computer can process."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What type of data do most sensors produce?",
     "back": "Analogue data."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Why is an ADC needed with sensors?",
     "back": "To convert analogue data into digital data so the computer can process it."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does an acoustic sensor measure?",
     "back": "Sound or noise levels."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of an acoustic sensor.",
     "back": "Burglar alarms or glass-break detection."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does an accelerometer measure?",
     "back": "Movement, acceleration or tilt."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of an accelerometer.",
     "back": "Detecting movement or rotating a screen."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a flow sensor measure?",
     "back": "The rate of flow of a liquid or gas."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a flow sensor.",
     "back": "Monitoring water or fuel flow."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a gas sensor measure?",
     "back": "The concentration of a gas."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a gas sensor.",
     "back": "Detecting gas leaks or carbon monoxide."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a humidity sensor measure?",
     "back": "The amount of water vapour in the air."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a humidity sensor.",
     "back": "Weather stations or climate control."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does an infra-red sensor measure?",
     "back": "Infra-red radiation (heat)."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of an infra-red sensor.",
     "back": "Security systems detecting body heat."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a level sensor measure?",
     "back": "The level or height of a liquid."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a level sensor.",
     "back": "Fuel tanks or water reservoirs."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a light sensor measure?",
     "back": "Light intensity."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a light sensor.",
     "back": "Automatic brightness control or street lighting."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a magnetic field sensor measure?",
     "back": "The strength or direction of a magnetic field."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a magnetic field sensor.",
     "back": "Digital compass."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a moisture sensor measure?",
     "back": "Water content in soil or materials."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a moisture sensor.",
     "back": "Automatic plant watering systems."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a pH sensor measure?",
     "back": "How acidic or alkaline a solution is."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a pH sensor.",
     "back": "Water testing or chemical processing."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a pressure sensor measure?",
     "back": "Pressure or force."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a pressure sensor.",
     "back": "Tyre pressure monitoring."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a proximity sensor measure?",
     "back": "Distance to an object without contact."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a proximity sensor.",
     "back": "Car parking sensors."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "What does a temperature sensor measure?",
     "back": "Temperature."
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "front": "Give a use of a temperature sensor.",
     "back": "Central heating or engine cooling systems."
   }
