@@ -63,7 +63,7 @@
      "topicName": "Cyber Security Solutions",
     "mcq": {
       "question": "What does HTTP do?",
-      "correct": "Sends and receives unencrypted data",
+      "correct": "Transfers web pages without encryption",
       "wrong": [
         "Encrypts all data automatically",
         "Assigns IP addresses to devices",
@@ -75,7 +75,7 @@
      "topicName": "Cyber Security Solutions",
     "mcq": {
       "question": "What does HTTPS do?",
-      "correct": "Sends and receives encrypted data",
+      "correct": "Transfers web pages securely using encryption",
       "wrong": [
         "Stores data on a server",
         "Assigns IP addresses",
@@ -135,7 +135,7 @@
      "topicName": "Cyber Security Solutions",
     "mcq": {
       "question": "What is one benefit of a proxy server?",
-      "correct": "It can hide the user's IP address",
+      "correct": "It can hide the user's IP address and filter requests",
       "wrong": [
         "It increases storage space",
         "It deletes malware automatically",
@@ -162,7 +162,7 @@
       "correct": "Checking that a user is who they claim to be",
       "wrong": [
         "Encrypting data before sending",
-        "Storing passwords securely",
+        "Granting access to files",
         "Connecting devices to a network"
       ]
     }
@@ -226,5 +226,29 @@
         "They replace antivirus software"
       ]
     }
+  },
+{
+  "topicName": "Cyber Security Solutions",
+  "mcq": {
+    "question": "What is social engineering?",
+    "correct": "Tricking people into revealing confidential information",
+    "wrong": [
+      "Encrypting data securely",
+      "Blocking network traffic",
+      "Storing data safely"
+    ]
   }
+},
+{
+  "topicName": "Cyber Security Solutions",
+  "mcq": {
+    "question": "What is penetration testing?",
+    "correct": "Testing a system for security weaknesses",
+    "wrong": [
+      "Encrypting data",
+      "Blocking users",
+      "Backing up files"
+    ]
+  }
+}
 ]
