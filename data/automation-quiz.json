@@ -93,10 +93,10 @@
       "question": "Which is an example of an automated system?",
       "correct": "Central heating",
       "wrong": [
-        "A desktop computer",
-        "A mobile phone",
-        "A printer"
-      ]
+    "A computer used for typing documents",
+    "A phone being used to send messages",
+    "A printer printing a document"
+  ]
     }
   },
   {
@@ -116,11 +116,11 @@
     "mcq": {
       "question": "Which is an example of automation in transport?",
       "correct": "Traffic lights changing automatically",
-      "wrong": [
-        "A driver steering a car",
-        "A person pressing a pedestrian button",
-        "A cyclist changing gears"
-      ]
+       "wrong": [
+    "A driver manually steering a car",
+    "A person controlling traffic signals",
+    "A cyclist manually changing gears"
+  ]
     }
   },
   {
