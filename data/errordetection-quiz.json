@@ -4,11 +4,11 @@
     "mcq": {
       "question": "Why do errors occur during transmission?",
       "correct": "Noise, interference or signal loss",
-      "wrong": [
-        "Too many files",
-        "Large storage",
-        "High resolution"
-      ]
+     "wrong": [
+    "Incorrect file formats",
+    "Low storage capacity",
+    "Large file sizes"
+  ]
     }
   },
   {
@@ -64,11 +64,11 @@
     "mcq": {
       "question": "What is parity block check?",
       "correct": "Uses parity bits for rows and columns of data",
-      "wrong": [
-        "Encrypts data",
-        "Compresses files",
-        "Stores data permanently"
-      ]
+     "wrong": [
+  "Uses one parity bit for the whole message",
+  "Checks only the packet header",
+  "Sends data back to the sender for comparison"
+]
     }
   },
   {
@@ -88,11 +88,11 @@
     "mcq": {
       "question": "What is a checksum?",
       "correct": "A calculated value used to detect errors",
-      "wrong": [
-        "A packet",
-        "A wire",
-        "A key"
-      ]
+     "wrong": [
+  "A block of transmitted data",
+  "A physical connection used for transfer",
+  "A code used to encrypt data"
+]
     }
   },
   {
@@ -124,11 +124,11 @@
     "mcq": {
       "question": "What is an echo check?",
       "correct": "Data is sent back and compared",
-      "wrong": [
-        "Data is deleted",
-        "Data is compressed",
-        "Data is encrypted"
-      ]
+     "wrong": [
+  "Data is stored and checked later",
+  "Data is reduced in size before sending",
+  "Data is scrambled to stop it being read"
+]
     }
   },
   {
@@ -148,11 +148,11 @@
     "mcq": {
       "question": "Which is an example of a check digit use?",
       "correct": "ISBN or barcodes",
-      "wrong": [
-        "RAM",
-        "CPU",
-        "USB"
-      ]
+     "wrong": [
+  "MAC addresses",
+  "IP addresses",
+  "File names"
+]
     }
   },
   {
@@ -172,11 +172,11 @@
     "mcq": {
       "question": "What happens if an error is detected in ARQ?",
       "correct": "A NACK is sent and the data is resent",
-      "wrong": [
-        "Data is deleted",
-        "The system shuts down",
-        "Data is encrypted"
-      ]
+     "wrong": [
+  "An ACK is sent and transmission continues",
+  "The incorrect data is accepted anyway",
+  "The receiver corrects the data automatically"
+]
     }
   },
   {
