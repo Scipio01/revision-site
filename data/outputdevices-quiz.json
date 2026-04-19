@@ -1,9 +1,9 @@
 [
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "mcq": {
       "question": "What is an output device?",
-      "correct": "A device that converts digital data into a form that can be seen or heard",
+      "correct": "A device that presents data to the user",
       "wrong": [
         "A device that inputs data",
         "A storage device",
@@ -12,19 +12,19 @@
     }
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "mcq": {
       "question": "What does a speaker do?",
       "correct": "Converts digital sound into analogue sound",
-      "wrong": [
-        "Stores sound permanently",
-        "Prints sound waves",
-        "Amplifies images"
-      ]
+     "wrong": [
+  "Stores audio data permanently",
+  "Converts sound into digital signals",
+  "Displays sound visually"
+]
     }
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "mcq": {
       "question": "What is an actuator?",
       "correct": "A device that produces movement",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "mcq": {
       "question": "Which printer is best for high-volume printing?",
       "correct": "Laser printer",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "mcq": {
       "question": "What is a 3D printer used for?",
       "correct": "Creating physical objects",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "mcq": {
       "question": "What is one advantage of LED screens?",
       "correct": "Brighter and more energy efficient",
@@ -73,12 +73,12 @@
   },
 
   {
-  "topicName": "outputdevices",
+  "topicName": "Output Devices",
   "mcq": {
-    "question": "Which printer is best for high-volume office printing?",
-    "correct": "Laser printer",
+    "question": "Which type of printer is best for printing high-quality photos?",
+    "correct": "Inkjet printer",
     "wrong": [
-      "Inkjet printer",
+      "Laser printer",
       "3D printer",
       "Plotter"
     ]
