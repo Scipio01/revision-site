@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is an automated system?",
       "correct": "A system that operates automatically",
-      "wrong": [
-        "A system that stores data automatically",
-        "A system that controls network traffic",
-        "A system that displays output automatically"
-      ]
+       "wrong": [
+    "A system that requires constant human input",
+    "A system that only stores and retrieves data",
+    "A system that connects devices together"
+  ]
     }
   },
 
@@ -31,10 +31,10 @@
     "question": "What does processing usually involve in an automated system?",
     "correct": "Comparing sensor data to stored values",
     "wrong": [
-      "Storing data permanently",
-      "Displaying output to the user",
-      "Connecting to the internet"
-    ]
+    "Storing sensor data permanently",
+    "Sending data to an output device",
+    "Receiving data from a sensor"
+  ]
   }
 },
 
