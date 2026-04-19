@@ -27,7 +27,7 @@
     "topicName": "Data Storage",
     "mcq": {
       "question": "Why is compression used?",
-      "correct": "To reduce file size",
+     "correct": "To reduce file size for storage or transmission",
       "wrong": [
         "To increase quality",
         "To increase resolution",
@@ -39,7 +39,7 @@
     "topicName": "Data Storage",
     "mcq": {
       "question": "What is lossless compression?",
-      "correct": "No data is lost",
+      "correct": "All original data can be perfectly reconstructed",
       "wrong": [
         "Some data is removed",
         "File size increases",
@@ -51,12 +51,73 @@
     "topicName": "Data Storage",
     "mcq": {
       "question": "What is lossy compression?",
-      "correct": "Some data is permanently removed",
+      "correct": "Some data is permanently removed to reduce file size",
       "wrong": [
         "No data is lost",
         "File size increases",
         "Only used for text"
       ]
     }
+  },
+
+  {
+  "topicName": "Data Storage",
+  "mcq": {
+    "question": "How many KiB are in 1 MiB?",
+    "correct": "1024",
+    "wrong": ["1000", "8", "2048"]
   }
+},
+
+  {
+  "topicName": "Data Storage",
+  "mcq": {
+    "question": "How is file size calculated?",
+    "correct": "Resolution × colour depth (÷ 8 for bytes)",
+    "wrong": [
+      "Resolution + colour depth",
+      "Sampling rate × duration",
+      "Bits ÷ bytes"
+    ]
+  }
+},
+
+  {
+  "topicName": "Data Storage",
+  "mcq": {
+    "question": "Which type of compression is used for images like JPEG?",
+    "correct": "Lossy",
+    "wrong": [
+      "Lossless",
+      "Binary",
+      "Uncompressed"
+    ]
+  }
+},
+
+  {
+  "topicName": "Data Storage",
+  "mcq": {
+    "question": "Which type of compression is used for files like ZIP?",
+    "correct": "Lossless",
+    "wrong": [
+      "Lossy",
+      "Binary",
+      "Encrypted"
+    ]
+  }
+},
+
+  {
+  "topicName": "Data Storage",
+  "mcq": {
+    "question": "How is sound file size calculated?",
+    "correct": "Sampling rate × sample resolution × duration",
+    "wrong": [
+      "Resolution × colour depth",
+      "Bits ÷ bytes",
+      "Frequency × amplitude"
+    ]
+  }
+}
 ]
