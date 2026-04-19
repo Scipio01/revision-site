@@ -1,71 +1,71 @@
 [
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "What is an automatic input device?",
     "back": "A device that collects input automatically with little or no human intervention."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "Give examples of automatic input devices.",
     "back": "Barcode scanner, QR scanner, digital camera, 2D scanner, 3D scanner."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "What is a barcode used for?",
     "back": "To identify products quickly using a code that can be scanned."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "What is the difference between UPC-A and Code 128 barcodes?",
     "back": "UPC-A represents numbers only, while Code 128 can represent letters and numbers."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "Give one advantage of barcodes.",
     "back": "They are faster to scan than entering data manually."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "What is a QR code used for?",
     "back": "To store data such as links, text or login details that can be scanned quickly."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "Give one advantage of QR codes over barcodes.",
     "back": "They can store more data and can be scanned from any angle."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "What is a 2D scanner used for?",
     "back": "To convert documents or images into a digital format."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "How does a 2D scanner work?",
     "back": "A light shines on the image and a light-sensitive sheet records it as pixels."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "What is a 3D scanner used for?",
     "back": "To create a digital representation of a three-dimensional object."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "What is a point cloud?",
     "back": "A digital representation of an object made up of many data points."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "What is tomography?",
     "back": "A method of combining many thin slices to create a 3D image."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "How does a digital camera work?",
     "back": "Light is focused onto a CCD which breaks the image into pixels and records light intensity."
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "front": "What does CCD stand for?",
     "back": "Charge Coupled Device."
   }
