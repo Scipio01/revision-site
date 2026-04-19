@@ -28,11 +28,11 @@
     "mcq": {
       "question": "What does a code editor do?",
       "correct": "Allows programmers to write and edit code",
-      "wrong": [
-        "Executes programs on a computer",
-        "Stores files on a hard drive",
-        "Controls input and output devices"
-      ]
+     "wrong": [
+  "Executes the program code",
+  "Stores program data permanently",
+  "Manages communication between hardware devices"
+]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What is the purpose of a run-time environment?",
       "correct": "Allows programs to run and be tested",
-      "wrong": [
-        "Stores data on a computer system",
-        "Connects devices to a network",
-        "Prints output from programs"
-      ]
+     "wrong": [
+  "Stores program code for later use",
+  "Translates code into machine language",
+  "Edits and formats source code"
+]
     }
   },
   {
@@ -64,11 +64,11 @@
     "mcq": {
       "question": "What is auto-completion?",
       "correct": "Suggests code as the programmer types",
-      "wrong": [
-        "Deletes errors in the code",
-        "Runs programs automatically",
-        "Compiles the program into machine code"
-      ]
+     "wrong": [
+  "Automatically fixes all errors in the code",
+  "Runs the program without user input",
+  "Translates code into machine code"
+]
     }
   },
   {
@@ -76,11 +76,11 @@
     "mcq": {
       "question": "What is the benefit of error diagnostics?",
       "correct": "Helps identify and fix errors in code",
-      "wrong": [
-        "Increases storage capacity",
-        "Improves internet connection speed",
-        "Controls hardware components"
-      ]
+    "wrong": [
+  "Increases the speed of program execution",
+  "Stores program files automatically",
+  "Connects the program to external devices"
+]
     }
   }
 ]
