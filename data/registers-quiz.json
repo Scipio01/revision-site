@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "mcq": {
       "question": "What are registers?",
       "correct": "Very small, very fast memory locations inside the CPU",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "mcq": {
       "question": "What does the program counter (PC) store?",
       "correct": "The address of the next instruction",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "mcq": {
       "question": "What does the memory address register (MAR) store?",
       "correct": "The address of the data or instruction being fetched",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "mcq": {
       "question": "What does the memory data register (MDR) store?",
       "correct": "The data or instruction fetched from memory",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "registers",
+    "topicName": "Registers",
     "mcq": {
       "question": "What does the accumulator (ACC) store?",
       "correct": "The result of calculations and processing",
