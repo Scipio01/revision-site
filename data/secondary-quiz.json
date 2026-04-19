@@ -3,7 +3,7 @@
     "topicName": "Secondary Storage",
     "mcq": {
       "question": "What is secondary storage?",
-      "correct": "Storage not directly accessed by the CPU",
+      "correct": "Non-volatile storage used to store data and programs long-term",
       "wrong": [
         "Memory inside the CPU",
         "Temporary storage only",
@@ -36,14 +36,14 @@
     }
   },
   {
-    "topicName": "Secondary Storage",
-    "mcq": {
-      "question": "What is used to read optical storage?",
-      "correct": "Laser",
-      "wrong": [
-        "Magnet",
-        "Keyboard",
-        "Battery"
+   "topicName": "Secondary Storage",
+  "mcq": {
+    "question": "How is data read from optical storage?",
+    "correct": "Using a laser to detect reflections",
+    "wrong": [
+      "Using magnets to read data",
+      "Using electrical signals only",
+      "Using a camera sensor"
       ]
     }
   },
@@ -70,5 +70,57 @@
         "A network device"
       ]
     }
+  },
+{
+  "topicName": "Secondary Storage",
+  "mcq": {
+    "question": "What does non-volatile mean?",
+    "correct": "Data is retained when power is off",
+    "wrong": [
+      "Data is lost when power is off",
+      "Data is processed faster",
+      "Data is stored temporarily"
+    ]
   }
+},
+  {
+  "topicName": "Secondary Storage",
+  "mcq": {
+    "question": "Why are SSDs faster than HDDs?",
+    "correct": "They have no moving parts",
+    "wrong": [
+      "They use lasers",
+      "They store more data",
+      "They use magnetic disks"
+    ]
+  }
+},
+
+  {
+  "topicName": "Secondary Storage",
+  "mcq": {
+    "question": "What is an advantage of HDDs?",
+    "correct": "They are cheaper per GB",
+    "wrong": [
+      "They are faster than SSDs",
+      "They use no moving parts",
+      "They are smaller in size"
+    ]
+  }
+},
+
+  {
+  "topicName": "Secondary Storage",
+  "mcq": {
+    "question": "What is an advantage of SSDs?",
+    "correct": "They are more durable",
+    "wrong": [
+      "They are cheaper",
+      "They use magnetic storage",
+      "They are slower"
+    ]
+  }
+}
+
+  
 ]
