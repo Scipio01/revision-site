@@ -87,7 +87,7 @@
     "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "How is an average calculated?",
-      "correct": "total ÷ count",
+      "correct": "total / count",
       "wrong": [
         "count + total",
         "largest - smallest",
@@ -111,7 +111,7 @@
     "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "When is a linear search most useful?",
-      "correct": "When the data is not sorted",
+      "correct": "When the data is not sorted or the list is small",
       "wrong": [
         "When the list is already sorted",
         "When calculating averages",
@@ -147,7 +147,7 @@
     "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "What happens during one pass of a bubble sort?",
-      "correct": "The largest value moves to the end of the list",
+      "correct": "The largest remaining value moves to the end of the list",
       "wrong": [
         "The list becomes fully sorted",
         "The smallest value is removed",
@@ -178,5 +178,18 @@
         "They only use IF statements"
       ]
     }
+  },
+
+  {
+  "topicName": "Standard Methods of Solution",
+  "mcq": {
+    "question": "What must be done before calculating an average?",
+    "correct": "Total and count the values",
+    "wrong": [
+      "Sort the values",
+      "Find the largest value",
+      "Search for a value"
+    ]
   }
+}
 ]
