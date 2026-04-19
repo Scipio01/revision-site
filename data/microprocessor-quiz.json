@@ -4,22 +4,22 @@
     "mcq": {
       "question": "What is a microprocessor?",
       "correct": "An integrated circuit containing the CPU",
-      "wrong": [
-        "A type of memory",
-        "An input device",
-        "A storage device"
-      ]
+     "wrong": [
+  "A device used to store data permanently",
+  "A component used to enter data into a system",
+  "A unit used to display output to the user"
+]
     }
   },
   {
     "topicName": "Microprocessor",
-    "mcq": {
-      "question": "What does a microprocessor contain?",
-      "correct": "The CPU",
-      "wrong": [
-        "Only RAM",
-        "Only storage",
-        "Only input devices"
+  "mcq": {
+    "question": "What components are found inside a microprocessor?",
+    "correct": "ALU, control unit and registers",
+    "wrong": [
+      "RAM and secondary storage",
+      "Input and output devices",
+      "Network and communication hardware"
       ]
     }
   },
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "What is an integrated circuit?",
       "correct": "A complete circuit on a single chip",
-      "wrong": [
-        "A group of wires",
-        "A type of software",
-        "A network connection"
-      ]
+    "wrong": [
+  "A set of connected wires between components",
+  "A program used to control hardware",
+  "A system used to transfer data between devices"
+]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "Where is the microprocessor located?",
       "correct": "On the motherboard",
-      "wrong": [
-        "In the monitor",
-        "In the keyboard",
-        "In the power supply"
-      ]
+     "wrong": [
+  "Inside an input device",
+  "Inside an output device",
+  "Inside the power supply unit"
+]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "Why are microprocessors important?",
       "correct": "They allow CPU functions on a single chip",
-      "wrong": [
-        "They store files permanently",
-        "They display graphics",
-        "They connect to the internet"
-      ]
+     "wrong": [
+  "They are used to store long-term data",
+  "They are responsible for rendering images",
+  "They manage communication between networks"
+]
     }
   }
 ]
