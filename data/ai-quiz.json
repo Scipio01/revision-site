@@ -17,10 +17,11 @@
       "question": "Which is a characteristic of an AI system?",
       "correct": "Ability to reason",
       "wrong": [
-        "Requires a keyboard",
-        "Must use the internet",
-        "Always stores files"
-      ]
+    "Stores data permanently",
+    "Uses binary to process data",
+    "Requires user input to operate"
+]
+      
     }
   },
     {
