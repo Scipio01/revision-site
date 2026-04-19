@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is a pixel?",
       "correct": "The smallest unit of an image",
-      "wrong": [
-        "A type of file",
-        "A colour value",
-        "A compression method"
-      ]
+     "wrong": [
+  "A section of image metadata",
+  "A single colour",
+  "A method used to reduce file size"
+]
     }
   },
   {
@@ -16,11 +16,11 @@
     "mcq": {
       "question": "What is resolution?",
       "correct": "Number of pixels in an image",
-      "wrong": [
-        "Number of colours",
-        "File size",
-        "Brightness"
-      ]
+     "wrong": [
+  "Number of colours available",
+  "Amount of storage needed for the image",
+  "Lightness or darkness of the image"
+]
     }
   },
   {
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "What is colour depth?",
       "correct": "Number of bits per pixel",
-      "wrong": [
-        "Number of pixels",
-        "File size",
-        "Image width"
-      ]
+     "wrong": [
+  "Total number of pixels in the image",
+  "Amount of storage the image uses",
+  "The width of the image in pixels"
+]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What happens when resolution increases?",
       "correct": "File size increases",
-      "wrong": [
-        "File size decreases",
-        "Colour depth decreases",
-        "Image becomes analogue"
-      ]
+     "wrong": [
+  "File size decreases",
+  "Fewer pixels are stored",
+  "The image uses fewer bits per pixel"
+]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "What happens when colour depth increases?",
       "correct": "File size increases",
-      "wrong": [
-        "File size decreases",
-        "Resolution decreases",
-        "Image becomes binary"
-      ]
+    "wrong": [
+  "File size decreases",
+  "The image has fewer possible colours",
+  "The image uses fewer bits per pixel"
+]
     }
   },
   {
@@ -64,11 +64,11 @@
     "mcq": {
       "question": "What is metadata?",
       "correct": "Extra information about an image",
-      "wrong": [
-        "The image pixels",
-        "The colour values",
-        "The file size"
-      ]
+    "wrong": [
+  "The visible image itself",
+  "The pixels that form the picture",
+  "The colours displayed in the image"
+]
     }
   }
 ]
