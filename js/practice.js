@@ -42,6 +42,8 @@ function updateScoreDisplay() {
   totalQuestions = 10;
 } else if (getTopic() === "testdata") {
   totalQuestions = 10;
+} else if (getTopic() === "validationexam") {
+  totalQuestions = 5;
 } else {
   totalQuestions = 10;
 }
@@ -392,6 +394,7 @@ topic === "validationchecks" ? 5 :
 topic === "verificationchecks" ? 4 :
 topic === "errortypes" ? 10 :
 topic === "testdata" ? 10 :
+topic === "validationexam" ? 5 :
 10
 }</span></div>`;
 
