@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which is the first stage of the program development life cycle?",
       "correct": "Analysis",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which stage involves identifying the problem and requirements?",
       "correct": "Analysis",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which stage involves planning the solution using flowcharts or pseudocode?",
       "correct": "Design",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which stage involves writing the program code?",
       "correct": "Coding",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which stage involves checking the program works using test data?",
       "correct": "Testing",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "A developer breaks a problem into smaller parts. What is this called?",
       "correct": "Decomposition",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "A developer removes unnecessary detail to focus on the important parts. What is this called?",
       "correct": "Abstraction",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which of the following happens in the analysis stage?",
       "correct": "Identifying the problem and requirements",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which of the following happens in the design stage?",
       "correct": "Creating flowcharts and pseudocode",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which set shows the correct order of stages?",
       "correct": "Analysis, Design, Coding, Testing",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which is a design method?",
       "correct": "Pseudocode",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which is another design method?",
       "correct": "Flowchart",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "What is iterative testing?",
       "correct": "Testing the program repeatedly during development",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "A programmer tests their code each time they add a new feature. What is this called?",
       "correct": "Iterative testing",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "Which of the following are the components of a system?",
       "correct": "Input, process, output, storage",
@@ -180,7 +180,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "A student writes code to solve a problem. Which stage are they in?",
       "correct": "Coding",
@@ -192,7 +192,7 @@
     }
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "mcq": {
       "question": "A system is tested using different values to check it works correctly. Which stage is this?",
       "correct": "Testing",
