@@ -2,114 +2,114 @@
 
 
 {
-  "topicName": "pdlc",
+  "topicName": "Program Development Life Cycle",
   "front": "What is the Program Development Life Cycle (PDLC)?",
   "back": "The PDLC is the process used to design, develop, test, and maintain a program from start to finish."
 },
 
   
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What are the four stages of the program development life cycle?",
     "back": "Analysis, Design, Coding, Testing."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "Which stage of the program development life cycle comes first?",
     "back": "Analysis."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "Which stage involves identifying the problem and requirements?",
     "back": "Analysis."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What happens in the analysis stage?",
     "back": "The problem is identified, broken down and requirements are gathered."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What is abstraction?",
     "back": "Removing unnecessary detail to focus on the important parts of a problem."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What is decomposition?",
     "back": "Breaking a problem down into smaller parts that are easier to solve."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What is a requirements specification?",
     "back": "A list of what the system must do."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "Which stage follows analysis?",
     "back": "Design."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What happens in the design stage?",
     "back": "Solutions are planned using structure diagrams, flowcharts and pseudocode."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "Give one design method used in the design stage.",
     "back": "Flowcharts, pseudocode or structure diagrams."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What does a structure diagram show?",
     "back": "How a problem is broken down into smaller parts."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What do flowcharts show?",
     "back": "The steps in an algorithm using diagrams."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What is pseudocode?",
     "back": "A simple way of writing algorithms using structured English."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "Which stage involves writing the program?",
     "back": "Coding."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What happens in the coding stage?",
     "back": "The program is written and tested as it is developed."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What is iterative testing?",
     "back": "Testing the program repeatedly as it is being developed."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "Which stage is the final stage of the program development life cycle?",
     "back": "Testing."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What happens in the testing stage?",
     "back": "The program is tested using test data to check it works correctly."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What is test data?",
     "back": "Data used to check whether a program works correctly."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What is the purpose of testing?",
     "back": "To check that the program works as expected and fix any errors."
   },
   {
-    "topicName": "pdlc",
+    "topicName": "Program Development Life Cycle",
     "front": "What are the four components used when designing solutions?",
     "back": "Inputs, processes, outputs and storage."
   }
