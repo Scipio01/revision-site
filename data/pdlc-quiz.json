@@ -84,14 +84,14 @@
     }
   },
   {
-    "topicName": "Program Development Life Cycle",
-    "mcq": {
-      "question": "Which of the following happens in the analysis stage?",
-      "correct": "Identifying the problem and requirements",
-      "wrong": [
-        "Writing the program code",
-        "Testing with data",
-        "Drawing flowcharts"
+   "topicName": "Program Development Life Cycle",
+  "mcq": {
+    "question": "Why is the analysis stage important?",
+    "correct": "It ensures the correct problem is understood before development",
+    "wrong": [
+      "It allows code to be written quickly",
+      "It reduces the need for testing",
+      "It improves hardware performance"
       ]
     }
   },
@@ -124,10 +124,10 @@
     "mcq": {
       "question": "Which is a design method?",
       "correct": "Pseudocode",
-      "wrong": [
-        "Compiler",
-        "RAM",
-        "Cache"
+    "wrong": [
+  "Program translator",
+  "Primary memory component",
+  "Temporary data storage"
       ]
     }
   },
@@ -157,13 +157,13 @@
   },
   {
     "topicName": "Program Development Life Cycle",
-    "mcq": {
-      "question": "A programmer tests their code each time they add a new feature. What is this called?",
-      "correct": "Iterative testing",
-      "wrong": [
-        "Final testing",
-        "Validation",
-        "Compilation"
+  "mcq": {
+    "question": "Why is iterative testing used?",
+    "correct": "To identify and fix errors early",
+    "wrong": [
+      "To avoid writing code",
+      "To increase file size",
+      "To reduce processing speed"
       ]
     }
   },
