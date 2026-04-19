@@ -2017,9 +2017,22 @@ If the original data is wrong, both entries can still match and still be incorre
 
   let index = questionNumber - 1;
 
-  if (index >= examQuestions.length) {
-    index = examQuestions.length - 1;
-  }
+ if (index >= examQuestions.length) {
+  questionNumber = examQuestions.length;
+
+  const liveQuestionNumberEl = document.getElementById("questionNumber");
+  const liveTotalQuestionsEl = document.getElementById("totalQuestions");
+
+  if (liveQuestionNumberEl) liveQuestionNumberEl.textContent = questionNumber;
+  if (liveTotalQuestionsEl) liveTotalQuestionsEl.textContent = examQuestions.length;
+
+  questionEl.innerHTML = `<div class="code-block">✔ You have completed all questions.</div>`;
+  imageOptionsEl.innerHTML = "";
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "none";
+  return;
+}
 
   const item = examQuestions[index];
 
