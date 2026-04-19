@@ -4,23 +4,23 @@
     "mcq": {
       "question": "What is an interrupt?",
       "correct": "A signal to the CPU requiring immediate attention",
-      "wrong": [
-        "A type of memory",
-        "A storage device",
-        "A programming language"
-      ]
+     "wrong": [
+  "A section of memory used by the CPU",
+  "A system for storing program data",
+  "A set of instructions written in code"
+]
     }
   },
   {
     "topicName": "Interrupts",
     "mcq": {
       "question": "What does the CPU do when an interrupt occurs?",
-      "correct": "Pauses the current task",
-      "wrong": [
-        "Deletes the program",
-        "Shuts down",
-        "Stores the data permanently"
-      ]
+      "correct": "Pauses the current task and processes the interrupt",
+     "wrong": [
+  "Ignores the interrupt and continues processing",
+  "Immediately stops all processing permanently",
+  "Saves the program and shuts down"
+]
     }
   },
   {
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "What is an ISR?",
       "correct": "A program that runs when an interrupt occurs",
-      "wrong": [
-        "A storage device",
-        "A type of RAM",
-        "A network protocol"
-      ]
+    "wrong": [
+  "A section of memory used during execution",
+  "A type of high-speed cache memory",
+  "A method used to send data across networks"
+]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "Which of these is a hardware interrupt?",
       "correct": "Keyboard input",
-      "wrong": [
-        "Division by zero",
-        "File saving",
-        "Opening a program"
-      ]
+     "wrong": [
+  "A calculation error during execution",
+  "A program requesting access to memory",
+  "An instruction being processed by the CPU"
+]
     }
   },
   {
@@ -52,23 +52,23 @@
     "mcq": {
       "question": "Which of these is a software interrupt?",
       "correct": "Division by zero",
-      "wrong": [
-        "Mouse movement",
-        "Printer out of paper",
-        "Key press"
-      ]
+    "wrong": [
+  "Mouse input from a user",
+  "A printer running out of paper",
+  "A key being pressed on the keyboard"
+]
     }
   },
   {
     "topicName": "Interrupts",
     "mcq": {
-      "question": "What happens after the ISR is completed?",
+      "question": "What happens after the Interrupt Service Routine is completed?",
       "correct": "The CPU resumes the original process",
-      "wrong": [
-        "The computer shuts down",
-        "The file is deleted",
-        "The RAM is cleared"
-      ]
+    "wrong": [
+  "The CPU starts a new unrelated process",
+  "The current program is permanently stopped",
+  "The system returns to the start of execution"
+]
     }
   },
   {
@@ -76,10 +76,11 @@
     "mcq": {
       "question": "Why are interrupts useful?",
       "correct": "They allow quick response to important events",
-      "wrong": [
-        "They increase storage space",
-        "They reduce file size",
-        "They improve screen resolution"
+    "wrong": [
+  "They increase the amount of data stored",
+  "They reduce the size of files in memory",
+  "They improve how images are displayed"
+]
       ]
     }
   }
