@@ -16,11 +16,11 @@
     "mcq": {
       "question": "What is the role of the ALU?",
       "correct": "To carry out arithmetic and logical operations",
-      "wrong": [
-        "To store files permanently",
-        "To control theme settings",
-        "To connect devices to the internet"
-      ]
+       "wrong": [
+    "To store data temporarily",
+    "To control the fetch-decode-execute cycle",
+    "To manage input and output devices"
+  ]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "Which of these is a logical operation?",
       "correct": "Comparing whether one value is greater than another",
-      "wrong": [
-        "Saving a file",
-        "Printing a document",
-        "Loading a web page"
-      ]
+       "wrong": [
+    "Adding two numbers together",
+    "Multiplying two values",
+    "Dividing one number by another"
+  ]
     }
   },
   {
