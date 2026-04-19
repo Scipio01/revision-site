@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "mcq": {
       "question": "What is robotics?",
       "correct": "The study of robots",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "mcq": {
       "question": "Which is a characteristic of a robot?",
       "correct": "Programmable",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "mcq": {
       "question": "A robot is used to move car parts in a factory. One characteristic is that it has a mechanical structure. What is another characteristic of a robot?",
       "correct": "It is programmable",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "mcq": {
       "question": "What do sensors do in a robot?",
       "correct": "Collect data from the environment",
@@ -49,7 +49,7 @@
   },
 
     {
-      "topicName": "robotics",
+      "topicName": "Robotics",
       "mcq": {
         "question": "Which is a characteristic of a robot?",
         "correct": "It has electrical components",
@@ -63,7 +63,7 @@
 
   
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "mcq": {
       "question": "What is the role of actuators?",
       "correct": "Produce movement",
@@ -76,7 +76,7 @@
   },
 
     {
-      "topicName": "robotics",
+      "topicName": "Robotics",
       "mcq": {
         "question": "Which set shows all three characteristics of a robot?",
         "correct": "Mechanical structure, electrical components, programmable",
@@ -90,7 +90,7 @@
 
   
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "mcq": {
       "question": "Which is an example of robot use?",
       "correct": "Manufacturing in factories",
@@ -102,7 +102,7 @@
     }
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "mcq": {
       "question": "Why are robots used in industry?",
       "correct": "They can do repetitive tasks",
@@ -114,7 +114,7 @@
     }
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "mcq": {
       "question": "Which is an advantage of robots?",
       "correct": "They can work continuously",
@@ -126,7 +126,7 @@
     }
   },
   {
-    "topicName": "robotics",
+    "topicName": "Robotics",
     "mcq": {
       "question": "Which is a disadvantage of robots?",
       "correct": "High cost",
