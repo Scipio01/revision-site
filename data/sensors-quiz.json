@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "mcq": {
       "question": "What is a sensor?",
       "correct": "A device that measures a physical property and converts it into data",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "mcq": {
       "question": "What type of data do most sensors produce?",
       "correct": "Analogue",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "mcq": {
       "question": "What is used to convert sensor data into digital form?",
       "correct": "ADC",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "mcq": {
       "question": "Which sensor detects heat?",
       "correct": "Infra-red sensor",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "mcq": {
       "question": "Which sensor is used in car parking systems?",
       "correct": "Proximity sensor",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "sensors",
+    "topicName": "Sensors",
     "mcq": {
       "question": "Which sensor measures temperature?",
       "correct": "Temperature sensor",
