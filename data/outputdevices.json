@@ -1,132 +1,132 @@
 [
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What is an output device?",
     "back": "A device that converts digital data from a computer into a form that can be seen, heard or acted upon."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "Give examples of output devices.",
     "back": "Speaker, printer, monitor, projector, actuator."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What does a speaker do?",
     "back": "It converts digital sound data into analogue sound."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What does DAC stand for?",
     "back": "Digital-to-Analogue Converter."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "Why is a DAC needed?",
     "back": "To convert digital sound data into analogue signals that can be heard."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What is an actuator?",
     "back": "A device that converts an electrical signal into physical movement."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "Give examples of actuators.",
     "back": "Motors, valves, robotic arms, central locking systems."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "How does an inkjet printer work?",
     "back": "It sprays tiny droplets of ink onto paper."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "When is an inkjet printer typically used?",
     "back": "For high-quality colour printing such as photos."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "How does a laser printer work?",
     "back": "It uses a laser and toner powder fused onto paper using heat."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "When is a laser printer typically used?",
     "back": "For fast, high-volume printing in offices."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What is a 3D printer?",
     "back": "A device that creates physical objects layer by layer from a digital design."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What is additive manufacturing?",
     "back": "Building objects by adding material layer by layer."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What is subtractive manufacturing?",
     "back": "Creating objects by removing material from a solid block."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What is an LCD screen?",
     "back": "A display that uses liquid crystals and requires a backlight."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What is an LED screen?",
     "back": "A display that uses LEDs to produce light directly."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "Give one advantage of LED over LCD.",
     "back": "Brighter images and lower power usage."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What is an LCD projector?",
     "back": "A projector that uses LCD panels and coloured light."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "What is a DLP projector?",
     "back": "A projector that uses microscopic mirrors to reflect light."
   },
   {
-    "topicName": "outputdevices",
+    "topicName": "Output Devices",
     "front": "Give one difference between DLP and LCD projectors.",
     "back": "DLP projectors are smaller but noisier, LCD projectors have better image quality."
   },
 
   {
-  "topicName": "outputdevices",
+  "topicName": "Output Devices",
   "front": "Why are LED screens better than LCD screens?",
   "back": "They are brighter, more energy efficient, thinner and have better image quality."
 },
 {
-  "topicName": "outputdevices",
+  "topicName": "Output Devices",
   "front": "When would an inkjet printer be used?",
   "back": "For low-volume or high-quality colour printing such as photos."
 },
 {
-  "topicName": "outputdevices",
+  "topicName": "Output Devices",
   "front": "When would a laser printer be used?",
   "back": "For fast, high-volume printing in offices."
 },
 {
-  "topicName": "outputdevices",
+  "topicName": "Output Devices",
   "front": "When would a 3D printer be used?",
   "back": "When a physical object is required from a digital design."
 },
 {
-  "topicName": "outputdevices",
+  "topicName": "Output Devices",
   "front": "What is additive manufacturing?",
   "back": "Creating an object by adding material layer by layer."
 },
 {
-  "topicName": "outputdevices",
+  "topicName": "Output Devices",
   "front": "What is subtractive manufacturing?",
   "back": "Creating an object by removing material from a solid block."
 }
