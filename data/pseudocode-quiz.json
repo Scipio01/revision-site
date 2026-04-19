@@ -1,7 +1,7 @@
 
 [
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "What does the ← symbol mean in pseudocode?",
       "correct": "Assign a value to a variable",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "Which keyword is used to get input from a user?",
       "correct": "INPUT",
@@ -25,7 +25,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "What does MOD do?",
       "correct": "Returns the remainder after division",
@@ -37,7 +37,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "What does DIV do?",
       "correct": "Performs integer division",
@@ -49,7 +49,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "Which data type stores TRUE or FALSE values?",
       "correct": "BOOLEAN",
@@ -61,7 +61,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "What keyword starts a selection statement?",
       "correct": "IF",
@@ -73,7 +73,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "Which keyword ends an IF statement?",
       "correct": "ENDIF",
@@ -85,7 +85,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "Which loop is a pre-condition loop?",
       "correct": "WHILE",
@@ -97,7 +97,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "Which loop is a post-condition loop?",
       "correct": "REPEAT...UNTIL",
@@ -109,7 +109,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "x ← 5\nOUTPUT x\n\nWhat will this output?",
       "correct": "5",
@@ -121,7 +121,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "x ← 3\nx ← x + 2\nOUTPUT x\n\nWhat will this output?",
       "correct": "5",
@@ -133,7 +133,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "What does <> mean?",
       "correct": "Not equal to",
@@ -145,7 +145,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "Which keyword is used to define a procedure?",
       "correct": "PROCEDURE",
@@ -157,7 +157,7 @@
     }
   },
   {
-    "topicName": "pseudocode",
+    "topicName": "Pseudocode",
     "mcq": {
       "question": "Which keyword returns a value from a function?",
       "correct": "RETURN",
@@ -170,7 +170,7 @@
   },
 
 {
-  "topicName": "pseudocode",
+  "topicName": "Pseudocode",
   "mcq": {
     "question": "x ← 10\nx ← x DIV 3\nOUTPUT x\n\nWhat will this output?",
     "correct": "3",
@@ -182,7 +182,7 @@
   }
 },
 {
-  "topicName": "pseudocode",
+  "topicName": "Pseudocode",
   "mcq": {
     "question": "x ← 10\nx ← x MOD 3\nOUTPUT x\n\nWhat will this output?",
     "correct": "1",
@@ -194,7 +194,7 @@
   }
 },
 {
-  "topicName": "pseudocode",
+  "topicName": "Pseudocode",
   "mcq": {
     "question": "count ← 0\nFOR i ← 1 TO 3\n  count ← count + 1\nNEXT i\nOUTPUT count\n\nWhat will this output?",
     "correct": "3",
@@ -206,7 +206,7 @@
   }
 },
 {
-  "topicName": "pseudocode",
+  "topicName": "Pseudocode",
   "mcq": {
     "question": "x ← 5\nIF x > 10 THEN\n  OUTPUT \"A\"\nELSE\n  OUTPUT \"B\"\nENDIF\n\nWhat will this output?",
     "correct": "B",
@@ -218,7 +218,7 @@
   }
 },
 {
-  "topicName": "pseudocode",
+  "topicName": "Pseudocode",
   "mcq": {
     "question": "x ← 0\nWHILE x < 3 DO\n  OUTPUT x\n  x ← x + 1\nENDWHILE\n\nHow many times will OUTPUT run?",
     "correct": "3",
@@ -230,7 +230,7 @@
   }
 },
 {
-  "topicName": "pseudocode",
+  "topicName": "Pseudocode",
   "mcq": {
     "question": "REPEAT\n  OUTPUT \"Hi\"\nUNTIL TRUE\n\nHow many times will this loop run?",
     "correct": "1",
@@ -242,7 +242,7 @@
   }
 },
 {
-  "topicName": "pseudocode",
+  "topicName": "Pseudocode",
   "mcq": {
     "question": "DECLARE nums : ARRAY[1:3] OF INTEGER\nnums[1] ← 5\nnums[2] ← 7\nnums[3] ← 2\nOUTPUT nums[2]\n\nWhat will this output?",
     "correct": "7",
@@ -254,7 +254,7 @@
   }
 },
 {
-  "topicName": "pseudocode",
+  "topicName": "Pseudocode",
   "mcq": {
     "question": "Which operator is used for logical AND?",
     "correct": "AND",
@@ -266,7 +266,7 @@
   }
 },
 {
-  "topicName": "pseudocode",
+  "topicName": "Pseudocode",
   "mcq": {
     "question": "Which operator is used for logical OR?",
     "correct": "OR",
@@ -278,7 +278,7 @@
   }
 },
 {
-  "topicName": "pseudocode",
+  "topicName": "Pseudocode",
   "mcq": {
     "question": "What will this output?\n\nx ← 4\nIF x = 4 AND x > 2 THEN\n  OUTPUT \"Yes\"\nELSE\n  OUTPUT \"No\"\nENDIF",
     "correct": "Yes",
