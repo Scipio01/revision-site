@@ -18,10 +18,10 @@
       "question": "Which keyword is used to get input from a user?",
       "correct": "INPUT",
       "wrong": [
-        "OUTPUT",
-        "READ",
-        "SCAN"
-      ]
+  "OUTPUT",
+  "PRINT",
+  "DISPLAY"
+]
     }
   },
   {
@@ -101,11 +101,11 @@
     "mcq": {
       "question": "Which loop is a post-condition loop?",
       "correct": "REPEAT...UNTIL",
-      "wrong": [
-        "FOR",
-        "WHILE",
-        "DO...WHILE"
-      ]
+     "wrong": [
+  "FOR",
+  "WHILE",
+  "IF"
+]
     }
   },
   {
@@ -149,11 +149,11 @@
     "mcq": {
       "question": "Which keyword is used to define a procedure?",
       "correct": "PROCEDURE",
-      "wrong": [
-        "FUNCTION",
-        "CALL",
-        "METHOD"
-      ]
+     "wrong": [
+  "FUNCTION",
+  "RETURN",
+  "CALL"
+]
     }
   },
   {
@@ -258,11 +258,11 @@
   "mcq": {
     "question": "Which operator is used for logical AND?",
     "correct": "AND",
-    "wrong": [
-      "&",
-      "&&",
-      "+"
-    ]
+   "wrong": [
+  "OR",
+  "NOT",
+  "="
+]
   }
 },
 {
@@ -270,11 +270,11 @@
   "mcq": {
     "question": "Which operator is used for logical OR?",
     "correct": "OR",
-    "wrong": [
-      "||",
-      "+",
-      "AND"
-    ]
+   "wrong": [
+  "AND",
+  "NOT",
+  "="
+]
   }
 },
 {
