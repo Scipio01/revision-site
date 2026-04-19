@@ -82,5 +82,18 @@
   "Using a heat sensor"
 ]
     }
+  },
+
+  {
+  "topicName": "Automatic Input Devices (Scanners + Cameras)",
+  "mcq": {
+    "question": "Why are automatic input devices used?",
+    "correct": "To reduce human error and speed up data entry",
+    "wrong": [
+      "To increase file sizes",
+      "To improve screen resolution",
+      "To store data permanently"
+    ]
   }
+}
 ]
