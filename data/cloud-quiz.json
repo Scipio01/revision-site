@@ -17,10 +17,10 @@
       "question": "What does remote access mean?",
       "correct": "Accessing data from anywhere using the internet",
       "wrong": [
-        "Accessing files only at school",
-        "Accessing files without power",
-        "Accessing files using a printer"
-      ]
+      "Accessing files from a local device only",
+      "Accessing files without an internet connection",
+      "Accessing files stored in RAM"
+    ]
     }
   },
   {
@@ -29,10 +29,10 @@
       "question": "Where is cloud data stored?",
       "correct": "On physical servers in data centres",
       "wrong": [
-        "Inside RAM",
-        "In a keyboard",
-        "In a monitor"
-      ]
+      "On a local hard drive",
+      "In main memory",
+      "On a personal device"
+    ]
     }
   },
   {
@@ -41,10 +41,10 @@
       "question": "What is an advantage of cloud storage?",
       "correct": "Access from anywhere",
       "wrong": [
-        "No need for internet",
-        "Always faster than RAM",
-        "No security risks"
-      ]
+      "Does not require an internet connection",
+      "Always provides the fastest access speeds",
+      "Cannot be accessed by other users"
+    ]
     }
   },
   {
@@ -53,10 +53,10 @@
       "question": "What is a disadvantage of cloud storage?",
       "correct": "Requires an internet connection",
       "wrong": [
-        "Cannot store files",
-        "Cannot be shared",
-        "Has no capacity"
-      ]
+      "Cannot be accessed from different locations",
+      "Cannot store large amounts of data",
+      "Cannot be shared with others"
+  ]
     }
   }
 ]
