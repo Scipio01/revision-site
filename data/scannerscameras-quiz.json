@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
       "question": "What is an automatic input device?",
       "correct": "A device that collects input automatically",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
       "question": "Which of these is an automatic input device?",
       "correct": "Barcode scanner",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
       "question": "What is one advantage of barcodes?",
       "correct": "Faster than manual data entry",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
       "question": "What is one advantage of QR codes?",
       "correct": "They can store more data",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
       "question": "What is a 2D scanner used for?",
       "correct": "Digitising documents",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
       "question": "What does a 3D scanner create?",
       "correct": "A digital 3D model",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "scannerscameras",
+    "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
       "question": "How does a digital camera capture images?",
       "correct": "Using a CCD to record pixels",
