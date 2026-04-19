@@ -27,7 +27,7 @@
     "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
       "question": "What is one advantage of barcodes?",
-      "correct": "Faster than manual data entry",
+      "correct": "Faster and more accurate than manual data entry",
       "wrong": [
         "They store images",
         "They require no hardware",
@@ -75,7 +75,7 @@
     "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
       "question": "How does a digital camera capture images?",
-      "correct": "Using a CCD to record pixels",
+      "correct": "Using a CCD sensor to convert light into digital data",
      "wrong": [
   "Using a laser beam",
   "Using magnetic storage",
