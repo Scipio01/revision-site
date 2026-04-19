@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is primary storage?",
       "correct": "Memory directly accessed by the CPU",
-      "wrong": [
-        "External storage devices",
-        "Cloud-based storage",
-        "Backup storage only"
-      ]
+     "wrong": [
+  "Storage used for long-term data storage",
+  "Storage accessed over the internet",
+  "Storage used to keep backup copies of files"
+]
     }
   },
   {
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "What does volatile mean?",
       "correct": "Loses data when power is off",
-      "wrong": [
-        "Stores data permanently",
-        "Can only store images",
-        "Is very large"
-      ]
+     "wrong": [
+  "Data is stored permanently",
+  "Data can be accessed more quickly",
+  "Data is stored in secondary storage"
+]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What is the main role of ROM?",
       "correct": "Store startup instructions",
-      "wrong": [
-        "Store user files",
-        "Run programs",
-        "Display graphics"
-      ]
+     "wrong": [
+  "Store files for long-term use",
+  "Hold programs while they are running",
+  "Process graphical data for display"
+]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "Why is RAM needed?",
       "correct": "To store running programs and data",
-      "wrong": [
-        "To connect to the internet",
-        "To store permanent files",
-        "To control the keyboard"
-      ]
+     "wrong": [
+  "To store files permanently",
+  "To manage communication between devices",
+  "To control input devices"
+]
     }
   },
   {
@@ -64,11 +64,11 @@
     "mcq": {
       "question": "What is virtual memory?",
       "correct": "Secondary storage used as an extension of RAM",
-      "wrong": [
-        "A type of ROM",
-        "A network connection",
-        "A graphics system"
-      ]
+     "wrong": [
+  "A type of permanent read-only memory",
+  "A system used to connect computers together",
+  "A method used to display images on screen"
+]
     }
   },
   {
@@ -76,11 +76,11 @@
     "mcq": {
       "question": "Why is virtual memory slower?",
       "correct": "It uses secondary storage",
-      "wrong": [
-        "It has fewer colours",
-        "It uses the keyboard",
-        "It is stored in ROM"
-      ]
+     "wrong": [
+  "It uses less data than RAM",
+  "It is processed by input devices",
+  "It is stored in read-only memory"
+]
     }
   }
 ]
