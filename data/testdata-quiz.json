@@ -24,14 +24,14 @@
     }
   },
   {
-    "topicName": "Test Data",
-    "mcq": {
-      "question": "What type of test data uses the lowest and highest valid values?",
-      "correct": "Extreme data",
-      "wrong": [
-        "Normal data",
-        "Abnormal data",
-        "Boundary data"
+   "topicName": "Test Data",
+  "mcq": {
+    "question": "What type of test data uses the lowest and highest valid values within the range?",
+    "correct": "Extreme data",
+    "wrong": [
+      "Normal data",
+      "Abnormal data",
+      "Boundary data"
       ]
     }
   },
@@ -62,12 +62,12 @@
   {
     "topicName": "Test Data",
     "mcq": {
-      "question": "A program accepts values between 1 and 100. Which is extreme data?",
-      "correct": "1 and 100",
-      "wrong": [
-        "0 and 101",
-        "50 and 75",
-        "-1 and 200"
+    "question": "A program accepts values between 1 and 100. Which is an example of extreme data?",
+"correct": "1",
+"wrong": [
+  "0",
+  "50",
+  "101"
       ]
     }
   },
@@ -189,6 +189,19 @@
       "100 and 200",
       "150",
       "120 and 180"
+    ]
+  }
+},
+
+  {
+  "topicName": "Test Data",
+  "mcq": {
+    "question": "Why is boundary testing important?",
+    "correct": "Errors are most likely to occur at the limits of valid data",
+    "wrong": [
+      "It speeds up the program",
+      "It reduces file size",
+      "It ensures only valid data is used"
     ]
   }
 }
