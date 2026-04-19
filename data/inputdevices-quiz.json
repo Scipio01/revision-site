@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is an input device?",
       "correct": "A device used to enter data into a computer system",
-      "wrong": [
-        "A device used to display data",
-        "A device used to store data permanently",
-        "A device used only to connect to the internet"
-      ]
+     "wrong": [
+  "A device used to present data to the user",
+  "A device used to save data for later use",
+  "A device used to transfer data between networks"
+]
     }
   },
   {
@@ -16,11 +16,11 @@
     "mcq": {
       "question": "Why are input devices needed?",
       "correct": "To allow data and instructions to be entered into a system",
-      "wrong": [
-        "To print documents",
-        "To increase storage capacity",
-        "To cool the CPU"
-      ]
+     "wrong": [
+  "To display information to the user",
+  "To store large amounts of data",
+  "To improve processor performance"
+]
     }
   },
   {
@@ -29,10 +29,10 @@
       "question": "Which of these is a manual input device?",
       "correct": "Keyboard",
       "wrong": [
-        "Speaker",
-        "Projector",
-        "Printer"
-      ]
+  "Monitor",
+  "Projector",
+  "Printer"
+]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "How does an optical mouse detect movement?",
       "correct": "Using a light source and optical sensor",
-      "wrong": [
-        "Using a laser printer head",
-        "Using sound waves",
-        "Using a magnetic platter"
-      ]
+    "wrong": [
+  "Using a rolling ball and sensors",
+  "Using sound waves to judge distance",
+  "Using a magnetic disk to track position"
+]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "Why is an ADC needed with a microphone?",
       "correct": "To convert analogue sound into digital data",
-      "wrong": [
-        "To make the sound louder",
-        "To store sound in ROM",
-        "To project the sound onto a screen"
-      ]
+     "wrong": [
+  "To increase the volume of the sound",
+  "To save the sound permanently in memory",
+  "To send the sound directly to an output device"
+]
     }
   },
   {
@@ -64,11 +64,11 @@
     "mcq": {
       "question": "What is one advantage of barcodes?",
       "correct": "They can be scanned faster than entering data manually",
-      "wrong": [
-        "They store videos",
-        "They need more space than text labels",
-        "They can only be read by cameras"
-      ]
+     "wrong": [
+  "They can store moving images",
+  "They always take up more space than text",
+  "They can only be read by specialised cameras"
+]
     }
   },
   {
@@ -76,11 +76,11 @@
     "mcq": {
       "question": "What is one advantage of QR codes compared with barcodes?",
       "correct": "They can hold more data",
-      "wrong": [
-        "They can only store numbers",
-        "They need a special barcode laser only",
-        "They cannot be scanned at different angles"
-      ]
+     "wrong": [
+  "They can only store numeric data",
+  "They must be scanned with one specific reader",
+  "They can only be scanned from one angle"
+]
     }
   },
   {
@@ -88,11 +88,11 @@
     "mcq": {
       "question": "What is a 2D scanner used for?",
       "correct": "To convert documents or images into a digital format",
-      "wrong": [
-        "To print physical objects",
-        "To detect temperature",
-        "To measure pressure"
-      ]
+    "wrong": [
+  "To produce a physical copy of an object",
+  "To record changes in heat",
+  "To sense force applied to a surface"
+]
     }
   },
   {
@@ -100,11 +100,11 @@
     "mcq": {
       "question": "What does a 3D scanner create?",
       "correct": "A digital representation of a 3D object",
-      "wrong": [
-        "A paper printout",
-        "A magnetic field",
-        "A sound recording"
-      ]
+     "wrong": [
+  "A flat printed copy of the object",
+  "A signal used to store data magnetically",
+  "An audio file of the object"
+]
     }
   },
   {
@@ -112,11 +112,11 @@
     "mcq": {
       "question": "How does a digital camera capture an image?",
       "correct": "By focusing light onto a CCD that records pixels",
-      "wrong": [
-        "By using a speaker cone",
-        "By reading pits and lands",
-        "By using a read/write head"
-      ]
+    "wrong": [
+  "By converting sound waves into electrical signals",
+  "By reading microscopic marks on an optical disc",
+  "By magnetically reading data from a storage disk"
+]
     }
   }
 ]
