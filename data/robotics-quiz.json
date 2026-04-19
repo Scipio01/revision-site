@@ -3,7 +3,7 @@
     "topicName": "Robotics",
     "mcq": {
       "question": "What is robotics?",
-      "correct": "The design, construction and use of robots"
+      "correct": "The design, construction and use of robots",
       "wrong": [
         "A type of programming language",
         "A method of storing data",
