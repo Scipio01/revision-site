@@ -3,7 +3,7 @@
     "topicName": "Robotics",
     "mcq": {
       "question": "What is robotics?",
-      "correct": "The study of robots",
+      "correct": "The design, construction and use of robots"
       "wrong": [
         "A type of programming language",
         "A method of storing data",
@@ -24,14 +24,14 @@
     }
   },
   {
-    "topicName": "Robotics",
-    "mcq": {
-      "question": "A robot is used to move car parts in a factory. One characteristic is that it has a mechanical structure. What is another characteristic of a robot?",
-      "correct": "It is programmable",
-      "wrong": [
-        "It uses Wi-Fi",
-        "It has a screen",
-        "It stores files"
+   "topicName": "Robotics",
+  "mcq": {
+    "question": "A robot is used in a factory to move objects automatically. Why is being programmable important?",
+    "correct": "It allows the robot to be given instructions for different tasks",
+    "wrong": [
+      "It allows the robot to store files",
+      "It allows the robot to connect to Wi-Fi",
+      "It allows the robot to display images"
       ]
     }
   },
@@ -131,10 +131,10 @@
       "question": "Which is a disadvantage of robots?",
       "correct": "High cost",
       "wrong": [
-        "Slow processing speed",
-        "Cannot use sensors",
-        "Cannot be programmed"
-      ]
+  "They require maintenance",
+  "They can replace human jobs",
+  "They depend on correct programming"
+]
     }
   }
 ]
