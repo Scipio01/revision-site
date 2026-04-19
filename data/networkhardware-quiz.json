@@ -4,22 +4,22 @@
     "mcq": {
       "question": "What hardware is needed to connect a device to a network?",
       "correct": "A Network Interface Card (NIC)",
-      "wrong": [
-        "A router",
-        "A modem",
-        "A web browser"
-      ]
+    "wrong": [
+  "A device used to route data between networks",
+  "A device used to convert signals for transmission",
+  "Software used to access web pages"
+]
     }
   },
   {
     "topicName": "Network Hardware",
     "mcq": {
       "question": "What hardware is needed to connect to the internet?",
-      "correct": "A NIC and a router",
-      "wrong": [
-        "A NIC only",
-        "A WAP only",
-        "A modem only"
+      "correct": "A router",
+"wrong": [
+  "A NIC only",
+  "A WAP only",
+  "A modem only"
       ]
     }
   },
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "What does a NIC do?",
       "correct": "Allows a device to connect to a network",
-      "wrong": [
-        "Stores data",
-        "Displays web pages",
-        "Assigns IP addresses"
-      ]
+    "wrong": [
+  "Stores files for long-term use",
+  "Displays information to the user",
+  "Automatically assigns IP addresses to devices"
+]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What does a router do?",
       "correct": "Connects a local network to the internet and forwards packets",
-      "wrong": [
-        "Stores files",
-        "Displays output",
-        "Runs applications"
-      ]
+     "wrong": [
+  "Stores data permanently",
+  "Displays information to the user",
+  "Executes software programs"
+]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "What can a router provide?",
       "correct": "Wi-Fi access and DHCP",
-      "wrong": [
-        "Web pages and HTML",
-        "Antivirus and firewalls",
-        "Printers and monitors"
-      ]
+    "wrong": [
+  "Web content and web pages",
+  "Software protection against malware",
+  "Output and input devices"
+]
     }
   },
   {
@@ -65,10 +65,10 @@
       "question": "What does a router use to forward packets?",
       "correct": "IP addresses",
       "wrong": [
-        "Filenames",
-        "Passwords",
-        "MAC addresses only"
-      ]
+  "File names stored on devices",
+  "User authentication data",
+  "Only MAC addresses"
+]
     }
   },
   {
