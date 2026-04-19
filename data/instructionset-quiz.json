@@ -5,10 +5,10 @@
       "question": "What is an instruction set?",
       "correct": "A list of commands a CPU can process",
       "wrong": [
-        "A type of memory",
-        "A storage device",
-        "An input system"
-      ]
+  "A section of memory used by the CPU",
+  "A system for storing program data",
+  "A method for entering data into a computer"
+]
     }
   },
   {
@@ -16,11 +16,11 @@
     "mcq": {
       "question": "In what form are instructions stored?",
       "correct": "Machine code",
-      "wrong": [
-        "Images",
-        "Text files",
-        "Sound files"
-      ]
+     "wrong": [
+  "High-level programming code",
+  "Binary image data",
+  "Stored text data"
+]
     }
   },
   {
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "Why is an instruction set important?",
       "correct": "It defines what operations a CPU can perform",
-      "wrong": [
-        "It increases screen resolution",
-        "It stores user data",
-        "It connects to networks"
-      ]
+     "wrong": [
+  "It determines how data is displayed",
+  "It controls how data is stored permanently",
+  "It manages communication between devices"
+]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What happens if a CPU does not recognise an instruction?",
       "correct": "It cannot execute it",
-      "wrong": [
-        "It deletes the program",
-        "It shuts down",
-        "It stores it permanently"
-      ]
+    "wrong": [
+  "It automatically corrects the instruction",
+  "It skips the instruction and continues",
+  "It converts it into a recognised command"
+]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "Do all CPUs have the same instruction set?",
       "correct": "No",
-      "wrong": [
-        "Yes",
-        "Only laptops do",
-        "Only servers do"
-      ]
+     "wrong": [
+  "Yes, all CPUs use the same set of instructions",
+  "Only modern CPUs have different instruction sets",
+  "Only high-performance CPUs have instruction sets"
+]
     }
   }
 ]
