@@ -27,7 +27,7 @@
     "topicName": "IP and MAC addresses",
     "mcq": {
       "question": "What is the main difference between a MAC address and an IP address?",
-      "correct": "MAC identifies a device locally, IP identifies it on a network",
+      "correct": "MAC identifies a device on a local network, IP identifies it across networks",
       "wrong": [
         "IP is permanent and MAC changes",
         "MAC is used on the internet only",
