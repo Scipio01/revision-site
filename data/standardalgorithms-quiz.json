@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "What is the purpose of a counting algorithm?",
       "correct": "To count how many times a condition is true",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "Which line is used in a counting algorithm?",
       "correct": "count ← count + 1",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "What does a totalling algorithm do?",
       "correct": "Adds values together to produce a total",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "Which line is used in a totalling algorithm?",
       "correct": "total ← total + value",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "What is the purpose of a maximum algorithm?",
       "correct": "To find the largest value",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "Which condition is used in a maximum algorithm?",
       "correct": "IF value > max THEN max ← value",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "What is the purpose of a minimum algorithm?",
       "correct": "To find the smallest value",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "How is an average calculated?",
       "correct": "total ÷ count",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "What is a linear search?",
       "correct": "Checking each item in a list one by one",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "When is a linear search most useful?",
       "correct": "When the data is not sorted",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "Which condition is used in a linear search?",
       "correct": "IF item = searchTerm",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "What does a bubble sort do?",
       "correct": "Sorts a list by comparing and swapping adjacent values",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "What happens during one pass of a bubble sort?",
       "correct": "The largest value moves to the end of the list",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "When does a bubble sort stop?",
       "correct": "When no swaps are made in a pass",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "topicName": "standardalgorithms",
+    "topicName": "Standard Methods of Solution",
     "mcq": {
       "question": "What do counting, totalling and max algorithms all have in common?",
       "correct": "They use a loop to process each item in a list",
