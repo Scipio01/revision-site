@@ -3,7 +3,7 @@
     "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
       "question": "What is an automatic input device?",
-      "correct": "A device that collects input automatically",
+      "correct": "A device that captures data without direct human input",
       "wrong": [
         "A device that outputs sound",
         "A storage device",
@@ -38,7 +38,7 @@
   {
     "topicName": "Automatic Input Devices (Scanners + Cameras)",
     "mcq": {
-      "question": "What is one advantage of QR codes?",
+      "question": "Why are QR codes often used instead of barcodes?",
       "correct": "They can store more data",
       "wrong": [
         "They only store numbers",
@@ -76,11 +76,11 @@
     "mcq": {
       "question": "How does a digital camera capture images?",
       "correct": "Using a CCD to record pixels",
-      "wrong": [
-        "Using a laser",
-        "Using magnetic platters",
-        "Using a speaker"
-      ]
+     "wrong": [
+  "Using a laser beam",
+  "Using magnetic storage",
+  "Using a heat sensor"
+]
     }
   }
 ]
