@@ -2,7 +2,7 @@
   {
     "topicName": "CPU and registers",
     "mcq": {
-      "question": "question": "Where does the CPU store data it is currently using?",
+      "question": "Where does the CPU store data it is currently using?",
       "correct": "Registers",
       "wrong": [
         "Hard drive",
@@ -38,7 +38,7 @@
   {
     "topicName": "CPU and registers",
     "mcq": {
-      "question": "Which register stores data or instructions being transferred to or from memory?",
+      "question": "Which register stores data or instructions fetched from or sent to memory?",
       "correct": "Memory Data Register (MDR)",
       "wrong": [
         "Program Counter (PC)",
@@ -61,7 +61,7 @@
   },
 
   {
-  "topicName": "Registers",
+  "topicName": "CPU and registers",
   "mcq": {
     "question": "What does the Memory Address Register (MAR) store?",
     "correct": "The address of data or instructions being accessed",
@@ -72,9 +72,8 @@
     ]
   }
 },
-
-  {
-  "topicName": "Registers",
+{
+  "topicName": "CPU and registers",
   "mcq": {
     "question": "What does the accumulator (ACC) store?",
     "correct": "The result of calculations",
@@ -84,5 +83,33 @@
       "The operating system"
     ]
   }
+},
+
+  {
+  "topicName": "CPU and registers",
+  "mcq": {
+    "question": "During the fetch stage, which register is used with the MAR to bring data from memory?",
+    "correct": "Memory Data Register (MDR)",
+    "wrong": [
+      "Accumulator (ACC)",
+      "Program Counter (PC)",
+      "Control Unit (CU)"
+    ]
+  }
+},
+
+  {
+  "topicName": "CPU and registers",
+  "mcq": {
+    "question": "What happens to the Program Counter (PC) after an instruction is fetched?",
+    "correct": "It is incremented to point to the next instruction",
+    "wrong": [
+      "It is reset to zero",
+      "It stores the fetched data",
+      "It sends data to the ALU"
+    ]
+  }
 }
+
+  
 ]
