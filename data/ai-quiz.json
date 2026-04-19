@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is artificial intelligence?",
       "correct": "Simulation of intelligent behaviour by computers",
-      "wrong": [
-        "Storage of large amounts of data",
-        "A method of building networks",
-        "A type of computer memory"
-      ]
+     "wrong": [
+      "Processing and storing data in a computer system",
+      "Connecting computers together in a network",
+      "Managing files and programs on a computer"
+    ]
     }
   },
   {
