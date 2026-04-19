@@ -97,13 +97,13 @@
   },
   {
     "topicName": "Character Sets",
-    "mcq": {
-      "What is the effect of Unicode using more bits per character?",
-      "correct": "It increases file size",
-      "wrong": [
-        "Smaller file size",
-        "Faster processing",
-        "Less storage needed"
+  "mcq": {
+    "question": "What is the effect of Unicode using more bits per character compared to ASCII?",
+    "correct": "It increases file size",
+    "wrong": [
+      "Smaller file size",
+      "Faster processing",
+      "Less storage needed"
       ]
     }
   },
