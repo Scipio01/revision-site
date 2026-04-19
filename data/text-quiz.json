@@ -51,7 +51,7 @@
     "topicName": "Character Sets",
     "mcq": {
       "question": "What is a limitation of ASCII?",
-      "correct": "It does not contain enough characters",
+      "correct": "It cannot represent characters from many languages",
       "wrong": [
         "It uses too many bits",
         "It cannot store numbers",
@@ -63,7 +63,7 @@
     "topicName": "Character Sets",
     "mcq": {
       "question": "What is Unicode?",
-      "correct": "A character set that supports many characters",
+      "correct": "A character set that can represent a wide range of characters from many languages",
       "wrong": [
         "A type of CPU",
         "A binary system",
@@ -98,8 +98,8 @@
   {
     "topicName": "Character Sets",
     "mcq": {
-      "question": "What is the effect of Unicode using more bits per character?",
-      "correct": "Larger file size",
+      "What is the effect of Unicode using more bits per character?",
+      "correct": "It increases file size",
       "wrong": [
         "Smaller file size",
         "Faster processing",
@@ -118,5 +118,17 @@
         "16"
       ]
     }
+  },
+  {
+  "topicName": "Character Sets",
+  "mcq": {
+    "question": "Why might Unicode be used instead of ASCII in modern systems?",
+    "correct": "It can represent a much wider range of characters and symbols",
+    "wrong": [
+      "It uses fewer bits",
+      "It processes data faster",
+      "It reduces file size"
+    ]
   }
+}
 ]
