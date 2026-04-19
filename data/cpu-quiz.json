@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is the main role of the CPU?",
       "correct": "To fetch, decode and execute instructions",
-      "wrong": [
-        "To store files permanently",
-        "To display images on the screen",
-        "To connect to the internet"
-      ]
+       "wrong": [
+      "To store data for long-term use",
+      "To manage input and output devices",
+      "To control communication between components"
+  ]
     }
   },
   {
@@ -16,11 +16,11 @@
     "mcq": {
       "question": "What does the CPU process?",
       "correct": "Instructions and data",
-      "wrong": [
-        "Only images",
-        "Only text files",
-        "Only sound"
-      ]
+       "wrong": [
+      "Only input data",
+      "Only stored programs",
+      "Only output data"
+    ]
     }
   },
   {
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "Where are instructions stored before the CPU processes them?",
       "correct": "RAM",
-      "wrong": [
-        "Hard drive only",
-        "Monitor",
-        "Keyboard"
-      ]
+     "wrong": [
+    "Cache memory",
+    "Secondary storage",
+    "Registers"
+  ]
     }
   },
   {
