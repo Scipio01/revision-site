@@ -28,11 +28,11 @@
       "mcq": {
         "question": "Which set shows all four characteristics of an AI system?",
         "correct": "Collection of data, rules for using data, ability to reason, ability to learn and adapt",
-        "wrong": [
-          "Collection of data, sensors, ability to reason, ability to learn and adapt",
-          "Rules for using data, ability to reason, ability to learn and adapt, storage of data",
-          "Collection of data, rules for using data, ability to reason, user interface"
-        ]
+          "wrong": [
+      "Collection of data, rules for using data, ability to reason, sensors",
+      "Collection of data, rules for using data, storage of data, ability to learn and adapt",
+      "Rules for using data, ability to reason, ability to learn and adapt, user interface"
+    ]
       }
     },
   {
