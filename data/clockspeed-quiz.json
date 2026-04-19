@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is CPU performance?",
       "correct": "How quickly a CPU processes instructions",
-      "wrong": [
-        "How much storage a computer has",
-        "The size of the screen",
-        "The number of input devices"
-      ]
+        "wrong": [
+    "How much data a CPU can store",
+    "How quickly data is displayed on screen",
+    "How many programs a computer can store"
+  ]
     }
   },
   {
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "What does a higher clock speed mean?",
       "correct": "More instructions processed per second",
-      "wrong": [
-        "More storage space",
-        "Better graphics",
-        "More RAM"
-      ]
+       "wrong": [
+    "More data can be stored in memory",
+    "Graphics are processed more efficiently",
+    "More programs can run at the same time"
+  ]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What is a CPU core?",
       "correct": "An independent processing unit",
-      "wrong": [
-        "A type of memory",
-        "A storage device",
-        "A network cable"
-      ]
+       "wrong": [
+    "A section of memory used by the CPU",
+    "A component that stores data permanently",
+    "A connection between computer components"
+  ]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "How does cache memory improve performance?",
       "correct": "It stores frequently used data for faster access",
-      "wrong": [
-        "It increases screen size",
-        "It connects to the internet",
-        "It stores files permanently"
-      ]
+       "wrong": [
+    "It increases the clock speed of the CPU",
+    "It allows more programs to run at once",
+    "It stores data for long-term use"
+  ]
     }
   }
 ]
