@@ -140,11 +140,11 @@
     "mcq": {
       "question": "What is one disadvantage of automated systems?",
       "correct": "They may fail if sensor data is wrong",
-      "wrong": [
-        "They cannot use inputs",
-        "They do not use processors",
-        "They cannot produce outputs"
-      ]
+       "wrong": [
+    "They may require regular maintenance",
+    "They can be expensive to set up",
+    "They may not handle unexpected situations well"
+  ]
     }
   }
 ]
