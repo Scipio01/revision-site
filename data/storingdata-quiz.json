@@ -2,7 +2,7 @@
   {
     "topicName": "CPU and registers",
     "mcq": {
-      "question": "Where does the CPU temporarily store data and instructions?",
+      "question": "question": "Where does the CPU store data it is currently using?",
       "correct": "Registers",
       "wrong": [
         "Hard drive",
@@ -15,7 +15,7 @@
     "topicName": "CPU and registers",
     "mcq": {
       "question": "Why are registers used?",
-      "correct": "They are very fast",
+      "correct": "They provide very fast access to data for the CPU",
       "wrong": [
         "They store data permanently",
         "They connect to the internet",
@@ -38,7 +38,7 @@
   {
     "topicName": "CPU and registers",
     "mcq": {
-      "question": "Which register stores fetched data or instructions?",
+      "question": "Which register stores data or instructions being transferred to or from memory?",
       "correct": "Memory Data Register (MDR)",
       "wrong": [
         "Program Counter (PC)",
@@ -58,5 +58,31 @@
         "To power the computer"
       ]
     }
+  },
+
+  {
+  "topicName": "Registers",
+  "mcq": {
+    "question": "What does the Memory Address Register (MAR) store?",
+    "correct": "The address of data or instructions being accessed",
+    "wrong": [
+      "The data being processed",
+      "The next instruction only",
+      "The result of calculations"
+    ]
   }
+},
+
+  {
+  "topicName": "Registers",
+  "mcq": {
+    "question": "What does the accumulator (ACC) store?",
+    "correct": "The result of calculations",
+    "wrong": [
+      "The address of the next instruction",
+      "The fetched instruction",
+      "The operating system"
+    ]
+  }
+}
 ]
