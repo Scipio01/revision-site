@@ -16,11 +16,11 @@
     "mcq": {
       "question": "What is a GUI?",
       "correct": "A graphical interface using windows and icons",
-      "wrong": [
-        "A command-only system",
-        "A type of printer",
-        "A storage method"
-      ]
+     "wrong": [
+  "An interface that uses typed commands only",
+  "A hardware device used for printing",
+  "A method used to store files"
+]
     }
   },
   {
@@ -41,10 +41,10 @@
       "question": "What is a device driver?",
       "correct": "Software that allows hardware to communicate with the computer",
       "wrong": [
-        "A type of storage device",
-        "A network cable",
-        "A program for games"
-      ]
+  "A device used to store data permanently",
+  "A physical connection between devices",
+  "An application used for entertainment"
+]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "What does file management do?",
       "correct": "Organises and stores files",
-      "wrong": [
-        "Prints documents",
-        "Controls sound output",
-        "Runs antivirus scans"
-      ]
+     "wrong": [
+  "Sends data to output devices",
+  "Manages audio hardware",
+  "Protects the system from malware"
+]
     }
   },
   {
@@ -89,11 +89,11 @@
   "mcq": {
     "question": "Which interface uses menus to navigate?",
     "correct": "Menu-driven interface",
-    "wrong": [
-      "CLI",
-      "GUI only",
-      "Binary interface"
-    ]
+   "wrong": [
+  "Command line interface",
+  "Graphical user interface only",
+  "Low-level machine interface"
+]
   }
 },
 {
@@ -109,14 +109,14 @@
   }
 },
 {
-  "topicName": "Operating Systems",
+ "topicName": "Operating Systems",
   "mcq": {
-    "question": "Why is multitasking important?",
-    "correct": "It allows multiple programs to run at the same time",
+    "question": "How does an operating system manage multitasking?",
+    "correct": "By rapidly switching between tasks",
     "wrong": [
-      "It increases storage capacity",
-      "It reduces file sizes",
-      "It speeds up printing"
+      "By running only one program at a time",
+      "By storing tasks in secondary storage",
+      "By assigning each task to a different computer"
     ]
   }
 },
@@ -137,11 +137,11 @@
   "mcq": {
     "question": "What happens when an interrupt occurs?",
     "correct": "The current task is paused so the CPU can deal with it",
-    "wrong": [
-      "The computer shuts down",
-      "The file is deleted",
-      "The RAM is cleared"
-    ]
+   "wrong": [
+  "The CPU ignores the interrupt",
+  "The current program is permanently stopped",
+  "The system restarts completely"
+]
   }
 },
 {
