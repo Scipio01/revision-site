@@ -31,7 +31,7 @@
       "wrong": [
         "Syntax error",
         "Runtime error",
-        "Input error"
+         "Validation error"
       ]
     }
   },
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "Which error would stop a program from running at all?",
       "correct": "Syntax error",
-      "wrong": [
-        "Logic error",
-        "Runtime error",
-        "Boundary error"
-      ]
+     "wrong": [
+  "Logic error",
+  "Runtime error",
+  "Validation error"
+]
     }
   },
   {
