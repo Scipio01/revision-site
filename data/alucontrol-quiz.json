@@ -28,11 +28,11 @@
     "mcq": {
       "question": "Which part of the CPU controls the fetch-decode-execute cycle?",
       "correct": "Control unit",
-      "wrong": [
-        "Accumulator",
-        "Cache memory",
-        "Hard drive"
-      ]
+       "wrong": [
+    "Arithmetic Logic Unit",
+    "Registers",
+    "Cache memory"
+  ]
     }
   },
   {
