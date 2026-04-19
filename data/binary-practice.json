@@ -1,6 +1,6 @@
 {
   "topicName": "Binary Systems",
-  "instructions": "Type the answer without spaces. For denary to binary, use 5 bits where needed.",
+  "instructions": "Type the answer without spaces. For denary to binary, always use 5 bits.",
   "questions": [
     {
       "type": "denary-to-binary",
@@ -30,7 +30,7 @@
         "1101",
         "01101"
       ],
-      "working": "13 = 8 + 4 + 1, so the binary digits are 1 1 0 1."
+      "working": "13 = 8 + 4 + 1, so the 8, 4 and 1 columns are 1."
     },
     {
       "type": "denary-to-binary",
