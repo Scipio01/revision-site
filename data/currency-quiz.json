@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is currency?",
       "correct": "Money used to buy and sell goods and services",
-      "wrong": [
-        "A method used to store data securely",
-        "A type of computer hardware device",
-        "A system used to connect networks"
-      ]
+       "wrong": [
+      "Money stored only in banks",
+      "A type of physical object used for trade",
+      "A system used to track financial transactions"
+    ]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What determines the value of digital currency?",
       "correct": "What users believe it is worth",
-      "wrong": [
-        "The number of computers in a network",
-        "The speed of the internet connection",
-        "The size of the storage device"
-      ]
+     "wrong": [
+    "The number of computers using the network",
+    "The speed of the transaction system",
+    "The amount of storage in the wallet"
+  ]
     }
   },
   {
@@ -64,11 +64,11 @@
     "mcq": {
       "question": "Why must a private key be kept secure?",
       "correct": "It is needed to spend or transfer currency",
-      "wrong": [
-        "It increases internet speed",
-        "It stores transaction history",
-        "It connects to the blockchain"
-      ]
+     "wrong": [
+    "It is used to view all past transactions",
+    "It is needed to access the blockchain network",
+    "It is shared so other users can send currency"
+  ]
     }
   },
   {
@@ -112,11 +112,11 @@
     "mcq": {
       "question": "What is a blockchain?",
       "correct": "A distributed digital ledger of transactions",
-      "wrong": [
-        "A type of encryption key",
-        "A program that stores passwords",
-        "A device used for networking"
-      ]
+    "wrong": [
+    "A secret code used to approve transactions",
+    "A system for storing keys in a wallet",
+    "A network used to connect devices together"
+  ]
     }
   },
   {
@@ -160,11 +160,11 @@
     "mcq": {
       "question": "Which is a benefit of digital currency?",
       "correct": "Difficult to counterfeit",
-      "wrong": [
-        "Always increases in value",
-        "Stored only on one device",
-        "Cannot be lost or stolen"
-      ]
+     "wrong": [
+    "Always keeps the same value",
+    "Can only be used on one device",
+    "Can never be accessed by other people"
+  ]
     }
   },
   {
@@ -184,11 +184,11 @@
     "mcq": {
       "question": "What happens if a private key is lost?",
       "correct": "The currency is permanently lost",
-      "wrong": [
-        "It can be recovered easily",
-        "The blockchain resets",
-        "The account is deleted automatically"
-      ]
+     "wrong": [
+    "It can be replaced by the public key",
+    "The transaction history is deleted",
+    "The currency is moved to a new wallet automatically"
+  ]
     }
   }
 ]
