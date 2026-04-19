@@ -143,6 +143,12 @@ if (topic === "validationchecks") {
   return;
 }
 
+  if (topic === "validationexam") {
+  titleEl.textContent = "Validation and Verification Exam Practice";
+  introEl.textContent = "Practise exam-style questions on validation and verification, then compare your answer with the model answer.";
+  return;
+}
+
  if (topic === "errortypes") {
   titleEl.textContent = "Error Types Practice";
   introEl.textContent = "Practise identifying syntax errors, runtime errors and logic errors.";
