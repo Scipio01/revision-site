@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is the internet?",
       "correct": "A global network that connects devices so they can communicate and share data",
-      "wrong": [
-        "A collection of websites",
-        "A web browser",
-        "A single server"
-      ]
+   "wrong": [
+  "A collection of web pages and sites",
+  "Software used to access web pages",
+  "A system used to store website data"
+]
     }
   },
   {
@@ -16,11 +16,11 @@
     "mcq": {
       "question": "What is the world wide web?",
       "correct": "A collection of websites and web pages accessed using the internet",
-      "wrong": [
-        "The cables used to connect devices",
-        "A type of router",
-        "A system of IP addresses"
-      ]
+     "wrong": [
+  "The physical connections between devices",
+  "A system used to route data between networks",
+  "A method of identifying devices on a network"
+]
     }
   },
   {
@@ -40,11 +40,11 @@
     "mcq": {
       "question": "Which of these is a device connected to the internet?",
       "correct": "Smartphone",
-      "wrong": [
-        "Web page",
-        "Hyperlink",
-        "HTML"
-      ]
+     "wrong": [
+  "A web page",
+  "A hyperlink",
+  "A web programming language"
+]
     }
   },
   {
@@ -52,11 +52,11 @@
     "mcq": {
       "question": "Which of these is part of the world wide web?",
       "correct": "Online video",
-      "wrong": [
-        "Router",
-        "Network cable",
-        "IP address"
-      ]
+     "wrong": [
+  "A device used to send data between networks",
+  "A physical connection between devices",
+  "A number used to identify a device on a network"
+]
     }
   },
   {
