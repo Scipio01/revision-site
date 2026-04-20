@@ -1,51 +1,51 @@
 [
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "front": "Why is a touchscreen both an input and an output device?",
     "back": "It displays information to the user and also detects where the user touches the screen."
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "front": "What are the three touchscreen technologies in the specification?",
     "back": "Resistive, capacitive and infra-red."
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "front": "How does a resistive touchscreen work?",
     "back": "It uses two conductive layers separated by an insulating layer. When pressed, the layers make contact and the position is calculated."
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "front": "How does a capacitive touchscreen work?",
     "back": "It uses conductive layers on glass. Touching the screen changes the electric field and the position is calculated."
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "front": "How does an infra-red touchscreen work?",
     "back": "It uses a grid of infra-red beams. Touching the screen interrupts the beams and the position is calculated."
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "front": "What is one advantage of a resistive touchscreen?",
     "back": "It is cheaper and can be used with gloves."
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "front": "What is one disadvantage of a resistive touchscreen?",
     "back": "It is less accurate and usually only detects a single touch."
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "front": "What is one advantage of a capacitive touchscreen?",
     "back": "It is more accurate and supports multi-touch."
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "front": "What is one disadvantage of a capacitive touchscreen?",
     "back": "It is more expensive and usually does not work with gloves."
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "front": "Why might a resistive touchscreen be chosen instead of a capacitive one?",
     "back": "Because it is cheaper and can be used with gloves or a stylus."
   }
