@@ -464,6 +464,8 @@ button:disabled {
   border: 2px solid var(--border-back);
   color: var(--card-text-back);
   transform: rotateY(180deg);
+  white-space: pre-wrap;
+  font-family: monospace;
 }
 
 .flashcard-tip {
