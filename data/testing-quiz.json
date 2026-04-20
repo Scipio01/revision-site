@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>x ← 2\ny ← 5\nx ← x + y</pre>\n\nWhat is the value of x at the end?",
       "correct": "7",
@@ -8,7 +8,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>x ← 4\ny ← 3\ny ← y + 2</pre>\n\nWhat is the value of y at the end?",
       "correct": "5",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>x ← 6\ny ← 2\nx ← x - y\ny ← y + 1</pre>\n\nWhat is the value of x at the end?",
       "correct": "4",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>x ← 2\ny ← 5\nx ← x + y\ny ← y - 1</pre>\n\nWhat is the value of y at the end?",
       "correct": "4",
@@ -32,7 +32,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>score ← 10\nbonus ← 3\nscore ← score + bonus</pre>\n\nWhat is the value of score after line 3?",
       "correct": "13",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>num ← 8\ncount ← 1\ncount ← count + 2</pre>\n\nWhat is the value of count after line 3?",
       "correct": "3",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>x ← 3\ny ← 4\nx ← x * 2\ny ← y + x</pre>\n\nWhat is the value of x after line 3?",
       "correct": "6",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>x ← 5\ny ← 2\nx ← x + 1\ny ← x + y</pre>\n\nWhat is the value of y after line 4?",
       "correct": "8",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>total ← 0\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\n\n i   | total\n-----|------\n 1   | 1\n 2   | 3\n 3   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of total?",
       "correct": "6",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>sum ← 0\nFOR i ← 1 TO 4\n  sum ← sum + 2\nNEXT i\n\n i   | sum\n-----|-----\n 1   | 2\n 2   | 4\n 3   | 6\n 4   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of sum?",
       "correct": "8",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>count ← 1\nFOR i ← 1 TO 3\n  count ← count + 3\nNEXT i\n\n i   | count\n-----|-------\n 1   | 4\n 2   | 7\n 3   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of count?",
       "correct": "10",
@@ -88,7 +88,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>x ← 2\nFOR i ← 1 TO 3\n  x ← x * 2\nNEXT i\n\n i   | x\n-----|---\n 1   | 4\n 2   | 8\n 3   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of x?",
       "correct": "16",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "tracetables",
+    "topicName": "Trace Tables",
     "mcq": {
       "question": "<pre>y ← 10\nFOR i ← 1 TO 2\n  y ← y - 3\nNEXT i\n\n i   | y\n-----|---\n 1   | 7\n 2   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of y?",
       "correct": "4",
