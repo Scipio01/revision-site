@@ -15,7 +15,7 @@
     "topicName": "Validation Basics",
     "mcq": {
       "question": "What is verification?",
-      "correct": "Checking that data has been entered correctly",
+      "correct": "Checking that data matches the original input",
       "wrong": [
         "Checking that data is sensible",
         "Checking that data is within a range",
@@ -39,7 +39,7 @@
     "topicName": "Validation Basics",
     "mcq": {
       "question": "What is the main purpose of verification?",
-      "correct": "To reduce errors when data is entered",
+      "correct": "To ensure data is entered accurately by matching the original",
       "wrong": [
         "To check data is within allowed limits",
         "To stop users leaving fields blank",
@@ -63,7 +63,7 @@
     "topicName": "Validation Basics",
     "mcq": {
       "question": "Does verification guarantee that data is correct?",
-      "correct": "No, it only checks that the data was entered correctly",
+      "correct": "No, it only checks that the data matches the original input",
       "wrong": [
         "Yes, verification proves the data is correct",
         "Yes, but only if double entry is used",
