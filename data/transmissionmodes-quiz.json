@@ -53,10 +53,10 @@
       "question": "Which is a disadvantage of parallel transmission?",
       "correct": "Crosstalk",
       "wrong": [
-        "No crosstalk",
-        "Limited cable length",
-        "One-way communication only"
-      ]
+  "When signals interfere between wires",
+  "When bits are sent one at a time",
+  "When data is transmitted both ways at once"
+]
     }
   },
   {
@@ -77,10 +77,10 @@
       "question": "Which is an advantage of serial transmission?",
       "correct": "Reliable over long distances",
       "wrong": [
-        "Uses multiple wires",
-        "Always faster than parallel",
-        "Can only be used inside a computer"
-      ]
+  "Always faster than parallel transmission",
+  "Uses multiple wires to send data",
+  "Cannot be used over long distances"
+]
     }
   },
   {
@@ -208,11 +208,11 @@
     "mcq": {
       "question": "Which is an advantage of USB?",
       "correct": "Can provide power",
-      "wrong": [
-        "Unlimited cable length",
-        "Uses multiple wires",
-        "Needs screws to connect"
-      ]
+     "wrong": [
+  "Unlimited transmission distance",
+  "Uses parallel transmission",
+  "Requires restarting the device to connect"
+]
     }
   },
   {
