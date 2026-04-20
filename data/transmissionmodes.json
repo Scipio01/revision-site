@@ -1,92 +1,92 @@
 [
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "What is data transmission?",
     "back": "The process of sending data from one device to another."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "What is serial transmission?",
     "back": "Data is sent one bit at a time over a single wire."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "What is parallel transmission?",
     "back": "Multiple bits are sent at the same time over multiple wires."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "Give one advantage of parallel transmission",
     "back": "Faster over short distances."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "Give one disadvantage of parallel transmission",
     "back": "Crosstalk or skew."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "Give one advantage of serial transmission",
     "back": "Reliable over long distances."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "What is simplex transmission?",
     "back": "Data flows in one direction only."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "What is half-duplex transmission?",
     "back": "Data flows both ways but not at the same time."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "What is full-duplex transmission?",
     "back": "Data flows both ways at the same time."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "What is USB?",
     "back": "A standard interface that uses serial transmission to connect devices."
   },
 
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "What does USB stand for?",
     "back": "Universal Serial Bus."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "What is USB used for?",
     "back": "Connecting devices and transmitting data using serial transmission."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "Give one advantage of USB",
     "back": "Provides power and data through one cable."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "Give another advantage of USB",
     "back": "Plug and play (automatically recognised)."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "What does hot-swappable mean?",
     "back": "Devices can be connected or removed without restarting the computer."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "Give another advantage of USB",
     "back": "Supports many different devices."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "Give one disadvantage of USB",
     "back": "Limited cable length."
   },
   {
-    "topicName": "transmissionmodes",
+     "topicName": "Transmission Modes",
     "front": "Give another disadvantage of USB",
     "back": "Can be slower than some other connection types."
   }
