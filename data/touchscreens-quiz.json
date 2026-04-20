@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "mcq": {
       "question": "Why is a touchscreen both an input and an output device?",
       "correct": "It displays information and detects touch",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "mcq": {
       "question": "Which three touchscreen technologies are in the specification?",
       "correct": "Resistive, capacitive and infra-red",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "mcq": {
       "question": "How does a resistive touchscreen detect touch?",
       "correct": "Two layers make contact when pressed",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "mcq": {
       "question": "What is an advantage of a capacitive touchscreen?",
       "correct": "It is more accurate and supports multi-touch",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "mcq": {
       "question": "Why might a resistive touchscreen be chosen?",
       "correct": "It is cheaper and works with gloves",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "touchscreens",
+    "topicName": "Touchscreens",
     "mcq": {
       "question": "How does an infra-red touchscreen detect touch?",
       "correct": "A touch interrupts infra-red beams",
