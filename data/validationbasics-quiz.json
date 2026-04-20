@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "validationbasics",
+    "topicName": "Validation Basics",
     "mcq": {
       "question": "What is validation?",
       "correct": "Checking that data is sensible and follows rules",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "validationbasics",
+    "topicName": "Validation Basics",
     "mcq": {
       "question": "What is verification?",
       "correct": "Checking that data has been entered correctly",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "validationbasics",
+    "topicName": "Validation Basics",
     "mcq": {
       "question": "What is the main purpose of validation?",
       "correct": "To stop unreasonable or invalid data being accepted",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "validationbasics",
+    "topicName": "Validation Basics",
     "mcq": {
       "question": "What is the main purpose of verification?",
       "correct": "To reduce errors when data is entered",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "validationbasics",
+    "topicName": "Validation Basics",
     "mcq": {
       "question": "Does validation guarantee that data is correct?",
       "correct": "No, it only checks that the data follows rules",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "validationbasics",
+    "topicName": "Validation Basics",
     "mcq": {
       "question": "Does verification guarantee that data is correct?",
       "correct": "No, it only checks that the data was entered correctly",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "validationbasics",
+    "topicName": "Validation Basics",
     "mcq": {
       "question": "A user enters their age as 25 instead of 35. The data is accepted because it is a sensible number. What does this show?",
       "correct": "Validation can pass even when the data is wrong",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "validationbasics",
+    "topicName": "Validation Basics",
     "mcq": {
       "question": "A phone number is entered twice and both entries match, but the original number should have been different. What does this show?",
       "correct": "Verification can pass even when the data is wrong",
