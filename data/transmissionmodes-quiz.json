@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "What is data transmission?",
       "correct": "The process of sending data from one device to another",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "What is parallel transmission?",
       "correct": "Multiple bits are sent at the same time using multiple wires",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "What is serial transmission?",
       "correct": "Bits are sent one at a time over a single wire",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "Which is an advantage of parallel transmission?",
       "correct": "Can be faster over short distances",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "Which is a disadvantage of parallel transmission?",
       "correct": "Crosstalk",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "What is skew?",
       "correct": "When bits arrive at different times",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "Which is an advantage of serial transmission?",
       "correct": "Reliable over long distances",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "Which is a disadvantage of serial transmission?",
       "correct": "Can be slower over very short distances",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "Which transmission method is commonly used for buses connecting RAM and CPU?",
       "correct": "Parallel",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "What is simplex transmission?",
       "correct": "Data flows in one direction only",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "Which is an example of simplex transmission?",
       "correct": "Keyboard sending data to a computer",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "What is half-duplex transmission?",
       "correct": "Data flows both ways, but not at the same time",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "Which is an example of half-duplex transmission?",
       "correct": "Walkie-talkies",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "What is full-duplex transmission?",
       "correct": "Data flows both ways at the same time",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "Which is an example of full-duplex transmission?",
       "correct": "Phone call",
@@ -180,7 +180,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "What does USB stand for?",
       "correct": "Universal Serial Bus",
@@ -192,7 +192,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "What type of transmission does USB use?",
       "correct": "Serial",
@@ -204,7 +204,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "Which is an advantage of USB?",
       "correct": "Can provide power",
@@ -216,7 +216,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "What does hot-swappable mean?",
       "correct": "The device can be connected or removed without restarting",
@@ -228,7 +228,7 @@
     }
   },
   {
-    "topicName": "transmissionmodes",
+    "topicName": "Transmission Modes",
     "mcq": {
       "question": "Which is a disadvantage of USB?",
       "correct": "Limited cable length",
