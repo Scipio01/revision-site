@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is a high-level language?",
       "correct": "A language that is easy for humans to read and write",
-      "wrong": [
-        "A language written in binary",
-        "A type of hardware",
-        "A storage device"
-      ]
+     "wrong": [
+  "A language that is difficult for humans to read",
+  "A language written using mnemonics",
+  "A language that directly controls hardware"
+]
     }
   },
   {
@@ -28,11 +28,11 @@
     "mcq": {
       "question": "What does an assembler do?",
       "correct": "Converts assembly language into machine code",
-      "wrong": [
-        "Runs programs line by line",
-        "Stores files",
-        "Controls hardware"
-      ]
+     "wrong": [
+  "Translates high-level code line by line",
+  "Translates the whole program at once",
+  "Executes code without translating it"
+]
     }
   },
   {
@@ -107,8 +107,43 @@
       "The CPU speed"
     ]
   }
+},
+{
+  "topicName": "Translation Software",
+  "mcq": {
+    "question": "What is an advantage of a high-level language?",
+    "correct": "It is easier for humans to read and write",
+    "wrong": [
+      "It runs directly on hardware",
+      "It does not need translating",
+      "It uses less memory than machine code"
+    ]
+  }
+},
+{
+  "topicName": "Translation Software",
+  "mcq": {
+    "question": "What is an advantage of a low-level language?",
+    "correct": "It allows direct control of hardware",
+    "wrong": [
+      "It is easier to debug",
+      "It is machine independent",
+      "It does not need translation"
+    ]
+  }
+},
+{
+  "topicName": "Translation Software",
+  "mcq": {
+    "question": "How does a compiler report errors?",
+    "correct": "It provides a list of errors after checking the whole program",
+    "wrong": [
+      "It stops at the first error",
+      "It ignores errors",
+      "It fixes errors automatically"
+    ]
+  }
 }
-
 
 
   
