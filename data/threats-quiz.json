@@ -17,10 +17,10 @@
       "question": "What is a virus?",
       "correct": "Malware that spreads when a user opens an infected file",
       "wrong": [
-        "Malware that spreads automatically across a network",
-        "Malware that pretends to be useful software",
-        "Malware that displays unwanted adverts"
-      ]
+  "Malware that spreads automatically without user action",
+  "Malware that hides inside legitimate software",
+  "Malware that encrypts files for payment"
+]
     }
   },
   {
@@ -50,7 +50,7 @@
   {
     "topicName": "Cyber Security Threats",
     "mcq": {
-      "question": "What is a Trojan?",
+      "question": "What is a Trojan horse?",
       "correct": "Malware that pretends to be safe software",
       "wrong": [
         "Malware that spreads automatically across networks",
