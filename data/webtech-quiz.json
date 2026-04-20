@@ -55,7 +55,7 @@
       "wrong": [
         "Because browsers store web pages",
         "Because servers need passwords",
-        "Because IP addresses are faster to type"
+        "Because humans find domain names easier to remember than IP addresses"
       ]
     }
   },
@@ -65,10 +65,10 @@
       "question": "What happens after DNS returns the IP address?",
       "correct": "The browser uses it to contact the web server",
       "wrong": [
-        "The browser stores it permanently",
-        "The router deletes the request",
-        "The user types it manually"
-      ]
+  "The browser converts the IP address into a domain name",
+  "The server sends the page to DNS",
+  "The browser asks the router to assign a new IP address"
+]
     }
   },
   {
@@ -79,7 +79,7 @@
       "wrong": [
         "Stores web pages on a server",
         "Assigns IP addresses to devices",
-        "Provides wireless internet access"
+        "Encrypts data between a browser and a server"
       ]
     }
   },
@@ -111,7 +111,7 @@
     "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is a cookie?",
-      "correct": "A small file stored on a user's device",
+     "correct": "A small file stored on a user's device to remember information",
       "wrong": [
         "A type of computer virus",
         "A web page on a server",
@@ -125,10 +125,10 @@
       "question": "What are cookies used for?",
       "correct": "Storing login details and preferences",
       "wrong": [
-        "Encrypting network data",
-        "Assigning IP addresses",
-        "Routing data across networks"
-      ]
+  "Converting domain names into IP addresses",
+  "Transferring web pages between browser and server",
+  "Storing web pages permanently on a server"
+]
     }
   },
   {
@@ -147,7 +147,7 @@
     "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is a persistent cookie?",
-      "correct": "A cookie stored on a device after it is turned off",
+      "correct": "A cookie that remains stored after the browser is closed",
       "wrong": [
         "A cookie deleted immediately",
         "A cookie stored in RAM only",
@@ -190,5 +190,17 @@
         "Enter URL → display page → DNS finds IP → server stores data"
       ]
     }
+  },
+  {
+  "topicName": "Web Technologies and Cookies",
+  "mcq": {
+    "question": "What is the difference between a web browser and a web server?",
+    "correct": "A browser requests and displays web pages, while a server stores and sends them",
+    "wrong": [
+      "A browser stores web pages, while a server displays them",
+      "A browser assigns IP addresses, while a server converts URLs",
+      "A browser encrypts data, while a server creates cookies"
+    ]
   }
+}
 ]
