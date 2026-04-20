@@ -28,11 +28,11 @@
     "mcq": {
       "question": "How does a resistive touchscreen detect touch?",
       "correct": "Two layers make contact when pressed",
-      "wrong": [
-        "It reflects a laser off pits and lands",
-        "It measures sound waves",
-        "It stores the touch in ROM"
-      ]
+     "wrong": [
+  "It detects changes in electrical charge",
+  "It uses infra-red beams across the screen",
+  "It tracks movement using a camera"
+]
     }
   },
   {
@@ -43,7 +43,7 @@
       "wrong": [
         "It is cheaper than resistive",
         "It always works with gloves",
-        "It uses magnetic platters"
+       "It detects pressure from a stylus only"
       ]
     }
   },
@@ -64,11 +64,11 @@
     "mcq": {
       "question": "How does an infra-red touchscreen detect touch?",
       "correct": "A touch interrupts infra-red beams",
-      "wrong": [
-        "A touch changes magnetic polarity",
-        "A touch writes to a floating gate",
-        "A touch spins the disk faster"
-      ]
+     "wrong": [
+  "It detects pressure between two layers",
+  "It detects changes in electrical charge",
+  "It uses sound waves to detect touch"
+]
     }
   }
 ]
