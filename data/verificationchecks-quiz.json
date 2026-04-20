@@ -3,7 +3,7 @@
     "topicName": "Verification Checks",
     "mcq": {
       "question": "What is verification?",
-      "correct": "Checking that data has been entered correctly",
+      "correct": "Checking that data matches the original input",
       "wrong": [
         "Checking that data is sensible",
         "Checking that data is within a range",
@@ -39,12 +39,12 @@
     "topicName": "Verification Checks",
     "mcq": {
       "question": "What is the main purpose of verification?",
-      "correct": "To reduce errors when data is entered",
-      "wrong": [
-        "To ensure data is within limits",
-        "To prevent empty fields",
-        "To make data smaller"
-      ]
+      "correct": "To ensure data is entered accurately by matching the original",
+     "wrong": [
+  "The computer checks whether the data is sensible",
+  "The data is checked against a set format",
+  "The data is checked against a predefined range"
+]
     }
   },
   {
