@@ -4,11 +4,11 @@
     "mcq": {
       "question": "What is software?",
       "correct": "Programs and data that tell a computer what to do",
-      "wrong": [
-        "Physical computer parts",
-        "A type of storage device",
-        "A network connection"
-      ]
+     "wrong": [
+  "Physical components of a computer",
+  "Instructions stored permanently in hardware",
+  "A method of connecting devices together"
+]
     }
   },
   {
