@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "verificationchecks",
+    "topicName": "Verification Checks",
     "mcq": {
       "question": "What is verification?",
       "correct": "Checking that data has been entered correctly",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "verificationchecks",
+    "topicName": "Verification Checks",
     "mcq": {
       "question": "Which method of verification involves entering data twice?",
       "correct": "Double entry",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "verificationchecks",
+    "topicName": "Verification Checks",
     "mcq": {
       "question": "What is a visual check?",
       "correct": "A person manually checks the data on screen",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "verificationchecks",
+    "topicName": "Verification Checks",
     "mcq": {
       "question": "What is the main purpose of verification?",
       "correct": "To reduce errors when data is entered",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "verificationchecks",
+    "topicName": "Verification Checks",
     "mcq": {
       "question": "What happens in a double entry check?",
       "correct": "The data is entered twice and compared",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "verificationchecks",
+    "topicName": "Verification Checks",
     "mcq": {
       "question": "Which is more reliable for catching input errors?",
       "correct": "Double entry",
