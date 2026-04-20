@@ -29,10 +29,10 @@
       "question": "How is text stored in a computer?",
       "correct": "As binary",
       "wrong": [
-        "As images",
-        "As sound",
-        "As colours"
-      ]
+  "As decimal",
+  "As hexadecimal",
+  "As characters"
+]
     }
   },
   {
@@ -47,6 +47,18 @@
       ]
     }
   },
+{
+  "topicName": "Character Sets",
+  "mcq": {
+    "question": "How many characters can standard ASCII represent?",
+    "correct": "128",
+    "wrong": [
+      "64",
+      "256",
+      "512"
+    ]
+  }
+},
   {
     "topicName": "Character Sets",
     "mcq": {
@@ -119,6 +131,18 @@
       ]
     }
   },
+{
+  "topicName": "Character Sets",
+  "mcq": {
+    "question": "How many characters can extended ASCII represent?",
+    "correct": "256",
+    "wrong": [
+      "128",
+      "64",
+      "512"
+    ]
+  }
+},  
   {
   "topicName": "Character Sets",
   "mcq": {
