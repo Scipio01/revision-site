@@ -1,62 +1,62 @@
 
 [
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "What is a character?",
     "back": "A letter, number, or symbol."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "What is a character set?",
     "back": "A set of characters where each one has a unique binary code."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "What is text representation?",
     "back": "Characters are converted into binary so they can be processed by a computer."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "What is ASCII?",
     "back": "A character set that uses 7 or 8 bits to represent characters."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "How many bits are used in standard ASCII?",
     "back": "7 bits."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "How many characters can 7-bit ASCII represent?",
     "back": "128 characters."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "How many bits are used in extended ASCII?",
     "back": "8 bits."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "How many characters can 8-bit extended ASCII represent?",
     "back": "256 characters."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "What is a limitation of ASCII?",
     "back": "It does not contain enough characters for all languages and symbols."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "What is Unicode?",
     "back": "A character set that can represent many more characters than ASCII."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "Why is Unicode needed?",
     "back": "To store and process many languages, symbols, and emojis."
   },
   {
-    "topicName": "ASCII / Unicode",
+    "topicName": "Character Sets",
     "front": "What is one effect of Unicode using more bits per character?",
     "back": "It can increase file size."
   }
