@@ -31,7 +31,7 @@
       "wrong": [
   "As decimal",
   "As hexadecimal",
-  "As characters"
+  "As letters"
 ]
     }
   },
@@ -56,6 +56,43 @@
       "64",
       "256",
       "512"
+    ]
+  }
+},
+
+      {
+    "topicName": "Character Sets",
+    "mcq": {
+      "question": "How many bits are used in extended ASCII?",
+      "correct": "8",
+      "wrong": [
+        "7",
+        "12",
+        "16"
+      ]
+    }
+  },
+{
+  "topicName": "Character Sets",
+  "mcq": {
+    "question": "How many characters can extended ASCII represent?",
+    "correct": "256",
+    "wrong": [
+      "128",
+      "64",
+      "512"
+    ]
+  }
+},  
+{
+  "topicName": "Character Sets",
+  "mcq": {
+    "question": "Why was extended ASCII developed?",
+    "correct": "To represent more characters and symbols than standard ASCII",
+    "wrong": [
+      "To reduce file size",
+      "To increase processing speed",
+      "To store images"
     ]
   }
 },
@@ -119,30 +156,7 @@
       ]
     }
   },
-    {
-    "topicName": "Character Sets",
-    "mcq": {
-      "question": "How many bits are used in extended ASCII?",
-      "correct": "8",
-      "wrong": [
-        "7",
-        "12",
-        "16"
-      ]
-    }
-  },
-{
-  "topicName": "Character Sets",
-  "mcq": {
-    "question": "How many characters can extended ASCII represent?",
-    "correct": "256",
-    "wrong": [
-      "128",
-      "64",
-      "512"
-    ]
-  }
-},  
+
   {
   "topicName": "Character Sets",
   "mcq": {
