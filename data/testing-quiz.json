@@ -102,5 +102,53 @@
       "correct": "4",
       "wrong": ["5", "6", "7"]
     }
+  },
+{
+  "topicName": "Trace Tables",
+  "mcq": {
+    "question": "<pre>x ← 5\ny ← 2\nIF x > y THEN\n  x ← x + 3\nENDIF</pre>\n\nWhat is the value of x at the end?",
+    "correct": "8",
+    "wrong": ["5", "7", "10"]
   }
+},
+{
+  "topicName": "Trace Tables",
+  "mcq": {
+    "question": "<pre>x ← 4\ny ← 6\nIF x > y THEN\n  y ← y + 2\nENDIF</pre>\n\nWhat is the value of y at the end?",
+    "correct": "6",
+    "wrong": ["4", "8", "10"]
+  }
+},
+{
+  "topicName": "Trace Tables",
+  "mcq": {
+    "question": "<pre>x ← 3\ny ← 2\nx ← x + y\ny ← x * 2</pre>\n\nWhat is the value of y at the end?",
+    "correct": "10",
+    "wrong": ["6", "8", "12"]
+  }
+},
+{
+  "topicName": "Trace Tables",
+  "mcq": {
+    "question": "<pre>total ← 5\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\n\n i   | total\n-----|------\n 1   | 6\n 2   | 8\n 3   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of total?",
+    "correct": "11",
+    "wrong": ["9", "10", "12"]
+  }
+},
+{
+  "topicName": "Trace Tables",
+  "mcq": {
+    "question": "<pre>count ← 10\nFOR i ← 1 TO 2\n  count ← count - 4\nNEXT i\n\n i   | count\n-----|-------\n 1   | 6\n 2   | <span class=\"trace-missing\">?</span></pre>\n\nWhat is the final value of count?",
+    "correct": "2",
+    "wrong": ["4", "6", "8"]
+  }
+},
+{
+  "topicName": "Trace Tables",
+  "mcq": {
+    "question": "<pre>x ← 2\ny ← 5\nIF y > x THEN\n  x ← x + 2\n  y ← y - 1\nENDIF</pre>\n\nWhat is the value of y at the end?",
+    "correct": "4",
+    "wrong": ["3", "5", "7"]
+  }
+}
 ]
