@@ -17,10 +17,10 @@
       "question": "What is application software?",
       "correct": "Software that provides services for the user",
       "wrong": [
-        "Software that controls hardware only",
-        "Software stored in ROM",
-        "Software used only by the CPU"
-      ]
+  "Software that manages hardware and system resources",
+  "Software that translates code into machine language",
+  "Software that controls the startup process"
+]
     }
   },
   {
@@ -40,23 +40,59 @@
     "mcq": {
       "question": "What is utility software used for?",
       "correct": "Maintaining and managing a computer system",
-      "wrong": [
-        "Playing games",
-        "Browsing the internet",
-        "Creating documents"
-      ]
+     "wrong": [
+  "Running user applications",
+  "Providing an interface for users",
+  "Translating programming code"
+]
     }
   },
+{
+  "topicName": "Types of Software",
+  "mcq": {
+    "question": "Which is an example of utility software?",
+    "correct": "Backup software",
+    "wrong": [
+      "Word processor",
+      "Web browser",
+      "Game"
+    ]
+  }
+},
+{
+  "topicName": "Types of Software",
+  "mcq": {
+    "question": "What is anti-malware software?",
+    "correct": "Software that detects and removes malicious software",
+    "wrong": [
+      "Software that manages hardware resources",
+      "Software that creates documents",
+      "Software that translates code"
+    ]
+  }
+},
+{
+  "topicName": "Types of Software",
+  "mcq": {
+    "question": "What does anti-spyware software do?",
+    "correct": "Detects and removes software that secretly collects user data",
+    "wrong": [
+      "Encrypts files for security",
+      "Speeds up system performance",
+      "Manages memory usage"
+    ]
+  }
+},  
   {
     "topicName": "Types of Software",
     "mcq": {
       "question": "What does antivirus software do?",
       "correct": "Detects and removes malware",
-      "wrong": [
-        "Speeds up RAM",
-        "Stores files",
-        "Prints documents"
-      ]
+     "wrong": [
+  "Manages system resources",
+  "Translates high-level code",
+  "Controls input and output devices"
+]
     }
   },
   {
