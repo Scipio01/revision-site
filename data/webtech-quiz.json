@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is a web browser?",
       "correct": "Software used to access and display web pages",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is a URL?",
       "correct": "The address used to locate a web page",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is DNS?",
       "correct": "A system that converts domain names into IP addresses",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is the purpose of DNS?",
       "correct": "To convert a domain name into an IP address",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "Why is DNS needed?",
       "correct": "Because routers use IP addresses, not domain names",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What happens after DNS returns the IP address?",
       "correct": "The browser uses it to contact the web server",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What does HTTP do?",
       "correct": "Transfers web pages between a browser and a server",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is the difference between HTTP and HTTPS?",
       "correct": "HTTPS encrypts data",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is a web server?",
       "correct": "A computer that stores and sends web pages",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is a cookie?",
       "correct": "A small file stored on a user's device",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What are cookies used for?",
       "correct": "Storing login details and preferences",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is a session cookie?",
       "correct": "A cookie deleted when the browser is closed",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is a persistent cookie?",
       "correct": "A cookie stored on a device after it is turned off",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "Where are session cookies stored?",
       "correct": "In RAM",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "Where are persistent cookies stored?",
       "correct": "On secondary storage",
@@ -180,7 +180,7 @@
     }
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "Which is the correct order when loading a web page?",
       "correct": "Enter URL → DNS finds IP → browser contacts server → server sends HTML → browser displays page",
