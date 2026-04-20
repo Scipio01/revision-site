@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "translation",
+    "topicName": "Translation Software",
     "mcq": {
       "question": "What is a high-level language?",
       "correct": "A language that is easy for humans to read and write",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "translation",
+    "topicName": "Translation Software",
     "mcq": {
       "question": "Which of these is a low-level language?",
       "correct": "Assembly language",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "translation",
+    "topicName": "Translation Software",
     "mcq": {
       "question": "What does an assembler do?",
       "correct": "Converts assembly language into machine code",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "translation",
+    "topicName": "Translation Software",
     "mcq": {
       "question": "What does a compiler do?",
       "correct": "Translates the whole program at once",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "translation",
+    "topicName": "Translation Software",
     "mcq": {
       "question": "What does an interpreter do?",
       "correct": "Translates and executes code line by line",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "translation",
+    "topicName": "Translation Software",
     "mcq": {
       "question": "What happens when an interpreter finds an error?",
       "correct": "It stops immediately",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "topicName": "translation",
+    "topicName": "Translation Software",
     "mcq": {
       "question": "Why are compilers used for final programs?",
       "correct": "Programs run faster and source code is hidden",
@@ -85,7 +85,7 @@
   },
 
 {
-  "topicName": "translation",
+  "topicName": "Translation Software",
   "mcq": {
     "question": "In machine code 01110 11011, which part is the opcode?",
     "correct": "01110",
@@ -97,7 +97,7 @@
   }
 },
 {
-  "topicName": "translation",
+  "topicName": "Translation Software",
   "mcq": {
     "question": "What does the operand represent in machine code?",
     "correct": "Data or a memory location",
