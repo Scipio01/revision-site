@@ -184,11 +184,11 @@
     "mcq": {
       "question": "Which is the correct order when loading a web page?",
       "correct": "Enter URL → DNS finds IP → browser contacts server → server sends HTML → browser displays page",
-      "wrong": [
-        "DNS finds IP → enter URL → display page → server sends HTML",
-        "Server sends HTML → DNS finds IP → browser displays page",
-        "Enter URL → display page → DNS finds IP → server stores data"
-      ]
+     "wrong": [
+  "Enter URL → browser contacts server → DNS finds IP → server sends HTML → browser displays page",
+  "Enter URL → DNS finds IP → server sends HTML → browser contacts server → browser displays page",
+  "DNS finds IP → browser contacts server → enter URL → server sends HTML → browser displays page"
+]
     }
   },
   {
@@ -196,11 +196,11 @@
   "mcq": {
     "question": "What is the difference between a web browser and a web server?",
     "correct": "A browser requests and displays web pages, while a server stores and sends them",
-    "wrong": [
-      "A browser stores web pages, while a server displays them",
-      "A browser assigns IP addresses, while a server converts URLs",
-      "A browser encrypts data, while a server creates cookies"
-    ]
+   "wrong": [
+  "A browser stores web pages, while a server displays them to users",
+  "A browser assigns IP addresses, while a server connects devices together",
+  "A browser encrypts data, while a server manages network traffic"
+]
   }
 }
 ]
