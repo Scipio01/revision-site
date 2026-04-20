@@ -1,46 +1,46 @@
 [
   {
-    "topicName": "validationalgorithms",
+    "topicName": "Validation Algorithms",
     "front": "Write pseudocode for a range check.",
     "back": "OUTPUT \"Enter age\"\nINPUT age\nIF age >= 0 AND age <= 120 THEN\n  OUTPUT \"Valid\"\nELSE\n  OUTPUT \"Invalid\"\nENDIF"
   },
   {
-    "topicName": "validationalgorithms",
+    "topicName": "Validation Algorithms",
     "front": "Write pseudocode for a length check.",
     "back": "OUTPUT \"Enter password\"\nINPUT password\nIF LENGTH(password) >= 8 THEN\n  OUTPUT \"Valid\"\nELSE\n  OUTPUT \"Too short\"\nENDIF"
   },
   {
-    "topicName": "validationalgorithms",
+    "topicName": "Validation Algorithms",
     "front": "Write pseudocode for a presence check.",
     "back": "OUTPUT \"Enter username\"\nINPUT username\nIF username <> \"\" THEN\n  OUTPUT \"Valid\"\nELSE\n  OUTPUT \"Cannot be blank\"\nENDIF"
   },
   {
-    "topicName": "validationalgorithms",
+    "topicName": "Validation Algorithms",
     "front": "Write pseudocode for a type check.",
     "back": "OUTPUT \"Enter a number\"\nINPUT value\nIF value IS INTEGER THEN\n  OUTPUT \"Valid\"\nELSE\n  OUTPUT \"Invalid type\"\nENDIF"
   },
   {
-    "topicName": "validationalgorithms",
+    "topicName": "Validation Algorithms",
     "front": "Write pseudocode for a format check (simple example).",
     "back": "OUTPUT \"Enter postcode\"\nINPUT postcode\nIF postcode LIKE \"LLNN NLL\" THEN\n  OUTPUT \"Valid format\"\nELSE\n  OUTPUT \"Invalid format\"\nENDIF"
   },
   {
-    "topicName": "validationalgorithms",
+    "topicName": "Validation Algorithms",
     "front": "Write pseudocode for a check digit validation (simplified).",
     "back": "INPUT number\nCALCULATE checkDigit FROM number\nIF checkDigit = lastDigit THEN\n  OUTPUT \"Valid\"\nELSE\n  OUTPUT \"Invalid\"\nENDIF"
   },
   {
-    "topicName": "validationalgorithms",
+    "topicName": "Validation Algorithms",
     "front": "Write pseudocode for a double entry verification check.",
     "back": "OUTPUT \"Enter password\"\nINPUT password1\nOUTPUT \"Re-enter password\"\nINPUT password2\nIF password1 = password2 THEN\n  OUTPUT \"Match\"\nELSE\n  OUTPUT \"Do not match\"\nENDIF"
   },
   {
-    "topicName": "validationalgorithms",
+    "topicName": "Validation Algorithms",
     "front": "Write pseudocode for a visual check (conceptual).",
     "back": "DISPLAY enteredData\nDISPLAY originalData\n// User compares values manually"
   },
   {
-    "topicName": "validationalgorithms",
+    "topicName": "Validation Algorithms",
     "front": "Improve a validation algorithm so it repeats until valid input is entered.",
     "back": "REPEAT\n  OUTPUT \"Enter age\"\n  INPUT age\nUNTIL age >= 0 AND age <= 120\nOUTPUT \"Valid input\""
   }
