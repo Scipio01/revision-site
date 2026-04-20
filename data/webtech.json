@@ -1,125 +1,125 @@
 [
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What is a URL?",
     "back": "A URL is the address of a web page."
   },
 
 {
-  "topicName": "webtech",
+  "topicName": "Web Technologies and Cookies",
   "front": "What does URL stand for?",
   "back": "Uniform Resource Locator."
 },
   
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What can a URL contain?",
     "back": "A protocol, a domain name and a file or web page name."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What does HTTP stand for?",
     "back": "HyperText Transfer Protocol."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What does HTTP do?",
     "back": "It transfers web pages between a browser and a web server."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What does HTTPS stand for?",
     "back": "HyperText Transfer Protocol Secure."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What is the difference between HTTP and HTTPS?",
     "back": "HTTPS encrypts data for security, HTTP does not."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What is a web browser?",
     "back": "Software used to access, display and navigate web pages."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What is the main purpose of a web browser?",
     "back": "To render HTML and display web pages."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "Give two functions of a web browser.",
     "back": "Storing bookmarks, saving history, managing tabs or storing cookies."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What is DNS?",
     "back": "DNS converts a domain name into an IP address."
   },
 
 {
-  "topicName": "webtech",
+  "topicName": "Web Technologies and Cookies",
   "front": "What does DNS stand for?",
   "back": "Domain Name System."
 },
 {
-  "topicName": "webtech",
+  "topicName": "Web Technologies and Cookies",
   "front": "What are the stages of DNS?",
   "back": "1. User enters URL → 2. Browser sends request to DNS server → 3. DNS finds IP address → 4. DNS returns IP address → 5. Browser contacts web server."
 },
   
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "Why is DNS needed?",
     "back": "Because devices use IP addresses, not domain names, to locate servers."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What is a web server?",
     "back": "A computer that stores and sends web pages to users."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What happens after DNS returns the IP address?",
     "back": "The browser uses the IP address to contact the web server."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What is HTML?",
     "back": "HTML is the code used to structure web pages."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What happens when a web page is loaded?",
     "back": "The browser requests the page, the server sends HTML and the browser displays it."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What is a cookie?",
     "back": "A small file stored on a user's device by a website."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What are cookies used for?",
     "back": "Storing login details, preferences and items in a shopping cart."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What is a session cookie?",
     "back": "A cookie that is deleted when the browser is closed."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "What is a persistent cookie?",
     "back": "A cookie that remains stored on a device after it is turned off."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "Where are session cookies stored?",
     "back": "In RAM."
   },
   {
-    "topicName": "webtech",
+    "topicName": "Web Technologies and Cookies",
     "front": "Where are persistent cookies stored?",
     "back": "On secondary storage."
   }
