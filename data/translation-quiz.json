@@ -40,11 +40,11 @@
     "mcq": {
       "question": "What does a compiler do?",
       "correct": "Translates the whole program at once",
-      "wrong": [
-        "Translates one line at a time",
-        "Deletes errors",
-        "Stores programs in RAM"
-      ]
+     "wrong": [
+  "Translates and executes code line by line",
+  "Stops when the first error is found",
+  "Runs code without creating an executable file"
+]
     }
   },
   {
