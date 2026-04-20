@@ -1,6 +1,6 @@
 [
   {
-    "topicName": "types",
+    "topicName": "Types of Software",
     "mcq": {
       "question": "What is software?",
       "correct": "Programs and data that tell a computer what to do",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "topicName": "types",
+    "topicName": "Types of Software",
     "mcq": {
       "question": "What is application software?",
       "correct": "Software that provides services for the user",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "topicName": "types",
+    "topicName": "Types of Software",
     "mcq": {
       "question": "Which of these is system software?",
       "correct": "Operating system",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "topicName": "types",
+    "topicName": "Types of Software",
     "mcq": {
       "question": "What is utility software used for?",
       "correct": "Maintaining and managing a computer system",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "topicName": "types",
+    "topicName": "Types of Software",
     "mcq": {
       "question": "What does antivirus software do?",
       "correct": "Detects and removes malware",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "topicName": "types",
+    "topicName": "Types of Software",
     "mcq": {
       "question": "What is the main difference between system and application software?",
       "correct": "System software runs the computer, application software performs user tasks",
