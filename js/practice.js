@@ -435,7 +435,7 @@ topic === "verificationchecks" ? 4 :
 topic === "errortypes" ? 10 :
 topic === "testdata" ? 10 :
 topic === "validationexam" ? 5 :
-topic === "tracetables" ? 12 :
+topic === "tracetables" ? 6 :
 10
 }</span></div>`;
 
@@ -446,11 +446,13 @@ pseudoCategoryWrap.style.display = "none";
   document.getElementById("answer").parentElement.style.display = "block";
   hintBtn.style.display = "none";
 
-  if (topic === "flowcharts" && mode === "draw") {
-    statsBox.style.display = "none";
-  } else {
-    statsBox.style.display = "flex";
-  }
+ if (topic === "tracetables") {
+  statsBox.style.display = "none";
+} else if (topic === "flowcharts" && mode === "draw") {
+  statsBox.style.display = "none";
+} else {
+  statsBox.style.display = "flex";
+}
 
   feedbackEl.innerHTML = "";
   feedbackEl.classList.remove("correct", "incorrect");
@@ -631,22 +633,23 @@ imageDiv.innerHTML = `
 }
 
 if (topic === "tracetables") {
-
-  const traceTableQuestions = [
-    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-1-q.png", answerImage: "trace-pseudo-1-a.png" },
-    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-2-q.png", answerImage: "trace-pseudo-2-a.png" },
-    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-3-q.png", answerImage: "trace-pseudo-3-a.png" },
-    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-4-q.png", answerImage: "trace-pseudo-4-a.png" },
-    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-5-q.png", answerImage: "trace-pseudo-5-a.png" },
-    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-6-q.png", answerImage: "trace-pseudo-6-a.png" },
-
-    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-1-q.png", answerImage: "trace-flow-1-a.png" },
-    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-2-q.png", answerImage: "trace-flow-2-a.png" },
-    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-3-q.png", answerImage: "trace-flow-3-a.png" },
-    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-4-q.png", answerImage: "trace-flow-4-a.png" },
-    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-5-q.png", answerImage: "trace-flow-5-a.png" },
-    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-6-q.png", answerImage: "trace-flow-6-a.png" }
-  ];
+  const traceTableQuestions = window.traceTableMode === "flowchart"
+    ? [
+        { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-1-q.png", answerImage: "trace-flow-1-a.png" },
+        { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-2-q.png", answerImage: "trace-flow-2-a.png" },
+        { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-3-q.png", answerImage: "trace-flow-3-a.png" },
+        { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-4-q.png", answerImage: "trace-flow-4-a.png" },
+        { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-5-q.png", answerImage: "trace-flow-5-a.png" },
+        { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-6-q.png", answerImage: "trace-flow-6-a.png" }
+      ]
+    : [
+        { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-1-q.png", answerImage: "trace-pseudo-1-a.png" },
+        { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-2-q.png", answerImage: "trace-pseudo-2-a.png" },
+        { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-3-q.png", answerImage: "trace-pseudo-3-a.png" },
+        { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-4-q.png", answerImage: "trace-pseudo-4-a.png" },
+        { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-5-q.png", answerImage: "trace-pseudo-5-a.png" },
+        { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-6-q.png", answerImage: "trace-pseudo-6-a.png" }
+      ];
 
   if (questionNumber > traceTableQuestions.length) {
     questionNumber = traceTableQuestions.length;
@@ -660,18 +663,31 @@ if (topic === "tracetables") {
 
   questionEl.textContent = currentQuestion;
 
+  const existingMsg = document.getElementById("finalMsg");
+  if (existingMsg) existingMsg.remove();
+
+  if (questionNumber === traceTableQuestions.length) {
+    const endMsg = document.createElement("div");
+    endMsg.id = "finalMsg";
+    endMsg.className = "exam-tip final-message";
+    endMsg.textContent = "You have reached the final question. Click Next question to go through them again.";
+    questionEl.insertAdjacentElement("afterend", endMsg);
+  }
+
   const imageDiv = document.getElementById("imageOptions");
 
   imageDiv.innerHTML = `
     <div class="flowchart-solution">
-      <img src="images/practice/tracetables/questions/${selected.questionImage}">
+      <img src="images/practice/tracetables/questions/${selected.questionImage}" alt="Trace table question">
     </div>
 
-    <button id="showTraceAnswerBtn" class="button btn-primary" style="margin-top:16px;">Show answer</button>
+    <button id="showTraceAnswerBtn" class="button btn-primary" style="margin-top:16px;">
+      Show answer
+    </button>
 
     <div id="traceAnswerWrap" style="display:none; margin-top:16px;">
       <div class="flowchart-solution">
-        <img src="images/practice/tracetables/answers/${currentAnswer}">
+        <img src="images/practice/tracetables/answers/${currentAnswer}" alt="Trace table answer">
       </div>
     </div>
   `;
@@ -686,6 +702,7 @@ if (topic === "tracetables") {
   btn.addEventListener("click", () => {
     wrapAnswer.style.display = "block";
     btn.disabled = true;
+    if (writeTip) writeTip.style.display = "none";
   });
 
   return;
@@ -3053,7 +3070,7 @@ if (getTopic() === "validationchecks" && questionNumber >= 5) {
   return;
 }
 
-  if (getTopic() === "errortypes" && questionNumber >= 10) {
+ if (getTopic() === "errortypes" && questionNumber >= 10) {
   showSummary();
   return;
 }
@@ -3062,7 +3079,16 @@ if (getTopic() === "testdata" && questionNumber >= 10) {
   showSummary();
   return;
 }
-  
+
+if (getTopic() === "tracetables" && questionNumber >= 6) {
+  showSummary();
+  return;
+}
+
+  if (getTopic() === "tracetables" && questionNumber >= 6) {
+  showSummary();
+  return;
+}
   
 questionNumber++;
 updateScoreDisplay();
@@ -3171,6 +3197,22 @@ if (getTopic() === "pseudocode") {
   return;
 }
 
+  if (getTopic() === "tracetables") {
+  questionEl.textContent = "Set complete!";
+  feedbackEl.innerHTML = `
+    <p>You've worked through all the ${window.traceTableMode === "flowchart" ? "flowchart" : "pseudocode"} trace table questions.</p>
+    <p>Use "New set" to practise again or switch to the other Trace Tables button.</p>
+  `;
+
+  feedbackEl.classList.remove("correct", "incorrect");
+
+  imageOptionsEl.innerHTML = "";
+  answerEl.value = "";
+  answerEl.disabled = true;
+  checkBtn.disabled = true;
+
+  return;
+}
   
   const totalAnswered = correctCount + incorrectCount;
   const accuracy = totalAnswered > 0
@@ -3197,7 +3239,7 @@ updateModeOptions();
  const controls = document.getElementById("controls");
 
 
-if (getTopic() === "sound" || getTopic() === "pseudocode") {
+if (getTopic() === "sound" || getTopic() === "pseudocode" || getTopic() === "tracetables") {
   controls.style.display = "none";
 } else {
   controls.style.display = "flex";
@@ -3209,7 +3251,8 @@ if (
   getTopic() === "validationchecks" ||
   getTopic() === "verificationchecks" ||
   getTopic() === "errortypes" ||
-  getTopic() === "testdata"
+  getTopic() === "testdata" ||
+  getTopic() === "tracetables"
 ) {
   difficultySelect.style.display = "none";
 }
