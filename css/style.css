@@ -933,3 +933,29 @@ body.dark .practice-stats .stat-box {
   color: #ff6b6b;
   font-weight: bold;
 }
+
+
+.flowchart-solution img {
+  max-width: 100%;
+  max-height: 300px;   /* controls height */
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+
+#showTraceAnswerBtn {
+  width: auto;
+  padding: 10px 18px;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+
+#imageOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
