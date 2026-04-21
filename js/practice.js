@@ -1340,7 +1340,7 @@ UNTIL reply = "yes"`,
 
 
 
-  const pseudoCategory = document.getElementById("pseudoCategory").value;
+  const pseudoCategory = window.pseudoCategory || "inputoutput";
 
 const filteredQuestions = pseudoCategory === "all"
   ? window.pseudocodeQuestions
