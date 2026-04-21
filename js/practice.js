@@ -3152,11 +3152,7 @@ modeEl.addEventListener("change", () => {
   generateQuestion();
 });
 
-document.getElementById("pseudoCategory").addEventListener("change", () => {
-  questionNumber = 1;
-  generateQuestion();
-});
-
+window.pseudoCategory = window.pseudoCategory || "inputoutput";
 
 answerEl.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
