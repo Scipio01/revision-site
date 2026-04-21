@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const res = await fetch('data/topics.json');
   const topics = await res.json();
+    const underConstructionTopics = new Set(['testingtracetables']);
 
   wrap.innerHTML = '';
 
@@ -30,8 +31,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         <h3>${topic.name}</h3>
         <p class="muted">${topic.description}</p>
         <div class="actions">
-          ${
-            topic.id === 'datarep' ||
+                    ${
+            underConstructionTopics.has(topic.id)
+              ? `
+        <span class="btn-primary button" aria-disabled="true">Under construction</span>
+        <span class="muted">This topic will be available soon.</span>
+              `
+              : topic.id === 'datarep' ||
             topic.id === 'datatransmission' ||
             topic.id === 'hardware1' ||
             topic.id === 'hardware2' ||
@@ -40,8 +46,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             topic.id === 'software' ||
             topic.id === 'internet' ||
             topic.id === 'emerging' ||
-            topic.id === 'algorithms' ||
-            topic.id === 'testingtracetables'
+            topic.id === 'algorithms'
               ? `<a class="btn-primary button" href="${
                   topic.id === 'datarep'
                     ? 'data-representation.html'
