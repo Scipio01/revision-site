@@ -441,16 +441,20 @@ topic === "tracetables" ? 6 :
 10
 }</span></div>`;
 
-   
 pseudoCategoryWrap.style.display = "none";
 }
 
-  document.getElementById("answer").parentElement.style.display = "block";
+  if (topic !== "tracetables") {
+    document.getElementById("answer").parentElement.style.display = "block";
+  }
   hintBtn.style.display = "none";
 
  if (topic === "tracetables") {
   statsBox.style.display = "none";
-} else if (topic === "flowcharts" && mode === "draw") {
+} else if (topic === "flowcharts" && mode === "draw") {   
+
+
+    
   statsBox.style.display = "none";
 } else {
   statsBox.style.display = "flex";
