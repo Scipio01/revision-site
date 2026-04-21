@@ -12,11 +12,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const res = await fetch('data/topics.json');
   const topics = await res.json();
-    const underConstructionTopics = new Set(['testingtracetables']);
 
   wrap.innerHTML = '';
 
- const filteredTopics = topics.filter(t => t.level === level && t.id !== 'databases');
+  const filteredTopics = topics.filter(t => t.level === level && t.id !== 'databases');
 
   if (level === 'gcse') {
     const paper1 = filteredTopics.filter(t => t.group === 'paper1');
@@ -31,13 +30,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         <h3>${topic.name}</h3>
         <p class="muted">${topic.description}</p>
         <div class="actions">
-                    ${
-            underConstructionTopics.has(topic.id)
-              ? `
-        <span class="btn-primary button" aria-disabled="true">Under construction</span>
-        <span class="muted">This topic will be available soon.</span>
-              `
-              : topic.id === 'datarep' ||
+          ${
+            topic.id === 'datarep' ||
             topic.id === 'datatransmission' ||
             topic.id === 'hardware1' ||
             topic.id === 'hardware2' ||
@@ -46,7 +40,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             topic.id === 'software' ||
             topic.id === 'internet' ||
             topic.id === 'emerging' ||
-            topic.id === 'algorithms'
+            topic.id === 'algorithms' ||
+            topic.id === 'testingtracetables'
               ? `<a class="btn-primary button" href="${
                   topic.id === 'datarep'
                     ? 'data-representation.html'
