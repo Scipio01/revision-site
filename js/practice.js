@@ -2631,8 +2631,7 @@ if (
   feedbackEl.innerHTML =
     `<strong>Model Answer:</strong><br><br>` +
 
-`<div class="code-block" style="line-height:1.5;">${currentAnswer
-  .replace(/\n/g, "<br>")
+`<pre class="code-block" style="line-height:1.5;">${currentAnswer}</pre>`
   .replace(/Start:/g, "<strong>Start:</strong>")
   .replace(/Pass \d+:/g, match => `<br><strong>${match}</strong>`)
 }</div>`+
