@@ -372,8 +372,7 @@ if (topic === "tracetables") {
   });
 
   if (writeTip) {
-    writeTip.style.display = "block";
-    writeTip.textContent = "✍️ Complete the trace table on paper before clicking “Show answer”. Then compare your work to the model answer.";
+    writeTip.style.display = "none";
   }
 
 } else if (topic === "flowcharts") {
