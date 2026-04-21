@@ -73,13 +73,12 @@
 
 
 <div id="pseudoCategoryWrap" class="control-group" style="display:none; margin-bottom:12px;">
-  <label for="pseudoCategory">Category</label>
-  <select id="pseudoCategory" class="practice-select">
-  <option value="all">All</option>
-  <option value="inputoutput" selected>Input / Output</option>
-    <option value="selection">Selection</option>
-    <option value="iteration">Iteration</option>
-  </select>
+  <span>Category</span>
+  <div class="button-row top-gap">
+    <button type="button" class="button btn-primary" data-category="inputoutput">Input / Output</button>
+    <button type="button" class="button btn-secondary" data-category="selection">Selection</button>
+    <button type="button" class="button btn-secondary" data-category="iteration">Iteration</button>
+  </div>
 </div>
       
       <div class="question-card">
