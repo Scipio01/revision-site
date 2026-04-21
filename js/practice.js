@@ -3068,11 +3068,11 @@ if (getTopic() === "pseudocode" && questionNumber >= window.pseudocodeQuestions.
 }
 
 if (getTopic() === "pseudocode") {
-  const pseudoCategory = document.getElementById("pseudoCategory").value;
+    const pseudoCategory = window.pseudoCategory || "inputoutput";
 
-  const filteredQuestions = pseudoCategory === "all"
-    ? window.pseudocodeQuestions
-    : window.pseudocodeQuestions.filter(q => q.category === pseudoCategory);
+const filteredQuestions = pseudoCategory === "all"
+  ? window.pseudocodeQuestions
+  : window.pseudocodeQuestions.filter(q => q.category === pseudoCategory);
 
   if (questionNumber >= filteredQuestions.length) {
     showSummary();
