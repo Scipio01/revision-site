@@ -2611,7 +2611,7 @@ function checkAnswer() {
 
   if (getTopic() === "pseudocode") {
   feedbackEl.innerHTML =
-    `<strong>Model Answer:</strong><br><br>${currentAnswer.replace(/\n/g, "<br>")}` +
+    `<strong>Model Answer:</strong><br><br><pre class="code-block">${currentAnswer}</pre>` +
     `<br><br><strong>Check your answer:</strong><br>` +
     (currentHints ? currentHints.map(h => `✔ ${h}`).join("<br>") : "") +
     `<br><br><div class="exam-tip">💡 Your answer may look different but could still gain full marks, as long as your pseudocode is clear, consistent, and logically correct.</div>`;
