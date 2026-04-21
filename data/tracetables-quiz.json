@@ -1,0 +1,86 @@
+[
+  {
+    "topicName": "Trace Tables",
+    "mcq": {
+      "question": "<pre>x ← 4\nx ← x * 2</pre>\n\nWhat is the value of x at the end?",
+      "correct": "8",
+      "wrong": ["6", "2", "16"]
+    }
+  },
+  {
+    "topicName": "Trace Tables",
+    "mcq": {
+      "question": "<pre>count ← 0\nFOR i ← 1 TO 3\n  count ← count + 1\nNEXT i</pre>\n\nWhat is the final value of count?",
+      "correct": "3",
+      "wrong": ["2", "1", "4"]
+    }
+  },
+  {
+    "topicName": "Trace Tables",
+    "mcq": {
+      "question": "<pre>num ← 2\nWHILE num < 10\n  num ← num + 3\nENDWHILE</pre>\n\nWhat is the value of num at the end?",
+      "correct": "11",
+      "wrong": ["10", "9", "8"]
+    }
+  },
+  {
+    "topicName": "Trace Tables",
+    "mcq": {
+      "question": "<pre>x ← 5\nIF x > 3 THEN\n  x ← x + 2\nENDIF</pre>\n\nWhat is the value of x at the end?",
+      "correct": "7",
+      "wrong": ["5", "3", "2"]
+    }
+  },
+  {
+    "topicName": "Trace Tables",
+    "mcq": {
+      "question": "What is the purpose of a trace table?",
+      "correct": "To track how variables change as an algorithm runs",
+      "wrong": [
+        "To store data permanently",
+        "To convert algorithms into code",
+        "To fix syntax errors automatically"
+      ]
+    }
+  },
+  {
+    "topicName": "Trace Tables",
+    "mcq": {
+      "question": "<pre>x ← 1\ny ← 2\nOUTPUT x + y</pre>\n\nWhat is displayed?",
+      "correct": "3",
+      "wrong": ["12", "1", "2"]
+    }
+  },
+  {
+    "topicName": "Trace Tables",
+    "mcq": {
+      "question": "<pre>total ← 0\ntotal ← total + 5\ntotal ← total + 3</pre>\n\nWhat is the final value of total?",
+      "correct": "8",
+      "wrong": ["5", "3", "0"]
+    }
+  },
+  {
+    "topicName": "Trace Tables",
+    "mcq": {
+      "question": "<pre>num ← 6\nnum < 10</pre>\n\nWhat is the result of the condition?",
+      "correct": "True",
+      "wrong": ["False", "6", "10"]
+    }
+  },
+  {
+    "topicName": "Trace Tables",
+    "mcq": {
+      "question": "<pre>x ← 3\ny ← 2\nx ← x + y\ny ← x + 1</pre>\n\nWhat is the value of y at the end?",
+      "correct": "6",
+      "wrong": ["5", "4", "3"]
+    }
+  },
+  {
+    "topicName": "Trace Tables",
+    "mcq": {
+      "question": "<pre>count ← 10\nFOR i ← 1 TO 2\n  count ← count - 4\nNEXT i</pre>\n\nWhat is the final value of count?",
+      "correct": "2",
+      "wrong": ["4", "6", "8"]
+    }
+  }
+]
