@@ -2646,7 +2646,7 @@ if (currentQuestionType === "validationExam") {
 
   feedbackEl.innerHTML =
     `<strong>Model Answer:</strong><br><br>` +
-    `<div class="code-block" style="line-height:1.5;">${currentAnswer.replace(/\n/g, "<br>")}</div>` +
+   `<pre class="code-block" style="line-height:1.5;">${currentAnswer}</pre>` +
     `<br><br><div class="exam-tip">💡 Your answer may be worded differently and still be correct if the key idea is clear.</div>`;
 
   feedbackEl.classList.remove("correct", "incorrect");
