@@ -456,7 +456,7 @@ pseudoCategoryWrap.style.display = "none";
   statsBox.style.display = "flex";
 }
 
-  feedbackEl.innerHTML = "";
+    feedbackEl.innerHTML = "";
   feedbackEl.classList.remove("correct", "incorrect");
   answerEl.value = "";
   answerEl.focus();
@@ -466,12 +466,14 @@ pseudoCategoryWrap.style.display = "none";
       imageOptionsEl.innerHTML = "";
     }
     
-    answerEl.style.display = "block";
-    answerEl.parentElement.style.display = "flex";
-    checkBtn.style.display = "inline-flex";
+    if (topic !== "tracetables") {
+      answerEl.style.display = "block";
+      answerEl.parentElement.style.display = "flex";
+      checkBtn.style.display = "inline-flex";
+    }
 
-    if (topic === "flowcharts") {
-
+    if (topic === "flowcharts") { 
+     
     
     if (mode === "draw") {
      const drawQuestions = [
@@ -3082,11 +3084,6 @@ if (getTopic() === "testdata" && questionNumber >= 10) {
   return;
 }
 
-if (getTopic() === "tracetables" && questionNumber >= 6) {
-  showSummary();
-  return;
-}
-
   if (getTopic() === "tracetables" && questionNumber >= 6) {
   showSummary();
   return;
@@ -3241,7 +3238,7 @@ updateModeOptions();
  const controls = document.getElementById("controls");
 
 
-if (getTopic() === "sound" || getTopic() === "pseudocode" || getTopic() === "tracetables") {
+if (getTopic() === "sound" || getTopic() === "pseudocode") {
   controls.style.display = "none";
 } else {
   controls.style.display = "flex";
