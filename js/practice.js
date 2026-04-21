@@ -685,6 +685,10 @@ if (topic === "tracetables") {
   const imageDiv = document.getElementById("imageOptions");
 
   imageDiv.innerHTML = `
+    <div class="exam-tip" style="margin-bottom:12px;">
+      ✍️ Complete the trace table on paper before clicking “Show answer”. Then compare your work to the model answer.
+    </div>
+
     <div class="flowchart-solution">
       <img src="images/practice/tracetables/questions/${selected.questionImage}" alt="Trace table question">
     </div>
