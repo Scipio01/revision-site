@@ -405,6 +405,35 @@ if (topic === "tracetables") {
     writeTip.textContent = "✍️ Complete the trace table on paper before clicking “Show answer”. Then compare your work to the model answer.";
   }
 
+} 
+ 
+if (topic === "tracetables") {
+  difficultyEl.style.display = "none";
+  modeEl.style.display = "none";
+
+  flowchartModeButtons.style.display = "flex";
+  flowchartModeButtons.innerHTML = `
+    <button type="button" id="tracePseudoBtn" class="button ${window.traceTableMode === "pseudocode" ? "btn-primary" : "btn-secondary"}">Pseudocode questions</button>
+    <button type="button" id="traceFlowBtn" class="button ${window.traceTableMode === "flowchart" ? "btn-primary" : "btn-secondary"}">Flowchart questions</button>
+  `;
+
+  document.getElementById("tracePseudoBtn").addEventListener("click", () => {
+    window.traceTableMode = "pseudocode";
+    questionNumber = 1;
+    generateQuestion();
+  });
+
+  document.getElementById("traceFlowBtn").addEventListener("click", () => {
+    window.traceTableMode = "flowchart";
+    questionNumber = 1;
+    generateQuestion();
+  });
+
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent = "✍️ Complete the trace table on paper before clicking “Show answer”. Then compare your work to the model answer.";
+  }
+
 } else if (topic === "flowcharts") {
   flowchartModeButtons.style.display = "block";
 
@@ -436,7 +465,6 @@ if (topic === "tracetables") {
     if (writeTip) writeTip.style.display = "none";
   }
 }
-  
 
   if (topic === "pseudocode") {
     const pseudoCategory = document.getElementById("pseudoCategory").value;
