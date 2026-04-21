@@ -90,11 +90,15 @@ function nextQuestion() {
           <div class="mini-card"><h3>Best use now</h3><p>Review any weak terms, then retake the quiz.</p></div>
           <div class="mini-card"><h3>Stored locally</h3><p>Your best score and latest attempt have been saved on this device.</p></div>
         </div>
-        <div class="actions" style="justify-content:center; margin-top:18px;">
-          <a class="btn-primary button" href="progress.html">View progress</a>
-          <a class="btn-secondary button" href="flashcards.html">Back to flashcards</a>
-          <a class="btn-secondary button" href="quiz.html" onclick="location.reload()">Try again</a>
-        </div>
+       <div class="actions" style="justify-content:center; margin-top:18px;">
+  <a class="btn-primary button" href="progress.html">View progress</a>
+  ${
+    topic !== 'tracetables'
+      ? `<a class="btn-secondary button" href="flashcards.html">Back to flashcards</a>`
+      : ''
+  }
+  <a class="btn-secondary button" href="quiz.html" onclick="location.reload()">Try again</a>
+</div>
       </section>
     `;
   }
