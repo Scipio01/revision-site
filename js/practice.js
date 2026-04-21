@@ -160,7 +160,12 @@ if (topic === "testdata") {
   introEl.textContent = "Practise identifying normal, abnormal, extreme and boundary data.";
   return;
 }
-  
+
+  if (topic === "tracetables") {
+  titleEl.textContent = "Trace Tables Practice";
+  introEl.textContent = "Practise completing trace tables from pseudocode and flowcharts using model answers.";
+  return;
+}
  
 if (topic === "pseudocode") {
   titleEl.textContent = "Pseudocode Practice";
@@ -330,14 +335,15 @@ function generateQuestion() {
   window.pseudocodeQuestions = window.pseudocodeQuestions || [];
 
 const writeTip = document.querySelector(".question-card .exam-tip");
-  const topicTips = {
+const topicTips = {
   binadd: "✍️ Write the numbers out in columns and track your carries carefully.",
   binshift: "💡 Remember: left shift multiplies by 2, right shift divides by 2.",
   overflow: "💡 Check the register size first — can the result fit in the available bits?",
   twos: "✍️ Write the positive value first, then invert the bits and add 1.",
   hex: "✍️ Group binary into 4 bits or divide by 16 when converting.",
   sound: "💡 Use the formula: sample rate × bit depth × time.",
-  text: "💡 Remember: standard ASCII uses 7 bits per character."
+  text: "💡 Remember: standard ASCII uses 7 bits per character.",
+  tracetables: "✍️ Complete the trace table on paper before clicking “Show answer”. Then compare your work to the model answer."
 };
   
 if (topic === "flowcharts") {
@@ -401,6 +407,7 @@ topic === "verificationchecks" ? 4 :
 topic === "errortypes" ? 10 :
 topic === "testdata" ? 10 :
 topic === "validationexam" ? 5 :
+topic === "tracetables" ? 12 :
 10
 }</span></div>`;
 
@@ -594,6 +601,70 @@ imageDiv.innerHTML = `
 
   return;
 }
+
+if (topic === "tracetables") {
+
+  const traceTableQuestions = [
+    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-1-q.png", answerImage: "trace-pseudo-1-a.png" },
+    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-2-q.png", answerImage: "trace-pseudo-2-a.png" },
+    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-3-q.png", answerImage: "trace-pseudo-3-a.png" },
+    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-4-q.png", answerImage: "trace-pseudo-4-a.png" },
+    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-5-q.png", answerImage: "trace-pseudo-5-a.png" },
+    { question: "Complete the trace table for this pseudocode question.", questionImage: "trace-pseudo-6-q.png", answerImage: "trace-pseudo-6-a.png" },
+
+    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-1-q.png", answerImage: "trace-flow-1-a.png" },
+    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-2-q.png", answerImage: "trace-flow-2-a.png" },
+    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-3-q.png", answerImage: "trace-flow-3-a.png" },
+    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-4-q.png", answerImage: "trace-flow-4-a.png" },
+    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-5-q.png", answerImage: "trace-flow-5-a.png" },
+    { question: "Complete the trace table for this flowchart question.", questionImage: "trace-flow-6-q.png", answerImage: "trace-flow-6-a.png" }
+  ];
+
+  if (questionNumber > traceTableQuestions.length) {
+    questionNumber = traceTableQuestions.length;
+  }
+
+  const selected = traceTableQuestions[(questionNumber - 1) % traceTableQuestions.length];
+
+  currentQuestionType = "exam";
+  currentQuestion = selected.question;
+  currentAnswer = selected.answerImage;
+
+  questionEl.textContent = currentQuestion;
+
+  const imageDiv = document.getElementById("imageOptions");
+
+  imageDiv.innerHTML = `
+    <div class="flowchart-solution">
+      <img src="images/practice/tracetables/questions/${selected.questionImage}">
+    </div>
+
+    <button id="showTraceAnswerBtn" class="button btn-primary" style="margin-top:16px;">Show answer</button>
+
+    <div id="traceAnswerWrap" style="display:none; margin-top:16px;">
+      <div class="flowchart-solution">
+        <img src="images/practice/tracetables/answers/${currentAnswer}">
+      </div>
+    </div>
+  `;
+
+  answerEl.style.display = "none";
+  answerEl.parentElement.style.display = "none";
+  checkBtn.style.display = "none";
+
+  const btn = document.getElementById("showTraceAnswerBtn");
+  const wrapAnswer = document.getElementById("traceAnswerWrap");
+
+  btn.addEventListener("click", () => {
+    wrapAnswer.style.display = "block";
+    btn.disabled = true;
+  });
+
+  return;
+}
+
+
+
   
   if (topic === "text") {
     currentQuestion = "How many bits are used to represent a character in standard ASCII?";
