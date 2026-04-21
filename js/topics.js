@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   wrap.innerHTML = '';
 
-  const filteredTopics = topics.filter(t => t.level === level);
+ const filteredTopics = topics.filter(t => t.level === level && t.id !== 'databases');
 
   if (level === 'gcse') {
     const paper1 = filteredTopics.filter(t => t.group === 'paper1');
