@@ -411,7 +411,7 @@ if (topic === "tracetables") {
 
   
   if (topic === "pseudocode") {
-    const pseudoCategory = document.getElementById("pseudoCategory").value;
+   const pseudoCategory = window.pseudoCategory || "inputoutput";
   
     const filteredQuestions = pseudoCategory === "all"
       ? window.pseudocodeQuestions
@@ -824,6 +824,20 @@ return;
 
 
 if (topic === "pseudocode") {
+
+  const pseudoButtons = document.querySelectorAll("#pseudoCategoryWrap button");
+
+  pseudoButtons.forEach(btn => {
+    const isActive = (window.pseudoCategory || "inputoutput") === btn.dataset.category;
+    btn.classList.toggle("btn-primary", isActive);
+    btn.classList.toggle("btn-secondary", !isActive);
+
+    btn.onclick = () => {
+      window.pseudoCategory = btn.dataset.category;
+      questionNumber = 1;
+      generateQuestion();
+    };
+  });
 
   window.pseudocodeQuestions = [
 
