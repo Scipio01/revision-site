@@ -83,9 +83,9 @@ body.theme-lilac {
 }
 
 body.theme-warm {
-  --accent: #efac67;
-  --accent-2: #ffd5ab;
-  --accent-3: #fff6e8;
+  --accent: #ef67d2;     /* your pink */
+  --accent-2: #ffd5ab;   /* your peach */
+  --accent-3: #fff0f8;
   --card-front: #fff1c7;
   --card-back: #ffe1cc;
   --border-front: #e7bf57;
