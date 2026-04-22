@@ -290,10 +290,14 @@ function updateModeOptions() {
 
 
 
-  if (topic === "standardalgorithms") {
+ if (topic === "standardalgorithms") {
   difficultyEl.style.display = "none";
   modeEl.innerHTML = `
-    
+    <option value="standardmethods">Standard methods</option>
+    <option value="linearsearch">Linear search</option>
+    <option value="bubblesort">Bubble sort</option>
+    <option value="mixed">Mixed</option>
+  `;
 
   // 🔴 show your buttons
   const buttonWrap = document.getElementById("algorithmModeButtons");
