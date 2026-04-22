@@ -61,7 +61,18 @@
   <option value="hard">Hard</option>
 </select>
       
- <select id="mode" class="practice-select"></select>
+
+<div id="algorithmModeButtons" class="control-group" style="display:none;">
+  <span>Mode</span>
+  <div class="button-row top-gap">
+    <button type="button" class="button btn-primary" data-mode="identify">Identify method</button>
+    <button type="button" class="button btn-secondary" data-mode="fill">Complete the line</button>
+    <button type="button" class="button btn-secondary" data-mode="trace">Trace the algorithm</button>
+    <button type="button" class="button btn-secondary" data-mode="write">Write the algorithm</button>
+  </div>
+</div>
+
+        
 </div>
 <div class="practice-stats">
   <div class="stat-box">Correct: <span id="correctCount">0</span></div>
