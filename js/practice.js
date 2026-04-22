@@ -289,6 +289,7 @@ function updateModeOptions() {
   }
 
   if (topic === "standardalgorithms") {
+    difficultyEl.style.display = "none";
   modeEl.innerHTML = `
     <option value="standardmethods">Standard methods</option>
     <option value="linearsearch">Linear search</option>
