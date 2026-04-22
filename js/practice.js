@@ -290,7 +290,7 @@ function updateModeOptions() {
 
 
 
- if (topic === "standardalgorithms") {
+if (topic === "standardalgorithms") {
   difficultyEl.style.display = "none";
   modeEl.innerHTML = `
     <option value="standardmethods">Standard methods</option>
@@ -330,7 +330,7 @@ function updateModeOptions() {
 
   return;
 }
-
+  
   if (topic === "hex") {
     modeEl.innerHTML = `
       <option value="mixed">Mixed</option>
