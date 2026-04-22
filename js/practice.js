@@ -8,12 +8,10 @@ let currentStreak = 0;
 let bestStreak = 0;
 let questionNumber = 0;
 let totalQuestions = 10;
-let currentQuestion = "";
 let selectedAlgorithmMode = "identify";
 let soundQuestionCount = 0;
 let drawQuestionIndex = 0;
 let lastFlowchartAnswer = "";
-let selectedAlgorithmMode = "identify";
 
 const questionEl = document.getElementById("question");
 const answerEl = document.getElementById("answer");
