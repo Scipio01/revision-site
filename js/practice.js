@@ -3159,9 +3159,7 @@ modeEl.addEventListener("change", () => {
   checkBtn.disabled = false;
   nextBtn.disabled = false;
 
-  if (getTopic() === "standardalgorithms" && modeEl.value === "standardmethods") {
-    difficultyEl.style.display = "inline-block";
-  } else if (getTopic() === "standardalgorithms") {
+   if (getTopic() === "standardalgorithms") {
     difficultyEl.style.display = "none";
   }
 
