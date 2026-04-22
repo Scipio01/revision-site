@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   const wrap = document.getElementById('topicsList');
   const levelLabel = document.getElementById('levelLabel');
   const level = getSelectedLevel();
+  const params = new URLSearchParams(window.location.search);
+  const selectedPaper = params.get('paper');
 
   levelLabel.textContent = level === 'alevel' ? 'A Level' : 'GCSE';
   document.getElementById('gcseSwitch').classList.toggle('active', level === 'gcse');
