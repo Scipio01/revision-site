@@ -302,6 +302,15 @@ function updateModeOptions() {
     difficultyEl.style.display = "inline-block";
   }
 
+modeEl.onchange = () => {
+  if (modeEl.value === "standardmethods") {
+    difficultyEl.style.display = "none";
+  } else {
+    difficultyEl.style.display = "inline-block";
+  }
+};
+    
+
   // 🔴 show your buttons
   const buttonWrap = document.getElementById("algorithmModeButtons");
   if (buttonWrap) {
