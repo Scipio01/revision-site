@@ -112,10 +112,21 @@ body.theme-forest {
   --border-back: #c9dea0;
 }
 
+body.theme-sunset {
+  --accent: #ef67d2;
+  --accent-2: #ffd5ab;
+  --accent-3: #fff0f8;
+  --card-front: #ffe3f7;
+  --card-back: #fff1df;
+  --border-front: #ef9fe0;
+  --border-back: #f2c8a2;
+}
+
 body.dark.theme-lilac,
 body.dark.theme-warm,
 body.dark.theme-ocean,
-body.dark.theme-forest {
+body.dark.theme-forest,
+body.dark.theme-sunset {
   --card-text-front: #f6f8ff;
   --card-text-back: #f6f8ff;
 }
