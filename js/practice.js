@@ -3287,18 +3287,10 @@ if (
   getTopic() === "verificationchecks" ||
   getTopic() === "errortypes" ||
   getTopic() === "testdata" ||
-  getTopic() === "tracetables"
+  getTopic() === "tracetables" ||
+  getTopic() === "standardalgorithms"
 ) {
   difficultySelect.style.display = "none";
-}
-
-
-else if (getTopic() === "standardalgorithms") {
-  if (modeEl.value === "standardmethods") {
-    difficultySelect.style.display = "inline-block";
-  } else {
-    difficultySelect.style.display = "none";
-  }
 } else {
   difficultySelect.style.display = "inline-block";
 }
