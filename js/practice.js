@@ -273,6 +273,7 @@ function updateModeOptions() {
   modeEl.innerHTML = "";
 
  modeEl.style.display = "inline-block";
+  difficultyEl.style.display = "inline-block"; // reset first
 
 // only show difficulty for NON algorithm topics
 if (topic !== "standardalgorithms") {
