@@ -290,6 +290,22 @@ button.btn-primary {
   box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
 
+.hero-button {
+  font-size: 1.1rem;
+  padding: 14px 22px;
+  border-radius: 18px;
+  border: 2px solid var(--accent);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+  transition: all 0.2s ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-4px) scale(1.03);
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #102033;
+  box-shadow: 0 14px 32px rgba(0,0,0,0.2);
+}
+
 button:disabled {
   opacity: 0.55;
   cursor: not-allowed;
