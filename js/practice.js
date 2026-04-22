@@ -288,28 +288,11 @@ function updateModeOptions() {
     return;
   }
 
+
+
   if (topic === "standardalgorithms") {
-    difficultyEl.style.display = "none";
+  difficultyEl.style.display = "none";
   modeEl.innerHTML = `
-    <option value="standardmethods">Standard methods</option>
-    <option value="linearsearch">Linear search</option>
-    <option value="bubblesort">Bubble sort</option>
-    <option value="mixed">Mixed</option>
-  `;
-
-   if (modeEl.value === "standardmethods") {
-    difficultyEl.style.display = "none";
-  } else {
-    difficultyEl.style.display = "inline-block";
-  }
-
-modeEl.onchange = () => {
-  if (modeEl.value === "standardmethods") {
-    difficultyEl.style.display = "none";
-  } else {
-    difficultyEl.style.display = "inline-block";
-  }
-};
     
 
   // 🔴 show your buttons
