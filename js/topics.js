@@ -5,7 +5,15 @@ document.addEventListener('DOMContentLoaded', async () => {
   const params = new URLSearchParams(window.location.search);
   const selectedPaper = params.get('paper');
 
-  levelLabel.textContent = level === 'alevel' ? 'A Level' : 'GCSE';
+    if (level === 'gcse' && selectedPaper === 'paper1') {
+    levelLabel.textContent = 'GCSE Paper 1';
+  } else if (level === 'gcse' && selectedPaper === 'paper2') {
+    levelLabel.textContent = 'GCSE Paper 2';
+  } else {
+    levelLabel.textContent = level === 'alevel' ? 'A Level' : 'GCSE';
+  }
+
+  
   document.getElementById('gcseSwitch').classList.toggle('active', level === 'gcse');
   document.getElementById('alevelSwitch').classList.toggle('active', level === 'alevel');
 
