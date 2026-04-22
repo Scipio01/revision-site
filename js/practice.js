@@ -296,8 +296,11 @@ function updateModeOptions() {
     <option value="mixed">Mixed</option>
   `;
 
-  // 🔴 hide dropdown
-  difficultyEl.style.display = "none";
+   if (modeEl.value === "standardmethods") {
+    difficultyEl.style.display = "none";
+  } else {
+    difficultyEl.style.display = "inline-block";
+  }
 
   // 🔴 show your buttons
   const buttonWrap = document.getElementById("algorithmModeButtons");
