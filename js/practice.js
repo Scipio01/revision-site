@@ -304,9 +304,15 @@ if (topic === "standardalgorithms") {
   `;
 
   // 🔴 show your buttons
-  const buttonWrap = document.getElementById("algorithmModeButtons");
+
+
+    const buttonWrap = document.getElementById("algorithmModeButtons");
   if (buttonWrap) {
-    buttonWrap.style.display = "block";
+    if (modeEl.value === "standardmethods") {
+      buttonWrap.style.display = "block";
+    } else {
+      buttonWrap.style.display = "none";
+    }
 
     const buttons = buttonWrap.querySelectorAll("button");
 
