@@ -105,7 +105,13 @@ document.addEventListener('DOMContentLoaded', async () => {
       wrap.appendChild(section);
     }
 
-    renderGroup('Paper 1', paper1);
-    renderGroup('Paper 2', paper2);
+    if (selectedPaper === 'paper1') {
+  renderGroup('Paper 1', paper1);
+} else if (selectedPaper === 'paper2') {
+  renderGroup('Paper 2', paper2);
+} else {
+  renderGroup('Paper 1', paper1);
+  renderGroup('Paper 2', paper2);
+}
   }
 });
