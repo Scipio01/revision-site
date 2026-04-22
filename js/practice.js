@@ -275,6 +275,11 @@ function updateModeOptions() {
   modeEl.style.display = "inline-block";
   difficultyEl.style.display = "inline-block";
 
+  const algorithmModeButtons = document.getElementById("algorithmModeButtons");
+  if (algorithmModeButtons) {
+    algorithmModeButtons.style.display = "none";
+  }
+
   if (topic === "flowcharts") {
     modeEl.innerHTML = `
       <option value="symbols">Flowchart Symbols</option>
@@ -302,10 +307,13 @@ function updateModeOptions() {
     const buttons = buttonWrap.querySelectorAll("button");
 
     buttons.forEach(btn => {
+      const isActive = selectedAlgorithmMode === btn.dataset.mode;
+      btn.classList.toggle("btn-primary", isActive);
+      btn.classList.toggle("btn-secondary", !isActive);
+
       btn.onclick = () => {
         selectedAlgorithmMode = btn.dataset.mode;
 
-        // update styles
         buttons.forEach(b => {
           b.classList.remove("btn-primary");
           b.classList.add("btn-secondary");
