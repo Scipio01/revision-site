@@ -272,8 +272,12 @@ function updateModeOptions() {
   const topic = getTopic();
   modeEl.innerHTML = "";
 
-  modeEl.style.display = "inline-block";
+ modeEl.style.display = "inline-block";
+
+// only show difficulty for NON algorithm topics
+if (topic !== "standardalgorithms") {
   difficultyEl.style.display = "inline-block";
+}
 
   const algorithmModeButtons = document.getElementById("algorithmModeButtons");
   if (algorithmModeButtons) {
