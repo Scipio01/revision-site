@@ -8,7 +8,8 @@ let currentStreak = 0;
 let bestStreak = 0;
 let questionNumber = 0;
 let totalQuestions = 10;
-
+let currentQuestion = "";
+let selectedAlgorithmMode = "identify";
 let soundQuestionCount = 0;
 let drawQuestionIndex = 0;
 let lastFlowchartAnswer = "";
@@ -284,27 +285,42 @@ function updateModeOptions() {
   }
 
   if (topic === "standardalgorithms") {
-    modeEl.innerHTML = `
-      <option value="standardmethods">Standard methods</option>
-      <option value="linearsearch">Linear search</option>
-      <option value="bubblesort">Bubble sort</option>
-      <option value="mixed">Mixed</option>
-    `;
+  modeEl.innerHTML = `
+    <option value="standardmethods">Standard methods</option>
+    <option value="linearsearch">Linear search</option>
+    <option value="bubblesort">Bubble sort</option>
+    <option value="mixed">Mixed</option>
+  `;
 
-    difficultyEl.innerHTML = `
-      <option value="identify">Identify the method</option>
-      <option value="fill">Complete the missing line</option>
-      <option value="trace">Trace the algorithm</option>
-      <option value="write">Write the algorithm</option>
-    `;
+  // 🔴 hide dropdown
+  difficultyEl.style.display = "none";
 
-    difficultyEl.value = "identify";
-    return;
+  // 🔴 show your buttons
+  const buttonWrap = document.getElementById("algorithmModeButtons");
+  if (buttonWrap) {
+    buttonWrap.style.display = "block";
+
+    const buttons = buttonWrap.querySelectorAll("button");
+
+    buttons.forEach(btn => {
+      btn.onclick = () => {
+        selectedAlgorithmMode = btn.dataset.mode;
+
+        // update styles
+        buttons.forEach(b => {
+          b.classList.remove("btn-primary");
+          b.classList.add("btn-secondary");
+        });
+
+        btn.classList.remove("btn-secondary");
+        btn.classList.add("btn-primary");
+
+        questionNumber = 1;
+        generateQuestion();
+      };
+    });
   }
 
-if (topic === "validationchecks" || topic === "verificationchecks" || topic === "validationexam" || topic === "errortypes" || topic === "testdata" || topic === "tracetables") {
-  modeEl.style.display = "none";
-  difficultyEl.style.display = "none";
   return;
 }
 
@@ -1366,7 +1382,7 @@ const item = filteredQuestions[(questionNumber - 1) % filteredQuestions.length];
 
 if (topic === "standardalgorithms") {
 
-  const standardMode = difficultyEl.value;
+  const standardMode = selectedAlgorithmMode;
 
   const fillQuestions = [
     {
