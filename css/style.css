@@ -913,6 +913,37 @@ body.dark .flashcard-back {
   border-radius: 6px;
 }
 
+/* Algorithm mode buttons */
+#algorithmModeButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+  max-width: 620px;
+}
+
+#algorithmModeButtons .button {
+  flex: 1 1 240px;
+  padding: 14px 18px;
+  border-radius: 16px;
+  border: 2px solid var(--accent);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 700;
+  box-shadow: var(--shadow-soft);
+}
+
+#algorithmModeButtons .button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+#algorithmModeButtons .btn-primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #102033;
+  border-color: transparent;
+}
 
 /* Flowchart mode buttons */
 #flowchartModeButtons .button {
