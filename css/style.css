@@ -1046,27 +1046,6 @@ body.dark .practice-stats .stat-box {
 }
 
 
-/* Final practice dropdown size fix */
-.practice-select {
-  min-width: 145px !important;
-  width: auto !important;
-  padding: 6px 10px !important;
-  font-size: 0.95rem !important;
-  border-radius: 10px !important;
-}
-
-
-/* Standard algorithms mode dropdown size fix */
-#mode {
-  width: 170px !important;
-  min-width: 170px !important;
-  max-width: 170px !important;
-  padding: 6px 10px !important;
-  font-size: 0.95rem !important;
-  border-radius: 10px !important;
-}
-
-
 /* Clean dropdown style */
 select {
   padding: 6px 10px;
