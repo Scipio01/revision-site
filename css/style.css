@@ -908,6 +908,39 @@ body.dark .flashcard-back {
   transition: all 0.2s ease;
 }
 
+/* Algorithm mode buttons */
+#algorithmModeButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+#algorithmModeButtons .button {
+  flex: 1 1 220px;
+  min-width: 180px;
+  padding: 14px 16px;
+  font-size: 1.05rem;
+  border-radius: 16px;
+  border: 2px solid var(--accent);
+  background: var(--surface-2);
+  color: var(--text);
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+#algorithmModeButtons .button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+#algorithmModeButtons .btn-primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #102033;
+  border: none;
+}
+
+
 #flowchartModeButtons .button:hover {
   background: var(--accent);
   color: white;
