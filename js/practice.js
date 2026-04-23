@@ -486,15 +486,13 @@ pseudoCategoryWrap.style.display = "none";
 
  if (topic === "tracetables") {
   statsBox.style.display = "none";
-} else if (topic === "flowcharts" && mode === "draw") {   
-
-
-    
+} else if (topic === "flowcharts" && mode === "draw") {
+  statsBox.style.display = "none";
+} else if (topic === "standardalgorithms" && mode !== "standardmethods") {
   statsBox.style.display = "none";
 } else {
   statsBox.style.display = "flex";
 }
-
     feedbackEl.innerHTML = "";
   feedbackEl.classList.remove("correct", "incorrect");
   answerEl.value = "";
