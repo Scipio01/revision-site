@@ -957,13 +957,6 @@ body.dark .flashcard-back {
   transition: all 0.2s ease;
 }
 
-/* Algorithm mode buttons */
-#algorithmModeButtons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 10px;
-}
 
 #algorithmModeButtons .button {
   flex: 1 1 220px;
