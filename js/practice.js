@@ -3172,10 +3172,11 @@ modeEl.addEventListener("change", () => {
   checkBtn.disabled = false;
   nextBtn.disabled = false;
 
-   if (getTopic() === "standardalgorithms") {
+  if (getTopic() === "standardalgorithms") {
     difficultyEl.style.display = "none";
   }
 
+  updateModeOptions();
   updateScoreDisplay();
   generateQuestion();
 });
