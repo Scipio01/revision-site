@@ -217,8 +217,7 @@ header {
 
 .nav-link,
 .button,
-button,
-select {
+button {
   border: 1px solid color-mix(in srgb, var(--line) 55%, var(--accent) 45%);
   background: color-mix(in srgb, var(--surface-strong) 92%, var(--accent-3));
   color: var(--text);
@@ -1065,4 +1064,15 @@ body.dark .practice-stats .stat-box {
   padding: 6px 10px !important;
   font-size: 0.95rem !important;
   border-radius: 10px !important;
+}
+
+
+/* Clean dropdown style */
+select {
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+  color: var(--text);
+  font-size: 0.95rem;
 }
