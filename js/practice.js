@@ -365,9 +365,6 @@ const difficulty = difficultyEl.value;
 const mode = modeEl.value;
 const topic = getTopic();
 
-if (topic === "standardalgorithms") {
-  difficultyEl.style.display = "none";
-}
   
 window.traceTableMode = window.traceTableMode || "pseudocode";
   const flowchartModeButtons = document.getElementById("flowchartModeButtons");
