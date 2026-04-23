@@ -1055,3 +1055,14 @@ body.dark .practice-stats .stat-box {
   font-size: 0.95rem !important;
   border-radius: 10px !important;
 }
+
+
+/* Standard algorithms mode dropdown size fix */
+#mode {
+  width: 170px !important;
+  min-width: 170px !important;
+  max-width: 170px !important;
+  padding: 6px 10px !important;
+  font-size: 0.95rem !important;
+  border-radius: 10px !important;
+}
