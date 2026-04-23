@@ -270,7 +270,8 @@ function binaryToDenaryWorking(binary) {
 
 function updateModeOptions() {
   const topic = getTopic();
-  modeEl.innerHTML = "";
+  const currentMode = modeEl.value;
+modeEl.innerHTML = "";
 
  modeEl.style.display = "inline-block";
   difficultyEl.style.display = topic === "standardalgorithms" ? "none" : "inline-block";
@@ -303,6 +304,7 @@ if (topic === "standardalgorithms") {
     <option value="bubblesort">Bubble sort</option>
     <option value="mixed">Mixed</option>
   `;
+   modeEl.value = currentMode || "standardmethods";
 
   // 🔴 show your buttons
 
