@@ -1660,7 +1660,7 @@ OUTPUT average`
       answer: `A linear search checks each item in the list one by one from the start until the item is found or the end of the list is reached.`
     },
     {
-      question: `A linear search is used to find 12 in this list:
+      question: `A linear search is used to find 12 in this list. Assume the first index is 1:
 
 5, 9, 3, 12, 7
 
@@ -1668,7 +1668,7 @@ What position is 12 found in?`,
       answer: "4"
     },
     {
-      question: `A linear search is used to find 3 in this list:
+      question: `A linear search is used to find 3 in this list. Assume the first index is 1:
 
 8, 6, 3, 1, 5
 
