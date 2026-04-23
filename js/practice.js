@@ -302,7 +302,7 @@ if (topic === "standardalgorithms") {
     <option value="standardmethods">Standard methods</option>
     <option value="linearsearch">Linear search</option>
     <option value="bubblesort">Bubble sort</option>
-    <option value="mixed">Mixed</option>
+   
   `;
    modeEl.value = currentMode || "standardmethods";
 
