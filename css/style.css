@@ -1047,10 +1047,11 @@ body.dark .practice-stats .stat-box {
 }
 
 
-/* Fix oversized dropdown */
-select {
+/* Final practice dropdown size fix */
+.practice-select {
+  min-width: 145px !important;
+  width: auto !important;
   padding: 6px 10px !important;
-  border-radius: 10px !important;
-  min-width: 140px !important;
   font-size: 0.95rem !important;
+  border-radius: 10px !important;
 }
