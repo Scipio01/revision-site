@@ -1087,3 +1087,8 @@ select {
 .mode-control {
   margin-right: 28px;
 }
+
+/* Space between heading text and dropdown */
+.mode-instructions {
+  margin-bottom: 8px;
+}
