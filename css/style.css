@@ -1055,3 +1055,16 @@ select {
   color: var(--text);
   font-size: 0.95rem;
 }
+
+
+/* Fix dropdown container + alignment */
+.control-group {
+  align-items: flex-start;
+}
+
+.control-group select {
+  height: 42px;
+  padding: 6px 10px;
+  font-size: 0.95rem;
+  border-radius: 10px;
+}
