@@ -464,7 +464,7 @@ if (topic === "stringhandling") {
 
   currentQuestion = q.question;
   currentAnswer = q.answer;
-  currentQuestionType = "stringHandling";
+  currentQuestionType = "stringHandlingExam";
 
   questionEl.innerHTML = `<div class="code-block">${q.question.replace(/\n/g, "<br>")}</div>`;
 
