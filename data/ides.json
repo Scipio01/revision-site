@@ -11,9 +11,16 @@
   },
   {
     "topicName": "Integrated Development Environment",
-    "front": "What are the main functions of an IDE?",
-    "back": "Writing, testing and debugging programs."
+  "front": "What is the purpose of an IDE?",
+  "back": "To allow programmers to write, test and debug programs."
   },
+
+{
+  "topicName": "Integrated Development Environment",
+  "front": "What are the main features of an IDE?",
+  "back": "Code editor, run-time environment, translator, error diagnostics, prettyprint, auto-correction, line numbers and syntax highlighting."
+},
+  
   {
     "topicName": "Integrated Development Environment",
     "front": "What is a code editor?",
