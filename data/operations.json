@@ -1,0 +1,102 @@
+[
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What is an operator?",
+    "back": "A symbol used to perform a calculation or comparison."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What is an arithmetic operator?",
+    "back": "An operator used to perform mathematical calculations."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "Give examples of arithmetic operators.",
+    "back": "+, -, *, /, ^, MOD, DIV"
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does the + operator do?",
+    "back": "Adds two values."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does the - operator do?",
+    "back": "Subtracts one value from another."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does the * operator do?",
+    "back": "Multiplies two values."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does the / operator do?",
+    "back": "Divides one value by another."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does the ^ operator do?",
+    "back": "Raises a number to the power of another."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does MOD do?",
+    "back": "Returns the remainder after division."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does DIV do?",
+    "back": "Returns the whole number result of a division."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What is a comparison operator?",
+    "back": "An operator used to compare values."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "Give examples of comparison operators.",
+    "back": "=, <, <=, >, >=, <>"
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What is a Boolean operator?",
+    "back": "An operator used to combine or change logical conditions."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "Give examples of Boolean operators.",
+    "back": "AND, OR, NOT"
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does AND do?",
+    "back": "Returns True if both conditions are True."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does OR do?",
+    "back": "Returns True if at least one condition is True."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does NOT do?",
+    "back": "Reverses a Boolean value."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does the assignment operator do?",
+    "back": "Stores a value in a variable."
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "How is assignment written in pseudocode?",
+    "back": "Using the arrow symbol ←"
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "front": "What does this mean: age ← 18?",
+    "back": "The value 18 is stored in the variable age."
+  }
+]
