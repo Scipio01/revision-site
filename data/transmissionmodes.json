@@ -56,9 +56,9 @@
     "back": "Universal Serial Bus."
   },
   {
-     "topicName": "Transmission Modes",
-    "front": "What is USB used for?",
-    "back": "Connecting devices and transmitting data using serial transmission."
+      "topicName": "Transmission Modes",
+  "front": "What is USB?",
+  "back": "A type of connection used to link devices such as keyboards, mice and storage devices to a computer."
   },
   {
      "topicName": "Transmission Modes",
