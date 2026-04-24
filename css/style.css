@@ -1074,3 +1074,10 @@ select {
 .mode-control {
   margin-bottom: 16px;
 }
+
+
+/* Make dropdown stand out a bit */
+#mode {
+  border: 1.5px solid var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 15%, transparent);
+}
