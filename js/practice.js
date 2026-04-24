@@ -474,23 +474,7 @@ if (topic === "stringhandling") {
 
   return;
 }
-  ];
-
-  const q = questions[questionNumber - 1];
-
-  questionBox.innerText = q.question;
-  modelAnswer = q.answer;
-
-  answerEl.style.display = "block";
-  answerEl.value = "";
-  answerEl.disabled = false;
-
-  checkBtn.style.display = "inline-block";
-  nextBtn.style.display = "none";
-
-  return;
-}
-
+ 
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
