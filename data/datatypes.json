@@ -1,1 +1,77 @@
-
+[
+  {
+    "topicName": "Data Types",
+    "front": "What is a data type?",
+    "back": "A data type is the kind of value that can be stored in a variable."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "What is an integer?",
+    "back": "A whole number with no decimal point."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "What is a real number?",
+    "back": "A number that can have a decimal point."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "What is a character (char)?",
+    "back": "A single letter, number or symbol."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "What is a string?",
+    "back": "A sequence of characters, such as words or sentences."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "What is a Boolean?",
+    "back": "A data type that can only be True or False."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "What is a variable?",
+    "back": "A named storage location that can hold a value which can change."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "What is a constant?",
+    "back": "A named value that cannot be changed while the program is running."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "Why are variables declared?",
+    "back": "To define the data type and allow the program to use the variable correctly."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "Why are constants used?",
+    "back": "To prevent important values from being changed accidentally."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "Give an example of a Boolean value.",
+    "back": "True or False."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "Which data type would store a person's name?",
+    "back": "String."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "Which data type would store someone's age?",
+    "back": "Integer."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "Which data type would store a price such as 10.99?",
+    "back": "Real."
+  },
+  {
+    "topicName": "Data Types",
+    "front": "Which data type would store a single letter?",
+    "back": "Char."
+  }
+]
