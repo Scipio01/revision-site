@@ -362,21 +362,7 @@ if (topic === "standardalgorithms") {
   return;
 }
   
-if (topic === "hex") {
-  modeEl.innerHTML = `
-    <option value="mixed">Mixed</option>
-    <option value="denToHex">Denary → Hex</option>
-    <option value="hexToDen">Hex → Denary</option>
-    <option value="binToHex">Binary → Hex</option>
-    <option value="hexToBin">Hex → Binary</option>
-  `;
-} else {
-  modeEl.innerHTML = `
-    <option value="mixed">Mixed</option>
-    <option value="denToBin">Denary → Binary</option>
-    <option value="binToDen">Binary → Denary</option>
-  `;
-}
+
 
 // ✅ restore previous selection
 if (topic === "hex") {
