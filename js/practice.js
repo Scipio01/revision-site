@@ -426,6 +426,56 @@ const topicTips = {
   text: "💡 Remember: standard ASCII uses 7 bits per character.",
   tracetables: "✍️ Complete the trace table on paper before clicking “Show answer”. Then compare your work to the model answer."
 };
+
+if (topic === "stringhandling") {
+  currentQuestionType = "stringHandlingExam";
+
+  const questions = [
+    {
+      question: "State what is meant by string concatenation. [2]",
+      answer: "Joining two or more strings together."
+    },
+    {
+      question: "Evaluate:\n\n\"Hello\" + \" \" + \"World\" [1]",
+      answer: "\"Hello World\""
+    },
+    {
+      question: "State the output of:\n\nLENGTH(\"Computer\") [1]",
+      answer: "8"
+    },
+    {
+      question: "State the output of:\n\nUCASE(\"hello\") [1]",
+      answer: "\"HELLO\""
+    },
+    {
+      question: "State the output of:\n\nLCASE(\"WORLD\") [1]",
+      answer: "\"world\""
+    }
+  ];
+
+  if (questionNumber > questions.length) {
+    questionBox.innerText = "You have completed all questions.";
+    answerEl.style.display = "none";
+    checkBtn.style.display = "inline-block";
+    nextBtn.style.display = "none";
+    return;
+  }
+
+  const q = questions[questionNumber - 1];
+
+  questionBox.innerText = q.question;
+  modelAnswer = q.answer;
+
+  answerEl.style.display = "block";
+  answerEl.value = "";
+  answerEl.disabled = false;
+
+  checkBtn.style.display = "inline-block";
+  nextBtn.style.display = "none";
+
+  return;
+}
+
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
@@ -2718,8 +2768,10 @@ if (
   return;
 }
 
-if (currentQuestionType === "validationExam") {
-
+if (
+  currentQuestionType === "validationExam" ||
+  currentQuestionType === "stringHandlingExam"
+) {
   feedbackEl.innerHTML =
     `<strong>Model Answer:</strong><br><br>` +
    `<pre class="code-block" style="line-height:1.5;">${currentAnswer}</pre>` +
