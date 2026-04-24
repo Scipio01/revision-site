@@ -1,0 +1,146 @@
+[
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "What is string handling?",
+      "correct": "Using functions or operations to work with text",
+      "wrong": [
+        "Storing numbers in variables",
+        "Running a program",
+        "Creating loops"
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "What does LENGTH(\"Hello\") return?",
+      "correct": "5",
+      "wrong": [
+        "4",
+        "6",
+        "Hello"
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "What does UCASE(\"hello\") return?",
+      "correct": "\"HELLO\"",
+      "wrong": [
+        "\"hello\"",
+        "\"Hello\"",
+        "5"
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "What does LCASE(\"HELLO\") return?",
+      "correct": "\"hello\"",
+      "wrong": [
+        "\"HELLO\"",
+        "\"Hello\"",
+        "0"
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "What does \"Hello\" + \"World\" produce?",
+      "correct": "\"HelloWorld\"",
+      "wrong": [
+        "\"Hello World\"",
+        "\"WorldHello\"",
+        "\"Hello+World\""
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "What does \"Hello\" + \" \" + \"World\" produce?",
+      "correct": "\"Hello World\"",
+      "wrong": [
+        "\"HelloWorld\"",
+        "\"World Hello\"",
+        "\"Hello+World\""
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "What does SUBSTRING(\"Happy\", 1, 3) return?",
+      "correct": "\"app\"",
+      "wrong": [
+        "\"hap\"",
+        "\"ppy\"",
+        "\"Happy\""
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "What does SUBSTRING(\"Happy\", 0, 3) return?",
+      "correct": "\"Hap\"",
+      "wrong": [
+        "\"app\"",
+        "\"ppy\"",
+        "\"Happy\""
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "Why must you check the starting position in string questions?",
+      "correct": "Because some questions start counting at 0 and others at 1",
+      "wrong": [
+        "Because strings always start at 1",
+        "Because strings always start at 0",
+        "Because strings cannot be counted"
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "Which function converts text to uppercase?",
+      "correct": "UCASE",
+      "wrong": [
+        "LCASE",
+        "LENGTH",
+        "SUBSTRING"
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "Which function returns the length of a string?",
+      "correct": "LENGTH",
+      "wrong": [
+        "SUBSTRING",
+        "UCASE",
+        "LCASE"
+      ]
+    }
+  },
+  {
+    "topicName": "String Handling",
+    "mcq": {
+      "question": "Which function extracts part of a string?",
+      "correct": "SUBSTRING",
+      "wrong": [
+        "LENGTH",
+        "UCASE",
+        "LCASE"
+      ]
+    }
+  }
+]
