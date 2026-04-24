@@ -381,6 +381,17 @@ const difficulty = difficultyEl.value;
 const mode = modeEl.value;
 const topic = getTopic();
 
+  const arrowHelp = document.querySelector(".arrow-help");
+
+if (arrowBtn) {
+  const showArrow = topic === "pseudocode";
+  arrowBtn.style.display = showArrow ? "inline-flex" : "none";
+
+  if (arrowHelp) {
+    arrowHelp.style.display = showArrow ? "inline" : "none";
+  }
+}
+
   
 window.traceTableMode = window.traceTableMode || "pseudocode";
   const flowchartModeButtons = document.getElementById("flowchartModeButtons");
