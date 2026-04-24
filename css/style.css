@@ -1068,3 +1068,9 @@ select {
   font-size: 0.95rem;
   border-radius: 10px;
 }
+
+
+/* Space below dropdown */
+.mode-control {
+  margin-bottom: 16px;
+}
