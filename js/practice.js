@@ -288,7 +288,11 @@ function updateModeOptions() {
 modeEl.innerHTML = "";
 
  modeEl.style.display = "inline-block";
-  difficultyEl.style.display = topic === "standardalgorithms" ? "none" : "inline-block";
+  const difficultyWrap = document.getElementById("difficultyWrap");
+
+if (difficultyWrap) {
+  difficultyWrap.style.display = topic === "standardalgorithms" ? "none" : "block";
+}
 
 // only show difficulty for NON algorithm topics
 if (topic !== "standardalgorithms") {
