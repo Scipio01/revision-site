@@ -26,8 +26,8 @@
   },
   {
     "topicName": "Error Types",
-    "front": "Why can runtime errors be harder to spot than syntax errors?",
-    "back": "They only appear when the program is run."
+  "front": "When do runtime errors occur?",
+  "back": "Runtime errors occur when the program is running, while syntax errors are found before the program runs."
   },
   {
     "topicName": "Error Types",
