@@ -74,11 +74,7 @@
     "front": "If word ← \"Computer\", what does LCASE(word) return?",
     "back": "\"computer\""
   },
-  {
-    "topicName": "String Handling",
-    "front": "Why can string positions be confusing in exam questions?",
-    "back": "Because some questions count the first character as position 0, while others count it as position 1."
-  },
+ 
   {
     "topicName": "String Handling",
     "front": "What should you check before using SUBSTRING in an exam question?",
