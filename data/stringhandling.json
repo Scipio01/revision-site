@@ -1,0 +1,87 @@
+[
+  {
+    "topicName": "String Handling",
+    "front": "What is string handling?",
+    "back": "String handling means using functions or operations to work with text."
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What is concatenation?",
+    "back": "Joining two or more strings together."
+  },
+  {
+    "topicName": "String Handling",
+    "front": "Which operator is often used to concatenate strings?",
+    "back": "The + operator."
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What does LENGTH(string) return?",
+    "back": "The number of characters in the string."
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What does UCASE(string) do?",
+    "back": "Converts a string to uppercase."
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What does LCASE(string) do?",
+    "back": "Converts a string to lowercase."
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What does SUBSTRING(string, start, length) do?",
+    "back": "Returns part of a string, starting at a given position for a given number of characters."
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What is the result of LENGTH(\"Happy\")?",
+    "back": "5"
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What is the result of UCASE(\"hello\")?",
+    "back": "\"HELLO\""
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What is the result of LCASE(\"HELLO\")?",
+    "back": "\"hello\""
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What is the result of \"Hello\" + \"World\"?",
+    "back": "\"HelloWorld\""
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What is the result of \"Hello\" + \" \" + \"World\"?",
+    "back": "\"Hello World\""
+  },
+  {
+    "topicName": "String Handling",
+    "front": "If name ← \"Sam\", what does LENGTH(name) return?",
+    "back": "3"
+  },
+  {
+    "topicName": "String Handling",
+    "front": "If word ← \"Computer\", what does UCASE(word) return?",
+    "back": "\"COMPUTER\""
+  },
+  {
+    "topicName": "String Handling",
+    "front": "If word ← \"Computer\", what does LCASE(word) return?",
+    "back": "\"computer\""
+  },
+  {
+    "topicName": "String Handling",
+    "front": "Why can string positions be confusing in exam questions?",
+    "back": "Because some questions count the first character as position 0, while others count it as position 1."
+  },
+  {
+    "topicName": "String Handling",
+    "front": "What should you check before using SUBSTRING in an exam question?",
+    "back": "Whether the first character is counted as position 0 or position 1."
+  }
+]
