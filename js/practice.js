@@ -28,6 +28,20 @@ const bestStreakCountEl = document.getElementById("bestStreakCount");
 const questionNumberEl = document.getElementById("questionNumber");
 const totalQuestionsEl = document.getElementById("totalQuestions");
 const imageOptionsEl = document.getElementById("imageOptions");
+const arrowBtn = document.getElementById("arrowBtn");
+
+if (arrowBtn) {
+  arrowBtn.onclick = () => {
+    const cursorPos = answerEl.selectionStart;
+    const text = answerEl.value;
+
+    answerEl.value =
+      text.slice(0, cursorPos) + " ← " + text.slice(cursorPos);
+
+    answerEl.focus();
+    answerEl.selectionStart = answerEl.selectionEnd = cursorPos + 3;
+  };
+}
 
 
 
