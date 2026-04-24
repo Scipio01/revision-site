@@ -5,7 +5,7 @@
       "question": "Which of these is a main component of the CPU?",
       "correct": "Control unit",
      "wrong": [
-      "Cache memory",
+      "BIOS",
       "Main memory",
       "Input device controller"
     ]
