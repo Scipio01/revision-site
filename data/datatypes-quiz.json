@@ -1,0 +1,146 @@
+[
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "What is a data type?",
+      "correct": "The kind of value a variable can store",
+      "wrong": [
+        "A type of program",
+        "A programming language",
+        "A variable name"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "Which data type stores whole numbers?",
+      "correct": "Integer",
+      "wrong": [
+        "Real",
+        "String",
+        "Boolean"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "Which data type can store decimal values?",
+      "correct": "Real",
+      "wrong": [
+        "Integer",
+        "Char",
+        "Boolean"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "Which data type stores a single character?",
+      "correct": "Char",
+      "wrong": [
+        "String",
+        "Integer",
+        "Boolean"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "Which data type can only be True or False?",
+      "correct": "Boolean",
+      "wrong": [
+        "Integer",
+        "String",
+        "Real"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "What is a variable?",
+      "correct": "A named storage location that can hold a value",
+      "wrong": [
+        "A fixed value that never changes",
+        "A type of data",
+        "A programming error"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "What is a constant?",
+      "correct": "A named value that cannot change while the program runs",
+      "wrong": [
+        "A value that changes during the program",
+        "A type of variable",
+        "A data type"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "Which data type would store a person's name?",
+      "correct": "String",
+      "wrong": [
+        "Integer",
+        "Real",
+        "Boolean"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "Which data type would store someone's age?",
+      "correct": "Integer",
+      "wrong": [
+        "String",
+        "Char",
+        "Boolean"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "Which data type would store a price such as 10.99?",
+      "correct": "Real",
+      "wrong": [
+        "Integer",
+        "Char",
+        "Boolean"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "Why are variables declared?",
+      "correct": "To define the data type and allow correct use",
+      "wrong": [
+        "To make the program run faster",
+        "To stop the program",
+        "To create errors"
+      ]
+    }
+  },
+  {
+    "topicName": "Data Types",
+    "mcq": {
+      "question": "Why are constants used?",
+      "correct": "To prevent values from being changed accidentally",
+      "wrong": [
+        "To allow values to change easily",
+        "To store user input",
+        "To create loops"
+      ]
+    }
+  }
+]
