@@ -1,0 +1,146 @@
+[
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "What is an operator?",
+      "correct": "A symbol used to perform a calculation or comparison",
+      "wrong": [
+        "A type of variable",
+        "A programming language",
+        "A stored value"
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "Which operator is used for assignment in pseudocode?",
+      "correct": "←",
+      "wrong": [
+        "=",
+        "==",
+        "<>"
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "What does MOD return?",
+      "correct": "The remainder after division",
+      "wrong": [
+        "The whole number result of division",
+        "The total after addition",
+        "The value raised to a power"
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "What does DIV return?",
+      "correct": "The whole number result of division",
+      "wrong": [
+        "The remainder after division",
+        "The decimal result of division",
+        "The result of multiplication"
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "What is the result of 17 MOD 5?",
+      "correct": "2",
+      "wrong": [
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "What is the result of 17 DIV 5?",
+      "correct": "3",
+      "wrong": [
+        "2",
+        "3.4",
+        "5"
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "Which operator means not equal to?",
+      "correct": "<>",
+      "wrong": [
+        "=",
+        "<=",
+        ">="
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "Which operator raises a number to a power?",
+      "correct": "^",
+      "wrong": [
+        "*",
+        "/",
+        "MOD"
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "What does AND return?",
+      "correct": "True only if both conditions are True",
+      "wrong": [
+        "True if one condition is True",
+        "False only if both conditions are True",
+        "The opposite of a Boolean value"
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "What does OR return?",
+      "correct": "True if at least one condition is True",
+      "wrong": [
+        "True only if both conditions are True",
+        "False if one condition is True",
+        "The opposite of a Boolean value"
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "What does NOT do?",
+      "correct": "Reverses a Boolean value",
+      "wrong": [
+        "Adds two conditions",
+        "Checks if two values are equal",
+        "Finds a remainder"
+      ]
+    }
+  },
+  {
+    "topicName": "Operators and Assignment",
+    "mcq": {
+      "question": "What does age ← 16 mean?",
+      "correct": "The value 16 is assigned to the variable age",
+      "wrong": [
+        "The variable age is compared with 16",
+        "The value 16 is deleted",
+        "The program checks if age is 16"
+      ]
+    }
+  }
+]
