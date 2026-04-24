@@ -428,8 +428,6 @@ const topicTips = {
 };
 
 if (topic === "stringhandling") {
-  currentQuestionType = "stringHandlingExam";
-
   const questions = [
     {
       question: "State what is meant by string concatenation. [2]",
@@ -453,13 +451,30 @@ if (topic === "stringhandling") {
     }
   ];
 
-  if (questionNumber > questions.length) {
-    questionBox.innerText = "You have completed all questions.";
+  let index = questionNumber - 1;
+
+  if (index >= questions.length) {
+    questionEl.innerHTML = `<div class="code-block">✔ You have completed all questions.</div>`;
     answerEl.style.display = "none";
-    checkBtn.style.display = "inline-block";
-    nextBtn.style.display = "none";
+    checkBtn.style.display = "none";
     return;
   }
+
+  const q = questions[index];
+
+  currentQuestion = q.question;
+  currentAnswer = q.answer;
+  currentQuestionType = "stringHandling";
+
+  questionEl.innerHTML = `<div class="code-block">${q.question.replace(/\n/g, "<br>")}</div>`;
+
+  answerEl.style.display = "block";
+  answerEl.parentElement.style.display = "flex";
+  checkBtn.style.display = "inline-flex";
+
+  return;
+}
+  ];
 
   const q = questions[questionNumber - 1];
 
