@@ -32,7 +32,7 @@
   {
     "topicName": "Data Packets",
     "front": "What is packet switching?",
-    "back": "Packets are sent independently and reassembled at the destination."
+    "back": "Data is split into packets which are sent independently across a network via routers and then reassembled at the destination."
   },
   {
     "topicName": "Data Packets",
