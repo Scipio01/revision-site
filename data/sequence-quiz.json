@@ -1,0 +1,74 @@
+[
+  {
+    "topicName": "Sequence",
+    "mcq": {
+      "question": "What is sequence in programming?",
+      "correct": "Instructions are executed one after another in order",
+      "wrong": [
+        "Instructions are executed randomly",
+        "Instructions run at the same time",
+        "Instructions only run if a condition is true"
+      ]
+    }
+  },
+  {
+    "topicName": "Sequence",
+    "mcq": {
+      "question": "Why is the order of instructions important?",
+      "correct": "Changing the order can change the result",
+      "wrong": [
+        "The order does not affect the result",
+        "Only output statements matter",
+        "Variables automatically fix the order"
+      ]
+    }
+  },
+  {
+    "topicName": "Sequence",
+    "mcq": {
+      "question": "What happens first in an input-process-output sequence?",
+      "correct": "Input",
+      "wrong": [
+        "Output",
+        "Processing",
+        "Calculation"
+      ]
+    }
+  },
+  {
+    "topicName": "Sequence",
+    "mcq": {
+      "question": "What does this do: x ← 5?",
+      "correct": "Stores the value 5 in variable x",
+      "wrong": [
+        "Outputs the value 5",
+        "Compares x to 5",
+        "Deletes the value of x"
+      ]
+    }
+  },
+  {
+    "topicName": "Sequence",
+    "mcq": {
+      "question": "What is the output of: x ← 5 then OUTPUT x?",
+      "correct": "5",
+      "wrong": [
+        "0",
+        "x",
+        "No output"
+      ]
+    }
+  },
+  {
+    "topicName": "Sequence",
+    "mcq": {
+      "question": "What happens if you change the order of instructions in a sequence?",
+      "correct": "The output may change",
+      "wrong": [
+        "The program will not run",
+        "The CPU will ignore the change",
+        "The variables reset automatically"
+      ]
+    }
+  }
+]
