@@ -503,6 +503,40 @@ runExamMode(questions);
 return;
   
 } 
+
+if (topic === "operations") {
+  const questions = [
+    {
+      question: "State what is meant by assignment. [2]",
+      answer: "Assignment is when a value is stored in a variable."
+    },
+    {
+      question: "State the output of:\n\nx ← 5\ny ← 3\nOUTPUT x + y [1]",
+      answer: "8"
+    },
+    {
+      question: "State the output of:\n\nx ← 10\ny ← x DIV 3\nOUTPUT y [1]",
+      answer: "3"
+    },
+    {
+      question: "State the output of:\n\nx ← 10\ny ← x MOD 3\nOUTPUT y [1]",
+      answer: "1"
+    },
+    {
+      question: "State the output of:\n\nx ← 4\nx ← x + 2\nOUTPUT x [1]",
+      answer: "6"
+    },
+    {
+      question: "State the result of:\n\n5 > 3 AND 2 < 4 [1]",
+      answer: "TRUE"
+    }
+  ];
+
+  runExamMode(questions);
+  return;
+}
+
+
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
