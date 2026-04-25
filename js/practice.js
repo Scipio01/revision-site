@@ -290,8 +290,16 @@ modeEl.innerHTML = "";
  modeEl.style.display = "inline-block";
   const difficultyWrap = document.getElementById("difficultyWrap");
 
+const modeWrap = modeEl.closest(".mode-control");
+
 if (difficultyWrap) {
-  difficultyWrap.style.display = topic === "standardalgorithms" ? "none" : "block";
+  difficultyWrap.style.display =
+    topic === "standardalgorithms" || topic === "stringhandling" ? "none" : "block";
+}
+
+if (modeWrap) {
+  modeWrap.style.display =
+    topic === "stringhandling" ? "none" : "block";
 }
 
 // only show difficulty for NON algorithm topics
