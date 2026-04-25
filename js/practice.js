@@ -398,6 +398,38 @@ if ([...modeEl.options].some(option => option.value === currentMode)) {
   
 }
 
+function runExamMode(questions) {
+  const statsBox = document.querySelector(".practice-stats");
+  let index = questionNumber - 1;
+
+  if (index >= questions.length) {
+    questionEl.innerHTML = `<div class="code-block">✔ You have completed all questions.</div>`;
+    answerEl.style.display = "none";
+    answerEl.parentElement.style.display = "none";
+    checkBtn.style.display = "none";
+    nextBtn.style.display = "none";
+    return;
+  }
+
+  const q = questions[index];
+
+  currentQuestion = q.question;
+  currentAnswer = q.answer;
+  currentQuestionType = "stringHandlingExam";
+
+  questionEl.innerHTML = `<div class="code-block">${q.question.replace(/\n/g, "<br>")}</div>`;
+
+  statsBox.style.display = "none";
+
+  feedbackEl.innerHTML = "";
+  feedbackEl.classList.remove("correct", "incorrect");
+
+  answerEl.style.display = "block";
+  answerEl.parentElement.style.display = "flex";
+  checkBtn.style.display = "inline-flex";
+}
+
+
 
 function generateQuestion() {
 const difficulty = difficultyEl.value;
