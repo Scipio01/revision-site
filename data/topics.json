@@ -90,16 +90,7 @@
     "hasPractice": false
   },
 
-{
-  "id": "programming",
-  "name": "Programming",
-  "level": "gcse",
-  "group": "paper2",
-  "description": "Data types, variables, constants, operators, assignment and string handling.",
-  "hasPractice": false
-},
-
-  
+ 
   {
     "id": "testingtracetables",
     "name": "Testing and Trace Tables",
@@ -108,6 +99,15 @@
     "description": "Error types, test data and trace tables.",
     "hasPractice": false
   },
+
+  {
+  "id": "programming",
+  "name": "Programming Part 1",
+  "level": "gcse",
+  "group": "paper2",
+  "description": "Data types, variables, constants, operators, assignment and string handling.",
+  "hasPractice": false
+},
    
   {
     "id": "oop",
