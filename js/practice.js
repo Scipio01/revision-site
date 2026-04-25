@@ -471,17 +471,20 @@ if (topic === "stringhandling") {
   const q = questions[index];
 
   currentQuestion = q.question;
-  currentAnswer = q.answer;
-  currentQuestionType = "stringHandlingExam";
+currentAnswer = q.answer;
+currentQuestionType = "stringHandlingExam";
 
-  questionEl.innerHTML = `<div class="code-block">${q.question.replace(/\n/g, "<br>")}</div>`;
+questionEl.innerHTML = `<div class="code-block">${q.question.replace(/\n/g, "<br>")}</div>`;
 
-  answerEl.style.display = "block";
-  answerEl.parentElement.style.display = "flex";
-  checkBtn.style.display = "inline-flex";
+statsBox.innerHTML =
+  `<div class="stat-box">Question: ${questionNumber}/5</div>`;
+statsBox.style.display = "flex";
 
-  return;
-}
+answerEl.style.display = "block";
+answerEl.parentElement.style.display = "flex";
+checkBtn.style.display = "inline-flex";
+
+return;
  
   
 if (topic === "tracetables") {
