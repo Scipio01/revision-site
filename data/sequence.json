@@ -1,25 +1,31 @@
 [
   {
+    "topicName": "Sequence",
     "front": "What is sequence in programming?",
     "back": "Sequence is when instructions are executed one after another in order."
   },
   {
+    "topicName": "Sequence",
     "front": "Why is the order of instructions important?",
     "back": "Because each instruction runs in order, so changing the order can change the result."
   },
   {
+    "topicName": "Sequence",
     "front": "What usually happens in an input-process-output sequence?",
     "back": "Data is entered, processed, and then output."
   },
   {
+    "topicName": "Sequence",
     "front": "What is assignment?",
-    "back": "Assignment stores a value in a variable."
+    "back": "Assignment is when a value is stored in a variable."
   },
   {
+    "topicName": "Sequence",
     "front": "What does this do: total ← num1 + num2?",
-    "back": "It adds num1 and num2, then stores the result in total."
+    "back": "It adds num1 and num2 and stores the result in total."
   },
   {
+    "topicName": "Sequence",
     "front": "In a sequence, when is an instruction executed?",
     "back": "When the program reaches it in order."
   }
