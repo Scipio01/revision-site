@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             topic.id === 'emerging' ||
             topic.id === 'algorithms' ||
             topic.id === 'programming' ||
+            topic.id === 'programming2' ||
             topic.id === 'testingtracetables'
               ? `<a class="btn-primary button" href="${
                   topic.id === 'datarep'
@@ -72,10 +73,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                     ? 'emerging.html'
                    : topic.id === 'algorithms'
                     ? 'algorithms.html'
+                   : topic.id === 'testingtracetables'
+                    ? 'testing-trace-tables.html'
                     : topic.id === 'programming'
                     ? 'programming.html'
-                    : topic.id === 'testingtracetables'
-                    ? 'testing-trace-tables.html'
+                    : topic.id === 'programming2'
+                    ? 'programming2.html'
 
 
                 
