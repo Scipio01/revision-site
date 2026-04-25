@@ -435,6 +435,8 @@ const topicTips = {
   tracetables: "✍️ Complete the trace table on paper before clicking “Show answer”. Then compare your work to the model answer."
 };
 hintBtn.style.display = "none";
+
+  
 if (topic === "stringhandling") {
   const questions = [
     {
@@ -476,16 +478,14 @@ currentQuestionType = "stringHandlingExam";
 
 questionEl.innerHTML = `<div class="code-block">${q.question.replace(/\n/g, "<br>")}</div>`;
 
-statsBox.innerHTML =
-  `<div class="stat-box">Question: ${questionNumber}/5</div>`;
-statsBox.style.display = "flex";
+statsBox.style.display = "none";
 
 answerEl.style.display = "block";
 answerEl.parentElement.style.display = "flex";
 checkBtn.style.display = "inline-flex";
 
 return;
- 
+} 
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
