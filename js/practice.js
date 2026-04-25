@@ -558,13 +558,35 @@ if (topic === "tracetables") {
   } else {
 
   
- statsBox.innerHTML =
-  `<div class="stat-box">Correct: <span id="correctCount">${correctCount}</span></div>
-   <div class="stat-box">Incorrect: <span id="incorrectCount">${incorrectCount}</span></div>
-   <div class="stat-box">Streak: <span id="streakCount">${currentStreak}</span></div>
-   <div class="stat-box">Best: <span id="bestStreakCount">${bestStreak}</span></div>
-   
-<div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span>/<span id="totalQuestions">${
+ if (topic === "stringhandling") {
+
+  statsBox.innerHTML =
+    `<div class="stat-box">
+      Question: <span id="questionNumber">${questionNumber}</span> /
+      <span id="totalQuestions">${questions.length}</span>
+    </div>`;
+
+} else {
+
+  statsBox.innerHTML =
+    `<div class="stat-box">Correct: <span id="correctCount">${correctCount}</span></div>
+     <div class="stat-box">Incorrect: <span id="incorrectCount">${incorrectCount}</span></div>
+     <div class="stat-box">Streak: <span id="streakCount">${currentStreak}</span></div>
+     <div class="stat-box">Best: <span id="bestStreakCount">${bestStreak}</span></div>
+     
+     <div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span> /
+     <span id="totalQuestions">${
+       topic === "standardalgorithms" ? 5 :
+       topic === "validationchecks" ? 5 :
+       topic === "verificationchecks" ? 4 :
+       topic === "errortypes" ? 10 :
+       topic === "testdata" ? 10 :
+       topic === "validationexam" ? 5 :
+       topic === "tracetables" ? 6 :
+       10
+     }</span></div>`;
+}
+
 topic === "standardalgorithms" ? 5 :
 topic === "validationchecks" ? 5 :
 topic === "verificationchecks" ? 4 :
