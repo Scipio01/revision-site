@@ -426,7 +426,7 @@ const topicTips = {
   text: "💡 Remember: standard ASCII uses 7 bits per character.",
   tracetables: "✍️ Complete the trace table on paper before clicking “Show answer”. Then compare your work to the model answer."
 };
-
+hintBtn.style.display = "none";
 if (topic === "stringhandling") {
   const questions = [
     {
