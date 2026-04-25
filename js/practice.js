@@ -557,17 +557,11 @@ if (topic === "tracetables") {
     pseudoCategoryWrap.style.display = "block";
   } else {
 
-  
- if (topic === "stringhandling") {
-
-  statsBox.innerHTML =
-    `<div class="stat-box">
-      Question: <span id="questionNumber">${questionNumber}</span> /
-      <span id="totalQuestions">${questions.length}</span>
-    </div>`;
-
+if (topic === "stringhandling") {
+  statsBox.innerHTML = "";
 } else {
 
+  
   statsBox.innerHTML =
     `<div class="stat-box">Correct: <span id="correctCount">${correctCount}</span></div>
      <div class="stat-box">Incorrect: <span id="incorrectCount">${incorrectCount}</span></div>
