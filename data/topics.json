@@ -108,6 +108,15 @@
   "description": "Data types, variables, constants, operators, assignment and string handling.",
   "hasPractice": false
 },
+
+  {
+  "id": "programming2",
+  "name": "Programming Part 2",
+  "level": "gcse",
+  "group": "paper2",
+  "description": "Sequence, selection and core programming logic.",
+  "hasPractice": false
+},
    
   {
     "id": "oop",
