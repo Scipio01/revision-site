@@ -558,7 +558,8 @@ if (topic === "tracetables") {
   } else {
 
 if (topic === "stringhandling") {
-  statsBox.innerHTML = "";
+  statsBox.innerHTML =
+  `<div class="stat-box">Question: ${questionNumber}/5</div>`;
 } else {
 
   
