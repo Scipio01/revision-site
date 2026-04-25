@@ -188,6 +188,12 @@ if (topic === "pseudocode") {
   introEl.textContent = "Practise writing algorithms using pseudocode with model answers.";
   return;
 }
+
+  if (topic === "stringhandling") {
+  titleEl.textContent = "String Handling Practice";
+  introEl.textContent = "Practise string operations such as concatenation, length and case conversion.";
+  return;
+}
   
   // default
   titleEl.textContent = "Binary Practice";
