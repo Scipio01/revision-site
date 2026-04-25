@@ -477,12 +477,15 @@ currentAnswer = q.answer;
 currentQuestionType = "stringHandlingExam";
 
 questionEl.innerHTML = `<div class="code-block">${q.question.replace(/\n/g, "<br>")}</div>`;
-
 statsBox.style.display = "none";
+
+feedbackEl.innerHTML = "";
+feedbackEl.classList.remove("correct", "incorrect");
 
 answerEl.style.display = "block";
 answerEl.parentElement.style.display = "flex";
 checkBtn.style.display = "inline-flex";
+
 
 return;
 } 
