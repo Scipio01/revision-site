@@ -587,15 +587,6 @@ if (topic === "tracetables") {
      }</span></div>`;
 }
 
-topic === "standardalgorithms" ? 5 :
-topic === "validationchecks" ? 5 :
-topic === "verificationchecks" ? 4 :
-topic === "errortypes" ? 10 :
-topic === "testdata" ? 10 :
-topic === "validationexam" ? 5 :
-topic === "tracetables" ? 6 :
-10
-}</span></div>`;
 
 pseudoCategoryWrap.style.display = "none";
 }
