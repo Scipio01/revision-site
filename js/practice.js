@@ -536,7 +536,38 @@ if (topic === "operations") {
   return;
 }
 
+// ===== SEQUENCE-01 =====
+if (topic === "sequence") {
+  const questions = [
+    {
+      question: "State what is meant by sequence in programming. [2]",
+      answer: "Sequence is when instructions are executed one after another in order."
+    },
+    {
+      question: "State the output of:\n\nx ← 5\nx ← x + 2\nOUTPUT x",
+      answer: "7"
+    },
+    {
+      question: "State the output of:\n\nx ← 3\ny ← x * 2\nOUTPUT y",
+      answer: "6"
+    },
+    {
+      question: "State the output of:\n\nx ← 4\ny ← x + 3\nOUTPUT x\nOUTPUT y",
+      answer: "4 then 7"
+    },
+    {
+      question: "State the output of:\n\nnum ← 10\nnum ← num - 4\nnum ← num + 2\nOUTPUT num",
+      answer: "8"
+    },
+    {
+      question: "State the output of:\n\nx ← 5\nOUTPUT x\nx ← x + 2",
+      answer: "5"
+    }
+  ];
 
+  runExamMode(questions);
+  return;
+}
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
