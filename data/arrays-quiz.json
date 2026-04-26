@@ -1,0 +1,170 @@
+[
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What is an array?",
+      "correct": "A data structure that stores multiple values under one name",
+      "wrong": [
+        "A type of loop",
+        "A variable that stores one value",
+        "A conditional statement"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What is an element in an array?",
+      "correct": "An individual value stored in the array",
+      "wrong": [
+        "The name of the array",
+        "The index number",
+        "The data type"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What is the identifier in an array?",
+      "correct": "The name of the array",
+      "wrong": [
+        "The value stored",
+        "The index number",
+        "The data type"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What must all elements in an array be?",
+      "correct": "The same data type",
+      "wrong": [
+        "Different data types",
+        "Numbers only",
+        "Strings only"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What is an index?",
+      "correct": "The position of an item in an array",
+      "wrong": [
+        "The value stored",
+        "The size of the array",
+        "The data type"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What is the first index usually in pseudocode?",
+      "correct": "1",
+      "wrong": [
+        "0",
+        "-1",
+        "Depends on the variable"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "How do you access an element in an array?",
+      "correct": "Using its index",
+      "wrong": [
+        "Using a loop only",
+        "Using a condition",
+        "Using a function"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What does names[2] mean?",
+      "correct": "The value at index 2 in the array",
+      "wrong": [
+        "The second array",
+        "The size of the array",
+        "The first value"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What is a 2D array?",
+      "correct": "An array with rows and columns",
+      "wrong": [
+        "An array with two values",
+        "An array of numbers only",
+        "A loop"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "How do you access a 2D array?",
+      "correct": "Using two indices",
+      "wrong": [
+        "Using one index",
+        "Using a loop",
+        "Using MOD"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "Which loop is commonly used to process arrays?",
+      "correct": "FOR loop",
+      "wrong": [
+        "IF statement",
+        "CASE statement",
+        "INPUT statement"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What is meant by traversing an array?",
+      "correct": "Going through each element in the array",
+      "wrong": [
+        "Sorting the array",
+        "Deleting elements",
+        "Changing the size"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What is counting in an array?",
+      "correct": "Counting how many values meet a condition",
+      "wrong": [
+        "Adding all values together",
+        "Printing the array",
+        "Sorting values"
+      ]
+    }
+  },
+  {
+    "topicName": "Arrays",
+    "mcq": {
+      "question": "What is totalling in an array?",
+      "correct": "Adding all values in the array",
+      "wrong": [
+        "Counting values",
+        "Sorting values",
+        "Comparing values"
+      ]
+    }
+  }
+]
