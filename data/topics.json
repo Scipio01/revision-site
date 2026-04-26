@@ -117,7 +117,17 @@
   "description": "Sequence, selection and core programming logic.",
   "hasPractice": false
 },
-   
+
+{
+  "id": "programming3",
+  "name": "Programming Part 3",
+  "level": "gcse",
+  "group": "paper2",
+  "description": "Library routines, arrays, procedures and functions.",
+  "hasPractice": false
+},
+
+  
   {
     "id": "oop",
     "name": "Object-Oriented Programming",
