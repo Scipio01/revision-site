@@ -903,6 +903,11 @@ OUTPUT count`
 if (topic === "arrays") {
   const questions = [
     {
+      question: "State what is meant by a data structure. [2]",
+      answer: "A way of storing and organising data so it can be used efficiently."
+    },
+    
+    {
       question: "State what is meant by an array. [2]",
       answer: "An array is a data structure that stores multiple values under one identifier."
     },
