@@ -332,8 +332,8 @@ difficultyWrap.style.display =
 }
 
 if (modeWrap) {
- modeWrap.style.display =
-topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration"
+  modeWrap.style.display =
+    topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" ? "none" : "block";
 }
 
 // only show difficulty for NON algorithm topics
