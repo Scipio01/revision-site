@@ -709,15 +709,15 @@ if (topic === "iteration") {
     },
     {
       question: "State the output of:\n\nFOR i ← 5 TO 1\n  OUTPUT i\nNEXT i",
-      answer: "No output (loop does not run)"
+     answer: "No output because the start value (5) is greater than the end value (1), so the loop condition is false and it does not run."
     },
     {
       question: "State the output of:\n\ntotal ← 0\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\nOUTPUT total",
-      answer: "6"
+     answer: "6 (which is 1 + 2 + 3)"
     },
     {
       question: "State the output of:\n\ncount ← 0\nFOR i ← 1 TO 5\n  count ← count + 1\nNEXT i\nOUTPUT count",
-      answer: "5"
+      answer: "5 (the loop runs 5 times, increasing count each time)"
     },
     {
       question: "State the output of:\n\nx ← 3\nWHILE x > 0 DO\n  OUTPUT x\n  x ← x - 1\nENDWHILE",
@@ -725,11 +725,11 @@ if (topic === "iteration") {
     },
     {
       question: "State the output of:\n\nx ← 0\nWHILE x > 5 DO\n  OUTPUT x\nENDWHILE",
-      answer: "No output"
+      answer: "No output because the condition x > 5 is false at the start (x is 0), so the loop does not run."
     },
     {
       question: "State the output of:\n\nx ← 1\nREPEAT\n  OUTPUT x\n  x ← x + 1\nUNTIL x = 4",
-      answer: "1 2 3"
+      answer: "1 2 3 (the loop runs first, then checks the condition, so it stops when x becomes 4)"
     },
     {
       question: "Explain the difference between a WHILE loop and a REPEAT UNTIL loop. [3]",
