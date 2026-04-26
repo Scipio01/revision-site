@@ -195,9 +195,9 @@ if (topic === "pseudocode") {
   return;
 }
 
-  if (topic === "sequence") {
+ if (topic === "sequence") {
   titleEl.textContent = "Sequence Practice";
-  introEl.textContent = "Practise how instructions run in order using input, assignment, processing and output.";
+  introEl.textContent = "Practise exam-style questions. Write your answer on paper or in the box below, then click 'Show answer' to compare with the model answer.";
   return;
 }
   
