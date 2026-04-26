@@ -218,6 +218,12 @@ if (topic === "libraryroutines") {
   introEl.textContent = "Practise exam-style questions. Write your answer on paper or in the box below, then click 'Show answer' to compare with the model answer.";
   return;
 }
+
+if (topic === "arrays") {
+  titleEl.textContent = "Arrays Practice";
+  introEl.textContent = "Practise exam-style questions. Write your answer on paper or in the box below, then click 'Show answer' to compare with the model answer.";
+  return;
+}
   
   
   // default
@@ -319,7 +325,7 @@ function updateModeOptions() {
 modeEl.innerHTML = "";
 
 modeEl.style.display =
-  topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines"
+  topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays"
     ? "none"
     : "inline-block";
   const difficultyWrap = document.getElementById("difficultyWrap");
@@ -327,13 +333,15 @@ modeEl.style.display =
 const modeWrap = modeEl.closest(".mode-control");
 
 if (difficultyWrap) {
+
 difficultyWrap.style.display =
- topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" ? "none" : "block";
+  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" ? "none" : "block";
+  
 }
 
 if (modeWrap) {
-  modeWrap.style.display =
-    topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" ? "none" : "block";
+ modeWrap.style.display =
+  topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" ? "none" : "block";
 }
 
 // only show difficulty for NON algorithm topics
