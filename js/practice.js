@@ -614,6 +614,81 @@ document.getElementById("answer").classList.add("exam-answer");
 runExamMode(questions);
   return;
 }
+
+// ===== SELECTION-01 =====
+if (topic === "selection") {
+  const questions = [
+    {
+      question: "State what is meant by selection in programming. [2]",
+      answer: "Selection is when a program chooses which instructions to run based on a condition."
+    },
+    {
+      question: "State the output of:\n\nx ← 10\nIF x > 5 THEN\n  OUTPUT \"High\"\nELSE\n  OUTPUT \"Low\"\nENDIF",
+      answer: "High"
+    },
+    {
+      question: "State the output of:\n\nx ← 3\nIF x > 5 THEN\n  OUTPUT \"High\"\nELSE\n  OUTPUT \"Low\"\nENDIF",
+      answer: "Low"
+    },
+    {
+      question: "State the output of:\n\nx ← 7\nIF x > 5 THEN\n  IF x > 10 THEN\n    OUTPUT \"Very high\"\n  ELSE\n    OUTPUT \"High\"\n  ENDIF\nELSE\n  OUTPUT \"Low\"\nENDIF",
+      answer: "High"
+    },
+    {
+      question: "State the output of:\n\nnum ← 4\nIF num MOD 2 = 0 THEN\n  OUTPUT \"Even\"\nELSE\n  OUTPUT \"Odd\"\nENDIF",
+      answer: "Even"
+    },
+    {
+      question: "Write pseudocode to input a number and output \"Pass\" if it is 50 or more, otherwise \"Fail\". [3]",
+      answer:
+`OUTPUT "Enter mark"
+INPUT mark
+IF mark >= 50 THEN
+  OUTPUT "Pass"
+ELSE
+  OUTPUT "Fail"
+ENDIF`
+    },
+    {
+      question: "Write pseudocode to input a number and output \"Positive\", \"Negative\" or \"Zero\". [4]",
+      answer:
+`OUTPUT "Enter number"
+INPUT num
+IF num > 0 THEN
+  OUTPUT "Positive"
+ELSE IF num < 0 THEN
+  OUTPUT "Negative"
+ELSE
+  OUTPUT "Zero"
+ENDIF`
+    },
+    {
+      question: "Write pseudocode using a CASE statement to output:\n1 → \"Red\"\n2 → \"Blue\"\nOtherwise → \"Invalid\" [3]",
+      answer:
+`OUTPUT "Enter number"
+INPUT num
+CASE OF num
+  1 : OUTPUT "Red"
+  2 : OUTPUT "Blue"
+  OTHERWISE OUTPUT "Invalid"
+ENDCASE`
+    }
+  ];
+
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
+
+  runExamMode(questions);
+  return;
+}
+
+
+  
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
