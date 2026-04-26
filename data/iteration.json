@@ -1,0 +1,107 @@
+[
+  {
+    "topicName": "Iteration",
+    "front": "What is iteration in programming?",
+    "back": "Iteration is the repetition of a section of code."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What are the three types of loops?",
+    "back": "FOR loop, WHILE loop, REPEAT UNTIL loop."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What is a count-controlled loop?",
+    "back": "A loop that runs a set number of times."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "Which loop is count-controlled?",
+    "back": "FOR loop."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "Write the structure of a FOR loop.",
+    "back": "FOR i ← 1 TO 10\n  <statements>\nNEXT i"
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What does STEP do in a FOR loop?",
+    "back": "STEP changes the increment of the loop counter."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "Can STEP be negative?",
+    "back": "Yes, it allows the loop to count down."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What is a condition-controlled loop?",
+    "back": "A loop that runs based on a condition."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What is a pre-condition loop?",
+    "back": "A loop where the condition is checked before the loop runs."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "Which loop is a pre-condition loop?",
+    "back": "WHILE loop."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "Write the structure of a WHILE loop.",
+    "back": "WHILE <condition> DO\n  <statements>\nENDWHILE"
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What is a post-condition loop?",
+    "back": "A loop where the condition is checked after the loop runs."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "Which loop is a post-condition loop?",
+    "back": "REPEAT UNTIL loop."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "Write the structure of a REPEAT UNTIL loop.",
+    "back": "REPEAT\n  <statements>\nUNTIL <condition>"
+  },
+  {
+    "topicName": "Iteration",
+    "front": "How many times does a REPEAT UNTIL loop run at minimum?",
+    "back": "At least once."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "When does a WHILE loop stop?",
+    "back": "When the condition becomes FALSE."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What is an infinite loop?",
+    "back": "A loop that never stops."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What is totalling in programming?",
+    "back": "Adding values together in a loop."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What is counting in programming?",
+    "back": "Keeping track of how many times something happens."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What does this do: total ← total + value?",
+    "back": "Adds value to total each time the loop runs."
+  },
+  {
+    "topicName": "Iteration",
+    "front": "What does this do: count ← count + 1?",
+    "back": "Increases the counter by 1."
+  }
+]
