@@ -898,6 +898,8 @@ OUTPUT count`
 }
 
 // ===== ARRAYS-01 =====
+
+  // ===== ARRAYS-01 =====
 if (topic === "arrays") {
   const questions = [
     {
@@ -905,42 +907,47 @@ if (topic === "arrays") {
       answer: "An array is a data structure that stores multiple values under one identifier."
     },
     {
-      question: "State what is meant by an element in an array. [1]",
-      answer: "An individual value stored in the array."
+      question: "An array called Numbers stores the values: 10, 20, 30\nWhat is the identifier of this array? [1]",
+      answer: "Numbers (the identifier is the name of the array)"
     },
     {
-      question: "Write pseudocode to declare an array of 10 integers. [2]",
+      question: "An array Numbers stores the values: 10, 20, 30\nWhat is an element in this array? [1]",
+      answer: "An element is an individual value stored in the array, for example 10, 20 or 30."
+    },
+    {
+      question: "Write pseudocode to declare an array of 10 integers called Numbers. [2]",
       answer:
 `DECLARE Numbers : ARRAY[1:10] OF INTEGER`
     },
     {
-      question: "State the value of Numbers[3] after:\n\nNumbers[3] ← 25",
-      answer: "25"
+      question: "An array Numbers contains 10 values.\nWrite pseudocode to store 25 in position 3. [2]",
+      answer:
+`Numbers[3] ← 25`
     },
     {
       question: "An array Scores contains the values: 10, 20, 30, 40\nState the output of:\n\nFOR i ← 1 TO 4\n  OUTPUT Scores[i]\nNEXT i",
       answer: "10 20 30 40"
     },
     {
-      question: "State the output of:\n\ntotal ← 0\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\nOUTPUT total",
+      question: "An array Numbers contains the values: 1, 2, 3\nState the output of:\n\ntotal ← 0\nFOR i ← 1 TO 3\n  total ← total + Numbers[i]\nNEXT i\nOUTPUT total",
       answer: "6 (1 + 2 + 3)"
     },
     {
-      question: "Write pseudocode to input 5 numbers into an array. [3]",
+      question: "An array Numbers can store 5 integers.\nWrite pseudocode to input 5 numbers into the array. [3]",
       answer:
 `FOR i ← 1 TO 5
   INPUT Numbers[i]
 NEXT i`
     },
     {
-      question: "Write pseudocode to output all values in an array of size 10. [3]",
+      question: "An array Numbers contains 10 values.\nWrite pseudocode to output all values in the array. [3]",
       answer:
 `FOR i ← 1 TO 10
   OUTPUT Numbers[i]
 NEXT i`
     },
     {
-      question: "Write pseudocode to count how many values in an array are greater than 50. [4]",
+      question: "An array Numbers contains 10 values.\nWrite pseudocode to count how many values are greater than 50. [4]",
       answer:
 `count ← 0
 FOR i ← 1 TO 10
@@ -951,7 +958,7 @@ NEXT i
 OUTPUT count`
     },
     {
-      question: "Write pseudocode to find the total of all values in an array. [4]",
+      question: "An array Numbers contains 10 values.\nWrite pseudocode to find the total of all values. [4]",
       answer:
 `total ← 0
 FOR i ← 1 TO 10
@@ -961,19 +968,20 @@ OUTPUT total`
     },
     {
       question: "State what is meant by a 2D array. [2]",
-      answer: "An array with rows and columns."
+      answer: "A 2D array stores values using two indexes, usually rows and columns."
     },
     {
-      question: "Write pseudocode to declare a 3x3 2D array of characters. [2]",
+      question: "Write pseudocode to declare a 3 by 3 2D array of characters called Grid. [2]",
       answer:
 `DECLARE Grid : ARRAY[1:3, 1:3] OF CHAR`
     },
     {
-      question: "State the value of Grid[2,3] after:\n\nGrid[2,3] ← 'X'",
-      answer: "'X'"
+      question: "A 2D array Grid contains 3 rows and 3 columns.\nWrite pseudocode to store 'X' in row 2, column 3. [2]",
+      answer:
+`Grid[2,3] ← 'X'`
     },
     {
-      question: "Write pseudocode to output all values in a 2D array. [5]",
+      question: "A 2D array Grid stores values in 3 rows and 3 columns.\nWrite pseudocode to output all values. [5]",
       answer:
 `FOR row ← 1 TO 3
   FOR col ← 1 TO 3
@@ -982,23 +990,23 @@ OUTPUT total`
 NEXT row`
     },
     {
-      question: "Write pseudocode to find the total of all values in a 2D array. [5]",
+      question: "A 2D array Marks stores integer values in 3 rows and 3 columns.\nWrite pseudocode to find the total of all values. [5]",
       answer:
 `total ← 0
 FOR row ← 1 TO 3
   FOR col ← 1 TO 3
-    total ← total + Grid[row, col]
+    total ← total + Marks[row, col]
   NEXT col
 NEXT row
 OUTPUT total`
     },
     {
-      question: "Write pseudocode to count how many values in a 2D array are greater than 100. [5]",
+      question: "A 2D array Marks stores integer values in 3 rows and 3 columns.\nWrite pseudocode to count how many values are greater than 100. [5]",
       answer:
 `count ← 0
 FOR row ← 1 TO 3
   FOR col ← 1 TO 3
-    IF Grid[row, col] > 100 THEN
+    IF Marks[row, col] > 100 THEN
       count ← count + 1
     ENDIF
   NEXT col
@@ -1018,7 +1026,6 @@ OUTPUT count`
   runExamMode(questions);
   return;
 }
-  
   
   
 if (topic === "tracetables") {
