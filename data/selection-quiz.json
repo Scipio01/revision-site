@@ -1,0 +1,146 @@
+[
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "What is selection in programming?",
+      "correct": "Choosing which instructions to run based on a condition",
+      "wrong": [
+        "Repeating instructions multiple times",
+        "Storing values in variables",
+        "Running instructions in order"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "What does an IF statement do?",
+      "correct": "Runs code only if a condition is true",
+      "wrong": [
+        "Repeats code forever",
+        "Stores data in memory",
+        "Always runs both branches"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "What type of value does a condition return?",
+      "correct": "TRUE or FALSE",
+      "wrong": [
+        "A number",
+        "A string",
+        "A variable"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "What does ELSE do?",
+      "correct": "Runs when the IF condition is false",
+      "wrong": [
+        "Stops the program",
+        "Repeats the IF condition",
+        "Checks another condition automatically"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "Which keyword ends an IF statement?",
+      "correct": "ENDIF",
+      "wrong": [
+        "END",
+        "STOP",
+        "CLOSEIF"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "What does the operator = mean?",
+      "correct": "Equal to",
+      "wrong": [
+        "Assign value",
+        "Greater than",
+        "Not equal"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "What does <> mean?",
+      "correct": "Not equal to",
+      "wrong": [
+        "Less than",
+        "Equal to",
+        "Greater than"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "What does AND do?",
+      "correct": "Both conditions must be true",
+      "wrong": [
+        "Only one condition must be true",
+        "Reverses a condition",
+        "Ignores conditions"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "What does OR do?",
+      "correct": "At least one condition must be true",
+      "wrong": [
+        "Both must be true",
+        "Reverses the condition",
+        "Stops execution"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "What is nested selection?",
+      "correct": "An IF statement inside another IF statement",
+      "wrong": [
+        "Multiple variables",
+        "Repeating code",
+        "Using loops"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "What does a CASE statement do?",
+      "correct": "Selects one option based on a variable value",
+      "wrong": [
+        "Repeats code",
+        "Stores data",
+        "Always runs all options"
+      ]
+    }
+  },
+  {
+    "topicName": "Selection",
+    "mcq": {
+      "question": "When does OTHERWISE run?",
+      "correct": "When no other case matches",
+      "wrong": [
+        "Always",
+        "Only when the first case matches",
+        "When all cases match"
+      ]
+    }
+  }
+]
