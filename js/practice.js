@@ -316,8 +316,8 @@ if (difficultyWrap) {
 }
 
 if (modeWrap) {
-  modeWrap.style.display =
-    topic === "stringhandling" || topic === "operations" || topic === "sequence" ? "none" : "block";
+ modeWrap.style.display =
+  topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" ? "none" : "block";
 }
 
 // only show difficulty for NON algorithm topics
