@@ -1,4 +1,11 @@
 [
+
+  {
+  "topicName": "Arrays",
+  "front": "What is a data structure?",
+  "back": "A way of storing and organising data so it can be used efficiently."
+},
+  
   {
     "topicName": "Arrays",
     "front": "What is an array?",
