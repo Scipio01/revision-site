@@ -194,6 +194,12 @@ if (topic === "pseudocode") {
   introEl.textContent = "Practise string operations such as concatenation, length and case conversion.";
   return;
 }
+
+  if (topic === "sequence") {
+  titleEl.textContent = "Sequence Practice";
+  introEl.textContent = "Practise how instructions run in order using input, assignment, processing and output.";
+  return;
+}
   
   // default
   titleEl.textContent = "Binary Practice";
