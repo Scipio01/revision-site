@@ -888,6 +888,128 @@ OUTPUT count`
   runExamMode(questions);
   return;
 }
+
+// ===== ARRAYS-01 =====
+if (topic === "arrays") {
+  const questions = [
+    {
+      question: "State what is meant by an array. [2]",
+      answer: "An array is a data structure that stores multiple values under one identifier."
+    },
+    {
+      question: "State what is meant by an element in an array. [1]",
+      answer: "An individual value stored in the array."
+    },
+    {
+      question: "Write pseudocode to declare an array of 10 integers. [2]",
+      answer:
+`DECLARE Numbers : ARRAY[1:10] OF INTEGER`
+    },
+    {
+      question: "State the value of Numbers[3] after:\n\nNumbers[3] ← 25",
+      answer: "25"
+    },
+    {
+      question: "An array Scores contains the values: 10, 20, 30, 40\nState the output of:\n\nFOR i ← 1 TO 4\n  OUTPUT Scores[i]\nNEXT i",
+      answer: "10 20 30 40"
+    },
+    {
+      question: "State the output of:\n\ntotal ← 0\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\nOUTPUT total",
+      answer: "6 (1 + 2 + 3)"
+    },
+    {
+      question: "Write pseudocode to input 5 numbers into an array. [3]",
+      answer:
+`FOR i ← 1 TO 5
+  INPUT Numbers[i]
+NEXT i`
+    },
+    {
+      question: "Write pseudocode to output all values in an array of size 10. [3]",
+      answer:
+`FOR i ← 1 TO 10
+  OUTPUT Numbers[i]
+NEXT i`
+    },
+    {
+      question: "Write pseudocode to count how many values in an array are greater than 50. [4]",
+      answer:
+`count ← 0
+FOR i ← 1 TO 10
+  IF Numbers[i] > 50 THEN
+    count ← count + 1
+  ENDIF
+NEXT i
+OUTPUT count`
+    },
+    {
+      question: "Write pseudocode to find the total of all values in an array. [4]",
+      answer:
+`total ← 0
+FOR i ← 1 TO 10
+  total ← total + Numbers[i]
+NEXT i
+OUTPUT total`
+    },
+    {
+      question: "State what is meant by a 2D array. [2]",
+      answer: "An array with rows and columns."
+    },
+    {
+      question: "Write pseudocode to declare a 3x3 2D array of characters. [2]",
+      answer:
+`DECLARE Grid : ARRAY[1:3, 1:3] OF CHAR`
+    },
+    {
+      question: "State the value of Grid[2,3] after:\n\nGrid[2,3] ← 'X'",
+      answer: "'X'"
+    },
+    {
+      question: "Write pseudocode to output all values in a 2D array. [5]",
+      answer:
+`FOR row ← 1 TO 3
+  FOR col ← 1 TO 3
+    OUTPUT Grid[row, col]
+  NEXT col
+NEXT row`
+    },
+    {
+      question: "Write pseudocode to find the total of all values in a 2D array. [5]",
+      answer:
+`total ← 0
+FOR row ← 1 TO 3
+  FOR col ← 1 TO 3
+    total ← total + Grid[row, col]
+  NEXT col
+NEXT row
+OUTPUT total`
+    },
+    {
+      question: "Write pseudocode to count how many values in a 2D array are greater than 100. [5]",
+      answer:
+`count ← 0
+FOR row ← 1 TO 3
+  FOR col ← 1 TO 3
+    IF Grid[row, col] > 100 THEN
+      count ← count + 1
+    ENDIF
+  NEXT col
+NEXT row
+OUTPUT count`
+    }
+  ];
+
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
+
+  runExamMode(questions);
+  return;
+}
   
   
   
