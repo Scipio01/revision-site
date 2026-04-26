@@ -311,8 +311,8 @@ modeEl.innerHTML = "";
 const modeWrap = modeEl.closest(".mode-control");
 
 if (difficultyWrap) {
-  difficultyWrap.style.display =
-    topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" ? "none" : "block";
+ difficultyWrap.style.display =
+  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" ? "none" : "block";
 }
 
 if (modeWrap) {
