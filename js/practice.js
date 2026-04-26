@@ -441,6 +441,39 @@ function runExamMode(questions) {
   checkBtn.style.display = "inline-flex";
 }
 
+function runExamModeWithTip(questions) {
+  const statsBox = document.querySelector(".practice-stats");
+  let index = questionNumber - 1;
+
+  if (index >= questions.length) {
+    questionEl.innerHTML = `<div class="code-block">✔ You have completed all questions.</div>`;
+    answerEl.style.display = "none";
+    answerEl.parentElement.style.display = "none";
+    checkBtn.style.display = "none";
+    nextBtn.style.display = "none";
+    return;
+  }
+
+  const q = questions[index];
+
+  currentQuestion = q.question;
+  currentAnswer = q.answer;
+  currentQuestionType = "exam";
+
+  questionEl.innerHTML =
+    `<div class="exam-tip">✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.</div>` +
+    `<div class="code-block" style="margin-top: 14px;">${q.question.replace(/\n/g, "<br>")}</div>`;
+
+  statsBox.style.display = "none";
+
+  feedbackEl.innerHTML = "";
+  feedbackEl.classList.remove("correct", "incorrect");
+
+  answerEl.style.display = "block";
+  answerEl.parentElement.style.display = "flex";
+  checkBtn.style.display = "inline-flex";
+}
+
 
 
 function generateQuestion() {
@@ -571,7 +604,7 @@ if (topic === "sequence") {
     }
   ];
 
-  runExamMode(questions);
+ runExamModeWithTip(questions);
   return;
 }
   
