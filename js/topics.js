@@ -79,6 +79,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     ? 'programming.html'
                     : topic.id === 'programming2'
                     ? 'programming2.html'
+                    : topic.id === 'programming3'
+                    ? 'programming3.html'
 
 
                 
