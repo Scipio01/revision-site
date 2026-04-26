@@ -609,6 +609,7 @@ if (writeTip) {
     "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
 }
   
+document.getElementById("answer").classList.add("exam-answer");
 runExamMode(questions);
   return;
 }
