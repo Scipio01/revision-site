@@ -616,7 +616,6 @@ if (writeTip) {
 }
   
 document.getElementById("answer").classList.add("exam-answer");
-document.getElementById("answer").classList.add("exam-answer");
 runExamMode(questions);
   return;
 }
