@@ -939,10 +939,12 @@ if (topic === "arrays") {
     },
     {
       question: "An array Numbers can store 5 integers.\nWrite pseudocode to input 5 numbers into the array. [3]",
-      answer:
+     answer:
 `FOR i ← 1 TO 5
   INPUT Numbers[i]
-NEXT i`
+NEXT i
+
+(This uses a loop to input values. Writing 5 separate INPUT statements would work, but would not gain full marks in an exam.)`
     },
     {
       question: "An array Numbers contains 10 values.\nWrite pseudocode to output all values in the array. [3]",
