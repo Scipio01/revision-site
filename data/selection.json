@@ -1,0 +1,122 @@
+[
+  {
+    "topicName": "Selection",
+    "front": "What is selection in programming?",
+    "back": "Selection is when a program chooses which instructions to run based on a condition."
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does an IF statement do?",
+    "back": "An IF statement runs instructions only if a condition is true."
+  },
+  {
+    "topicName": "Selection",
+    "front": "What is a condition?",
+    "back": "A condition is a test that evaluates to TRUE or FALSE."
+  },
+  {
+    "topicName": "Selection",
+    "front": "What is a Boolean expression?",
+    "back": "A Boolean expression is an expression that evaluates to TRUE or FALSE."
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does ELSE do in an IF statement?",
+    "back": "ELSE gives instructions to run when the IF condition is false."
+  },
+  {
+    "topicName": "Selection",
+    "front": "What keyword closes an IF statement in pseudocode?",
+    "back": "ENDIF"
+  },
+  {
+    "topicName": "Selection",
+    "front": "Write the basic structure of an IF statement without ELSE.",
+    "back": "IF <condition>\n  THEN\n    <statements>\nENDIF"
+  },
+  {
+    "topicName": "Selection",
+    "front": "Write the basic structure of an IF statement with ELSE.",
+    "back": "IF <condition>\n  THEN\n    <statements>\n  ELSE\n    <statements>\nENDIF"
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does the comparison operator = mean?",
+    "back": "Equal to"
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does the comparison operator <> mean?",
+    "back": "Not equal to"
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does the comparison operator > mean?",
+    "back": "Greater than"
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does the comparison operator < mean?",
+    "back": "Less than"
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does the comparison operator >= mean?",
+    "back": "Greater than or equal to"
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does the comparison operator <= mean?",
+    "back": "Less than or equal to"
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does AND do in a condition?",
+    "back": "AND returns TRUE only if both conditions are true."
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does OR do in a condition?",
+    "back": "OR returns TRUE if at least one condition is true."
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does NOT do in a condition?",
+    "back": "NOT reverses the result of a condition."
+  },
+  {
+    "topicName": "Selection",
+    "front": "What is nested selection?",
+    "back": "Nested selection is when an IF statement is placed inside another IF statement."
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does a CASE statement do?",
+    "back": "A CASE statement chooses one branch based on the value of one identifier."
+  },
+  {
+    "topicName": "Selection",
+    "front": "When is a CASE statement useful?",
+    "back": "When a program needs to choose between several fixed values for one variable."
+  },
+  {
+    "topicName": "Selection",
+    "front": "What keyword closes a CASE statement in pseudocode?",
+    "back": "ENDCASE"
+  },
+  {
+    "topicName": "Selection",
+    "front": "What does OTHERWISE do in a CASE statement?",
+    "back": "OTHERWISE runs if none of the previous CASE values match."
+  },
+  {
+    "topicName": "Selection",
+    "front": "Where must OTHERWISE appear in a CASE statement?",
+    "back": "It must be the last case."
+  },
+  {
+    "topicName": "Selection",
+    "front": "Write the basic structure of a CASE statement.",
+    "back": "CASE OF <identifier>\n  <value 1> : <statement>\n  <value 2> : <statement>\n  OTHERWISE <statement>\nENDCASE"
+  }
+]
