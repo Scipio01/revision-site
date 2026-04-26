@@ -206,6 +206,12 @@ if (topic === "pseudocode") {
   introEl.textContent = "Practise exam-style questions. Write your answer on paper or in the box below, then click 'Show answer' to compare with the model answer.";
   return;
 }
+
+  if (topic === "iteration") {
+  titleEl.textContent = "Iteration Practice";
+  introEl.textContent = "Practise exam-style questions. Write your answer on paper or in the box below, then click 'Show answer' to compare with the model answer.";
+  return;
+}
   
   // default
   titleEl.textContent = "Binary Practice";
@@ -312,12 +318,12 @@ const modeWrap = modeEl.closest(".mode-control");
 
 if (difficultyWrap) {
  difficultyWrap.style.display =
-  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" ? "none" : "block";
+  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration"
 }
 
 if (modeWrap) {
  modeWrap.style.display =
-  topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" ? "none" : "block";
+topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration"
 }
 
 // only show difficulty for NON algorithm topics
