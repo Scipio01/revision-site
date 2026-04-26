@@ -311,7 +311,10 @@ function updateModeOptions() {
   const currentMode = modeEl.value;
 modeEl.innerHTML = "";
 
- modeEl.style.display = "inline-block";
+ modeEl.style.display =
+  topic === "sequence" || topic === "selection" || topic === "iteration"
+    ? "none"
+    : "inline-block";
   const difficultyWrap = document.getElementById("difficultyWrap");
 
 const modeWrap = modeEl.closest(".mode-control");
