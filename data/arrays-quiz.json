@@ -1,4 +1,17 @@
 [
+
+  {
+  "topicName": "Arrays",
+  "mcq": {
+    "question": "What is a data structure?",
+    "correct": "A way of storing and organising data",
+    "wrong": [
+      "A type of loop",
+      "A programming language",
+      "A condition in a program"
+    ]
+  }
+},
   {
     "topicName": "Arrays",
     "mcq": {
