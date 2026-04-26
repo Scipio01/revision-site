@@ -692,7 +692,106 @@ ENDCASE`
   return;
 }
 
+// ===== ITERATION-01 =====
+if (topic === "iteration") {
+  const questions = [
+    {
+      question: "State what is meant by iteration in programming. [2]",
+      answer: "Iteration is the repetition of a section of code."
+    },
+    {
+      question: "State the output of:\n\nFOR i ← 1 TO 3\n  OUTPUT i\nNEXT i",
+      answer: "1 2 3"
+    },
+    {
+      question: "State the output of:\n\nFOR i ← 2 TO 10 STEP 2\n  OUTPUT i\nNEXT i",
+      answer: "2 4 6 8 10"
+    },
+    {
+      question: "State the output of:\n\nFOR i ← 5 TO 1\n  OUTPUT i\nNEXT i",
+      answer: "No output (loop does not run)"
+    },
+    {
+      question: "State the output of:\n\ntotal ← 0\nFOR i ← 1 TO 3\n  total ← total + i\nNEXT i\nOUTPUT total",
+      answer: "6"
+    },
+    {
+      question: "State the output of:\n\ncount ← 0\nFOR i ← 1 TO 5\n  count ← count + 1\nNEXT i\nOUTPUT count",
+      answer: "5"
+    },
+    {
+      question: "State the output of:\n\nx ← 3\nWHILE x > 0 DO\n  OUTPUT x\n  x ← x - 1\nENDWHILE",
+      answer: "3 2 1"
+    },
+    {
+      question: "State the output of:\n\nx ← 0\nWHILE x > 5 DO\n  OUTPUT x\nENDWHILE",
+      answer: "No output"
+    },
+    {
+      question: "State the output of:\n\nx ← 1\nREPEAT\n  OUTPUT x\n  x ← x + 1\nUNTIL x = 4",
+      answer: "1 2 3"
+    },
+    {
+      question: "Explain the difference between a WHILE loop and a REPEAT UNTIL loop. [3]",
+      answer: "A WHILE loop checks the condition before the loop runs and may not run at all. A REPEAT UNTIL loop checks the condition after running and will always run at least once."
+    },
+    {
+      question: "Write pseudocode to output numbers from 1 to 10 using a FOR loop. [3]",
+      answer:
+`FOR i ← 1 TO 10
+  OUTPUT i
+NEXT i`
+    },
+    {
+      question: "Write pseudocode to input numbers until -1 is entered and count how many numbers were entered. [4]",
+      answer:
+`count ← 0
+INPUT num
+WHILE num <> -1 DO
+  count ← count + 1
+  INPUT num
+ENDWHILE
+OUTPUT count`
+    },
+    {
+      question: "Write pseudocode to input numbers until -1 is entered and output the total of the numbers. [4]",
+      answer:
+`total ← 0
+INPUT num
+WHILE num <> -1 DO
+  total ← total + num
+  INPUT num
+ENDWHILE
+OUTPUT total`
+    },
+    {
+      question: "Write pseudocode using a REPEAT UNTIL loop to input numbers until -1 is entered and count how many are greater than 100. [5]",
+      answer:
+`count ← 0
+REPEAT
+  INPUT num
+  IF num > 100 THEN
+    count ← count + 1
+  ENDIF
+UNTIL num = -1
+OUTPUT count`
+    }
+  ];
 
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
+
+  runExamMode(questions);
+  return;
+}
+
+
+  
   
   
 if (topic === "tracetables") {
