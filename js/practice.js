@@ -461,8 +461,7 @@ function runExamModeWithTip(questions) {
   currentQuestionType = "exam";
 
   questionEl.innerHTML =
-    `<div class="exam-tip">✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.</div>` +
-    `<div class="code-block" style="margin-top: 14px;">${q.question.replace(/\n/g, "<br>")}</div>`;
+  `<div class="code-block" style="margin-top: 14px;">${q.question.replace(/\n/g, "<br>")}</div>`;
 
   statsBox.style.display = "none";
 
@@ -604,6 +603,9 @@ if (topic === "sequence") {
     }
   ];
 
+document.querySelector(".exam-tip").innerHTML =
+  "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
+  
  runExamModeWithTip(questions);
   return;
 }
