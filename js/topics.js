@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             topic.id === 'algorithms' ||
             topic.id === 'programming' ||
             topic.id === 'programming2' ||
+            topic.id === 'programming3' ||
             topic.id === 'testingtracetables'
               ? `<a class="btn-primary button" href="${
                   topic.id === 'datarep'
