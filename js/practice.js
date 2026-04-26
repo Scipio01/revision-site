@@ -212,6 +212,13 @@ if (topic === "pseudocode") {
   introEl.textContent = "Practise exam-style questions. Write your answer on paper or in the box below, then click 'Show answer' to compare with the model answer.";
   return;
 }
+
+if (topic === "libraryroutines") {
+  titleEl.textContent = "Library Routines Practice";
+  introEl.textContent = "Practise exam-style questions. Write your answer on paper or in the box below, then click 'Show answer' to compare with the model answer.";
+  return;
+}
+  
   
   // default
   titleEl.textContent = "Binary Practice";
@@ -311,8 +318,8 @@ function updateModeOptions() {
   const currentMode = modeEl.value;
 modeEl.innerHTML = "";
 
- modeEl.style.display =
-  topic === "sequence" || topic === "selection" || topic === "iteration"
+modeEl.style.display =
+  topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines"
     ? "none"
     : "inline-block";
   const difficultyWrap = document.getElementById("difficultyWrap");
@@ -320,8 +327,8 @@ modeEl.innerHTML = "";
 const modeWrap = modeEl.closest(".mode-control");
 
 if (difficultyWrap) {
- difficultyWrap.style.display =
-  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration"
+difficultyWrap.style.display =
+ topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" ? "none" : "block";
 }
 
 if (modeWrap) {
