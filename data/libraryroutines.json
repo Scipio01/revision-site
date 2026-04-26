@@ -1,0 +1,87 @@
+[
+  {
+    "topicName": "Library Routines",
+    "front": "What is a library routine?",
+    "back": "A pre-written algorithm that can be reused by programmers."
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "Why are library routines used?",
+    "back": "To save time and avoid rewriting common algorithms."
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What does MOD do?",
+    "back": "Returns the remainder after division."
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What is 5 MOD 2?",
+    "back": "1"
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What does DIV do?",
+    "back": "Returns the integer result of a division."
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What is 7 DIV 3?",
+    "back": "2"
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What does ROUND(number, places) do?",
+    "back": "Rounds a number to a specified number of decimal places."
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What is ROUND(5.287, 2)?",
+    "back": "5.29"
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What does RANDOM() return?",
+    "back": "A random number between 0 and 1."
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "How can you generate a random integer between 1 and 10?",
+    "back": "ROUND((RANDOM() * 10) + 0.5, 0)"
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What does LENGTH(\"Hello\") return?",
+    "back": "5"
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What does LENGTH do?",
+    "back": "Returns the number of characters in a string."
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What does LCASE do?",
+    "back": "Converts all characters in a string to lowercase."
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What does UCASE do?",
+    "back": "Converts all characters in a string to uppercase."
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What does SUBSTRING(string, start, length) do?",
+    "back": "Returns part of a string starting at a position for a given length."
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What does SUBSTRING(\"Happy Days\", 1, 5) return?",
+    "back": "Happy"
+  },
+  {
+    "topicName": "Library Routines",
+    "front": "What is important about the start position in SUBSTRING?",
+    "back": "It usually starts at 1 (first character)."
+  }
+]
