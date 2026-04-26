@@ -1,0 +1,146 @@
+[
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "What is iteration in programming?",
+      "correct": "Repeating a section of code",
+      "wrong": [
+        "Choosing between options",
+        "Running code once",
+        "Storing data"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "Which loop is count-controlled?",
+      "correct": "FOR loop",
+      "wrong": [
+        "WHILE loop",
+        "REPEAT UNTIL loop",
+        "IF statement"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "Which loop is a pre-condition loop?",
+      "correct": "WHILE loop",
+      "wrong": [
+        "FOR loop",
+        "REPEAT UNTIL loop",
+        "CASE statement"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "Which loop is a post-condition loop?",
+      "correct": "REPEAT UNTIL loop",
+      "wrong": [
+        "FOR loop",
+        "WHILE loop",
+        "IF statement"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "How many times will a REPEAT UNTIL loop run at minimum?",
+      "correct": "At least once",
+      "wrong": [
+        "Zero times",
+        "Exactly twice",
+        "Only if the condition is true"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "When does a WHILE loop check its condition?",
+      "correct": "Before the loop runs",
+      "wrong": [
+        "After the loop runs",
+        "At the end only",
+        "Never"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "What does STEP do in a FOR loop?",
+      "correct": "Changes the increment of the loop",
+      "wrong": [
+        "Stops the loop",
+        "Repeats the loop forever",
+        "Checks a condition"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "What is an infinite loop?",
+      "correct": "A loop that never stops",
+      "wrong": [
+        "A loop that runs once",
+        "A loop with no condition",
+        "A loop that counts down"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "What is totalling?",
+      "correct": "Adding values together in a loop",
+      "wrong": [
+        "Counting how many times something happens",
+        "Checking conditions",
+        "Repeating code once"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "What is counting in programming?",
+      "correct": "Keeping track of how many times something happens",
+      "wrong": [
+        "Adding numbers together",
+        "Repeating code forever",
+        "Storing values"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "What does count ← count + 1 do?",
+      "correct": "Increases the counter by 1",
+      "wrong": [
+        "Resets the counter",
+        "Stops the loop",
+        "Skips a loop"
+      ]
+    }
+  },
+  {
+    "topicName": "Iteration",
+    "mcq": {
+      "question": "What happens if the WHILE condition is false at the start?",
+      "correct": "The loop does not run",
+      "wrong": [
+        "The loop runs once",
+        "The loop runs forever",
+        "The program stops"
+      ]
+    }
+  }
+]
