@@ -800,7 +800,87 @@ OUTPUT count`
   return;
 }
 
+// ===== LIBRARY-01 =====
+if (topic === "libraryroutines") {
+  const questions = [
+    {
+      question: "State what is meant by a library routine. [2]",
+      answer: "A pre-written algorithm that can be reused by programmers."
+    },
+    {
+      question: "State the result of: 5 MOD 2",
+      answer: "1 (MOD returns the remainder after division)"
+    },
+    {
+      question: "State the result of: 9 DIV 2",
+      answer: "4 (DIV returns the integer part of the division)"
+    },
+    {
+      question: "State the result of: ROUND(2.5126, 3)",
+      answer: "2.513 (rounded to 3 decimal places)"
+    },
+    {
+      question: "State the result of: LENGTH(\"Happy Days\")",
+      answer: "10 (counts all characters including the space)"
+    },
+    {
+      question: "State the result of: UCASE(\"Hello\")",
+      answer: "HELLO"
+    },
+    {
+      question: "State the result of: LCASE(\"A\")",
+      answer: "a"
+    },
+    {
+      question: "State the result of: SUBSTRING(\"Happy Days\", 1, 5)",
+      answer: "Happy"
+    },
+    {
+      question: "State the result of: RANDOM()",
+      answer: "A random number between 0 and 1"
+    },
+    {
+      question: "State the result of: ROUND((RANDOM() * 6) + 0.5, 0)",
+      answer: "A random integer between 1 and 6 (simulates a dice)"
+    },
+    {
+      question: "Explain the difference between MOD and DIV. [3]",
+      answer: "MOD returns the remainder after division, while DIV returns the integer part of the division."
+    },
+    {
+      question: "Write pseudocode to round a variable totalBill to 2 decimal places. [2]",
+      answer:
+`totalBill ← ROUND(totalBill, 2)`
+    },
+    {
+      question: "Write pseudocode to generate a random integer between 1 and 10. [3]",
+      answer:
+`num ← ROUND((RANDOM() * 10) + 0.5, 0)`
+    },
+    {
+      question: "Write pseudocode to count how many times the letter 'a' appears in a string. [5]",
+      answer:
+`count ← 0
+FOR i ← 1 TO LENGTH(text)
+  IF text[i] = "a" THEN
+    count ← count + 1
+  ENDIF
+NEXT i
+OUTPUT count`
+    }
+  ];
 
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
+
+  runExamMode(questions);
+  return;
+}
   
   
   
