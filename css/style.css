@@ -827,6 +827,17 @@ footer {
   box-shadow: var(--shadow);
 }
 
+/* Large answer box for exam-style topics only */
+#answer.exam-answer {
+  width: 100%;
+  min-height: 180px;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+
+
+
 body.dark h1,
 body.dark h2,
 body.dark h3,
