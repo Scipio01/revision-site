@@ -603,10 +603,13 @@ if (topic === "sequence") {
     }
   ];
 
-document.querySelector(".exam-tip").innerHTML =
-  "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
+if (writeTip) {
+  writeTip.style.display = "block";
+  writeTip.textContent =
+    "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
+}
   
- runExamModeWithTip(questions);
+runExamMode(questions);
   return;
 }
   
