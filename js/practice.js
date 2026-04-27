@@ -1033,6 +1033,126 @@ OUTPUT count`
   runExamMode(questions);
   return;
 }
+
+// ===== PROCEDURES-01 =====
+if (topic === "procedures") {
+  const questions = [
+    {
+      question: "State what is meant by a subprogram. [2]",
+      answer: "A named block of code that performs a task."
+    },
+    {
+      question: "State one reason why subprograms are used. [2]",
+      answer: "To reuse code or to make programs easier to understand."
+    },
+    {
+      question: "State the difference between a procedure and a function. [2]",
+      answer: "A procedure does not return a value, while a function returns a value."
+    },
+    {
+      question: "In PROCEDURE Add(num1:INTEGER), what is num1? [1]",
+      answer: "A parameter (it is defined in the procedure)."
+    },
+    {
+      question: "In CALL Add(5), what is 5? [1]",
+      answer: "An argument (it is the value passed into the procedure)."
+    },
+    {
+      question: "Write pseudocode to define a procedure called PrintLine that outputs a line of dashes. [3]",
+      answer:
+`PROCEDURE PrintLine
+  OUTPUT "-----"
+ENDPROCEDURE`
+    },
+    {
+      question: "A procedure is defined below:\n\nPROCEDURE OutputNumber(num:INTEGER)\n  OUTPUT num\nENDPROCEDURE\n\nWrite pseudocode to call this procedure with the value 10. [1]",
+      answer:
+`CALL OutputNumber(10)`
+    },
+    {
+      question: "Write pseudocode to define a procedure called AreaTriangle that takes base and height as integer parameters and outputs the area. [4]",
+      answer:
+`PROCEDURE AreaTriangle(base:INTEGER, height:INTEGER)
+  area ← base * height / 2
+  OUTPUT area
+ENDPROCEDURE`
+    },
+    {
+      question: "Write pseudocode to call AreaTriangle with the values 6 and 4. [1]",
+      answer:
+`CALL AreaTriangle(6, 4)`
+    },
+    {
+      question: "Write pseudocode to define a function called Square that returns the square of a number. [4]",
+      answer:
+`FUNCTION Square(num:INTEGER) RETURNS INTEGER
+  RETURN num * num
+ENDFUNCTION`
+    },
+    {
+      question: "Write pseudocode to use the function Square to output the square of 5. [2]",
+      answer:
+`OUTPUT Square(5)
+
+A function is used in an expression, so CALL is not used.`
+    },
+    {
+      question: "Write pseudocode to define a function called AddNumbers that takes two integer parameters and returns their total. [4]",
+      answer:
+`FUNCTION AddNumbers(num1:INTEGER, num2:INTEGER) RETURNS INTEGER
+  total ← num1 + num2
+  RETURN total
+ENDFUNCTION`
+    },
+    {
+      question: "Write pseudocode to output the result of AddNumbers using the values 3 and 7. [2]",
+      answer:
+`OUTPUT AddNumbers(3, 7)
+
+The returned value is used by the OUTPUT statement.`
+    },
+    {
+      question: "State the output of:\n\nPROCEDURE Add(num1:INTEGER, num2:INTEGER)\n  answer ← num1 + num2\n  OUTPUT answer\nENDPROCEDURE\n\nCALL Add(5, 6)",
+      answer: "11"
+    },
+    {
+      question: "State the output of:\n\nFUNCTION Add(num1:INTEGER, num2:INTEGER) RETURNS INTEGER\n  answer ← num1 + num2\n  RETURN answer\nENDFUNCTION\n\nOUTPUT Add(4, 5)",
+      answer: "9"
+    },
+    {
+      question: "Identify the local variable in this procedure:\n\nPROCEDURE Calculate(num:INTEGER)\n  answer ← num * 2\n  OUTPUT answer\nENDPROCEDURE\n\nCALL Calculate(6) [1]",
+      answer: "answer is a local variable. num is a parameter and also only exists inside the procedure while it runs."
+    },
+    {
+      question: "Identify the global variable and local variable:\n\nscore ← 10\n\nPROCEDURE ShowScore()\n  message ← \"Score is\"\n  OUTPUT message, score\nENDPROCEDURE\n\nCALL ShowScore() [2]",
+      answer: "score is global because it is declared outside the procedure. message is local because it is created inside the procedure."
+    },
+    {
+      question: "State the output of:\n\nanswer ← 100\n\nPROCEDURE Add()\n  answer ← 3 + 6\n  OUTPUT answer\nENDPROCEDURE\n\nCALL Add()\nOUTPUT answer",
+      answer: "9 then 100. The answer inside Add is local, so it does not change the global answer."
+    },
+    {
+      question: "Explain why this causes an error:\n\nPROCEDURE Add(num1:INTEGER, num2:INTEGER)\n  answer ← num1 + num2\nENDPROCEDURE\n\nCALL Add(3, 4)\nOUTPUT answer [2]",
+      answer: "answer is a local variable inside the procedure. It is deleted when the procedure ends, so it cannot be output afterwards."
+    },
+    {
+      question: "Explain why CALL is not used when calling a function. [2]",
+      answer: "Because a function returns a value and is used as part of an expression, not as a standalone statement."
+    }
+  ];
+
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
+
+  runExamMode(questions);
+  return;
+}
+  
   
   
 if (topic === "tracetables") {
