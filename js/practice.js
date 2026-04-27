@@ -1159,7 +1159,98 @@ The returned value is used by the OUTPUT statement.`
   return;
 }
   
-  
+ // ===== MAINTAINABLE-01 =====
+if (topic === "maintainableprograms") {
+  const questions = [
+    {
+      question: "State what is meant by a maintainable program. [2]",
+      answer: "A program that is easy to read, understand and modify."
+    },
+    {
+      question: "State two features of a maintainable program. [2]",
+      answer: "Meaningful identifiers, comments, indentation, or use of procedures and functions."
+    },
+    {
+      question: "Explain why meaningful identifiers improve maintainability. [2]",
+      answer: "They make the code easier to understand by showing what variables or subprograms are used for."
+    },
+    {
+      question: "Explain why comments are used in programs. [2]",
+      answer: "To help programmers understand what the code does, especially complex parts."
+    },
+    {
+      question: "Explain why indentation is important. [2]",
+      answer: "It shows the structure of the code and makes it easier to read."
+    },
+    {
+      question: "Explain why modular programming improves maintainability. [2]",
+      answer: "It breaks code into smaller reusable parts, making it easier to test and modify."
+    },
+    {
+      question: "The following code is used to calculate an average:\n\nINPUT a\nINPUT b\nINPUT c\nd ← a + b + c\ne ← d / 3\nOUTPUT e\n\nRewrite this code using more meaningful identifiers. [3]",
+      answer:
+`INPUT num1
+INPUT num2
+INPUT num3
+total ← num1 + num2 + num3
+average ← total / 3
+OUTPUT average`
+    },
+    {
+      question: "Explain why the improved version of the code is more maintainable. [2]",
+      answer: "The identifiers are more descriptive, making the code easier to understand."
+    },
+    {
+      question: "The following program uses a fixed value 5:\n\nFOR i ← 1 TO 5\n  OUTPUT i\nNEXT i\n\nExplain why this is not maintainable and suggest an improvement. [3]",
+      answer:
+`The value 5 is hard-coded, making it difficult to change.
+It should be replaced with a variable or constant, e.g.
+DECLARE limit ← 5
+FOR i ← 1 TO limit`
+    },
+    {
+      question: "Rewrite this program to use a constant instead of a hard-coded value:\n\nDECLARE Numbers : ARRAY[1:5] OF INTEGER\nFOR i ← 1 TO 5\n  OUTPUT Numbers[i]\nNEXT i [3]",
+      answer:
+`DECLARE ArrayLength ← 5
+DECLARE Numbers : ARRAY[1:ArrayLength] OF INTEGER
+FOR i ← 1 TO ArrayLength
+  OUTPUT Numbers[i]
+NEXT i`
+    },
+    {
+      question: "Explain why using a function can improve maintainability. [2]",
+      answer: "Functions allow code to be reused and reduce duplication."
+    },
+    {
+      question: "The following code has no comments:\n\nFUNCTION triangleArea(base, height)\n  area ← 0.5 * base * height\n  RETURN area\nENDFUNCTION\n\nAdd suitable comments to improve maintainability. [3]",
+      answer:
+`FUNCTION triangleArea(base, height)
+// Calculates the area of a triangle
+  area ← 0.5 * base * height
+  RETURN area
+ENDFUNCTION`
+    },
+    {
+      question: "Explain why comments should not be written for every line of code. [2]",
+      answer: "Because it makes code harder to read and obvious code does not need explanation."
+    },
+    {
+      question: "Give one reason why subprograms improve maintainability. [1]",
+      answer: "They allow code to be reused."
+    }
+  ];
+
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
+
+  runExamMode(questions);
+  return;
+} 
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
