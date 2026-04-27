@@ -1,0 +1,158 @@
+[
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "What is a maintainable program?",
+      "correct": "A program that is easy to read, understand and modify",
+      "wrong": [
+        "A program that runs quickly",
+        "A program with no errors",
+        "A program that uses loops"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "Why are maintainable programs important?",
+      "correct": "They can be easily updated and fixed",
+      "wrong": [
+        "They always run faster",
+        "They use less memory",
+        "They avoid all errors"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "Which of these is a meaningful identifier?",
+      "correct": "totalScore",
+      "wrong": [
+        "x",
+        "a1",
+        "temp"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "Where should meaningful identifiers be used?",
+      "correct": "Variables, constants, arrays, procedures and functions",
+      "wrong": [
+        "Only variables",
+        "Only arrays",
+        "Only procedures"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "What are comments used for?",
+      "correct": "To explain code to programmers",
+      "wrong": [
+        "To make the program run faster",
+        "To store values",
+        "To control program flow"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "When should comments be used?",
+      "correct": "To explain complex or unclear parts of code",
+      "wrong": [
+        "For every line of code",
+        "Only for variables",
+        "Only at the end of the program"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "When should comments NOT be used?",
+      "correct": "For obvious code",
+      "wrong": [
+        "For complex code",
+        "At the start of procedures",
+        "To explain algorithms"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "What is indentation used for?",
+      "correct": "To show the structure of code",
+      "wrong": [
+        "To store values",
+        "To speed up programs",
+        "To replace comments"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "Why is indentation important?",
+      "correct": "It makes code easier to read",
+      "wrong": [
+        "It makes programs run faster",
+        "It reduces memory use",
+        "It replaces variables"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "What is modular programming?",
+      "correct": "Breaking a program into smaller subprograms",
+      "wrong": [
+        "Writing programs in one block",
+        "Using only variables",
+        "Removing loops"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "Why is modular programming useful?",
+      "correct": "It makes programs easier to test and reuse",
+      "wrong": [
+        "It removes the need for variables",
+        "It makes programs shorter automatically",
+        "It removes the need for input"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "Why should hard-coded values be avoided?",
+      "correct": "They make programs harder to change",
+      "wrong": [
+        "They make programs faster",
+        "They improve readability",
+        "They reduce errors"
+      ]
+    }
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "mcq": {
+      "question": "What should be used instead of hard-coded values?",
+      "correct": "Variables or constants",
+      "wrong": [
+        "Comments",
+        "Loops",
+        "Functions only"
+      ]
+    }
+  }
+]
