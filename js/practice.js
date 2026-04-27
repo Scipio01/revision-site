@@ -1401,15 +1401,17 @@ CLOSEFILE "UserNames.txt"`
 if (topic === "databasetheory") {
   const questions = [
     {
-      question: `The table Students contains:
+question: `The table Students contains:
 
-ID   Name    Age
-1    Ali     16
-2    Ben     17
-3    Cara    16
+ID   Name    Age   Grade
+1    Ali     16    B
+2    Ben     17    A
+3    Cara    16    C
+4    Dan     18    B
+5    Eva     17    A
 
 State the number of fields and records in the table. [2]`,
-      answer: "Fields = 3\nRecords = 3"
+answer: "Fields = 4\nRecords = 5"
     },
     {
       question: `The table Products contains:
