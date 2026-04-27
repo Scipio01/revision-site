@@ -129,7 +129,7 @@
   "hasPractice": false
 },
 
-  {
+ {
   "id": "databasetheory",
   "name": "Database Theory",
   "level": "gcse",
@@ -145,7 +145,6 @@
   "description": "Query databases using SELECT, WHERE, ORDER BY, SUM and COUNT.",
   "hasPractice": true
 },
-
   
   {
     "id": "oop",
