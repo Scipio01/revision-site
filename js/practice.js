@@ -1521,7 +1521,7 @@ Member – Boolean`
   if (writeTip) {
     writeTip.style.display = "block";
     writeTip.textContent =
-      "✍️ Use the table carefully. These are exam-style questions – write answers clearly and use correct terminology.";
+      "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer. Some questions include tables, so read them carefully.";
   }
 
   document.getElementById("answer").classList.add("exam-answer");
