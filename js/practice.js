@@ -1391,7 +1391,136 @@ CLOSEFILE "UserNames.txt"`
   return;
 }
 
-  
+  // ===== DATABASE THEORY =====
+if (topic === "databasetheory") {
+  const questions = [
+    {
+      question: `The table Students contains:
+
+ID   Name    Age
+1    Ali     16
+2    Ben     17
+3    Cara    16
+
+State the number of fields and records in the table. [2]`,
+      answer: "Fields = 3\nRecords = 3"
+    },
+    {
+      question: `The table Products contains:
+
+ProductID   Name     Price
+101         Chair    50
+102         Table    120
+
+What is a field in this table? [1]`,
+      answer: "A column, e.g. Name or Price."
+    },
+    {
+      question: `The table Products contains:
+
+ProductID   Name     Price
+101         Chair    50
+
+What is a record in this table? [1]`,
+      answer: "A row of data, e.g. 101 Chair 50."
+    },
+    {
+      question: `The table Students contains:
+
+ID   Name    Age
+1    Ali     16
+2    Ben     17
+3    Cara    16
+
+Suggest the most suitable primary key. [1]`,
+      answer: "ID"
+    },
+    {
+      question: "Explain why a primary key is needed. [2]",
+      answer: "To uniquely identify each record so there are no duplicates."
+    },
+    {
+      question: `A table stores the following fields:
+
+Name
+Age
+Salary
+Member
+
+Choose the most appropriate data type for each field. [4]`,
+      answer:
+`Name – Text
+Age – Integer
+Salary – Real
+Member – Boolean`
+    },
+    {
+      question: `A table stores the following fields:
+
+Postcode
+Age
+Email
+
+Suggest one suitable validation check for each field. [3]`,
+      answer:
+`Postcode – Format check
+Age – Range check
+Email – Format check`
+    },
+    {
+      question: `The field ShowNumber stores values like SN091.
+
+Suggest two validation checks that could be used. [2]`,
+      answer:
+`Any two from:
+Length check
+Type check
+Format check
+Presence check`
+    },
+    {
+      question: "What is validation and why is it used? [2]",
+      answer: "Validation checks that data is sensible and prevents incorrect data being entered."
+    },
+    {
+      question: `A table stores the following data:
+
+ID   Name   Age
+1    Ali    16
+2    Ben    17
+
+A new record is added with ID = 1.
+
+Explain why this is a problem. [2]`,
+      answer: "The primary key must be unique, so duplicate values are not allowed."
+    },
+    {
+      question: `A table stores customer data.
+
+Design a suitable structure for the table including:
+- Field names
+- Data types
+- A primary key [4]`,
+      answer:
+`Example:
+CustomerID – Integer (Primary Key)
+Name – Text
+Age – Integer
+Member – Boolean`
+    }
+  ];
+
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Use the table carefully. These are exam-style questions – write answers clearly and use correct terminology.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
+
+  runExamMode(questions);
+  return;
+}
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
