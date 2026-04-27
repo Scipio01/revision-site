@@ -1502,20 +1502,66 @@ A new record is added with ID = 1.
 Explain why this is a problem. [2]`,
       answer: "The primary key must be unique, so duplicate values are not allowed."
     },
-    {
-      question: `A table stores customer data.
+   {
+  question: `The table Customers contains:
+
+CustomerID   FirstName   LastName   Member   TotalSpent
+1            Grace       Evans      TRUE     125.50
+2            Lily        Thomas     FALSE    89.99
+3            Rosie       Scott      TRUE     240.00
+
+State two fields from the table. [2]`,
+  answer: "Any two from: CustomerID, FirstName, LastName, Member, TotalSpent."
+},
+{
+  question: `The table Customers contains:
+
+CustomerID   FirstName   LastName   Member   TotalSpent
+1            Grace       Evans      TRUE     125.50
+2            Lily        Thomas     FALSE    89.99
+3            Rosie       Scott      TRUE     240.00
+
+Choose the most suitable data type for Member and TotalSpent. [2]`,
+  answer:
+`Member – Boolean
+TotalSpent – Real`
+},
+{
+  question: `The table Customers contains:
+
+CustomerID   FirstName   LastName   Member   TotalSpent
+1            Grace       Evans      TRUE     125.50
+2            Lily        Thomas     FALSE    89.99
+3            Rosie       Scott      TRUE     240.00
+
+Suggest the most suitable primary key and explain why. [2]`,
+  answer: "CustomerID, because each value is unique and can identify one record."
+},
+{
+  question: `The table Bookings contains:
+
+BookingID   CustomerName   Seats   Paid
+101         Ali            3       TRUE
+102         Ben            2       FALSE
+103         Cara           5       TRUE
+
+Suggest one suitable validation check for Seats and explain why. [2]`,
+  answer: "A range check, because the number of seats should be within a sensible minimum and maximum."
+},
+{
+  question: `A table stores customer data.
 
 Design a suitable structure for the table including:
 - Field names
 - Data types
 - A primary key [4]`,
-      answer:
+  answer:
 `Example:
 CustomerID – Integer (Primary Key)
 Name – Text
 Age – Integer
 Member – Boolean`
-    }
+}
   ];
 
   if (writeTip) {
