@@ -145,6 +145,15 @@
   "description": "Query databases using SELECT, WHERE, ORDER BY, SUM and COUNT.",
   "hasPractice": true
 },
+
+  {
+  "id": "booleanlogic",
+  "name": "Boolean Logic",
+  "level": "gcse",
+  "group": "paper2",
+  "description": "Logic gates, truth tables, logic circuits and Boolean expressions.",
+  "hasPractice": false
+},
   
   {
     "id": "oop",
