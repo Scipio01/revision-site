@@ -1754,7 +1754,7 @@ Acer
 HP`
     },
     {
-      question: "Complete the SQL statement:\n\nSELECT ____ FROM Students",
+     question: "Complete the SQL statement using the wildcard to display all fields from Students:\n\nSELECT ____ FROM Students",
       answer: "*"
     },
     {
