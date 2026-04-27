@@ -1,0 +1,254 @@
+[
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does SQL stand for?",
+      "correct": "Structured Query Language",
+      "wrong": [
+        "Simple Query Language",
+        "Structured Question Logic",
+        "Standard Query List"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What is SQL used for?",
+      "correct": "To retrieve data from a database",
+      "wrong": [
+        "To store data in variables",
+        "To design hardware",
+        "To write programs"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does SELECT do?",
+      "correct": "Chooses which fields to display",
+      "wrong": [
+        "Sorts the data",
+        "Filters records",
+        "Specifies the table"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does FROM do?",
+      "correct": "Specifies the table",
+      "wrong": [
+        "Filters records",
+        "Sorts data",
+        "Counts records"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does WHERE do?",
+      "correct": "Filters records",
+      "wrong": [
+        "Selects fields",
+        "Counts values",
+        "Sorts results"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "Which SQL statement selects all fields?",
+      "correct": "SELECT *",
+      "wrong": [
+        "SELECT ALL",
+        "SELECT EVERYTHING",
+        "SELECT FIELD"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does ORDER BY do?",
+      "correct": "Sorts the results",
+      "wrong": [
+        "Filters records",
+        "Counts values",
+        "Selects fields"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does ASC mean?",
+      "correct": "Ascending order",
+      "wrong": [
+        "Descending order",
+        "Alphabetical only",
+        "Random order"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does DESC mean?",
+      "correct": "Descending order",
+      "wrong": [
+        "Ascending order",
+        "Alphabetical only",
+        "Random order"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does COUNT do?",
+      "correct": "Counts records",
+      "wrong": [
+        "Adds values",
+        "Sorts records",
+        "Filters records"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does SUM do?",
+      "correct": "Adds values",
+      "wrong": [
+        "Counts records",
+        "Filters data",
+        "Sorts data"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does AND do in SQL?",
+      "correct": "Both conditions must be true",
+      "wrong": [
+        "Only one condition must be true",
+        "Conditions are ignored",
+        "Conditions are sorted"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does OR do in SQL?",
+      "correct": "At least one condition must be true",
+      "wrong": [
+        "Both conditions must be true",
+        "Conditions are ignored",
+        "Conditions are sorted"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "Which is the correct structure of an SQL query?",
+      "correct": "SELECT fields FROM table WHERE condition",
+      "wrong": [
+        "FROM table SELECT fields WHERE condition",
+        "WHERE condition SELECT fields FROM table",
+        "SELECT table FROM fields WHERE condition"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does this query do?\nSELECT Name FROM Students",
+      "correct": "Displays the Name field",
+      "wrong": [
+        "Displays all fields",
+        "Filters records",
+        "Sorts records"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does this query do?\nSELECT * FROM Students",
+      "correct": "Displays all fields",
+      "wrong": [
+        "Displays one field",
+        "Filters records",
+        "Counts records"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does this query do?\nSELECT * FROM Students WHERE Age = 16",
+      "correct": "Displays records where Age is 16",
+      "wrong": [
+        "Displays all records",
+        "Sorts by age",
+        "Counts records"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does this query do?\nSELECT * FROM Students ORDER BY Name ASC",
+      "correct": "Sorts records by Name ascending",
+      "wrong": [
+        "Filters records",
+        "Counts records",
+        "Selects fields"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does this query do?\nSELECT SUM(Price) FROM Products",
+      "correct": "Adds values in the Price field",
+      "wrong": [
+        "Counts records",
+        "Filters products",
+        "Sorts products"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does this query do?\nSELECT * FROM Students WHERE Age = 16 AND Name = \"Ali\"",
+      "correct": "Both conditions must be true",
+      "wrong": [
+        "Only one condition must be true",
+        "Conditions are ignored",
+        "Records are sorted"
+      ]
+    }
+  },
+  {
+    "topicName": "SQL",
+    "mcq": {
+      "question": "What does this query do?\nSELECT * FROM Students WHERE Age = 16 OR Age = 17",
+      "correct": "At least one condition must be true",
+      "wrong": [
+        "Both conditions must be true",
+        "Conditions are ignored",
+        "Records are sorted"
+      ]
+    }
+  }
+]
