@@ -1,0 +1,170 @@
+[
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "What is file handling?",
+      "correct": "Reading and writing data to files",
+      "wrong": [
+        "Storing data in variables",
+        "Processing data in memory",
+        "Displaying data on screen"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "Why is data stored in files?",
+      "correct": "To store data permanently",
+      "wrong": [
+        "To make programs faster",
+        "To reduce memory use",
+        "To avoid variables"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "What happens to data in RAM when power is lost?",
+      "correct": "It is lost",
+      "wrong": [
+        "It is saved automatically",
+        "It moves to the CPU",
+        "It is copied to disk"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "What does OPENFILE do?",
+      "correct": "Opens a file for use",
+      "wrong": [
+        "Deletes a file",
+        "Closes a program",
+        "Creates a variable"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "Which mode is used to read data?",
+      "correct": "READ",
+      "wrong": [
+        "WRITE",
+        "OPEN",
+        "INPUT"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "Which mode is used to write data?",
+      "correct": "WRITE",
+      "wrong": [
+        "READ",
+        "OUTPUT",
+        "CLOSE"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "What happens when a file is opened in WRITE mode?",
+      "correct": "Existing data is deleted",
+      "wrong": [
+        "Data is added to the end",
+        "The file cannot be used",
+        "Nothing changes"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "What does READFILE do?",
+      "correct": "Reads data into a variable",
+      "wrong": [
+        "Writes data to a file",
+        "Opens a file for use",
+        "Closes a file after use"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "What does WRITEFILE do?",
+      "correct": "Writes data to a file",
+      "wrong": [
+        "Reads data into a variable",
+        "Opens a file for use",
+        "Closes a file after use"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "What does CLOSEFILE do?",
+      "correct": "Closes the file and saves data",
+      "wrong": [
+        "Deletes the file",
+        "Reads data from a file",
+        "Opens a file"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "Why must CLOSEFILE be used?",
+      "correct": "Data may not be saved until closed",
+      "wrong": [
+        "It speeds up the program",
+        "It deletes unwanted data",
+        "It resets variables"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "What is the correct order of operations?",
+      "correct": "OPENFILE, READ/WRITE, CLOSEFILE",
+      "wrong": [
+        "READFILE, OPENFILE, CLOSEFILE",
+        "WRITEFILE, CLOSEFILE, OPENFILE",
+        "OPENFILE, CLOSEFILE, READFILE"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "What is read when READFILE is used once?",
+      "correct": "One item or one line",
+      "wrong": [
+        "The whole file",
+        "Nothing",
+        "All variables"
+      ]
+    }
+  },
+  {
+    "topicName": "File Handling",
+    "mcq": {
+      "question": "Which is a common mistake in file handling?",
+      "correct": "Using the same name for file and variable",
+      "wrong": [
+        "Using variables",
+        "Using OUTPUT",
+        "Using loops"
+      ]
+    }
+  }
+]
