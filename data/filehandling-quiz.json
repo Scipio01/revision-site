@@ -147,7 +147,7 @@
     "topicName": "File Handling",
     "mcq": {
       "question": "What is read when READFILE is used once?",
-      "correct": "One item or one line",
+      "correct": "One value (or one line)"
       "wrong": [
         "The whole file",
         "Nothing",
@@ -155,16 +155,16 @@
       ]
     }
   },
-  {
-    "topicName": "File Handling",
-    "mcq": {
-      "question": "Which is a common mistake in file handling?",
-      "correct": "Using the same name for file and variable",
-      "wrong": [
-        "Using variables",
-        "Using OUTPUT",
-        "Using loops"
-      ]
-    }
+{
+  "topicName": "File Handling",
+  "mcq": {
+    "question": "The following code is used to read from a file:\n\nOPENFILE \"names.txt\" FOR READ\nREADFILE \"names.txt\", names\n\nWhat is the problem?",
+    "correct": "The same name is used for the file and the variable",
+    "wrong": [
+      "The file is opened in the wrong mode",
+      "READFILE is used incorrectly",
+      "The file name should not be in quotes"
+    ]
   }
+}
 ]
