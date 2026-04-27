@@ -1,0 +1,109 @@
+[
+
+  {
+  "topicName": "File Handling",
+  "front": "What is file handling?",
+  "back": "The process of reading data from and writing data to files."
+ },
+  
+  {
+    "topicName": "File Handling",
+    "front": "Why is data stored in a file?",
+    "back": "To store data permanently so it is not lost when the program closes."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "Give another reason for storing data in a file",
+    "back": "So the data can be used again later or by another program."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What happens to data in RAM when a program closes?",
+    "back": "It is lost because RAM is volatile memory and cannot store data without power."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What type of storage is used for files?",
+    "back": "Secondary storage (e.g. hard disk, SSD)."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What does OPENFILE do?",
+    "back": "Opens a file so it can be read from or written to."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What are the two file modes?",
+    "back": "READ and WRITE."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What does OPENFILE file.txt FOR READ do?",
+    "back": "Opens an existing file so data can be read from it."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What does OPENFILE file.txt FOR WRITE do?",
+   "back": "Creates a new file, or if the file already exists, deletes the old data in the file so new data can be written."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What happens to existing data when a file is opened in WRITE mode?",
+    "back": "It is deleted and replaced."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What does READFILE do?",
+    "back": "Reads data from a file and stores it in a variable."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What does WRITEFILE do?",
+    "back": "Writes data from a variable into a file."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What does CLOSEFILE do?",
+    "back": "Closes the file and saves the data."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "Why must CLOSEFILE be used?",
+    "back": "Because data is not fully saved until the file is closed."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "Write the basic structure to read from a file",
+    "back": "OPENFILE file.txt FOR READ\nREADFILE file.txt, variable\nCLOSEFILE file.txt"
+  },
+  {
+    "topicName": "File Handling",
+    "front": "Write the basic structure to write to a file",
+    "back": "OPENFILE file.txt FOR WRITE\nWRITEFILE file.txt, variable\nCLOSEFILE file.txt"
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What is read when READFILE is used once?",
+    "back": "One item or one line from the file."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What is meant by reading a line of text?",
+    "back": "Reading a whole line from the file into one variable."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What is a common mistake when naming files and variables?",
+   "back": "Using the same name for both the file and the variable, e.g. READFILE names.txt, names (wrong). Use different names such as READFILE names.txt, name."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "Can a file be opened in READ and WRITE at the same time?",
+    "back": "No, only one mode at a time."
+  },
+  {
+    "topicName": "File Handling",
+    "front": "What is the correct order of file operations?",
+    "back": "OPENFILE, READFILE/WRITEFILE, CLOSEFILE."
+  }
+]
