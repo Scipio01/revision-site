@@ -1,0 +1,82 @@
+[
+  {
+    "topicName": "Procedures and Functions",
+    "front": "What is a subprogram?",
+    "back": "A named block of code that performs a task."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "Why are subprograms used?",
+    "back": "To break problems into smaller parts, reuse code, and make programs easier to understand."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "What is a procedure?",
+    "back": "A subprogram that performs a task but does not return a value."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "What is a function?",
+    "back": "A subprogram that performs a task and returns a value."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "What keyword is used to call a procedure?",
+    "back": "CALL, for example: CALL PrintLine()"
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "How is a function called?",
+    "back": "It is used inside an expression, for example: total ← Add(3,4)"
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "What is a parameter?",
+    "back": "A variable in a subprogram definition that receives a value, e.g. in PROCEDURE Add(num1:INTEGER), num1 is the parameter."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "What is an argument?",
+    "back": "A value passed into a subprogram when it is called, e.g. in CALL Add(5), the 5 is the argument."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "What does RETURN do?",
+    "back": "It sends a value back from a function, e.g. RETURN total. Without RETURN, the value would be lost when the function ends."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "How do you define a procedure with parameters?",
+    "back": "PROCEDURE Name(param1:TYPE)\n  statements\nENDPROCEDURE"
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "How do you define a function?",
+    "back": "FUNCTION Name(params) RETURNS TYPE\n  RETURN value\nENDFUNCTION"
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "What is a local variable?",
+    "back": "A variable created inside a subprogram that only exists while it runs and can only be used inside that subprogram."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "What is a global variable?",
+    "back": "A variable created outside subprograms that can be accessed anywhere in the program."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "Why can local variables not be used outside a subprogram?",
+    "back": "Because they only exist while the subprogram is running."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "How many parameters are allowed in GCSE pseudocode?",
+    "back": "Up to two parameters."
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "front": "What is the difference between a procedure and a function?",
+    "back": "A procedure does not return a value, but a function returns a value."
+  }
+]
