@@ -250,6 +250,11 @@ if (topic === "databasetheory") {
   return;
 }
 
+  if (topic === "sql") {
+  titleEl.textContent = "SQL Practice";
+  introEl.textContent = "Practise exam-style SQL questions. Read the tables carefully, then write your answer on paper or in the box below.";
+  return;
+}
   
   // default
   titleEl.textContent = "Binary Practice";
@@ -350,7 +355,7 @@ function updateModeOptions() {
 modeEl.innerHTML = "";
 
 modeEl.style.display =
-  topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling"
+  topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" || topic === "sql"
     ? "none"
     : "inline-block";
   
@@ -361,13 +366,13 @@ const modeWrap = modeEl.closest(".mode-control");
 if (difficultyWrap) {
 
 difficultyWrap.style.display =
-  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" ? "none" : "block";
+  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" || topic === "sql" ? "none" : "block";
 
 }
 
 if (modeWrap) {
 modeWrap.style.display =
-  topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" ? "none" : "block";
+  topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" || topic === "sql" ? "none" : "block";
 }
 
 // only show difficulty for NON algorithm topics
@@ -1575,6 +1580,211 @@ Member – Boolean`
   runExamMode(questions);
   return;
 }
+
+// ===== SQL =====
+if (topic === "sql") {
+  const questions = [
+    {
+      question: `The table Students contains:
+
+ID   Name   Age
+1    Ali    16
+2    Ben    17
+3    Cara   16
+
+What is the output of:
+
+SELECT Name FROM Students`,
+      answer:
+`Ali
+Ben
+Cara`
+    },
+    {
+      question: `The table Students contains:
+
+ID   Name   Age
+1    Ali    16
+2    Ben    17
+3    Cara   16
+
+What is the output of:
+
+SELECT * FROM Students WHERE Age = 16`,
+      answer:
+`1  Ali   16
+3  Cara  16`
+    },
+    {
+      question: `The table Students contains:
+
+ID   Name   Age
+1    Ali    16
+2    Ben    17
+3    Cara   16
+
+What is the output of:
+
+SELECT Name FROM Students WHERE Age > 16`,
+      answer:
+`Ben`
+    },
+    {
+      question: `The table Students contains:
+
+ID   Name   Age
+1    Ali    16
+2    Ben    17
+3    Cara   16
+
+What is the output of:
+
+SELECT Name FROM Students ORDER BY Name ASC`,
+      answer:
+`Ali
+Ben
+Cara`
+    },
+    {
+      question: `The table Students contains:
+
+ID   Name   Age
+1    Ali    16
+2    Ben    17
+3    Cara   16
+
+What is the output of:
+
+SELECT Name FROM Students ORDER BY Age DESC`,
+      answer:
+`Ben
+Ali
+Cara`
+    },
+    {
+      question: `The table Products contains:
+
+ID   Name    Price
+1    Chair   50
+2    Table   120
+3    Lamp    30
+
+What is the output of:
+
+SELECT SUM(Price) FROM Products`,
+      answer: "200"
+    },
+    {
+      question: `The table Students contains:
+
+ID   Name   Age
+1    Ali    16
+2    Ben    17
+3    Cara   16
+
+What is the output of:
+
+SELECT COUNT(Name) FROM Students`,
+      answer: "3"
+    },
+    {
+      question: `The table Students contains:
+
+ID   Name   Age
+1    Ali    16
+2    Ben    17
+3    Cara   16
+
+What is the output of:
+
+SELECT Name FROM Students WHERE Age = 16 AND Name = "Ali"`,
+      answer:
+`Ali`
+    },
+    {
+      question: `The table Students contains:
+
+ID   Name   Age
+1    Ali    16
+2    Ben    17
+3    Cara   16
+
+What is the output of:
+
+SELECT Name FROM Students WHERE Age = 16 OR Age = 17`,
+      answer:
+`Ali
+Ben
+Cara`
+    },
+    {
+      question: `The table PCSTOCK contains:
+
+ID   Type    Price   ScreenSize
+1    Dell    1500    19
+2    HP      2200    23
+3    Acer    1800    19
+4    Lenovo  900     15
+
+What is the output of:
+
+SELECT * FROM PCSTOCK
+WHERE Price < 2000 AND ScreenSize = 19`,
+      answer:
+`1  Dell   1500   19
+3  Acer   1800   19`
+    },
+    {
+      question: `The table PCSTOCK contains:
+
+ID   Type    Price   ScreenSize
+1    Dell    1500    19
+2    HP      2200    23
+3    Acer    1800    19
+4    Lenovo  900     15
+
+What is the output of:
+
+SELECT Type FROM PCSTOCK
+ORDER BY Price ASC`,
+      answer:
+`Lenovo
+Dell
+Acer
+HP`
+    },
+    {
+      question: "Complete the SQL statement:\n\nSELECT ____ FROM Students",
+      answer: "*"
+    },
+    {
+      question: "Write an SQL statement to display Name from Students where Age is 17. [3]",
+      answer:
+`SELECT Name
+FROM Students
+WHERE Age = 17`
+    },
+    {
+      question: "Write an SQL statement to display all fields sorted by Name in ascending order. [3]",
+      answer:
+`SELECT *
+FROM Students
+ORDER BY Name ASC`
+    }
+  ];
+
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer. Read tables carefully.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
+
+  runExamMode(questions);
+  return;
+}
+
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
