@@ -244,6 +244,12 @@ if (topic === "filehandling") {
   return;
 }
   
+if (topic === "databasetheory") {
+  titleEl.textContent = "Database Theory Practice";
+  introEl.textContent = "Practise exam-style database questions. Use the table carefully and write answers clearly.";
+  return;
+}
+
   
   // default
   titleEl.textContent = "Binary Practice";
@@ -355,13 +361,13 @@ const modeWrap = modeEl.closest(".mode-control");
 if (difficultyWrap) {
 
 difficultyWrap.style.display =
-  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" ? "none" : "block";
-  
+  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" ? "none" : "block";
+
 }
 
 if (modeWrap) {
 modeWrap.style.display =
-  topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" ? "none" : "block";
+  topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" ? "none" : "block";
 }
 
 // only show difficulty for NON algorithm topics
