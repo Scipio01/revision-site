@@ -1771,6 +1771,132 @@ WHERE Age = 17`
 FROM Students
 ORDER BY Name ASC`
     }
+
+,
+{
+  question: `The table Products contains:
+
+ID   Name    Price
+1    Chair   50
+2    Table   120
+3    Lamp    30
+
+Write an SQL statement to display the Name and Price fields from Products. [3]`,
+  answer:
+`SELECT Name, Price
+FROM Products`
+},
+{
+  question: `The table Products contains:
+
+ID   Name    Price
+1    Chair   50
+2    Table   120
+3    Lamp    30
+
+Write an SQL statement to display all fields where Price is greater than 40. [3]`,
+  answer:
+`SELECT *
+FROM Products
+WHERE Price > 40
+
+(Alternatively: SELECT ID, Name, Price instead of *)`
+},
+{
+  question: `The table PCSTOCK contains:
+
+ID   Type    Price   ScreenSize
+1    Dell    1500    19
+2    HP      2200    23
+3    Acer    1800    19
+4    Lenovo  900     15
+
+Write an SQL statement to display Type and Price for computers with ScreenSize = 19. [3]`,
+  answer:
+`SELECT Type, Price
+FROM PCSTOCK
+WHERE ScreenSize = 19`
+},
+{
+  question: `The table PCSTOCK contains:
+
+ID   Type    Price   ScreenSize
+1    Dell    1500    19
+2    HP      2200    23
+3    Acer    1800    19
+4    Lenovo  900     15
+
+Write an SQL statement to display all fields for computers that cost less than 2000 and have a screen size of 19. [4]`,
+  answer:
+`SELECT *
+FROM PCSTOCK
+WHERE Price < 2000 AND ScreenSize = 19
+
+(Alternatively: SELECT ID, Type, Price, ScreenSize instead of *)`
+},
+{
+  question: `The table PCSTOCK contains:
+
+ID   Type    Price   ScreenSize
+1    Dell    1500    19
+2    HP      2200    23
+3    Acer    1800    19
+4    Lenovo  900     15
+
+Write an SQL statement to display all fields where ScreenSize is 15 or 23. [3]`,
+  answer:
+`SELECT *
+FROM PCSTOCK
+WHERE ScreenSize = 15 OR ScreenSize = 23
+
+(Alternatively: SELECT ID, Type, Price, ScreenSize instead of *)`
+},
+{
+  question: `The table PCSTOCK contains:
+
+ID   Type    Price   ScreenSize
+1    Dell    1500    19
+2    HP      2200    23
+3    Acer    1800    19
+4    Lenovo  900     15
+
+Write an SQL statement to display Type and Price sorted by Price in descending order. [3]`,
+  answer:
+`SELECT Type, Price
+FROM PCSTOCK
+ORDER BY Price DESC`
+},
+{
+  question: `The table Products contains:
+
+ID   Name    Price
+1    Chair   50
+2    Table   120
+3    Lamp    30
+
+Write an SQL statement to find the total of all prices. [2]`,
+  answer:
+`SELECT SUM(Price)
+FROM Products`
+},
+{
+  question: `The table PCSTOCK contains:
+
+ID   Type    Price   ScreenSize
+1    Dell    1500    19
+2    HP      2200    23
+3    Acer    1800    19
+4    Lenovo  900     15
+
+Write an SQL statement to count how many computers have a screen size of 19. [3]`,
+  answer:
+`SELECT COUNT(Type)
+FROM PCSTOCK
+WHERE ScreenSize = 19`
+}
+
+
+    
   ];
 
   if (writeTip) {
