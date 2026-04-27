@@ -1,0 +1,142 @@
+[
+  {
+    "topicName": "Database Theory",
+    "front": "What is a database?",
+    "back": "A structured collection of data that can be stored and accessed."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a table in a database?",
+    "back": "A structure that stores data in rows and columns."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a field?",
+    "back": "A column in a table that stores one type of data, e.g. Name."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a record?",
+    "back": "A row in a table that stores data about one item."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a data type?",
+    "back": "The type of data that can be stored in a field."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "Give examples of data types used in databases.",
+    "back": "Text (alphanumeric), character, Boolean, integer, real, date/time."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a text (alphanumeric) data type?",
+    "back": "Stores letters, numbers and symbols, e.g. names or addresses."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a character data type?",
+    "back": "Stores a single character, e.g. 'A'."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a Boolean data type?",
+    "back": "Stores TRUE or FALSE values."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is an integer data type?",
+    "back": "Stores whole numbers, e.g. 10."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a real data type?",
+    "back": "Stores numbers with decimal values, e.g. 10.5."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a date/time data type?",
+    "back": "Stores dates and/or times, e.g. 12/12/2024."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a primary key?",
+    "back": "A field that uniquely identifies each record in a table."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "Why is a primary key needed?",
+    "back": "To ensure each record can be uniquely identified."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What makes a good primary key?",
+    "back": "It must be unique for every record and not change."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is validation?",
+    "back": "Checking that input data is sensible and follows rules."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "Why is validation used?",
+    "back": "To prevent invalid or incorrect data being entered."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a range check?",
+    "back": "Checks that a value is between a minimum and maximum."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "Give an example of a range check.",
+    "back": "Age must be between 0 and 120."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a length check?",
+    "back": "Checks that the number of characters is correct."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "Give an example of a length check.",
+    "back": "Password must be at least 8 characters long."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a presence check?",
+    "back": "Checks that a value has been entered."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a format check?",
+    "back": "Checks that data matches a required pattern."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "Give an example of a format check.",
+    "back": "A postcode must follow a specific pattern."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is a type check?",
+    "back": "Checks that data is the correct data type."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "Give an example of a type check.",
+    "back": "Ensuring a value entered is an integer."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "What is meant by a single-table database?",
+    "back": "A database that stores all data in one table."
+  },
+  {
+    "topicName": "Database Theory",
+    "front": "Why is a database better than a file for storing data?",
+    "back": "It stores data in a structured way and allows it to be queried easily."
+  }
+]
