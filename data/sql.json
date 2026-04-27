@@ -1,0 +1,122 @@
+[
+  {
+    "topicName": "SQL",
+    "front": "What does SQL stand for?",
+    "back": "Structured Query Language."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What is SQL used for?",
+    "back": "To query and retrieve data from a database."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does SELECT do?",
+    "back": "Chooses which fields to display."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does FROM do?",
+    "back": "Specifies which table to get data from."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does WHERE do?",
+    "back": "Filters records using a condition."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does ORDER BY do?",
+    "back": "Sorts the results."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does ASC mean?",
+    "back": "Sorts data in ascending order (smallest to largest)."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does DESC mean?",
+    "back": "Sorts data in descending order (largest to smallest)."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does COUNT do?",
+    "back": "Counts the number of records."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does SUM do?",
+    "back": "Adds values in a field."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does AND do in SQL?",
+    "back": "Both conditions must be true."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does OR do in SQL?",
+    "back": "At least one condition must be true."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does SELECT * mean?",
+    "back": "Selects all fields in the table."
+  },
+  {
+    "topicName": "SQL",
+    "front": "Write the basic structure of an SQL query.",
+    "back": "SELECT fields FROM table WHERE condition"
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does this query do?\nSELECT Name FROM Students",
+    "back": "Displays the Name field from the Students table."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does this query do?\nSELECT * FROM Students",
+    "back": "Displays all fields from the Students table."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does this query do?\nSELECT Name FROM Students WHERE Age = 16",
+    "back": "Displays names of students aged 16."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does this query do?\nSELECT * FROM Students WHERE Age > 16",
+    "back": "Displays all records where age is greater than 16."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does this query do?\nSELECT * FROM Students ORDER BY Name ASC",
+    "back": "Displays all records sorted by Name in ascending order."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does this query do?\nSELECT * FROM Students ORDER BY Age DESC",
+    "back": "Displays all records sorted by Age in descending order."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does this query do?\nSELECT COUNT(Name) FROM Students",
+    "back": "Counts the number of records in the Name field."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does this query do?\nSELECT SUM(Price) FROM Products",
+    "back": "Adds all values in the Price field."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does this query do?\nSELECT * FROM Students WHERE Age = 16 AND Name = \"Ali\"",
+    "back": "Displays records where Age is 16 and Name is Ali."
+  },
+  {
+    "topicName": "SQL",
+    "front": "What does this query do?\nSELECT * FROM Students WHERE Age = 16 OR Age = 17",
+    "back": "Displays records where Age is 16 or 17."
+  }
+]
