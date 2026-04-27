@@ -1,0 +1,171 @@
+[
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "What is a subprogram?",
+      "correct": "A named block of code that performs a task",
+      "wrong": [
+        "A type of loop used in programs",
+        "A variable that stores multiple values",
+        "A condition used to control flow"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "Why are subprograms used?",
+      "correct": "To reuse code and make programs easier to understand",
+      "wrong": [
+        "To make programs run faster automatically",
+        "To store data in memory permanently",
+        "To replace all loops in a program"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "What is a procedure?",
+      "correct": "A subprogram that performs a task but does not return a value",
+      "wrong": [
+        "A subprogram that performs a task and returns a value",
+        "A subprogram that performs a task using loops",
+        "A subprogram that performs a task using variables"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "What is a function?",
+      "correct": "A subprogram that performs a task and returns a value",
+      "wrong": [
+        "A subprogram that performs a task but does not return a value",
+        "A subprogram that performs a task using loops",
+        "A subprogram that performs a task using variables"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "Which keyword is used to call a procedure?",
+      "correct": "CALL",
+      "wrong": [
+        "RUN",
+        "EXECUTE",
+        "RETURN"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "How is a function used in pseudocode?",
+      "correct": "As part of an expression",
+      "wrong": [
+        "Using CALL",
+        "Using INPUT",
+        "As a standalone statement"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "In PROCEDURE Add(num1:INTEGER), what is num1?",
+      "correct": "A parameter",
+      "wrong": [
+        "An argument",
+        "A global variable",
+        "A return value"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "In CALL Add(5), what is 5?",
+      "correct": "An argument",
+      "wrong": [
+        "A parameter",
+        "A variable name",
+        "A function"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "What does RETURN do in a function?",
+      "correct": "Sends a value back from the function",
+      "wrong": [
+        "Stops the program completely",
+        "Calls another procedure",
+        "Inputs a value"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "What happens if a function does not use RETURN?",
+      "correct": "The value is lost when the function ends",
+      "wrong": [
+        "The program stops running",
+        "The function runs twice",
+        "Nothing changes"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "What is a local variable?",
+      "correct": "A variable that can only be used inside a subprogram",
+      "wrong": [
+        "A variable used everywhere in a program",
+        "A constant value",
+        "A variable used only in loops"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "What is a global variable?",
+      "correct": "A variable that can be used anywhere in the program",
+      "wrong": [
+        "A variable only used in one subprogram",
+        "A variable that stores output only",
+        "A variable used only for input"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "Why are local variables used in subprograms?",
+      "correct": "To avoid affecting other parts of the program",
+      "wrong": [
+        "To make variables available everywhere",
+        "To increase memory usage",
+        "To replace parameters completely"
+      ]
+    }
+  },
+  {
+    "topicName": "Procedures and Functions",
+    "mcq": {
+      "question": "Why are global variables used?",
+      "correct": "To share data between different parts of the program",
+      "wrong": [
+        "To restrict access to one subprogram",
+        "To stop data being changed",
+        "To reduce program size"
+      ]
+    }
+  },
+
+]
