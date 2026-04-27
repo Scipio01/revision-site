@@ -1895,7 +1895,25 @@ FROM PCSTOCK
 WHERE ScreenSize = 19`
 }
 
+,
+{
+  question: `The table PCSTOCK contains:
 
+ID   Type    Price   ScreenSize
+1    Dell    1500    19
+2    HP      2200    23
+3    Acer    1800    19
+4    Lenovo  900     15
+
+Write an SQL statement to display all fields where Price is less than 2000, sorted by Type in ascending order. [4]`,
+  answer:
+`SELECT *
+FROM PCSTOCK
+WHERE Price < 2000
+ORDER BY Type ASC
+
+(Alternatively: SELECT ID, Type, Price, ScreenSize instead of *)`
+}
     
   ];
 
