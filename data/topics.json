@@ -73,14 +73,7 @@
     "description": "Automation, robotics and artificial intelligence.",
     "hasPractice": false
   },
-  {
-    "id": "databases",
-    "name": "Databases",
-    "level": "gcse",
-    "group": "paper2",
-    "description": "Tables, keys, normalisation and SQL basics.",
-    "hasPractice": false
-  },
+  
   {
     "id": "algorithms",
     "name": "Algorithm Design and Problem Solving",
@@ -135,6 +128,24 @@
   "description": "Maintainable programs and file handling.",
   "hasPractice": false
 },
+
+  {
+  "id": "databasetheory",
+  "name": "Database Theory",
+  "level": "gcse",
+  "group": "paper2",
+  "description": "Fields, records, data types, validation and primary keys.",
+  "hasPractice": true
+},
+{
+  "id": "sql",
+  "name": "SQL",
+  "level": "gcse",
+  "group": "paper2",
+  "description": "Query databases using SELECT, WHERE, ORDER BY, SUM and COUNT.",
+  "hasPractice": true
+},
+
   
   {
     "id": "oop",
