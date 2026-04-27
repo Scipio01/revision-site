@@ -1,1 +1,242 @@
-
+[
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What is Boolean logic?",
+      "correct": "Logic using true or false values",
+      "wrong": [
+        "Logic using only text values",
+        "Logic using decimal values",
+        "Logic using file values"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "Which gate has one input?",
+      "correct": "NOT",
+      "wrong": [
+        "AND",
+        "OR",
+        "XOR"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What does an AND gate output?",
+      "correct": "1 only when both inputs are 1",
+      "wrong": [
+        "1 when either input is 1",
+        "1 when inputs are different",
+        "1 only when both inputs are 0"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What does an OR gate output?",
+      "correct": "1 when at least one input is 1",
+      "wrong": [
+        "1 only when both inputs are 1",
+        "1 only when both inputs are 0",
+        "1 when inputs are different"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What does a NOT gate do?",
+      "correct": "Reverses the input",
+      "wrong": [
+        "Adds two inputs",
+        "Checks both inputs",
+        "Sorts the inputs"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What does a NAND gate output?",
+      "correct": "The opposite of AND",
+      "wrong": [
+        "The same as AND",
+        "The opposite of OR",
+        "The same as XOR"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What does a NOR gate output?",
+      "correct": "The opposite of OR",
+      "wrong": [
+        "The same as OR",
+        "The opposite of AND",
+        "The same as XOR"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What does an XOR gate output?",
+      "correct": "1 when the inputs are different",
+      "wrong": [
+        "1 when both inputs are 1",
+        "1 when both inputs are 0",
+        "1 when inputs are the same"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What is the output of NOT 0?",
+      "correct": "1",
+      "wrong": [
+        "0",
+        "2",
+        "A"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What is the output of 1 AND 0?",
+      "correct": "0",
+      "wrong": [
+        "1",
+        "10",
+        "TRUE"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What is the output of 1 OR 0?",
+      "correct": "1",
+      "wrong": [
+        "0",
+        "10",
+        "FALSE"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What is the output of 1 XOR 1?",
+      "correct": "0",
+      "wrong": [
+        "1",
+        "2",
+        "TRUE"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "Which gate has this output pattern for inputs 00, 01, 10, 11?\n\n0, 0, 0, 1",
+      "correct": "AND",
+      "wrong": [
+        "OR",
+        "NOR",
+        "XOR"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "Which gate has this output pattern for inputs 00, 01, 10, 11?\n\n0, 1, 1, 1",
+      "correct": "OR",
+      "wrong": [
+        "AND",
+        "NAND",
+        "NOR"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "Which gate has this output pattern for inputs 00, 01, 10, 11?\n\n1, 1, 1, 0",
+      "correct": "NAND",
+      "wrong": [
+        "AND",
+        "NOR",
+        "XOR"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "Which gate has this output pattern for inputs 00, 01, 10, 11?\n\n1, 0, 0, 0",
+      "correct": "NOR",
+      "wrong": [
+        "OR",
+        "AND",
+        "XOR"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "Which gate has this output pattern for inputs 00, 01, 10, 11?\n\n0, 1, 1, 0",
+      "correct": "XOR",
+      "wrong": [
+        "OR",
+        "AND",
+        "NAND"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "How many rows are needed in a truth table with two inputs?",
+      "correct": "4",
+      "wrong": [
+        "2",
+        "6",
+        "8"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "How many rows are needed in a truth table with three inputs?",
+      "correct": "8",
+      "wrong": [
+        "3",
+        "4",
+        "6"
+      ]
+    }
+  },
+  {
+    "topicName": "Boolean Logic",
+    "mcq": {
+      "question": "What is the expression for an AND gate with inputs A and B?",
+      "correct": "A AND B",
+      "wrong": [
+        "A OR B",
+        "NOT A",
+        "A XOR B"
+      ]
+    }
+  }
+]
