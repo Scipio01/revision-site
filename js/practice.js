@@ -237,6 +237,13 @@ if (topic === "arrays") {
   introEl.textContent = "Practise exam-style questions. Write your answer on paper or in the box below, then click 'Show answer' to compare with the model answer.";
   return;
 }
+
+if (topic === "filehandling") {
+  titleEl.textContent = "File Handling Practice";
+  introEl.textContent = "Practise exam-style questions. Write your answer on paper or in the box below, then click 'Show answer' to compare with the model answer.";
+  return;
+}
+  
   
   // default
   titleEl.textContent = "Binary Practice";
@@ -337,7 +344,7 @@ function updateModeOptions() {
 modeEl.innerHTML = "";
 
 modeEl.style.display =
-  topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms"
+  topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling"
     ? "none"
     : "inline-block";
   
@@ -348,13 +355,13 @@ const modeWrap = modeEl.closest(".mode-control");
 if (difficultyWrap) {
 
 difficultyWrap.style.display =
-  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" ? "none" : "block";
+  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" ? "none" : "block";
   
 }
 
 if (modeWrap) {
 modeWrap.style.display =
-  topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" ? "none" : "block";
+  topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" ? "none" : "block";
 }
 
 // only show difficulty for NON algorithm topics
