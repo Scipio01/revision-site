@@ -1,0 +1,157 @@
+[
+  {
+    "topicName": "Boolean Logic",
+    "front": "Complete the truth table for a NOT gate:\n\nA Output\n0\n1",
+    "back": "1\n0"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Complete the truth table for an AND gate:\n\nA B Output\n0 0\n0 1\n1 0\n1 1",
+    "back": "0\n0\n0\n1"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Complete the truth table for an OR gate:\n\nA B Output\n0 0\n0 1\n1 0\n1 1",
+    "back": "0\n1\n1\n1"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Complete the truth table for a NAND gate:\n\nA B Output\n0 0\n0 1\n1 0\n1 1",
+    "back": "1\n1\n1\n0"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Complete the truth table for a NOR gate:\n\nA B Output\n0 0\n0 1\n1 0\n1 1",
+    "back": "1\n0\n0\n0"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Complete the truth table for an XOR (EOR) gate:\n\nA B Output\n0 0\n0 1\n1 0\n1 1",
+    "back": "0\n1\n1\n0"
+  },
+
+  {
+    "topicName": "Boolean Logic",
+    "front": "What does a NOT gate do?",
+    "back": "It reverses the input (0 becomes 1, 1 becomes 0)."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "How many inputs does a NOT gate have?",
+    "back": "One input."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "What does an AND gate do?",
+    "back": "It outputs 1 only if both inputs are 1."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "What does an OR gate do?",
+    "back": "It outputs 1 if at least one input is 1."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "What does a NAND gate do?",
+    "back": "It outputs the opposite of AND (only 0 when both inputs are 1)."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "What does a NOR gate do?",
+    "back": "It outputs the opposite of OR (only 1 when both inputs are 0)."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "What does an XOR gate do?",
+    "back": "It outputs 1 if the inputs are different."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "What does XOR stand for?",
+    "back": "Exclusive OR (EOR)."
+  },
+
+  {
+    "topicName": "Boolean Logic",
+    "front": "What is a truth table?",
+    "back": "A table showing all possible inputs and their outputs."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "How many rows are in a truth table with 2 inputs?",
+    "back": "4 rows."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "How many rows are in a truth table with 3 inputs?",
+    "back": "8 rows."
+  },
+
+  {
+    "topicName": "Boolean Logic",
+    "front": "What is a logic expression?",
+    "back": "A way of writing a circuit using logic operators like AND, OR and NOT."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Write the expression for an AND gate with inputs A and B.",
+    "back": "A AND B"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Write the expression for an OR gate with inputs A and B.",
+    "back": "A OR B"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Write the expression for a NOT gate with input A.",
+    "back": "NOT A"
+  },
+
+  {
+    "topicName": "Boolean Logic",
+    "front": "What does a logic circuit do?",
+    "back": "It processes inputs to produce an output."
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "What is the output of an AND gate when inputs are 1 and 0?",
+    "back": "0"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "What is the output of an OR gate when inputs are 0 and 1?",
+    "back": "1"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "What is the output of a NOT gate when the input is 0?",
+    "back": "1"
+  },
+
+  {
+    "topicName": "Boolean Logic",
+    "front": "Which gate has the output:\n\nA B Output\n0 0 0\n0 1 0\n1 0 0\n1 1 1",
+    "back": "AND"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Which gate has the output:\n\nA B Output\n0 0 0\n0 1 1\n1 0 1\n1 1 1",
+    "back": "OR"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Which gate has the output:\n\nA B Output\n0 0 1\n0 1 1\n1 0 1\n1 1 0",
+    "back": "NAND"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Which gate has the output:\n\nA B Output\n0 0 1\n0 1 0\n1 0 0\n1 1 0",
+    "back": "NOR"
+  },
+  {
+    "topicName": "Boolean Logic",
+    "front": "Which gate has the output:\n\nA B Output\n0 0 0\n0 1 1\n1 0 1\n1 1 0",
+    "back": "XOR (EOR)"
+  }
+]
