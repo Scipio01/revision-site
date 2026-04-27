@@ -1264,6 +1264,127 @@ ENDFUNCTION`
   runExamMode(questions);
   return;
 } 
+
+// ===== FILE-01 =====
+if (topic === "filehandling") {
+  const questions = [
+    {
+      question: "State what is meant by file handling. [1]",
+      answer: "Reading data from and writing data to files."
+    },
+    {
+      question: "State one reason why data is stored in a file. [1]",
+      answer: "To store data permanently so it is not lost when the program ends."
+    },
+    {
+      question: "Explain why data in RAM is lost when the power is turned off. [2]",
+      answer: "RAM is volatile memory, so it cannot store data without power."
+    },
+    {
+      question: "Write pseudocode to open a file called names.txt for reading. [1]",
+      answer: `OPENFILE "names.txt" FOR READ`
+    },
+    {
+      question: "Write pseudocode to open a file called data.txt for writing. [1]",
+      answer: `OPENFILE "data.txt" FOR WRITE`
+    },
+    {
+      question: "What happens to the old contents of a file when it is opened in WRITE mode? [2]",
+      answer: "The old data in the file is deleted so new data can be written."
+    },
+    {
+      question: "A file called scores.txt contains numbers.\n\nWrite pseudocode to read one value from scores.txt into a variable called score. [2]",
+      answer:
+`OPENFILE "scores.txt" FOR READ
+READFILE "scores.txt", score`
+    },
+    {
+      question: "A variable Name stores the value \"Ali\".\n\nWrite pseudocode to write this value into a file called names.txt. [2]",
+      answer:
+`OPENFILE "names.txt" FOR WRITE
+WRITEFILE "names.txt", Name`
+    },
+    {
+      question: "A file called file.txt contains one value.\n\nWrite pseudocode to read the value from the file and output it. [3]",
+      answer:
+`OPENFILE "file.txt" FOR READ
+READFILE "file.txt", value
+OUTPUT value`
+    },
+    {
+      question: "A variable value stores some data.\n\nWrite pseudocode to write value to a file called file.txt and ensure it is saved. [3]",
+      answer:
+`OPENFILE "file.txt" FOR WRITE
+WRITEFILE "file.txt", value
+CLOSEFILE "file.txt"`
+    },
+    {
+      question: "The file names.txt contains:\n\nFred\nJane\nAli\n\nWhat is the output of this code?\n\nOPENFILE \"names.txt\" FOR READ\nREADFILE \"names.txt\", name\nOUTPUT name\nCLOSEFILE \"names.txt\"",
+      answer: "Fred (READFILE reads the first value or line from the file.)"
+    },
+    {
+      question: "The file scores.txt contains:\n\n10\n20\n30\n\nWhat is stored in the variable score after this code?\n\nOPENFILE \"scores.txt\" FOR READ\nREADFILE \"scores.txt\", score",
+      answer: "10"
+    },
+    {
+      question: "Explain why CLOSEFILE must be used after writing to a file. [2]",
+      answer: "Data may not be fully saved until the file is closed."
+    },
+    {
+      question: "The following code reads from a file:\n\nOPENFILE \"names.txt\" FOR READ\nREADFILE \"names.txt\", names\nOUTPUT names\n\nWhat is the problem with this code? [2]",
+      answer: "The same name is used for the file and the variable. The file is names.txt, so the variable should have a different name, such as name."
+    },
+    {
+      question: "Write pseudocode to ask the user for a name and store it in names.txt. [4]",
+      answer:
+`DECLARE Name : STRING
+OUTPUT "Enter a name"
+INPUT Name
+OPENFILE "names.txt" FOR WRITE
+WRITEFILE "names.txt", Name
+CLOSEFILE "names.txt"`
+    },
+    {
+      question: "A file called customers.txt stores one customer record on each line.\n\nWrite pseudocode to read one line from customers.txt and output it. [3]",
+      answer:
+`OPENFILE "customers.txt" FOR READ
+READFILE "customers.txt", LineOfText
+OUTPUT LineOfText
+CLOSEFILE "customers.txt"`
+    },
+    {
+      question: "A user enters their forename and surname.\n\nWrite pseudocode to join these into one line and write the line to UserNames.txt. [5]",
+      answer:
+`DECLARE Forename : STRING
+DECLARE Surname : STRING
+DECLARE LineOfText : STRING
+
+OUTPUT "Enter your forename"
+INPUT Forename
+OUTPUT "Enter your surname"
+INPUT Surname
+
+LineOfText ← Forename + " " + Surname
+
+OPENFILE "UserNames.txt" FOR WRITE
+WRITEFILE "UserNames.txt", LineOfText
+CLOSEFILE "UserNames.txt"`
+    }
+  ];
+
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Write your answer on paper or in the box below, then click “Show answer” to compare with the model answer.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
+
+  runExamMode(questions);
+  return;
+}
+
+  
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
