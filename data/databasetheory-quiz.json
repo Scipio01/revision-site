@@ -1,1 +1,254 @@
-
+[
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "What is a database?",
+      "correct": "A structured collection of data",
+      "wrong": [
+        "A program that processes data",
+        "A type of hardware",
+        "A single variable"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "What is a table in a database?",
+      "correct": "A structure that stores data in rows and columns",
+      "wrong": [
+        "A list of variables",
+        "A type of file",
+        "A program"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "What is a field?",
+      "correct": "A column that stores one type of data",
+      "wrong": [
+        "A row of data",
+        "A whole table",
+        "A database"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "What is a record?",
+      "correct": "A row that stores data about one item",
+      "wrong": [
+        "A column of data",
+        "A database",
+        "A data type"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "What is a data type?",
+      "correct": "The type of data that can be stored in a field",
+      "wrong": [
+        "A type of table",
+        "A type of record",
+        "A database rule"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which of these is a Boolean data type?",
+      "correct": "TRUE",
+      "wrong": [
+        "10",
+        "Hello",
+        "12.5"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which data type stores whole numbers?",
+      "correct": "Integer",
+      "wrong": [
+        "Real",
+        "Boolean",
+        "Text"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which data type stores decimal numbers?",
+      "correct": "Real",
+      "wrong": [
+        "Integer",
+        "Boolean",
+        "Character"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which data type stores a single character?",
+      "correct": "Character",
+      "wrong": [
+        "Text",
+        "Integer",
+        "Real"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which data type is most suitable for a name?",
+      "correct": "Text",
+      "wrong": [
+        "Boolean",
+        "Integer",
+        "Real"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "What is a primary key?",
+      "correct": "A field that uniquely identifies each record",
+      "wrong": [
+        "A field that stores numbers",
+        "A field that can repeat",
+        "A type of validation"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Why is a primary key used?",
+      "correct": "To identify each record uniquely",
+      "wrong": [
+        "To store large data",
+        "To improve speed",
+        "To sort data"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which is the best primary key?",
+      "correct": "A value that is unique for every record",
+      "wrong": [
+        "A value that repeats often",
+        "A value that is text only",
+        "A value that changes frequently"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "What is validation?",
+      "correct": "Checking that data is sensible and follows rules",
+      "wrong": [
+        "Storing data in a file",
+        "Deleting incorrect data",
+        "Sorting data"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Why is validation used?",
+      "correct": "To prevent invalid data being entered",
+      "wrong": [
+        "To speed up programs",
+        "To store more data",
+        "To remove duplicates"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which is a range check?",
+      "correct": "Age must be between 0 and 120",
+      "wrong": [
+        "Name must not be empty",
+        "Password must be 8 characters",
+        "Email must contain @"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which is a length check?",
+      "correct": "Password must be at least 8 characters",
+      "wrong": [
+        "Age must be between 0 and 120",
+        "Name must not be empty",
+        "Value must be a number"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which is a presence check?",
+      "correct": "A value must be entered",
+      "wrong": [
+        "Value must be between two numbers",
+        "Value must match a pattern",
+        "Value must be a number"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which is a format check?",
+      "correct": "A postcode must match a pattern",
+      "wrong": [
+        "Value must be entered",
+        "Value must be between limits",
+        "Value must be a number"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "Which is a type check?",
+      "correct": "Ensuring a value is an integer",
+      "wrong": [
+        "Checking length of text",
+        "Checking format of email",
+        "Checking if value exists"
+      ]
+    }
+  },
+  {
+    "topicName": "Database Theory",
+    "mcq": {
+      "question": "What is a single-table database?",
+      "correct": "A database with all data stored in one table",
+      "wrong": [
+        "A database with no tables",
+        "A database with many tables",
+        "A database with no fields"
+      ]
+    }
+  }
+]
