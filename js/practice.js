@@ -1177,6 +1177,12 @@ if (topic === "maintainableprograms") {
       question: "State two features of a maintainable program. [2]",
       answer: "Meaningful identifiers, comments, indentation, or use of procedures and functions."
     },
+
+    {
+      question: "State what is meant by an identifier. [1]",
+      answer: "A name given to a variable, constant, array or subprogram."
+    },
+    
     {
       question: "Explain why meaningful identifiers improve maintainability. [2]",
       answer: "They make the code easier to understand by showing what variables or subprograms are used for."
