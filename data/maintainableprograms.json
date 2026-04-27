@@ -1,0 +1,92 @@
+[
+  {
+    "topicName": "Maintainable Programs",
+    "front": "What is a maintainable program?",
+    "back": "A program that is easy to read, understand, test and modify."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "Why is it important for programs to be maintainable?",
+    "back": "So they can be easily updated, fixed and improved by any programmer."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "What features make a program maintainable?",
+    "back": "Meaningful identifiers, comments, indentation, and use of procedures and functions."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "What is meant by a meaningful identifier?",
+    "back": "A name that clearly describes what the variable or subprogram is used for."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "Give an example of a meaningful identifier",
+    "back": "totalScore is better than x"
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "Where should meaningful identifiers be used?",
+    "back": "For variables, constants, arrays, procedures and functions."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "What are comments in a program?",
+    "back": "Explanations written in code that are not executed."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "Why are comments used?",
+    "back": "To help programmers understand what the code does."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "When should comments be used?",
+    "back": "To explain complex or difficult parts of code and at the start of subprograms."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "When should comments NOT be used?",
+    "back": "Not for obvious code or every single line."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "What is indentation?",
+    "back": "Spacing used to show the structure of code."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "Why is indentation important?",
+    "back": "It makes code easier to read and shows which statements belong together."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "What is modular programming?",
+    "back": "Breaking a program into smaller subprograms."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "Why is modular programming useful?",
+    "back": "It makes code easier to test, reuse and maintain."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "How do procedures and functions improve maintainability?",
+    "back": "They allow code to be reused and organised into smaller parts."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "What is meant by reusable code?",
+    "back": "Code that can be used multiple times in the same or different programs."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "Why should hard-coded values be avoided?",
+    "back": "Because they make programs harder to change and maintain."
+  },
+  {
+    "topicName": "Maintainable Programs",
+    "front": "What should be used instead of hard-coded values?",
+    "back": "Variables or constants."
+  }
+]
