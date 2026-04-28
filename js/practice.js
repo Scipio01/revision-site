@@ -1966,7 +1966,6 @@ ORDER BY Type ASC
   return;
 }
 
-
 // ===== BOOLEAN LOGIC =====
 if (topic === "booleanlogic") {
   const booleanModeButtons = document.getElementById("booleanModeButtons");
@@ -1994,178 +1993,77 @@ if (topic === "booleanlogic") {
 
   let questions = [];
 
- if (booleanMode === "basic") {
-  questions = [
-    {
-      question: `Complete the output column of the truth table for this circuit:
+  if (booleanMode === "basic") {
+    questions = [
+      {
+        question: `Complete the output column of the truth table for this circuit:
 
 <img src="images/boolean/circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`
-    },
-    {
-      question: `<img src="images/boolean/circuit-basic-output-02.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-02.png" style="max-width:100%;">`
-    },
-    {
-      question: `<img src="images/boolean/circuit-basic-output-03.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-03.png" style="max-width:100%;">`
-    },
-    {
-      question: `<img src="images/boolean/circuit-basic-output-04.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-04.png" style="max-width:100%;">`
-    },
-    {
-      question: `<img src="images/boolean/circuit-basic-output-05.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-05.png" style="max-width:100%;">`
-    }
-  ];
-}
+        answer: `<img src="images/boolean/ms-circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`
+      },
+      {
+        question: `<img src="images/boolean/circuit-basic-output-02.png" style="max-width:100%;">`,
+        answer: `<img src="images/boolean/ms-circuit-basic-output-02.png" style="max-width:100%;">`
+      },
+      {
+        question: `<img src="images/boolean/circuit-basic-output-03.png" style="max-width:100%;">`,
+        answer: `<img src="images/boolean/ms-circuit-basic-output-03.png" style="max-width:100%;">`
+      },
+      {
+        question: `<img src="images/boolean/circuit-basic-output-04.png" style="max-width:100%;">`,
+        answer: `<img src="images/boolean/ms-circuit-basic-output-04.png" style="max-width:100%;">`
+      },
+      {
+        question: `<img src="images/boolean/circuit-basic-output-05.png" style="max-width:100%;">`,
+        answer: `<img src="images/boolean/ms-circuit-basic-output-05.png" style="max-width:100%;">`
+      }
+    ];
+  } else if (booleanMode === "medium") {
+    questions = [
+      {
+        question: `<img src="images/boolean/circuit-medium-output-01.png" style="max-width:100%;">`,
+        answer: `<img src="images/boolean/ms-circuit-medium-output-01.png" style="max-width:100%;">`
+      },
+      {
+        question: `<img src="images/boolean/circuit-medium-output-02.png" style="max-width:100%;">`,
+        answer: `<img src="images/boolean/ms-circuit-medium-output-02.png" style="max-width:100%;">`
+      },
+      {
+        question: `<img src="images/boolean/circuit-medium-output-03.png" style="max-width:100%;">`,
+        answer: `<img src="images/boolean/ms-circuit-medium-output-03.png" style="max-width:100%;">`
+      },
+      {
+        question: `<img src="images/boolean/circuit-medium-output-04.png" style="max-width:100%;">`,
+        answer: `<img src="images/boolean/ms-circuit-medium-output-04.png" style="max-width:100%;">`
+      },
+      {
+        question: `<img src="images/boolean/circuit-medium-output-05.png" style="max-width:100%;">`,
+        answer: `<img src="images/boolean/ms-circuit-medium-output-05.png" style="max-width:100%;">`
+      }
+    ];
+  } else {
+    questions = [
+      {
+        question: "Choose Basic Circuits or GCSE Circuits to practise the connected image questions.",
+        answer: "More Boolean Logic sections will be connected next."
+      }
+    ];
+  }
 
   if (writeTip) {
     writeTip.style.display = "block";
     writeTip.textContent =
       "✍️ Choose a Boolean Logic section, complete the question on paper, then click “Show answer” to compare with the mark scheme.";
   }
-document.getElementById("answer").classList.add("exam-answer");
 
-nextBtn.style.display = "inline-flex";
+  document.getElementById("answer").classList.add("exam-answer");
 
-runExamMode(questions);
-return;
-  
-}
-  
-else if (booleanMode === "medium") {
-  questions = [
-    {
-      question: `<img src="images/boolean/circuit-medium-output-01.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-medium-output-01.png" style="max-width:100%;">`
-    },
-    {
-      question: `<img src="images/boolean/circuit-medium-output-02.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-medium-output-02.png" style="max-width:100%;">`
-    },
-    {
-      question: `<img src="images/boolean/circuit-medium-output-03.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-medium-output-03.png" style="max-width:100%;">`
-    },
-    {
-      question: `<img src="images/boolean/circuit-medium-output-04.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-medium-output-04.png" style="max-width:100%;">`
-    },
-    {
-      question: `<img src="images/boolean/circuit-medium-output-05.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-medium-output-05.png" style="max-width:100%;">`
-    }
-  ];
-}
-  
-if (topic === "tracetables") {
-  difficultyEl.style.display = "none";
-  modeEl.style.display = "none";
+  nextBtn.style.display = "inline-flex";
 
-  flowchartModeButtons.style.display = "flex";
-  flowchartModeButtons.innerHTML = `
-    <button type="button" id="tracePseudoBtn" class="button ${window.traceTableMode === "pseudocode" ? "btn-primary" : "btn-secondary"}">Pseudocode questions</button>
-    <button type="button" id="traceFlowBtn" class="button ${window.traceTableMode === "flowchart" ? "btn-primary" : "btn-secondary"}">Flowchart questions</button>
-  `;
-
-  document.getElementById("tracePseudoBtn").addEventListener("click", () => {
-    window.traceTableMode = "pseudocode";
-    questionNumber = 1;
-    generateQuestion();
-  });
-
-  document.getElementById("traceFlowBtn").addEventListener("click", () => {
-    window.traceTableMode = "flowchart";
-    questionNumber = 1;
-    generateQuestion();
-  });
-
-  if (writeTip) {
-    writeTip.style.display = "none";
-  }
-
-} else if (topic === "flowcharts") {
-  
-
-  flowchartModeButtons.style.display = "block";
-
-  if (mode === "draw") {
-    if (writeTip) {
-      writeTip.style.display = "block";
-      writeTip.textContent = "✍️ Draw your flowchart on paper before clicking “Show solution”. Then compare your answer.";
-    }
-  } else {
-    if (writeTip) writeTip.style.display = "none";
-  }
-
-} else {
-  flowchartModeButtons.style.display = "none";
-
-  if (topic === "pseudocode") {
-    if (writeTip) {
-      writeTip.style.display = "block";
-      writeTip.textContent = "✍️ Write your answer on paper before clicking “Show answer”. Then compare your solution with the model answer.";
-    }
-
-  } else if (topicTips[topic]) {
-    if (writeTip) {
-      writeTip.style.display = "block";
-      writeTip.textContent = topicTips[topic];
-    }
-
-  } else {
-    if (writeTip) writeTip.style.display = "none";
-  }
+  runExamMode(questions);
+  return;
 }
 
-  
-  if (topic === "pseudocode") {
-   const pseudoCategory = window.pseudoCategory || "inputoutput";
-  
-    const filteredQuestions = pseudoCategory === "all"
-      ? window.pseudocodeQuestions
-      : window.pseudocodeQuestions.filter(q => q.category === pseudoCategory);
-  
-    statsBox.innerHTML =
-      `<div class="stat-box">Question: ${questionNumber}/${filteredQuestions.length}</div>`;
-    pseudoCategoryWrap.style.display = "block";
-  } else {
-
-if (topic === "stringhandling") {
-  statsBox.innerHTML =
-  `<div class="stat-box">Question: ${questionNumber}/5</div>`;
-} else {
-
-  
-  statsBox.innerHTML =
-    `<div class="stat-box">Correct: <span id="correctCount">${correctCount}</span></div>
-     <div class="stat-box">Incorrect: <span id="incorrectCount">${incorrectCount}</span></div>
-     <div class="stat-box">Streak: <span id="streakCount">${currentStreak}</span></div>
-     <div class="stat-box">Best: <span id="bestStreakCount">${bestStreak}</span></div>
-     
-     <div class="stat-box">Question: <span id="questionNumber">${questionNumber}</span> /
-     <span id="totalQuestions">${
-       topic === "standardalgorithms" ? 5 :
-       topic === "validationchecks" ? 5 :
-       topic === "verificationchecks" ? 4 :
-       topic === "errortypes" ? 10 :
-       topic === "testdata" ? 10 :
-       topic === "validationexam" ? 5 :
-       topic === "tracetables" ? 6 :
-       10
-     }</span></div>`;
-}
-
-
-pseudoCategoryWrap.style.display = "none";
-}
-
-  if (topic !== "tracetables") {
-    document.getElementById("answer").parentElement.style.display = "block";
-  }
-  hintBtn.style.display = "none";
 
  if (topic === "tracetables") {
   statsBox.style.display = "none";
