@@ -1965,6 +1965,23 @@ ORDER BY Type ASC
   return;
 }
 
+
+if (topic === "booleanlogic") {
+  const questions = [
+    {
+      question: `Complete the output column of the truth table for this circuit:
+
+<img src="images/boolean/circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`,
+      answer: `<img src="images/boolean/ms-circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`
+    }
+  ];
+
+  runExamMode(questions);
+  return;
+}
+
+  
+
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
