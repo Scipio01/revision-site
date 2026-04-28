@@ -1,4 +1,39 @@
+const TOPIC_NAMES = {
+  binary: "Binary",
+  binshift: "Binary Shifts",
+  binadd: "Binary Addition",
+  hex: "Hex",
+  twos: "Two’s Complement",
+  overflow: "Overflow",
+  sound: "Sound",
+  text: "ASCII / Unicode",
+  flowcharts: "Flowcharts",
+  standardalgorithms: "Standard Algorithms",
+  validationchecks: "Validation Checks",
+  verificationchecks: "Verification",
+  validationexam: "Validation and Verification Exam",
+  errortypes: "Error Types",
+  testdata: "Test Data",
+  tracetables: "Trace Tables",
+  pseudocode: "Pseudocode",
+  stringhandling: "String Handling",
+  operations: "Operations",
+  sequence: "Sequence",
+  selection: "Selection",
+  iteration: "Iteration",
+  libraryroutines: "Library Routines",
+  arrays: "Arrays",
+  procedures: "Procedures and Functions",
+  maintainableprograms: "Maintainable Programs",
+  filehandling: "File Handling",
+  databasetheory: "Database Theory",
+  sql: "SQL",
+  booleanlogic: "Boolean Logic"
+};
+
 let currentQuestion = "";
+
+
 let currentAnswer = "";
 let currentQuestionType = "";
 let currentSourceValue = 0;
@@ -256,9 +291,10 @@ if (topic === "databasetheory") {
   return;
 }
   
-  // default
-  titleEl.textContent = "Binary Practice";
-  introEl.textContent = "Practise converting between denary and binary with instant feedback and working.";
+ // default
+const displayName = TOPIC_NAMES[topic] || topic;
+titleEl.textContent = `${displayName} Practice`;
+introEl.textContent = "Practise questions for this topic.";
 }
 
 function getTopic() {
