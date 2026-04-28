@@ -1994,31 +1994,37 @@ if (topic === "booleanlogic") {
   let questions = [];
 
   if (booleanMode === "basic") {
-    questions = [
-      {
-        question: `Complete the output column of the truth table for this circuit:
 
+  const instruction = `Complete the output column of the truth table for this circuit.`;
+
+  questions = [
+    {
+      question: `${instruction}<br><br>
 <img src="images/boolean/circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`,
-        answer: `<img src="images/boolean/ms-circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`
-      },
-      {
-        question: `<img src="images/boolean/circuit-basic-output-02.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-circuit-basic-output-02.png" style="max-width:100%;">`
-      },
-      {
-        question: `<img src="images/boolean/circuit-basic-output-03.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-circuit-basic-output-03.png" style="max-width:100%;">`
-      },
-      {
-        question: `<img src="images/boolean/circuit-basic-output-04.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-circuit-basic-output-04.png" style="max-width:100%;">`
-      },
-      {
-        question: `<img src="images/boolean/circuit-basic-output-05.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-circuit-basic-output-05.png" style="max-width:100%;">`
-      }
-    ];
-  } 
+      answer: `<img src="images/boolean/ms-circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-basic-output-02.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-basic-output-02.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-basic-output-03.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-basic-output-03.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-basic-output-04.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-basic-output-04.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-basic-output-05.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-basic-output-05.png" style="max-width:100%;">`
+    }
+  ];
+}
   
  else if (booleanMode === "medium") {
 
