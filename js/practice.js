@@ -2035,7 +2035,30 @@ return;
   
 }
   
-
+else if (booleanMode === "medium") {
+  questions = [
+    {
+      question: `<img src="images/boolean/circuit-medium-output-01.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-medium-output-01.png" style="max-width:100%;">`
+    },
+    {
+      question: `<img src="images/boolean/circuit-medium-output-02.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-medium-output-02.png" style="max-width:100%;">`
+    },
+    {
+      question: `<img src="images/boolean/circuit-medium-output-03.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-medium-output-03.png" style="max-width:100%;">`
+    },
+    {
+      question: `<img src="images/boolean/circuit-medium-output-04.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-medium-output-04.png" style="max-width:100%;">`
+    },
+    {
+      question: `<img src="images/boolean/circuit-medium-output-05.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-medium-output-05.png" style="max-width:100%;">`
+    }
+  ];
+}
   
 if (topic === "tracetables") {
   difficultyEl.style.display = "none";
