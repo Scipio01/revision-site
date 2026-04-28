@@ -44,6 +44,7 @@ let bestStreak = 0;
 let questionNumber = 0;
 let totalQuestions = 10;
 let selectedAlgorithmMode = "identify";
+let booleanMode = "gates";
 let soundQuestionCount = 0;
 let drawQuestionIndex = 0;
 let lastFlowchartAnswer = "";
@@ -1966,20 +1967,62 @@ ORDER BY Type ASC
 }
 
 
+// ===== BOOLEAN LOGIC =====
 if (topic === "booleanlogic") {
-  const questions = [
-    {
-      question: `Complete the output column of the truth table for this circuit:
+  const booleanModeButtons = document.getElementById("booleanModeButtons");
+
+  if (booleanModeButtons) {
+    booleanModeButtons.style.display = "flex";
+    booleanModeButtons.innerHTML = `
+      <button type="button" class="button ${booleanMode === "gates" ? "btn-primary" : "btn-secondary"}" data-mode="gates">Gates</button>
+      <button type="button" class="button ${booleanMode === "tables" ? "btn-primary" : "btn-secondary"}" data-mode="tables">Gate Truth Tables</button>
+      <button type="button" class="button ${booleanMode === "basic" ? "btn-primary" : "btn-secondary"}" data-mode="basic">Basic Circuits</button>
+      <button type="button" class="button ${booleanMode === "medium" ? "btn-primary" : "btn-secondary"}" data-mode="medium">GCSE Circuits</button>
+      <button type="button" class="button ${booleanMode === "allgates" ? "btn-primary" : "btn-secondary"}" data-mode="allgates">All Gates Circuits</button>
+      <button type="button" class="button ${booleanMode === "expressions" ? "btn-primary" : "btn-secondary"}" data-mode="expressions">Expressions</button>
+      <button type="button" class="button ${booleanMode === "extra" ? "btn-primary" : "btn-secondary"}" data-mode="extra">Extra Exam Questions</button>
+    `;
+
+    booleanModeButtons.querySelectorAll("button").forEach(btn => {
+      btn.onclick = () => {
+        booleanMode = btn.dataset.mode;
+        questionNumber = 1;
+        generateQuestion();
+      };
+    });
+  }
+
+  let questions = [];
+
+  if (booleanMode === "basic") {
+    questions = [
+      {
+        question: `Complete the output column of the truth table for this circuit:
 
 <img src="images/boolean/circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`
-    }
-  ];
+        answer: `<img src="images/boolean/ms-circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`
+      }
+    ];
+  } else {
+    questions = [
+      {
+        question: "Choose Basic Circuits to test the first image set.",
+        answer: "The other Boolean Logic sections will be connected next."
+      }
+    ];
+  }
+
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Choose a Boolean Logic section, complete the question on paper, then click “Show answer” to compare with the mark scheme.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
 
   runExamMode(questions);
   return;
 }
-
   
 
   
