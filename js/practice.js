@@ -2021,37 +2021,39 @@ if (topic === "booleanlogic") {
   } 
   
  else if (booleanMode === "medium") {
+
+  const instruction = `Complete the trace table for the logic circuit shown.
+
+You may find it helpful to label each gate’s output with a letter and use these to complete the table.`;
+
   questions = [
     {
-      question: `Complete the trace table for the logic circuit shown.
-
-You may find it helpful to label each gate’s output with a letter and use these to complete the table.
-
+      question: `${instruction}<br><br>
 <img src="images/boolean/circuit-medium-output-01.png" style="max-width:100%;">`,
       answer: `<img src="images/boolean/ms-circuit-medium-output-01.png" style="max-width:100%;">`
     },
-      {
-        question: `<img src="images/boolean/circuit-medium-output-01.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-circuit-medium-output-01.png" style="max-width:100%;">`
-      },
-      {
-        question: `<img src="images/boolean/circuit-medium-output-02.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-circuit-medium-output-02.png" style="max-width:100%;">`
-      },
-      {
-        question: `<img src="images/boolean/circuit-medium-output-03.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-circuit-medium-output-03.png" style="max-width:100%;">`
-      },
-      {
-        question: `<img src="images/boolean/circuit-medium-output-04.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-circuit-medium-output-04.png" style="max-width:100%;">`
-      },
-      {
-        question: `<img src="images/boolean/circuit-medium-output-05.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-circuit-medium-output-05.png" style="max-width:100%;">`
-      }
-    ];
-  } else {
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-medium-output-02.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-medium-output-02.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-medium-output-03.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-medium-output-03.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-medium-output-04.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-medium-output-04.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-medium-output-05.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-medium-output-05.png" style="max-width:100%;">`
+    }
+  ];
+} else {
     questions = [
       {
         question: "Choose Basic Circuits or GCSE Circuits to practise the connected image questions.",
