@@ -2026,11 +2026,13 @@ if (topic === "booleanlogic") {
     writeTip.textContent =
       "✍️ Choose a Boolean Logic section, complete the question on paper, then click “Show answer” to compare with the mark scheme.";
   }
+document.getElementById("answer").classList.add("exam-answer");
 
-  document.getElementById("answer").classList.add("exam-answer");
+nextBtn.style.display = "inline-flex";
 
-  runExamMode(questions);
-  return;
+runExamMode(questions);
+return;
+  
 }
   
 
