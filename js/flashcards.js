@@ -35,12 +35,19 @@ async function getTopicDisplayName(topic) {
 
 document.addEventListener('DOMContentLoaded', async () => {
   const topic = getSelectedTopic();
-  topicDisplayName = await getTopicDisplayName(topic);
+
+topicDisplayName = await getTopicDisplayName(topic);
+document.getElementById('quizLink').href = `quiz.html?topic=${topic}`;
+const res = await fetch(`data/${topic}.json`);
+cards = await res.json();
+
+if (cards.length && cards[0].topicName) {
+  topicDisplayName = cards[0].topicName;
+}
+
 document.getElementById('topicTitle').textContent = topicDisplayName;
+
   
-  document.getElementById('quizLink').href = `quiz.html?topic=${topic}`;
-  const res = await fetch(`data/${topic}.json`);
-  cards = await res.json();
   markTopicVisited(topic);
   renderCard();
   await showPracticeLinkIfAvailable(topic);
