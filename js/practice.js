@@ -2018,8 +2018,18 @@ if (topic === "booleanlogic") {
         answer: `<img src="images/boolean/ms-circuit-basic-output-05.png" style="max-width:100%;">`
       }
     ];
-  } else if (booleanMode === "medium") {
-    questions = [
+  } 
+  
+ else if (booleanMode === "medium") {
+  questions = [
+    {
+      question: `Complete the trace table for the logic circuit shown.
+
+You may find it helpful to label each gate’s output with a letter and use these to complete the table.
+
+<img src="images/boolean/circuit-medium-output-01.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-medium-output-01.png" style="max-width:100%;">`
+    },
       {
         question: `<img src="images/boolean/circuit-medium-output-01.png" style="max-width:100%;">`,
         answer: `<img src="images/boolean/ms-circuit-medium-output-01.png" style="max-width:100%;">`
