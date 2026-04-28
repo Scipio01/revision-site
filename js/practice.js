@@ -1994,23 +1994,32 @@ if (topic === "booleanlogic") {
 
   let questions = [];
 
-  if (booleanMode === "basic") {
-    questions = [
-      {
-        question: `Complete the output column of the truth table for this circuit:
+ if (booleanMode === "basic") {
+  questions = [
+    {
+      question: `Complete the output column of the truth table for this circuit:
 
 <img src="images/boolean/circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`,
-        answer: `<img src="images/boolean/ms-circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`
-      }
-    ];
-  } else {
-    questions = [
-      {
-        question: "Choose Basic Circuits to test the first image set.",
-        answer: "The other Boolean Logic sections will be connected next."
-      }
-    ];
-  }
+      answer: `<img src="images/boolean/ms-circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`
+    },
+    {
+      question: `<img src="images/boolean/circuit-basic-output-02.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-basic-output-02.png" style="max-width:100%;">`
+    },
+    {
+      question: `<img src="images/boolean/circuit-basic-output-03.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-basic-output-03.png" style="max-width:100%;">`
+    },
+    {
+      question: `<img src="images/boolean/circuit-basic-output-04.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-basic-output-04.png" style="max-width:100%;">`
+    },
+    {
+      question: `<img src="images/boolean/circuit-basic-output-05.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-basic-output-05.png" style="max-width:100%;">`
+    }
+  ];
+}
 
   if (writeTip) {
     writeTip.style.display = "block";
