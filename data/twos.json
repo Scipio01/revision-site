@@ -1,0 +1,42 @@
+[
+  {
+    "topicName": "Two's Complement",
+    "front": "What is two’s complement used for?",
+    "back": "To represent negative numbers in binary."
+  },
+  {
+    "topicName": "Two's Complement",
+    "front": "What is the first step to find two’s complement?",
+    "back": "Write the positive binary number."
+  },
+  {
+    "topicName": "Two's Complement",
+    "front": "What is the second step in two’s complement?",
+    "back": "Invert all the bits (change 0s to 1s and 1s to 0s)."
+  },
+  {
+    "topicName": "Two's Complement",
+    "front": "What is the final step in two’s complement?",
+    "back": "Add 1 to the inverted binary number."
+  },
+  {
+    "topicName": "Two's Complement",
+    "front": "How do you recognise a negative number in two’s complement?",
+    "back": "The leftmost bit (most significant bit) is 1."
+  },
+  {
+    "topicName": "Two's Complement",
+    "front": "How do you recognise a positive number in two’s complement?",
+    "back": "The leftmost bit is 0."
+  },
+  {
+    "topicName": "Two's Complement",
+    "front": "What happens if overflow occurs in two’s complement?",
+    "back": "The result is incorrect because it exceeds the number of bits available."
+  },
+  {
+    "topicName": "Two's Complement",
+    "front": "Why is two’s complement useful?",
+    "back": "It allows both positive and negative numbers to be stored and calculated easily."
+  }
+]
