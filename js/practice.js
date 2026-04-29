@@ -1977,18 +1977,17 @@ if (topic === "booleanlogic") {
   if (booleanModeButtons) {
     booleanModeButtons.style.display = "flex";
     booleanModeButtons.innerHTML = `
-      <button type="button" class="button ${booleanMode === "basic" ? "btn-primary" : "btn-secondary"}" data-mode="basic">Basic Circuits</button>
-      <button type="button" class="button ${booleanMode === "medium" ? "btn-primary" : "btn-secondary"}" data-mode="medium">GCSE Circuits</button>
-      <button type="button" class="button ${booleanMode === "allgates" ? "btn-primary" : "btn-secondary"}" data-mode="allgates">All Gates Circuits</button>
-     
-      <button type="button" class="button ${booleanMode === "exprcircuit" ? "btn-primary" : "btn-secondary"}" data-mode="exprcircuit">Expression → Circuit Easy</button>
-
-      <button type="button" class="button ${booleanMode === "exprgcse" ? "btn-primary" : "btn-secondary"}" data-mode="exprgcse">Expression → Circuit GCSE</button>
       
-      <button type="button" class="button ${booleanMode === "tableexpr" ? "btn-primary" : "btn-secondary"}" data-mode="tableexpr">Truth Table → Expression</button>
-<button type="button" class="button ${booleanMode === "gateid" ? "btn-primary" : "btn-secondary"}" data-mode="gateid">Gate Identification</button>
-<button type="button" class="button ${booleanMode === "extragcse" ? "btn-primary" : "btn-secondary"}" data-mode="extragcse">Extra GCSE Questions</button>
-    `;
+  <button type="button" class="button ${booleanMode === "gateid" ? "btn-primary" : "btn-secondary"}" data-mode="gateid">Gate Identification</button>
+  <button type="button" class="button ${booleanMode === "tableexpr" ? "btn-primary" : "btn-secondary"}" data-mode="tableexpr">Truth Table → Expression</button>
+  <button type="button" class="button ${booleanMode === "basic" ? "btn-primary" : "btn-secondary"}" data-mode="basic">Basic Circuits</button>
+  <button type="button" class="button ${booleanMode === "exprcircuit" ? "btn-primary" : "btn-secondary"}" data-mode="exprcircuit">Expression → Circuit Easy</button>
+  <button type="button" class="button ${booleanMode === "exprgcse" ? "btn-primary" : "btn-secondary"}" data-mode="exprgcse">Expression → Circuit GCSE</button>
+  <button type="button" class="button ${booleanMode === "medium" ? "btn-primary" : "btn-secondary"}" data-mode="medium">GCSE Circuits</button>
+  <button type="button" class="button ${booleanMode === "allgates" ? "btn-primary" : "btn-secondary"}" data-mode="allgates">All Gates Circuits</button>
+  <button type="button" class="button ${booleanMode === "extragcse" ? "btn-primary" : "btn-secondary"}" data-mode="extragcse">Extra GCSE Questions</button>
+`;
+  
 
     booleanModeButtons.querySelectorAll("button").forEach(btn => {
       btn.onclick = () => {
