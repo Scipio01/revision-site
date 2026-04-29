@@ -1131,3 +1131,48 @@ select {
   font-size: 0.95rem;
   margin-bottom: 12px;
 }
+
+
+
+/* ===== SEARCH-01 ===== */
+
+.search-section {
+  margin: 24px 0;
+}
+
+.search-section input {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--card);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+#searchResults {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.search-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--card);
+  color: var(--text);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+}
+
+.search-result:hover {
+  transform: translateY(-1px);
+}
+
+.search-result span {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
