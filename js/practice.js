@@ -403,13 +403,13 @@ const modeWrap = modeEl.closest(".mode-control");
 if (difficultyWrap) {
 
 difficultyWrap.style.display =
-  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" || topic === "sql" ? "none" : "block";
+  topic === "standardalgorithms" || topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" || topic === "sql" || topic === "booleanlogic" ? "none" : "block";
 
 }
 
 if (modeWrap) {
 modeWrap.style.display =
-  topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" || topic === "sql" ? "none" : "block";
+   topic === "stringhandling" || topic === "operations" || topic === "sequence" || topic === "selection" || topic === "iteration" || topic === "libraryroutines" || topic === "arrays" || topic === "procedures" || topic === "maintainableprograms" || topic === "filehandling" || topic === "databasetheory" || topic === "sql" || topic === "booleanlogic" ? "none" : "block";
 }
 
 // only show difficulty for NON algorithm topics
