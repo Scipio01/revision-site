@@ -30,10 +30,17 @@
   "front": "What is crosstalk in parallel transmission?",
   "back": "Interference between signals in adjacent wires, causing data corruption."
 },
-{
+
+
+  {
   "topicName": "Transmission Modes",
   "front": "What is skew in parallel transmission?",
   "back": "When bits arrive at different times due to different wire lengths or delays."
+},
+{
+  "topicName": "Transmission Modes",
+  "front": "Why does serial transmission avoid crosstalk and skew?",
+  "back": "Serial uses a single wire, so there are no adjacent signals (no crosstalk) and bits are sent one after another (no skew)."
 },
 
 
