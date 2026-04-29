@@ -1176,3 +1176,71 @@ select {
   font-size: 0.85rem;
   opacity: 0.7;
 }
+
+
+/* ===== SEARCH-POLISH-01 ===== */
+
+.search-section {
+  margin: 32px 0;
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: linear-gradient(135deg, var(--card), var(--bg));
+  box-shadow: var(--shadow);
+}
+
+.search-section h2 {
+  margin: 0 0 6px;
+}
+
+.search-section p {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.search-section input {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 1rem;
+  border: 2px solid var(--accent);
+  border-radius: 16px;
+  background: var(--card);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+.search-section input:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+#searchResults {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.search-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--accent);
+  border-radius: 16px;
+  background: var(--card);
+  color: var(--text);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+}
+
+.search-result:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+}
+
+.search-result span {
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
