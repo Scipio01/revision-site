@@ -1244,3 +1244,16 @@ select {
   font-size: 0.85rem;
   opacity: 0.75;
 }
+
+
+/* ===== BOOLEAN BUTTON FIX ===== */
+#booleanModeButtons .button-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+#booleanModeButtons .button {
+  width: 100%;
+  text-align: center;
+}
