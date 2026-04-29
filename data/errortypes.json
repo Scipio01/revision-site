@@ -58,5 +58,28 @@
     "topicName": "Error Types",
     "front": "Which type of error could be caused by using the wrong formula in a calculation?",
     "back": "A logic error."
-  }
+  },
+
+
+  ,
+{
+  "topicName": "Error Types",
+  "front": "What is debugging?",
+  "back": "The process of finding and fixing errors in a program."
+},
+{
+  "topicName": "Error Types",
+  "front": "What is an error message?",
+  "back": "A message produced by a program when an error occurs."
+},
+{
+  "topicName": "Error Types",
+  "front": "What is diagnostic information?",
+  "back": "Information that helps identify and fix errors in a program."
+},
+{
+  "topicName": "Error Types",
+  "front": "Why is diagnostic information useful?",
+  "back": "It helps programmers locate and fix errors more quickly."
+}
 ]
