@@ -2090,34 +2090,32 @@ You may find it helpful to label each gate’s output with a letter and use thes
 // ===== BOOLEAN-EXPR-CIRCUIT-01 =====
 
 // ===== BOOLEAN-EXPR-CIRCUIT-01 =====
-  else if (booleanMode === "exprcircuit") {
-    const instruction = `Draw the logic circuit for the Boolean expression shown.
+else if (booleanMode === "exprcircuit") {
+  const instruction = `Draw the logic circuit for the Boolean expression shown.`;
 
-Use the same logic gate style as the circuit questions.`;
-
-    questions = [
-      {
-        question: `${instruction}<br><br><div class="code-block">Z = A AND B</div>`,
-        answer: `<img src="images/boolean/ms-expression-easy-circuit-01.png" style="max-width:100%;">`
-      },
-      {
-        question: `${instruction}<br><br><div class="code-block">Z = A OR B</div>`,
-        answer: `<img src="images/boolean/ms-expression-easy-circuit-02.png" style="max-width:100%;">`
-      },
-      {
-        question: `${instruction}<br><br><div class="code-block">Z = NOT A</div>`,
-        answer: `<img src="images/boolean/ms-expression-easy-circuit-03.png" style="max-width:100%;">`
-      },
-      {
-        question: `${instruction}<br><br><div class="code-block">Z = (A AND B) OR C</div>`,
-        answer: `<img src="images/boolean/ms-expression-easy-circuit-04.png" style="max-width:100%;">`
-      },
-      {
-        question: `${instruction}<br><br><div class="code-block">Z = (A OR B) AND C</div>`,
-        answer: `<img src="images/boolean/ms-expression-easy-circuit-05.png" style="max-width:100%;">`
-      }
-    ];
-  }
+  questions = [
+    {
+      question: `${instruction}<br><br><img src="images/boolean/expression-easy-circuit-01.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-expression-easy-circuit-01.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/expression-easy-circuit-02.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-expression-easy-circuit-02.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/expression-easy-circuit-03.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-expression-easy-circuit-03.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/expression-easy-circuit-04.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-expression-easy-circuit-04.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/expression-easy-circuit-05.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-expression-easy-circuit-05.png" style="max-width:100%;">`
+    }
+  ];
+}
 
 // ===== BOOLEAN-EXPR-GCSE-01 =====
 else if (booleanMode === "exprgcse") {
