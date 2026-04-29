@@ -51,6 +51,13 @@
     "front": "Give two functions of a web browser.",
     "back": "Storing bookmarks, saving history, managing tabs or storing cookies."
   },
+
+{
+  "topicName": "Web Technologies",
+  "front": "What is a domain name?",
+  "back": "A human-readable name used to identify a website, such as google.com."
+},
+  
   {
     "topicName": "Web Technologies and Cookies",
     "front": "What is DNS?",
