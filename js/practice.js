@@ -1972,6 +1972,15 @@ ORDER BY Type ASC
 
 // ===== BOOLEAN LOGIC =====
 if (topic === "booleanlogic") {
+
+// ===== BOOLEAN-UI-CLEANUP =====
+const answerBox = document.getElementById("answer");
+const answerLabel = document.querySelector('label[for="answer"]');
+
+if (answerBox) answerBox.style.display = "none";
+if (answerLabel) answerLabel.style.display = "none";
+
+  
   const booleanModeButtons = document.getElementById("booleanModeButtons");
 
   if (booleanModeButtons) {
