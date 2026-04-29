@@ -1,0 +1,42 @@
+[
+  {
+    "topicName": "Binary Addition",
+    "front": "What is binary addition?",
+    "back": "Adding binary numbers using the rules for base 2."
+  },
+  {
+    "topicName": "Binary Addition",
+    "front": "What is 0 + 0 in binary?",
+    "back": "0"
+  },
+  {
+    "topicName": "Binary Addition",
+    "front": "What is 0 + 1 in binary?",
+    "back": "1"
+  },
+  {
+    "topicName": "Binary Addition",
+    "front": "What is 1 + 0 in binary?",
+    "back": "1"
+  },
+  {
+    "topicName": "Binary Addition",
+    "front": "What is 1 + 1 in binary?",
+    "back": "10, so write 0 and carry 1."
+  },
+  {
+    "topicName": "Binary Addition",
+    "front": "What is 1 + 1 + 1 in binary?",
+    "back": "11, so write 1 and carry 1."
+  },
+  {
+    "topicName": "Binary Addition",
+    "front": "Why is carrying needed in binary addition?",
+    "back": "Because binary can only use 0 and 1 in each column."
+  },
+  {
+    "topicName": "Binary Addition",
+    "front": "What should you check after binary addition?",
+    "back": "Check whether the answer fits in the available number of bits, otherwise overflow may occur."
+  }
+]
