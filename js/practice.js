@@ -2241,7 +2241,45 @@ else if (booleanMode === "gateid") {
   ];
 }
 
+// ===== BOOLEAN-EXTRA-GCSE-01 =====
+else if (booleanMode === "extragcse") {
+  const instruction = `Answer the GCSE-style Boolean Logic question shown.`;
 
+  questions = [
+    {
+      question: `${instruction}<br><br><img src="images/boolean/extra-GCSE-question-01.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-extra-GCSE-question-01.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/extra-GCSE-question-02.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-extra-GCSE-question-02.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/extra-GCSE-question-03.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-extra-GCSE-question-03.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/extra-GCSE-question-04.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-extra-GCSE-question-04.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/extra-GCSE-question-05.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-extra-GCSE-question-05.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/extra-GCSE-question-06.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-extra-GCSE-question-06.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/extra-GCSE-question-07.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-extra-GCSE-question-07.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/extra-GCSE-question-08.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-extra-GCSE-question-08.png" style="max-width:100%;">`
+    }
+  ];
+}
   
   if (writeTip) {
 
