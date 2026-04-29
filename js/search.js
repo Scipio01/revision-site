@@ -83,6 +83,23 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+
+// ===== SORT RESULTS =====
+matches.sort((a, b) => {
+  const priority = {
+    "Flashcards": 1,
+    "Quiz": 2,
+    "Practice": 3,
+    "Topic page": 4
+  };
+
+  return (priority[a.type] || 5) - (priority[b.type] || 5);
+});
+
+
+
+
+    
     matches.forEach(item => {
       const link = document.createElement("a");
       link.href = item.url;
