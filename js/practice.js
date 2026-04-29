@@ -2068,6 +2068,42 @@ You may find it helpful to label each gate’s output with a letter and use thes
     ];
   }
 
+  else if (booleanMode === "allgates") {
+
+  const instruction = `Complete the trace table for the logic circuit shown.
+
+This question may include AND, OR, NOT, NAND, NOR or XOR gates.
+You may find it helpful to label each gate’s output with a letter and use these to complete the table.`;
+
+  questions = [
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-allgates-output-01.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-allgates-output-01.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-allgates-output-02.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-allgates-output-02.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-allgates-output-03.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-allgates-output-03.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-allgates-output-04.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-allgates-output-04.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br>
+<img src="images/boolean/circuit-allgates-output-05.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-circuit-allgates-output-05.png" style="max-width:100%;">`
+    }
+  ];
+}
+
   if (writeTip) {
     writeTip.style.display = "block";
     writeTip.textContent =
