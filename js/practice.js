@@ -2121,26 +2121,29 @@ else if (booleanMode === "tableexpr") {
 Look carefully at which inputs produce an output of 1.`;
 
   questions = [
-    {
-      question: `${instruction}<br><br><img src="images/boolean/table-expression-01.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-table-expression-01.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br><img src="images/boolean/table-expression-02.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-table-expression-02.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br><img src="images/boolean/table-expression-03.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-table-expression-03.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br><img src="images/boolean/table-expression-04.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-table-expression-04.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br><img src="images/boolean/table-expression-05.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-table-expression-05.png" style="max-width:100%;">`
-    }
+
+{
+  question: `${instruction}<br><br><img src="images/boolean/table-and.png" style="max-width:100%;">`,
+  answer: `A AND B`
+},
+{
+  question: `${instruction}<br><br><img src="images/boolean/table-or.png" style="max-width:100%;">`,
+  answer: `A OR B`
+},
+{
+  question: `${instruction}<br><br><img src="images/boolean/table-not.png" style="max-width:100%;">`,
+  answer: `NOT A`
+},
+{
+  question: `${instruction}<br><br><img src="images/boolean/table-nand.png" style="max-width:100%;">`,
+  answer: `A NAND B`
+},
+{
+  question: `${instruction}<br><br><img src="images/boolean/table-nor.png" style="max-width:100%;">`,
+  answer: `A NOR B`
+}
+
+    
   ];
 }
   
