@@ -703,34 +703,7 @@ if (topic === "sequence") {
 
 
 // ===== BOOLEAN-TABLE-EXPR-01 =====
-  else if (booleanMode === "tableexpr") {
-    const instruction = `Write the Boolean expression shown by the completed truth table.
-
-Look carefully at which inputs produce an output of 1.`;
-
-    questions = [
-      {
-        question: `${instruction}<br><br><img src="images/boolean/table-expression-01.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-table-expression-01.png" style="max-width:100%;">`
-      },
-      {
-        question: `${instruction}<br><br><img src="images/boolean/table-expression-02.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-table-expression-02.png" style="max-width:100%;">`
-      },
-      {
-        question: `${instruction}<br><br><img src="images/boolean/table-expression-03.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-table-expression-03.png" style="max-width:100%;">`
-      },
-      {
-        question: `${instruction}<br><br><img src="images/boolean/table-expression-04.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-table-expression-04.png" style="max-width:100%;">`
-      },
-      {
-        question: `${instruction}<br><br><img src="images/boolean/table-expression-05.png" style="max-width:100%;">`,
-        answer: `<img src="images/boolean/ms-table-expression-05.png" style="max-width:100%;">`
-      }
-    ];
-  }
+ 
 
   
 if (writeTip) {
