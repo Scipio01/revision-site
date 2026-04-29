@@ -92,8 +92,21 @@
       "Fetch",
       "Decode",
       "Store"
+ 
     ]
   }
 }
-  
+,
+{
+  "topicName": "CPU",
+  "mcq": {
+    "question": "What is the Von Neumann architecture?",
+    "correct": "Instructions and data are stored in the same memory",
+    "wrong": [
+      "Instructions and data are stored separately",
+      "It is a type of programming language",
+      "It is used only for storage devices"
+    ]
+  }
+}  
 ]
