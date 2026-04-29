@@ -65,22 +65,19 @@
     "front": "What is full-duplex transmission?",
     "back": "Data flows both ways at the same time."
   },
-  {
-     "topicName": "Transmission Modes",
-    "front": "What is USB?",
-    "back": "A standard interface that uses serial transmission to connect devices."
-  },
 
-  {
+    {
      "topicName": "Transmission Modes",
     "front": "What does USB stand for?",
     "back": "Universal Serial Bus."
   },
-  {
-      "topicName": "Transmission Modes",
+  
+{
+  "topicName": "Transmission Modes",
   "front": "What is USB?",
-  "back": "A type of connection used to link devices such as keyboards, mice and storage devices to a computer."
-  },
+  "back": "A standard interface that uses serial transmission to connect peripheral devices (e.g. keyboards, mice, storage devices) to a computer."
+},
+  
   {
      "topicName": "Transmission Modes",
     "front": "Give one advantage of USB",
