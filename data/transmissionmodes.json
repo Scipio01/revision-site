@@ -19,11 +19,25 @@
     "front": "Give one advantage of parallel transmission",
     "back": "Faster over short distances."
   },
-  {
-     "topicName": "Transmission Modes",
-    "front": "Give one disadvantage of parallel transmission",
-    "back": "Crosstalk or skew."
-  },
+ 
+{
+  "topicName": "Transmission Modes",
+  "front": "Give one disadvantage of parallel transmission",
+  "back": "Crosstalk or skew."
+},
+{
+  "topicName": "Transmission Modes",
+  "front": "What is crosstalk in parallel transmission?",
+  "back": "Interference between signals in adjacent wires, causing data corruption."
+},
+{
+  "topicName": "Transmission Modes",
+  "front": "What is skew in parallel transmission?",
+  "back": "When bits arrive at different times due to different wire lengths or delays."
+}
+
+
+  
   {
      "topicName": "Transmission Modes",
     "front": "Give one advantage of serial transmission",
