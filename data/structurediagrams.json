@@ -1,0 +1,32 @@
+[
+  {
+    "topicName": "Structure Diagrams",
+    "front": "What is a structure diagram?",
+    "back": "A diagram that shows how a problem is broken down into smaller parts or modules."
+  },
+  {
+    "topicName": "Structure Diagrams",
+    "front": "What is the purpose of a structure diagram?",
+    "back": "To show the hierarchy and organisation of a program."
+  },
+  {
+    "topicName": "Structure Diagrams",
+    "front": "What does each box in a structure diagram represent?",
+    "back": "A subtask or module of a larger problem."
+  },
+  {
+    "topicName": "Structure Diagrams",
+    "front": "How are structure diagrams organised?",
+    "back": "Top-down, from the main task to smaller subtasks."
+  },
+  {
+    "topicName": "Structure Diagrams",
+    "front": "Why are structure diagrams useful?",
+    "back": "They help break complex problems into manageable parts."
+  },
+  {
+    "topicName": "Structure Diagrams",
+    "front": "How do structure diagrams support program design?",
+    "back": "They help plan modular programs and make them easier to develop."
+  }
+]
