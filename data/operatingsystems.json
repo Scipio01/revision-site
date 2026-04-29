@@ -102,5 +102,27 @@
     "topicName": "Operating Systems",
     "front": "Why are different versions of software needed for different operating systems?",
     "back": "Because each OS manages hardware and software differently."
-  }
+  },
+
+
+    {
+  "topicName": "Operating Systems",
+  "front": "What is firmware?",
+  "back": "Software stored in read-only memory that controls hardware and starts up the system."
+},
+
+{
+  "topicName": "Operating Systems",
+  "front": "What is the BIOS?",
+  "back": "Firmware that starts the computer and helps load the operating system."
+},
+{
+  "topicName": "Operating Systems",
+  "front": "What is the bootstrap program?",
+  "back": "A small program that loads the operating system when the computer starts."
+}
+
+
+
+  
 ]
