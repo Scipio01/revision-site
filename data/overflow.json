@@ -1,0 +1,42 @@
+[
+  {
+    "topicName": "Overflow",
+    "front": "What is overflow?",
+    "back": "Overflow happens when a number is too large to fit in the number of bits available."
+  },
+  {
+    "topicName": "Overflow",
+    "front": "Why can overflow occur in binary addition?",
+    "back": "The result may need more bits than the computer has available to store it."
+  },
+  {
+    "topicName": "Overflow",
+    "front": "What happens if an 8-bit register produces a 9-bit answer?",
+    "back": "Overflow occurs because the answer cannot fit into 8 bits."
+  },
+  {
+    "topicName": "Overflow",
+    "front": "How can you spot overflow in an unsigned binary addition?",
+    "back": "There is a carry out beyond the leftmost bit."
+  },
+  {
+    "topicName": "Overflow",
+    "front": "Why is overflow a problem?",
+    "back": "It can cause the wrong value to be stored or displayed."
+  },
+  {
+    "topicName": "Overflow",
+    "front": "Give an example of overflow using 4 bits",
+    "back": "1111 + 0001 gives 10000, which needs 5 bits, so it overflows in 4 bits."
+  },
+  {
+    "topicName": "Overflow",
+    "front": "How can overflow be avoided?",
+    "back": "Use more bits or a larger data type so bigger values can be stored."
+  },
+  {
+    "topicName": "Overflow",
+    "front": "What is the largest unsigned number that can be stored in 8 bits?",
+    "back": "255."
+  }
+]
