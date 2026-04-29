@@ -1987,6 +1987,7 @@ if (topic === "booleanlogic") {
       
       <button type="button" class="button ${booleanMode === "tableexpr" ? "btn-primary" : "btn-secondary"}" data-mode="tableexpr">Truth Table → Expression</button>
 <button type="button" class="button ${booleanMode === "gateid" ? "btn-primary" : "btn-secondary"}" data-mode="gateid">Gate Identification</button>
+<button type="button" class="button ${booleanMode === "extragcse" ? "btn-primary" : "btn-secondary"}" data-mode="extragcse">Extra GCSE Questions</button>
     `;
 
     booleanModeButtons.querySelectorAll("button").forEach(btn => {
