@@ -2149,6 +2149,36 @@ Look carefully at which inputs produce an output of 1.`;
 }
   
 
+// ===== BOOLEAN-GATE-ID-01 =====
+else if (booleanMode === "gateid") {
+  const instruction = `Identify the logic gate shown.`;
+
+  questions = [
+    {
+      question: `${instruction}<br><br><img src="images/boolean/gate-and.png" style="max-width:100%;">`,
+      answer: `AND`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/gate-or.png" style="max-width:100%;">`,
+      answer: `OR`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/gate-not.png" style="max-width:100%;">`,
+      answer: `NOT`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/gate-nand.png" style="max-width:100%;">`,
+      answer: `NAND`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/gate-nor.png" style="max-width:100%;">`,
+      answer: `NOR`
+    }
+  ];
+}
+
+
+  
   if (writeTip) {
 
       
