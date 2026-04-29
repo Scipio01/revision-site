@@ -1966,67 +1966,7 @@ ORDER BY Type ASC
   return;
 }
 
-// ===== BOOLEAN LOGIC =====
-if (topic === "booleanlogic") {
-  const booleanModeButtons = document.getElementById("booleanModeButtons");
-
-  if (booleanModeButtons) {
-    booleanModeButtons.style.display = "flex";
-    booleanModeButtons.innerHTML = `
-      <button type="button" class="button ${booleanMode === "gates" ? "btn-primary" : "btn-secondary"}" data-mode="gates">Gates</button>
-      <button type="button" class="button ${booleanMode === "tables" ? "btn-primary" : "btn-secondary"}" data-mode="tables">Gate Truth Tables</button>
-      <button type="button" class="button ${booleanMode === "basic" ? "btn-primary" : "btn-secondary"}" data-mode="basic">Basic Circuits</button>
-      <button type="button" class="button ${booleanMode === "medium" ? "btn-primary" : "btn-secondary"}" data-mode="medium">GCSE Circuits</button>
-      <button type="button" class="button ${booleanMode === "allgates" ? "btn-primary" : "btn-secondary"}" data-mode="allgates">All Gates Circuits</button>
-      <button type="button" class="button ${booleanMode === "expressions" ? "btn-primary" : "btn-secondary"}" data-mode="expressions">Expressions</button>
-      <button type="button" class="button ${booleanMode === "extra" ? "btn-primary" : "btn-secondary"}" data-mode="extra">Extra Exam Questions</button>
-    `;
-
-    booleanModeButtons.querySelectorAll("button").forEach(btn => {
-      btn.onclick = () => {
-        booleanMode = btn.dataset.mode;
-        questionNumber = 1;
-        generateQuestion();
-      };
-    });
-  }
-
-  let questions = [];
-
-  if (booleanMode === "basic") {
-
-  const instruction = `Complete the output column of the truth table for this circuit.`;
-
-  questions = [
-    {
-      question: `${instruction}<br><br>
-<img src="images/boolean/circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-01.png" style="max-width:100%; margin-top:10px;">`
-    },
-    {
-      question: `${instruction}<br><br>
-<img src="images/boolean/circuit-basic-output-02.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-02.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br>
-<img src="images/boolean/circuit-basic-output-03.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-03.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br>
-<img src="images/boolean/circuit-basic-output-04.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-04.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br>
-<img src="images/boolean/circuit-basic-output-05.png" style="max-width:100%;">`,
-      answer: `<img src="images/boolean/ms-circuit-basic-output-05.png" style="max-width:100%;">`
-    }
-  ];
-}
-  
- else if (booleanMode === "medium") {
+else if (booleanMode === "medium") {
 
   const instruction = `Complete the trace table for the logic circuit shown.
 
@@ -2059,16 +1999,8 @@ You may find it helpful to label each gate’s output with a letter and use thes
       answer: `<img src="images/boolean/ms-circuit-medium-output-05.png" style="max-width:100%;">`
     }
   ];
-} else {
-    questions = [
-      {
-        question: "Choose Basic Circuits or GCSE Circuits to practise the connected image questions.",
-        answer: "More Boolean Logic sections will be connected next."
-      }
-    ];
-  }
 
-  else if (booleanMode === "allgates") {
+} else if (booleanMode === "allgates") {
 
   const instruction = `Complete the trace table for the logic circuit shown.
 
@@ -2102,20 +2034,14 @@ You may find it helpful to label each gate’s output with a letter and use thes
       answer: `<img src="images/boolean/ms-circuit-allgates-output-05.png" style="max-width:100%;">`
     }
   ];
-}
 
-  if (writeTip) {
-    writeTip.style.display = "block";
-    writeTip.textContent =
-      "✍️ Choose a Boolean Logic section, complete the question on paper, then click “Show answer” to compare with the mark scheme.";
-  }
-
-  document.getElementById("answer").classList.add("exam-answer");
-
-  nextBtn.style.display = "inline-flex";
-
-  runExamMode(questions);
-  return;
+} else {
+  questions = [
+    {
+      question: "Choose Basic Circuits, GCSE Circuits or All Gates Circuits to practise the connected image questions.",
+      answer: "More Boolean Logic sections will be connected next."
+    }
+  ];
 }
 
 
