@@ -2147,6 +2147,37 @@ Break the expression into small parts first, then combine the gates.`;
     }
   ];
 }
+
+// ===== BOOLEAN-EXPR-GCSE-01 =====
+else if (booleanMode === "exprgcse") {
+  const instruction = `Draw the logic circuit for the GCSE Boolean expression shown.`;
+
+  questions = [
+    {
+      question: `${instruction}<br><br><img src="images/boolean/expression-GCSE-circuit-01.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-expression-GCSE-circuit-01.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/expression-GCSE-circuit-02.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-expression-GCSE-circuit-02.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/expression-GCSE-circuit-03.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-expression-GCSE-circuit-03.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/expression-GCSE-circuit-04.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-expression-GCSE-circuit-04.png" style="max-width:100%;">`
+    },
+    {
+      question: `${instruction}<br><br><img src="images/boolean/expression-GCSE-circuit-05.png" style="max-width:100%;">`,
+      answer: `<img src="images/boolean/ms-expression-GCSE-circuit-05.png" style="max-width:100%;">`
+    }
+  ];
+}
+
+
+  
   // ===== BOOLEAN-TABLE-EXPR-01 =====
 else if (booleanMode === "tableexpr") {
   const instruction = `Write the Boolean expression shown by the completed truth table.
