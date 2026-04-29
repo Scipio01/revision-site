@@ -1,0 +1,62 @@
+[
+  {
+    "topicName": "Structure Diagrams",
+    "mcq": {
+      "question": "What is a structure diagram used for?",
+      "correct": "Showing how a problem is broken into smaller modules",
+      "wrong": [
+        "Showing the values of variables as a program runs",
+        "Showing the exact syntax of a program",
+        "Showing how data packets travel across a network"
+      ]
+    }
+  },
+  {
+    "topicName": "Structure Diagrams",
+    "mcq": {
+      "question": "What does the top box in a structure diagram usually represent?",
+      "correct": "The main problem or main program",
+      "wrong": [
+        "The final output only",
+        "A variable",
+        "A database table"
+      ]
+    }
+  },
+  {
+    "topicName": "Structure Diagrams",
+    "mcq": {
+      "question": "What do lower boxes in a structure diagram usually represent?",
+      "correct": "Smaller subtasks or modules",
+      "wrong": [
+        "Only input values",
+        "Only output values",
+        "Errors in the program"
+      ]
+    }
+  },
+  {
+    "topicName": "Structure Diagrams",
+    "mcq": {
+      "question": "Which programming idea do structure diagrams support?",
+      "correct": "Modular design",
+      "wrong": [
+        "Binary shifting",
+        "Encryption",
+        "Primary keys"
+      ]
+    }
+  },
+  {
+    "topicName": "Structure Diagrams",
+    "mcq": {
+      "question": "Why are structure diagrams useful when designing programs?",
+      "correct": "They make complex problems easier to understand by breaking them down",
+      "wrong": [
+        "They automatically generate machine code",
+        "They test whether data is valid",
+        "They store user passwords securely"
+      ]
+    }
+  }
+]
