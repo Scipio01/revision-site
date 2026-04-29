@@ -2117,35 +2117,6 @@ else if (booleanMode === "exprcircuit") {
   ];
 }
 
-// ===== BOOLEAN-EXPR-GCSE-01 =====
-else if (booleanMode === "exprgcse") {
-  const instruction = `Draw the logic circuit for the GCSE Boolean expression shown.
-
-Break the expression into small parts first, then combine the gates.`;
-
-  questions = [
-    {
-      question: `${instruction}<br><br><div class="code-block">Z = (A AND B) OR (NOT C)</div>`,
-      answer: `<img src="images/boolean/ms-expression-GCSE-circuit-01.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br><div class="code-block">Z = (A OR B) AND (NOT C)</div>`,
-      answer: `<img src="images/boolean/ms-expression-GCSE-circuit-02.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br><div class="code-block">Z = (A NAND B) OR C</div>`,
-      answer: `<img src="images/boolean/ms-expression-GCSE-circuit-03.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br><div class="code-block">Z = (A XOR B) AND C</div>`,
-      answer: `<img src="images/boolean/ms-expression-GCSE-circuit-04.png" style="max-width:100%;">`
-    },
-    {
-      question: `${instruction}<br><br><div class="code-block">Z = (A NOR B) XOR (NOT C)</div>`,
-      answer: `<img src="images/boolean/ms-expression-GCSE-circuit-05.png" style="max-width:100%;">`
-    }
-  ];
-}
 
 // ===== BOOLEAN-EXPR-GCSE-01 =====
 else if (booleanMode === "exprgcse") {
