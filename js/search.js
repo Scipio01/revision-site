@@ -55,6 +55,11 @@ document.addEventListener("DOMContentLoaded", () => {
     { name: "Security Solutions", type: "Flashcards", description: "Security methods.", keywords: "firewall antivirus encryption", url: "flashcards.html?topic=solutions" },
     { name: "Digital Currency", type: "Flashcards", description: "Cryptocurrency.", keywords: "blockchain ledger bitcoin", url: "flashcards.html?topic=currency" },
 
+
+    // ===== ALGORITHMS (extra) =====
+    { name: "Structure Diagrams", type: "Flashcards", description: "Breaking problems into modules.", keywords: "structure diagram hierarchy modular decomposition", url: "flashcards.html?topic=structurediagrams" },
+
+    
     // ===== AI =====
     { name: "Artificial Intelligence", type: "Flashcards", description: "AI and expert systems.", keywords: "ai expert systems machine learning characteristics", url: "flashcards.html?topic=ai" },
     { name: "Robotics", type: "Flashcards", description: "Robotics.", keywords: "robot actuator automation", url: "flashcards.html?topic=robotics" }
