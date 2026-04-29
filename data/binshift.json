@@ -1,0 +1,42 @@
+[
+  {
+    "topicName": "Binary Shifts",
+    "front": "What is a binary shift?",
+    "back": "Moving all bits left or right within a binary number."
+  },
+  {
+    "topicName": "Binary Shifts",
+    "front": "What happens in a left shift?",
+    "back": "All bits move one place to the left and a 0 is added on the right."
+  },
+  {
+    "topicName": "Binary Shifts",
+    "front": "What does a left shift do to the value?",
+    "back": "It multiplies the number by 2 for each shift."
+  },
+  {
+    "topicName": "Binary Shifts",
+    "front": "What happens in a right shift?",
+    "back": "All bits move one place to the right and the rightmost bit is lost."
+  },
+  {
+    "topicName": "Binary Shifts",
+    "front": "What does a right shift do to the value?",
+    "back": "It divides the number by 2 for each shift."
+  },
+  {
+    "topicName": "Binary Shifts",
+    "front": "What happens to bits shifted off the end?",
+    "back": "They are lost."
+  },
+  {
+    "topicName": "Binary Shifts",
+    "front": "What is a logical shift?",
+    "back": "A shift where zeros are inserted into the empty spaces."
+  },
+  {
+    "topicName": "Binary Shifts",
+    "front": "Why are binary shifts useful?",
+    "back": "They allow fast multiplication and division by powers of 2."
+  }
+]
