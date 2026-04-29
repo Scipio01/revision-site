@@ -1,4 +1,12 @@
 [
+
+
+
+  {
+  "topicName": "CPU",
+  "front": "What is the Von Neumann architecture?",
+  "back": "A computer architecture where program instructions and data are stored in the same memory."
+},
   {
    "topicName": "Central Processing Unit",
     "front": "What is the role of the CPU?",
