@@ -1977,6 +1977,7 @@ if (topic === "booleanlogic") {
       <button type="button" class="button ${booleanMode === "basic" ? "btn-primary" : "btn-secondary"}" data-mode="basic">Basic Circuits</button>
       <button type="button" class="button ${booleanMode === "medium" ? "btn-primary" : "btn-secondary"}" data-mode="medium">GCSE Circuits</button>
       <button type="button" class="button ${booleanMode === "allgates" ? "btn-primary" : "btn-secondary"}" data-mode="allgates">All Gates Circuits</button>
+      <button type="button" class="button ${booleanMode === "exprcircuit" ? "btn-primary" : "btn-secondary"}" data-mode="exprcircuit">Expression → Circuit</button>
     `;
 
     booleanModeButtons.querySelectorAll("button").forEach(btn => {
