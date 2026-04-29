@@ -111,13 +111,19 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     matches.forEach(item => {
-      const link = document.createElement("a");
-      link.href = item.url;
-      link.textContent = `${item.name} — ${item.type}`;
-      link.style.display = "block";
-      link.style.marginBottom = "6px";
 
-      resultsContainer.appendChild(link);
+const link = document.createElement("a");
+link.href = item.url;
+link.className = "search-result";
+link.innerHTML = `
+  <strong>${item.name}</strong>
+  <span>${item.type}</span>
+`;
+
+resultsContainer.appendChild(link);
+
+
+      
     });
   });
 });
