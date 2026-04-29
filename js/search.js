@@ -6,16 +6,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!searchInput || !resultsContainer) return;
 
-  let topics = [];
+  const searchableTopics = [
+    {
+      id: "datapackets",
+      name: "Data Packets",
+      description: "Packets, packet switching, headers, payloads and packet reassembly."
+    },
+    {
+      id: "transmissionmodes",
+      name: "Transmission Modes",
+      description: "Serial transmission, parallel transmission, simplex, half-duplex and full-duplex."
+    },
+    {
+      id: "errordetection",
+      name: "Error Detection",
+      description: "Parity, checksum, check digit, echo check, ARQ, ACK and NACK."
+    },
+    {
+      id: "encryption",
+      name: "Encryption",
+      description: "Symmetric encryption, asymmetric encryption, public keys and private keys."
+    }
+  ];
 
-  // Load topics
   fetch("data/topics.json")
     .then(res => res.json())
     .then(data => {
-      topics = data;
+      searchableTopics.push(...data);
     });
 
-  // Listen for typing
   searchInput.addEventListener("input", () => {
     const query = searchInput.value.toLowerCase().trim();
 
@@ -23,9 +42,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (query.length < 2) return;
 
-    const matches = topics.filter(t =>
-      t.name.toLowerCase().includes(query) ||
-      t.description.toLowerCase().includes(query)
+    const matches = searchableTopics.filter(t =>
+      (t.name || "").toLowerCase().includes(query) ||
+      (t.description || "").toLowerCase().includes(query) ||
+      (t.id || "").toLowerCase().includes(query)
     );
 
     if (matches.length === 0) {
