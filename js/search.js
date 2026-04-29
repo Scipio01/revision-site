@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     matches.forEach(topic => {
       const link = document.createElement("a");
-      link.href = `topics.html`;
+      link.href = `flashcards.html?topic=${topic.id}`;
       link.textContent = topic.name;
       link.style.display = "block";
       link.style.marginBottom = "6px";
