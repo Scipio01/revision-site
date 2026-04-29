@@ -65,10 +65,10 @@
       "question": "What happens after DNS returns the IP address?",
       "correct": "The browser uses it to contact the web server",
       "wrong": [
-  "The browser converts the IP address into a domain name",
-  "The server sends the page to DNS",
-  "The browser asks the router to assign a new IP address"
-]
+        "The browser converts the IP address into a domain name",
+        "The server sends the page to DNS",
+        "The browser asks the router to assign a new IP address"
+      ]
     }
   },
   {
@@ -111,7 +111,7 @@
     "topicName": "Web Technologies and Cookies",
     "mcq": {
       "question": "What is a cookie?",
-     "correct": "A small file stored on a user's device to remember information",
+      "correct": "A small file stored on a user's device to remember information",
       "wrong": [
         "A type of computer virus",
         "A web page on a server",
@@ -125,10 +125,10 @@
       "question": "What are cookies used for?",
       "correct": "Storing login details and preferences",
       "wrong": [
-  "Converting domain names into IP addresses",
-  "Transferring web pages between browser and server",
-  "Storing web pages permanently on a server"
-]
+        "Converting domain names into IP addresses",
+        "Transferring web pages between browser and server",
+        "Storing web pages permanently on a server"
+      ]
     }
   },
   {
@@ -184,23 +184,47 @@
     "mcq": {
       "question": "Which is the correct order when loading a web page?",
       "correct": "Enter URL → DNS finds IP → browser contacts server → server sends HTML → browser displays page",
-     "wrong": [
-  "Enter URL → browser contacts server → DNS finds IP → server sends HTML → browser displays page",
-  "Enter URL → DNS finds IP → server sends HTML → browser contacts server → browser displays page",
-  "DNS finds IP → browser contacts server → enter URL → server sends HTML → browser displays page"
-]
+      "wrong": [
+        "Enter URL → browser contacts server → DNS finds IP → server sends HTML → browser displays page",
+        "Enter URL → DNS finds IP → server sends HTML → browser contacts server → browser displays page",
+        "DNS finds IP → browser contacts server → enter URL → server sends HTML → browser displays page"
+      ]
     }
   },
   {
-  "topicName": "Web Technologies and Cookies",
-  "mcq": {
-    "question": "What is the difference between a web browser and a web server?",
-    "correct": "A browser requests and displays web pages, while a server stores and sends them",
-   "wrong": [
-  "A browser stores web pages, while a server displays them to users",
-  "A browser assigns IP addresses, while a server connects devices together",
-  "A browser encrypts data, while a server manages network traffic"
-]
+    "topicName": "Web Technologies and Cookies",
+    "mcq": {
+      "question": "What is the difference between a web browser and a web server?",
+      "correct": "A browser requests and displays web pages, while a server stores and sends them",
+      "wrong": [
+        "A browser stores web pages, while a server displays them to users",
+        "A browser assigns IP addresses, while a server connects devices together",
+        "A browser encrypts data, while a server manages network traffic"
+      ]
+    }
+  },
+  {
+    "topicName": "Web Technologies and Cookies",
+    "mcq": {
+      "question": "What is a domain name?",
+      "correct": "A human-readable website address",
+      "wrong": [
+        "A set of rules for communication",
+        "A type of web browser",
+        "A storage device"
+      ]
+    }
+  },
+  {
+    "topicName": "Web Technologies and Cookies",
+    "mcq": {
+      "question": "What is a protocol?",
+      "correct": "A set of rules for communication",
+      "wrong": [
+        "A type of computer hardware",
+        "A programming language",
+        "A type of storage"
+      ]
+    }
   }
-}
 ]
