@@ -1975,10 +1975,12 @@ if (topic === "booleanlogic") {
 
 // ===== BOOLEAN-UI-CLEANUP =====
 const answerBox = document.getElementById("answer");
-const answerLabel = document.querySelector('label[for="answer"]');
+const answerInputRow = document.querySelector(".answer-input-row");
+const answerLabelText = document.querySelector('label[for="answer"] > span');
 
 if (answerBox) answerBox.style.display = "none";
-if (answerLabel) answerLabel.style.display = "none";
+if (answerInputRow) answerInputRow.style.display = "none";
+if (answerLabelText) answerLabelText.style.display = "none";
 
   const booleanModeButtons = document.getElementById("booleanModeButtons");
 
