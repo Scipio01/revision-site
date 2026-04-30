@@ -4888,7 +4888,7 @@ nextBtn.addEventListener("click", () => {
   checkBtn.disabled = false;
   nextBtn.disabled = false;
 
-  if (getTopic() === "flowcharts" && modeEl.value === "draw") {
+if (getTopic() === "flowcharts" && flowchartMode === "draw") {
     if (drawQuestionIndex >= 4) {
       drawQuestionIndex = 0;
       questionNumber = 0;
