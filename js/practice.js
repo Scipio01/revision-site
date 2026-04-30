@@ -1974,14 +1974,7 @@ ORDER BY Type ASC
 if (topic === "booleanlogic") {
 
 // ===== BOOLEAN-UI-CLEANUP =====
-const answerBox = document.getElementById("answer");
-const answerInputRow = document.querySelector(".answer-input-row");
-const answerLabelText = document.querySelector('label[for="answer"] > span');
-
-if (answerBox) answerBox.style.display = "none";
-if (answerInputRow) answerInputRow.style.display = "none";
-if (answerLabelText) answerLabelText.style.display = "none";
-
+  
   const booleanModeButtons = document.getElementById("booleanModeButtons");
 
   if (booleanModeButtons) {
@@ -2271,7 +2264,15 @@ else if (booleanMode === "extragcse") {
   nextBtn.style.display = "inline-flex";
 
   runExamMode(questions);
-  return;
+
+// ===== BOOLEAN-UI-CLEANUP (FINAL) =====
+const answerInputRow = document.querySelector(".answer-input-row");
+const answerLabelText = document.querySelector('label[for="answer"] > span');
+
+if (answerInputRow) answerInputRow.style.display = "none";
+if (answerLabelText) answerLabelText.style.display = "none";
+
+return;
 }
 
   
