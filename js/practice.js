@@ -45,6 +45,7 @@ let questionNumber = 0;
 let totalQuestions = 10;
 let selectedAlgorithmMode = "identify";
 let booleanMode = "gates";
+let flowchartMode = "symbols";
 let soundQuestionCount = 0;
 let drawQuestionIndex = 0;
 let lastFlowchartAnswer = "";
@@ -2290,7 +2291,7 @@ return;
 
  if (topic === "tracetables") {
   statsBox.style.display = "none";
-} else if (topic === "flowcharts" && mode === "draw") {
+} else if (topic === "flowcharts" && flowchartMode === "draw") {
   statsBox.style.display = "none";
 } else if (topic === "standardalgorithms" && mode !== "standardmethods") {
   statsBox.style.display = "none";
@@ -5011,20 +5012,20 @@ hintBtn.addEventListener("click", function () {
 const flowSymbolsBtn = document.getElementById("flowSymbolsBtn");
 const flowDrawBtn = document.getElementById("flowDrawBtn");
 
+
 flowSymbolsBtn.addEventListener("click", function () {
-  modeEl.value = "symbols";
+  flowchartMode = "symbols";
   questionNumber = 1;
   drawQuestionIndex = 0;
   generateQuestion();
 });
 
 flowDrawBtn.addEventListener("click", function () {
-  modeEl.value = "draw";
+  flowchartMode = "draw";
   questionNumber = 1;
   drawQuestionIndex = 0;
   generateQuestion();
 });
-
 
 
 
