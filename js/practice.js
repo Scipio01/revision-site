@@ -422,13 +422,23 @@ if (topic !== "standardalgorithms") {
     algorithmModeButtons.style.display = "none";
   }
 
-  if (topic === "flowcharts") {
-    modeEl.innerHTML = `
-      <option value="symbols">Flowchart Symbols</option>
-      <option value="draw">Draw from Prompt</option>
-    `;
-    return;
+ if (topic === "flowcharts") {
+  const flowchartModeButtons = document.getElementById("flowchartModeButtons");
+
+  if (flowchartModeButtons) {
+    flowchartModeButtons.style.display = "block";
   }
+
+  if (difficultyWrap) {
+    difficultyWrap.style.display = "none";
+  }
+
+  if (modeWrap) {
+    modeWrap.style.display = "none";
+  }
+
+  return;
+}
 
 
 
