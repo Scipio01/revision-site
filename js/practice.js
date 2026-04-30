@@ -586,7 +586,7 @@ function runExamModeWithTip(questions) {
 
 function generateQuestion() {
 const difficulty = difficultyEl.value;
-const mode = modeEl.value;
+const mode = topic === "flowcharts" ? flowchartMode : modeEl.value;
 const topic = getTopic();
 
   const arrowHelp = document.querySelector(".arrow-help");
