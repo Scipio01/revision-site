@@ -128,7 +128,7 @@
   {
     "topicName": "Binary Systems",
     "front": "What is a number base?",
-    "back": "The number of different digits a number system uses, including zero.",
+    "back": "The number of different digits a number system uses, including zero. For example, denary is base 10 and uses 0,1,2,3,4,5,6,7,8,9 to make values.",
     "mcq": {
       "question": "What is a number base?",
       "correct": "The number of different digits a number system uses",
