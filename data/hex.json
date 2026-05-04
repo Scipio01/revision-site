@@ -44,7 +44,7 @@
   {
     "topicName": "Hexadecimal",
     "front": "Why is hexadecimal used?",
-    "back": "It is shorter and easier to read than long binary numbers.",
+    "back": "It is shorter and easier to read for humans than long binary numbers.",
     "mcq": {
       "question": "Why is hexadecimal used?",
       "correct": "It is shorter and easier to read than binary",
@@ -58,7 +58,7 @@
   {
     "topicName": "Hexadecimal",
     "front": "What is hexadecimal used for?",
-    "back": "Colour codes (e.g. #FF0000), memory addresses, and machine code.",
+    "back": "Colour codes (e.g. #FF0000), MAC addresses, IPv6 addresses, and machine code.",
     "mcq": {
       "question": "What is hexadecimal used for?",
       "correct": "Colour codes, memory addresses, and machine code",
