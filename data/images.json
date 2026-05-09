@@ -15,10 +15,10 @@
     "back": "The number of pixels in an image (width × height)."
   },
   {
-    "topicName": "Images",
-    "front": "What is colour depth?",
-    "back": "The number of bits used to represent the colour of each pixel."
-  },
+  "topicName": "Images",
+  "front": "What is colour depth?",
+  "back": "The number of bits used for each pixel. More bits allows more colours to be represented."
+},
   {
     "topicName": "Images",
     "front": "What is metadata?",
