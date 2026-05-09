@@ -32,10 +32,10 @@
     "back": "Fetch, decode and execute."
   },
   {
-   "topicName": "Central Processing Unit",
-    "front": "Why is the CPU important?",
-    "back": "It carries out processing and instructions in a computer."
-  },
+  "topicName": "Central Processing Unit",
+  "front": "Why is the CPU important?",
+  "back": "It processes data and runs instructions needed by the computer."
+   },
   {
    "topicName": "Central Processing Unit",
     "front": "Where does the CPU get instructions from?",
