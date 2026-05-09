@@ -1,9 +1,9 @@
 [
   {
-    "topicName": "Error Detection",
-    "front": "Why can errors occur during transmission?",
-    "back": "Noise, interference or signal loss."
-  },
+  "topicName": "Error Detection",
+  "front": "Why can errors occur during transmission?",
+  "back": "Interference or signal loss can change the data being transmitted."
+},
   {
     "topicName": "Error Detection",
     "front": "Why is error detection needed?",
