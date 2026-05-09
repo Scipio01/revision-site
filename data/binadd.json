@@ -20,20 +20,20 @@
     "back": "1"
   },
   {
-    "topicName": "Binary Addition",
-    "front": "What is 1 + 1 in binary?",
-    "back": "10, so write 0 and carry 1."
-  },
+  "topicName": "Binary Addition",
+  "front": "What is 1 + 1 in binary?",
+  "back": "10 in binary (which is 2 in decimal). "
+},
+{
+  "topicName": "Binary Addition",
+  "front": "What is 1 + 1 + 1 in binary?",
+  "back": "11 in binary (which is 3 in decimal)."
+},
   {
-    "topicName": "Binary Addition",
-    "front": "What is 1 + 1 + 1 in binary?",
-    "back": "11, so write 1 and carry 1."
-  },
-  {
-    "topicName": "Binary Addition",
-    "front": "Why is carrying needed in binary addition?",
-    "back": "Because binary can only use 0 and 1 in each column."
-  },
+  "topicName": "Binary Addition",
+  "front": "Why is carrying needed in binary addition?",
+  "back": "Because a binary column can only store a single bit (0 or 1)."
+},
   {
     "topicName": "Binary Addition",
     "front": "What should you check after binary addition?",
