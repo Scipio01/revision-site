@@ -5,9 +5,9 @@
     "back": "The internet is a global network that connects devices together so they can communicate and share data."
   },
   {
-    "topicName": "Internet and WWW",
-    "front": "What is the world wide web?",
-    "back": "The world wide web is a collection of websites and web pages that you access using the internet."
+  "topicName": "Internet and WWW",
+  "front": "What is the world wide web?",
+  "back": "The world wide web is a collection of web pages and websites accessed through the internet."
   },
   {
     "topicName": "Internet and WWW",
@@ -15,23 +15,18 @@
     "back": "The internet connects devices together, while the world wide web is a service that lets you access websites and web pages."
   },
   {
-    "topicName": "Internet and WWW",
-    "front": "Give examples of devices connected to the internet.",
-    "back": "Laptops, smartphones, tablets, games consoles and smart TVs."
+  "topicName": "Internet and WWW",
+  "front": "Give examples of devices connected to the internet.",
+  "back": "Laptops, smartphones, tablets, routers, games consoles and smart TVs."
   },
-  {
+   {
     "topicName": "Internet and WWW",
     "front": "Give examples of things on the world wide web.",
-    "back": "Web pages, websites, online videos, online shopping sites and social media."
+    "back": "Web pages, websites, online shopping sites and social media websites."
   },
   {
     "topicName": "Internet and WWW",
     "front": "Is the world wide web the same as the internet?",
     "back": "No. The world wide web uses the internet, but they are not the same thing."
-  },
-  {
-    "topicName": "Internet and WWW",
-    "front": "Give one example of something that uses the internet but is not part of the world wide web.",
-    "back": "Email or online gaming."
   }
 ]
