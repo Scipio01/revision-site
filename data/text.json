@@ -16,10 +16,10 @@
     "back": "Characters are converted into binary so they can be processed by a computer."
   },
   {
-    "topicName": "Character Sets",
-    "front": "What is ASCII?",
-    "back": "A character set that uses 7 or 8 bits to represent characters."
-  },
+  "topicName": "Character Sets",
+  "front": "What is ASCII?",
+  "back": "A character set used to represent English text characters such as letters, numbers and symbols.<br><br>Standard ASCII uses 7 bits.<br>Extended ASCII uses 8 bits."
+},
   {
     "topicName": "Character Sets",
     "front": "How many bits are used in standard ASCII?",
