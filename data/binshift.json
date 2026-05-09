@@ -14,11 +14,11 @@
     "front": "What does a left shift do to the value?",
     "back": "It multiplies the number by 2 for each shift."
   },
-  {
-    "topicName": "Binary Shifts",
-    "front": "What happens in a right shift?",
-    "back": "All bits move one place to the right and the rightmost bit is lost."
-  },
+ {
+  "topicName": "Binary Shifts",
+  "front": "What happens in a right shift?",
+  "back": "All bits move one place to the right, a 0 is added on the left."
+},
   {
     "topicName": "Binary Shifts",
     "front": "What does a right shift do to the value?",
