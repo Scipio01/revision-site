@@ -46,7 +46,11 @@
     "front": "How does an OS manage multitasking?",
     "back": "By rapidly switching CPU time between programs so they appear to run simultaneously."
   },
-
+{
+  "topicName": "Operating Systems",
+  "front": "What is a peripheral device?",
+  "back": "A device connected to a computer, such as a keyboard, mouse or printer."
+},
   {
     "topicName": "Operating Systems",
     "front": "What is peripheral management?",
