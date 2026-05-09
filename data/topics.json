@@ -54,7 +54,7 @@
     "name": "Software",
     "level": "gcse",
     "group": "paper1",
-    "description": "Types of software, operating systems, interrupts, translation software and IDS.",
+    "description": "Types of software, operating systems, interrupts, translation software and IDE software.",
     "hasPractice": false
   },
   {
