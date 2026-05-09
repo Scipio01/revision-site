@@ -60,10 +60,10 @@
     "back": "Data is sent back and compared with the original."
   },
   {
-    "topicName": "Error Detection",
-    "front": "What is a check digit?",
-    "back": "An extra digit used to detect data entry errors."
-  },
+  "topicName": "Error Detection",
+  "front": "What is a check digit?",
+  "back": "An extra digit added to the data to help detect data entry errors."
+},
   {
     "topicName": "Error Detection",
     "front": "Give an example of a check digit use",
