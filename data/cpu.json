@@ -1,6 +1,10 @@
 [
 
-
+{
+  "topicName": "CPU",
+  "front": "What is computer architecture?",
+  "back": "The way the parts of a computer are designed and organised."
+},
 
   {
   "topicName": "CPU",
