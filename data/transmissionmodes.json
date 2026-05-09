@@ -88,11 +88,11 @@
     "front": "Give another advantage of USB",
     "back": "Plug and play (automatically recognised)."
   },
-  {
-     "topicName": "Transmission Modes",
-    "front": "What does hot-swappable mean?",
-    "back": "Devices can be connected or removed without restarting the computer."
-  },
+{
+  "topicName": "Transmission Modes",
+  "front": "What does hot-swappable mean?",
+  "back": "USB devices can be connected or removed without restarting the computer."
+},
   {
      "topicName": "Transmission Modes",
     "front": "Give another advantage of USB",
