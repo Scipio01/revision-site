@@ -24,9 +24,9 @@
     "front": "What is cache memory?",
     "back": "Cache memory is a small amount of fast memory that stores frequently used data and instructions."
   },
-  {
-   "topicName": "Main CPU Components",
-    "front": "Why is cache memory useful?",
-    "back": "It is faster for the CPU to access than RAM, so it speeds up processing."
-  }
+{
+  "topicName": "Main CPU Components",
+  "front": "Why is cache memory useful?",
+  "back": "It is faster for the CPU to access cache memory than RAM, so processing is faster."
+}
 ]
