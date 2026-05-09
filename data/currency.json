@@ -4,10 +4,10 @@
     "front": "What is currency?",
     "back": "Money used to buy and sell goods and services."
   },
-  {
+   {
     "topicName": "Digital Currency",
-    "front": "What are problems with traditional currency?",
-    "back": "Counterfeiting and hyperinflation."
+    "front": "What is one problem with traditional currency?",
+    "back": "Money can be counterfeited (copied illegally)."
   },
   {
     "topicName": "Digital Currency",
@@ -15,9 +15,9 @@
     "back": "Currency that exists only electronically and has no physical form."
   },
   {
-    "topicName": "Digital Currency",
-    "front": "What is another name for digital currency?",
-    "back": "Cryptocurrency."
+  "topicName": "Digital Currency",
+  "front": "What is cryptocurrency?",
+  "back": "A type of digital currency."
   },
   {
     "topicName": "Digital Currency",
@@ -82,12 +82,12 @@
   {
     "topicName": "Digital Currency",
     "front": "Give one benefit of digital currency.",
-    "back": "It is difficult to counterfeit."
+    "back": "It is difficult to counterfeit (copy illegally)."
   },
   {
-    "topicName": "Digital Currency",
-    "front": "Give another benefit of digital currency.",
-    "back": "Low transaction fees or reduced inflation."
+  "topicName": "Digital Currency",
+  "front": "Give another benefit of digital currency.",
+  "back": "Transaction fees can be lower than traditional banking."
   },
   {
     "topicName": "Digital Currency",
