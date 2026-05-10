@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ===== SOFTWARE =====
     { name: "Operating Systems", type: "Flashcards", description: "OS functions.", keywords: "operating system firmware bootloader bios bootstrap", url: "flashcards.html?topic=operatingsystems" },
     { name: "Translation Software", type: "Flashcards", description: "Compiler and interpreter.", keywords: "compiler interpreter assembler machine code assembly high level language", url: "flashcards.html?topic=translation" },
-    { name: "IDE", type: "Flashcards", description: "Integrated Development Environment tools.", keywords: "ide integrated development environment editor debugger translator compiler interpreter runtime error syntax error", url: "flashcards.html?topic=ide" },
+    { name: "IDE", type: "Flashcards", description: "Integrated Development Environment tools.", keywords: "ide integrated development environment editor debugger translator compiler interpreter runtime error syntax error", url: "flashcards.html?topic=ides" },
     { name: "Web Technologies", type: "Flashcards", description: "Web basics.", keywords: "domain protocol cookies session persistent http https dns", url: "flashcards.html?topic=webtech" },
     { name: "IP and MAC Addresses", type: "Flashcards", description: "Networking.", keywords: "ip mac nic network interface card", url: "flashcards.html?topic=ipmac" },
 
