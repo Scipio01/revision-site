@@ -1257,3 +1257,38 @@ select {
   width: 100%;
   text-align: center;
 }
+
+
+/* ===== SHORTS-PAGE-01 ===== */
+
+.shorts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.short-card {
+  background: var(--card-bg, #ffffff);
+  border-radius: 18px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.short-video-wrapper {
+  aspect-ratio: 9 / 16;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto 1rem auto;
+}
+
+.short-video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 16px;
+}
+
+.short-card h3 {
+  margin-bottom: 0.5rem;
+}
