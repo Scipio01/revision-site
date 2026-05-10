@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GCSE Computer Science Shorts | CS Revision</title>
+
+  <meta name="description" content="Quick GCSE Computer Science revision shorts and videos.">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/common.js"></script>
+
+  <style>
+
+    /* ===== SHORTS-PAGE-01 ===== */
+
+    .shorts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .short-card {
+      background: var(--card-bg, #ffffff);
+      border-radius: 18px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .short-video-wrapper {
+      aspect-ratio: 9 / 16;
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto 1rem auto;
+    }
+
+    .short-video-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 16px;
+    }
+
+    .short-card h3 {
+      margin-bottom: 0.5rem;
+    }
+
+  </style>
+</head>
+
+<body class="theme-ocean">
+
+  <header>
+    <div class="container navbar">
+      <div class="brand"><a href="index.html">CS Revision</a></div>
+
+      <div class="nav-stack">
+        <nav class="nav-links" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="topics.html">Topics</a>
+          <a class="nav-link" href="progress.html">Progress</a>
+        </nav>
+
+        <div class="nav-tools">
+          <select id="themeSelect" aria-label="Colour theme">
+            <option value="theme-ocean">Ocean</option>
+            <option value="theme-forest">Forest</option>
+            <option value="theme-lilac">Lilac</option>
+            <option value="theme-warm">Warm</option>
+          </select>
+
+          <button id="modeToggle">
+            <span id="modeLabel">Light</span> mode
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero compact">
+      <div class="kicker">GCSE Shorts</div>
+
+      <div class="page-head">
+        <div>
+          <h1>Hardware Shorts</h1>
+          <p class="muted">
+            Quick GCSE Computer Science revision videos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SHORTS-GRID-01 ===== -->
+
+    <section class="shorts-grid">
+
+      <!-- ===== SHORT-CACHE-01 ===== -->
+
+      <article class="short-card">
+
+        <div class="short-video-wrapper">
+          <iframe
+            src="https://youtube.com/shorts/5gOxzx5ta5U?feature=share"
+            title="What Does Cache Do?"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <h3>What Does Cache Do?</h3>
+
+        <p class="muted">
+          Learn how cache memory helps the CPU access frequently used data more quickly.
+        </p>
+
+        <a class="btn-primary button"
+           href="https://youtube.com/shorts/5gOxzx5ta5U?feature=share"
+           target="_blank"
+           rel="noopener">
+           Watch on YouTube
+        </a>
+
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer class="container small">
+    Quick GCSE Computer Science revision videos.
+  </footer>
+
+</body>
+</html>
