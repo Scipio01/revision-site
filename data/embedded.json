@@ -36,8 +36,23 @@
   },
   {
     "topicName": "Embedded Systems",
+    "front": "What is a microprocessor?",
+    "back": "A microprocessor is a CPU on a single chip that requires external memory and input/output components to work."
+  },
+  {
+    "topicName": "Embedded Systems",
     "front": "What is a microcontroller?",
-    "back": "A microcontroller is a single microprocessor system that includes a CPU, RAM and ROM and is used to control a device."
+    "back": "A microcontroller is a small computer on a single chip that contains a CPU, RAM and ROM and is used to control a device."
+  },
+  {
+    "topicName": "Embedded Systems",
+    "front": "What is the difference between a microprocessor and a microcontroller?",
+    "back": "A microprocessor is mainly just a CPU and needs external components, while a microcontroller contains a CPU, memory and input/output on a single chip."
+  },
+  {
+    "topicName": "Embedded Systems",
+    "front": "Why are microcontrollers commonly used in embedded systems?",
+    "back": "Because they are small, cheap, reliable and designed to control specific tasks."
   },
   {
     "topicName": "Embedded Systems",
@@ -46,8 +61,13 @@
   },
   {
     "topicName": "Embedded Systems",
+    "front": "What type of software is commonly stored in ROM in an embedded system?",
+    "back": "Firmware."
+  },
+  {
+    "topicName": "Embedded Systems",
     "front": "Why is ROM often used in embedded systems?",
-    "back": "Because the software is fixed, reliable and does not need to be changed often."
+    "back": "Because ROM is non-volatile and stores firmware permanently, making the system reliable."
   },
   {
     "topicName": "Embedded Systems",
@@ -58,5 +78,10 @@
     "topicName": "Embedded Systems",
     "front": "What kind of inputs might an embedded system use?",
     "back": "Simple inputs such as sensors, switches or buttons."
+  },
+  {
+    "topicName": "Embedded Systems",
+    "front": "Why do embedded systems usually require less processing power than general-purpose computers?",
+    "back": "Because they are designed to perform one dedicated task rather than many different tasks."
   }
 ]
