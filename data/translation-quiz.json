@@ -5,9 +5,9 @@
       "question": "What is a high-level language?",
       "correct": "A programming language that is easy for humans to read and write",
       "wrong": [
-        "A language that is difficult for humans to read",
+        "A language that directly controls hardware",
         "A language written using mnemonics",
-        "A language that directly controls hardware"
+        "A language that is difficult for humans to read"
       ]
     }
   },
@@ -17,9 +17,9 @@
       "question": "Which of these is a low-level language?",
       "correct": "Assembly language",
       "wrong": [
+        "CSS",
         "Python",
-        "HTML",
-        "CSS"
+        "HTML"
       ]
     }
   },
@@ -29,9 +29,9 @@
       "question": "What does an assembler do?",
       "correct": "Converts assembly language into machine code",
       "wrong": [
+        "Translates the whole program into machine code",
         "Translates high-level code line by line",
-        "Translates the whole program at once",
-        "Executes code without translating it"
+        "Converts machine code into assembly language"
       ]
     }
   },
@@ -41,9 +41,9 @@
       "question": "What does a compiler do?",
       "correct": "Translates the whole program into machine code at once",
       "wrong": [
+        "Stops as soon as an error is found",
         "Translates and executes code line by line",
-        "Stops when the first error is found",
-        "Runs code without creating an executable file"
+        "Converts machine code into source code"
       ]
     }
   },
@@ -53,9 +53,9 @@
       "question": "What does an interpreter do?",
       "correct": "Translates and executes code line by line",
       "wrong": [
-        "Translates the whole program at once",
-        "Creates hardware",
-        "Stores files permanently"
+        "Creates an executable file before running",
+        "Translates the whole program before execution",
+        "Converts assembly language into machine code"
       ]
     }
   },
@@ -65,9 +65,9 @@
       "question": "What happens when an interpreter finds an error?",
       "correct": "It stops immediately",
       "wrong": [
-        "It ignores the error",
-        "It fixes the error",
-        "It deletes the program"
+        "It translates the rest of the program",
+        "It skips the line and continues",
+        "It automatically fixes the error"
       ]
     }
   },
@@ -77,9 +77,9 @@
       "question": "Why are compilers used for final programs?",
       "correct": "Compiled programs usually execute faster and the source code is not visible",
       "wrong": [
-        "They are easier to write",
-        "They require no CPU",
-        "They use less storage"
+        "They allow programs to run without a CPU",
+        "They remove the need for machine code",
+        "They stop after the first error"
       ]
     }
   },
@@ -90,8 +90,8 @@
       "correct": "01110",
       "wrong": [
         "11011",
-        "Both parts",
-        "Neither part"
+        "Both parts together",
+        "The final digit only"
       ]
     }
   },
@@ -101,9 +101,9 @@
       "question": "What does the operand represent in machine code?",
       "correct": "Data or a memory location",
       "wrong": [
-        "The instruction to perform",
-        "The operating system",
-        "The CPU speed"
+        "The operation to perform",
+        "The speed of the CPU",
+        "The operating system"
       ]
     }
   },
@@ -114,8 +114,8 @@
       "correct": "It is easier for humans to read and write",
       "wrong": [
         "It runs directly on hardware",
-        "It does not need translating",
-        "It uses less memory than machine code"
+        "It does not require translation",
+        "It is written entirely in binary"
       ]
     }
   },
@@ -125,9 +125,9 @@
       "question": "What is an advantage of a low-level language?",
       "correct": "It allows direct control of hardware",
       "wrong": [
-        "It is easier to debug",
-        "It is machine independent",
-        "It does not need translation"
+        "It is easier for beginners to understand",
+        "It does not need translating",
+        "It is machine independent"
       ]
     }
   },
@@ -137,9 +137,9 @@
       "question": "How does a compiler report errors?",
       "correct": "It provides a list of errors after checking the whole program",
       "wrong": [
-        "It stops at the first error",
-        "It ignores errors",
-        "It fixes errors automatically"
+        "It stops at the first error found",
+        "It ignores errors during translation",
+        "It corrects errors automatically"
       ]
     }
   },
@@ -149,9 +149,9 @@
       "question": "Why must programs be translated before execution?",
       "correct": "Because the CPU can only understand machine code",
       "wrong": [
-        "Because high-level languages are illegal for CPUs",
-        "Because programs must be stored in RAM first",
-        "Because translators improve internet speed"
+        "Because all programs must first be converted into assembly language",
+        "Because CPUs cannot process instructions directly",
+        "Because translators store programs permanently"
       ]
     }
   }
