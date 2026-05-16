@@ -3,12 +3,12 @@
     "topicName": "Translation Software",
     "mcq": {
       "question": "What is a high-level language?",
-      "correct": "A language that is easy for humans to read and write",
-     "wrong": [
-  "A language that is difficult for humans to read",
-  "A language written using mnemonics",
-  "A language that directly controls hardware"
-]
+      "correct": "A programming language that is easy for humans to read and write",
+      "wrong": [
+        "A language that is difficult for humans to read",
+        "A language written using mnemonics",
+        "A language that directly controls hardware"
+      ]
     }
   },
   {
@@ -28,23 +28,23 @@
     "mcq": {
       "question": "What does an assembler do?",
       "correct": "Converts assembly language into machine code",
-     "wrong": [
-  "Translates high-level code line by line",
-  "Translates the whole program at once",
-  "Executes code without translating it"
-]
+      "wrong": [
+        "Translates high-level code line by line",
+        "Translates the whole program at once",
+        "Executes code without translating it"
+      ]
     }
   },
   {
     "topicName": "Translation Software",
     "mcq": {
       "question": "What does a compiler do?",
-      "correct": "Translates the whole program at once",
-     "wrong": [
-  "Translates and executes code line by line",
-  "Stops when the first error is found",
-  "Runs code without creating an executable file"
-]
+      "correct": "Translates the whole program into machine code at once",
+      "wrong": [
+        "Translates and executes code line by line",
+        "Stops when the first error is found",
+        "Runs code without creating an executable file"
+      ]
     }
   },
   {
@@ -75,7 +75,7 @@
     "topicName": "Translation Software",
     "mcq": {
       "question": "Why are compilers used for final programs?",
-      "correct": "Programs run faster and source code is hidden",
+      "correct": "Compiled programs usually execute faster and the source code is not visible",
       "wrong": [
         "They are easier to write",
         "They require no CPU",
@@ -83,68 +83,76 @@
       ]
     }
   },
-
-{
-  "topicName": "Translation Software",
-  "mcq": {
-    "question": "In machine code 01110 11011, which part is the opcode?",
-    "correct": "01110",
-    "wrong": [
-      "11011",
-      "Both parts",
-      "Neither part"
-    ]
+  {
+    "topicName": "Translation Software",
+    "mcq": {
+      "question": "In machine code 01110 11011, which part is the opcode?",
+      "correct": "01110",
+      "wrong": [
+        "11011",
+        "Both parts",
+        "Neither part"
+      ]
+    }
+  },
+  {
+    "topicName": "Translation Software",
+    "mcq": {
+      "question": "What does the operand represent in machine code?",
+      "correct": "Data or a memory location",
+      "wrong": [
+        "The instruction to perform",
+        "The operating system",
+        "The CPU speed"
+      ]
+    }
+  },
+  {
+    "topicName": "Translation Software",
+    "mcq": {
+      "question": "What is an advantage of a high-level language?",
+      "correct": "It is easier for humans to read and write",
+      "wrong": [
+        "It runs directly on hardware",
+        "It does not need translating",
+        "It uses less memory than machine code"
+      ]
+    }
+  },
+  {
+    "topicName": "Translation Software",
+    "mcq": {
+      "question": "What is an advantage of a low-level language?",
+      "correct": "It allows direct control of hardware",
+      "wrong": [
+        "It is easier to debug",
+        "It is machine independent",
+        "It does not need translation"
+      ]
+    }
+  },
+  {
+    "topicName": "Translation Software",
+    "mcq": {
+      "question": "How does a compiler report errors?",
+      "correct": "It provides a list of errors after checking the whole program",
+      "wrong": [
+        "It stops at the first error",
+        "It ignores errors",
+        "It fixes errors automatically"
+      ]
+    }
+  },
+  {
+    "topicName": "Translation Software",
+    "mcq": {
+      "question": "Why must programs be translated before execution?",
+      "correct": "Because the CPU can only understand machine code",
+      "wrong": [
+        "Because high-level languages are illegal for CPUs",
+        "Because programs must be stored in RAM first",
+        "Because translators improve internet speed"
+      ]
+    }
   }
-},
-{
-  "topicName": "Translation Software",
-  "mcq": {
-    "question": "What does the operand represent in machine code?",
-    "correct": "Data or a memory location",
-    "wrong": [
-      "The instruction to perform",
-      "The operating system",
-      "The CPU speed"
-    ]
-  }
-},
-{
-  "topicName": "Translation Software",
-  "mcq": {
-    "question": "What is an advantage of a high-level language?",
-    "correct": "It is easier for humans to read and write",
-    "wrong": [
-      "It runs directly on hardware",
-      "It does not need translating",
-      "It uses less memory than machine code"
-    ]
-  }
-},
-{
-  "topicName": "Translation Software",
-  "mcq": {
-    "question": "What is an advantage of a low-level language?",
-    "correct": "It allows direct control of hardware",
-    "wrong": [
-      "It is easier to debug",
-      "It is machine independent",
-      "It does not need translation"
-    ]
-  }
-},
-{
-  "topicName": "Translation Software",
-  "mcq": {
-    "question": "How does a compiler report errors?",
-    "correct": "It provides a list of errors after checking the whole program",
-    "wrong": [
-      "It stops at the first error",
-      "It ignores errors",
-      "It fixes errors automatically"
-    ]
-  }
-}
-
-
-  
 ]
