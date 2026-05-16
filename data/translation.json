@@ -2,12 +2,12 @@
   {
     "topicName": "Translation Software",
     "front": "What is a programming language?",
-    "back": "A language used to write instructions that a computer can follow."
+    "back": "A formal language used to write instructions for a computer."
   },
   {
     "topicName": "Translation Software",
     "front": "What is a high-level language?",
-    "back": "A programming language that is easy for humans to read and write using English-like commands."
+    "back": "A programming language that is easier for humans to read and write using English-like commands."
   },
   {
     "topicName": "Translation Software",
@@ -22,12 +22,12 @@
   {
     "topicName": "Translation Software",
     "front": "Give one disadvantage of high-level languages.",
-    "back": "They are slower and give less direct control of hardware."
+    "back": "Programs written in high-level languages may execute more slowly than programs written in low-level languages."
   },
   {
     "topicName": "Translation Software",
     "front": "What is a low-level language?",
-    "back": "A language close to machine code that is designed for the CPU."
+    "back": "A language close to machine code that gives more direct control of hardware."
   },
   {
     "topicName": "Translation Software",
@@ -37,12 +37,12 @@
   {
     "topicName": "Translation Software",
     "front": "Give one advantage of low-level languages.",
-    "back": "They give direct control of hardware and run very fast."
+    "back": "They give direct control of hardware and programs can execute very quickly."
   },
   {
     "topicName": "Translation Software",
     "front": "Give one disadvantage of low-level languages.",
-    "back": "For humans they are difficult to read, write and debug."
+    "back": "They are difficult for humans to read, write and debug."
   },
   {
     "topicName": "Translation Software",
@@ -52,26 +52,23 @@
   {
     "topicName": "Translation Software",
     "front": "What are opcodes?",
-    "back": "The part of machine code that represents the instruction."
+    "back": "The part of a machine code instruction that represents the operation to perform."
   },
   {
     "topicName": "Translation Software",
     "front": "What are operands?",
-    "back": "The part of machine code that represents data or memory locations."
+    "back": "The part of a machine code instruction that represents data or a memory location."
   },
   {
     "topicName": "Translation Software",
     "front": "In machine code 01110 11011, which part is the opcode and which part is the operand?",
     "back": "01110 = opcode (instruction)<br>11011 = operand (data or memory location)"
   },
-
   {
-  "topicName": "Translation Software",
-  "front": "What do opcodes and operands represent in machine code?",
-  "back": "Opcode = instruction to perform<br>Operand = data or memory location used"
+    "topicName": "Translation Software",
+    "front": "What do opcodes and operands represent in machine code?",
+    "back": "Opcode = operation to perform<br>Operand = data or memory location used"
   },
-
-  
   {
     "topicName": "Translation Software",
     "front": "What is assembly language?",
@@ -81,6 +78,11 @@
     "topicName": "Translation Software",
     "front": "What is a mnemonic?",
     "back": "A short code that represents a machine instruction, such as ADD or LDA."
+  },
+  {
+    "topicName": "Translation Software",
+    "front": "Can the CPU run assembly language directly?",
+    "back": "No. Assembly language must first be translated into machine code by an assembler."
   },
   {
     "topicName": "Translation Software",
@@ -100,12 +102,17 @@
   {
     "topicName": "Translation Software",
     "front": "What is a compiler?",
-    "back": "A translator that converts the entire program into machine code at once."
+    "back": "A translator that converts the entire program into machine code before execution."
   },
   {
     "topicName": "Translation Software",
     "front": "What does a compiler produce?",
     "back": "An executable file."
+  },
+  {
+    "topicName": "Translation Software",
+    "front": "What is an executable file?",
+    "back": "A file containing machine code that can be run directly by the CPU."
   },
   {
     "topicName": "Translation Software",
@@ -115,7 +122,7 @@
   {
     "topicName": "Translation Software",
     "front": "What is an interpreter?",
-    "back": "A translator that converts and executes code line by line."
+    "back": "A translator that converts and executes one line of code at a time."
   },
   {
     "topicName": "Translation Software",
@@ -125,21 +132,21 @@
   {
     "topicName": "Translation Software",
     "front": "Give one advantage of an interpreter.",
-    "back": "It is useful for development and debugging."
+    "back": "Errors are found one line at a time, making debugging easier."
   },
   {
     "topicName": "Translation Software",
     "front": "Give one disadvantage of an interpreter.",
-    "back": "Programs run slower because they are translated line by line."
+    "back": "Programs execute more slowly because they are translated line by line."
   },
   {
     "topicName": "Translation Software",
     "front": "What is the key difference between a compiler and an interpreter?",
-    "back": "A compiler translates the whole program at once, while an interpreter translates line by line."
+    "back": "A compiler translates the whole program at once, while an interpreter translates and executes code line by line."
   },
   {
     "topicName": "Translation Software",
     "front": "Why is a compiler used for final programs?",
-    "back": "Because compiled programs run faster and the source code is not visible."
+    "back": "Because compiled programs usually execute faster and the source code is not visible."
   }
 ]
