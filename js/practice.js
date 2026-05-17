@@ -2317,8 +2317,10 @@ return;
    if (topic === "flowcharts") { 
      
     if (writeTip) {
-      writeTip.style.display = "none";
-    }
+  writeTip.style.display = "none";
+}
+
+answerEl.closest("label").style.display = "none";
    
     if (mode === "draw") {
      const drawQuestions = [
