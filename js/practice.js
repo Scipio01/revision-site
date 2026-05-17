@@ -2314,9 +2314,12 @@ return;
       checkBtn.style.display = "inline-flex";
     }
 
-    if (topic === "flowcharts") { 
+   if (topic === "flowcharts") { 
      
-    
+    if (writeTip) {
+      writeTip.style.display = "none";
+    }
+   
     if (mode === "draw") {
      const drawQuestions = [
   {
