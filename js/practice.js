@@ -3674,15 +3674,10 @@ else if (mode === "bubblesort") {
 
       imageOptionsEl.appendChild(btn);
     });
-
-    if (writeTip) {
-  writeTip.style.display = "none";
-}
-
 answerEl.style.display = "none";
 answerEl.parentElement.style.display = "none";
-answerEl.closest("label").style.display = "none";
 checkBtn.style.display = "none";
+   
   }
 
   else if (
