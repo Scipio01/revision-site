@@ -4,11 +4,11 @@
     "front": "Complete the truth table for a NOT gate:\n\nA Output\n0\n1",
     "back": "1\n0"
   },
-  {
-    "topicName": "Boolean Logic",
-    "front": "Complete the truth table for an AND gate:\n\nA B Output\n0 0\n0 1\n1 0\n1 1",
-    "back": "0\n0\n0\n1"
-  },
+ {
+  "topicName": "Boolean Logic",
+  "front": "Complete the truth table for an <strong>AND</strong> gate:<br><br><table class='truth-table'><tr><th>A</th><th>B</th><th>Output</th></tr><tr><td>0</td><td>0</td><td>?</td></tr><tr><td>0</td><td>1</td><td>?</td></tr><tr><td>1</td><td>0</td><td>?</td></tr><tr><td>1</td><td>1</td><td>?</td></tr></table>",
+  "back": "<table class='truth-table'><tr><th>A</th><th>B</th><th>Output</th></tr><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></table>"
+}
   {
     "topicName": "Boolean Logic",
     "front": "Complete the truth table for an OR gate:\n\nA B Output\n0 0\n0 1\n1 0\n1 1",
