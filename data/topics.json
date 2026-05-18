@@ -5,7 +5,7 @@
     "level": "gcse",
     "group": "paper1",
     "description": "Binary, hexadecimal and how data is represented in a computer.",
-    "hasPractice": false
+    "hasPractice": true
   },
   {
     "id": "datatransmission",
@@ -13,7 +13,7 @@
     "level": "gcse",
     "group": "paper1",
     "description": "Packets, transmission methods, error detection and encryption.",
-    "hasPractice": false
+    "hasPractice": true
   },
   {
     "id": "hardware1",
@@ -21,7 +21,7 @@
     "level": "gcse",
     "group": "paper1",
     "description": "CPU, fetch-decode-execute cycle, registers, cache, clock speed, cores and embedded systems.",
-    "hasPractice": false
+    "hasPractice": true
   },
   {
     "id": "hardware2",
@@ -29,7 +29,7 @@
     "level": "gcse",
     "group": "paper1",
     "description": "CPU performance and embedded systems.",
-    "hasPractice": false
+    "hasPractice": true
   },
 
   
@@ -39,7 +39,7 @@
     "level": "gcse",
     "group": "paper1",
     "description": "Memory, secondary storage and cloud storage.",
-    "hasPractice": false
+    "hasPractice": true
   },
   {
     "id": "hardware4",
@@ -47,7 +47,7 @@
     "level": "gcse",
     "group": "paper1",
     "description": "Input devices, output devices and sensors.",
-    "hasPractice": false
+    "hasPractice": true
   },
   {
     "id": "software",
@@ -55,7 +55,7 @@
     "level": "gcse",
     "group": "paper1",
     "description": "Types of software, operating systems, interrupts, translation software and IDE software.",
-    "hasPractice": false
+    "hasPractice": true
   },
   {
     "id": "internet",
@@ -63,7 +63,7 @@
     "level": "gcse",
     "group": "paper1",
     "description": "The internet, the world wide web, URLs, HTTP and HTTPS, web browsers, cookies, digital currency and cyber security.",
-    "hasPractice": false
+    "hasPractice": true
   },
   {
     "id": "emerging",
@@ -71,7 +71,7 @@
     "level": "gcse",
     "group": "paper1",
     "description": "Automation, robotics and artificial intelligence.",
-    "hasPractice": false
+    "hasPractice": true
   },
   
   {
@@ -80,7 +80,7 @@
     "level": "gcse",
     "group": "paper2",
     "description": "Program development life cycle, flowcharts, pseudocode, standard algorithms, validation, verification, testing and trace tables.",
-    "hasPractice": false
+    "hasPractice": true
   },
 
  
@@ -90,7 +90,7 @@
     "level": "gcse",
     "group": "paper2",
     "description": "Error types, test data and trace tables.",
-    "hasPractice": false
+    "hasPractice": true
   },
 
   {
@@ -99,7 +99,7 @@
   "level": "gcse",
   "group": "paper2",
   "description": "Data types, variables, constants, operators, assignment and string handling.",
-  "hasPractice": false
+  "hasPractice": true
 },
 
   {
@@ -108,7 +108,7 @@
   "level": "gcse",
   "group": "paper2",
   "description": "Sequence, selection and core programming logic.",
-  "hasPractice": false
+  "hasPractice": true
 },
 
 {
@@ -117,7 +117,7 @@
   "level": "gcse",
   "group": "paper2",
   "description": "Library routines, arrays, procedures and functions.",
-  "hasPractice": false
+  "hasPractice": true
 },
 
   {
@@ -126,7 +126,7 @@
   "level": "gcse",
   "group": "paper2",
   "description": "Maintainable programs and file handling.",
-  "hasPractice": false
+  "hasPractice": true
 },
 
  {
@@ -152,7 +152,7 @@
   "level": "gcse",
   "group": "paper2",
   "description": "Logic gates, truth tables, logic circuits and Boolean expressions.",
-  "hasPractice": false
+  "hasPractice": true
 },
   
   {
@@ -160,6 +160,6 @@
     "name": "Object-Oriented Programming",
     "level": "alevel",
     "description": "Classes, objects, encapsulation, inheritance and polymorphism.",
-    "hasPractice": false
+    "hasPractice": true
   }
 ]
