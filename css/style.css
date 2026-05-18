@@ -481,7 +481,7 @@ button:disabled {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 28px;
+  padding: 42px 28px 28px 28px;
   text-align: center;
   box-shadow: var(--shadow);
   font-size: clamp(1.2rem, 3vw, 1.7rem);
