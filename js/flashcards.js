@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 topicDisplayName = await getTopicDisplayName(topic);
 document.getElementById('quizLink').href = `quiz.html?topic=${topic}`;
+document.getElementById('practiceLink').href = `practice.html?topic=${topic}`;
 const res = await fetch(`data/${topic}.json`);
 cards = await res.json();
 
