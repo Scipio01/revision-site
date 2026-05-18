@@ -105,40 +105,18 @@ function nextQuestion() {
 }
 
 async function showPracticeLinkIfAvailable(topic) {
-  const practiceLink = document.getElementById('practiceLink');
-
-  if (!practiceLink) return;
-
-  practiceLink.style.display = 'none';
-
-  const practiceTopics = [
-    'flowcharts',
-    'pseudocode',
-    'standardalgorithms',
-    'validationchecks',
-    'verificationchecks',
-    'tracetables',
-    'booleanlogic',
-    'databasetheory',
-    'sql'
-  ];
-
-  if (practiceTopics.includes(topic)) {
-    practiceLink.style.display = 'inline-flex';
-    practiceLink.href = `practice.html?topic=${topic}`;
-  }
-}
-
-  // Normal topics
   const metaRes = await fetch('data/topics.json');
   const topics = await metaRes.json();
   const topicMeta = topics.find(item => item.id === topic);
 
-  if (topicMeta?.hasPractice && practiceLink) {
+  if (topicMeta?.hasPractice) {
+    const practiceLink = document.getElementById('practiceLink');
     practiceLink.style.display = 'inline-flex';
     practiceLink.href = `practice.html?topic=${topic}`;
   }
 }
+
+
 
 document.addEventListener('DOMContentLoaded', async () => {
   const params = new URLSearchParams(window.location.search);
