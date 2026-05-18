@@ -105,12 +105,30 @@ function nextQuestion() {
 }
 
 async function showPracticeLinkIfAvailable(topic) {
+  const practiceLink = document.getElementById('practiceLink');
+  const flowchartsLink = document.getElementById('flowchartsPracticeLink');
+  const pseudocodeLink = document.getElementById('pseudocodePracticeLink');
+  const standardAlgorithmsLink = document.getElementById('standardAlgorithmsPracticeLink');
+
+  if (practiceLink) practiceLink.style.display = 'none';
+  if (flowchartsLink) flowchartsLink.style.display = 'none';
+  if (pseudocodeLink) pseudocodeLink.style.display = 'none';
+  if (standardAlgorithmsLink) standardAlgorithmsLink.style.display = 'none';
+
+  // Special case for Algorithms topic
+  if (topic === 'algorithms') {
+    if (flowchartsLink) flowchartsLink.style.display = 'inline-flex';
+    if (pseudocodeLink) pseudocodeLink.style.display = 'inline-flex';
+    if (standardAlgorithmsLink) standardAlgorithmsLink.style.display = 'inline-flex';
+    return;
+  }
+
+  // Normal topics
   const metaRes = await fetch('data/topics.json');
   const topics = await metaRes.json();
   const topicMeta = topics.find(item => item.id === topic);
 
-  if (topicMeta?.hasPractice) {
-    const practiceLink = document.getElementById('practiceLink');
+  if (topicMeta?.hasPractice && practiceLink) {
     practiceLink.style.display = 'inline-flex';
     practiceLink.href = `practice.html?topic=${topic}`;
   }
