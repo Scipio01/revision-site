@@ -22,8 +22,11 @@ async function showPracticeLinkIfAvailable(topic) {
   const metaRes = await fetch('data/topics.json');
   const topics = await metaRes.json();
   const topicMeta = topics.find(item => item.id === topic);
+
   if (topicMeta?.hasPractice) {
-    document.getElementById('practiceLink').style.display = 'inline-flex';
+    const practiceLink = document.getElementById('practiceLink');
+    practiceLink.style.display = 'inline-flex';
+    practiceLink.href = `practice.html?topic=${topic}`;
   }
 }
 
