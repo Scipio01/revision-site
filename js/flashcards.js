@@ -19,12 +19,28 @@ function nextCard() { index = (index + 1) % cards.length; flipped = false; rende
 function prevCard() { index = (index - 1 + cards.length) % cards.length; flipped = false; renderCard(); }
 
 async function showPracticeLinkIfAvailable(topic) {
+  const practiceLink = document.getElementById('practiceLink');
+  const flowchartsLink = document.getElementById('flowchartsPracticeLink');
+  const pseudocodeLink = document.getElementById('pseudocodePracticeLink');
+  const standardAlgorithmsLink = document.getElementById('standardAlgorithmsPracticeLink');
+
+  if (practiceLink) practiceLink.style.display = 'none';
+  if (flowchartsLink) flowchartsLink.style.display = 'none';
+  if (pseudocodeLink) pseudocodeLink.style.display = 'none';
+  if (standardAlgorithmsLink) standardAlgorithmsLink.style.display = 'none';
+
+  if (topic === 'algorithms') {
+    flowchartsLink.style.display = 'inline-flex';
+    pseudocodeLink.style.display = 'inline-flex';
+    standardAlgorithmsLink.style.display = 'inline-flex';
+    return;
+  }
+
   const metaRes = await fetch('data/topics.json');
   const topics = await metaRes.json();
   const topicMeta = topics.find(item => item.id === topic);
 
   if (topicMeta?.hasPractice) {
-    const practiceLink = document.getElementById('practiceLink');
     practiceLink.style.display = 'inline-flex';
     practiceLink.href = `practice.html?topic=${topic}`;
   }
