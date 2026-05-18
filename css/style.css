@@ -501,8 +501,8 @@ button:disabled {
   transform: rotateY(180deg);
   white-space: pre-wrap;
   font-family: monospace;
-  text-align: left;
-  align-items: flex-start;
+  text-align: center;
+  align-items: center;
 }
 
 .flashcard-tip {
