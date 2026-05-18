@@ -119,6 +119,7 @@ async function showPracticeLinkIfAvailable(topic) {
 document.addEventListener('DOMContentLoaded', async () => {
   const params = new URLSearchParams(window.location.search);
   const topic = params.get('topic') || getSelectedTopic();
+  document.getElementById('practiceLink').href = `practice.html?topic=${topic}`;
 
   const res = await fetch(`data/${topic}-quiz.json`);
   questions = await res.json();
