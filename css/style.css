@@ -511,6 +511,35 @@ button:disabled {
   margin-top: 12px;
 }
 
+.truth-table {
+  margin: 18px auto;
+  border-collapse: collapse;
+  width: 340px;
+  max-width: 92%;
+  background: rgba(255,255,255,0.04);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.truth-table th {
+  background: rgba(255,255,255,0.08);
+  color: var(--heading);
+  padding: 12px;
+  border: 2px solid var(--line);
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+.truth-table td {
+  height: 52px;
+  border: 2px solid var(--line);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.15rem;
+}
+
+
+
 .quiz-shell { display: grid; gap: 20px; }
 
 .quiz-status {
