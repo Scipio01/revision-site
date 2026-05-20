@@ -4,82 +4,94 @@
     "front": "What is a syntax error?",
     "back": "A syntax error is an error caused by code that does not follow the rules of the programming language."
   },
+
   {
     "topicName": "Error Types",
     "front": "When are syntax errors usually found?",
     "back": "Syntax errors are usually found before the program runs."
   },
+
   {
     "topicName": "Error Types",
     "front": "What effect does a syntax error have on a program?",
     "back": "A syntax error stops the program from running."
   },
+
   {
     "topicName": "Error Types",
     "front": "What is a runtime error?",
     "back": "A runtime error is an error that happens while the program is running."
   },
+
+  {
+    "topicName": "Error Types",
+    "front": "When do runtime errors occur?",
+    "back": "Runtime errors occur when the program is running."
+  },
+
   {
     "topicName": "Error Types",
     "front": "What effect can a runtime error have on a program?",
-    "back": "A runtime error can cause the program to crash or stop unexpectedly."
+    "back": "A runtime error can cause the program to stop or crash."
   },
-  {
-    "topicName": "Error Types",
-  "front": "When do runtime errors occur?",
-  "back": "Runtime errors occur when the program is running, while syntax errors are found before the program runs."
-  },
+
   {
     "topicName": "Error Types",
     "front": "What is a logic error?",
     "back": "A logic error is an error in the program logic that causes the wrong output to be produced."
   },
+
   {
     "topicName": "Error Types",
     "front": "Does a logic error usually stop a program from running?",
     "back": "No, the program usually still runs but gives an incorrect result."
   },
+
   {
     "topicName": "Error Types",
-    "front": "Why can logic errors be difficult to find?",
-    "back": "Because the program runs without crashing, but the answer is wrong."
+    "front": "Why are logic errors difficult to find?",
+    "back": "Because the program still runs, but produces incorrect results."
   },
+
   {
     "topicName": "Error Types",
     "front": "Which type of error is caused by spelling a keyword incorrectly?",
     "back": "A syntax error."
   },
+
   {
     "topicName": "Error Types",
     "front": "Which type of error could be caused by dividing by zero?",
     "back": "A runtime error."
   },
+
   {
     "topicName": "Error Types",
     "front": "Which type of error could be caused by using the wrong formula in a calculation?",
     "back": "A logic error."
   },
 
+  {
+    "topicName": "Error Types",
+    "front": "What is debugging?",
+    "back": "The process of finding and fixing errors in a program."
+  },
 
-  ,
-{
-  "topicName": "Error Types",
-  "front": "What is debugging?",
-  "back": "The process of finding and fixing errors in a program."
-},
-{
-  "topicName": "Error Types",
-  "front": "What is an error message?",
-  "back": "A message produced by a program when an error occurs."
-},
-{
-  "topicName": "Error Types",
-  "front": "What is diagnostic information?",
-  "back": "Information that helps identify and fix errors in a program."
-},
-{
-  "topicName": "Error Types",
-  "front": "Why is diagnostic information useful?",
-  "back": "It helps programmers locate and fix errors more quickly."
-}
+  {
+    "topicName": "Error Types",
+    "front": "What is an error message?",
+    "back": "A message displayed when an error occurs."
+  },
+
+  {
+    "topicName": "Error Types",
+    "front": "What is diagnostic information?",
+    "back": "Information that helps programmers identify and fix errors."
+  },
+
+  {
+    "topicName": "Error Types",
+    "front": "Why is diagnostic information useful?",
+    "back": "It helps programmers locate and fix errors more quickly."
+  }
 ]
