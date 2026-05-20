@@ -1,116 +1,136 @@
 [
-
   {
-  "topicName": "Arrays",
-  "front": "What is a data structure?",
-  "back": "A way of storing and organising data so it can be used efficiently."
-},
-  
+    "topicName": "Arrays",
+    "front": "What is a data structure?",
+    "back": "A way of storing and organising data so it can be used efficiently."
+  },
+
   {
     "topicName": "Arrays",
     "front": "What is an array?",
-    "back": "An array is a data structure that stores multiple values under one identifier."
+    "back": "An array is a data structure that stores multiple values using one identifier."
   },
+
   {
     "topicName": "Arrays",
     "front": "What is the identifier in an array?",
     "back": "The name of the array."
   },
+
   {
     "topicName": "Arrays",
     "front": "What is an element in an array?",
     "back": "An individual value stored in the array."
   },
+
   {
     "topicName": "Arrays",
     "front": "What must all elements in an array have in common?",
     "back": "They must all be the same data type."
   },
+
   {
     "topicName": "Arrays",
     "front": "What is an index?",
-    "back": "The position of an element in an array."
+    "back": "The position number of an element in an array."
   },
+
   {
     "topicName": "Arrays",
     "front": "What is the first index in pseudocode?",
-    "back": "Usually 1, but it can be 0 or 1."
+    "back": "Usually 1, although some programming languages use 0."
   },
+
   {
     "topicName": "Arrays",
     "front": "How do you declare a 1D array?",
     "back": "DECLARE Name : ARRAY[1:n] OF data type"
   },
+
   {
     "topicName": "Arrays",
     "front": "Give an example of declaring a 1D array",
     "back": "DECLARE StudentNames : ARRAY[1:30] OF STRING"
   },
+
   {
     "topicName": "Arrays",
     "front": "How do you declare a 2D array?",
     "back": "DECLARE Name : ARRAY[1:r, 1:c] OF data type"
   },
+
   {
     "topicName": "Arrays",
     "front": "Give an example of a 2D array",
     "back": "DECLARE Grid : ARRAY[1:3, 1:3] OF CHAR"
   },
+
   {
     "topicName": "Arrays",
     "front": "How do you assign a value to an array element?",
-    "back": "array[index] ← value"
+    "back": "array[index] ← value e.g. Names[3] ← \"Sam\""
   },
+
   {
     "topicName": "Arrays",
     "front": "What does names[3] mean?",
     "back": "The value stored at index 3 in the array names."
   },
+
   {
     "topicName": "Arrays",
     "front": "How can a variable be used as an array index?",
     "back": "A variable can choose which element is accessed, e.g. StudentNames[i] or Marks[row, column]."
   },
+
   {
     "topicName": "Arrays",
     "front": "How do you access a 2D array value?",
-    "back": "array[row, column]"
+    "back": "array[row, column] e.g. Marks[2,3]"
   },
+
   {
     "topicName": "Arrays",
     "front": "What does marks[2,3] mean?",
     "back": "The value in row 2, column 3."
   },
+
   {
     "topicName": "Arrays",
     "front": "What is meant by traversing an array?",
     "back": "Going through every element in the array."
   },
+
   {
     "topicName": "Arrays",
     "front": "Why are loops used with arrays?",
     "back": "To process each element in the array."
   },
+
   {
     "topicName": "Arrays",
     "front": "What is meant by counting in an array?",
     "back": "Counting how many elements meet a condition."
   },
+
   {
     "topicName": "Arrays",
     "front": "What is meant by totalling an array?",
     "back": "Adding all values in the array."
   },
+
   {
     "topicName": "Arrays",
-    "front": "What is a fixed-length structure?",
-    "back": "An array has a set size that cannot change."
+    "front": "Can the size of an array change after it is declared?",
+    "back": "No. The size of an array is set when it is declared."
   },
+
   {
     "topicName": "Arrays",
     "front": "What happens if you access an index outside the array?",
-    "back": "A runtime error occurs."
+    "back": "A runtime error may occur."
   },
+
   {
     "topicName": "Arrays",
     "front": "How are 2D arrays processed?",
