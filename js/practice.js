@@ -630,7 +630,8 @@ const topicTips = {
 hintBtn.style.display = "none";
 
 // ===== REFINING-PRACTICE-01 =====
-const questions = [
+if (topic === "refining") {
+  const questions = [
   {
     question:
 `Find ONE error and give the correction.
