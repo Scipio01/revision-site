@@ -680,7 +680,7 @@ DECLARE Student : ARRAY[1:20] OF STRING
 
 FOR Counter ← 1 TO 30
 
-OUTPUT Student[Count]
+    OUTPUT Student[Count]
 
 NEXT Counter`,
     answer:
