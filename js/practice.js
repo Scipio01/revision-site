@@ -630,10 +630,9 @@ const topicTips = {
 hintBtn.style.display = "none";
 
 // ===== REFINING-PRACTICE-01 =====
-if (topic === "refining") {
-  const questions = [
-    {
-      question:
+const questions = [
+  {
+    question:
 `Find ONE error and give the correction.
 
 DECLARE Name : INTEGER
@@ -641,14 +640,65 @@ DECLARE Name : INTEGER
 INPUT Name
 
 OUTPUT Name`,
-      answer:
+    answer:
 `Error:
 Name should be stored as text.
 
 Correction:
 DECLARE Name : STRING`
-    }
-  ];
+  },
+
+  {
+    question:
+`Find TWO errors and give the corrections.
+
+DECLARE Age : STRING
+
+INPUT Height
+
+OUTPUT Age`,
+    answer:
+`Error 1:
+Age should be INTEGER.
+
+Correction:
+DECLARE Age : INTEGER
+
+Error 2:
+The wrong variable is being input.
+
+Correction:
+INPUT Age`
+  },
+
+  {
+    question:
+`Find THREE errors and give the corrections.
+
+DECLARE Student : ARRAY[1:20] OF STRING
+
+FOR Counter ← 1 TO 30
+
+OUTPUT Student[Count]
+
+NEXT Counter`,
+    answer:
+`Error 1:
+The loop exceeds the size of the array.
+
+Correction:
+FOR Counter ← 1 TO 20
+
+Error 2:
+The wrong index variable is being used.
+
+Correction:
+OUTPUT Student[Counter]
+
+Error 3:
+The loop may attempt to access elements outside the array bounds.`
+  }
+];
 
   if (writeTip) {
     writeTip.style.display = "block";
