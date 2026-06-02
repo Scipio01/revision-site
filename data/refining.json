@@ -1,102 +1,102 @@
 [
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nDECLARE Name : INTEGER",
-    "back": "Error: Name should be stored as text.\n\nCorrection:\nDECLARE Name : STRING"
-  }, 
-  {
-    "topicName": "refining",
-    "front": "Spot the error:\n\nDECLARE Average : STRING",
-    "back": "Error: Average should store a numerical value.\n\nCorrection:\nDECLARE Average : REAL"
+    "front": "Spot the error:<br><br>DECLARE Name : INTEGER",
+    "back": "Error:<br>Name should store text.<br><br>Correction:<br>DECLARE Name : STRING"
   },
   {
     "topicName": "refining",
-  "front": "Spot the error:<br><br>INPUT Value<br>Total ← Total + Number",
-  "back": "Error: The wrong variable is being added.<br><br>Correction:<br>Total ← Total + Value"
+    "front": "Spot the error:<br><br>DECLARE Average : STRING",
+    "back": "Error:<br>Average should store a numerical value.<br><br>Correction:<br>DECLARE Average : REAL"
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nINPUT Age\nOUTPUT Height",
-    "back": "Error: The wrong variable is being output."
+    "front": "Spot the error:<br><br>INPUT Value<br>Total ← Total + Number",
+    "back": "Error:<br>The wrong variable is being added.<br><br>Correction:<br>Total ← Total + Value"
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nAverage ← Total × Count",
-    "back": "Error: Average should be calculated using division.\n\nCorrection:\nAverage ← Total / Count"
+    "front": "Spot the error:<br><br>INPUT Age<br>OUTPUT Height",
+    "back": "Error:<br>The wrong variable is being output.<br><br>Correction:<br>OUTPUT Age"
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nTotal ← Total - Value",
-    "back": "Error: Values are being removed instead of added.\n\nCorrection:\nTotal ← Total + Value"
+    "front": "Spot the error:<br><br>Average ← Total × Count",
+    "back": "Error:<br>Average should be calculated using division.<br><br>Correction:<br>Average ← Total / Count"
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nCount ← Count + Value",
-    "back": "Error: A counter should increase by 1.\n\nCorrection:\nCount ← Count + 1"
+    "front": "Spot the error:<br><br>Total ← Total - Value",
+    "back": "Error:<br>Values are being removed instead of added.<br><br>Correction:<br>Total ← Total + Value"
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nFOR Counter ← 1 TO 10\nOUTPUT Names[Count]",
-    "back": "Error: The wrong index variable is being used.\n\nCorrection:\nOUTPUT Names[Counter]"
+    "front": "Spot the error:<br><br>Count ← Count + Value",
+    "back": "Error:<br>A counter should increase by 1.<br><br>Correction:<br>Count ← Count + 1"
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nOUTPUT Scores[Index]\n\nThe loop variable is Counter.",
-    "back": "Error: The wrong index variable is being used.\n\nCorrection:\nOUTPUT Scores[Counter]"
+    "front": "Spot the error:<br><br>FOR Counter ← 1 TO 10<br>OUTPUT Names[Count]",
+    "back": "Error:<br>The wrong index variable is being used.<br><br>Correction:<br>OUTPUT Names[Counter]"
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nDECLARE Student : ARRAY[1:30] OF STRING\n\nOUTPUT Student[5,2]",
-    "back": "Error: Student is a 1D array but is being used as a 2D array."
+    "front": "Spot the error:<br><br>OUTPUT Scores[Index]<br><br>The loop variable is Counter.",
+    "back": "Error:<br>The wrong index variable is being used.<br><br>Correction:<br>OUTPUT Scores[Counter]"
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nDECLARE Student : ARRAY[1:30,1:2] OF STRING\n\nOUTPUT Student[5]",
-    "back": "Error: Student is a 2D array but only one index is supplied."
+    "front": "Spot the error:<br><br>DECLARE Student : ARRAY[1:30] OF STRING<br><br>OUTPUT Student[5,2]",
+    "back": "Error:<br>A 1D array is being used as a 2D array."
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nIF Score < 50\nTHEN\nOUTPUT \"Pass\"",
-    "back": "Error: The comparison does not match the intended result."
+    "front": "Spot the error:<br><br>DECLARE Student : ARRAY[1:30,1:2] OF STRING<br><br>OUTPUT Student[5]",
+    "back": "Error:<br>A 2D array is being accessed using only one index."
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nIF Age > 18\nTHEN\nOUTPUT \"Child\"",
-    "back": "Error: The condition does not match the output."
+    "front": "Spot the error:<br><br>OUTPUT Average<br>Average ← Total / Count",
+    "back": "Error:<br>Average is output before it is calculated.<br><br>Correction:<br>Calculate Average before OUTPUT."
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nOUTPUT Average\nAverage ← Total / Count",
-    "back": "Error: Average is output before it is calculated."
+    "front": "Spot the error:<br><br>OUTPUT Total<br>INPUT Value",
+    "back": "Error:<br>Output occurs before the value is entered.<br><br>Correction:<br>INPUT Value before OUTPUT."
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nOUTPUT Total\nINPUT Value",
-    "back": "Error: Output occurs before the value is entered."
+    "front": "Spot the error:<br><br>WHILE Number <> 0<br>OUTPUT Number<br>ENDWHILE",
+    "back": "Error:<br>Number is never updated inside the loop.<br><br>Correction:<br>Add INPUT Number inside the loop."
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nWHILE Number <> 0\nOUTPUT Number\nENDWHILE",
-    "back": "Error: Number is never updated inside the loop."
+    "front": "Spot the error:<br><br>WHILE Finished = FALSE<br>...<br>Finished ← FALSE",
+    "back": "Error:<br>The loop condition never changes, causing an infinite loop."
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nWHILE Finished = FALSE\n...\nFinished ← FALSE",
-    "back": "Error: The loop condition may never change, causing an infinite loop."
+    "front": "Spot the error:<br><br>Marks is declared as ARRAY[1:20]<br><br>FOR Counter ← 1 TO 30",
+    "back": "Error:<br>The loop may access elements outside the array bounds.<br><br>Correction:<br>FOR Counter ← 1 TO 20"
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nMarks is declared as ARRAY[1:20]\n\nFOR Counter ← 1 TO 30",
-    "back": "Error: The loop may access elements outside the array bounds."
+    "front": "Spot the error:<br><br>Total ← 100<br><br>Values are about to be totalled.",
+    "back": "Error:<br>Total should start at 0.<br><br>Correction:<br>Total ← 0"
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nTotal ← 100\n\nValues are about to be totalled.",
-    "back": "Error: Total should normally start at 0."
+    "front": "Spot the error:<br><br>DECLARE City : ARRAY[1:50] OF STRING<br><br>OUTPUT City[4,2]",
+    "back": "Error:<br>City is a 1D array but is being accessed as a 2D array."
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nMinimum ← 0\n\nAll values entered will be positive.",
-    "back": "Error: The initial value may prevent the minimum being found correctly."
+    "front": "Spot the error:<br><br>DECLARE People : ARRAY[1:50,1:3] OF STRING<br><br>OUTPUT People[Count]",
+    "back": "Error:<br>A 2D array requires two indexes.<br><br>Correction:<br>OUTPUT People[Count,1]"
+  },
+  {
+    "topicName": "refining",
+    "front": "Spot the error:<br><br>INPUT Value<br><br>OUTPUT Total",
+    "back": "Error:<br>Total has never been updated.<br><br>Correction:<br>Total ← Total + Value"
   }
 ]
