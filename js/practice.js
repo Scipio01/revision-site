@@ -629,6 +629,39 @@ const topicTips = {
 };
 hintBtn.style.display = "none";
 
+// ===== REFINING-PRACTICE-01 =====
+if (topic === "refining") {
+  const questions = [
+    {
+      question:
+`Find ONE error and give the correction.
+
+DECLARE Name : INTEGER
+
+INPUT Name
+
+OUTPUT Name`,
+      answer:
+`Error:
+Name should be stored as text.
+
+Correction:
+DECLARE Name : STRING`
+    }
+  ];
+
+  if (writeTip) {
+    writeTip.style.display = "block";
+    writeTip.textContent =
+      "✍️ Find the error(s), write your correction in the box below, then click “Show answer” to compare with the model answer.";
+  }
+
+  document.getElementById("answer").classList.add("exam-answer");
+
+  runExamMode(questions);
+  return;
+}
+  
    
 if (topic === "stringhandling") {
   const questions = [
