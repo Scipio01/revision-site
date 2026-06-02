@@ -629,7 +629,7 @@ const topicTips = {
 };
 hintBtn.style.display = "none";
 
-  
+   
 if (topic === "stringhandling") {
   const questions = [
     {
