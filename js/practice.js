@@ -546,7 +546,7 @@ function runExamMode(questions) {
   currentAnswer = q.answer;
   currentQuestionType = "stringHandlingExam";
 
-  questionEl.innerHTML = `<div class="code-block">${q.question.replace(/\n/g, "<br>")}</div>`;
+  questionEl.innerHTML = `<div class="code-block" style="white-space: pre-wrap;">${q.question}</div>`;
 
   statsBox.style.display = "none";
 
