@@ -226,6 +226,14 @@ if (topic === "pseudocode") {
   return;
 }
 
+if (topic === "refining") {
+  titleEl.textContent = "Creating and Refining Algorithms Practice";
+  introEl.textContent = "Practise finding and correcting errors in pseudocode algorithms.";
+  return;
+}
+
+
+  
   if (topic === "stringhandling") {
   titleEl.textContent = "String Handling Practice";
   introEl.textContent = "Practise string operations such as concatenation, length and case conversion.";
