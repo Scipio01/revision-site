@@ -11,8 +11,8 @@
   },
   {
     "topicName": "refining",
-    "front": "Spot the error:\n\nINPUT Value\nTotal ← Total + Number",
-    "back": "Error: The wrong variable is being added.\n\nCorrection:\nTotal ← Total + Value"
+  "front": "Spot the error:<br><br>INPUT Value<br>Total ← Total + Number",
+  "back": "Error: The wrong variable is being added.<br><br>Correction:<br>Total ← Total + Value"
   },
   {
     "topicName": "refining",
