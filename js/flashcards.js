@@ -3,17 +3,36 @@ let index = 0;
 let flipped = false;
 let topicDisplayName = "Topic";
 
-
 function renderCard() {
   if (!cards.length) return;
+
   const card = cards[index];
+
   document.getElementById('topicTitle').textContent = topicDisplayName;
   document.getElementById('cardCounter').textContent = `Card ${index + 1} of ${cards.length}`;
-  document.getElementById('frontText').innerHTML = card.front;
-  document.getElementById('backText').innerHTML = card.back;
+
+  const front = document.getElementById('frontText');
+  const back = document.getElementById('backText');
+
+  front.innerHTML = card.front;
+  back.innerHTML = card.back;
+
+  if (card.topicName === "refining") {
+    front.style.textAlign = "left";
+    back.style.textAlign = "left";
+    front.style.fontFamily = "Consolas, monospace";
+    back.style.fontFamily = "Consolas, monospace";
+  } else {
+    front.style.textAlign = "center";
+    back.style.textAlign = "center";
+    front.style.fontFamily = "";
+    back.style.fontFamily = "";
+  }
+
   const outer = document.getElementById('flashcard');
   outer.classList.toggle('flip', flipped);
 }
+
 function toggleFlip() { flipped = !flipped; renderCard(); }
 function nextCard() { index = (index + 1) % cards.length; flipped = false; renderCard(); }
 function prevCard() { index = (index - 1 + cards.length) % cards.length; flipped = false; renderCard(); }
