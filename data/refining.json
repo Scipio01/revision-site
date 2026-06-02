@@ -98,5 +98,58 @@
     "topicName": "refining",
     "front": "Spot the error:<br><br>INPUT Value<br><br>OUTPUT Total",
     "back": "Error:<br>Total has never been updated.<br><br>Correction:<br>Total ← Total + Value"
+  },
+
+  {
+    "topicName": "refining",
+    "front": "Line 2 contains an error.<br><br>1 INPUT Value<br>2 Total ← Total + Number<br><br>Describe the error and give the correction.",
+    "back": "Error:<br>The wrong variable is being used.<br><br>Correction:<br>Total ← Total + Value"
+  },
+  {
+    "topicName": "refining",
+    "front": "Line 2 contains an error.<br><br>1 INPUT Mark<br>2 Average ← Total × Count<br><br>Describe the error and give the correction.",
+    "back": "Error:<br>Average should be calculated using division.<br><br>Correction:<br>Average ← Total / Count"
+  },
+  {
+    "topicName": "refining",
+    "front": "Line 2 contains an error.<br><br>1 DECLARE Student : ARRAY[1:30] OF STRING<br>2 OUTPUT Student[5,2]<br><br>Describe the error and give the correction.",
+    "back": "Error:<br>A 1D array is being used as a 2D array.<br><br>Correction:<br>OUTPUT Student[5]"
+  },
+  {
+    "topicName": "refining",
+    "front": "Line 2 contains an error.<br><br>1 DECLARE Student : ARRAY[1:30,1:2] OF STRING<br>2 OUTPUT Student[5]<br><br>Describe the error and give the correction.",
+    "back": "Error:<br>A 2D array requires two indexes.<br><br>Correction:<br>OUTPUT Student[5,1]"
+  },
+  {
+    "topicName": "refining",
+    "front": "Line 2 contains an error.<br><br>1 FOR Counter ← 1 TO 10<br>2 OUTPUT Names[Count]<br><br>Describe the error and give the correction.",
+    "back": "Error:<br>The wrong index variable is being used.<br><br>Correction:<br>OUTPUT Names[Counter]"
+  },
+  {
+    "topicName": "refining",
+    "front": "Line 1 contains an error.<br><br>1 DECLARE Score : STRING<br>2 INPUT Score<br><br>Describe the error and give the correction.",
+    "back": "Error:<br>Score should store a number.<br><br>Correction:<br>DECLARE Score : INTEGER"
+  },
+  {
+    "topicName": "refining",
+    "front": "Line 2 contains an error.<br><br>1 INPUT Age<br>2 OUTPUT Height<br><br>Describe the error and give the correction.",
+    "back": "Error:<br>The wrong variable is being output.<br><br>Correction:<br>OUTPUT Age"
+  },
+  {
+    "topicName": "refining",
+    "front": "Line 2 contains an error.<br><br>1 OUTPUT Average<br>2 Average ← Total / Count<br><br>Describe the error and give the correction.",
+    "back": "Error:<br>Average is calculated after it is needed.<br><br>Correction:<br>Move the calculation before the OUTPUT."
+  },
+  {
+    "topicName": "refining",
+    "front": "Line 2 contains an error.<br><br>1 Marks is declared as ARRAY[1:20]<br>2 FOR Counter ← 1 TO 30<br><br>Describe the error and give the correction.",
+    "back": "Error:<br>The loop may access elements outside the array bounds.<br><br>Correction:<br>FOR Counter ← 1 TO 20"
+  },
+  {
+    "topicName": "refining",
+    "front": "Line 1 contains an error.<br><br>1 Total ← 100<br>2 INPUT Value<br>3 Total ← Total + Value<br><br>Describe the error and give the correction.",
+    "back": "Error:<br>Total should start at zero.<br><br>Correction:<br>Total ← 0"
   }
+]
+  
 ]
