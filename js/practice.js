@@ -629,11 +629,13 @@ const topicTips = {
 };
 hintBtn.style.display = "none";
 
+
+
 // ===== REFINING-PRACTICE-01 =====
 if (topic === "refining") {
   const questions = [
-  {
-    question:
+    {
+      question:
 `Find ONE error and give the correction.
 
 DECLARE Name : INTEGER
@@ -641,16 +643,52 @@ DECLARE Name : INTEGER
 INPUT Name
 
 OUTPUT Name`,
-    answer:
+      answer:
 `Error:
 Name should be stored as text.
 
 Correction:
 DECLARE Name : STRING`
-  },
+    },
 
-  {
-    question:
+    {
+      question:
+`Find ONE error and give the correction.
+
+INPUT Value
+
+Total ← Total + Number
+
+OUTPUT Total`,
+      answer:
+`Error:
+Number has not been input. The wrong variable is being added.
+
+Correction:
+Total ← Total + Value`
+    },
+
+    {
+      question:
+`Find ONE error and give the correction.
+
+Total ← 0
+
+INPUT Mark
+
+Total ← Total * Mark
+
+OUTPUT Total`,
+      answer:
+`Error:
+The value is multiplied instead of added.
+
+Correction:
+Total ← Total + Mark`
+    },
+
+    {
+      question:
 `Find TWO errors and give the corrections.
 
 DECLARE Age : STRING
@@ -658,9 +696,9 @@ DECLARE Age : STRING
 INPUT Height
 
 OUTPUT Age`,
-    answer:
+      answer:
 `Error 1:
-Age should be INTEGER.
+Age should be stored as a number.
 
 Correction:
 DECLARE Age : INTEGER
@@ -670,36 +708,272 @@ The wrong variable is being input.
 
 Correction:
 INPUT Age`
-  },
+    },
 
-  {
-    question:
+    {
+      question:
+`Find TWO errors and give the corrections.
+
+DECLARE Score : INTEGER
+
+INPUT Score
+
+IF Score < 50 THEN
+    OUTPUT "Pass"
+ENDIF`,
+      answer:
+`Error 1:
+The condition is wrong for Pass.
+
+Correction:
+IF Score >= 50 THEN
+
+Error 2:
+A score below 50 should not output Pass.`
+    },
+
+    {
+      question:
+`Find TWO errors and give the corrections.
+
+DECLARE Scores : ARRAY[1:10] OF INTEGER
+
+FOR Counter ← 1 TO 10
+    OUTPUT Scores[Count]
+NEXT Counter`,
+      answer:
+`Error 1:
+The wrong index variable is used.
+
+Correction:
+OUTPUT Scores[Counter]
+
+Error 2:
+Count has not been used as the loop variable.`
+    },
+
+    {
+      question:
+`Find TWO errors and give the corrections.
+
+DECLARE Student : ARRAY[1:30] OF STRING
+
+OUTPUT Student[5,2]`,
+      answer:
+`Error 1:
+Student is declared as a 1D array.
+
+Error 2:
+It is being accessed as a 2D array.
+
+Correction:
+OUTPUT Student[5]`
+    },
+
+    {
+      question:
+`Find TWO errors and give the corrections.
+
+DECLARE Mark : REAL
+
+INPUT Mark
+
+IF Mark > 100 THEN
+    OUTPUT "Valid"
+ENDIF`,
+      answer:
+`Error 1:
+A mark greater than 100 should not be valid.
+
+Correction:
+IF Mark <= 100 THEN
+
+Error 2:
+The algorithm only checks the upper limit and does not check that Mark is at least 0.`
+    },
+
+    {
+      question:
 `Find THREE errors and give the corrections.
 
 DECLARE Student : ARRAY[1:20] OF STRING
 
 FOR Counter ← 1 TO 30
-
     OUTPUT Student[Count]
-
 NEXT Counter`,
-    answer:
+      answer:
 `Error 1:
-The loop exceeds the size of the array.
+The loop exceeds the array size.
 
 Correction:
 FOR Counter ← 1 TO 20
 
 Error 2:
-The wrong index variable is being used.
+The wrong index variable is used.
 
 Correction:
 OUTPUT Student[Counter]
 
 Error 3:
-The loop may attempt to access elements outside the array bounds.`
-  }
-];
+Count is not the loop variable.`
+    },
+
+    {
+      question:
+`Find THREE errors and give the corrections.
+
+DECLARE Price : STRING
+
+INPUT Price
+
+Total ← Total - Price
+
+OUTPUT Answer`,
+      answer:
+`Error 1:
+Price should be numeric.
+
+Correction:
+DECLARE Price : REAL
+
+Error 2:
+Price should be added to the total.
+
+Correction:
+Total ← Total + Price
+
+Error 3:
+The wrong variable is output.
+
+Correction:
+OUTPUT Total`
+    },
+
+    {
+      question:
+`Find THREE errors and give the corrections.
+
+DECLARE Names : ARRAY[1:5] OF STRING
+
+FOR Counter ← 1 TO 5
+    INPUT Name
+    Names[Count] ← Name
+NEXT Counter`,
+      answer:
+`Error 1:
+The wrong index variable is used.
+
+Correction:
+Names[Counter] ← Name
+
+Error 2:
+Count is not the loop variable.
+
+Error 3:
+Name has not been declared.`
+    },
+
+    {
+      question:
+`Find THREE errors and give the corrections.
+
+Total ← 100
+
+FOR Counter ← 1 TO 10
+    INPUT Number
+    Total ← Total + Value
+NEXT Counter
+
+OUTPUT Total`,
+      answer:
+`Error 1:
+Total should start at 0.
+
+Correction:
+Total ← 0
+
+Error 2:
+The wrong variable is added.
+
+Correction:
+Total ← Total + Number
+
+Error 3:
+Value has not been input.`
+    },
+
+    {
+      question:
+`Find THREE errors and give the corrections.
+
+DECLARE Grid : ARRAY[1:3,1:3] OF INTEGER
+
+FOR Row ← 1 TO 3
+    OUTPUT Grid[Row]
+NEXT Row`,
+      answer:
+`Error 1:
+Grid is a 2D array.
+
+Error 2:
+Only one index is supplied.
+
+Correction:
+OUTPUT Grid[Row, Column]
+
+Error 3:
+A second loop is needed to process each column.`
+    },
+
+    {
+      question:
+`Find THREE errors and give the corrections.
+
+Count ← 0
+
+FOR Counter ← 1 TO 10
+    INPUT Number
+    Count ← Count + Number
+NEXT Counter
+
+OUTPUT Count`,
+      answer:
+`Error 1:
+This adds the input value instead of counting.
+
+Correction:
+Count ← Count + 1
+
+Error 2:
+The algorithm counts every value without checking a condition.
+
+Error 3:
+If the task is to count specific values, an IF statement is needed.`
+    },
+
+    {
+      question:
+`Find THREE errors and give the corrections.
+
+INPUT Number
+
+WHILE Number <> 0
+    OUTPUT Number
+ENDWHILE`,
+      answer:
+`Error 1:
+Number is not updated inside the loop.
+
+Correction:
+Add INPUT Number inside the loop.
+
+Error 2:
+This may cause an infinite loop.
+
+Error 3:
+The loop condition depends on a value that never changes.`
+    }
+  ];
 
   if (writeTip) {
     writeTip.style.display = "block";
@@ -712,6 +986,7 @@ The loop may attempt to access elements outside the array bounds.`
   runExamMode(questions);
   return;
 }
+  
   
    
 if (topic === "stringhandling") {
