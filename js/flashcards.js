@@ -76,6 +76,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 topicDisplayName = await getTopicDisplayName(topic);
 document.getElementById('quizLink').href = `quiz.html?topic=${topic}`;
+  // ===== REFINING-QUIZ-HIDE-01 =====
+if (topic === "refining") {
+  document.getElementById('quizLink').style.display = 'none';
+}
 document.getElementById('practiceLink').href = `practice.html?topic=${topic}`;
 const res = await fetch(`data/${topic}.json`);
 cards = await res.json();
