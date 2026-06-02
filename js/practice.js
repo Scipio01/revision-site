@@ -638,147 +638,150 @@ if (topic === "refining") {
       question:
 `Find ONE error and give the correction.
 
-DECLARE Name : INTEGER
+DECLARE StudentName : INTEGER
 
-INPUT Name
+INPUT StudentName
 
-OUTPUT Name`,
+OUTPUT StudentName`,
       answer:
 `Error:
-Name should be stored as text.
+StudentName should be stored as text.
 
 Correction:
-DECLARE Name : STRING`
+DECLARE StudentName : STRING`
     },
 
     {
       question:
 `Find ONE error and give the correction.
 
-INPUT Value
+INPUT StudentMark
 
-Total ← Total + Number
+ClassTotal ← ClassTotal + MarkEntered
 
-OUTPUT Total`,
+OUTPUT ClassTotal`,
       answer:
 `Error:
-Number has not been input. The wrong variable is being added.
+MarkEntered has not been input. The wrong variable is being added.
 
 Correction:
-Total ← Total + Value`
+ClassTotal ← ClassTotal + StudentMark`
     },
 
     {
       question:
 `Find ONE error and give the correction.
 
-Total ← 0
+TotalMarks ← 0
 
-INPUT Mark
+INPUT StudentMark
 
-Total ← Total * Mark
+TotalMarks ← TotalMarks * StudentMark
 
-OUTPUT Total`,
+OUTPUT TotalMarks`,
       answer:
 `Error:
-The value is multiplied instead of added.
+The mark is multiplied instead of added.
 
 Correction:
-Total ← Total + Mark`
+TotalMarks ← TotalMarks + StudentMark`
     },
 
     {
       question:
 `Find TWO errors and give the corrections.
 
-DECLARE Age : STRING
+DECLARE StudentAge : STRING
 
-INPUT Height
+INPUT StudentHeight
 
-OUTPUT Age`,
+OUTPUT StudentAge`,
       answer:
 `Error 1:
-Age should be stored as a number.
+StudentAge should be stored as a number.
 
 Correction:
-DECLARE Age : INTEGER
+DECLARE StudentAge : INTEGER
 
 Error 2:
 The wrong variable is being input.
 
 Correction:
-INPUT Age`
+INPUT StudentAge`
     },
 
     {
       question:
 `Find TWO errors and give the corrections.
 
-DECLARE Score : INTEGER
+DECLARE StudentScore : STRING
 
-INPUT Score
+INPUT StudentScore
 
-IF Score < 50 THEN
+IF StudentScore < 50 THEN
     OUTPUT "Pass"
 ENDIF`,
       answer:
 `Error 1:
+StudentScore should be stored as a number.
+
+Correction:
+DECLARE StudentScore : INTEGER
+
+Error 2:
 The condition is wrong for Pass.
 
 Correction:
-IF Score >= 50 THEN
-
-Error 2:
-A score below 50 should not output Pass.`
+IF StudentScore >= 50 THEN`
     },
 
     {
       question:
 `Find TWO errors and give the corrections.
 
-DECLARE Scores : ARRAY[1:10] OF INTEGER
+DECLARE StudentScore : ARRAY[1:10] OF INTEGER
 
-FOR Counter ← 1 TO 10
-    OUTPUT Scores[Count]
-NEXT Counter`,
+FOR StudentNumber ← 1 TO 10
+    OUTPUT StudentScore[Count]
+NEXT StudentNumber`,
       answer:
 `Error 1:
 The wrong index variable is used.
 
 Correction:
-OUTPUT Scores[Counter]
+OUTPUT StudentScore[StudentNumber]
 
 Error 2:
-Count has not been used as the loop variable.`
+Count is not the loop variable.`
     },
 
     {
       question:
 `Find TWO errors and give the corrections.
 
-DECLARE Student : ARRAY[1:30] OF STRING
+DECLARE StudentName : ARRAY[1:30] OF STRING
 
-OUTPUT Student[5,2]`,
+OUTPUT StudentName[5,2]`,
       answer:
 `Error 1:
-Student is declared as a 1D array.
+StudentName is declared as a 1D array.
 
 Error 2:
 It is being accessed as a 2D array.
 
 Correction:
-OUTPUT Student[5]`
+OUTPUT StudentName[5]`
     },
 
     {
       question:
 `Find TWO errors and give the corrections.
 
-DECLARE Mark : REAL
+DECLARE ExamMark : REAL
 
-INPUT Mark
+INPUT ExamMark
 
-IF Mark > 100 THEN
+IF ExamMark > 100 THEN
     OUTPUT "Valid"
 ENDIF`,
       answer:
@@ -786,33 +789,33 @@ ENDIF`,
 A mark greater than 100 should not be valid.
 
 Correction:
-IF Mark <= 100 THEN
+IF ExamMark <= 100 THEN
 
 Error 2:
-The algorithm only checks the upper limit and does not check that Mark is at least 0.`
+The algorithm only checks the upper limit and does not check that ExamMark is at least 0.`
     },
 
     {
       question:
 `Find THREE errors and give the corrections.
 
-DECLARE Student : ARRAY[1:20] OF STRING
+DECLARE StudentName : ARRAY[1:20] OF STRING
 
-FOR Counter ← 1 TO 30
-    OUTPUT Student[Count]
-NEXT Counter`,
+FOR StudentNumber ← 1 TO 30
+    OUTPUT StudentName[Count]
+NEXT StudentNumber`,
       answer:
 `Error 1:
 The loop exceeds the array size.
 
 Correction:
-FOR Counter ← 1 TO 20
+FOR StudentNumber ← 1 TO 20
 
 Error 2:
 The wrong index variable is used.
 
 Correction:
-OUTPUT Student[Counter]
+OUTPUT StudentName[StudentNumber]
 
 Error 3:
 Count is not the loop variable.`
@@ -822,104 +825,104 @@ Count is not the loop variable.`
       question:
 `Find THREE errors and give the corrections.
 
-DECLARE Price : STRING
+DECLARE ProductPrice : STRING
 
-INPUT Price
+INPUT ProductPrice
 
-Total ← Total - Price
+BasketTotal ← BasketTotal - ProductPrice
 
-OUTPUT Answer`,
+OUTPUT FinalAnswer`,
       answer:
 `Error 1:
-Price should be numeric.
+ProductPrice should be numeric.
 
 Correction:
-DECLARE Price : REAL
+DECLARE ProductPrice : REAL
 
 Error 2:
-Price should be added to the total.
+ProductPrice should be added to the basket total.
 
 Correction:
-Total ← Total + Price
+BasketTotal ← BasketTotal + ProductPrice
 
 Error 3:
 The wrong variable is output.
 
 Correction:
-OUTPUT Total`
+OUTPUT BasketTotal`
     },
 
     {
       question:
 `Find THREE errors and give the corrections.
 
-DECLARE Names : ARRAY[1:5] OF STRING
+DECLARE StudentName : ARRAY[1:5] OF STRING
 
-FOR Counter ← 1 TO 5
-    INPUT Name
-    Names[Count] ← Name
-NEXT Counter`,
+FOR StudentNumber ← 1 TO 5
+    INPUT NewStudentName
+    StudentName[Count] ← NewStudentName
+NEXT StudentNumber`,
       answer:
 `Error 1:
 The wrong index variable is used.
 
 Correction:
-Names[Counter] ← Name
+StudentName[StudentNumber] ← NewStudentName
 
 Error 2:
 Count is not the loop variable.
 
 Error 3:
-Name has not been declared.`
+NewStudentName has not been declared.`
     },
 
     {
       question:
 `Find THREE errors and give the corrections.
 
-Total ← 100
+ClassTotal ← 100
 
-FOR Counter ← 1 TO 10
-    INPUT Number
-    Total ← Total + Value
-NEXT Counter
+FOR StudentNumber ← 1 TO 10
+    INPUT StudentMark
+    ClassTotal ← ClassTotal + MarkEntered
+NEXT StudentNumber
 
-OUTPUT Total`,
+OUTPUT ClassTotal`,
       answer:
 `Error 1:
-Total should start at 0.
+ClassTotal should start at 0.
 
 Correction:
-Total ← 0
+ClassTotal ← 0
 
 Error 2:
 The wrong variable is added.
 
 Correction:
-Total ← Total + Number
+ClassTotal ← ClassTotal + StudentMark
 
 Error 3:
-Value has not been input.`
+MarkEntered has not been input.`
     },
 
     {
       question:
 `Find THREE errors and give the corrections.
 
-DECLARE Grid : ARRAY[1:3,1:3] OF INTEGER
+DECLARE SeatNumber : ARRAY[1:3,1:3] OF INTEGER
 
 FOR Row ← 1 TO 3
-    OUTPUT Grid[Row]
+    OUTPUT SeatNumber[Row]
 NEXT Row`,
       answer:
 `Error 1:
-Grid is a 2D array.
+SeatNumber is a 2D array.
 
 Error 2:
 Only one index is supplied.
 
 Correction:
-OUTPUT Grid[Row, Column]
+OUTPUT SeatNumber[Row, Column]
 
 Error 3:
 A second loop is needed to process each column.`
@@ -929,43 +932,43 @@ A second loop is needed to process each column.`
       question:
 `Find THREE errors and give the corrections.
 
-Count ← 0
+HighScoreCount ← 0
 
-FOR Counter ← 1 TO 10
-    INPUT Number
-    Count ← Count + Number
-NEXT Counter
+FOR StudentNumber ← 1 TO 10
+    INPUT StudentScore
+    HighScoreCount ← HighScoreCount + StudentScore
+NEXT StudentNumber
 
-OUTPUT Count`,
+OUTPUT HighScoreCount`,
       answer:
 `Error 1:
-This adds the input value instead of counting.
+This adds the score instead of counting.
 
 Correction:
-Count ← Count + 1
+HighScoreCount ← HighScoreCount + 1
 
 Error 2:
-The algorithm counts every value without checking a condition.
+The algorithm counts every score without checking a condition.
 
 Error 3:
-If the task is to count specific values, an IF statement is needed.`
+An IF statement is needed to check whether StudentScore is a high score.`
     },
 
     {
       question:
 `Find THREE errors and give the corrections.
 
-INPUT Number
+INPUT MenuChoice
 
-WHILE Number <> 0
-    OUTPUT Number
+WHILE MenuChoice <> 0
+    OUTPUT MenuChoice
 ENDWHILE`,
       answer:
 `Error 1:
-Number is not updated inside the loop.
+MenuChoice is not updated inside the loop.
 
 Correction:
-Add INPUT Number inside the loop.
+Add INPUT MenuChoice inside the loop.
 
 Error 2:
 This may cause an infinite loop.
