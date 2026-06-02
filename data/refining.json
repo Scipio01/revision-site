@@ -3,7 +3,7 @@
     "topicName": "refining",
     "front": "Spot the error:\n\nDECLARE Name : INTEGER",
     "back": "Error: Name should be stored as text.\n\nCorrection:\nDECLARE Name : STRING"
-  },
+  }, 
   {
     "topicName": "refining",
     "front": "Spot the error:\n\nDECLARE Average : STRING",
